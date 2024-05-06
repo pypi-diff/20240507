@@ -1862,3 +1862,60 @@
 [2024-05-07 01:08:11] INFO root fetch - processPackages [streamlit-aggrid]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_aggrid-1.0.5.tar.gz]
 [2024-05-07 01:08:11] INFO root fetch - main [MainThread]: End processing [streamlit-aggrid]: success
 [2024-05-07 01:08:11] INFO root fetch - main [MainThread]: Store serial: [23085863]
+[2024-05-07 01:10:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085863]
+[2024-05-07 01:10:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 01:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MobileInventoryCLI
+[2024-05-07 01:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bismuthsdk
+[2024-05-07 01:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openinference-instrumentation
+[2024-05-07 01:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antelope-core
+[2024-05-07 01:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rivendellaudio
+[2024-05-07 01:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BrazilFiscalReport
+[2024-05-07 01:10:29] INFO root fetch - processPackages [openinference-instrumentation]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-07 01:10:29] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.95] Old Version: [0.4.94]
+[2024-05-07 01:10:30] INFO root fetch - processPackages [openinference-instrumentation]: Downloading https://files.pythonhosted.org/packages/91/5a/1b19b73fa090438304d1600d0247c08d8fd8051bd349480361686136fd4f/openinference_instrumentation-0.1.3.tar.gz
+[2024-05-07 01:10:30] INFO root fetch - processPackages [antelope-core]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-07 01:10:30] INFO root fetch - processPackages [rivendellaudio]: New version: [4.2.2] Old Version: [4.1.0]
+[2024-05-07 01:10:30] INFO root fetch - processPackages [bismuthsdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 01:10:30] INFO root fetch - processPackages [BrazilFiscalReport]: New version: [0.3.1] Old Version: [0.2.1]
+[2024-05-07 01:10:30] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/87/a5/1573f77b197738b3404c5102b6939901fdb043d46202db91e6c099b370f5/MobileInventoryCLI-0.4.94.tar.gz
+[2024-05-07 01:10:30] INFO root fetch - processPackages [openinference-instrumentation]: Downloading https://files.pythonhosted.org/packages/67/2e/144bd56cad7d6e00899c0b3ccf1701d3ac55a1805109620f0c04165977da/openinference_instrumentation-0.1.4.tar.gz
+[2024-05-07 01:10:30] INFO root fetch - processPackages [antelope-core]: Downloading https://files.pythonhosted.org/packages/14/5f/01982ab4fd64f529520fb653f6e4c1088684ba9d7bce13075ba0d208ab7f/antelope_core-0.3.0.tar.gz
+[2024-05-07 01:10:30] INFO root fetch - processPackages [rivendellaudio]: Downloading https://files.pythonhosted.org/packages/a6/5e/ae5f6ccd9628ac4c5453c31b9d4fa229a3e4e87767ed17fbc64f3c62c3e6/rivendellaudio-4.1.0.tar.gz
+[2024-05-07 01:10:30] INFO root fetch - processPackages [bismuthsdk]: Downloading https://files.pythonhosted.org/packages/a0/70/af965433c991b650f3a1f65e75675f8ef0364ca300a1609bd855febc0869/bismuthsdk-0.1.8.tar.gz
+[2024-05-07 01:10:30] INFO root fetch - processPackages [BrazilFiscalReport]: Downloading https://files.pythonhosted.org/packages/3a/b6/b5c08893e2d3cef7c7f1fa0192ca1b8c942c0024f5695fd5b3a9770e5217/BrazilFiscalReport-0.2.1.tar.gz
+[2024-05-07 01:10:30] INFO root fetch - processPackages [openinference-instrumentation]: executing diffoscope
+[2024-05-07 01:10:30] INFO root fetch - processPackages [openinference-instrumentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openinference_instrumentation-0.1.3.tar.gz tmp/openinference_instrumentation-0.1.4.tar.gz --markdown 20240507/o/openinference-instrumentation/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-07 01:10:30] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/a2/96/fbcc062108d188c2dadb4f4b9c42b974d2d618ad0c448e910d9f3821fa5c/MobileInventoryCLI-0.4.95.tar.gz
+[2024-05-07 01:10:30] INFO root fetch - processPackages [rivendellaudio]: Downloading https://files.pythonhosted.org/packages/6c/39/928afdb8ca09f4bc22b1e14ddaa91de2adfeba1eb4895839f08551456341/rivendellaudio-4.2.2.tar.gz
+[2024-05-07 01:10:30] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-07 01:10:30] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.94.tar.gz tmp/MobileInventoryCLI-0.4.95.tar.gz --markdown 20240507/M/MobileInventoryCLI/0.4.94-0.4.95/README.md --exclude *.pyd
+[2024-05-07 01:10:30] INFO root fetch - processPackages [antelope-core]: Downloading https://files.pythonhosted.org/packages/e9/dd/bcf63843ab8f0c6e104985e5f091a20d78cde9e23dec6bbf8f1de4442e90/antelope_core-0.3.1.tar.gz
+[2024-05-07 01:10:30] INFO root fetch - processPackages [rivendellaudio]: executing diffoscope
+[2024-05-07 01:10:30] INFO root fetch - processPackages [rivendellaudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rivendellaudio-4.1.0.tar.gz tmp/rivendellaudio-4.2.2.tar.gz --markdown 20240507/r/rivendellaudio/4.1.0-4.2.2/README.md --exclude *.pyd
+[2024-05-07 01:10:30] INFO root fetch - processPackages [BrazilFiscalReport]: Downloading https://files.pythonhosted.org/packages/db/28/b20f28d47f5a7a02796bab20e21879c027ac3467bc06bae2958479f044a7/brazilfiscalreport-0.3.1.tar.gz
+[2024-05-07 01:10:30] INFO root fetch - processPackages [bismuthsdk]: Downloading https://files.pythonhosted.org/packages/a5/63/e13e9ec2aed923740dc88b67e680cc7e75a2aecd7118ddd657ca8382eda2/bismuthsdk-0.1.9.tar.gz
+[2024-05-07 01:10:30] INFO root fetch - processPackages [openinference-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation-0.1.3.tar.gz]
+[2024-05-07 01:10:30] INFO root fetch - processPackages [openinference-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation-0.1.4.tar.gz]
+[2024-05-07 01:10:30] INFO root fetch - main [MainThread]: End processing [openinference-instrumentation]: success
+[2024-05-07 01:10:30] INFO root fetch - processPackages [antelope-core]: executing diffoscope
+[2024-05-07 01:10:30] INFO root fetch - processPackages [antelope-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antelope_core-0.3.0.tar.gz tmp/antelope_core-0.3.1.tar.gz --markdown 20240507/a/antelope-core/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-07 01:10:30] INFO root fetch - processPackages [BrazilFiscalReport]: executing diffoscope
+[2024-05-07 01:10:30] INFO root fetch - processPackages [bismuthsdk]: executing diffoscope
+[2024-05-07 01:10:30] INFO root fetch - processPackages [bismuthsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bismuthsdk-0.1.8.tar.gz tmp/bismuthsdk-0.1.9.tar.gz --markdown 20240507/b/bismuthsdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 01:10:30] INFO root fetch - processPackages [BrazilFiscalReport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BrazilFiscalReport-0.2.1.tar.gz tmp/brazilfiscalreport-0.3.1.tar.gz --markdown 20240507/B/BrazilFiscalReport/0.2.1-0.3.1/README.md --exclude *.pyd
+[2024-05-07 01:10:31] INFO root fetch - processPackages [rivendellaudio]: Remove: archive file [/home/abi/fetcher/tmp/rivendellaudio-4.1.0.tar.gz]
+[2024-05-07 01:10:31] INFO root fetch - processPackages [rivendellaudio]: Remove: archive file [/home/abi/fetcher/tmp/rivendellaudio-4.2.2.tar.gz]
+[2024-05-07 01:10:31] INFO root fetch - main [MainThread]: End processing [rivendellaudio]: success
+[2024-05-07 01:10:31] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.94.tar.gz]
+[2024-05-07 01:10:31] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.95.tar.gz]
+[2024-05-07 01:10:31] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-07 01:10:31] INFO root fetch - processPackages [bismuthsdk]: Remove: archive file [/home/abi/fetcher/tmp/bismuthsdk-0.1.8.tar.gz]
+[2024-05-07 01:10:31] INFO root fetch - processPackages [bismuthsdk]: Remove: archive file [/home/abi/fetcher/tmp/bismuthsdk-0.1.9.tar.gz]
+[2024-05-07 01:10:31] INFO root fetch - main [MainThread]: End processing [bismuthsdk]: success
+[2024-05-07 01:10:31] INFO root fetch - processPackages [BrazilFiscalReport]: Remove: archive file [/home/abi/fetcher/tmp/BrazilFiscalReport-0.2.1.tar.gz]
+[2024-05-07 01:10:31] INFO root fetch - processPackages [BrazilFiscalReport]: Remove: archive file [/home/abi/fetcher/tmp/brazilfiscalreport-0.3.1.tar.gz]
+[2024-05-07 01:10:31] INFO root fetch - main [MainThread]: End processing [BrazilFiscalReport]: success
+[2024-05-07 01:10:32] INFO root fetch - processPackages [antelope-core]: Remove: archive file [/home/abi/fetcher/tmp/antelope_core-0.3.0.tar.gz]
+[2024-05-07 01:10:32] INFO root fetch - processPackages [antelope-core]: Remove: archive file [/home/abi/fetcher/tmp/antelope_core-0.3.1.tar.gz]
+[2024-05-07 01:10:32] INFO root fetch - main [MainThread]: End processing [antelope-core]: success
+[2024-05-07 01:10:32] INFO root fetch - main [MainThread]: Store serial: [23085893]
