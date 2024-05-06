@@ -1648,3 +1648,69 @@
 [2024-05-07 00:54:16] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.3.0-cp310-cp310-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip]
 [2024-05-07 00:54:16] INFO root fetch - main [MainThread]: End processing [pepeline]: success
 [2024-05-07 00:54:16] INFO root fetch - main [MainThread]: Store serial: [23085658]
+[2024-05-07 00:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085658]
+[2024-05-07 00:56:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 00:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-gilt
+[2024-05-07 00:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MobileInventoryCLI
+[2024-05-07 00:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: galileo-protect
+[2024-05-07 00:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exovetter
+[2024-05-07 00:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nsj-sql-utils-lib
+[2024-05-07 00:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytorch-volumetric
+[2024-05-07 00:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tom-swift
+[2024-05-07 00:56:25] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.94] Old Version: [0.4.93]
+[2024-05-07 00:56:25] INFO root fetch - processPackages [exovetter]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-07 00:56:25] INFO root fetch - processPackages [galileo-protect]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-07 00:56:25] INFO root fetch - processPackages [pytorch-volumetric]: New version: [0.5.2] Old Version: [0.5.0]
+[2024-05-07 00:56:25] INFO root fetch - processPackages [nsj-sql-utils-lib]: New version: [2.0.0] Old Version: [1.3.4]
+[2024-05-07 00:56:25] INFO root fetch - processPackages [python-gilt]: New version: [2.2.1] Old Version: [2.2]
+[2024-05-07 00:56:25] INFO root fetch - processPackages [tom-swift]: New version: [0.2.1] Old Version: [0.2.0a3]
+[2024-05-07 00:56:25] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/a5/a0/f9c8b077d90634baaeff3009fa1b063f34a94bb4cf5832b9c1830d59ac43/MobileInventoryCLI-0.4.93.tar.gz
+[2024-05-07 00:56:25] INFO root fetch - processPackages [nsj-sql-utils-lib]: Downloading https://files.pythonhosted.org/packages/ad/f9/64e3aad11d2932d975c84c6b139bef59bbb072ff21633876460ba5192c50/nsj_sql_utils_lib-1.3.4.tar.gz
+[2024-05-07 00:56:25] INFO root fetch - processPackages [exovetter]: Downloading https://files.pythonhosted.org/packages/1f/6e/e0761e868bdb44e9c76b427f4fbc6cb2f0c1e8cf69c79260bb7c044345d1/exovetter-0.0.6.tar.gz
+[2024-05-07 00:56:25] INFO root fetch - processPackages [galileo-protect]: Downloading https://files.pythonhosted.org/packages/de/96/fe2c39ab4c83aa298bb3bdf8a18f035fbd4a2becba2678b825773cb32ddc/galileo_protect-0.6.0.tar.gz
+[2024-05-07 00:56:25] INFO root fetch - processPackages [python-gilt]: Downloading https://files.pythonhosted.org/packages/b3/cf/c90b0724c901a3a1359743dbb90a2acaac33fd1d32f21ba70bb61ad95df4/python_gilt-2.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.musllinux_1_1_x86_64.whl
+[2024-05-07 00:56:25] INFO root fetch - processPackages [pytorch-volumetric]: Downloading https://files.pythonhosted.org/packages/aa/be/17a0551106b2225415e6378de559dcf893b8cf578782e3724d3e1612172a/pytorch_volumetric-0.5.0.tar.gz
+[2024-05-07 00:56:25] INFO root fetch - processPackages [tom-swift]: Downloading https://files.pythonhosted.org/packages/1c/17/1a97e5b81b7160ed169bd9c7feeabb6e7bed1fe16052d82fd760f54699c9/tom_swift-0.2.0a3.tar.gz
+[2024-05-07 00:56:25] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/87/a5/1573f77b197738b3404c5102b6939901fdb043d46202db91e6c099b370f5/MobileInventoryCLI-0.4.94.tar.gz
+[2024-05-07 00:56:25] INFO root fetch - processPackages [nsj-sql-utils-lib]: Downloading https://files.pythonhosted.org/packages/5e/1c/68cd58919100fda1ef936e472765253cc14614f3ec34d8857f440bbe50fa/nsj_sql_utils_lib-2.0.0.tar.gz
+[2024-05-07 00:56:25] INFO root fetch - processPackages [galileo-protect]: Downloading https://files.pythonhosted.org/packages/39/9f/0ce9b8c507168c6ee27504177981c3dfb71378bcf99954f1d5d11ae3a5b8/galileo_protect-0.6.1.tar.gz
+[2024-05-07 00:56:25] INFO root fetch - processPackages [pytorch-volumetric]: Downloading https://files.pythonhosted.org/packages/3c/33/dc1b17c6f1c339da991d0b2e4308521d4638900e0040ae016dfc2d96bc1a/pytorch_volumetric-0.5.2.tar.gz
+[2024-05-07 00:56:26] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-07 00:56:26] INFO root fetch - processPackages [galileo-protect]: executing diffoscope
+[2024-05-07 00:56:26] INFO root fetch - processPackages [galileo-protect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_protect-0.6.0.tar.gz tmp/galileo_protect-0.6.1.tar.gz --markdown 20240507/g/galileo-protect/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-07 00:56:26] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.93.tar.gz tmp/MobileInventoryCLI-0.4.94.tar.gz --markdown 20240507/M/MobileInventoryCLI/0.4.93-0.4.94/README.md --exclude *.pyd
+[2024-05-07 00:56:26] INFO root fetch - processPackages [nsj-sql-utils-lib]: executing diffoscope
+[2024-05-07 00:56:26] INFO root fetch - processPackages [nsj-sql-utils-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_sql_utils_lib-1.3.4.tar.gz tmp/nsj_sql_utils_lib-2.0.0.tar.gz --markdown 20240507/n/nsj-sql-utils-lib/1.3.4-2.0.0/README.md --exclude *.pyd
+[2024-05-07 00:56:26] INFO root fetch - processPackages [pytorch-volumetric]: executing diffoscope
+[2024-05-07 00:56:26] INFO root fetch - processPackages [pytorch-volumetric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_volumetric-0.5.0.tar.gz tmp/pytorch_volumetric-0.5.2.tar.gz --markdown 20240507/p/pytorch-volumetric/0.5.0-0.5.2/README.md --exclude *.pyd
+[2024-05-07 00:56:26] INFO root fetch - processPackages [exovetter]: Downloading https://files.pythonhosted.org/packages/d1/e8/c9bf5a92fedac7abe7ee0a66b966ab86124d28313e4980a4d6d044b2f40d/exovetter-0.0.7.tar.gz
+[2024-05-07 00:56:26] INFO root fetch - processPackages [python-gilt]: Downloading https://files.pythonhosted.org/packages/b7/51/486d01839e80d81dc700d35cdb4b8edfc7dffaebdf4748404ab5309e9230/python_gilt-2.2.1-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.musllinux_1_1_x86_64.whl
+[2024-05-07 00:56:26] INFO root fetch - processPackages [nsj-sql-utils-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_sql_utils_lib-1.3.4.tar.gz]
+[2024-05-07 00:56:26] INFO root fetch - processPackages [nsj-sql-utils-lib]: Remove: archive file [/home/abi/fetcher/tmp/nsj_sql_utils_lib-2.0.0.tar.gz]
+[2024-05-07 00:56:26] INFO root fetch - main [MainThread]: End processing [nsj-sql-utils-lib]: success
+[2024-05-07 00:56:26] INFO root fetch - processPackages [galileo-protect]: Remove: archive file [/home/abi/fetcher/tmp/galileo_protect-0.6.0.tar.gz]
+[2024-05-07 00:56:26] INFO root fetch - processPackages [galileo-protect]: Remove: archive file [/home/abi/fetcher/tmp/galileo_protect-0.6.1.tar.gz]
+[2024-05-07 00:56:26] INFO root fetch - main [MainThread]: End processing [galileo-protect]: success
+[2024-05-07 00:56:26] INFO root fetch - processPackages [pytorch-volumetric]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_volumetric-0.5.0.tar.gz]
+[2024-05-07 00:56:26] INFO root fetch - processPackages [pytorch-volumetric]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_volumetric-0.5.2.tar.gz]
+[2024-05-07 00:56:26] INFO root fetch - main [MainThread]: End processing [pytorch-volumetric]: success
+[2024-05-07 00:56:26] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.93.tar.gz]
+[2024-05-07 00:56:26] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.94.tar.gz]
+[2024-05-07 00:56:26] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-07 00:56:26] INFO root fetch - processPackages [python-gilt]: executing diffoscope
+[2024-05-07 00:56:26] INFO root fetch - processPackages [python-gilt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_gilt-2.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.musllinux_1_1_x86_64.whl.zip tmp/python_gilt-2.2.1-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.musllinux_1_1_x86_64.whl.zip --markdown 20240507/p/python-gilt/2.2-2.2.1/README.md --exclude *.pyd
+[2024-05-07 00:56:26] INFO root fetch - processPackages [exovetter]: executing diffoscope
+[2024-05-07 00:56:26] INFO root fetch - processPackages [exovetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exovetter-0.0.6.tar.gz tmp/exovetter-0.0.7.tar.gz --markdown 20240507/e/exovetter/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-07 00:56:27] INFO root fetch - processPackages [tom-swift]: Downloading https://files.pythonhosted.org/packages/86/81/ec803719f55a1184c33e1c0a9bd1d97d5f845a594899ffcba76e4fb67d83/tom_swift-0.2.1.tar.gz
+[2024-05-07 00:56:27] INFO root fetch - processPackages [tom-swift]: executing diffoscope
+[2024-05-07 00:56:27] INFO root fetch - processPackages [tom-swift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tom_swift-0.2.0a3.tar.gz tmp/tom_swift-0.2.1.tar.gz --markdown 20240507/t/tom-swift/0.2.0a3-0.2.1/README.md --exclude *.pyd
+[2024-05-07 00:56:27] INFO root fetch - processPackages [exovetter]: Remove: archive file [/home/abi/fetcher/tmp/exovetter-0.0.6.tar.gz]
+[2024-05-07 00:56:27] INFO root fetch - processPackages [exovetter]: Remove: archive file [/home/abi/fetcher/tmp/exovetter-0.0.7.tar.gz]
+[2024-05-07 00:56:27] INFO root fetch - main [MainThread]: End processing [exovetter]: success
+[2024-05-07 00:56:28] INFO root fetch - processPackages [tom-swift]: Remove: archive file [/home/abi/fetcher/tmp/tom_swift-0.2.0a3.tar.gz]
+[2024-05-07 00:56:28] INFO root fetch - processPackages [tom-swift]: Remove: archive file [/home/abi/fetcher/tmp/tom_swift-0.2.1.tar.gz]
+[2024-05-07 00:56:28] INFO root fetch - main [MainThread]: End processing [tom-swift]: success
+[2024-05-07 00:56:45] INFO root fetch - processPackages [python-gilt]: Remove: archive file [/home/abi/fetcher/tmp/python_gilt-2.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.musllinux_1_1_x86_64.whl.zip]
+[2024-05-07 00:56:45] INFO root fetch - processPackages [python-gilt]: Remove: archive file [/home/abi/fetcher/tmp/python_gilt-2.2.1-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.musllinux_1_1_x86_64.whl.zip]
+[2024-05-07 00:56:45] INFO root fetch - main [MainThread]: End processing [python-gilt]: success
+[2024-05-07 00:56:45] INFO root fetch - main [MainThread]: Store serial: [23085741]
