@@ -1624,3 +1624,27 @@
 [2024-05-07 00:52:03] INFO root fetch - processPackages [cornac]: Remove: archive file [/home/abi/fetcher/tmp/cornac-2.2.0.tar.gz]
 [2024-05-07 00:52:03] INFO root fetch - main [MainThread]: End processing [cornac]: success
 [2024-05-07 00:52:03] INFO root fetch - main [MainThread]: Store serial: [23085625]
+[2024-05-07 00:54:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085625]
+[2024-05-07 00:54:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 00:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openctp-ctp
+[2024-05-07 00:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lasertools-spectrumprocess
+[2024-05-07 00:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepeline
+[2024-05-07 00:54:12] WARNING root fetch - processPackages [lasertools-spectrumprocess]: Skipping, unable to determine old version
+[2024-05-07 00:54:12] INFO root fetch - main [MainThread]: End processing [lasertools-spectrumprocess] error
+[2024-05-07 00:54:12] INFO root fetch - processPackages [openctp-ctp]: New version: [6.7.2.5] Old Version: [6.7.2.4]
+[2024-05-07 00:54:13] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/c6/8d/02c31fa7ddb6ac9071dc961e0234a9b364aa4eba17dc32648f438cec0b78/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl
+[2024-05-07 00:54:13] INFO root fetch - processPackages [pepeline]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-07 00:54:13] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/66/2c/70d91f510be1c17b6afddecc9555eb168e1da61db91dd65c8f7ae704073e/pepeline-0.2.9.tar.gz
+[2024-05-07 00:54:13] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/ad/04/93d0ab3bcd48122238ac040879c0f70ad9c3b46c84c7d3551293648af2dc/openctp_ctp-6.7.2.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-07 00:54:13] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/9d/df/e089bf386e1f810eb6bb9ae874a319ee6c55fd36b4e63481dcdccd994c41/pepeline-0.3.0-cp310-cp310-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl
+[2024-05-07 00:54:14] INFO root fetch - processPackages [openctp-ctp]: executing diffoscope
+[2024-05-07 00:54:14] INFO root fetch - processPackages [openctp-ctp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp-6.7.2.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240507/o/openctp-ctp/6.7.2.4-6.7.2.5/README.md --exclude *.pyd
+[2024-05-07 00:54:16] INFO root fetch - processPackages [openctp-ctp]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip]
+[2024-05-07 00:54:16] INFO root fetch - processPackages [openctp-ctp]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctp-6.7.2.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-07 00:54:16] INFO root fetch - main [MainThread]: End processing [openctp-ctp]: success
+[2024-05-07 00:54:16] INFO root fetch - processPackages [pepeline]: executing diffoscope
+[2024-05-07 00:54:16] INFO root fetch - processPackages [pepeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepeline-0.2.9.tar.gz tmp/pepeline-0.3.0-cp310-cp310-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip --markdown 20240507/p/pepeline/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-07 00:54:16] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.9.tar.gz]
+[2024-05-07 00:54:16] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.3.0-cp310-cp310-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip]
+[2024-05-07 00:54:16] INFO root fetch - main [MainThread]: End processing [pepeline]: success
+[2024-05-07 00:54:16] INFO root fetch - main [MainThread]: Store serial: [23085658]
