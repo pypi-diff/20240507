@@ -1982,3 +1982,42 @@
 [2024-05-07 01:14:52] INFO root fetch - processPackages [rustitude]: Remove: archive file [/home/abi/fetcher/tmp/rustitude-0.3.4.tar.gz]
 [2024-05-07 01:14:52] INFO root fetch - main [MainThread]: End processing [rustitude]: success
 [2024-05-07 01:14:52] INFO root fetch - main [MainThread]: Store serial: [23085942]
+[2024-05-07 01:16:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085942]
+[2024-05-07 01:17:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 01:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: experiment-helpers
+[2024-05-07 01:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-spark
+[2024-05-07 01:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botifyme
+[2024-05-07 01:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: model-checker
+[2024-05-07 01:17:01] INFO root fetch - processPackages [experiment-helpers]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-07 01:17:01] INFO root fetch - processPackages [model-checker]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-07 01:17:01] INFO root fetch - processPackages [botifyme]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-07 01:17:01] INFO root fetch - processPackages [dbt-spark]: New version: [1.8.0rc1] Old Version: [1.8.0b2]
+[2024-05-07 01:17:01] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/af/30/4ed3932e6601fb2157b1867c447d2527ce33319207b9569a92999c51897d/model_checker-0.2.8.tar.gz
+[2024-05-07 01:17:01] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/fb/75/1e5b4010463e20e7897cb787b308993b1ecb83fa5382f0fe4692d4cb4ecc/experiment_helpers-0.0.2.tar.gz
+[2024-05-07 01:17:01] INFO root fetch - processPackages [botifyme]: Downloading https://files.pythonhosted.org/packages/35/d7/7c0c6fde7579a16122e40390e651e404634c48e48e33afd26b1d54aac530/botifyme-0.1.2.tar.gz
+[2024-05-07 01:17:01] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/b0/5d/2fd0841d97c92fe2c2e0aad9e80136575bc38e7eef167fe4380eda54a596/model_checker-0.2.9.tar.gz
+[2024-05-07 01:17:01] INFO root fetch - processPackages [dbt-spark]: Downloading https://files.pythonhosted.org/packages/06/c9/5ea01855947dda1f2344bf260c44ea83bbc5d568d9cc59058144c78476df/dbt-spark-1.8.0b2.tar.gz
+[2024-05-07 01:17:01] INFO root fetch - processPackages [model-checker]: executing diffoscope
+[2024-05-07 01:17:01] INFO root fetch - processPackages [model-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_checker-0.2.8.tar.gz tmp/model_checker-0.2.9.tar.gz --markdown 20240507/m/model-checker/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-07 01:17:01] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/1d/c6/e3b2c8ced36de14520cfffdb1b2920c153e8b63be9da4625361683fc4db0/experiment_helpers-0.0.3.tar.gz
+[2024-05-07 01:17:01] INFO root fetch - processPackages [experiment-helpers]: executing diffoscope
+[2024-05-07 01:17:01] INFO root fetch - processPackages [experiment-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment_helpers-0.0.2.tar.gz tmp/experiment_helpers-0.0.3.tar.gz --markdown 20240507/e/experiment-helpers/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-07 01:17:01] INFO root fetch - processPackages [botifyme]: Downloading https://files.pythonhosted.org/packages/66/5c/98e7df17437678ef4cdc01f9ec91c544d284c512cc7a23ad0d0b82b8d758/botifyme-0.1.3.tar.gz
+[2024-05-07 01:17:01] INFO root fetch - processPackages [dbt-spark]: Downloading https://files.pythonhosted.org/packages/77/fb/fad94b278e9a76877c8f45fdb06dda6e338eb5134fb11505e21902150262/dbt_spark-1.8.0rc1.tar.gz
+[2024-05-07 01:17:02] INFO root fetch - processPackages [botifyme]: executing diffoscope
+[2024-05-07 01:17:02] INFO root fetch - processPackages [botifyme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botifyme-0.1.2.tar.gz tmp/botifyme-0.1.3.tar.gz --markdown 20240507/b/botifyme/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-07 01:17:02] INFO root fetch - processPackages [dbt-spark]: executing diffoscope
+[2024-05-07 01:17:02] INFO root fetch - processPackages [dbt-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-spark-1.8.0b2.tar.gz tmp/dbt_spark-1.8.0rc1.tar.gz --markdown 20240507/d/dbt-spark/1.8.0b2-1.8.0rc1/README.md --exclude *.pyd
+[2024-05-07 01:17:02] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.2.8.tar.gz]
+[2024-05-07 01:17:02] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.2.9.tar.gz]
+[2024-05-07 01:17:02] INFO root fetch - main [MainThread]: End processing [model-checker]: success
+[2024-05-07 01:17:02] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.2.tar.gz]
+[2024-05-07 01:17:02] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.3.tar.gz]
+[2024-05-07 01:17:02] INFO root fetch - main [MainThread]: End processing [experiment-helpers]: success
+[2024-05-07 01:17:02] INFO root fetch - processPackages [botifyme]: Remove: archive file [/home/abi/fetcher/tmp/botifyme-0.1.2.tar.gz]
+[2024-05-07 01:17:02] INFO root fetch - processPackages [botifyme]: Remove: archive file [/home/abi/fetcher/tmp/botifyme-0.1.3.tar.gz]
+[2024-05-07 01:17:02] INFO root fetch - main [MainThread]: End processing [botifyme]: success
+[2024-05-07 01:17:02] INFO root fetch - processPackages [dbt-spark]: Remove: archive file [/home/abi/fetcher/tmp/dbt-spark-1.8.0b2.tar.gz]
+[2024-05-07 01:17:02] INFO root fetch - processPackages [dbt-spark]: Remove: archive file [/home/abi/fetcher/tmp/dbt_spark-1.8.0rc1.tar.gz]
+[2024-05-07 01:17:02] INFO root fetch - main [MainThread]: End processing [dbt-spark]: success
+[2024-05-07 01:17:02] INFO root fetch - main [MainThread]: Store serial: [23085957]
