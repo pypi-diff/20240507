@@ -1734,3 +1734,36 @@
 [2024-05-07 01:01:08] WARNING root fetch - processPackages [qfit]: Skipping package: exceeds size limit 60922769>=10485760
 [2024-05-07 01:01:08] INFO root fetch - main [MainThread]: End processing [qfit] error
 [2024-05-07 01:01:08] INFO root fetch - main [MainThread]: Store serial: [23085784]
+[2024-05-07 01:03:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085784]
+[2024-05-07 01:03:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 01:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autorunpy
+[2024-05-07 01:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swikipedia
+[2024-05-07 01:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wah
+[2024-05-07 01:03:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: supersullytools
+[2024-05-07 01:03:16] INFO root fetch - processPackages [supersullytools]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-05-07 01:03:16] INFO root fetch - processPackages [autorunpy]: New version: [8.1.5] Old Version: [8.1.4]
+[2024-05-07 01:03:16] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 01:03:16] WARNING root fetch - processPackages [swikipedia]: Skipping, unable to determine old version
+[2024-05-07 01:03:16] INFO root fetch - main [MainThread]: End processing [swikipedia] error
+[2024-05-07 01:03:16] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/c4/5b/996d7d851855cecc7b69c2de3328a037fc8b5a74e4ec6e38c71e8a5547e7/autorunpy-8.1.4.tar.gz
+[2024-05-07 01:03:16] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-07 01:03:16] INFO root fetch - processPackages [supersullytools]: Downloading https://files.pythonhosted.org/packages/cf/74/679f8704caeff17c44149200ddbc1b49b76eef390d35fffbd50361d72285/supersullytools-2.2.0.tar.gz
+[2024-05-07 01:03:17] INFO root fetch - processPackages [supersullytools]: Downloading https://files.pythonhosted.org/packages/3b/d4/2cc7cf22a9230d25f5e0bc3c6cc75bea6211ff3fac89f3b023ecbe9cbe31/supersullytools-2.3.0.tar.gz
+[2024-05-07 01:03:17] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-07 01:03:17] INFO root fetch - processPackages [supersullytools]: executing diffoscope
+[2024-05-07 01:03:17] INFO root fetch - processPackages [supersullytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supersullytools-2.2.0.tar.gz tmp/supersullytools-2.3.0.tar.gz --markdown 20240507/s/supersullytools/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-05-07 01:03:17] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-07 01:03:17] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240507/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 01:03:17] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/c2/7e/0671cebedad01aca3c51c61ca8143a11c2a05444d861ad1ca0efb62ffdb3/autorunpy-8.1.5.tar.gz
+[2024-05-07 01:03:17] INFO root fetch - processPackages [autorunpy]: executing diffoscope
+[2024-05-07 01:03:17] INFO root fetch - processPackages [autorunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorunpy-8.1.4.tar.gz tmp/autorunpy-8.1.5.tar.gz --markdown 20240507/a/autorunpy/8.1.4-8.1.5/README.md --exclude *.pyd
+[2024-05-07 01:03:17] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-07 01:03:17] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-07 01:03:17] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-07 01:03:17] INFO root fetch - processPackages [supersullytools]: Remove: archive file [/home/abi/fetcher/tmp/supersullytools-2.2.0.tar.gz]
+[2024-05-07 01:03:17] INFO root fetch - processPackages [supersullytools]: Remove: archive file [/home/abi/fetcher/tmp/supersullytools-2.3.0.tar.gz]
+[2024-05-07 01:03:17] INFO root fetch - main [MainThread]: End processing [supersullytools]: success
+[2024-05-07 01:03:18] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.1.4.tar.gz]
+[2024-05-07 01:03:18] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.1.5.tar.gz]
+[2024-05-07 01:03:18] INFO root fetch - main [MainThread]: End processing [autorunpy]: success
+[2024-05-07 01:03:18] INFO root fetch - main [MainThread]: Store serial: [23085805]
