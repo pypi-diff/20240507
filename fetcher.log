@@ -1138,3 +1138,47 @@
 [2024-05-07 00:23:24] INFO root fetch - processPackages [nicotine-plus]: Remove: archive file [/home/abi/fetcher/tmp/nicotine_plus-3.3.4.tar.gz]
 [2024-05-07 00:23:24] INFO root fetch - main [MainThread]: End processing [nicotine-plus]: success
 [2024-05-07 00:23:24] INFO root fetch - main [MainThread]: Store serial: [23085412]
+[2024-05-07 00:25:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085412]
+[2024-05-07 00:25:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 00:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-url-tokenizer
+[2024-05-07 00:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ames
+[2024-05-07 00:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: howso-engine
+[2024-05-07 00:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-core
+[2024-05-07 00:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MobileInventoryCLI
+[2024-05-07 00:25:33] INFO root fetch - processPackages [langchain-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 00:25:33] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.91] Old Version: [0.4.90]
+[2024-05-07 00:25:33] INFO root fetch - processPackages [ames]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-07 00:25:33] INFO root fetch - processPackages [howso-engine]: New version: [9.2.0] Old Version: [9.1.7]
+[2024-05-07 00:25:33] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 00:25:33] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/01/6f/5113ee1f9f9ddb7bbaae50c5d9fc429ae065f7bc00dfbd5d3b60ca0b0d29/MobileInventoryCLI-0.4.90.tar.gz
+[2024-05-07 00:25:33] INFO root fetch - processPackages [langchain-core]: Downloading https://files.pythonhosted.org/packages/cc/69/b95eb186fa3ff696ee719ed57a5e1f839c0cb3c40c82b1160696062f8b66/langchain_core-0.1.8.tar.gz
+[2024-05-07 00:25:33] INFO root fetch - processPackages [ames]: Downloading https://files.pythonhosted.org/packages/0b/a7/8fcff2f8c503c886fefff5570b8140619a07dbc66b76edadf124be05283f/ames-1.1.3.tar.gz
+[2024-05-07 00:25:33] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/ed/59/d7cb3b969be12baeb43a0d62695f0bd73607b388287cafb48caba28803cb/django-url-tokenizer-0.1.8.tar.gz
+[2024-05-07 00:25:33] INFO root fetch - processPackages [howso-engine]: Downloading https://files.pythonhosted.org/packages/2d/17/a5c0e96f51b0f271e0601bb19a2fb74a9a9591319fd161bdbff6277e85c2/howso-engine-9.1.7.tar.gz
+[2024-05-07 00:25:33] WARNING root fetch - processPackages [ames]: Skipping package: exceeds size limit 18628919>=10485760
+[2024-05-07 00:25:33] INFO root fetch - main [MainThread]: End processing [ames] error
+[2024-05-07 00:25:33] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/25/b3/9e53d9efecd762e66773e585380f421efccb58e6b7ec79fae2d025410670/django-url-tokenizer-0.1.9.tar.gz
+[2024-05-07 00:25:33] INFO root fetch - processPackages [langchain-core]: Downloading https://files.pythonhosted.org/packages/1b/97/8c742f024d6a7e8793382452545b4432130e5ac741883e6ebcd92f46fc53/langchain_core-0.1.9.tar.gz
+[2024-05-07 00:25:34] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/7e/0c/73b33438e46bb0c5b463b2210d70ee2a1514bd595d472bbf032510bd176b/MobileInventoryCLI-0.4.91.tar.gz
+[2024-05-07 00:25:34] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2024-05-07 00:25:34] INFO root fetch - processPackages [howso-engine]: Downloading https://files.pythonhosted.org/packages/e1/bd/f6bf5c787a554ce19b032018e844a5370ea3f9ac1d3ad3c330465c24ff00/howso-engine-9.2.0.tar.gz
+[2024-05-07 00:25:34] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.1.8.tar.gz tmp/django-url-tokenizer-0.1.9.tar.gz --markdown 20240507/d/django-url-tokenizer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 00:25:34] INFO root fetch - processPackages [langchain-core]: executing diffoscope
+[2024-05-07 00:25:34] INFO root fetch - processPackages [langchain-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_core-0.1.8.tar.gz tmp/langchain_core-0.1.9.tar.gz --markdown 20240507/l/langchain-core/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 00:25:34] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-07 00:25:34] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.90.tar.gz tmp/MobileInventoryCLI-0.4.91.tar.gz --markdown 20240507/M/MobileInventoryCLI/0.4.90-0.4.91/README.md --exclude *.pyd
+[2024-05-07 00:25:34] INFO root fetch - processPackages [howso-engine]: executing diffoscope
+[2024-05-07 00:25:34] INFO root fetch - processPackages [howso-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/howso-engine-9.1.7.tar.gz tmp/howso-engine-9.2.0.tar.gz --markdown 20240507/h/howso-engine/9.1.7-9.2.0/README.md --exclude *.pyd
+[2024-05-07 00:25:34] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.1.8.tar.gz]
+[2024-05-07 00:25:34] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.1.9.tar.gz]
+[2024-05-07 00:25:34] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2024-05-07 00:25:34] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.90.tar.gz]
+[2024-05-07 00:25:34] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.91.tar.gz]
+[2024-05-07 00:25:34] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-07 00:25:35] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.1.8.tar.gz]
+[2024-05-07 00:25:35] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.1.9.tar.gz]
+[2024-05-07 00:25:35] INFO root fetch - main [MainThread]: End processing [langchain-core]: success
+[2024-05-07 00:25:35] INFO root fetch - processPackages [howso-engine]: Remove: archive file [/home/abi/fetcher/tmp/howso-engine-9.1.7.tar.gz]
+[2024-05-07 00:25:35] INFO root fetch - processPackages [howso-engine]: Remove: archive file [/home/abi/fetcher/tmp/howso-engine-9.2.0.tar.gz]
+[2024-05-07 00:25:35] INFO root fetch - main [MainThread]: End processing [howso-engine]: success
+[2024-05-07 00:25:35] INFO root fetch - main [MainThread]: Store serial: [23085426]
