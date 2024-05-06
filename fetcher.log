@@ -1253,3 +1253,51 @@
 [2024-05-07 00:29:55] INFO root fetch - processPackages [pyprql]: Remove: archive file [/home/abi/fetcher/tmp/pyprql-0.9.0.tar.gz]
 [2024-05-07 00:29:55] INFO root fetch - main [MainThread]: End processing [pyprql]: success
 [2024-05-07 00:29:55] INFO root fetch - main [MainThread]: Store serial: [23085455]
+[2024-05-07 00:31:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085455]
+[2024-05-07 00:32:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 00:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parse-qwantz
+[2024-05-07 00:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-PHAL-plugin-homeassistant
+[2024-05-07 00:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: karnak
+[2024-05-07 00:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-decorators
+[2024-05-07 00:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: espy-contact
+[2024-05-07 00:32:04] INFO root fetch - processPackages [espy-contact]: New version: [0.9] Old Version: [0.8]
+[2024-05-07 00:32:04] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/07/4c/6d6ed1c239b72208f165ce670dcdc6ffc30e2eb8f70f1f7e5b6106e832a0/espy_contact-0.8.tar.gz
+[2024-05-07 00:32:04] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: New version: [0.0.4a7] Old Version: [0.0.4a6]
+[2024-05-07 00:32:04] INFO root fetch - processPackages [parse-qwantz]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-07 00:32:04] INFO root fetch - processPackages [karnak]: New version: [3.3.6] Old Version: [3.3.5]
+[2024-05-07 00:32:04] INFO root fetch - processPackages [langchain-decorators]: New version: [0.6.0] Old Version: [0.5.8]
+[2024-05-07 00:32:04] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/47/d6/fcaaa0a62f6a979bfc219a903dacacc9ff0a4420a51d81146374755243fc/langchain_decorators-0.5.8.tar.gz
+[2024-05-07 00:32:04] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/1f/a2/722fe00e34c488a1e91c9eb0ebe6b27115da9bc5c6d0311da983b6ab22d9/espy_contact-0.9.tar.gz
+[2024-05-07 00:32:04] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Downloading https://files.pythonhosted.org/packages/6f/24/a04bc0c5eec4c852883db076a5a34c53dc7617014e34e2270845832ab225/ovos-PHAL-plugin-homeassistant-0.0.4a6.tar.gz
+[2024-05-07 00:32:04] INFO root fetch - processPackages [parse-qwantz]: Downloading https://files.pythonhosted.org/packages/dd/55/db5d365890817743189664053381b64820abf32ecca5bc2f59f5583440c4/parse_qwantz-2024.5.1.tar.gz
+[2024-05-07 00:32:04] INFO root fetch - processPackages [karnak]: Downloading https://files.pythonhosted.org/packages/bb/dd/4db1f87b129867a3702e007736f680f3e52539bfd920056041c83362565a/karnak-3.3.5-py3-none-any.whl
+[2024-05-07 00:32:04] INFO root fetch - processPackages [espy-contact]: executing diffoscope
+[2024-05-07 00:32:04] INFO root fetch - processPackages [espy-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espy_contact-0.8.tar.gz tmp/espy_contact-0.9.tar.gz --markdown 20240507/e/espy-contact/0.8-0.9/README.md --exclude *.pyd
+[2024-05-07 00:32:05] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/0d/9f/3d566bdc30e699336f6af39bd8a94132345aa8c0a0b33a4dfc4ded3d0c3e/langchain_decorators-0.6.0.tar.gz
+[2024-05-07 00:32:05] INFO root fetch - processPackages [karnak]: Downloading https://files.pythonhosted.org/packages/6d/f0/f048b3c48e0a0b7ece5a302f33b4dd3ca41e63b56668f386cc80c53cf998/karnak-3.3.6-py3-none-any.whl
+[2024-05-07 00:32:05] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Downloading https://files.pythonhosted.org/packages/8e/fc/b0fe7a0439bc0efffb7fd0739c2e76c7443dab573f222c681d445d633b7e/ovos-PHAL-plugin-homeassistant-0.0.4a7.tar.gz
+[2024-05-07 00:32:05] INFO root fetch - processPackages [parse-qwantz]: Downloading https://files.pythonhosted.org/packages/34/fa/dca67489f07928099b52f0a034a20e7aa1d7507c9bedbda9f8a86c2bfe82/parse_qwantz-2024.5.2.tar.gz
+[2024-05-07 00:32:05] INFO root fetch - processPackages [langchain-decorators]: executing diffoscope
+[2024-05-07 00:32:05] INFO root fetch - processPackages [langchain-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_decorators-0.5.8.tar.gz tmp/langchain_decorators-0.6.0.tar.gz --markdown 20240507/l/langchain-decorators/0.5.8-0.6.0/README.md --exclude *.pyd
+[2024-05-07 00:32:05] INFO root fetch - processPackages [karnak]: executing diffoscope
+[2024-05-07 00:32:05] INFO root fetch - processPackages [karnak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karnak-3.3.5-py3-none-any.whl.zip tmp/karnak-3.3.6-py3-none-any.whl.zip --markdown 20240507/k/karnak/3.3.5-3.3.6/README.md --exclude *.pyd
+[2024-05-07 00:32:05] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: executing diffoscope
+[2024-05-07 00:32:05] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-homeassistant-0.0.4a6.tar.gz tmp/ovos-PHAL-plugin-homeassistant-0.0.4a7.tar.gz --markdown 20240507/o/ovos-PHAL-plugin-homeassistant/0.0.4a6-0.0.4a7/README.md --exclude *.pyd
+[2024-05-07 00:32:05] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.8.tar.gz]
+[2024-05-07 00:32:05] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.9.tar.gz]
+[2024-05-07 00:32:05] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
+[2024-05-07 00:32:05] INFO root fetch - processPackages [parse-qwantz]: executing diffoscope
+[2024-05-07 00:32:05] INFO root fetch - processPackages [parse-qwantz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_qwantz-2024.5.1.tar.gz tmp/parse_qwantz-2024.5.2.tar.gz --markdown 20240507/p/parse-qwantz/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-07 00:32:05] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain_decorators-0.5.8.tar.gz]
+[2024-05-07 00:32:05] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain_decorators-0.6.0.tar.gz]
+[2024-05-07 00:32:05] INFO root fetch - main [MainThread]: End processing [langchain-decorators]: success
+[2024-05-07 00:32:06] INFO root fetch - processPackages [karnak]: Remove: archive file [/home/abi/fetcher/tmp/karnak-3.3.5-py3-none-any.whl.zip]
+[2024-05-07 00:32:06] INFO root fetch - processPackages [karnak]: Remove: archive file [/home/abi/fetcher/tmp/karnak-3.3.6-py3-none-any.whl.zip]
+[2024-05-07 00:32:06] INFO root fetch - main [MainThread]: End processing [karnak]: success
+[2024-05-07 00:32:06] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-homeassistant-0.0.4a6.tar.gz]
+[2024-05-07 00:32:06] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-homeassistant-0.0.4a7.tar.gz]
+[2024-05-07 00:32:06] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-homeassistant]: success
+[2024-05-07 00:32:06] INFO root fetch - processPackages [parse-qwantz]: Remove: archive file [/home/abi/fetcher/tmp/parse_qwantz-2024.5.1.tar.gz]
+[2024-05-07 00:32:06] INFO root fetch - processPackages [parse-qwantz]: Remove: archive file [/home/abi/fetcher/tmp/parse_qwantz-2024.5.2.tar.gz]
+[2024-05-07 00:32:06] INFO root fetch - main [MainThread]: End processing [parse-qwantz]: success
+[2024-05-07 00:32:06] INFO root fetch - main [MainThread]: Store serial: [23085469]
