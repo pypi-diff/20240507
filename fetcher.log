@@ -2187,3 +2187,24 @@
 [2024-05-07 01:27:54] INFO root fetch - processPackages [vllm-acc]: Remove: archive file [/home/abi/fetcher/tmp/vllm_acc-0.4.11715032367.5221682.tar.gz]
 [2024-05-07 01:27:54] INFO root fetch - main [MainThread]: End processing [vllm-acc]: success
 [2024-05-07 01:27:54] INFO root fetch - main [MainThread]: Store serial: [23086022]
+[2024-05-07 01:29:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086022]
+[2024-05-07 01:30:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docugami-langchain
+[2024-05-07 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swikipedia
+[2024-05-07 01:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mani-skill
+[2024-05-07 01:30:02] INFO root fetch - processPackages [swikipedia]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 01:30:02] INFO root fetch - processPackages [docugami-langchain]: New version: [0.0.9rc2] Old Version: [0.0.9rc1]
+[2024-05-07 01:30:02] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/56/84/bb07c5a8b42884cc0ca2d18df30ad2af0cd2d1126923663fba4b81547ca0/docugami_langchain-0.0.9rc1.tar.gz
+[2024-05-07 01:30:02] INFO root fetch - processPackages [mani-skill]: New version: [3.0.0b3] Old Version: [3.0.0b2]
+[2024-05-07 01:30:02] ERROR root fetch - processPackages [swikipedia]: Unable to fetch info: No such project/version 'swikipedia' 1.0.0
+[2024-05-07 01:30:02] INFO root fetch - main [MainThread]: End processing [swikipedia] error
+[2024-05-07 01:30:03] INFO root fetch - processPackages [mani-skill]: Downloading https://files.pythonhosted.org/packages/48/8b/d62df909e0145dca022686c57f7b215209b423f9300b1a7523ddf5d0c190/mani_skill-3.0.0b2.tar.gz
+[2024-05-07 01:30:03] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/73/eb/9f39f6198c5d565a1bb121b3ca72ba855d8c59cb0d255c5a3c38035715aa/docugami_langchain-0.0.9rc2.tar.gz
+[2024-05-07 01:30:03] WARNING root fetch - processPackages [mani-skill]: Skipping package: exceeds size limit 87272214>=10485760
+[2024-05-07 01:30:03] INFO root fetch - main [MainThread]: End processing [mani-skill] error
+[2024-05-07 01:30:03] INFO root fetch - processPackages [docugami-langchain]: executing diffoscope
+[2024-05-07 01:30:03] INFO root fetch - processPackages [docugami-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docugami_langchain-0.0.9rc1.tar.gz tmp/docugami_langchain-0.0.9rc2.tar.gz --markdown 20240507/d/docugami-langchain/0.0.9rc1-0.0.9rc2/README.md --exclude *.pyd
+[2024-05-07 01:30:03] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.9rc1.tar.gz]
+[2024-05-07 01:30:03] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.9rc2.tar.gz]
+[2024-05-07 01:30:03] INFO root fetch - main [MainThread]: End processing [docugami-langchain]: success
+[2024-05-07 01:30:03] INFO root fetch - main [MainThread]: Store serial: [23086032]
