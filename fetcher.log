@@ -1182,3 +1182,44 @@
 [2024-05-07 00:25:35] INFO root fetch - processPackages [howso-engine]: Remove: archive file [/home/abi/fetcher/tmp/howso-engine-9.2.0.tar.gz]
 [2024-05-07 00:25:35] INFO root fetch - main [MainThread]: End processing [howso-engine]: success
 [2024-05-07 00:25:35] INFO root fetch - main [MainThread]: Store serial: [23085426]
+[2024-05-07 00:27:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085426]
+[2024-05-07 00:27:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 00:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vdms
+[2024-05-07 00:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CosRayModifiedISO
+[2024-05-07 00:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lasertools-pulsedispersion
+[2024-05-07 00:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: denzelxrt
+[2024-05-07 00:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fake.py
+[2024-05-07 00:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ParticleRigidityCalculationTools
+[2024-05-07 00:27:44] WARNING root fetch - processPackages [lasertools-pulsedispersion]: Skipping, unable to determine old version
+[2024-05-07 00:27:44] INFO root fetch - main [MainThread]: End processing [lasertools-pulsedispersion] error
+[2024-05-07 00:27:44] INFO root fetch - processPackages [CosRayModifiedISO]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-07 00:27:44] WARNING root fetch - processPackages [denzelxrt]: Skipping, unable to determine old version
+[2024-05-07 00:27:44] INFO root fetch - main [MainThread]: End processing [denzelxrt] error
+[2024-05-07 00:27:44] INFO root fetch - processPackages [vdms]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 00:27:44] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: New version: [1.5.8] Old Version: [1.5.7]
+[2024-05-07 00:27:44] INFO root fetch - processPackages [fake.py]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-05-07 00:27:44] INFO root fetch - processPackages [CosRayModifiedISO]: Downloading https://files.pythonhosted.org/packages/9c/8b/27c03bda024b352b391eae0fb70a93fdf1bb46f8620b6036cefefec53026/cosraymodifiediso-1.2.4.tar.gz
+[2024-05-07 00:27:44] INFO root fetch - processPackages [vdms]: Downloading https://files.pythonhosted.org/packages/23/3f/62262fce45ee586b67c044323fcd66d6d2c374f9e6784ef4c280a1b3b5e1/vdms-0.0.8.tar.gz
+[2024-05-07 00:27:44] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: Downloading https://files.pythonhosted.org/packages/56/17/a81fc80de0f044af92a618b8a02b0318e055b56ed4862b2f5652ea489476/particlerigiditycalculationtools-1.5.7.tar.gz
+[2024-05-07 00:27:44] INFO root fetch - processPackages [fake.py]: Downloading https://files.pythonhosted.org/packages/78/59/511a71738d1d9dd4de6c2a6925ff44f2543df56489b0b03b25452af8a949/fake.py-0.6.7.tar.gz
+[2024-05-07 00:27:44] WARNING root fetch - processPackages [CosRayModifiedISO]: Skipping package: exceeds size limit 35487344>=10485760
+[2024-05-07 00:27:44] INFO root fetch - main [MainThread]: End processing [CosRayModifiedISO] error
+[2024-05-07 00:27:44] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: Downloading https://files.pythonhosted.org/packages/00/d1/607263626dc6c9b222998bb17e05a3c573f179933e18f5eec88f0f0f0515/particlerigiditycalculationtools-1.5.8.tar.gz
+[2024-05-07 00:27:44] INFO root fetch - processPackages [vdms]: Downloading https://files.pythonhosted.org/packages/f8/34/88db7616a580889b84afcfacc7a32ff05e67d40bd8d38d54d11b6c4b7230/vdms-0.0.9.tar.gz
+[2024-05-07 00:27:44] INFO root fetch - processPackages [fake.py]: Downloading https://files.pythonhosted.org/packages/74/04/618cc3598581813f41b9064f2227294799c1a1bf5fbc9102f02168ff9e41/fake_py-0.6.8.tar.gz
+[2024-05-07 00:27:45] INFO root fetch - processPackages [fake.py]: executing diffoscope
+[2024-05-07 00:27:45] INFO root fetch - processPackages [fake.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake.py-0.6.7.tar.gz tmp/fake_py-0.6.8.tar.gz --markdown 20240507/f/fake.py/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-05-07 00:27:45] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: executing diffoscope
+[2024-05-07 00:27:45] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/particlerigiditycalculationtools-1.5.7.tar.gz tmp/particlerigiditycalculationtools-1.5.8.tar.gz --markdown 20240507/P/ParticleRigidityCalculationTools/1.5.7-1.5.8/README.md --exclude *.pyd
+[2024-05-07 00:27:45] INFO root fetch - processPackages [vdms]: executing diffoscope
+[2024-05-07 00:27:45] INFO root fetch - processPackages [vdms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdms-0.0.8.tar.gz tmp/vdms-0.0.9.tar.gz --markdown 20240507/v/vdms/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 00:27:45] INFO root fetch - processPackages [vdms]: Remove: archive file [/home/abi/fetcher/tmp/vdms-0.0.8.tar.gz]
+[2024-05-07 00:27:45] INFO root fetch - processPackages [vdms]: Remove: archive file [/home/abi/fetcher/tmp/vdms-0.0.9.tar.gz]
+[2024-05-07 00:27:45] INFO root fetch - main [MainThread]: End processing [vdms]: success
+[2024-05-07 00:27:45] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: Remove: archive file [/home/abi/fetcher/tmp/particlerigiditycalculationtools-1.5.7.tar.gz]
+[2024-05-07 00:27:45] INFO root fetch - processPackages [ParticleRigidityCalculationTools]: Remove: archive file [/home/abi/fetcher/tmp/particlerigiditycalculationtools-1.5.8.tar.gz]
+[2024-05-07 00:27:45] INFO root fetch - main [MainThread]: End processing [ParticleRigidityCalculationTools]: success
+[2024-05-07 00:27:46] INFO root fetch - processPackages [fake.py]: Remove: archive file [/home/abi/fetcher/tmp/fake.py-0.6.7.tar.gz]
+[2024-05-07 00:27:46] INFO root fetch - processPackages [fake.py]: Remove: archive file [/home/abi/fetcher/tmp/fake_py-0.6.8.tar.gz]
+[2024-05-07 00:27:46] INFO root fetch - main [MainThread]: End processing [fake.py]: success
+[2024-05-07 00:27:46] INFO root fetch - main [MainThread]: Store serial: [23085446]
