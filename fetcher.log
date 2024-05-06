@@ -1039,3 +1039,36 @@
 [2024-05-07 00:19:00] INFO root fetch - processPackages [NaxToPy]: Remove: archive file [/home/abi/fetcher/tmp/naxtopy-2.0.1.tar.gz]
 [2024-05-07 00:19:00] INFO root fetch - main [MainThread]: End processing [NaxToPy]: success
 [2024-05-07 00:19:00] INFO root fetch - main [MainThread]: Store serial: [23085378]
+[2024-05-07 00:21:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085378]
+[2024-05-07 00:21:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 00:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: echodyne
+[2024-05-07 00:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlflow-cratedb
+[2024-05-07 00:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AsympDirsCalculator
+[2024-05-07 00:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atmosphericRadiationDoseAndFlux
+[2024-05-07 00:21:10] WARNING root fetch - processPackages [echodyne]: Skipping, unable to determine old version
+[2024-05-07 00:21:10] INFO root fetch - main [MainThread]: End processing [echodyne] error
+[2024-05-07 00:21:10] INFO root fetch - processPackages [mlflow-cratedb]: New version: [2.9.2] Old Version: [2.8.1]
+[2024-05-07 00:21:10] INFO root fetch - processPackages [AsympDirsCalculator]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 00:21:10] INFO root fetch - processPackages [atmosphericRadiationDoseAndFlux]: New version: [1.0.7] Old Version: [1.0.5]
+[2024-05-07 00:21:10] INFO root fetch - processPackages [mlflow-cratedb]: Downloading https://files.pythonhosted.org/packages/67/37/2b2fe5939cfe18fc8d05fb6ea6781c7aaf90e7be044b1ba6690350bc3aaf/mlflow-cratedb-2.8.1.tar.gz
+[2024-05-07 00:21:10] INFO root fetch - processPackages [atmosphericRadiationDoseAndFlux]: Downloading https://files.pythonhosted.org/packages/d9/69/79d69a330faa9f3b7bbe6970dbf92fd7db89c5501ff7fba62169605e37d3/atmosphericradiationdoseandflux-1.0.5.tar.gz
+[2024-05-07 00:21:10] INFO root fetch - processPackages [AsympDirsCalculator]: Downloading https://files.pythonhosted.org/packages/15/53/3abed09a2dbf71adf5c54a6e79939e4fbfae18fa3036cb9caca25bb1ca6b/AsympDirsCalculator-1.0.8.tar.gz
+[2024-05-07 00:21:10] INFO root fetch - processPackages [atmosphericRadiationDoseAndFlux]: Downloading https://files.pythonhosted.org/packages/6e/23/6b12cc25c100bae3787e67b04e8672799d36b6cdf7604e24069a679de4f5/atmosphericradiationdoseandflux-1.0.7.tar.gz
+[2024-05-07 00:21:10] INFO root fetch - processPackages [mlflow-cratedb]: Downloading https://files.pythonhosted.org/packages/57/7c/d0d535bd1c3912b17b807ca0b5f83f2504d7862b0ab2bda5b261b7a9e9b5/mlflow-cratedb-2.9.2.tar.gz
+[2024-05-07 00:21:10] INFO root fetch - processPackages [AsympDirsCalculator]: Downloading https://files.pythonhosted.org/packages/bf/6d/7c8832ed36d2c3cd528bb374fbb597c4c6dd023a6d20448cf0b1a5649656/asympdirscalculator-1.0.9.tar.gz
+[2024-05-07 00:21:10] INFO root fetch - processPackages [AsympDirsCalculator]: executing diffoscope
+[2024-05-07 00:21:10] INFO root fetch - processPackages [AsympDirsCalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AsympDirsCalculator-1.0.8.tar.gz tmp/asympdirscalculator-1.0.9.tar.gz --markdown 20240507/A/AsympDirsCalculator/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 00:21:10] INFO root fetch - processPackages [mlflow-cratedb]: executing diffoscope
+[2024-05-07 00:21:10] INFO root fetch - processPackages [mlflow-cratedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow-cratedb-2.8.1.tar.gz tmp/mlflow-cratedb-2.9.2.tar.gz --markdown 20240507/m/mlflow-cratedb/2.8.1-2.9.2/README.md --exclude *.pyd
+[2024-05-07 00:21:10] INFO root fetch - processPackages [atmosphericRadiationDoseAndFlux]: executing diffoscope
+[2024-05-07 00:21:10] INFO root fetch - processPackages [atmosphericRadiationDoseAndFlux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atmosphericradiationdoseandflux-1.0.5.tar.gz tmp/atmosphericradiationdoseandflux-1.0.7.tar.gz --markdown 20240507/a/atmosphericRadiationDoseAndFlux/1.0.5-1.0.7/README.md --exclude *.pyd
+[2024-05-07 00:21:11] INFO root fetch - processPackages [AsympDirsCalculator]: Remove: archive file [/home/abi/fetcher/tmp/AsympDirsCalculator-1.0.8.tar.gz]
+[2024-05-07 00:21:11] INFO root fetch - processPackages [AsympDirsCalculator]: Remove: archive file [/home/abi/fetcher/tmp/asympdirscalculator-1.0.9.tar.gz]
+[2024-05-07 00:21:11] INFO root fetch - main [MainThread]: End processing [AsympDirsCalculator]: success
+[2024-05-07 00:21:11] INFO root fetch - processPackages [mlflow-cratedb]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-cratedb-2.8.1.tar.gz]
+[2024-05-07 00:21:11] INFO root fetch - processPackages [atmosphericRadiationDoseAndFlux]: Remove: archive file [/home/abi/fetcher/tmp/atmosphericradiationdoseandflux-1.0.5.tar.gz]
+[2024-05-07 00:21:11] INFO root fetch - processPackages [mlflow-cratedb]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-cratedb-2.9.2.tar.gz]
+[2024-05-07 00:21:11] INFO root fetch - processPackages [atmosphericRadiationDoseAndFlux]: Remove: archive file [/home/abi/fetcher/tmp/atmosphericradiationdoseandflux-1.0.7.tar.gz]
+[2024-05-07 00:21:11] INFO root fetch - main [MainThread]: End processing [mlflow-cratedb]: success
+[2024-05-07 00:21:11] INFO root fetch - main [MainThread]: End processing [atmosphericRadiationDoseAndFlux]: success
+[2024-05-07 00:21:11] INFO root fetch - main [MainThread]: Store serial: [23085390]
