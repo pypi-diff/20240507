@@ -1714,3 +1714,15 @@
 [2024-05-07 00:56:45] INFO root fetch - processPackages [python-gilt]: Remove: archive file [/home/abi/fetcher/tmp/python_gilt-2.2.1-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.musllinux_1_1_x86_64.whl.zip]
 [2024-05-07 00:56:45] INFO root fetch - main [MainThread]: End processing [python-gilt]: success
 [2024-05-07 00:56:45] INFO root fetch - main [MainThread]: Store serial: [23085741]
+[2024-05-07 00:58:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085741]
+[2024-05-07 00:58:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-07 00:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ArtSciColor
+[2024-05-07 00:58:58] INFO root fetch - processPackages [ArtSciColor]: New version: [0.3.3.4] Old Version: [0.3.3.3]
+[2024-05-07 00:58:58] INFO root fetch - processPackages [ArtSciColor]: Downloading https://files.pythonhosted.org/packages/38/78/8e4af40ea628308833bf502e9a0b495bd2d75391e19d1604de508c654179/ArtSciColor-0.3.3.3.tar.gz
+[2024-05-07 00:58:58] INFO root fetch - processPackages [ArtSciColor]: Downloading https://files.pythonhosted.org/packages/8b/0c/c670aeb12373f2941af08f078285d673dbf4b19ee7421f5a2248d45db8b9/ArtSciColor-0.3.3.4.tar.gz
+[2024-05-07 00:58:59] INFO root fetch - processPackages [ArtSciColor]: executing diffoscope
+[2024-05-07 00:58:59] INFO root fetch - processPackages [ArtSciColor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ArtSciColor-0.3.3.3.tar.gz tmp/ArtSciColor-0.3.3.4.tar.gz --markdown 20240507/A/ArtSciColor/0.3.3.3-0.3.3.4/README.md --exclude *.pyd
+[2024-05-07 00:58:59] INFO root fetch - processPackages [ArtSciColor]: Remove: archive file [/home/abi/fetcher/tmp/ArtSciColor-0.3.3.3.tar.gz]
+[2024-05-07 00:58:59] INFO root fetch - processPackages [ArtSciColor]: Remove: archive file [/home/abi/fetcher/tmp/ArtSciColor-0.3.3.4.tar.gz]
+[2024-05-07 00:58:59] INFO root fetch - main [MainThread]: End processing [ArtSciColor]: success
+[2024-05-07 00:58:59] INFO root fetch - main [MainThread]: Store serial: [23085772]
