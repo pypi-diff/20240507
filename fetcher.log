@@ -964,3 +964,27 @@
 [2024-05-07 00:14:40] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.9-py3-none-any.whl.zip]
 [2024-05-07 00:14:40] INFO root fetch - main [MainThread]: End processing [marcel]: success
 [2024-05-07 00:14:40] INFO root fetch - main [MainThread]: Store serial: [23085354]
+[2024-05-07 00:16:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085354]
+[2024-05-07 00:16:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 00:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: repo-find-orphans
+[2024-05-07 00:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mimllearning
+[2024-05-07 00:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lasertools-pulsedispersiondata
+[2024-05-07 00:16:48] WARNING root fetch - processPackages [repo-find-orphans]: Skipping, unable to determine old version
+[2024-05-07 00:16:48] INFO root fetch - processPackages [lasertools-pulsedispersiondata]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2024-05-07 00:16:48] INFO root fetch - main [MainThread]: End processing [repo-find-orphans] error
+[2024-05-07 00:16:48] INFO root fetch - processPackages [mimllearning]: New version: [0.2.82] Old Version: [0.2.81]
+[2024-05-07 00:16:48] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/7b/df/db4f4ece6900b36dcf4389337cebe5d0e8d51932850de9753576119ac135/mimllearning-0.2.81.tar.gz
+[2024-05-07 00:16:49] INFO root fetch - processPackages [lasertools-pulsedispersiondata]: Downloading https://files.pythonhosted.org/packages/bb/1a/cc2c0db3471715664a5601c7b9f7cdd6775f763dedc6cc2991e2390948c4/lasertools_pulsedispersiondata-0.0.1.tar.gz
+[2024-05-07 00:16:49] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/ce/e9/eadf8e28660ce1e9893c5785a10191f9bfa9a466cbe2730a7427810aa5b7/mimllearning-0.2.82.tar.gz
+[2024-05-07 00:16:49] INFO root fetch - processPackages [lasertools-pulsedispersiondata]: Downloading https://files.pythonhosted.org/packages/11/3d/f6a624deed357f9a6f2119d76936e1a9c7cb02dbd76e3ca2e64bcf45dc22/lasertools_pulsedispersiondata-0.0.1.1.tar.gz
+[2024-05-07 00:16:49] INFO root fetch - processPackages [lasertools-pulsedispersiondata]: executing diffoscope
+[2024-05-07 00:16:49] INFO root fetch - processPackages [lasertools-pulsedispersiondata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lasertools_pulsedispersiondata-0.0.1.tar.gz tmp/lasertools_pulsedispersiondata-0.0.1.1.tar.gz --markdown 20240507/l/lasertools-pulsedispersiondata/0.0.1-0.0.1.1/README.md --exclude *.pyd
+[2024-05-07 00:16:49] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-07 00:16:49] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.2.81.tar.gz tmp/mimllearning-0.2.82.tar.gz --markdown 20240507/m/mimllearning/0.2.81-0.2.82/README.md --exclude *.pyd
+[2024-05-07 00:16:50] INFO root fetch - processPackages [lasertools-pulsedispersiondata]: Remove: archive file [/home/abi/fetcher/tmp/lasertools_pulsedispersiondata-0.0.1.tar.gz]
+[2024-05-07 00:16:50] INFO root fetch - processPackages [lasertools-pulsedispersiondata]: Remove: archive file [/home/abi/fetcher/tmp/lasertools_pulsedispersiondata-0.0.1.1.tar.gz]
+[2024-05-07 00:16:50] INFO root fetch - main [MainThread]: End processing [lasertools-pulsedispersiondata]: success
+[2024-05-07 00:16:50] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.81.tar.gz]
+[2024-05-07 00:16:50] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.2.82.tar.gz]
+[2024-05-07 00:16:50] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-07 00:16:50] INFO root fetch - main [MainThread]: Store serial: [23085361]
