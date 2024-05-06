@@ -2565,3 +2565,81 @@
 [2024-05-07 01:50:49] INFO root fetch - processPackages [aind-data-transfer]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-transfer-0.9.3.tar.gz]
 [2024-05-07 01:50:49] INFO root fetch - main [MainThread]: End processing [aind-data-transfer]: success
 [2024-05-07 01:50:49] INFO root fetch - main [MainThread]: Store serial: [23086174]
+[2024-05-07 01:52:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086174]
+[2024-05-07 01:52:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mimllearning
+[2024-05-07 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chiasmodon
+[2024-05-07 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aigents
+[2024-05-07 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multiconnections
+[2024-05-07 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: comfy-cli
+[2024-05-07 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docprompt
+[2024-05-07 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dragonfly-core
+[2024-05-07 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: corvic-engine
+[2024-05-07 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ob-metaflow
+[2024-05-07 01:52:58] INFO root fetch - processPackages [aigents]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-07 01:52:58] INFO root fetch - processPackages [docprompt]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-07 01:52:58] INFO root fetch - processPackages [ob-metaflow]: New version: [2.9.8.2] Old Version: [2.9.7.2]
+[2024-05-07 01:52:58] INFO root fetch - processPackages [mimllearning]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-07 01:52:58] INFO root fetch - processPackages [aigents]: Downloading https://files.pythonhosted.org/packages/72/6e/5a951dffae6346f30d04659d5d70ac6ccd1ab099e15b4433dea30ff724f5/aigents-0.7.2.tar.gz
+[2024-05-07 01:52:58] WARNING root fetch - processPackages [multiconnections]: Skipping, unable to determine old version
+[2024-05-07 01:52:58] INFO root fetch - main [MainThread]: End processing [multiconnections] error
+[2024-05-07 01:52:58] INFO root fetch - processPackages [chiasmodon]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-07 01:52:58] INFO root fetch - processPackages [ob-metaflow]: Downloading https://files.pythonhosted.org/packages/d3/01/7b00a35e44dcec3a289d7ce4bbd4fbf5ba60a0d517faf7eefab46462c416/ob-metaflow-2.9.7.2.tar.gz
+[2024-05-07 01:52:58] INFO root fetch - processPackages [docprompt]: Downloading https://files.pythonhosted.org/packages/9e/29/85f9766e41ee36602b7f20a014c757dceb80c5a0a3a053ad2bc33599c078/docprompt-0.4.1.tar.gz
+[2024-05-07 01:52:58] INFO root fetch - processPackages [comfy-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 01:52:58] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/41/d3/fb4f1643a10db9ab2d90eb8694bba33de14beffec1e00b3300b40e30815e/mimllearning-0.3.2.tar.gz
+[2024-05-07 01:52:58] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-07 01:52:58] INFO root fetch - processPackages [corvic-engine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 01:52:58] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/41/3a/50597c3c08dd1e885f309d942ade1b5f725f24dc210749dff17c25715b42/chiasmodon-2.0.1.tar.gz
+[2024-05-07 01:52:58] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2024-05-07 01:52:58] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/28/81/73d66a8b87408209ecb35a7c2bc6678eed7152cd47281836f38fe9d103aa/corvic_engine-0.1.8.tar.gz
+[2024-05-07 01:52:58] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/be/4d/ed5f7c3399cb056c16b657ae3d716971e1ca59dde362b950f13d4e85bbe2/comfy_cli-0.0.8.tar.gz
+[2024-05-07 01:52:58] INFO root fetch - processPackages [ob-metaflow]: Downloading https://files.pythonhosted.org/packages/87/6a/263a2c169f08c12eb7a83616e2011c96487f3c804fb07915ab6f6677dd0b/ob-metaflow-2.9.8.2.tar.gz
+[2024-05-07 01:52:58] INFO root fetch - processPackages [aigents]: Downloading https://files.pythonhosted.org/packages/7d/9e/9f7e35202c06756f5b74ec5b5cf48f2a82612c0a0bece58468921941cdad/aigents-0.7.3.tar.gz
+[2024-05-07 01:52:58] INFO root fetch - processPackages [docprompt]: Downloading https://files.pythonhosted.org/packages/59/16/efa75dcf4dd379a2d9ef98461232a2533e49f2aa112f08e7a730f5ab7fba/docprompt-0.4.2.tar.gz
+[2024-05-07 01:52:58] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/e6/6d/b180717f0acc3225871ffd3f01bed632e0b74bf25b67fd58909a0694780e/mimllearning-0.3.3.tar.gz
+[2024-05-07 01:52:58] INFO root fetch - processPackages [aigents]: executing diffoscope
+[2024-05-07 01:52:58] INFO root fetch - processPackages [aigents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aigents-0.7.2.tar.gz tmp/aigents-0.7.3.tar.gz --markdown 20240507/a/aigents/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-07 01:52:58] INFO root fetch - processPackages [ob-metaflow]: executing diffoscope
+[2024-05-07 01:52:58] INFO root fetch - processPackages [ob-metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-2.9.7.2.tar.gz tmp/ob-metaflow-2.9.8.2.tar.gz --markdown 20240507/o/ob-metaflow/2.9.7.2-2.9.8.2/README.md --exclude *.pyd
+[2024-05-07 01:52:58] INFO root fetch - processPackages [docprompt]: executing diffoscope
+[2024-05-07 01:52:58] INFO root fetch - processPackages [docprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docprompt-0.4.1.tar.gz tmp/docprompt-0.4.2.tar.gz --markdown 20240507/d/docprompt/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-07 01:52:58] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/8f/12/06b9db1ea32b5261808b845cac0229c503eae5dd45e32132fd2da79fbf7a/chiasmodon-2.0.2.tar.gz
+[2024-05-07 01:52:59] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2024-05-07 01:52:59] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/09/86/d913022f7e6621ce441c8b834aa1f7c0a01a99f249b2e74671b9da6c2acc/corvic_engine-0.1.9.tar.gz
+[2024-05-07 01:52:59] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-07 01:52:59] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.3.2.tar.gz tmp/mimllearning-0.3.3.tar.gz --markdown 20240507/m/mimllearning/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-07 01:52:59] INFO root fetch - processPackages [chiasmodon]: executing diffoscope
+[2024-05-07 01:52:59] INFO root fetch - processPackages [chiasmodon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiasmodon-2.0.1.tar.gz tmp/chiasmodon-2.0.2.tar.gz --markdown 20240507/c/chiasmodon/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-07 01:52:59] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/e0/64/bda74e2826240c0c779e679f675d7adb8fe53c0f89fac01c26065422006c/comfy_cli-0.0.9.tar.gz
+[2024-05-07 01:52:59] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2024-05-07 01:52:59] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20240507/d/dragonfly-core/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-07 01:52:59] INFO root fetch - processPackages [corvic-engine]: executing diffoscope
+[2024-05-07 01:52:59] INFO root fetch - processPackages [corvic-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corvic_engine-0.1.8.tar.gz tmp/corvic_engine-0.1.9.tar.gz --markdown 20240507/c/corvic-engine/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 01:52:59] INFO root fetch - processPackages [comfy-cli]: executing diffoscope
+[2024-05-07 01:52:59] INFO root fetch - processPackages [comfy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comfy_cli-0.0.8.tar.gz tmp/comfy_cli-0.0.9.tar.gz --markdown 20240507/c/comfy-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 01:52:59] INFO root fetch - processPackages [aigents]: Remove: archive file [/home/abi/fetcher/tmp/aigents-0.7.2.tar.gz]
+[2024-05-07 01:52:59] INFO root fetch - processPackages [aigents]: Remove: archive file [/home/abi/fetcher/tmp/aigents-0.7.3.tar.gz]
+[2024-05-07 01:52:59] INFO root fetch - main [MainThread]: End processing [aigents]: success
+[2024-05-07 01:52:59] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-2.0.1.tar.gz]
+[2024-05-07 01:52:59] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-2.0.2.tar.gz]
+[2024-05-07 01:52:59] INFO root fetch - main [MainThread]: End processing [chiasmodon]: success
+[2024-05-07 01:53:00] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.8.tar.gz]
+[2024-05-07 01:53:00] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.9.tar.gz]
+[2024-05-07 01:53:00] INFO root fetch - main [MainThread]: End processing [comfy-cli]: success
+[2024-05-07 01:53:00] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.4.1.tar.gz]
+[2024-05-07 01:53:00] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.4.2.tar.gz]
+[2024-05-07 01:53:00] INFO root fetch - main [MainThread]: End processing [docprompt]: success
+[2024-05-07 01:53:00] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.3.2.tar.gz]
+[2024-05-07 01:53:00] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.3.3.tar.gz]
+[2024-05-07 01:53:00] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-07 01:53:00] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2024-05-07 01:53:00] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2024-05-07 01:53:00] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2024-05-07 01:53:00] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.8.tar.gz]
+[2024-05-07 01:53:00] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.9.tar.gz]
+[2024-05-07 01:53:00] INFO root fetch - main [MainThread]: End processing [corvic-engine]: success
+[2024-05-07 01:53:04] INFO root fetch - processPackages [ob-metaflow]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-2.9.7.2.tar.gz]
+[2024-05-07 01:53:04] INFO root fetch - processPackages [ob-metaflow]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-2.9.8.2.tar.gz]
+[2024-05-07 01:53:04] INFO root fetch - main [MainThread]: End processing [ob-metaflow]: success
+[2024-05-07 01:53:04] INFO root fetch - main [MainThread]: Store serial: [23086206]
