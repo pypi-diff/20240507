@@ -856,3 +856,51 @@
 [2024-05-07 00:10:19] INFO root fetch - processPackages [nebari]: Remove: archive file [/home/abi/fetcher/tmp/nebari-2024.5.1rc1.tar.gz]
 [2024-05-07 00:10:19] INFO root fetch - main [MainThread]: End processing [nebari]: success
 [2024-05-07 00:10:19] INFO root fetch - main [MainThread]: Store serial: [23085317]
+[2024-05-07 00:12:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085317]
+[2024-05-07 00:12:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 00:12:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: outerbounds
+[2024-05-07 00:12:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: soroban
+[2024-05-07 00:12:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: supernovacontroller
+[2024-05-07 00:12:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-theme-KULeuven
+[2024-05-07 00:12:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: marcel
+[2024-05-07 00:12:27] INFO root fetch - processPackages [soroban]: New version: [0.8.0] Old Version: [0.7.2]
+[2024-05-07 00:12:27] INFO root fetch - processPackages [jupyterlab-theme-KULeuven]: New version: [0.1.5] Old Version: [0.1.0]
+[2024-05-07 00:12:27] INFO root fetch - processPackages [supernovacontroller]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-07 00:12:27] INFO root fetch - processPackages [outerbounds]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-07 00:12:27] INFO root fetch - processPackages [marcel]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-07 00:12:27] INFO root fetch - processPackages [soroban]: Downloading https://files.pythonhosted.org/packages/8b/48/d086d9da8088113fbd8dbc505425f75407515311e73312bd684e414c9519/soroban-0.7.2.tar.gz
+[2024-05-07 00:12:27] INFO root fetch - processPackages [jupyterlab-theme-KULeuven]: Downloading https://files.pythonhosted.org/packages/66/9e/554f8cd72d724b8e6336fbe0a217a9f849daf8b1ff8e12e8afb7c0f1de80/jupyterlab-theme-KULeuven-0.1.0.tar.gz
+[2024-05-07 00:12:27] INFO root fetch - processPackages [supernovacontroller]: Downloading https://files.pythonhosted.org/packages/ae/0a/4af1ffbdd8eadcad561ca1de8adc4d595e9d44cc547b24dae72c0c864a5a/supernovacontroller-1.1.0.tar.gz
+[2024-05-07 00:12:27] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/db/c3/414322f3ea100053ac3662e6bb112f6d3bc83f54c5c0996e89fef5c3d384/outerbounds-0.3.8-py3-none-any.whl
+[2024-05-07 00:12:28] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/3a/07/c626f18aa14df89e1f194e115cbffaa2d99bcfc736f7251795e2f889c0d6/marcel-0.9.8-py3-none-any.whl
+[2024-05-07 00:12:28] INFO root fetch - processPackages [soroban]: Downloading https://files.pythonhosted.org/packages/4d/cb/80f01736be3196e1b3b025b9e886685c39b7a7aabc6bc7b0330d1fd321b6/soroban-0.8.0.tar.gz
+[2024-05-07 00:12:28] INFO root fetch - processPackages [supernovacontroller]: Downloading https://files.pythonhosted.org/packages/48/eb/e6d3d05458343d731984c4dbeabd025eabb2b58e1b4f2004b85a610d2d0b/supernovacontroller-1.2.0.tar.gz
+[2024-05-07 00:12:28] INFO root fetch - processPackages [jupyterlab-theme-KULeuven]: Downloading https://files.pythonhosted.org/packages/38/c7/378986cde3688cc11da95ae050eef67b2c06c94f36239bbd9a9f081da1bc/jupyterlab_theme_kuleuven-0.1.5.tar.gz
+[2024-05-07 00:12:28] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/eb/c8/c87d25484be12f66ee78314f7ebd89ca4200a29e85c757b1d2e469e06c52/outerbounds-0.3.9-py3-none-any.whl
+[2024-05-07 00:12:28] INFO root fetch - processPackages [soroban]: executing diffoscope
+[2024-05-07 00:12:28] INFO root fetch - processPackages [soroban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soroban-0.7.2.tar.gz tmp/soroban-0.8.0.tar.gz --markdown 20240507/s/soroban/0.7.2-0.8.0/README.md --exclude *.pyd
+[2024-05-07 00:12:28] INFO root fetch - processPackages [supernovacontroller]: executing diffoscope
+[2024-05-07 00:12:28] INFO root fetch - processPackages [supernovacontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supernovacontroller-1.1.0.tar.gz tmp/supernovacontroller-1.2.0.tar.gz --markdown 20240507/s/supernovacontroller/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-07 00:12:28] INFO root fetch - processPackages [outerbounds]: executing diffoscope
+[2024-05-07 00:12:28] INFO root fetch - processPackages [outerbounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outerbounds-0.3.8-py3-none-any.whl.zip tmp/outerbounds-0.3.9-py3-none-any.whl.zip --markdown 20240507/o/outerbounds/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-07 00:12:28] INFO root fetch - processPackages [jupyterlab-theme-KULeuven]: executing diffoscope
+[2024-05-07 00:12:28] INFO root fetch - processPackages [jupyterlab-theme-KULeuven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab-theme-KULeuven-0.1.0.tar.gz tmp/jupyterlab_theme_kuleuven-0.1.5.tar.gz --markdown 20240507/j/jupyterlab-theme-KULeuven/0.1.0-0.1.5/README.md --exclude *.pyd
+[2024-05-07 00:12:28] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/4b/3d/fd4bc1e7906ea7d19b4ad1010b8dce76e96202ac6886bcab6162db5f992f/marcel-0.9.9-py3-none-any.whl
+[2024-05-07 00:12:28] INFO root fetch - processPackages [marcel]: executing diffoscope
+[2024-05-07 00:12:28] INFO root fetch - processPackages [marcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marcel-0.9.8-py3-none-any.whl.zip tmp/marcel-0.9.9-py3-none-any.whl.zip --markdown 20240507/m/marcel/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-07 00:12:29] INFO root fetch - processPackages [soroban]: Remove: archive file [/home/abi/fetcher/tmp/soroban-0.7.2.tar.gz]
+[2024-05-07 00:12:29] INFO root fetch - processPackages [soroban]: Remove: archive file [/home/abi/fetcher/tmp/soroban-0.8.0.tar.gz]
+[2024-05-07 00:12:29] INFO root fetch - main [MainThread]: End processing [soroban]: success
+[2024-05-07 00:12:29] INFO root fetch - processPackages [supernovacontroller]: Remove: archive file [/home/abi/fetcher/tmp/supernovacontroller-1.1.0.tar.gz]
+[2024-05-07 00:12:29] INFO root fetch - processPackages [supernovacontroller]: Remove: archive file [/home/abi/fetcher/tmp/supernovacontroller-1.2.0.tar.gz]
+[2024-05-07 00:12:29] INFO root fetch - main [MainThread]: End processing [supernovacontroller]: success
+[2024-05-07 00:12:29] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.8-py3-none-any.whl.zip]
+[2024-05-07 00:12:29] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.9-py3-none-any.whl.zip]
+[2024-05-07 00:12:29] INFO root fetch - main [MainThread]: End processing [outerbounds]: success
+[2024-05-07 00:12:29] INFO root fetch - processPackages [jupyterlab-theme-KULeuven]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab-theme-KULeuven-0.1.0.tar.gz]
+[2024-05-07 00:12:29] INFO root fetch - processPackages [jupyterlab-theme-KULeuven]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_theme_kuleuven-0.1.5.tar.gz]
+[2024-05-07 00:12:29] INFO root fetch - main [MainThread]: End processing [jupyterlab-theme-KULeuven]: success
+[2024-05-07 00:12:30] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.8-py3-none-any.whl.zip]
+[2024-05-07 00:12:30] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.9-py3-none-any.whl.zip]
+[2024-05-07 00:12:30] INFO root fetch - main [MainThread]: End processing [marcel]: success
+[2024-05-07 00:12:30] INFO root fetch - main [MainThread]: Store serial: [23085329]
