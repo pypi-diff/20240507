@@ -1726,3 +1726,11 @@
 [2024-05-07 00:58:59] INFO root fetch - processPackages [ArtSciColor]: Remove: archive file [/home/abi/fetcher/tmp/ArtSciColor-0.3.3.4.tar.gz]
 [2024-05-07 00:58:59] INFO root fetch - main [MainThread]: End processing [ArtSciColor]: success
 [2024-05-07 00:58:59] INFO root fetch - main [MainThread]: Store serial: [23085772]
+[2024-05-07 01:01:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085772]
+[2024-05-07 01:01:08] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-07 01:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qfit
+[2024-05-07 01:01:08] INFO root fetch - processPackages [qfit]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-07 01:01:08] INFO root fetch - processPackages [qfit]: Downloading https://files.pythonhosted.org/packages/76/05/86944f7d932ce8293f6690e82be0ad6c6f9f2e87eba314c5befd8fe77e78/qfit-2.0.2.tar.gz
+[2024-05-07 01:01:08] WARNING root fetch - processPackages [qfit]: Skipping package: exceeds size limit 60922769>=10485760
+[2024-05-07 01:01:08] INFO root fetch - main [MainThread]: End processing [qfit] error
+[2024-05-07 01:01:08] INFO root fetch - main [MainThread]: Store serial: [23085784]
