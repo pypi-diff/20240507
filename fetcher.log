@@ -2120,3 +2120,15 @@
 [2024-05-07 01:21:23] INFO root fetch - processPackages [pyfindfiles]: Remove: archive file [/home/abi/fetcher/tmp/pyfindfiles-1.6.0.tar.gz]
 [2024-05-07 01:21:23] INFO root fetch - main [MainThread]: End processing [pyfindfiles]: success
 [2024-05-07 01:21:23] INFO root fetch - main [MainThread]: Store serial: [23086004]
+[2024-05-07 01:23:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086004]
+[2024-05-07 01:23:32] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-07 01:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: echodyne
+[2024-05-07 01:23:32] INFO root fetch - processPackages [echodyne]: New version: [0.0.5] Old Version: [0.0.1]
+[2024-05-07 01:23:32] INFO root fetch - processPackages [echodyne]: Downloading https://files.pythonhosted.org/packages/98/d1/2155ffeb1805b740397a9a8443f45980c598a7989d2d83f4a7e6876f844f/echodyne-0.0.1.tar.gz
+[2024-05-07 01:23:32] INFO root fetch - processPackages [echodyne]: Downloading https://files.pythonhosted.org/packages/29/58/dd81943df8dc6abd81498c54874b74a4af5c34cb2ad06316514ef6bf3e71/echodyne-0.0.5.tar.gz
+[2024-05-07 01:23:32] INFO root fetch - processPackages [echodyne]: executing diffoscope
+[2024-05-07 01:23:32] INFO root fetch - processPackages [echodyne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echodyne-0.0.1.tar.gz tmp/echodyne-0.0.5.tar.gz --markdown 20240507/e/echodyne/0.0.1-0.0.5/README.md --exclude *.pyd
+[2024-05-07 01:23:33] INFO root fetch - processPackages [echodyne]: Remove: archive file [/home/abi/fetcher/tmp/echodyne-0.0.1.tar.gz]
+[2024-05-07 01:23:33] INFO root fetch - processPackages [echodyne]: Remove: archive file [/home/abi/fetcher/tmp/echodyne-0.0.5.tar.gz]
+[2024-05-07 01:23:33] INFO root fetch - main [MainThread]: End processing [echodyne]: success
+[2024-05-07 01:23:33] INFO root fetch - main [MainThread]: Store serial: [23086008]
