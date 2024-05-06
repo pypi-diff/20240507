@@ -781,3 +781,48 @@
 [2024-05-07 00:05:55] INFO root fetch - processPackages [aws-solutions-constructs.resources]: Remove: archive file [/home/abi/fetcher/tmp/aws_solutions_constructs.resources-2.57.0-py3-none-any.whl.zip]
 [2024-05-07 00:05:55] INFO root fetch - main [MainThread]: End processing [aws-solutions-constructs.resources]: success
 [2024-05-07 00:05:55] INFO root fetch - main [MainThread]: Store serial: [23085265]
+[2024-05-07 00:07:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085265]
+[2024-05-07 00:08:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fused
+[2024-05-07 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-gadzooks
+[2024-05-07 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linkml-store
+[2024-05-07 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rna-tools
+[2024-05-07 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyogrio
+[2024-05-07 00:08:04] INFO root fetch - processPackages [fused]: New version: [1.6.1] Old Version: [1.5.4]
+[2024-05-07 00:08:04] INFO root fetch - processPackages [py-gadzooks]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-07 00:08:04] INFO root fetch - processPackages [linkml-store]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-07 00:08:04] INFO root fetch - processPackages [rna-tools]: New version: [3.8.6] Old Version: [3.8.5]
+[2024-05-07 00:08:04] INFO root fetch - processPackages [pyogrio]: New version: [0.8.0] Old Version: [0.7.2]
+[2024-05-07 00:08:04] INFO root fetch - processPackages [fused]: Downloading https://files.pythonhosted.org/packages/c0/8f/c644ec910fdfc7785cc75ec3209a177a8a1026133decf21c5113d3a02a81/fused-1.5.4.tar.gz
+[2024-05-07 00:08:04] INFO root fetch - processPackages [py-gadzooks]: Downloading https://files.pythonhosted.org/packages/37/68/6911ed8da68cda6717e85bdadb83491bc9c365bf659fce3d37df83b7f0d5/py_gadzooks-0.2.7.tar.gz
+[2024-05-07 00:08:04] INFO root fetch - processPackages [linkml-store]: Downloading https://files.pythonhosted.org/packages/49/03/0822aa55e7ac4e3a748a7757848bae4893833fc7ea6121d651044e77cb92/linkml_store-0.1.6.tar.gz
+[2024-05-07 00:08:04] INFO root fetch - processPackages [rna-tools]: Downloading https://files.pythonhosted.org/packages/fc/28/54f42db5d1d8058ac335285407279b707fba209f5002f9d45fb13a5507c2/rna_tools-3.8.5-py3-none-any.whl
+[2024-05-07 00:08:04] INFO root fetch - processPackages [pyogrio]: Downloading https://files.pythonhosted.org/packages/9d/8e/39281ad6012c7c1112d5f894dcfd5ac5ac0f09960e7f11048f35c2af1b3c/pyogrio-0.7.2.tar.gz
+[2024-05-07 00:08:04] INFO root fetch - processPackages [py-gadzooks]: Downloading https://files.pythonhosted.org/packages/f2/86/04375fc2d9af6d2fe6245901c2e518a9e3d511c181b455e75fa511d77a14/py_gadzooks-0.2.8.tar.gz
+[2024-05-07 00:08:04] INFO root fetch - processPackages [linkml-store]: Downloading https://files.pythonhosted.org/packages/f3/d8/66a6ee51a87dd1108fd47637189b44f2016cd23a47df135fd74dc6c59fa6/linkml_store-0.1.7.tar.gz
+[2024-05-07 00:08:04] INFO root fetch - processPackages [fused]: Downloading https://files.pythonhosted.org/packages/98/dd/477718bd7ae6f020a5f3a47e87de0d29efbe1319d149e7a36521fb8793ee/fused-1.6.1.tar.gz
+[2024-05-07 00:08:04] INFO root fetch - processPackages [py-gadzooks]: executing diffoscope
+[2024-05-07 00:08:04] INFO root fetch - processPackages [py-gadzooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_gadzooks-0.2.7.tar.gz tmp/py_gadzooks-0.2.8.tar.gz --markdown 20240507/p/py-gadzooks/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-07 00:08:04] INFO root fetch - processPackages [linkml-store]: executing diffoscope
+[2024-05-07 00:08:04] INFO root fetch - processPackages [linkml-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkml_store-0.1.6.tar.gz tmp/linkml_store-0.1.7.tar.gz --markdown 20240507/l/linkml-store/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-07 00:08:04] INFO root fetch - processPackages [pyogrio]: Downloading https://files.pythonhosted.org/packages/6e/40/6a907eda3a21dfa9e90922d3abdba9dbe9ff106dc25c96f091cc996ff658/pyogrio-0.8.0-cp39-cp39-win_amd64.whl
+[2024-05-07 00:08:04] INFO root fetch - processPackages [fused]: executing diffoscope
+[2024-05-07 00:08:04] INFO root fetch - processPackages [fused]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fused-1.5.4.tar.gz tmp/fused-1.6.1.tar.gz --markdown 20240507/f/fused/1.5.4-1.6.1/README.md --exclude *.pyd
+[2024-05-07 00:08:05] INFO root fetch - processPackages [rna-tools]: Downloading https://files.pythonhosted.org/packages/a5/23/4d5f4be246b1d866327d5cc6efa1c4b508e3ca659cfdc33efceda1613518/rna_tools-3.8.6-py3-none-any.whl
+[2024-05-07 00:08:05] INFO root fetch - processPackages [py-gadzooks]: Remove: archive file [/home/abi/fetcher/tmp/py_gadzooks-0.2.7.tar.gz]
+[2024-05-07 00:08:05] INFO root fetch - processPackages [py-gadzooks]: Remove: archive file [/home/abi/fetcher/tmp/py_gadzooks-0.2.8.tar.gz]
+[2024-05-07 00:08:05] INFO root fetch - main [MainThread]: End processing [py-gadzooks]: success
+[2024-05-07 00:08:05] INFO root fetch - processPackages [linkml-store]: Remove: archive file [/home/abi/fetcher/tmp/linkml_store-0.1.6.tar.gz]
+[2024-05-07 00:08:05] INFO root fetch - processPackages [linkml-store]: Remove: archive file [/home/abi/fetcher/tmp/linkml_store-0.1.7.tar.gz]
+[2024-05-07 00:08:05] INFO root fetch - main [MainThread]: End processing [linkml-store]: success
+[2024-05-07 00:08:05] INFO root fetch - processPackages [rna-tools]: executing diffoscope
+[2024-05-07 00:08:05] INFO root fetch - processPackages [rna-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rna_tools-3.8.5-py3-none-any.whl.zip tmp/rna_tools-3.8.6-py3-none-any.whl.zip --markdown 20240507/r/rna-tools/3.8.5-3.8.6/README.md --exclude *.pyd
+[2024-05-07 00:08:05] WARNING root fetch - processPackages [pyogrio]: Skipping package: exceeds size limit 15913806>=10485760
+[2024-05-07 00:08:05] INFO root fetch - main [MainThread]: End processing [pyogrio] error
+[2024-05-07 00:08:05] INFO root fetch - processPackages [fused]: Remove: archive file [/home/abi/fetcher/tmp/fused-1.5.4.tar.gz]
+[2024-05-07 00:08:05] INFO root fetch - processPackages [fused]: Remove: archive file [/home/abi/fetcher/tmp/fused-1.6.1.tar.gz]
+[2024-05-07 00:08:05] INFO root fetch - main [MainThread]: End processing [fused]: success
+[2024-05-07 00:08:07] INFO root fetch - processPackages [rna-tools]: Remove: archive file [/home/abi/fetcher/tmp/rna_tools-3.8.5-py3-none-any.whl.zip]
+[2024-05-07 00:08:07] INFO root fetch - processPackages [rna-tools]: Remove: archive file [/home/abi/fetcher/tmp/rna_tools-3.8.6-py3-none-any.whl.zip]
+[2024-05-07 00:08:07] INFO root fetch - main [MainThread]: End processing [rna-tools]: success
+[2024-05-07 00:08:07] INFO root fetch - main [MainThread]: Store serial: [23085306]
