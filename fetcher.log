@@ -1322,3 +1322,24 @@
 [2024-05-07 00:34:15] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.2.8.tar.gz]
 [2024-05-07 00:34:15] INFO root fetch - main [MainThread]: End processing [model-checker]: success
 [2024-05-07 00:34:15] INFO root fetch - main [MainThread]: Store serial: [23085477]
+[2024-05-07 00:36:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085477]
+[2024-05-07 00:36:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 00:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swh.storage
+[2024-05-07 00:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-pulumiservice
+[2024-05-07 00:36:24] INFO root fetch - processPackages [pulumi-pulumiservice]: New version: [0.9.1a1689804796] Old Version: [0.9.0]
+[2024-05-07 00:36:24] INFO root fetch - processPackages [swh.storage]: New version: [2.3.0] Old Version: [2.2.2]
+[2024-05-07 00:36:24] INFO root fetch - processPackages [swh.storage]: Downloading https://files.pythonhosted.org/packages/7f/f1/8ff409b8005a3a9ad153e444f3df0e4dbd8b3b63e6b47501d9c70d1fa9ff/swh.storage-2.2.2.tar.gz
+[2024-05-07 00:36:24] INFO root fetch - processPackages [pulumi-pulumiservice]: Downloading https://files.pythonhosted.org/packages/7f/2a/9f172c6f432bb1aedfdc2e6f674950d4011b0a5dfb418490d7becd77c215/pulumi_pulumiservice-0.9.0.tar.gz
+[2024-05-07 00:36:25] INFO root fetch - processPackages [pulumi-pulumiservice]: Downloading https://files.pythonhosted.org/packages/0d/88/d9123d1fbed34a277c17acb768dc334c7d111b33c5820b8a76ce41794601/pulumi_pulumiservice-0.9.1a1689804796.tar.gz
+[2024-05-07 00:36:25] INFO root fetch - processPackages [pulumi-pulumiservice]: executing diffoscope
+[2024-05-07 00:36:25] INFO root fetch - processPackages [pulumi-pulumiservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pulumiservice-0.9.0.tar.gz tmp/pulumi_pulumiservice-0.9.1a1689804796.tar.gz --markdown 20240507/p/pulumi-pulumiservice/0.9.0-0.9.1a1689804796/README.md --exclude *.pyd
+[2024-05-07 00:36:25] INFO root fetch - processPackages [swh.storage]: Downloading https://files.pythonhosted.org/packages/34/a8/a1d2c4c1e71603f9f6acdf7562c55fce194e06ccf059d60a2c2d61783c0f/swh_storage-2.3.0.tar.gz
+[2024-05-07 00:36:25] INFO root fetch - processPackages [swh.storage]: executing diffoscope
+[2024-05-07 00:36:25] INFO root fetch - processPackages [swh.storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.storage-2.2.2.tar.gz tmp/swh_storage-2.3.0.tar.gz --markdown 20240507/s/swh.storage/2.2.2-2.3.0/README.md --exclude *.pyd
+[2024-05-07 00:36:25] INFO root fetch - processPackages [pulumi-pulumiservice]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pulumiservice-0.9.0.tar.gz]
+[2024-05-07 00:36:25] INFO root fetch - processPackages [pulumi-pulumiservice]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pulumiservice-0.9.1a1689804796.tar.gz]
+[2024-05-07 00:36:25] INFO root fetch - main [MainThread]: End processing [pulumi-pulumiservice]: success
+[2024-05-07 00:36:27] INFO root fetch - processPackages [swh.storage]: Remove: archive file [/home/abi/fetcher/tmp/swh.storage-2.2.2.tar.gz]
+[2024-05-07 00:36:27] INFO root fetch - processPackages [swh.storage]: Remove: archive file [/home/abi/fetcher/tmp/swh_storage-2.3.0.tar.gz]
+[2024-05-07 00:36:27] INFO root fetch - main [MainThread]: End processing [swh.storage]: success
+[2024-05-07 00:36:27] INFO root fetch - main [MainThread]: Store serial: [23085482]
