@@ -2340,3 +2340,60 @@
 [2024-05-07 01:38:44] INFO root fetch - processPackages [PennyLane]: Remove: archive file [/home/abi/fetcher/tmp/PennyLane-0.9.0.tar.gz]
 [2024-05-07 01:38:44] INFO root fetch - main [MainThread]: End processing [PennyLane]: success
 [2024-05-07 01:38:44] INFO root fetch - main [MainThread]: Store serial: [23086079]
+[2024-05-07 01:40:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086079]
+[2024-05-07 01:40:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 01:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leanblueprint
+[2024-05-07 01:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyGeodesy
+[2024-05-07 01:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: policyengine-us
+[2024-05-07 01:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: model-checker
+[2024-05-07 01:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Python-Education-Tools
+[2024-05-07 01:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tja2fumen
+[2024-05-07 01:40:52] INFO root fetch - processPackages [model-checker]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-07 01:40:53] INFO root fetch - processPackages [policyengine-us]: New version: [0.761.0] Old Version: [0.760.0]
+[2024-05-07 01:40:53] INFO root fetch - processPackages [leanblueprint]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 01:40:53] INFO root fetch - processPackages [Python-Education-Tools]: New version: [24.5.8] Old Version: [24.5.3]
+[2024-05-07 01:40:53] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/af/30/4ed3932e6601fb2157b1867c447d2527ce33319207b9569a92999c51897d/model_checker-0.2.8.tar.gz
+[2024-05-07 01:40:53] INFO root fetch - processPackages [tja2fumen]: New version: [0.8.0.dev0] Old Version: [0.8.0]
+[2024-05-07 01:40:53] INFO root fetch - processPackages [PyGeodesy]: New version: [24.5.6] Old Version: [24.5.2]
+[2024-05-07 01:40:53] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/fa/02/135fc07bdbf009b0be636722f683af3fd171a559cbd60f25f5d5b1666b0a/policyengine-us-0.760.0.tar.gz
+[2024-05-07 01:40:53] INFO root fetch - processPackages [Python-Education-Tools]: Downloading https://files.pythonhosted.org/packages/f9/94/1a054bf5a1f5c7c4dcc779cd3e6a2beb54a735ddc01c6ea4684e814c46ba/Python_Education_Tools-24.5.3-py3-none-any.whl
+[2024-05-07 01:40:53] INFO root fetch - processPackages [leanblueprint]: Downloading https://files.pythonhosted.org/packages/48/2e/2abd8499047e93b1974043f3778c4adac453b6d911d0f4e6c962fdfa30d8/leanblueprint-0.0.8.tar.gz
+[2024-05-07 01:40:53] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/b0/5d/2fd0841d97c92fe2c2e0aad9e80136575bc38e7eef167fe4380eda54a596/model_checker-0.2.9.tar.gz
+[2024-05-07 01:40:53] INFO root fetch - processPackages [PyGeodesy]: Downloading https://files.pythonhosted.org/packages/60/c0/823ac6129458563389bcd7dccba316e5b86412bede2ac4019f4e6c6dce52/PyGeodesy-24.5.2.zip
+[2024-05-07 01:40:53] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/a0/8f/46cdb1585fd996265385f62adb4efda125b37bf96a4517ec875fb02a3474/tja2fumen-0.8.0.tar.gz
+[2024-05-07 01:40:53] INFO root fetch - processPackages [model-checker]: executing diffoscope
+[2024-05-07 01:40:53] INFO root fetch - processPackages [model-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_checker-0.2.8.tar.gz tmp/model_checker-0.2.9.tar.gz --markdown 20240507/m/model-checker/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-07 01:40:53] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/59/14/42c84a718c755c1e6f995100c970a8c2f77ba762e03ca1ecf8dd3702b1a8/policyengine-us-0.761.0.tar.gz
+[2024-05-07 01:40:53] INFO root fetch - processPackages [leanblueprint]: Downloading https://files.pythonhosted.org/packages/30/75/cf4083c3bacc3047a3b26153a689ecbec15a93cba4553ca630c935b5aff5/leanblueprint-0.0.9.tar.gz
+[2024-05-07 01:40:53] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/99/c7/c4e3e405528e0eb912ec768cdba5a613b4ab5f564ddf3fed96d77f624fe8/tja2fumen-0.8.0.dev0.tar.gz
+[2024-05-07 01:40:53] INFO root fetch - processPackages [leanblueprint]: executing diffoscope
+[2024-05-07 01:40:53] INFO root fetch - processPackages [leanblueprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leanblueprint-0.0.8.tar.gz tmp/leanblueprint-0.0.9.tar.gz --markdown 20240507/l/leanblueprint/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 01:40:53] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-05-07 01:40:53] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.760.0.tar.gz tmp/policyengine-us-0.761.0.tar.gz --markdown 20240507/p/policyengine-us/0.760.0-0.761.0/README.md --exclude *.pyd
+[2024-05-07 01:40:53] INFO root fetch - processPackages [Python-Education-Tools]: Downloading https://files.pythonhosted.org/packages/42/3c/1f2f6573ad9661f267e29c6b9dc46f6e0c80fa8555e8c52475fb718fd47d/Python_Education_Tools-24.5.8-py3-none-any.whl
+[2024-05-07 01:40:53] INFO root fetch - processPackages [tja2fumen]: executing diffoscope
+[2024-05-07 01:40:53] INFO root fetch - processPackages [tja2fumen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tja2fumen-0.8.0.tar.gz tmp/tja2fumen-0.8.0.dev0.tar.gz --markdown 20240507/t/tja2fumen/0.8.0-0.8.0.dev0/README.md --exclude *.pyd
+[2024-05-07 01:40:54] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.2.8.tar.gz]
+[2024-05-07 01:40:54] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.2.9.tar.gz]
+[2024-05-07 01:40:54] INFO root fetch - main [MainThread]: End processing [model-checker]: success
+[2024-05-07 01:40:54] INFO root fetch - processPackages [PyGeodesy]: Downloading https://files.pythonhosted.org/packages/11/54/919431c21b706ee3341a26d1ed29304e4e1cdfd1d92daa2f359cd77aabcc/PyGeodesy-24.5.6.zip
+[2024-05-07 01:40:54] INFO root fetch - processPackages [Python-Education-Tools]: executing diffoscope
+[2024-05-07 01:40:54] INFO root fetch - processPackages [Python-Education-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python_Education_Tools-24.5.3-py3-none-any.whl.zip tmp/Python_Education_Tools-24.5.8-py3-none-any.whl.zip --markdown 20240507/P/Python-Education-Tools/24.5.3-24.5.8/README.md --exclude *.pyd
+[2024-05-07 01:40:54] INFO root fetch - processPackages [leanblueprint]: Remove: archive file [/home/abi/fetcher/tmp/leanblueprint-0.0.8.tar.gz]
+[2024-05-07 01:40:54] INFO root fetch - processPackages [leanblueprint]: Remove: archive file [/home/abi/fetcher/tmp/leanblueprint-0.0.9.tar.gz]
+[2024-05-07 01:40:54] INFO root fetch - main [MainThread]: End processing [leanblueprint]: success
+[2024-05-07 01:40:54] INFO root fetch - processPackages [PyGeodesy]: executing diffoscope
+[2024-05-07 01:40:54] INFO root fetch - processPackages [PyGeodesy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGeodesy-24.5.2.zip tmp/PyGeodesy-24.5.6.zip --markdown 20240507/P/PyGeodesy/24.5.2-24.5.6/README.md --exclude *.pyd
+[2024-05-07 01:40:54] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.8.0.tar.gz]
+[2024-05-07 01:40:54] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.8.0.dev0.tar.gz]
+[2024-05-07 01:40:54] INFO root fetch - main [MainThread]: End processing [tja2fumen]: success
+[2024-05-07 01:40:55] INFO root fetch - processPackages [Python-Education-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Python_Education_Tools-24.5.3-py3-none-any.whl.zip]
+[2024-05-07 01:40:55] INFO root fetch - processPackages [Python-Education-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Python_Education_Tools-24.5.8-py3-none-any.whl.zip]
+[2024-05-07 01:40:55] INFO root fetch - main [MainThread]: End processing [Python-Education-Tools]: success
+[2024-05-07 01:41:26] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.760.0.tar.gz]
+[2024-05-07 01:41:26] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.761.0.tar.gz]
+[2024-05-07 01:41:26] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-05-07 01:41:28] INFO root fetch - processPackages [PyGeodesy]: Remove: archive file [/home/abi/fetcher/tmp/PyGeodesy-24.5.2.zip]
+[2024-05-07 01:41:28] INFO root fetch - processPackages [PyGeodesy]: Remove: archive file [/home/abi/fetcher/tmp/PyGeodesy-24.5.6.zip]
+[2024-05-07 01:41:28] INFO root fetch - main [MainThread]: End processing [PyGeodesy]: success
+[2024-05-07 01:41:28] INFO root fetch - main [MainThread]: Store serial: [23086096]
