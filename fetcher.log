@@ -904,3 +904,63 @@
 [2024-05-07 00:12:30] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.9-py3-none-any.whl.zip]
 [2024-05-07 00:12:30] INFO root fetch - main [MainThread]: End processing [marcel]: success
 [2024-05-07 00:12:30] INFO root fetch - main [MainThread]: Store serial: [23085329]
+[2024-05-07 00:14:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085329]
+[2024-05-07 00:14:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 00:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marcel
+[2024-05-07 00:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netclop
+[2024-05-07 00:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: model-checker
+[2024-05-07 00:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openinference-instrumentation
+[2024-05-07 00:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi
+[2024-05-07 00:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: experiment-helpers
+[2024-05-07 00:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyoats
+[2024-05-07 00:14:38] INFO root fetch - processPackages [model-checker]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-07 00:14:38] INFO root fetch - processPackages [marcel]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-07 00:14:38] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-05-07 00:14:38] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/54/94/976b5e8227fa1e23756894c9601e747709d84fcb8b9528f0934255189179/model_checker-0.2.6.tar.gz
+[2024-05-07 00:14:38] INFO root fetch - processPackages [openinference-instrumentation]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-07 00:14:38] INFO root fetch - processPackages [netclop]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-07 00:14:38] WARNING root fetch - processPackages [experiment-helpers]: Skipping, unable to determine old version
+[2024-05-07 00:14:38] INFO root fetch - main [MainThread]: End processing [experiment-helpers] error
+[2024-05-07 00:14:38] INFO root fetch - processPackages [pyoats]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-07 00:14:38] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-05-07 00:14:38] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/3a/07/c626f18aa14df89e1f194e115cbffaa2d99bcfc736f7251795e2f889c0d6/marcel-0.9.8-py3-none-any.whl
+[2024-05-07 00:14:38] INFO root fetch - processPackages [openinference-instrumentation]: Downloading https://files.pythonhosted.org/packages/91/5a/1b19b73fa090438304d1600d0247c08d8fd8051bd349480361686136fd4f/openinference_instrumentation-0.1.3.tar.gz
+[2024-05-07 00:14:39] INFO root fetch - processPackages [netclop]: Downloading https://files.pythonhosted.org/packages/7b/ec/07b2d7397a59f4b6becaa4801eb6dd0ff374bf912361882d9e80e3db7ce9/netclop-0.9.0.tar.gz
+[2024-05-07 00:14:39] INFO root fetch - processPackages [pyoats]: Downloading https://files.pythonhosted.org/packages/f1/4f/af3ef114e98dd67318d241ccb0079777bc7458976079ae1ebd53681a42e2/pyoats-0.1.3.tar.gz
+[2024-05-07 00:14:39] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-05-07 00:14:39] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/4b/3d/fd4bc1e7906ea7d19b4ad1010b8dce76e96202ac6886bcab6162db5f992f/marcel-0.9.9-py3-none-any.whl
+[2024-05-07 00:14:39] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/da/06/9cc2b664127363e8db52dd0dcbe5fbb2877a0fcfea243c6a35dd4677257c/model_checker-0.2.7.tar.gz
+[2024-05-07 00:14:39] INFO root fetch - processPackages [model-checker]: executing diffoscope
+[2024-05-07 00:14:39] INFO root fetch - processPackages [model-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_checker-0.2.6.tar.gz tmp/model_checker-0.2.7.tar.gz --markdown 20240507/m/model-checker/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-07 00:14:39] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-05-07 00:14:39] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240507/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-05-07 00:14:39] INFO root fetch - processPackages [marcel]: executing diffoscope
+[2024-05-07 00:14:39] INFO root fetch - processPackages [marcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marcel-0.9.8-py3-none-any.whl.zip tmp/marcel-0.9.9-py3-none-any.whl.zip --markdown 20240507/m/marcel/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-07 00:14:39] INFO root fetch - processPackages [openinference-instrumentation]: Downloading https://files.pythonhosted.org/packages/67/2e/144bd56cad7d6e00899c0b3ccf1701d3ac55a1805109620f0c04165977da/openinference_instrumentation-0.1.4.tar.gz
+[2024-05-07 00:14:39] INFO root fetch - processPackages [netclop]: Downloading https://files.pythonhosted.org/packages/3b/fe/41e73a17fd29eeb19e10e52e4257fdfdf5f4e2f8c3003313ee05695247dd/netclop-0.9.1.tar.gz
+[2024-05-07 00:14:39] INFO root fetch - processPackages [openinference-instrumentation]: executing diffoscope
+[2024-05-07 00:14:39] INFO root fetch - processPackages [openinference-instrumentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openinference_instrumentation-0.1.3.tar.gz tmp/openinference_instrumentation-0.1.4.tar.gz --markdown 20240507/o/openinference-instrumentation/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-07 00:14:39] INFO root fetch - processPackages [pyoats]: Downloading https://files.pythonhosted.org/packages/74/f8/aea6d2043d930c971aea23cbd22e0a22c9f827b0980e1a0f13e0d459bb1f/pyoats-0.1.4.tar.gz
+[2024-05-07 00:14:39] INFO root fetch - processPackages [netclop]: executing diffoscope
+[2024-05-07 00:14:39] INFO root fetch - processPackages [netclop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netclop-0.9.0.tar.gz tmp/netclop-0.9.1.tar.gz --markdown 20240507/n/netclop/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-07 00:14:39] INFO root fetch - processPackages [pyoats]: executing diffoscope
+[2024-05-07 00:14:39] INFO root fetch - processPackages [pyoats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoats-0.1.3.tar.gz tmp/pyoats-0.1.4.tar.gz --markdown 20240507/p/pyoats/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-07 00:14:39] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.2.6.tar.gz]
+[2024-05-07 00:14:39] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.2.7.tar.gz]
+[2024-05-07 00:14:39] INFO root fetch - main [MainThread]: End processing [model-checker]: success
+[2024-05-07 00:14:40] INFO root fetch - processPackages [openinference-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation-0.1.3.tar.gz]
+[2024-05-07 00:14:40] INFO root fetch - processPackages [openinference-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation-0.1.4.tar.gz]
+[2024-05-07 00:14:40] INFO root fetch - main [MainThread]: End processing [openinference-instrumentation]: success
+[2024-05-07 00:14:40] INFO root fetch - processPackages [netclop]: Remove: archive file [/home/abi/fetcher/tmp/netclop-0.9.0.tar.gz]
+[2024-05-07 00:14:40] INFO root fetch - processPackages [netclop]: Remove: archive file [/home/abi/fetcher/tmp/netclop-0.9.1.tar.gz]
+[2024-05-07 00:14:40] INFO root fetch - main [MainThread]: End processing [netclop]: success
+[2024-05-07 00:14:40] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-05-07 00:14:40] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-05-07 00:14:40] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-05-07 00:14:40] INFO root fetch - processPackages [pyoats]: Remove: archive file [/home/abi/fetcher/tmp/pyoats-0.1.3.tar.gz]
+[2024-05-07 00:14:40] INFO root fetch - processPackages [pyoats]: Remove: archive file [/home/abi/fetcher/tmp/pyoats-0.1.4.tar.gz]
+[2024-05-07 00:14:40] INFO root fetch - main [MainThread]: End processing [pyoats]: success
+[2024-05-07 00:14:40] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.8-py3-none-any.whl.zip]
+[2024-05-07 00:14:40] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.9-py3-none-any.whl.zip]
+[2024-05-07 00:14:40] INFO root fetch - main [MainThread]: End processing [marcel]: success
+[2024-05-07 00:14:40] INFO root fetch - main [MainThread]: Store serial: [23085354]
