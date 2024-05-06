@@ -1072,3 +1072,69 @@
 [2024-05-07 00:21:11] INFO root fetch - main [MainThread]: End processing [mlflow-cratedb]: success
 [2024-05-07 00:21:11] INFO root fetch - main [MainThread]: End processing [atmosphericRadiationDoseAndFlux]: success
 [2024-05-07 00:21:11] INFO root fetch - main [MainThread]: Store serial: [23085390]
+[2024-05-07 00:23:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085390]
+[2024-05-07 00:23:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 00:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: echodyne
+[2024-05-07 00:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: financial-datasets
+[2024-05-07 00:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metaflow-stubs
+[2024-05-07 00:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metaflow
+[2024-05-07 00:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biobb-pytorch
+[2024-05-07 00:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: promptwatch
+[2024-05-07 00:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nicotine-plus
+[2024-05-07 00:23:19] INFO root fetch - processPackages [echodyne]: New version: [0.0.1] Old Version: [0.0.0.1]
+[2024-05-07 00:23:19] INFO root fetch - processPackages [financial-datasets]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 00:23:19] INFO root fetch - processPackages [promptwatch]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-07 00:23:19] INFO root fetch - processPackages [biobb-pytorch]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-05-07 00:23:19] INFO root fetch - processPackages [nicotine-plus]: New version: [3.3.4] Old Version: [3.3.3]
+[2024-05-07 00:23:19] INFO root fetch - processPackages [metaflow-stubs]: New version: [2.11.9] Old Version: [2.11.8]
+[2024-05-07 00:23:19] INFO root fetch - processPackages [metaflow]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-07 00:23:19] INFO root fetch - processPackages [echodyne]: Downloading https://files.pythonhosted.org/packages/c3/73/966fd49cc95ef7b2b77a6c0e40e9c881d39bd9e611f17392988e000acde9/echodyne-0.0.0.1-py3-none-any.whl
+[2024-05-07 00:23:20] INFO root fetch - processPackages [financial-datasets]: Downloading https://files.pythonhosted.org/packages/36/94/255abe9cb6d903e14abd37e03da6cf223d9808470f9dd5d79169b683cc32/financial_datasets-0.1.8.tar.gz
+[2024-05-07 00:23:20] INFO root fetch - processPackages [promptwatch]: Downloading https://files.pythonhosted.org/packages/c0/26/6a821b2c5be8726052d56158ec627ad1807f8c7f1b0a6320774939ef37b6/promptwatch-0.4.4.tar.gz
+[2024-05-07 00:23:20] INFO root fetch - processPackages [biobb-pytorch]: Downloading https://files.pythonhosted.org/packages/21/b9/451c0dc4d426a27cee1ba55909ffaeb21565cfb13bd0e159b51aa184d74c/biobb_pytorch-4.1.0.tar.gz
+[2024-05-07 00:23:20] INFO root fetch - processPackages [metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/de/13/ffe01e2cae343dd8025eab13d69b5d62bd71681ab061e8c36af9666a698b/metaflow-stubs-2.11.8.tar.gz
+[2024-05-07 00:23:20] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/44/4c/81a863eb61cc3eb10a21d19229d37d1cc3b50218fa45146c79e2b9122f45/metaflow-2.9.8.tar.gz
+[2024-05-07 00:23:20] INFO root fetch - processPackages [nicotine-plus]: Downloading https://files.pythonhosted.org/packages/0d/90/7e808ba3a5d9bcff4319c50ed7ac233853d8f5cd90518caf0c5305f1d3bc/nicotine_plus-3.3.3.tar.gz
+[2024-05-07 00:23:20] INFO root fetch - processPackages [echodyne]: Downloading https://files.pythonhosted.org/packages/98/d1/2155ffeb1805b740397a9a8443f45980c598a7989d2d83f4a7e6876f844f/echodyne-0.0.1.tar.gz
+[2024-05-07 00:23:20] INFO root fetch - processPackages [financial-datasets]: Downloading https://files.pythonhosted.org/packages/87/a1/22bd6c400ec0e79b048a16568be6b9aef6c214655800975327559d6f37fa/financial_datasets-0.1.9.tar.gz
+[2024-05-07 00:23:20] INFO root fetch - processPackages [echodyne]: executing diffoscope
+[2024-05-07 00:23:20] INFO root fetch - processPackages [echodyne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echodyne-0.0.0.1-py3-none-any.whl.zip tmp/echodyne-0.0.1.tar.gz --markdown 20240507/e/echodyne/0.0.0.1-0.0.1/README.md --exclude *.pyd
+[2024-05-07 00:23:20] INFO root fetch - processPackages [biobb-pytorch]: Downloading https://files.pythonhosted.org/packages/ef/54/93e9f491c174fee70f4696e1435c15505c45c2a976d0c196ab91fd42b537/biobb_pytorch-4.1.1.tar.gz
+[2024-05-07 00:23:20] INFO root fetch - processPackages [promptwatch]: Downloading https://files.pythonhosted.org/packages/03/f5/28f83949b891f1ce6c49167c69f80451e4d0cb741e4787b9b466bf073373/promptwatch-0.4.5.tar.gz
+[2024-05-07 00:23:20] INFO root fetch - processPackages [financial-datasets]: executing diffoscope
+[2024-05-07 00:23:20] INFO root fetch - processPackages [financial-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financial_datasets-0.1.8.tar.gz tmp/financial_datasets-0.1.9.tar.gz --markdown 20240507/f/financial-datasets/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 00:23:20] INFO root fetch - processPackages [biobb-pytorch]: executing diffoscope
+[2024-05-07 00:23:20] INFO root fetch - processPackages [biobb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_pytorch-4.1.0.tar.gz tmp/biobb_pytorch-4.1.1.tar.gz --markdown 20240507/b/biobb-pytorch/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-05-07 00:23:20] INFO root fetch - processPackages [metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/93/d9/ff4fdd76c5436176503c5c86034e607815e89abf05a9bced2dc60dca48a5/metaflow-stubs-2.11.9.tar.gz
+[2024-05-07 00:23:20] INFO root fetch - processPackages [promptwatch]: executing diffoscope
+[2024-05-07 00:23:20] INFO root fetch - processPackages [promptwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptwatch-0.4.4.tar.gz tmp/promptwatch-0.4.5.tar.gz --markdown 20240507/p/promptwatch/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-07 00:23:20] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/63/60/3262d89f8512f63109d640bc0d30b7f6e64a1efeab58463d69f43d2275ad/metaflow-2.9.9.tar.gz
+[2024-05-07 00:23:20] INFO root fetch - processPackages [metaflow-stubs]: executing diffoscope
+[2024-05-07 00:23:20] INFO root fetch - processPackages [metaflow-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow-stubs-2.11.8.tar.gz tmp/metaflow-stubs-2.11.9.tar.gz --markdown 20240507/m/metaflow-stubs/2.11.8-2.11.9/README.md --exclude *.pyd
+[2024-05-07 00:23:20] INFO root fetch - processPackages [nicotine-plus]: Downloading https://files.pythonhosted.org/packages/63/1c/73f765da20b5b7e3579f6099490a9c4ac93e7c6341f97cf51d53ea0df49f/nicotine_plus-3.3.4.tar.gz
+[2024-05-07 00:23:20] INFO root fetch - processPackages [metaflow]: executing diffoscope
+[2024-05-07 00:23:20] INFO root fetch - processPackages [metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow-2.9.8.tar.gz tmp/metaflow-2.9.9.tar.gz --markdown 20240507/m/metaflow/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-07 00:23:21] INFO root fetch - processPackages [echodyne]: Remove: archive file [/home/abi/fetcher/tmp/echodyne-0.0.0.1-py3-none-any.whl.zip]
+[2024-05-07 00:23:21] INFO root fetch - processPackages [echodyne]: Remove: archive file [/home/abi/fetcher/tmp/echodyne-0.0.1.tar.gz]
+[2024-05-07 00:23:21] INFO root fetch - main [MainThread]: End processing [echodyne]: success
+[2024-05-07 00:23:21] INFO root fetch - processPackages [biobb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/biobb_pytorch-4.1.0.tar.gz]
+[2024-05-07 00:23:21] INFO root fetch - processPackages [biobb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/biobb_pytorch-4.1.1.tar.gz]
+[2024-05-07 00:23:21] INFO root fetch - main [MainThread]: End processing [biobb-pytorch]: success
+[2024-05-07 00:23:21] INFO root fetch - processPackages [promptwatch]: Remove: archive file [/home/abi/fetcher/tmp/promptwatch-0.4.4.tar.gz]
+[2024-05-07 00:23:21] INFO root fetch - processPackages [promptwatch]: Remove: archive file [/home/abi/fetcher/tmp/promptwatch-0.4.5.tar.gz]
+[2024-05-07 00:23:21] INFO root fetch - main [MainThread]: End processing [promptwatch]: success
+[2024-05-07 00:23:21] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.8.tar.gz]
+[2024-05-07 00:23:21] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.9.tar.gz]
+[2024-05-07 00:23:21] INFO root fetch - main [MainThread]: End processing [financial-datasets]: success
+[2024-05-07 00:23:21] INFO root fetch - processPackages [nicotine-plus]: executing diffoscope
+[2024-05-07 00:23:21] INFO root fetch - processPackages [nicotine-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicotine_plus-3.3.3.tar.gz tmp/nicotine_plus-3.3.4.tar.gz --markdown 20240507/n/nicotine-plus/3.3.3-3.3.4/README.md --exclude *.pyd
+[2024-05-07 00:23:22] INFO root fetch - processPackages [metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-stubs-2.11.8.tar.gz]
+[2024-05-07 00:23:22] INFO root fetch - processPackages [metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-stubs-2.11.9.tar.gz]
+[2024-05-07 00:23:22] INFO root fetch - main [MainThread]: End processing [metaflow-stubs]: success
+[2024-05-07 00:23:22] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.8.tar.gz]
+[2024-05-07 00:23:22] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.9.tar.gz]
+[2024-05-07 00:23:22] INFO root fetch - main [MainThread]: End processing [metaflow]: success
+[2024-05-07 00:23:24] INFO root fetch - processPackages [nicotine-plus]: Remove: archive file [/home/abi/fetcher/tmp/nicotine_plus-3.3.3.tar.gz]
+[2024-05-07 00:23:24] INFO root fetch - processPackages [nicotine-plus]: Remove: archive file [/home/abi/fetcher/tmp/nicotine_plus-3.3.4.tar.gz]
+[2024-05-07 00:23:24] INFO root fetch - main [MainThread]: End processing [nicotine-plus]: success
+[2024-05-07 00:23:24] INFO root fetch - main [MainThread]: Store serial: [23085412]
