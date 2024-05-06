@@ -1964,3 +1964,21 @@
 [2024-05-07 01:12:42] INFO root fetch - processPackages [nbproject]: Remove: archive file [/home/abi/fetcher/tmp/nbproject-0.9.2.tar.gz]
 [2024-05-07 01:12:42] INFO root fetch - main [MainThread]: End processing [nbproject]: success
 [2024-05-07 01:12:42] INFO root fetch - main [MainThread]: Store serial: [23085918]
+[2024-05-07 01:14:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085918]
+[2024-05-07 01:14:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 01:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rustitude
+[2024-05-07 01:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lasertools-traceprocess
+[2024-05-07 01:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manipuimg
+[2024-05-07 01:14:51] INFO root fetch - processPackages [rustitude]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-07 01:14:51] WARNING root fetch - processPackages [lasertools-traceprocess]: Skipping, unable to determine old version
+[2024-05-07 01:14:51] INFO root fetch - main [MainThread]: End processing [lasertools-traceprocess] error
+[2024-05-07 01:14:51] WARNING root fetch - processPackages [manipuimg]: Skipping, unable to determine old version
+[2024-05-07 01:14:51] INFO root fetch - main [MainThread]: End processing [manipuimg] error
+[2024-05-07 01:14:51] INFO root fetch - processPackages [rustitude]: Downloading https://files.pythonhosted.org/packages/a1/9b/56647eeb81ac7b568889c052cc2ff136f424d88bbe0b0afc28508027818b/rustitude-0.3.3.tar.gz
+[2024-05-07 01:14:51] INFO root fetch - processPackages [rustitude]: Downloading https://files.pythonhosted.org/packages/d6/33/e30971a41a6ce04f9878bba8078efd68d639701484139cf2021b55c00f8b/rustitude-0.3.4.tar.gz
+[2024-05-07 01:14:52] INFO root fetch - processPackages [rustitude]: executing diffoscope
+[2024-05-07 01:14:52] INFO root fetch - processPackages [rustitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustitude-0.3.3.tar.gz tmp/rustitude-0.3.4.tar.gz --markdown 20240507/r/rustitude/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-07 01:14:52] INFO root fetch - processPackages [rustitude]: Remove: archive file [/home/abi/fetcher/tmp/rustitude-0.3.3.tar.gz]
+[2024-05-07 01:14:52] INFO root fetch - processPackages [rustitude]: Remove: archive file [/home/abi/fetcher/tmp/rustitude-0.3.4.tar.gz]
+[2024-05-07 01:14:52] INFO root fetch - main [MainThread]: End processing [rustitude]: success
+[2024-05-07 01:14:52] INFO root fetch - main [MainThread]: Store serial: [23085942]
