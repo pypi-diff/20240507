@@ -2301,3 +2301,42 @@
 [2024-05-07 01:36:32] INFO root fetch - processPackages [dioptic.profileparser]: Remove: archive file [/home/abi/fetcher/tmp/dioptic_profileparser-0.3.2-cp310-cp310-win_amd64.whl.zip]
 [2024-05-07 01:36:32] INFO root fetch - main [MainThread]: End processing [dioptic.profileparser]: success
 [2024-05-07 01:36:32] INFO root fetch - main [MainThread]: Store serial: [23086066]
+[2024-05-07 01:38:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086066]
+[2024-05-07 01:38:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 01:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dioptic.profileparser
+[2024-05-07 01:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: playsound3
+[2024-05-07 01:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PennyLane
+[2024-05-07 01:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LorenzTelegram
+[2024-05-07 01:38:41] INFO root fetch - processPackages [dioptic.profileparser]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-07 01:38:41] INFO root fetch - processPackages [playsound3]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-07 01:38:41] INFO root fetch - processPackages [dioptic.profileparser]: Downloading https://files.pythonhosted.org/packages/45/2d/3c2e3a46e7f7403a4b336ed0f75722839572e93dd95debe1335695e19b97/dioptic_profileparser-0.3.1.tar.gz
+[2024-05-07 01:38:41] INFO root fetch - processPackages [playsound3]: Downloading https://files.pythonhosted.org/packages/22/0c/7f4ac1dd6fbacb9c238854458f946ffd06f154520b61bdf2302df2786a48/playsound3-2.0.3.tar.gz
+[2024-05-07 01:38:41] INFO root fetch - processPackages [PennyLane]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-07 01:38:41] INFO root fetch - processPackages [LorenzTelegram]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-05-07 01:38:42] INFO root fetch - processPackages [dioptic.profileparser]: Downloading https://files.pythonhosted.org/packages/bf/de/dc45f4d5439ec385083bd458da215537cd1c07b5ef16a5b5f68896e5f2a1/dioptic_profileparser-0.3.2-cp310-cp310-win_amd64.whl
+[2024-05-07 01:38:42] INFO root fetch - processPackages [PennyLane]: Downloading https://files.pythonhosted.org/packages/65/32/337774b53bf1630e9e62b241e692b8e1ab930c766eb4102cd413b0d4243f/PennyLane-0.8.1.tar.gz
+[2024-05-07 01:38:42] INFO root fetch - processPackages [LorenzTelegram]: Downloading https://files.pythonhosted.org/packages/83/24/be834449fa56eefe2eddc1b3a078f6fe4832b545824060363fef91a49e3b/lorenztelegram-0.0.2.tar.gz
+[2024-05-07 01:38:42] INFO root fetch - processPackages [playsound3]: Downloading https://files.pythonhosted.org/packages/63/3c/a2ea461be61c9b432d27341d4b1029355f0a4339b808b94774f6b7e21fd5/playsound3-2.0.4.tar.gz
+[2024-05-07 01:38:42] INFO root fetch - processPackages [dioptic.profileparser]: executing diffoscope
+[2024-05-07 01:38:42] INFO root fetch - processPackages [dioptic.profileparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dioptic_profileparser-0.3.1.tar.gz tmp/dioptic_profileparser-0.3.2-cp310-cp310-win_amd64.whl.zip --markdown 20240507/d/dioptic.profileparser/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-07 01:38:42] INFO root fetch - processPackages [playsound3]: executing diffoscope
+[2024-05-07 01:38:42] INFO root fetch - processPackages [playsound3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playsound3-2.0.3.tar.gz tmp/playsound3-2.0.4.tar.gz --markdown 20240507/p/playsound3/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-07 01:38:42] INFO root fetch - processPackages [LorenzTelegram]: Downloading https://files.pythonhosted.org/packages/c6/cc/62fb438452b1b3f789641f2daa490ab5f6377cff941525763906ff0cf233/lorenztelegram-0.1.0.tar.gz
+[2024-05-07 01:38:42] INFO root fetch - processPackages [PennyLane]: Downloading https://files.pythonhosted.org/packages/e4/8c/27629220480b5d19bd2a5e11ca122122a2fa79acbe2770f4a5f2a41c32bd/PennyLane-0.9.0.tar.gz
+[2024-05-07 01:38:42] INFO root fetch - processPackages [LorenzTelegram]: executing diffoscope
+[2024-05-07 01:38:42] INFO root fetch - processPackages [LorenzTelegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lorenztelegram-0.0.2.tar.gz tmp/lorenztelegram-0.1.0.tar.gz --markdown 20240507/L/LorenzTelegram/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-05-07 01:38:42] INFO root fetch - processPackages [dioptic.profileparser]: Remove: archive file [/home/abi/fetcher/tmp/dioptic_profileparser-0.3.1.tar.gz]
+[2024-05-07 01:38:42] INFO root fetch - processPackages [dioptic.profileparser]: Remove: archive file [/home/abi/fetcher/tmp/dioptic_profileparser-0.3.2-cp310-cp310-win_amd64.whl.zip]
+[2024-05-07 01:38:42] INFO root fetch - main [MainThread]: End processing [dioptic.profileparser]: success
+[2024-05-07 01:38:42] INFO root fetch - processPackages [PennyLane]: executing diffoscope
+[2024-05-07 01:38:42] INFO root fetch - processPackages [PennyLane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PennyLane-0.8.1.tar.gz tmp/PennyLane-0.9.0.tar.gz --markdown 20240507/P/PennyLane/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-07 01:38:42] INFO root fetch - processPackages [playsound3]: Remove: archive file [/home/abi/fetcher/tmp/playsound3-2.0.3.tar.gz]
+[2024-05-07 01:38:42] INFO root fetch - processPackages [playsound3]: Remove: archive file [/home/abi/fetcher/tmp/playsound3-2.0.4.tar.gz]
+[2024-05-07 01:38:42] INFO root fetch - main [MainThread]: End processing [playsound3]: success
+[2024-05-07 01:38:43] INFO root fetch - processPackages [LorenzTelegram]: Remove: archive file [/home/abi/fetcher/tmp/lorenztelegram-0.0.2.tar.gz]
+[2024-05-07 01:38:43] INFO root fetch - processPackages [LorenzTelegram]: Remove: archive file [/home/abi/fetcher/tmp/lorenztelegram-0.1.0.tar.gz]
+[2024-05-07 01:38:43] INFO root fetch - main [MainThread]: End processing [LorenzTelegram]: success
+[2024-05-07 01:38:44] INFO root fetch - processPackages [PennyLane]: Remove: archive file [/home/abi/fetcher/tmp/PennyLane-0.8.1.tar.gz]
+[2024-05-07 01:38:44] INFO root fetch - processPackages [PennyLane]: Remove: archive file [/home/abi/fetcher/tmp/PennyLane-0.9.0.tar.gz]
+[2024-05-07 01:38:44] INFO root fetch - main [MainThread]: End processing [PennyLane]: success
+[2024-05-07 01:38:44] INFO root fetch - main [MainThread]: Store serial: [23086079]
