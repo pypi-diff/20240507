@@ -2655,3 +2655,33 @@
 [2024-05-07 01:55:14] INFO root fetch - processPackages [lephare]: Remove: archive file [/home/abi/fetcher/tmp/lephare-0.1.5.tar.gz]
 [2024-05-07 01:55:14] INFO root fetch - main [MainThread]: End processing [lephare]: success
 [2024-05-07 01:55:14] INFO root fetch - main [MainThread]: Store serial: [23086247]
+[2024-05-07 01:57:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086247]
+[2024-05-07 01:57:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 01:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metaflow-stubs
+[2024-05-07 01:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiproxy-python
+[2024-05-07 01:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metaflow
+[2024-05-07 01:57:22] INFO root fetch - processPackages [aiproxy-python]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-07 01:57:23] INFO root fetch - processPackages [metaflow-stubs]: New version: [2.11.9] Old Version: [2.11.8]
+[2024-05-07 01:57:23] INFO root fetch - processPackages [metaflow]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-07 01:57:23] INFO root fetch - processPackages [metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/de/13/ffe01e2cae343dd8025eab13d69b5d62bd71681ab061e8c36af9666a698b/metaflow-stubs-2.11.8.tar.gz
+[2024-05-07 01:57:23] INFO root fetch - processPackages [aiproxy-python]: Downloading https://files.pythonhosted.org/packages/48/24/2b7b3224c9fd1c69b844f69124a98668b3ff441da723f68ee1aa6100887e/aiproxy_python-0.4.2-py3-none-any.whl
+[2024-05-07 01:57:23] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/44/4c/81a863eb61cc3eb10a21d19229d37d1cc3b50218fa45146c79e2b9122f45/metaflow-2.9.8.tar.gz
+[2024-05-07 01:57:23] INFO root fetch - processPackages [aiproxy-python]: Downloading https://files.pythonhosted.org/packages/8d/7b/4758ca67bca2de791674e3d75e2633f5530e09204445c0a5b4bf05025f18/aiproxy_python-0.4.3-py3-none-any.whl
+[2024-05-07 01:57:23] INFO root fetch - processPackages [metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/93/d9/ff4fdd76c5436176503c5c86034e607815e89abf05a9bced2dc60dca48a5/metaflow-stubs-2.11.9.tar.gz
+[2024-05-07 01:57:23] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/63/60/3262d89f8512f63109d640bc0d30b7f6e64a1efeab58463d69f43d2275ad/metaflow-2.9.9.tar.gz
+[2024-05-07 01:57:23] INFO root fetch - processPackages [aiproxy-python]: executing diffoscope
+[2024-05-07 01:57:23] INFO root fetch - processPackages [aiproxy-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiproxy_python-0.4.2-py3-none-any.whl.zip tmp/aiproxy_python-0.4.3-py3-none-any.whl.zip --markdown 20240507/a/aiproxy-python/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-07 01:57:23] INFO root fetch - processPackages [metaflow-stubs]: executing diffoscope
+[2024-05-07 01:57:23] INFO root fetch - processPackages [metaflow-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow-stubs-2.11.8.tar.gz tmp/metaflow-stubs-2.11.9.tar.gz --markdown 20240507/m/metaflow-stubs/2.11.8-2.11.9/README.md --exclude *.pyd
+[2024-05-07 01:57:23] INFO root fetch - processPackages [metaflow]: executing diffoscope
+[2024-05-07 01:57:23] INFO root fetch - processPackages [metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow-2.9.8.tar.gz tmp/metaflow-2.9.9.tar.gz --markdown 20240507/m/metaflow/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-07 01:57:24] INFO root fetch - processPackages [aiproxy-python]: Remove: archive file [/home/abi/fetcher/tmp/aiproxy_python-0.4.2-py3-none-any.whl.zip]
+[2024-05-07 01:57:24] INFO root fetch - processPackages [aiproxy-python]: Remove: archive file [/home/abi/fetcher/tmp/aiproxy_python-0.4.3-py3-none-any.whl.zip]
+[2024-05-07 01:57:24] INFO root fetch - main [MainThread]: End processing [aiproxy-python]: success
+[2024-05-07 01:57:24] INFO root fetch - processPackages [metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-stubs-2.11.8.tar.gz]
+[2024-05-07 01:57:24] INFO root fetch - processPackages [metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-stubs-2.11.9.tar.gz]
+[2024-05-07 01:57:24] INFO root fetch - main [MainThread]: End processing [metaflow-stubs]: success
+[2024-05-07 01:57:24] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.8.tar.gz]
+[2024-05-07 01:57:24] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.9.tar.gz]
+[2024-05-07 01:57:24] INFO root fetch - main [MainThread]: End processing [metaflow]: success
+[2024-05-07 01:57:24] INFO root fetch - main [MainThread]: Store serial: [23086270]
