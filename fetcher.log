@@ -2511,3 +2511,24 @@
 [2024-05-07 01:46:29] INFO root fetch - processPackages [flashlight-text]: Remove: archive file [/home/abi/fetcher/tmp/flashlight_text-0.0.8.dev307-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-05-07 01:46:29] INFO root fetch - main [MainThread]: End processing [flashlight-text]: success
 [2024-05-07 01:46:29] INFO root fetch - main [MainThread]: Store serial: [23086155]
+[2024-05-07 01:48:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086155]
+[2024-05-07 01:48:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 01:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skywatch
+[2024-05-07 01:48:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: replit-river
+[2024-05-07 01:48:37] INFO root fetch - processPackages [skywatch]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-07 01:48:37] INFO root fetch - processPackages [skywatch]: Downloading https://files.pythonhosted.org/packages/17/0d/b3f30196d3e1875568dc9a805db82945350c6793411ee1834e94334c60d9/skywatch-0.1.1.tar.gz
+[2024-05-07 01:48:37] INFO root fetch - processPackages [replit-river]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 01:48:38] INFO root fetch - processPackages [skywatch]: Downloading https://files.pythonhosted.org/packages/52/3c/8a8bfa4b7303272ac23634590cdbe0085833ad6048b6fcdf1340cd616edb/skywatch-0.1.2.tar.gz
+[2024-05-07 01:48:38] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/a3/60/d3406253d300f18664bf91712096240dd839c49b54c397c7d87c30c92ca3/replit_river-0.1.8.tar.gz
+[2024-05-07 01:48:38] INFO root fetch - processPackages [skywatch]: executing diffoscope
+[2024-05-07 01:48:38] INFO root fetch - processPackages [skywatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skywatch-0.1.1.tar.gz tmp/skywatch-0.1.2.tar.gz --markdown 20240507/s/skywatch/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-07 01:48:38] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/63/d0/cf3e1765cd7b168b65aab1449b4829714a8999032e46f8c202867d284f77/replit_river-0.1.9.tar.gz
+[2024-05-07 01:48:38] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-05-07 01:48:38] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.8.tar.gz tmp/replit_river-0.1.9.tar.gz --markdown 20240507/r/replit-river/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 01:48:38] INFO root fetch - processPackages [skywatch]: Remove: archive file [/home/abi/fetcher/tmp/skywatch-0.1.1.tar.gz]
+[2024-05-07 01:48:38] INFO root fetch - processPackages [skywatch]: Remove: archive file [/home/abi/fetcher/tmp/skywatch-0.1.2.tar.gz]
+[2024-05-07 01:48:38] INFO root fetch - main [MainThread]: End processing [skywatch]: success
+[2024-05-07 01:48:39] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.8.tar.gz]
+[2024-05-07 01:48:39] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.9.tar.gz]
+[2024-05-07 01:48:39] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-05-07 01:48:39] INFO root fetch - main [MainThread]: Store serial: [23086162]
