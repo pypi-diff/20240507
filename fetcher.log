@@ -1453,3 +1453,41 @@
 [2024-05-07 00:42:58] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.5.6.tar.gz]
 [2024-05-07 00:42:58] INFO root fetch - main [MainThread]: End processing [parsl]: success
 [2024-05-07 00:42:58] INFO root fetch - main [MainThread]: Store serial: [23085520]
+[2024-05-07 00:45:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085520]
+[2024-05-07 00:45:07] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-07 00:47:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085520]
+[2024-05-07 00:47:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 00:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wikipedia-search
+[2024-05-07 00:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfra-nightly
+[2024-05-07 00:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: echodyne
+[2024-05-07 00:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ob-metaflow
+[2024-05-07 00:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lasertools-spectrumprocess
+[2024-05-07 00:47:12] INFO root fetch - processPackages [echodyne]: New version: [5.0] Old Version: [0.0.2]
+[2024-05-07 00:47:12] INFO root fetch - processPackages [tfra-nightly]: New version: [0.6.1.dev20240429223730] Old Version: [0.6.1.dev20240429095015]
+[2024-05-07 00:47:12] INFO root fetch - processPackages [echodyne]: Downloading https://files.pythonhosted.org/packages/0a/3c/47868abde4ab8ce3e0a5cf6ae84c5078545cbaf6ab9432526fecc1bb6a95/echodyne-0.0.2.tar.gz
+[2024-05-07 00:47:13] WARNING root fetch - processPackages [lasertools-spectrumprocess]: Skipping, unable to determine old version
+[2024-05-07 00:47:13] INFO root fetch - main [MainThread]: End processing [lasertools-spectrumprocess] error
+[2024-05-07 00:47:13] INFO root fetch - processPackages [ob-metaflow]: New version: [2.9.8.2] Old Version: [2.9.7.2]
+[2024-05-07 00:47:13] WARNING root fetch - processPackages [wikipedia-search]: Skipping, unable to determine old version
+[2024-05-07 00:47:13] INFO root fetch - main [MainThread]: End processing [wikipedia-search] error
+[2024-05-07 00:47:13] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/93/5e/b84a92d61fe423c2a06788d596add3d896d8434501ad29945ee29c0e5ba4/tfra_nightly-0.6.1.dev20240429095015-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-07 00:47:13] INFO root fetch - processPackages [ob-metaflow]: Downloading https://files.pythonhosted.org/packages/d3/01/7b00a35e44dcec3a289d7ce4bbd4fbf5ba60a0d517faf7eefab46462c416/ob-metaflow-2.9.7.2.tar.gz
+[2024-05-07 00:47:13] INFO root fetch - processPackages [echodyne]: Downloading https://files.pythonhosted.org/packages/e1/7f/418b7e8c45b20542d870f623ac5e80bb1e5a1ee003cb82b5e45baf220563/echodyne-5.0.tar.gz
+[2024-05-07 00:47:13] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/52/1b/d8ea8f78c1045908d01f78d70348691cdb2e843cbefdc72678488f0368f1/tfra_nightly-0.6.1.dev20240429223730-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-07 00:47:13] INFO root fetch - processPackages [echodyne]: executing diffoscope
+[2024-05-07 00:47:13] INFO root fetch - processPackages [echodyne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echodyne-0.0.2.tar.gz tmp/echodyne-5.0.tar.gz --markdown 20240507/e/echodyne/0.0.2-5.0/README.md --exclude *.pyd
+[2024-05-07 00:47:13] INFO root fetch - processPackages [ob-metaflow]: Downloading https://files.pythonhosted.org/packages/87/6a/263a2c169f08c12eb7a83616e2011c96487f3c804fb07915ab6f6677dd0b/ob-metaflow-2.9.8.2.tar.gz
+[2024-05-07 00:47:13] INFO root fetch - processPackages [echodyne]: Remove: archive file [/home/abi/fetcher/tmp/echodyne-0.0.2.tar.gz]
+[2024-05-07 00:47:13] INFO root fetch - processPackages [echodyne]: Remove: archive file [/home/abi/fetcher/tmp/echodyne-5.0.tar.gz]
+[2024-05-07 00:47:13] INFO root fetch - main [MainThread]: End processing [echodyne]: success
+[2024-05-07 00:47:14] INFO root fetch - processPackages [ob-metaflow]: executing diffoscope
+[2024-05-07 00:47:14] INFO root fetch - processPackages [ob-metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-2.9.7.2.tar.gz tmp/ob-metaflow-2.9.8.2.tar.gz --markdown 20240507/o/ob-metaflow/2.9.7.2-2.9.8.2/README.md --exclude *.pyd
+[2024-05-07 00:47:14] INFO root fetch - processPackages [tfra-nightly]: executing diffoscope
+[2024-05-07 00:47:14] INFO root fetch - processPackages [tfra-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfra_nightly-0.6.1.dev20240429095015-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tfra_nightly-0.6.1.dev20240429223730-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240507/t/tfra-nightly/0.6.1.dev20240429095015-0.6.1.dev20240429223730/README.md --exclude *.pyd
+[2024-05-07 00:47:15] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240429095015-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-07 00:47:15] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240429223730-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-07 00:47:15] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
+[2024-05-07 00:47:18] INFO root fetch - processPackages [ob-metaflow]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-2.9.7.2.tar.gz]
+[2024-05-07 00:47:18] INFO root fetch - processPackages [ob-metaflow]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-2.9.8.2.tar.gz]
+[2024-05-07 00:47:18] INFO root fetch - main [MainThread]: End processing [ob-metaflow]: success
+[2024-05-07 00:47:18] INFO root fetch - main [MainThread]: Store serial: [23085547]
