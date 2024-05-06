@@ -1396,3 +1396,60 @@
 [2024-05-07 00:40:47] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.93.tar.gz]
 [2024-05-07 00:40:47] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
 [2024-05-07 00:40:47] INFO root fetch - main [MainThread]: Store serial: [23085502]
+[2024-05-07 00:42:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085502]
+[2024-05-07 00:42:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 00:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpp-linter
+[2024-05-07 00:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amazon-braket-sdk
+[2024-05-07 00:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: freegenius
+[2024-05-07 00:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: echodyne
+[2024-05-07 00:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grader-helper
+[2024-05-07 00:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parsl
+[2024-05-07 00:42:55] INFO root fetch - processPackages [echodyne]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-07 00:42:55] INFO root fetch - processPackages [grader-helper]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 00:42:55] INFO root fetch - processPackages [freegenius]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-07 00:42:56] INFO root fetch - processPackages [echodyne]: Downloading https://files.pythonhosted.org/packages/98/d1/2155ffeb1805b740397a9a8443f45980c598a7989d2d83f4a7e6876f844f/echodyne-0.0.1.tar.gz
+[2024-05-07 00:42:56] INFO root fetch - processPackages [cpp-linter]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-07 00:42:56] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/d5/ca/411a282eb501daf2e794cd1fb0f3e90fdbc6bf2302cf9c34892282b27dbc/freegenius-0.2.8.tar.gz
+[2024-05-07 00:42:56] INFO root fetch - processPackages [parsl]: New version: [2024.5.6] Old Version: [2024.4.8]
+[2024-05-07 00:42:56] INFO root fetch - processPackages [amazon-braket-sdk]: New version: [1.9.5.post0] Old Version: [1.9.5]
+[2024-05-07 00:42:56] INFO root fetch - processPackages [grader-helper]: Downloading https://files.pythonhosted.org/packages/6a/2b/a45d4c42f34ddca73046b4f99a02267af43f2e3195fe8c89efdd4f53183e/grader_helper-0.1.0.tar.gz
+[2024-05-07 00:42:56] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/94/de/893d796efa9e69eb525af6a6cc016f08b80bac955081b189080204720968/parsl-2024.4.8.tar.gz
+[2024-05-07 00:42:56] INFO root fetch - processPackages [cpp-linter]: Downloading https://files.pythonhosted.org/packages/e0/22/7658860de9c3a763e855c211b60ee8e6a3e986efbdaf7f1259b9351157e4/cpp_linter-1.8.1-py3-none-any.whl
+[2024-05-07 00:42:56] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/85/cb/f563b80f4c903004b15e6be7245ef49cc3d1e16c8a667aab991f31853061/amazon-braket-sdk-1.9.5.tar.gz
+[2024-05-07 00:42:56] INFO root fetch - processPackages [echodyne]: Downloading https://files.pythonhosted.org/packages/0a/3c/47868abde4ab8ce3e0a5cf6ae84c5078545cbaf6ab9432526fecc1bb6a95/echodyne-0.0.2.tar.gz
+[2024-05-07 00:42:56] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/85/e0/79c8d3b405fbb09c8afb4fc4cba33e77303a57f60e90bbef2e19a2c5a73a/freegenius-0.2.9.tar.gz
+[2024-05-07 00:42:56] INFO root fetch - processPackages [echodyne]: executing diffoscope
+[2024-05-07 00:42:56] INFO root fetch - processPackages [echodyne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echodyne-0.0.1.tar.gz tmp/echodyne-0.0.2.tar.gz --markdown 20240507/e/echodyne/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-07 00:42:56] INFO root fetch - processPackages [cpp-linter]: Downloading https://files.pythonhosted.org/packages/b7/11/e00f8a48ea897f56c0407c2a5e1e6cabc1c58724587c9236d64cbdcf5a21/cpp_linter-1.9.0-py3-none-any.whl
+[2024-05-07 00:42:56] INFO root fetch - processPackages [grader-helper]: Downloading https://files.pythonhosted.org/packages/fd/13/bc82944d758bd045a079be8e55a1c58f6d6e255062f53ff69cf05370839e/grader_helper-0.1.1.tar.gz
+[2024-05-07 00:42:56] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/68/b6/8addea65af603df76664cccc645d4fee64350bb4cc390d21aac22263facb/parsl-2024.5.6.tar.gz
+[2024-05-07 00:42:56] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/9e/84/c7a37a19be25e1021345ade602f9852e48f219edaa855aa624e9d54e0d70/amazon-braket-sdk-1.9.5.post0.tar.gz
+[2024-05-07 00:42:56] INFO root fetch - processPackages [grader-helper]: executing diffoscope
+[2024-05-07 00:42:56] INFO root fetch - processPackages [grader-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grader_helper-0.1.0.tar.gz tmp/grader_helper-0.1.1.tar.gz --markdown 20240507/g/grader-helper/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 00:42:56] INFO root fetch - processPackages [cpp-linter]: executing diffoscope
+[2024-05-07 00:42:56] INFO root fetch - processPackages [cpp-linter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpp_linter-1.8.1-py3-none-any.whl.zip tmp/cpp_linter-1.9.0-py3-none-any.whl.zip --markdown 20240507/c/cpp-linter/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-07 00:42:56] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-05-07 00:42:56] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.2.8.tar.gz tmp/freegenius-0.2.9.tar.gz --markdown 20240507/f/freegenius/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-07 00:42:56] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2024-05-07 00:42:56] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2024.4.8.tar.gz tmp/parsl-2024.5.6.tar.gz --markdown 20240507/p/parsl/2024.4.8-2024.5.6/README.md --exclude *.pyd
+[2024-05-07 00:42:56] INFO root fetch - processPackages [amazon-braket-sdk]: executing diffoscope
+[2024-05-07 00:42:56] INFO root fetch - processPackages [amazon-braket-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-sdk-1.9.5.tar.gz tmp/amazon-braket-sdk-1.9.5.post0.tar.gz --markdown 20240507/a/amazon-braket-sdk/1.9.5-1.9.5.post0/README.md --exclude *.pyd
+[2024-05-07 00:42:57] INFO root fetch - processPackages [echodyne]: Remove: archive file [/home/abi/fetcher/tmp/echodyne-0.0.1.tar.gz]
+[2024-05-07 00:42:57] INFO root fetch - processPackages [echodyne]: Remove: archive file [/home/abi/fetcher/tmp/echodyne-0.0.2.tar.gz]
+[2024-05-07 00:42:57] INFO root fetch - main [MainThread]: End processing [echodyne]: success
+[2024-05-07 00:42:57] INFO root fetch - processPackages [grader-helper]: Remove: archive file [/home/abi/fetcher/tmp/grader_helper-0.1.0.tar.gz]
+[2024-05-07 00:42:57] INFO root fetch - processPackages [grader-helper]: Remove: archive file [/home/abi/fetcher/tmp/grader_helper-0.1.1.tar.gz]
+[2024-05-07 00:42:57] INFO root fetch - main [MainThread]: End processing [grader-helper]: success
+[2024-05-07 00:42:57] INFO root fetch - processPackages [cpp-linter]: Remove: archive file [/home/abi/fetcher/tmp/cpp_linter-1.8.1-py3-none-any.whl.zip]
+[2024-05-07 00:42:57] INFO root fetch - processPackages [cpp-linter]: Remove: archive file [/home/abi/fetcher/tmp/cpp_linter-1.9.0-py3-none-any.whl.zip]
+[2024-05-07 00:42:57] INFO root fetch - main [MainThread]: End processing [cpp-linter]: success
+[2024-05-07 00:42:57] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.tar.gz]
+[2024-05-07 00:42:57] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.post0.tar.gz]
+[2024-05-07 00:42:57] INFO root fetch - main [MainThread]: End processing [amazon-braket-sdk]: success
+[2024-05-07 00:42:58] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.8.tar.gz]
+[2024-05-07 00:42:58] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
+[2024-05-07 00:42:58] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-05-07 00:42:58] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.4.8.tar.gz]
+[2024-05-07 00:42:58] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.5.6.tar.gz]
+[2024-05-07 00:42:58] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2024-05-07 00:42:58] INFO root fetch - main [MainThread]: Store serial: [23085520]
