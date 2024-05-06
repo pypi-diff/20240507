@@ -2244,3 +2244,60 @@
 [2024-05-07 01:34:22] WARNING root fetch - processPackages [pydantic-pint]: Skipping, unable to determine old version
 [2024-05-07 01:34:22] INFO root fetch - main [MainThread]: End processing [pydantic-pint] error
 [2024-05-07 01:34:22] INFO root fetch - main [MainThread]: Store serial: [23086051]
+[2024-05-07 01:36:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086051]
+[2024-05-07 01:36:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 01:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aerospike-vector-search
+[2024-05-07 01:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napari-basicpy
+[2024-05-07 01:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idlib
+[2024-05-07 01:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tomcli
+[2024-05-07 01:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-sam-translator
+[2024-05-07 01:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dioptic.profileparser
+[2024-05-07 01:36:30] INFO root fetch - processPackages [idlib]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2024-05-07 01:36:30] INFO root fetch - processPackages [aerospike-vector-search]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-07 01:36:30] INFO root fetch - processPackages [napari-basicpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-07 01:36:30] INFO root fetch - processPackages [tomcli]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-07 01:36:30] INFO root fetch - processPackages [aws-sam-translator]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-07 01:36:30] INFO root fetch - processPackages [dioptic.profileparser]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-07 01:36:31] INFO root fetch - processPackages [aerospike-vector-search]: Downloading https://files.pythonhosted.org/packages/ac/65/4d07122fa1d071ab994477e57c621f7fa81807b55ac25c08c7d88c27f811/aerospike-vector-search-0.5.0.tar.gz
+[2024-05-07 01:36:31] INFO root fetch - processPackages [idlib]: Downloading https://files.pythonhosted.org/packages/ef/c4/8414aee8cdedaf0a9f78abd75952aab798dd5ac10935b4ddde824dbe07fb/idlib-0.0.1.dev8.tar.gz
+[2024-05-07 01:36:31] INFO root fetch - processPackages [napari-basicpy]: Downloading https://files.pythonhosted.org/packages/bc/9e/60572705ac01d62253c70b5c8e11162534941fbbc4bf459713f5b359eebc/napari_basicpy-0.0.2.tar.gz
+[2024-05-07 01:36:31] INFO root fetch - processPackages [tomcli]: Downloading https://files.pythonhosted.org/packages/31/9e/91fb6bfb3b08307baa2f3761532cae49591c9e779629cc3bc7d0e4c916c9/tomcli-0.6.0.tar.gz
+[2024-05-07 01:36:31] INFO root fetch - processPackages [aws-sam-translator]: Downloading https://files.pythonhosted.org/packages/48/2a/e74d86153faaafb96a7ee81d8dca66f7aeecf319a7217db30ec9cac88ddf/aws-sam-translator-1.9.0.tar.gz
+[2024-05-07 01:36:31] INFO root fetch - processPackages [dioptic.profileparser]: Downloading https://files.pythonhosted.org/packages/45/2d/3c2e3a46e7f7403a4b336ed0f75722839572e93dd95debe1335695e19b97/dioptic_profileparser-0.3.1.tar.gz
+[2024-05-07 01:36:31] INFO root fetch - processPackages [aerospike-vector-search]: Downloading https://files.pythonhosted.org/packages/05/a4/6f15590c96e41714c15cce4ce5c02b8b0853d6ae0e6415dc7753b21f96d3/aerospike-vector-search-0.5.1.tar.gz
+[2024-05-07 01:36:31] INFO root fetch - processPackages [tomcli]: Downloading https://files.pythonhosted.org/packages/5c/3f/591bce2b0d865bac7178ed7b074ede4b11a1ccec12b6b1eecea93f7ffd2d/tomcli-0.7.0.tar.gz
+[2024-05-07 01:36:31] INFO root fetch - processPackages [aws-sam-translator]: Downloading https://files.pythonhosted.org/packages/ee/4c/426c00d6ac7d7a1fca4f46bf1aff87dc76b84433a38d4547321a6f217a54/aws-sam-translator-1.9.1.tar.gz
+[2024-05-07 01:36:31] INFO root fetch - processPackages [dioptic.profileparser]: Downloading https://files.pythonhosted.org/packages/bf/de/dc45f4d5439ec385083bd458da215537cd1c07b5ef16a5b5f68896e5f2a1/dioptic_profileparser-0.3.2-cp310-cp310-win_amd64.whl
+[2024-05-07 01:36:31] INFO root fetch - processPackages [aerospike-vector-search]: executing diffoscope
+[2024-05-07 01:36:31] INFO root fetch - processPackages [aerospike-vector-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aerospike-vector-search-0.5.0.tar.gz tmp/aerospike-vector-search-0.5.1.tar.gz --markdown 20240507/a/aerospike-vector-search/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-07 01:36:31] INFO root fetch - processPackages [idlib]: Downloading https://files.pythonhosted.org/packages/d5/42/332c64cca3053b5cb52129d94ba0a0325aa03294413b3935ff1b1d4f9f83/idlib-0.0.1.dev9.tar.gz
+[2024-05-07 01:36:31] INFO root fetch - processPackages [tomcli]: executing diffoscope
+[2024-05-07 01:36:31] INFO root fetch - processPackages [tomcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomcli-0.6.0.tar.gz tmp/tomcli-0.7.0.tar.gz --markdown 20240507/t/tomcli/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-07 01:36:31] INFO root fetch - processPackages [napari-basicpy]: Downloading https://files.pythonhosted.org/packages/00/af/d94a95501ae6e68285c2bf63ce8540d82d037a990e227f0c21ec629c4330/napari_basicpy-0.0.3.tar.gz
+[2024-05-07 01:36:31] INFO root fetch - processPackages [aws-sam-translator]: executing diffoscope
+[2024-05-07 01:36:31] INFO root fetch - processPackages [aws-sam-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-sam-translator-1.9.0.tar.gz tmp/aws-sam-translator-1.9.1.tar.gz --markdown 20240507/a/aws-sam-translator/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-07 01:36:31] INFO root fetch - processPackages [idlib]: executing diffoscope
+[2024-05-07 01:36:31] INFO root fetch - processPackages [idlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idlib-0.0.1.dev8.tar.gz tmp/idlib-0.0.1.dev9.tar.gz --markdown 20240507/i/idlib/0.0.1.dev8-0.0.1.dev9/README.md --exclude *.pyd
+[2024-05-07 01:36:32] INFO root fetch - processPackages [napari-basicpy]: executing diffoscope
+[2024-05-07 01:36:32] INFO root fetch - processPackages [napari-basicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_basicpy-0.0.2.tar.gz tmp/napari_basicpy-0.0.3.tar.gz --markdown 20240507/n/napari-basicpy/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-07 01:36:32] INFO root fetch - processPackages [aerospike-vector-search]: Remove: archive file [/home/abi/fetcher/tmp/aerospike-vector-search-0.5.0.tar.gz]
+[2024-05-07 01:36:32] INFO root fetch - processPackages [aerospike-vector-search]: Remove: archive file [/home/abi/fetcher/tmp/aerospike-vector-search-0.5.1.tar.gz]
+[2024-05-07 01:36:32] INFO root fetch - main [MainThread]: End processing [aerospike-vector-search]: success
+[2024-05-07 01:36:32] INFO root fetch - processPackages [dioptic.profileparser]: executing diffoscope
+[2024-05-07 01:36:32] INFO root fetch - processPackages [dioptic.profileparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dioptic_profileparser-0.3.1.tar.gz tmp/dioptic_profileparser-0.3.2-cp310-cp310-win_amd64.whl.zip --markdown 20240507/d/dioptic.profileparser/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-07 01:36:32] INFO root fetch - processPackages [aws-sam-translator]: Remove: archive file [/home/abi/fetcher/tmp/aws-sam-translator-1.9.0.tar.gz]
+[2024-05-07 01:36:32] INFO root fetch - processPackages [aws-sam-translator]: Remove: archive file [/home/abi/fetcher/tmp/aws-sam-translator-1.9.1.tar.gz]
+[2024-05-07 01:36:32] INFO root fetch - main [MainThread]: End processing [aws-sam-translator]: success
+[2024-05-07 01:36:32] INFO root fetch - processPackages [tomcli]: Remove: archive file [/home/abi/fetcher/tmp/tomcli-0.6.0.tar.gz]
+[2024-05-07 01:36:32] INFO root fetch - processPackages [tomcli]: Remove: archive file [/home/abi/fetcher/tmp/tomcli-0.7.0.tar.gz]
+[2024-05-07 01:36:32] INFO root fetch - main [MainThread]: End processing [tomcli]: success
+[2024-05-07 01:36:32] INFO root fetch - processPackages [idlib]: Remove: archive file [/home/abi/fetcher/tmp/idlib-0.0.1.dev8.tar.gz]
+[2024-05-07 01:36:32] INFO root fetch - processPackages [idlib]: Remove: archive file [/home/abi/fetcher/tmp/idlib-0.0.1.dev9.tar.gz]
+[2024-05-07 01:36:32] INFO root fetch - main [MainThread]: End processing [idlib]: success
+[2024-05-07 01:36:32] INFO root fetch - processPackages [napari-basicpy]: Remove: archive file [/home/abi/fetcher/tmp/napari_basicpy-0.0.2.tar.gz]
+[2024-05-07 01:36:32] INFO root fetch - processPackages [napari-basicpy]: Remove: archive file [/home/abi/fetcher/tmp/napari_basicpy-0.0.3.tar.gz]
+[2024-05-07 01:36:32] INFO root fetch - main [MainThread]: End processing [napari-basicpy]: success
+[2024-05-07 01:36:32] INFO root fetch - processPackages [dioptic.profileparser]: Remove: archive file [/home/abi/fetcher/tmp/dioptic_profileparser-0.3.1.tar.gz]
+[2024-05-07 01:36:32] INFO root fetch - processPackages [dioptic.profileparser]: Remove: archive file [/home/abi/fetcher/tmp/dioptic_profileparser-0.3.2-cp310-cp310-win_amd64.whl.zip]
+[2024-05-07 01:36:32] INFO root fetch - main [MainThread]: End processing [dioptic.profileparser]: success
+[2024-05-07 01:36:32] INFO root fetch - main [MainThread]: Store serial: [23086066]
