@@ -1384,3 +1384,15 @@
 [2024-05-07 00:38:37] INFO root fetch - processPackages [okn-py-updater]: Remove: archive file [/home/abi/fetcher/tmp/okn_py_updater-1.0.7.tar.gz]
 [2024-05-07 00:38:37] INFO root fetch - main [MainThread]: End processing [okn-py-updater]: success
 [2024-05-07 00:38:37] INFO root fetch - main [MainThread]: Store serial: [23085499]
+[2024-05-07 00:40:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085499]
+[2024-05-07 00:40:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-07 00:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MobileInventoryCLI
+[2024-05-07 00:40:45] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.93] Old Version: [0.4.92]
+[2024-05-07 00:40:45] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/6b/4a/f11b0b0b4eb6824aa9916df4eac457f9315c7d13b847fb66af0029b4d782/MobileInventoryCLI-0.4.92.tar.gz
+[2024-05-07 00:40:46] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/a5/a0/f9c8b077d90634baaeff3009fa1b063f34a94bb4cf5832b9c1830d59ac43/MobileInventoryCLI-0.4.93.tar.gz
+[2024-05-07 00:40:46] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-07 00:40:46] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.92.tar.gz tmp/MobileInventoryCLI-0.4.93.tar.gz --markdown 20240507/M/MobileInventoryCLI/0.4.92-0.4.93/README.md --exclude *.pyd
+[2024-05-07 00:40:47] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.92.tar.gz]
+[2024-05-07 00:40:47] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.93.tar.gz]
+[2024-05-07 00:40:47] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-07 00:40:47] INFO root fetch - main [MainThread]: Store serial: [23085502]
