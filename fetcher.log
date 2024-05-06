@@ -1223,3 +1223,33 @@
 [2024-05-07 00:27:46] INFO root fetch - processPackages [fake.py]: Remove: archive file [/home/abi/fetcher/tmp/fake_py-0.6.8.tar.gz]
 [2024-05-07 00:27:46] INFO root fetch - main [MainThread]: End processing [fake.py]: success
 [2024-05-07 00:27:46] INFO root fetch - main [MainThread]: Store serial: [23085446]
+[2024-05-07 00:29:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23085446]
+[2024-05-07 00:29:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 00:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-negar
+[2024-05-07 00:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyprql
+[2024-05-07 00:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MobileInventoryCLI
+[2024-05-07 00:29:54] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.92] Old Version: [0.4.91]
+[2024-05-07 00:29:54] INFO root fetch - processPackages [python-negar]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-07 00:29:54] INFO root fetch - processPackages [pyprql]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 00:29:54] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/7e/0c/73b33438e46bb0c5b463b2210d70ee2a1514bd595d472bbf032510bd176b/MobileInventoryCLI-0.4.91.tar.gz
+[2024-05-07 00:29:54] INFO root fetch - processPackages [pyprql]: Downloading https://files.pythonhosted.org/packages/b8/68/7f97fee1cd34a6f9f9d45710cbc196a438a01b0d5b915ddb21f08eead000/pyprql-0.8.0.tar.gz
+[2024-05-07 00:29:54] INFO root fetch - processPackages [python-negar]: Downloading https://files.pythonhosted.org/packages/9b/20/450b929dfcb14eb6919689d6b9f2e95c2a8e99fe6d4057d0167d08f5d5e1/python-negar-1.2.8.tar.gz
+[2024-05-07 00:29:55] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/6b/4a/f11b0b0b4eb6824aa9916df4eac457f9315c7d13b847fb66af0029b4d782/MobileInventoryCLI-0.4.92.tar.gz
+[2024-05-07 00:29:55] INFO root fetch - processPackages [python-negar]: Downloading https://files.pythonhosted.org/packages/44/25/82711637b3da508579cfcd23ac198731dc51cde0ce3fe45a1288ac16b864/python-negar-1.2.9.tar.gz
+[2024-05-07 00:29:55] INFO root fetch - processPackages [pyprql]: Downloading https://files.pythonhosted.org/packages/d0/f8/85d43a7c46dc8987033fe7274ceaf4399d28160769c4179c5391efd7372c/pyprql-0.9.0.tar.gz
+[2024-05-07 00:29:55] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-07 00:29:55] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.91.tar.gz tmp/MobileInventoryCLI-0.4.92.tar.gz --markdown 20240507/M/MobileInventoryCLI/0.4.91-0.4.92/README.md --exclude *.pyd
+[2024-05-07 00:29:55] INFO root fetch - processPackages [python-negar]: executing diffoscope
+[2024-05-07 00:29:55] INFO root fetch - processPackages [python-negar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-negar-1.2.8.tar.gz tmp/python-negar-1.2.9.tar.gz --markdown 20240507/p/python-negar/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-07 00:29:55] INFO root fetch - processPackages [pyprql]: executing diffoscope
+[2024-05-07 00:29:55] INFO root fetch - processPackages [pyprql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprql-0.8.0.tar.gz tmp/pyprql-0.9.0.tar.gz --markdown 20240507/p/pyprql/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 00:29:55] INFO root fetch - processPackages [python-negar]: Remove: archive file [/home/abi/fetcher/tmp/python-negar-1.2.8.tar.gz]
+[2024-05-07 00:29:55] INFO root fetch - processPackages [python-negar]: Remove: archive file [/home/abi/fetcher/tmp/python-negar-1.2.9.tar.gz]
+[2024-05-07 00:29:55] INFO root fetch - main [MainThread]: End processing [python-negar]: success
+[2024-05-07 00:29:55] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.91.tar.gz]
+[2024-05-07 00:29:55] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.92.tar.gz]
+[2024-05-07 00:29:55] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-07 00:29:55] INFO root fetch - processPackages [pyprql]: Remove: archive file [/home/abi/fetcher/tmp/pyprql-0.8.0.tar.gz]
+[2024-05-07 00:29:55] INFO root fetch - processPackages [pyprql]: Remove: archive file [/home/abi/fetcher/tmp/pyprql-0.9.0.tar.gz]
+[2024-05-07 00:29:55] INFO root fetch - main [MainThread]: End processing [pyprql]: success
+[2024-05-07 00:29:55] INFO root fetch - main [MainThread]: Store serial: [23085455]
