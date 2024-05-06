@@ -2397,3 +2397,87 @@
 [2024-05-07 01:41:28] INFO root fetch - processPackages [PyGeodesy]: Remove: archive file [/home/abi/fetcher/tmp/PyGeodesy-24.5.6.zip]
 [2024-05-07 01:41:28] INFO root fetch - main [MainThread]: End processing [PyGeodesy]: success
 [2024-05-07 01:41:28] INFO root fetch - main [MainThread]: Store serial: [23086096]
+[2024-05-07 01:43:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086096]
+[2024-05-07 01:43:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 01:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cc-py-commons
+[2024-05-07 01:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irisml-tasks-ultralytics
+[2024-05-07 01:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qai-hub
+[2024-05-07 01:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NbRisk
+[2024-05-07 01:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: InvokeAI
+[2024-05-07 01:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vantiqconnectorsdk
+[2024-05-07 01:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-reusable
+[2024-05-07 01:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: experiment-helpers
+[2024-05-07 01:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aind-data-schema
+[2024-05-07 01:43:49] INFO root fetch - processPackages [experiment-helpers]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-05-07 01:43:49] INFO root fetch - processPackages [django-reusable]: New version: [9.9] Old Version: [9.8]
+[2024-05-07 01:43:49] INFO root fetch - processPackages [NbRisk]: New version: [40.0.1] Old Version: [35.1.3]
+[2024-05-07 01:43:49] INFO root fetch - processPackages [irisml-tasks-ultralytics]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-07 01:43:49] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/1d/c6/e3b2c8ced36de14520cfffdb1b2920c153e8b63be9da4625361683fc4db0/experiment_helpers-0.0.3.tar.gz
+[2024-05-07 01:43:49] INFO root fetch - processPackages [qai-hub]: New version: [0.9.0] Old Version: [0.12.0]
+[2024-05-07 01:43:49] INFO root fetch - processPackages [InvokeAI]: New version: [4.2.0b2] Old Version: [4.2.0b1]
+[2024-05-07 01:43:49] INFO root fetch - processPackages [vantiqconnectorsdk]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-07 01:43:49] INFO root fetch - processPackages [cc-py-commons]: New version: [0.4.0] Old Version: [0.3.99]
+[2024-05-07 01:43:49] INFO root fetch - processPackages [django-reusable]: Downloading https://files.pythonhosted.org/packages/56/76/2298d24f3350c8efc192ca0676bb8f98d637289f4c582497fe04bc9e4630/django-reusable-9.8.tar.gz
+[2024-05-07 01:43:49] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-07 01:43:49] INFO root fetch - processPackages [NbRisk]: Downloading https://files.pythonhosted.org/packages/5f/ee/c80ecd5222bf911d9d6c95bde51a39f517cde21227b41c194b9b14f462a4/nbrisk-35.1.3.tar.gz
+[2024-05-07 01:43:49] INFO root fetch - processPackages [qai-hub]: Downloading https://files.pythonhosted.org/packages/dd/1f/d885a86baa0ed84d578a468a5d47f57098383de22c822d3e815b08644ac7/qai_hub-0.12.0-py3-none-any.whl
+[2024-05-07 01:43:49] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/59/cb/1610ca01568d48efb13bd5ee93ba4b4f8176a35f74a3782bdad296a6c57a/cc_py_commons-0.3.99.tar.gz
+[2024-05-07 01:43:49] INFO root fetch - processPackages [django-reusable]: Downloading https://files.pythonhosted.org/packages/56/89/0bdf225fa2de427dbbd30299059a9f8b8dc00f4b1f5477e033e2f7a18ff0/django-reusable-9.9.tar.gz
+[2024-05-07 01:43:49] INFO root fetch - processPackages [vantiqconnectorsdk]: Downloading https://files.pythonhosted.org/packages/41/03/112c565deecd45b4a37e4bcba9958739cac694703638536212082087afdc/vantiqconnectorsdk-1.2.6.tar.gz
+[2024-05-07 01:43:49] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2024-05-07 01:43:49] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/f8/76/bdf83e0097d834e92945d1b8e540208f383ea910a599546a911d039200a9/InvokeAI-4.2.0b1.tar.gz
+[2024-05-07 01:43:49] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/0e/b5/90f53f5c1b739ded0f4dc42d447faeff5c51c60e7ec000595d34e0062788/experiment_helpers-0.0.5.tar.gz
+[2024-05-07 01:43:49] INFO root fetch - processPackages [irisml-tasks-ultralytics]: Downloading https://files.pythonhosted.org/packages/1f/b9/0ce360a61597d49d65f3a67d10f0f632829fda957c61e0764d58751ed544/irisml_tasks_ultralytics-0.0.2.tar.gz
+[2024-05-07 01:43:49] INFO root fetch - processPackages [django-reusable]: executing diffoscope
+[2024-05-07 01:43:49] INFO root fetch - processPackages [django-reusable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-reusable-9.8.tar.gz tmp/django-reusable-9.9.tar.gz --markdown 20240507/d/django-reusable/9.8-9.9/README.md --exclude *.pyd
+[2024-05-07 01:43:49] INFO root fetch - processPackages [experiment-helpers]: executing diffoscope
+[2024-05-07 01:43:49] INFO root fetch - processPackages [experiment-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment_helpers-0.0.3.tar.gz tmp/experiment_helpers-0.0.5.tar.gz --markdown 20240507/e/experiment-helpers/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-05-07 01:43:49] INFO root fetch - processPackages [NbRisk]: Downloading https://files.pythonhosted.org/packages/4c/98/6c8417c3c9626edd5ae19ba42eec53eb47fee8a1fac90ebfa4492054a508/nbrisk-40.0.1.tar.gz
+[2024-05-07 01:43:50] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/02/51/ab6a44e639c5f9d9f0326a28ef3fda2c427588325abb610d909ba562511e/cc_py_commons-0.4.0.tar.gz
+[2024-05-07 01:43:50] INFO root fetch - processPackages [NbRisk]: executing diffoscope
+[2024-05-07 01:43:50] INFO root fetch - processPackages [NbRisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbrisk-35.1.3.tar.gz tmp/nbrisk-40.0.1.tar.gz --markdown 20240507/N/NbRisk/35.1.3-40.0.1/README.md --exclude *.pyd
+[2024-05-07 01:43:50] INFO root fetch - processPackages [vantiqconnectorsdk]: Downloading https://files.pythonhosted.org/packages/47/4c/84d9feabd9ffc23c3d610089555cc82195aa97581ca666c035e5bbfa9b6a/vantiqconnectorsdk-1.2.7.tar.gz
+[2024-05-07 01:43:50] INFO root fetch - processPackages [qai-hub]: Downloading https://files.pythonhosted.org/packages/8a/a1/155f9e472c58d46d0f594dee34bc89ea23e392591c53393ff46cfa0dbe97/qai_hub-0.9.0-py3-none-any.whl
+[2024-05-07 01:43:50] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2024-05-07 01:43:50] INFO root fetch - processPackages [irisml-tasks-ultralytics]: Downloading https://files.pythonhosted.org/packages/37/4f/e19ea766a34e3a4a35079a0120c3b636cfbb827120d554b36a18b997caa0/irisml_tasks_ultralytics-0.0.3.tar.gz
+[2024-05-07 01:43:50] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2024-05-07 01:43:50] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.99.tar.gz tmp/cc_py_commons-0.4.0.tar.gz --markdown 20240507/c/cc-py-commons/0.3.99-0.4.0/README.md --exclude *.pyd
+[2024-05-07 01:43:50] INFO root fetch - processPackages [vantiqconnectorsdk]: executing diffoscope
+[2024-05-07 01:43:50] INFO root fetch - processPackages [vantiqconnectorsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantiqconnectorsdk-1.2.6.tar.gz tmp/vantiqconnectorsdk-1.2.7.tar.gz --markdown 20240507/v/vantiqconnectorsdk/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-07 01:43:50] INFO root fetch - processPackages [qai-hub]: executing diffoscope
+[2024-05-07 01:43:50] INFO root fetch - processPackages [qai-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qai_hub-0.12.0-py3-none-any.whl.zip tmp/qai_hub-0.9.0-py3-none-any.whl.zip --markdown 20240507/q/qai-hub/0.12.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 01:43:50] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/46/9c/aacea531db5f3a7840f6e6c98f3edf6e268d6f0b49ebffe088b9651f7cab/InvokeAI-4.2.0b2.tar.gz
+[2024-05-07 01:43:50] INFO root fetch - processPackages [irisml-tasks-ultralytics]: executing diffoscope
+[2024-05-07 01:43:50] INFO root fetch - processPackages [irisml-tasks-ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml_tasks_ultralytics-0.0.2.tar.gz tmp/irisml_tasks_ultralytics-0.0.3.tar.gz --markdown 20240507/i/irisml-tasks-ultralytics/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-07 01:43:50] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2024-05-07 01:43:50] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20240507/a/aind-data-schema/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-07 01:43:50] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.3.tar.gz]
+[2024-05-07 01:43:50] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.5.tar.gz]
+[2024-05-07 01:43:50] INFO root fetch - main [MainThread]: End processing [experiment-helpers]: success
+[2024-05-07 01:43:50] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2024-05-07 01:43:50] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-4.2.0b1.tar.gz tmp/InvokeAI-4.2.0b2.tar.gz --markdown 20240507/I/InvokeAI/4.2.0b1-4.2.0b2/README.md --exclude *.pyd
+[2024-05-07 01:43:50] INFO root fetch - processPackages [django-reusable]: Remove: archive file [/home/abi/fetcher/tmp/django-reusable-9.8.tar.gz]
+[2024-05-07 01:43:50] INFO root fetch - processPackages [django-reusable]: Remove: archive file [/home/abi/fetcher/tmp/django-reusable-9.9.tar.gz]
+[2024-05-07 01:43:50] INFO root fetch - main [MainThread]: End processing [django-reusable]: success
+[2024-05-07 01:43:51] INFO root fetch - processPackages [vantiqconnectorsdk]: Remove: archive file [/home/abi/fetcher/tmp/vantiqconnectorsdk-1.2.6.tar.gz]
+[2024-05-07 01:43:51] INFO root fetch - processPackages [vantiqconnectorsdk]: Remove: archive file [/home/abi/fetcher/tmp/vantiqconnectorsdk-1.2.7.tar.gz]
+[2024-05-07 01:43:51] INFO root fetch - main [MainThread]: End processing [vantiqconnectorsdk]: success
+[2024-05-07 01:43:51] INFO root fetch - processPackages [NbRisk]: Remove: archive file [/home/abi/fetcher/tmp/nbrisk-35.1.3.tar.gz]
+[2024-05-07 01:43:51] INFO root fetch - processPackages [NbRisk]: Remove: archive file [/home/abi/fetcher/tmp/nbrisk-40.0.1.tar.gz]
+[2024-05-07 01:43:51] INFO root fetch - main [MainThread]: End processing [NbRisk]: success
+[2024-05-07 01:43:51] INFO root fetch - processPackages [qai-hub]: Remove: archive file [/home/abi/fetcher/tmp/qai_hub-0.12.0-py3-none-any.whl.zip]
+[2024-05-07 01:43:51] INFO root fetch - processPackages [qai-hub]: Remove: archive file [/home/abi/fetcher/tmp/qai_hub-0.9.0-py3-none-any.whl.zip]
+[2024-05-07 01:43:51] INFO root fetch - main [MainThread]: End processing [qai-hub]: success
+[2024-05-07 01:43:51] INFO root fetch - processPackages [irisml-tasks-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/irisml_tasks_ultralytics-0.0.2.tar.gz]
+[2024-05-07 01:43:51] INFO root fetch - processPackages [irisml-tasks-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/irisml_tasks_ultralytics-0.0.3.tar.gz]
+[2024-05-07 01:43:51] INFO root fetch - main [MainThread]: End processing [irisml-tasks-ultralytics]: success
+[2024-05-07 01:43:51] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.3.99.tar.gz]
+[2024-05-07 01:43:51] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.4.0.tar.gz]
+[2024-05-07 01:43:51] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2024-05-07 01:43:51] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2024-05-07 01:43:51] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2024-05-07 01:43:51] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2024-05-07 01:44:17] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.0b1.tar.gz]
+[2024-05-07 01:44:17] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.0b2.tar.gz]
+[2024-05-07 01:44:17] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2024-05-07 01:44:17] INFO root fetch - main [MainThread]: Store serial: [23086121]
