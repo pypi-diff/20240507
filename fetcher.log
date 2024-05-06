@@ -2162,3 +2162,28 @@
 [2024-05-07 01:25:43] INFO root fetch - processPackages [vantiqsdk]: Remove: archive file [/home/abi/fetcher/tmp/vantiqsdk-1.2.6.tar.gz]
 [2024-05-07 01:25:43] INFO root fetch - main [MainThread]: End processing [vantiqsdk]: success
 [2024-05-07 01:25:43] INFO root fetch - main [MainThread]: Store serial: [23086016]
+[2024-05-07 01:27:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086016]
+[2024-05-07 01:27:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 01:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swikipedia
+[2024-05-07 01:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vllm-acc
+[2024-05-07 01:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docugami-langchain
+[2024-05-07 01:27:51] INFO root fetch - processPackages [swikipedia]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 01:27:51] INFO root fetch - processPackages [vllm-acc]: New version: [0.4.11715032367.5221682] Old Version: [0.4.11715028389.1049566]
+[2024-05-07 01:27:51] INFO root fetch - processPackages [docugami-langchain]: New version: [0.0.9rc1] Old Version: [0.0.8]
+[2024-05-07 01:27:52] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/8d/0b/ae1fe258216f8b2e73a618a89bc6846a034ddb62e8091880532de6351902/docugami_langchain-0.0.8.tar.gz
+[2024-05-07 01:27:52] INFO root fetch - processPackages [vllm-acc]: Downloading https://files.pythonhosted.org/packages/f8/49/70b3fed7061bc6f172186f18430ae035e2facce142ebe9e81d512425068f/vllm_acc-0.4.11715028389.1049566.tar.gz
+[2024-05-07 01:27:52] ERROR root fetch - processPackages [swikipedia]: Unable to fetch info: No such project/version 'swikipedia' 1.0.0
+[2024-05-07 01:27:52] INFO root fetch - main [MainThread]: End processing [swikipedia] error
+[2024-05-07 01:27:52] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/56/84/bb07c5a8b42884cc0ca2d18df30ad2af0cd2d1126923663fba4b81547ca0/docugami_langchain-0.0.9rc1.tar.gz
+[2024-05-07 01:27:52] INFO root fetch - processPackages [docugami-langchain]: executing diffoscope
+[2024-05-07 01:27:52] INFO root fetch - processPackages [docugami-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docugami_langchain-0.0.8.tar.gz tmp/docugami_langchain-0.0.9rc1.tar.gz --markdown 20240507/d/docugami-langchain/0.0.8-0.0.9rc1/README.md --exclude *.pyd
+[2024-05-07 01:27:52] INFO root fetch - processPackages [vllm-acc]: Downloading https://files.pythonhosted.org/packages/fe/6b/4c5dbc595f461558b075ecbc7f2650b7eeab6b71280e43e5bcb26a99def0/vllm_acc-0.4.11715032367.5221682.tar.gz
+[2024-05-07 01:27:52] INFO root fetch - processPackages [vllm-acc]: executing diffoscope
+[2024-05-07 01:27:52] INFO root fetch - processPackages [vllm-acc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vllm_acc-0.4.11715028389.1049566.tar.gz tmp/vllm_acc-0.4.11715032367.5221682.tar.gz --markdown 20240507/v/vllm-acc/0.4.11715028389.1049566-0.4.11715032367.5221682/README.md --exclude *.pyd
+[2024-05-07 01:27:53] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.8.tar.gz]
+[2024-05-07 01:27:53] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.9rc1.tar.gz]
+[2024-05-07 01:27:53] INFO root fetch - main [MainThread]: End processing [docugami-langchain]: success
+[2024-05-07 01:27:54] INFO root fetch - processPackages [vllm-acc]: Remove: archive file [/home/abi/fetcher/tmp/vllm_acc-0.4.11715028389.1049566.tar.gz]
+[2024-05-07 01:27:54] INFO root fetch - processPackages [vllm-acc]: Remove: archive file [/home/abi/fetcher/tmp/vllm_acc-0.4.11715032367.5221682.tar.gz]
+[2024-05-07 01:27:54] INFO root fetch - main [MainThread]: End processing [vllm-acc]: success
+[2024-05-07 01:27:54] INFO root fetch - main [MainThread]: Store serial: [23086022]
