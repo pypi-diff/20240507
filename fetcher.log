@@ -20575,3 +20575,81 @@ AssertionError: tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip does not exi
 [2024-05-07 13:04:45] INFO root fetch - processPackages [edq-canvas]: Remove: archive file [/home/abi/fetcher/tmp/edq_canvas-0.0.6.tar.gz]
 [2024-05-07 13:04:45] INFO root fetch - main [MainThread]: End processing [edq-canvas]: success
 [2024-05-07 13:04:45] INFO root fetch - main [MainThread]: Store serial: [23094208]
+[2024-05-07 13:06:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094208]
+[2024-05-07 13:06:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 13:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leadguru-jobs
+[2024-05-07 13:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pokeapi-ditto
+[2024-05-07 13:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prefref
+[2024-05-07 13:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: menpofit
+[2024-05-07 13:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuzu
+[2024-05-07 13:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyprocessors-segment_renseignor
+[2024-05-07 13:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: everai
+[2024-05-07 13:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dekdjtools
+[2024-05-07 13:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: picklebase
+[2024-05-07 13:06:54] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 13:06:54] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-07 13:06:54] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: New version: [0.5.8] Old Version: [0.5.4]
+[2024-05-07 13:06:54] INFO root fetch - processPackages [everai]: New version: [0.1.45] Old Version: [0.1.44]
+[2024-05-07 13:06:54] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-05-07 13:06:54] INFO root fetch - processPackages [pokeapi-ditto]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 13:06:54] INFO root fetch - processPackages [menpofit]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-07 13:06:54] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-07 13:06:54] INFO root fetch - processPackages [prefref]: New version: [24.5.700] Old Version: [24.5.300]
+[2024-05-07 13:06:54] WARNING root fetch - processPackages [picklebase]: Skipping, unable to determine old version
+[2024-05-07 13:06:54] INFO root fetch - main [MainThread]: End processing [picklebase] error
+[2024-05-07 13:06:54] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/b7/03/47f10391d208bbaf423920ad6567da4bd39131492f444280f753c9cc559e/everai-0.1.44-py3-none-any.whl
+[2024-05-07 13:06:54] INFO root fetch - processPackages [kuzu]: New version: [0.4.1.dev4] Old Version: [0.4.1.dev3]
+[2024-05-07 13:06:54] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: Downloading https://files.pythonhosted.org/packages/00/56/51b6c1455bbea7da296ce605e453d184f38744e318db5efcd0d0f07e9644/pyprocessors_segment_renseignor-0.5.4.tar.gz
+[2024-05-07 13:06:54] INFO root fetch - processPackages [pokeapi-ditto]: Downloading https://files.pythonhosted.org/packages/c5/94/862f65d0743133f6ec44088f050513cc394d9850c89ec90b3aaecfd92039/pokeapi-ditto-1.0.0.tar.gz
+[2024-05-07 13:06:54] INFO root fetch - processPackages [menpofit]: Downloading https://files.pythonhosted.org/packages/cb/40/74bdf526e0cc434f932de4a37f5b2c497765e5eddd2da4a17d191534aaca/menpofit-0.7.0.tar.gz
+[2024-05-07 13:06:54] INFO root fetch - processPackages [prefref]: Downloading https://files.pythonhosted.org/packages/cc/6f/efe140e017860d8ef346aa7207280b558670955e815d08f855271c00d124/prefref-24.5.300.tar.gz
+[2024-05-07 13:06:54] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-07 13:06:54] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/38/d3/1ea767a7367db4793980cd61bc83abf62a6c7e853f2c1d75e2e4e7070d71/dekdjtools-0.1.9.tar.gz
+[2024-05-07 13:06:54] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/68/7c/79c344d6b58d8ba8d0068cc6ba6a08a882f240acb9e805a557b52f9fa728/kuzu-0.4.1.dev3.tar.gz
+[2024-05-07 13:06:54] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-07 13:06:54] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240507/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-07 13:06:54] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-05-07 13:06:54] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.8.tar.gz tmp/dekdjtools-0.1.9.tar.gz --markdown 20240507/d/dekdjtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 13:06:54] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/a8/96/784603955c2fc43f87d3354b2e706bdad023f1df7f842c1c590b076c2924/everai-0.1.45-py3-none-any.whl
+[2024-05-07 13:06:54] INFO root fetch - processPackages [pokeapi-ditto]: Downloading https://files.pythonhosted.org/packages/61/16/299e044cbaab068294bbe1ceb162bb5f6e6488dd577ff8e8d865aa3e7d86/pokeapi_ditto-1.0.1.tar.gz
+[2024-05-07 13:06:54] INFO root fetch - processPackages [menpofit]: Downloading https://files.pythonhosted.org/packages/87/59/24f833114b9ebc1562b69f2b906c961cbe0ed2f8e5f26c15ec1bae315c34/menpofit-0.7.1.tar.gz
+[2024-05-07 13:06:54] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: Downloading https://files.pythonhosted.org/packages/d5/27/74c9f1728e4cc8c94fb0b0963d4cd13b2f061b36f066aa5de8191d33fb4f/pyprocessors_segment_renseignor-0.5.8.tar.gz
+[2024-05-07 13:06:54] INFO root fetch - processPackages [prefref]: Downloading https://files.pythonhosted.org/packages/04/19/1147d8aff49265b009132c870cc00635632480eb182c23cb369cdcd11b74/prefref-24.5.700.tar.gz
+[2024-05-07 13:06:54] INFO root fetch - processPackages [pokeapi-ditto]: executing diffoscope
+[2024-05-07 13:06:54] INFO root fetch - processPackages [pokeapi-ditto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokeapi-ditto-1.0.0.tar.gz tmp/pokeapi_ditto-1.0.1.tar.gz --markdown 20240507/p/pokeapi-ditto/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-07 13:06:54] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-07 13:06:54] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.44-py3-none-any.whl.zip tmp/everai-0.1.45-py3-none-any.whl.zip --markdown 20240507/e/everai/0.1.44-0.1.45/README.md --exclude *.pyd
+[2024-05-07 13:06:54] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: executing diffoscope
+[2024-05-07 13:06:54] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors_segment_renseignor-0.5.4.tar.gz tmp/pyprocessors_segment_renseignor-0.5.8.tar.gz --markdown 20240507/p/pyprocessors-segment_renseignor/0.5.4-0.5.8/README.md --exclude *.pyd
+[2024-05-07 13:06:54] INFO root fetch - processPackages [prefref]: executing diffoscope
+[2024-05-07 13:06:54] INFO root fetch - processPackages [prefref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefref-24.5.300.tar.gz tmp/prefref-24.5.700.tar.gz --markdown 20240507/p/prefref/24.5.300-24.5.700/README.md --exclude *.pyd
+[2024-05-07 13:06:55] INFO root fetch - processPackages [menpofit]: executing diffoscope
+[2024-05-07 13:06:55] INFO root fetch - processPackages [menpofit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/menpofit-0.7.0.tar.gz tmp/menpofit-0.7.1.tar.gz --markdown 20240507/m/menpofit/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-07 13:06:55] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/9a/0a/c61b64492bfc144834bdc1339c7811439cd1f466a17686ead2bf65a88844/kuzu-0.4.1.dev4.tar.gz
+[2024-05-07 13:06:56] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-05-07 13:06:56] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.9.tar.gz]
+[2024-05-07 13:06:56] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-05-07 13:06:56] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-07 13:06:56] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-07 13:06:56] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-07 13:06:56] INFO root fetch - processPackages [pokeapi-ditto]: Remove: archive file [/home/abi/fetcher/tmp/pokeapi-ditto-1.0.0.tar.gz]
+[2024-05-07 13:06:56] INFO root fetch - processPackages [pokeapi-ditto]: Remove: archive file [/home/abi/fetcher/tmp/pokeapi_ditto-1.0.1.tar.gz]
+[2024-05-07 13:06:56] INFO root fetch - main [MainThread]: End processing [pokeapi-ditto]: success
+[2024-05-07 13:06:56] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_segment_renseignor-0.5.4.tar.gz]
+[2024-05-07 13:06:56] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_segment_renseignor-0.5.8.tar.gz]
+[2024-05-07 13:06:56] INFO root fetch - main [MainThread]: End processing [pyprocessors-segment_renseignor]: success
+[2024-05-07 13:06:56] INFO root fetch - processPackages [prefref]: Remove: archive file [/home/abi/fetcher/tmp/prefref-24.5.300.tar.gz]
+[2024-05-07 13:06:56] INFO root fetch - processPackages [prefref]: Remove: archive file [/home/abi/fetcher/tmp/prefref-24.5.700.tar.gz]
+[2024-05-07 13:06:56] INFO root fetch - main [MainThread]: End processing [prefref]: success
+[2024-05-07 13:06:56] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-07 13:06:56] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.1.dev3.tar.gz tmp/kuzu-0.4.1.dev4.tar.gz --markdown 20240507/k/kuzu/0.4.1.dev3-0.4.1.dev4/README.md --exclude *.pyd
+[2024-05-07 13:06:56] INFO root fetch - processPackages [menpofit]: Remove: archive file [/home/abi/fetcher/tmp/menpofit-0.7.0.tar.gz]
+[2024-05-07 13:06:56] INFO root fetch - processPackages [menpofit]: Remove: archive file [/home/abi/fetcher/tmp/menpofit-0.7.1.tar.gz]
+[2024-05-07 13:06:56] INFO root fetch - main [MainThread]: End processing [menpofit]: success
+[2024-05-07 13:06:57] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.44-py3-none-any.whl.zip]
+[2024-05-07 13:06:57] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.45-py3-none-any.whl.zip]
+[2024-05-07 13:06:57] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-07 13:07:04] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.1.dev3.tar.gz]
+[2024-05-07 13:07:04] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.1.dev4.tar.gz]
+[2024-05-07 13:07:04] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-07 13:07:04] INFO root fetch - main [MainThread]: Store serial: [23094263]
