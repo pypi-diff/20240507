@@ -9336,3 +9336,33 @@ EOFError: EOF read where object expected
 [2024-05-07 05:02:10] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-3.1.6.tar.gz]
 [2024-05-07 05:02:10] INFO root fetch - main [MainThread]: End processing [T0]: success
 [2024-05-07 05:02:10] INFO root fetch - main [MainThread]: Store serial: [23088793]
+[2024-05-07 05:04:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088793]
+[2024-05-07 05:04:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 05:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erp-apis
+[2024-05-07 05:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sawsi
+[2024-05-07 05:04:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stefutils
+[2024-05-07 05:04:19] INFO root fetch - processPackages [erp-apis]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-07 05:04:19] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-07 05:04:19] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/19/49/21635dfc84d237ecb63cc4ae1deb3f750161d11346519eb218afef9de7d9/erp_apis-1.0.2-py3-none-any.whl
+[2024-05-07 05:04:19] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2024-05-07 05:04:19] INFO root fetch - processPackages [sawsi]: New version: [9.9] Old Version: [9.8]
+[2024-05-07 05:04:19] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2024-05-07 05:04:19] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/a5/89/e5230b963c36d9342bd53c4174b8b4f9595f77c5aa510614cf80ac5315a0/sawsi-9.8.tar.gz
+[2024-05-07 05:04:19] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2024-05-07 05:04:19] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20240507/s/stefutils/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-07 05:04:19] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/b8/28/a32d0b817b5adcffa1c0739e11372aaaae3249a3e3adfda1695162ec5904/erp_apis-1.0.3-py3-none-any.whl
+[2024-05-07 05:04:19] INFO root fetch - processPackages [erp-apis]: executing diffoscope
+[2024-05-07 05:04:19] INFO root fetch - processPackages [erp-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erp_apis-1.0.2-py3-none-any.whl.zip tmp/erp_apis-1.0.3-py3-none-any.whl.zip --markdown 20240507/e/erp-apis/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-07 05:04:20] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/69/c2/e945385340121de75cca5d00aa9ac99f3d874c5977239a7d7efe5e969e17/sawsi-9.9.tar.gz
+[2024-05-07 05:04:20] INFO root fetch - processPackages [sawsi]: executing diffoscope
+[2024-05-07 05:04:20] INFO root fetch - processPackages [sawsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sawsi-9.8.tar.gz tmp/sawsi-9.9.tar.gz --markdown 20240507/s/sawsi/9.8-9.9/README.md --exclude *.pyd
+[2024-05-07 05:04:20] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2024-05-07 05:04:20] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2024-05-07 05:04:20] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2024-05-07 05:04:20] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.2-py3-none-any.whl.zip]
+[2024-05-07 05:04:20] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.3-py3-none-any.whl.zip]
+[2024-05-07 05:04:20] INFO root fetch - main [MainThread]: End processing [erp-apis]: success
+[2024-05-07 05:04:20] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.8.tar.gz]
+[2024-05-07 05:04:20] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.9.tar.gz]
+[2024-05-07 05:04:20] INFO root fetch - main [MainThread]: End processing [sawsi]: success
+[2024-05-07 05:04:20] INFO root fetch - main [MainThread]: Store serial: [23088803]
