@@ -17960,3 +17960,122 @@ EOFError: EOF read where object expected
 [2024-05-07 11:18:35] INFO root fetch - processPackages [pyproject-maker]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_maker-0.9.5.tar.gz]
 [2024-05-07 11:18:35] INFO root fetch - main [MainThread]: End processing [pyproject-maker]: success
 [2024-05-07 11:18:35] INFO root fetch - main [MainThread]: Store serial: [23092857]
+[2024-05-07 11:20:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092857]
+[2024-05-07 11:20:44] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-07 11:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-kraken
+[2024-05-07 11:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bflb-mcu-tool
+[2024-05-07 11:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chickenmukja
+[2024-05-07 11:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: journeygenlib
+[2024-05-07 11:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-techdocs-diamond
+[2024-05-07 11:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composio-core
+[2024-05-07 11:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-autogen
+[2024-05-07 11:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-claude
+[2024-05-07 11:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: composio-crewai
+[2024-05-07 11:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: synch2jira
+[2024-05-07 11:20:44] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.7.0]
+[2024-05-07 11:20:44] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-07 11:20:44] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-07 11:20:44] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-07 11:20:44] ERROR root fetch - processPackages [chickenmukja]: Unable to get metadata: No such project 'chickenmukja'
+[2024-05-07 11:20:44] INFO root fetch - processPackages [chickenmukja]: Start processing: composio-griptape
+[2024-05-07 11:20:44] INFO root fetch - main [MainThread]: End processing [chickenmukja] error
+[2024-05-07 11:20:44] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/cb/06/8ae70afb14c2307fb716d0fe36aad66a90c9e2598f47879c1277c5f23318/music_kraken-1.7.0.tar.gz
+[2024-05-07 11:20:44] INFO root fetch - processPackages [mkdocs-techdocs-diamond]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 11:20:44] INFO root fetch - processPackages [bflb-mcu-tool]: New version: [1.8.9] Old Version: [1.8.7]
+[2024-05-07 11:20:44] WARNING root fetch - processPackages [journeygenlib]: Skipping, unable to determine old version
+[2024-05-07 11:20:44] INFO root fetch - processPackages [journeygenlib]: Start processing: ai-models
+[2024-05-07 11:20:44] INFO root fetch - main [MainThread]: End processing [journeygenlib] error
+[2024-05-07 11:20:44] WARNING root fetch - processPackages [composio-claude]: Skipping, unable to determine old version
+[2024-05-07 11:20:44] INFO root fetch - processPackages [composio-claude]: Start processing: composio-julep
+[2024-05-07 11:20:44] INFO root fetch - main [MainThread]: End processing [composio-claude] error
+[2024-05-07 11:20:44] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-05-07 11:20:44] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-05-07 11:20:44] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-05-07 11:20:44] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-05-07 11:20:44] INFO root fetch - processPackages [composio-julep]: New version: [0.2.51] Old Version: [0.2.50]
+[2024-05-07 11:20:44] WARNING root fetch - processPackages [composio-griptape]: Skipping, unable to determine old version
+[2024-05-07 11:20:44] INFO root fetch - processPackages [composio-griptape]: Start processing: composio-langchain
+[2024-05-07 11:20:44] INFO root fetch - main [MainThread]: End processing [composio-griptape] error
+[2024-05-07 11:20:44] INFO root fetch - processPackages [mkdocs-techdocs-diamond]: Downloading https://files.pythonhosted.org/packages/51/df/a3d7a246d5cff937014074886d6ceb1c13795c2fb812d4fe609c8c5556f7/mkdocs-techdocs-diamond-1.0.0.tar.gz
+[2024-05-07 11:20:44] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-07 11:20:44] INFO root fetch - processPackages [ai-models]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-05-07 11:20:44] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/4a/cc/ff5201c03c0386b685855bddc63241a9c7d4a4281cec1caf97a5b00e1a5d/composio_julep-0.2.50.tar.gz
+[2024-05-07 11:20:44] INFO root fetch - processPackages [bflb-mcu-tool]: Downloading https://files.pythonhosted.org/packages/60/c3/17068f422646fdafe7b9787aa319f0b2fd446c32b143aa04f3f939aca36f/bflb-mcu-tool-1.8.7.tar.gz
+[2024-05-07 11:20:44] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-05-07 11:20:44] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-05-07 11:20:44] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-05-07 11:20:44] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-05-07 11:20:44] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-05-07 11:20:44] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-05-07 11:20:45] WARNING root fetch - processPackages [bflb-mcu-tool]: Skipping package: exceeds size limit 36329403>=10485760
+[2024-05-07 11:20:45] INFO root fetch - processPackages [bflb-mcu-tool]: Start processing: composio-lyzr
+[2024-05-07 11:20:45] INFO root fetch - main [MainThread]: End processing [bflb-mcu-tool] error
+[2024-05-07 11:20:45] INFO root fetch - processPackages [ai-models]: Downloading https://files.pythonhosted.org/packages/d3/92/d73a848ced08afa8ed09272b9b1cc00fb8f8a12274edd2429a1f5603f881/ai-models-0.5.3.tar.gz
+[2024-05-07 11:20:45] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-05-07 11:20:45] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.7.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240507/m/music-kraken/1.7.0-1.9.0/README.md --exclude *.pyd
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240507/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240507/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240507/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-05-07 11:20:45] INFO root fetch - processPackages [mkdocs-techdocs-diamond]: Downloading https://files.pythonhosted.org/packages/7d/23/ffbd794b4591d58bfacbe27b5dfba0ac147b24f3272ae630dd1853d101d1/mkdocs_techdocs_diamond-1.0.1.tar.gz
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/37/69/164ec40db4e3ad845e6fa990d125cb69a7da612383090011884e3d5f2232/composio_lyzr-0.2.8.tar.gz
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/1c/b4/051cfced6d70c75eaf386984e3ed8b6164819b90f9c5ca32a632232b58fd/composio_julep-0.2.51.tar.gz
+[2024-05-07 11:20:45] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-05-07 11:20:45] INFO root fetch - processPackages [mkdocs-techdocs-diamond]: executing diffoscope
+[2024-05-07 11:20:45] INFO root fetch - processPackages [mkdocs-techdocs-diamond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-techdocs-diamond-1.0.0.tar.gz tmp/mkdocs_techdocs_diamond-1.0.1.tar.gz --markdown 20240507/m/mkdocs-techdocs-diamond/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-07 11:20:45] INFO root fetch - processPackages [ai-models]: Downloading https://files.pythonhosted.org/packages/2a/32/8445bf3132946f343123fdb9ffbd9667942e852e041eaaadc0c1ccba3f2a/ai_models-0.5.5.tar.gz
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-julep]: executing diffoscope
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-julep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_julep-0.2.50.tar.gz tmp/composio_julep-0.2.51.tar.gz --markdown 20240507/c/composio-julep/0.2.50-0.2.51/README.md --exclude *.pyd
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240507/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-07 11:20:45] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-05-07 11:20:45] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240507/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-05-07 11:20:45] INFO root fetch - processPackages [ai-models]: executing diffoscope
+[2024-05-07 11:20:45] INFO root fetch - processPackages [ai-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-models-0.5.3.tar.gz tmp/ai_models-0.5.5.tar.gz --markdown 20240507/a/ai-models/0.5.3-0.5.5/README.md --exclude *.pyd
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.8.tar.gz tmp/composio_lyzr-0.2.9.tar.gz --markdown 20240507/c/composio-lyzr/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-crewai]: Start processing: composio-openai
+[2024-05-07 11:20:45] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-openai]: New version: [0.2.51] Old Version: [0.2.50]
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-05-07 11:20:45] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-05-07 11:20:45] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-05-07 11:20:46] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.7.0.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-05-07 11:20:46] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-05-07 11:20:46] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/3c/83/9aa6e5b8b54af28dcb3824f781e1221725e28cd772b622d10bcf31dbcc2b/composio_openai-0.2.50.tar.gz
+[2024-05-07 11:20:46] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.50.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.51.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - main [MainThread]: End processing [composio-julep]: success
+[2024-05-07 11:20:46] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-05-07 11:20:46] INFO root fetch - processPackages [mkdocs-techdocs-diamond]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-techdocs-diamond-1.0.0.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - processPackages [mkdocs-techdocs-diamond]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_techdocs_diamond-1.0.1.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - main [MainThread]: End processing [mkdocs-techdocs-diamond]: success
+[2024-05-07 11:20:46] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-05-07 11:20:46] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/16/dc/457581da52c5e6886614a928573818b7f4a9090cdae228c892f064389566/composio_openai-0.2.51.tar.gz
+[2024-05-07 11:20:46] INFO root fetch - processPackages [ai-models]: Remove: archive file [/home/abi/fetcher/tmp/ai-models-0.5.3.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - processPackages [ai-models]: Remove: archive file [/home/abi/fetcher/tmp/ai_models-0.5.5.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - main [MainThread]: End processing [ai-models]: success
+[2024-05-07 11:20:46] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.8.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-05-07 11:20:46] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-05-07 11:20:46] INFO root fetch - processPackages [composio-openai]: executing diffoscope
+[2024-05-07 11:20:46] INFO root fetch - processPackages [composio-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_openai-0.2.50.tar.gz tmp/composio_openai-0.2.51.tar.gz --markdown 20240507/c/composio-openai/0.2.50-0.2.51/README.md --exclude *.pyd
+[2024-05-07 11:20:47] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.50.tar.gz]
+[2024-05-07 11:20:47] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.51.tar.gz]
+[2024-05-07 11:20:47] INFO root fetch - main [MainThread]: End processing [composio-openai]: success
+[2024-05-07 11:20:47] INFO root fetch - main [MainThread]: Store serial: [23092921]
