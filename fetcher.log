@@ -3906,3 +3906,42 @@ EOFError: EOF read where object expected
 [2024-05-07 02:58:00] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a99-py3-none-win_amd64.whl.zip]
 [2024-05-07 02:58:00] INFO root fetch - main [MainThread]: End processing [bauplan]: success
 [2024-05-07 02:58:00] INFO root fetch - main [MainThread]: Store serial: [23086726]
+[2024-05-07 03:00:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086726]
+[2024-05-07 03:00:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 03:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oceanum
+[2024-05-07 03:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django_herobiz_ds
+[2024-05-07 03:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pauli-tracker
+[2024-05-07 03:00:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Py-Lav
+[2024-05-07 03:00:17] INFO root fetch - processPackages [oceanum]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-07 03:00:17] INFO root fetch - processPackages [Py-Lav]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-07 03:00:17] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/57/ed/935840882fb2e119b107f69f3f9b67b25107aa1acd866accb4eb44166804/oceanum-0.9.7.tar.gz
+[2024-05-07 03:00:17] INFO root fetch - processPackages [Py-Lav]: Downloading https://files.pythonhosted.org/packages/e9/64/08d96df3ebb41b75149551173aa15872b9c758f4b12d5c36eba8f2dbf30d/py_lav-1.9.0.tar.gz
+[2024-05-07 03:00:17] INFO root fetch - processPackages [pauli-tracker]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 03:00:17] INFO root fetch - processPackages [django_herobiz_ds]: New version: [2.3.0] Old Version: [2.2.4]
+[2024-05-07 03:00:18] INFO root fetch - processPackages [pauli-tracker]: Downloading https://files.pythonhosted.org/packages/de/30/0772d0f4f53477313d4ed990168146626005a771b49df789bd1c0078ea62/pauli_tracker-0.1.0.tar.gz
+[2024-05-07 03:00:18] INFO root fetch - processPackages [Py-Lav]: Downloading https://files.pythonhosted.org/packages/65/96/7b1f7affb973d7ebaa76b7dc9887f38e2967631eb75a6676334cb300c3c5/py_lav-1.9.1.tar.gz
+[2024-05-07 03:00:18] INFO root fetch - processPackages [django_herobiz_ds]: Downloading https://files.pythonhosted.org/packages/20/d3/60ddc03d20d7ae71d79b29fc4e092f052bad3172eb8ba446ea97e29d26c3/django_herobiz_ds-2.2.4.tar.gz
+[2024-05-07 03:00:18] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/d6/84/c1ff2f83b55b69b2f4e65d205b4e2a9f88f1070aa1310d7fd5b4a1df7df1/oceanum-0.9.8.tar.gz
+[2024-05-07 03:00:18] INFO root fetch - processPackages [oceanum]: executing diffoscope
+[2024-05-07 03:00:18] INFO root fetch - processPackages [oceanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanum-0.9.7.tar.gz tmp/oceanum-0.9.8.tar.gz --markdown 20240507/o/oceanum/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-07 03:00:18] INFO root fetch - processPackages [Py-Lav]: executing diffoscope
+[2024-05-07 03:00:18] INFO root fetch - processPackages [Py-Lav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_lav-1.9.0.tar.gz tmp/py_lav-1.9.1.tar.gz --markdown 20240507/P/Py-Lav/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-07 03:00:18] INFO root fetch - processPackages [pauli-tracker]: Downloading https://files.pythonhosted.org/packages/73/6c/cd1fcfe019e1a412e010a8333df57338107443fc65fe38466404390d4b7f/pauli_tracker-0.1.1.tar.gz
+[2024-05-07 03:00:18] INFO root fetch - processPackages [django_herobiz_ds]: Downloading https://files.pythonhosted.org/packages/c4/14/54a7d519fbea6b45608aa80740f0f92730217e0f9b006523c7bd01fd1e16/django_herobiz_ds-2.3.0.tar.gz
+[2024-05-07 03:00:18] INFO root fetch - processPackages [pauli-tracker]: executing diffoscope
+[2024-05-07 03:00:18] INFO root fetch - processPackages [pauli-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pauli_tracker-0.1.0.tar.gz tmp/pauli_tracker-0.1.1.tar.gz --markdown 20240507/p/pauli-tracker/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 03:00:18] INFO root fetch - processPackages [django_herobiz_ds]: executing diffoscope
+[2024-05-07 03:00:18] INFO root fetch - processPackages [django_herobiz_ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_herobiz_ds-2.2.4.tar.gz tmp/django_herobiz_ds-2.3.0.tar.gz --markdown 20240507/d/django_herobiz_ds/2.2.4-2.3.0/README.md --exclude *.pyd
+[2024-05-07 03:00:18] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.7.tar.gz]
+[2024-05-07 03:00:18] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.8.tar.gz]
+[2024-05-07 03:00:18] INFO root fetch - main [MainThread]: End processing [oceanum]: success
+[2024-05-07 03:00:19] INFO root fetch - processPackages [pauli-tracker]: Remove: archive file [/home/abi/fetcher/tmp/pauli_tracker-0.1.0.tar.gz]
+[2024-05-07 03:00:19] INFO root fetch - processPackages [pauli-tracker]: Remove: archive file [/home/abi/fetcher/tmp/pauli_tracker-0.1.1.tar.gz]
+[2024-05-07 03:00:19] INFO root fetch - main [MainThread]: End processing [pauli-tracker]: success
+[2024-05-07 03:00:20] INFO root fetch - processPackages [django_herobiz_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_ds-2.2.4.tar.gz]
+[2024-05-07 03:00:20] INFO root fetch - processPackages [django_herobiz_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_ds-2.3.0.tar.gz]
+[2024-05-07 03:00:20] INFO root fetch - main [MainThread]: End processing [django_herobiz_ds]: success
+[2024-05-07 03:00:26] INFO root fetch - processPackages [Py-Lav]: Remove: archive file [/home/abi/fetcher/tmp/py_lav-1.9.0.tar.gz]
+[2024-05-07 03:00:26] INFO root fetch - processPackages [Py-Lav]: Remove: archive file [/home/abi/fetcher/tmp/py_lav-1.9.1.tar.gz]
+[2024-05-07 03:00:26] INFO root fetch - main [MainThread]: End processing [Py-Lav]: success
+[2024-05-07 03:00:26] INFO root fetch - main [MainThread]: Store serial: [23086753]
