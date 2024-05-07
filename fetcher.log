@@ -8754,3 +8754,36 @@ EOFError: EOF read where object expected
 [2024-05-07 04:27:17] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
 [2024-05-07 04:27:17] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-07 04:27:17] INFO root fetch - main [MainThread]: Store serial: [23088477]
+[2024-05-07 04:29:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088477]
+[2024-05-07 04:29:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qdtrader
+[2024-05-07 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iam-actions
+[2024-05-07 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: containers-sugar
+[2024-05-07 04:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sz-utils
+[2024-05-07 04:29:26] INFO root fetch - processPackages [sz-utils]: New version: [0.4] Old Version: [0.3]
+[2024-05-07 04:29:26] INFO root fetch - processPackages [containers-sugar]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-07 04:29:26] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240506] Old Version: [1.2.20240505]
+[2024-05-07 04:29:26] WARNING root fetch - processPackages [qdtrader]: Skipping, unable to determine old version
+[2024-05-07 04:29:26] INFO root fetch - main [MainThread]: End processing [qdtrader] error
+[2024-05-07 04:29:26] INFO root fetch - processPackages [sz-utils]: Downloading https://files.pythonhosted.org/packages/b8/c4/96550086923018d74f179777dba3d4121eb25844bd196525cd09151279cf/sz_utils-0.3.tar.gz
+[2024-05-07 04:29:26] INFO root fetch - processPackages [containers-sugar]: Downloading https://files.pythonhosted.org/packages/52/7f/8529d70a4f4f2ac2ed517ce5de397b80ec15f00a09c08a1d0b71879cd6cc/containers_sugar-1.9.2.tar.gz
+[2024-05-07 04:29:26] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/d2/2f/c9d1b9599271c5db1e645768041967e7e6b21b77dd98d142fb3d2dbcbd3a/iam_actions-1.2.20240505.tar.gz
+[2024-05-07 04:29:26] INFO root fetch - processPackages [containers-sugar]: Downloading https://files.pythonhosted.org/packages/a2/15/3f0f8bd048ea26275a4844fb49c363d4f55d9c118de0ae0aa2251f16cb68/containers_sugar-1.9.3.tar.gz
+[2024-05-07 04:29:26] INFO root fetch - processPackages [containers-sugar]: executing diffoscope
+[2024-05-07 04:29:26] INFO root fetch - processPackages [containers-sugar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/containers_sugar-1.9.2.tar.gz tmp/containers_sugar-1.9.3.tar.gz --markdown 20240507/c/containers-sugar/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-07 04:29:26] INFO root fetch - processPackages [sz-utils]: Downloading https://files.pythonhosted.org/packages/49/47/81a2ba57269509ba500aafc0a04fb1583432efae9a8bde031f772e8b1123/sz_utils-0.4.tar.gz
+[2024-05-07 04:29:26] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/df/2d/00944afe6a4e87dfb6b76ca4eedb9df3f13528189543e3c9cca52ff9d556/iam_actions-1.2.20240506.tar.gz
+[2024-05-07 04:29:26] INFO root fetch - processPackages [sz-utils]: executing diffoscope
+[2024-05-07 04:29:26] INFO root fetch - processPackages [sz-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sz_utils-0.3.tar.gz tmp/sz_utils-0.4.tar.gz --markdown 20240507/s/sz-utils/0.3-0.4/README.md --exclude *.pyd
+[2024-05-07 04:29:27] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-07 04:29:27] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240505.tar.gz tmp/iam_actions-1.2.20240506.tar.gz --markdown 20240507/i/iam-actions/1.2.20240505-1.2.20240506/README.md --exclude *.pyd
+[2024-05-07 04:29:27] INFO root fetch - processPackages [containers-sugar]: Remove: archive file [/home/abi/fetcher/tmp/containers_sugar-1.9.2.tar.gz]
+[2024-05-07 04:29:27] INFO root fetch - processPackages [containers-sugar]: Remove: archive file [/home/abi/fetcher/tmp/containers_sugar-1.9.3.tar.gz]
+[2024-05-07 04:29:27] INFO root fetch - main [MainThread]: End processing [containers-sugar]: success
+[2024-05-07 04:29:27] INFO root fetch - processPackages [sz-utils]: Remove: archive file [/home/abi/fetcher/tmp/sz_utils-0.3.tar.gz]
+[2024-05-07 04:29:27] INFO root fetch - processPackages [sz-utils]: Remove: archive file [/home/abi/fetcher/tmp/sz_utils-0.4.tar.gz]
+[2024-05-07 04:29:27] INFO root fetch - main [MainThread]: End processing [sz-utils]: success
+[2024-05-07 04:29:28] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240505.tar.gz]
+[2024-05-07 04:29:28] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240506.tar.gz]
+[2024-05-07 04:29:28] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-07 04:29:28] INFO root fetch - main [MainThread]: Store serial: [23088492]
