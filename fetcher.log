@@ -12151,3 +12151,84 @@ EOFError: EOF read where object expected
 [2024-05-07 07:47:49] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1715059797.tar.gz]
 [2024-05-07 07:47:49] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
 [2024-05-07 07:47:49] INFO root fetch - main [MainThread]: Store serial: [23090070]
+[2024-05-07 07:49:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090070]
+[2024-05-07 07:49:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-07 07:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syncmodels
+[2024-05-07 07:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netbox-sp-addon
+[2024-05-07 07:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torii
+[2024-05-07 07:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autorunpy
+[2024-05-07 07:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-consul
+[2024-05-07 07:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agptools
+[2024-05-07 07:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swarmtube
+[2024-05-07 07:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-surveyplus
+[2024-05-07 07:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: albuminiformz
+[2024-05-07 07:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: awsync
+[2024-05-07 07:49:58] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 07:49:58] INFO root fetch - processPackages [swarmtube]: New version: [0.1.31] Old Version: [0.1.0]
+[2024-05-07 07:49:58] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 07:49:58] INFO root fetch - processPackages [autorunpy]: New version: [8.1.9] Old Version: [8.1.8]
+[2024-05-07 07:49:58] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-07 07:49:58] WARNING root fetch - processPackages [albuminiformz]: Skipping, unable to determine old version
+[2024-05-07 07:49:58] INFO root fetch - main [MainThread]: End processing [albuminiformz] error
+[2024-05-07 07:49:58] INFO root fetch - processPackages [torii]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-07 07:49:58] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/c5/00/f47f256519ee4a5160405b04b1775c9e1e0425aa76cc224b2ac1499f8d3b/swarmtube-0.1.0-py2.py3-none-any.whl
+[2024-05-07 07:49:58] INFO root fetch - processPackages [awsync]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-07 07:49:58] INFO root fetch - processPackages [netbox-sp-addon]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-07 07:49:58] ERROR root fetch - processPackages [django-surveyplus]: Unable to get metadata: No such project 'django-surveyplus'
+[2024-05-07 07:49:58] INFO root fetch - main [MainThread]: End processing [django-surveyplus] error
+[2024-05-07 07:49:58] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-05-07 07:49:58] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1687670569] Old Version: [3.9.0a1687054376]
+[2024-05-07 07:49:58] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/78/26/79dece636032c00611a4546dfdd997ac9c67c8b202706dc055a1c45cc809/autorunpy-8.1.8.tar.gz
+[2024-05-07 07:49:58] INFO root fetch - processPackages [torii]: Downloading https://files.pythonhosted.org/packages/99/5c/1c702394ee3de59e472f7748f894f9a22e82c69417aaa1885dd4c706f9b5/torii-0.5.0.tar.gz
+[2024-05-07 07:49:58] INFO root fetch - processPackages [netbox-sp-addon]: Downloading https://files.pythonhosted.org/packages/10/37/870e26dfd52e84649e6ce45bf9bd798bdbd37a9a19c43e58464584a5d8f9/netbox_sp_addon-0.9.0.tar.gz
+[2024-05-07 07:49:58] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-07 07:49:58] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/b2/0b/a9aea9bd557425d918ea238feabf49fb698d827f1dfeaf4613d70eae31a2/pulumi_consul-3.9.0a1687054376.tar.gz
+[2024-05-07 07:49:58] INFO root fetch - processPackages [awsync]: Downloading https://files.pythonhosted.org/packages/91/3d/8454794c9eb018b77b639082d4eb0beb6c85bac176a4c54ef098a2702ba8/awsync-0.1.2.tar.gz
+[2024-05-07 07:49:58] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-05-07 07:49:58] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/53/11/613b3d39c83c39bff7b182b49761f06b38ad3540daecf93d25ba29722b5d/swarmtube-0.1.31-py2.py3-none-any.whl
+[2024-05-07 07:49:58] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/87/6a/5320449949756b9b4b752886bb89898fac32db3e5ddeee8a74a313f7fd19/autorunpy-8.1.9.tar.gz
+[2024-05-07 07:49:58] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-07 07:49:58] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240507/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 07:49:59] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-05-07 07:49:59] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240507/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 07:49:59] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-07 07:49:59] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.0-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.31-py2.py3-none-any.whl.zip --markdown 20240507/s/swarmtube/0.1.0-0.1.31/README.md --exclude *.pyd
+[2024-05-07 07:49:59] INFO root fetch - processPackages [autorunpy]: executing diffoscope
+[2024-05-07 07:49:59] INFO root fetch - processPackages [autorunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorunpy-8.1.8.tar.gz tmp/autorunpy-8.1.9.tar.gz --markdown 20240507/a/autorunpy/8.1.8-8.1.9/README.md --exclude *.pyd
+[2024-05-07 07:49:59] INFO root fetch - processPackages [netbox-sp-addon]: Downloading https://files.pythonhosted.org/packages/1a/b2/ed4dcc7c05c399644cc64daef2ca730dc45d6c2f28dc23c43079fc4b1cee/netbox_sp_addon-0.9.1.tar.gz
+[2024-05-07 07:49:59] INFO root fetch - processPackages [awsync]: Downloading https://files.pythonhosted.org/packages/25/2c/b8cd49493a6d7435b0042a767f5f0e15c554a7c01fa344f0d1d68777ac76/awsync-0.2.0.tar.gz
+[2024-05-07 07:49:59] INFO root fetch - processPackages [torii]: Downloading https://files.pythonhosted.org/packages/c4/01/100ecb31b623ea36d0ee3ad6cd4a1a7f380e898c7106dfacaab006ea12a1/torii-0.6.0.tar.gz
+[2024-05-07 07:49:59] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/aa/10/eaf50f0d8ecb4103cac140429d33cf0fbed0a84ade857f6a5d9e9dda5e71/pulumi_consul-3.9.0a1687670569.tar.gz
+[2024-05-07 07:49:59] INFO root fetch - processPackages [netbox-sp-addon]: executing diffoscope
+[2024-05-07 07:49:59] INFO root fetch - processPackages [netbox-sp-addon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_sp_addon-0.9.0.tar.gz tmp/netbox_sp_addon-0.9.1.tar.gz --markdown 20240507/n/netbox-sp-addon/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-07 07:49:59] INFO root fetch - processPackages [torii]: executing diffoscope
+[2024-05-07 07:49:59] INFO root fetch - processPackages [torii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torii-0.5.0.tar.gz tmp/torii-0.6.0.tar.gz --markdown 20240507/t/torii/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-07 07:49:59] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2024-05-07 07:49:59] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1687054376.tar.gz tmp/pulumi_consul-3.9.0a1687670569.tar.gz --markdown 20240507/p/pulumi-consul/3.9.0a1687054376-3.9.0a1687670569/README.md --exclude *.pyd
+[2024-05-07 07:49:59] INFO root fetch - processPackages [awsync]: executing diffoscope
+[2024-05-07 07:49:59] INFO root fetch - processPackages [awsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsync-0.1.2.tar.gz tmp/awsync-0.2.0.tar.gz --markdown 20240507/a/awsync/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-07 07:49:59] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.1.8.tar.gz]
+[2024-05-07 07:49:59] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.1.9.tar.gz]
+[2024-05-07 07:49:59] INFO root fetch - main [MainThread]: End processing [autorunpy]: success
+[2024-05-07 07:49:59] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-07 07:49:59] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-07 07:49:59] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-07 07:49:59] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-07 07:49:59] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-07 07:49:59] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-05-07 07:49:59] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.0-py2.py3-none-any.whl.zip]
+[2024-05-07 07:49:59] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.31-py2.py3-none-any.whl.zip]
+[2024-05-07 07:49:59] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-07 07:49:59] INFO root fetch - processPackages [netbox-sp-addon]: Remove: archive file [/home/abi/fetcher/tmp/netbox_sp_addon-0.9.0.tar.gz]
+[2024-05-07 07:49:59] INFO root fetch - processPackages [netbox-sp-addon]: Remove: archive file [/home/abi/fetcher/tmp/netbox_sp_addon-0.9.1.tar.gz]
+[2024-05-07 07:49:59] INFO root fetch - main [MainThread]: End processing [netbox-sp-addon]: success
+[2024-05-07 07:50:00] INFO root fetch - processPackages [awsync]: Remove: archive file [/home/abi/fetcher/tmp/awsync-0.1.2.tar.gz]
+[2024-05-07 07:50:00] INFO root fetch - processPackages [awsync]: Remove: archive file [/home/abi/fetcher/tmp/awsync-0.2.0.tar.gz]
+[2024-05-07 07:50:00] INFO root fetch - main [MainThread]: End processing [awsync]: success
+[2024-05-07 07:50:00] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687054376.tar.gz]
+[2024-05-07 07:50:00] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
+[2024-05-07 07:50:00] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2024-05-07 07:50:01] INFO root fetch - processPackages [torii]: Remove: archive file [/home/abi/fetcher/tmp/torii-0.5.0.tar.gz]
+[2024-05-07 07:50:01] INFO root fetch - processPackages [torii]: Remove: archive file [/home/abi/fetcher/tmp/torii-0.6.0.tar.gz]
+[2024-05-07 07:50:01] INFO root fetch - main [MainThread]: End processing [torii]: success
+[2024-05-07 07:50:01] INFO root fetch - main [MainThread]: Store serial: [23090100]
