@@ -14187,3 +14187,55 @@ EOFError: EOF read where object expected
 [2024-05-07 08:59:44] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
 [2024-05-07 08:59:44] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-05-07 08:59:44] INFO root fetch - main [MainThread]: Store serial: [23091118]
+[2024-05-07 09:01:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091118]
+[2024-05-07 09:01:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 09:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-wavefront
+[2024-05-07 09:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h5ui
+[2024-05-07 09:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotmodels
+[2024-05-07 09:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qoqo-calculator-pyo3
+[2024-05-07 09:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: entegywrapper
+[2024-05-07 09:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-models-nightly
+[2024-05-07 09:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pisahkan-ktp
+[2024-05-07 09:01:53] INFO root fetch - processPackages [h5ui]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-07 09:01:53] WARNING root fetch - processPackages [pisahkan-ktp]: Skipping, unable to determine old version
+[2024-05-07 09:01:53] INFO root fetch - main [MainThread]: End processing [pisahkan-ktp] error
+[2024-05-07 09:01:53] INFO root fetch - processPackages [robotmodels]: New version: [0.1.5] Old Version: [0.1.3]
+[2024-05-07 09:01:53] INFO root fetch - processPackages [entegywrapper]: New version: [7.2.5] Old Version: [7.2.4]
+[2024-05-07 09:01:53] INFO root fetch - processPackages [pulumi-wavefront]: New version: [3.2.0a1715064249] Old Version: [3.2.0a1714566250]
+[2024-05-07 09:01:53] INFO root fetch - processPackages [qoqo-calculator-pyo3]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-07 09:01:53] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-05-07 09:01:53] INFO root fetch - processPackages [h5ui]: Downloading https://files.pythonhosted.org/packages/7a/8c/0bfce8b656b84e4e0a3710af3e2e0e421c043d46e10e1ea4e1beaa754b38/h5ui-0.1.5.tar.gz
+[2024-05-07 09:01:53] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-05-07 09:01:53] WARNING root fetch - processPackages [h5ui]: Skipping package: exceeds size limit 13867919>=10485760
+[2024-05-07 09:01:53] INFO root fetch - main [MainThread]: End processing [h5ui] error
+[2024-05-07 09:01:53] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/46/f5/62e838f636177ec5ac60b8c4388a28f1d80437b3ea434eebd933737053ee/entegywrapper-7.2.4.tar.gz
+[2024-05-07 09:01:53] INFO root fetch - processPackages [robotmodels]: Downloading https://files.pythonhosted.org/packages/76/14/3ee4b06f0003faed2360d4fba3bd5aa2c147ce4c0a8645551653f6ed550e/robotmodels-0.1.3.tar.gz
+[2024-05-07 09:01:53] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Downloading https://files.pythonhosted.org/packages/89/aa/f5aba8d56ef25594d8b8e884463bfe12b1c14c2e435bc904d9992845bec5/qoqo_calculator_pyo3-1.2.1.tar.gz
+[2024-05-07 09:01:53] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/52/77/2dc31f9e4e5954df0f64289e085ec34be1caf45cbc9c07cb012d69c9dded/pulumi_wavefront-3.2.0a1714566250.tar.gz
+[2024-05-07 09:01:54] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-05-07 09:01:54] WARNING root fetch - processPackages [robotmodels]: Skipping package: exceeds size limit 33554969>=10485760
+[2024-05-07 09:01:54] INFO root fetch - main [MainThread]: End processing [robotmodels] error
+[2024-05-07 09:01:54] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/50/d6/823e9fb47f925b749855768beb7256489f45b947add52b259cbcf769f3bb/entegywrapper-7.2.5.tar.gz
+[2024-05-07 09:01:54] INFO root fetch - processPackages [entegywrapper]: executing diffoscope
+[2024-05-07 09:01:54] INFO root fetch - processPackages [entegywrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entegywrapper-7.2.4.tar.gz tmp/entegywrapper-7.2.5.tar.gz --markdown 20240507/e/entegywrapper/7.2.4-7.2.5/README.md --exclude *.pyd
+[2024-05-07 09:01:54] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/a4/68/4524248e9a486e5305171c67aecf1762954c2e60a0819b4587cc3a45f35f/pulumi_wavefront-3.2.0a1715064249.tar.gz
+[2024-05-07 09:01:54] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Downloading https://files.pythonhosted.org/packages/f7/47/2a6973801b997dbe78cdb1b5bf1b1dac581f2f00e39c41d4723f166b63c3/qoqo_calculator_pyo3-1.2.2.tar.gz
+[2024-05-07 09:01:54] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2024-05-07 09:01:54] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-3.2.0a1714566250.tar.gz tmp/pulumi_wavefront-3.2.0a1715064249.tar.gz --markdown 20240507/p/pulumi-wavefront/3.2.0a1714566250-3.2.0a1715064249/README.md --exclude *.pyd
+[2024-05-07 09:01:54] INFO root fetch - processPackages [qoqo-calculator-pyo3]: executing diffoscope
+[2024-05-07 09:01:54] INFO root fetch - processPackages [qoqo-calculator-pyo3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_calculator_pyo3-1.2.1.tar.gz tmp/qoqo_calculator_pyo3-1.2.2.tar.gz --markdown 20240507/q/qoqo-calculator-pyo3/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-07 09:01:54] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-05-07 09:01:54] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240507/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-05-07 09:01:54] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.2.4.tar.gz]
+[2024-05-07 09:01:54] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.2.5.tar.gz]
+[2024-05-07 09:01:54] INFO root fetch - main [MainThread]: End processing [entegywrapper]: success
+[2024-05-07 09:01:55] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1714566250.tar.gz]
+[2024-05-07 09:01:55] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1715064249.tar.gz]
+[2024-05-07 09:01:55] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2024-05-07 09:01:56] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_calculator_pyo3-1.2.1.tar.gz]
+[2024-05-07 09:01:56] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_calculator_pyo3-1.2.2.tar.gz]
+[2024-05-07 09:01:56] INFO root fetch - main [MainThread]: End processing [qoqo-calculator-pyo3]: success
+[2024-05-07 09:01:57] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-05-07 09:01:57] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-05-07 09:01:57] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-05-07 09:01:57] INFO root fetch - main [MainThread]: Store serial: [23091169]
