@@ -16337,3 +16337,45 @@ EOFError: EOF read where object expected
 [2024-05-07 10:21:51] INFO root fetch - processPackages [PlotPy]: Remove: archive file [/home/abi/fetcher/tmp/plotpy-2.3.2.tar.gz]
 [2024-05-07 10:21:51] INFO root fetch - main [MainThread]: End processing [PlotPy]: success
 [2024-05-07 10:21:51] INFO root fetch - main [MainThread]: Store serial: [23092141]
+[2024-05-07 10:23:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092141]
+[2024-05-07 10:24:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 10:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: naneos-devices
+[2024-05-07 10:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libcnmc
+[2024-05-07 10:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: niwatoko
+[2024-05-07 10:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-ims20190815
+[2024-05-07 10:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swiki
+[2024-05-07 10:24:01] INFO root fetch - processPackages [naneos-devices]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 10:24:01] WARNING root fetch - processPackages [swiki]: Skipping, unable to determine old version
+[2024-05-07 10:24:01] INFO root fetch - processPackages [niwatoko]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-07 10:24:01] INFO root fetch - main [MainThread]: End processing [swiki] error
+[2024-05-07 10:24:01] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/41/6c/47f5076bb74d621bfb5f15be3e53628f61fa90100dcce6a89e01c818ce6d/niwatoko-1.0.2.tar.gz
+[2024-05-07 10:24:01] INFO root fetch - processPackages [naneos-devices]: Downloading https://files.pythonhosted.org/packages/08/35/e27ffaada065cf297981eb7367c0d87743327ddbe5f9a4a4a58adb0eec09/naneos_devices-1.0.8.tar.gz
+[2024-05-07 10:24:01] INFO root fetch - processPackages [libcnmc]: New version: [24.9.0] Old Version: [24.8.3]
+[2024-05-07 10:24:01] INFO root fetch - processPackages [alibabacloud-ims20190815]: New version: [3.1.0] Old Version: [3.0.4]
+[2024-05-07 10:24:01] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/06/95/80722d6009cc50259f4ce428e98ab7aa5f24029258e48badd2a15d9022d1/libcnmc-24.8.3.tar.gz
+[2024-05-07 10:24:01] INFO root fetch - processPackages [alibabacloud-ims20190815]: Downloading https://files.pythonhosted.org/packages/54/f6/455d821074cebcedd6f76aa4d9e48436d6cec180e02cca2148e932a8c174/alibabacloud_ims20190815-3.0.4.tar.gz
+[2024-05-07 10:24:01] INFO root fetch - processPackages [naneos-devices]: Downloading https://files.pythonhosted.org/packages/2e/11/a6e2ba14a2561fd9b9d966675ce7ce4104efe2145491b765d0c3b8ce139b/naneos_devices-1.0.9.tar.gz
+[2024-05-07 10:24:01] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/fe/30/45e1fdd71c07f49076d34cb6825ec479d53935b6f396918e0f5675ac394e/niwatoko-1.0.3.tar.gz
+[2024-05-07 10:24:01] INFO root fetch - processPackages [naneos-devices]: executing diffoscope
+[2024-05-07 10:24:01] INFO root fetch - processPackages [naneos-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naneos_devices-1.0.8.tar.gz tmp/naneos_devices-1.0.9.tar.gz --markdown 20240507/n/naneos-devices/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 10:24:01] INFO root fetch - processPackages [niwatoko]: executing diffoscope
+[2024-05-07 10:24:01] INFO root fetch - processPackages [niwatoko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niwatoko-1.0.2.tar.gz tmp/niwatoko-1.0.3.tar.gz --markdown 20240507/n/niwatoko/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-07 10:24:01] INFO root fetch - processPackages [alibabacloud-ims20190815]: Downloading https://files.pythonhosted.org/packages/66/cf/9166acd7f73c43bf8f2f131243678ccf55f1906d2382525851d4695c5c2e/alibabacloud_ims20190815-3.1.0.tar.gz
+[2024-05-07 10:24:01] INFO root fetch - processPackages [alibabacloud-ims20190815]: executing diffoscope
+[2024-05-07 10:24:01] INFO root fetch - processPackages [alibabacloud-ims20190815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ims20190815-3.0.4.tar.gz tmp/alibabacloud_ims20190815-3.1.0.tar.gz --markdown 20240507/a/alibabacloud-ims20190815/3.0.4-3.1.0/README.md --exclude *.pyd
+[2024-05-07 10:24:01] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/80/9b/3c50acc630ff122623a0def3d1145430763cb3ca6f3195b9288ef0962a44/libcnmc-24.9.0.tar.gz
+[2024-05-07 10:24:02] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2024-05-07 10:24:02] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-24.8.3.tar.gz tmp/libcnmc-24.9.0.tar.gz --markdown 20240507/l/libcnmc/24.8.3-24.9.0/README.md --exclude *.pyd
+[2024-05-07 10:24:02] INFO root fetch - processPackages [naneos-devices]: Remove: archive file [/home/abi/fetcher/tmp/naneos_devices-1.0.8.tar.gz]
+[2024-05-07 10:24:02] INFO root fetch - processPackages [naneos-devices]: Remove: archive file [/home/abi/fetcher/tmp/naneos_devices-1.0.9.tar.gz]
+[2024-05-07 10:24:02] INFO root fetch - main [MainThread]: End processing [naneos-devices]: success
+[2024-05-07 10:24:02] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.0.2.tar.gz]
+[2024-05-07 10:24:02] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.0.3.tar.gz]
+[2024-05-07 10:24:02] INFO root fetch - main [MainThread]: End processing [niwatoko]: success
+[2024-05-07 10:24:02] INFO root fetch - processPackages [alibabacloud-ims20190815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ims20190815-3.0.4.tar.gz]
+[2024-05-07 10:24:02] INFO root fetch - processPackages [alibabacloud-ims20190815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ims20190815-3.1.0.tar.gz]
+[2024-05-07 10:24:02] INFO root fetch - main [MainThread]: End processing [alibabacloud-ims20190815]: success
+[2024-05-07 10:24:03] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.8.3.tar.gz]
+[2024-05-07 10:24:03] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.9.0.tar.gz]
+[2024-05-07 10:24:03] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2024-05-07 10:24:03] INFO root fetch - main [MainThread]: Store serial: [23092155]
