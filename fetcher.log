@@ -3087,3 +3087,103 @@ EOFError: EOF read where object expected
 [2024-05-07 02:12:42] INFO root fetch - processPackages [deltacat]: Remove: archive file [/home/abi/fetcher/tmp/deltacat-1.1.4.tar.gz]
 [2024-05-07 02:12:42] INFO root fetch - main [MainThread]: End processing [deltacat]: success
 [2024-05-07 02:12:42] INFO root fetch - main [MainThread]: Store serial: [23086397]
+[2024-05-07 02:14:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086397]
+[2024-05-07 02:14:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-07 02:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-nag
+[2024-05-07 02:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cinemol
+[2024-05-07 02:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cinemol
+[2024-05-07 02:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-gitlab-runner
+[2024-05-07 02:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-events-notify
+[2024-05-07 02:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-skylight
+[2024-05-07 02:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytorch-ignite
+[2024-05-07 02:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-common
+[2024-05-07 02:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kayalab
+[2024-05-07 02:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skrutable
+[2024-05-07 02:14:51] INFO root fetch - processPackages [kayalab]: New version: [0.7.9] Old Version: [0.7.7]
+[2024-05-07 02:14:51] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-07 02:14:51] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-05-07 02:14:51] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-07 02:14:51] INFO root fetch - processPackages [cinemol]: New version: [0.0.1.dev0] Old Version: [0.0.1]
+[2024-05-07 02:14:51] INFO root fetch - processPackages [cinemol]: New version: [0.0.1.dev0] Old Version: [0.0.1]
+[2024-05-07 02:14:51] INFO root fetch - processPackages [skrutable]: New version: [1.3.0.dev1] Old Version: [1.2.1]
+[2024-05-07 02:14:51] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-07 02:14:51] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/68/63/0a29e7525b1f3462acb2531260d984867651bdccb876b75329d58bfa520d/kayalab-0.7.7.tar.gz
+[2024-05-07 02:14:51] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240507] Old Version: [0.6.0.dev20240506]
+[2024-05-07 02:14:51] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-05-07 02:14:51] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-07 02:14:51] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-07 02:14:51] INFO root fetch - processPackages [cinemol]: Downloading https://files.pythonhosted.org/packages/2d/6c/751b7afea2cd935edf2ae74c3d0fe568dd5312fd67dc23e217dc1743323a/cinemol-0.0.1.tar.gz
+[2024-05-07 02:14:51] INFO root fetch - processPackages [cinemol]: Downloading https://files.pythonhosted.org/packages/2d/6c/751b7afea2cd935edf2ae74c3d0fe568dd5312fd67dc23e217dc1743323a/cinemol-0.0.1.tar.gz
+[2024-05-07 02:14:51] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-05-07 02:14:51] INFO root fetch - processPackages [skrutable]: Downloading https://files.pythonhosted.org/packages/dd/fb/dc034e503eee3c93966d7d817f0ac3d705149009ae4ad6b2e349f91ba5c0/skrutable-1.2.1.tar.gz
+[2024-05-07 02:14:51] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-05-07 02:14:51] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-07 02:14:52] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/c5/a0/94ea89da2f7346d0281e9c816e4896a50b54c202e3c9cac84aaa802aeff6/pytorch-ignite-0.6.0.dev20240506.tar.gz
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240507/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240507/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-07 02:14:52] INFO root fetch - processPackages [skrutable]: Downloading https://files.pythonhosted.org/packages/e7/df/6c52db12756a4defdbea6a8f0e31eabec1050141dadba06445d30534977a/skrutable-1.3.0.dev1.tar.gz
+[2024-05-07 02:14:52] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/48/39/39e758163c554700194cf72c42f0290287f1336d791be5766d519f7b266c/kayalab-0.7.9.tar.gz
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cinemol]: Downloading https://files.pythonhosted.org/packages/82/1f/d988e82c16ad842e6fbec17c000743322f3995003461b994aaad913d1fb8/cinemol-0.0.1.dev0.tar.gz
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cinemol]: Downloading https://files.pythonhosted.org/packages/82/1f/d988e82c16ad842e6fbec17c000743322f3995003461b994aaad913d1fb8/cinemol-0.0.1.dev0.tar.gz
+[2024-05-07 02:14:52] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/3b/bc/01c944146cca478715f3f22874f16ea621899ac2fa4b71d363ee067824c4/pytorch_ignite-0.6.0.dev20240507.tar.gz
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-05-07 02:14:52] INFO root fetch - processPackages [skrutable]: executing diffoscope
+[2024-05-07 02:14:52] INFO root fetch - processPackages [skrutable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skrutable-1.2.1.tar.gz tmp/skrutable-1.3.0.dev1.tar.gz --markdown 20240507/s/skrutable/1.2.1-1.3.0.dev1/README.md --exclude *.pyd
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240507/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cinemol]: executing diffoscope
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cinemol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cinemol-0.0.1.tar.gz tmp/cinemol-0.0.1.dev0.tar.gz --markdown 20240507/c/cinemol/0.0.1-0.0.1.dev0/README.md --exclude *.pyd
+[2024-05-07 02:14:52] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-05-07 02:14:52] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.6.0.dev20240506.tar.gz tmp/pytorch_ignite-0.6.0.dev20240507.tar.gz --markdown 20240507/p/pytorch-ignite/0.6.0.dev20240506-0.6.0.dev20240507/README.md --exclude *.pyd
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240507/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cinemol]: executing diffoscope
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cinemol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cinemol-0.0.1.tar.gz tmp/cinemol-0.0.1.dev0.tar.gz --markdown 20240507/c/cinemol/0.0.1-0.0.1.dev0/README.md --exclude *.pyd
+[2024-05-07 02:14:52] INFO root fetch - processPackages [kayalab]: executing diffoscope
+[2024-05-07 02:14:52] INFO root fetch - processPackages [kayalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayalab-0.7.7.tar.gz tmp/kayalab-0.7.9.tar.gz --markdown 20240507/k/kayalab/0.7.7-0.7.9/README.md --exclude *.pyd
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-07 02:14:52] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240507/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-07 02:14:53] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-05-07 02:14:53] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-05-07 02:14:53] INFO root fetch - processPackages [cdktf-gitlab-runner]: Start processing: unnecessary-abstraction
+[2024-05-07 02:14:53] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-05-07 02:14:53] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-07 02:14:53] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-07 02:14:53] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-07 02:14:53] INFO root fetch - processPackages [unnecessary-abstraction]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-07 02:14:53] INFO root fetch - processPackages [skrutable]: Remove: archive file [/home/abi/fetcher/tmp/skrutable-1.2.1.tar.gz]
+[2024-05-07 02:14:53] INFO root fetch - processPackages [skrutable]: Remove: archive file [/home/abi/fetcher/tmp/skrutable-1.3.0.dev1.tar.gz]
+[2024-05-07 02:14:53] INFO root fetch - main [MainThread]: End processing [skrutable]: success
+[2024-05-07 02:14:53] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-05-07 02:14:53] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-05-07 02:14:53] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-05-07 02:14:53] INFO root fetch - processPackages [unnecessary-abstraction]: Downloading https://files.pythonhosted.org/packages/13/fc/e5770f98e7ae46eed9a65e5b6c61419ddb61deea98484a4422ba74ae4625/unnecessary_abstraction-1.0.1.tar.gz
+[2024-05-07 02:14:53] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-05-07 02:14:53] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-05-07 02:14:53] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-05-07 02:14:53] INFO root fetch - processPackages [unnecessary-abstraction]: Downloading https://files.pythonhosted.org/packages/c0/96/2dd8a0e36f0466a986908629f9de56fab6957546db3d33f942368c4851ca/unnecessary_abstraction-1.0.2.tar.gz
+[2024-05-07 02:14:53] INFO root fetch - processPackages [cinemol]: Remove: archive file [/home/abi/fetcher/tmp/cinemol-0.0.1.tar.gz]
+[2024-05-07 02:14:53] INFO root fetch - processPackages [cinemol]: Remove: archive file [/home/abi/fetcher/tmp/cinemol-0.0.1.dev0.tar.gz]
+[2024-05-07 02:14:53] INFO root fetch - main [MainThread]: End processing [cinemol]: success
+[2024-05-07 02:14:54] INFO root fetch - main [MainThread]: End processing [cinemol]: success
+[2024-05-07 02:14:54] INFO root fetch - processPackages [unnecessary-abstraction]: executing diffoscope
+[2024-05-07 02:14:54] INFO root fetch - processPackages [unnecessary-abstraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unnecessary_abstraction-1.0.1.tar.gz tmp/unnecessary_abstraction-1.0.2.tar.gz --markdown 20240507/u/unnecessary-abstraction/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-07 02:14:54] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-07 02:14:54] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-07 02:14:54] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-07 02:14:54] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240506.tar.gz]
+[2024-05-07 02:14:54] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240507.tar.gz]
+[2024-05-07 02:14:54] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-05-07 02:14:54] INFO root fetch - processPackages [unnecessary-abstraction]: Remove: archive file [/home/abi/fetcher/tmp/unnecessary_abstraction-1.0.1.tar.gz]
+[2024-05-07 02:14:54] INFO root fetch - processPackages [unnecessary-abstraction]: Remove: archive file [/home/abi/fetcher/tmp/unnecessary_abstraction-1.0.2.tar.gz]
+[2024-05-07 02:14:54] INFO root fetch - main [MainThread]: End processing [unnecessary-abstraction]: success
+[2024-05-07 02:14:56] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.7.tar.gz]
+[2024-05-07 02:14:56] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
+[2024-05-07 02:14:56] INFO root fetch - main [MainThread]: End processing [kayalab]: success
+[2024-05-07 02:14:56] INFO root fetch - main [MainThread]: Store serial: [23086432]
