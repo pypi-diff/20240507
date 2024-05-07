@@ -9742,3 +9742,42 @@ EOFError: EOF read where object expected
 [2024-05-07 05:20:24] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_unece-17.0.1.0.0.4-py3-none-any.whl.zip]
 [2024-05-07 05:20:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-unece]: success
 [2024-05-07 05:20:24] INFO root fetch - main [MainThread]: Store serial: [23088951]
+[2024-05-07 05:22:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088951]
+[2024-05-07 05:22:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 05:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-connector
+[2024-05-07 05:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-component-event
+[2024-05-07 05:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-test-connector
+[2024-05-07 05:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-nightly
+[2024-05-07 05:22:33] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024050603] Old Version: [3.3.3.dev2024050503]
+[2024-05-07 05:22:33] INFO root fetch - processPackages [odoo-addon-test-connector]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-07 05:22:33] INFO root fetch - processPackages [odoo-addon-component-event]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-05-07 05:22:33] INFO root fetch - processPackages [odoo-addon-connector]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.4]
+[2024-05-07 05:22:33] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/5d/8b/9334e63d7640fc88cf2b0bfd666671be0d9a0e718958e4837f7ffc2de331/keras_nightly-3.3.3.dev2024050503.tar.gz
+[2024-05-07 05:22:33] INFO root fetch - processPackages [odoo-addon-connector]: Downloading https://files.pythonhosted.org/packages/f4/cc/4c95f82a68d9661d9682d219fe6b98c1908edf3df98dcc98d38e866d8e7c/odoo_addon_connector-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-07 05:22:33] INFO root fetch - processPackages [odoo-addon-test-connector]: Downloading https://files.pythonhosted.org/packages/4e/ae/b1c6a653aa46dea01ea07ce06b833af0ca37743978681506163b9d83b263/odoo_addon_test_connector-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-07 05:22:33] INFO root fetch - processPackages [odoo-addon-component-event]: Downloading https://files.pythonhosted.org/packages/b2/ab/057046f366c7d0ea9bc8b1ed1a8b7693fb7ff291e01fe710874355ab8e16/odoo_addon_component_event-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-07 05:22:33] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/20/9f/96a4fa8f4954572ea2262dca0b16b6b904b3d65524b5e82809d43ab20e2b/keras_nightly-3.3.3.dev2024050603.tar.gz
+[2024-05-07 05:22:33] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-05-07 05:22:33] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024050503.tar.gz tmp/keras_nightly-3.3.3.dev2024050603.tar.gz --markdown 20240507/k/keras-nightly/3.3.3.dev2024050503-3.3.3.dev2024050603/README.md --exclude *.pyd
+[2024-05-07 05:22:33] INFO root fetch - processPackages [odoo-addon-connector]: Downloading https://files.pythonhosted.org/packages/7d/c4/843d54117d33dc8ebc9a26bf54616125020658efb6c41ce0afd3542807d4/odoo_addon_connector-17.0.1.0.1-py3-none-any.whl
+[2024-05-07 05:22:33] INFO root fetch - processPackages [odoo-addon-test-connector]: Downloading https://files.pythonhosted.org/packages/07/51/1694c853a36f3f7227075803cb0e51b5d7f8fcfea240b009df3bf905be33/odoo_addon_test_connector-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-07 05:22:33] INFO root fetch - processPackages [odoo-addon-component-event]: Downloading https://files.pythonhosted.org/packages/0d/30/a3e0b22944961cf9dcae95ad0cf32eca3534e407dad60c9c9349772adace/odoo_addon_component_event-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-07 05:22:33] INFO root fetch - processPackages [odoo-addon-test-connector]: executing diffoscope
+[2024-05-07 05:22:33] INFO root fetch - processPackages [odoo-addon-test-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_test_connector-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_test_connector-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-test-connector/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-07 05:22:34] INFO root fetch - processPackages [odoo-addon-component-event]: executing diffoscope
+[2024-05-07 05:22:34] INFO root fetch - processPackages [odoo-addon-component-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_component_event-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_component_event-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-component-event/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-07 05:22:34] INFO root fetch - processPackages [odoo-addon-connector]: executing diffoscope
+[2024-05-07 05:22:34] INFO root fetch - processPackages [odoo-addon-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_connector-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_connector-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-connector/17.0.1.0.0.4-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-07 05:22:34] INFO root fetch - processPackages [odoo-addon-test-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_connector-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-07 05:22:34] INFO root fetch - processPackages [odoo-addon-test-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_connector-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-07 05:22:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-test-connector]: success
+[2024-05-07 05:22:34] INFO root fetch - processPackages [odoo-addon-component-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_component_event-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-07 05:22:34] INFO root fetch - processPackages [odoo-addon-component-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_component_event-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-07 05:22:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-component-event]: success
+[2024-05-07 05:22:34] INFO root fetch - processPackages [odoo-addon-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-07 05:22:34] INFO root fetch - processPackages [odoo-addon-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_connector-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-07 05:22:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-connector]: success
+[2024-05-07 05:22:35] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024050503.tar.gz]
+[2024-05-07 05:22:35] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024050603.tar.gz]
+[2024-05-07 05:22:35] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-05-07 05:22:35] INFO root fetch - main [MainThread]: Store serial: [23088966]
