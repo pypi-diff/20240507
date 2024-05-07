@@ -13872,3 +13872,73 @@ EOFError: EOF read where object expected
 [2024-05-07 08:50:42] INFO root fetch - processPackages [vkdispatch]: Remove: archive file [/home/abi/fetcher/tmp/vkdispatch-0.0.6.tar.gz]
 [2024-05-07 08:50:42] INFO root fetch - main [MainThread]: End processing [vkdispatch]: success
 [2024-05-07 08:50:42] INFO root fetch - main [MainThread]: Store serial: [23090964]
+[2024-05-07 08:52:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090964]
+[2024-05-07 08:52:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 08:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rcquant-sdk
+[2024-05-07 08:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: accelbyte-py-sdk-service-sessionhistory
+[2024-05-07 08:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aspose-words
+[2024-05-07 08:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bw2io
+[2024-05-07 08:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-social
+[2024-05-07 08:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: accelbyte-py-sdk-service-social
+[2024-05-07 08:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-admin-thumbnails
+[2024-05-07 08:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: accelbyte-py-sdk-service-ugc
+[2024-05-07 08:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: recon-lw
+[2024-05-07 08:52:51] INFO root fetch - processPackages [recon-lw]: New version: [3.1.0.dev8972554118] Old Version: [3.1.0.dev8969639035]
+[2024-05-07 08:52:51] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 08:52:51] WARNING root fetch - processPackages [accelbyte-py-sdk-service-sessionhistory]: Skipping, unable to determine old version
+[2024-05-07 08:52:51] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-sessionhistory] error
+[2024-05-07 08:52:51] INFO root fetch - processPackages [odoo-addons-oca-social]: New version: [16.0.20240325.0] Old Version: [16.0.20240320.0]
+[2024-05-07 08:52:51] INFO root fetch - processPackages [aspose-words]: New version: [24.5.0] Old Version: [24.4.0]
+[2024-05-07 08:52:51] INFO root fetch - processPackages [django-admin-thumbnails]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-07 08:52:51] INFO root fetch - processPackages [accelbyte-py-sdk-service-social]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:52:51] INFO root fetch - processPackages [bw2io]: New version: [0.9.dev9] Old Version: [0.9.dev8]
+[2024-05-07 08:52:51] INFO root fetch - processPackages [accelbyte-py-sdk-service-ugc]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:52:51] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/b1/18/e5a53875e82450da5abf37fc152fc66405317436123aa16def45749dee52/recon_lw-3.1.0.dev8969639035.tar.gz
+[2024-05-07 08:52:51] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/5d/83/f1b0ebff54c9eb30e68d7b6086272e8bf54dabe51eefd51bc3e5d68b324e/odoo_addons_oca_social-16.0.20240320.0-py3-none-any.whl
+[2024-05-07 08:52:51] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-05-07 08:52:52] INFO root fetch - processPackages [accelbyte-py-sdk-service-social]: Downloading https://files.pythonhosted.org/packages/d2/29/9a9fbf47b68d780baa29426f4db2743221684996acd2af25dab9f7c962b9/accelbyte-py-sdk-service-social-0.8.0.tar.gz
+[2024-05-07 08:52:52] INFO root fetch - processPackages [aspose-words]: Downloading https://files.pythonhosted.org/packages/5d/49/712917b6699945afc00f72f8da99d3a009d6448d1b7e0319ecd14f736610/aspose_words-24.4.0-py3-none-win_amd64.whl
+[2024-05-07 08:52:52] INFO root fetch - processPackages [bw2io]: Downloading https://files.pythonhosted.org/packages/0e/0f/0eaa9c3e04896283c073d862eac1c10c478bfa742c349b265cdd66f15077/bw2io-0.9.dev8.tar.gz
+[2024-05-07 08:52:52] INFO root fetch - processPackages [django-admin-thumbnails]: Downloading https://files.pythonhosted.org/packages/0c/ab/54c6ab6a5e6554a2efec7b5a9749a8771155a2614d1f07c692a0b43f96ae/django-admin-thumbnails-0.2.8.tar.gz
+[2024-05-07 08:52:52] WARNING root fetch - processPackages [aspose-words]: Skipping package: exceeds size limit 62865256>=10485760
+[2024-05-07 08:52:52] INFO root fetch - main [MainThread]: End processing [aspose-words] error
+[2024-05-07 08:52:52] INFO root fetch - processPackages [accelbyte-py-sdk-service-ugc]: Downloading https://files.pythonhosted.org/packages/66/8e/843e83b7b00c19685b7dab6b025561e563c42a5036ecf5b496f52d8c4b71/accelbyte-py-sdk-service-ugc-0.8.0.tar.gz
+[2024-05-07 08:52:52] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/08/a3/ad58b3976fca25347969b2a5095a8448b3e8c5a7ef95db7eaf634d918a7e/odoo_addons_oca_social-16.0.20240325.0-py3-none-any.whl
+[2024-05-07 08:52:52] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/8d/8f/cc4fc3e0f6dabb757c1d9c0aabd60d1ca0cd0e2df2c91a59623ecfdbad98/recon_lw-3.1.0.dev8972554118.tar.gz
+[2024-05-07 08:52:52] INFO root fetch - processPackages [django-admin-thumbnails]: Downloading https://files.pythonhosted.org/packages/e0/04/e80a2f3bb42c8ecd5c450dd0725e90881264bd5ec67b6147f7555166d21a/django-admin-thumbnails-0.2.9.tar.gz
+[2024-05-07 08:52:52] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2024-05-07 08:52:52] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-3.1.0.dev8969639035.tar.gz tmp/recon_lw-3.1.0.dev8972554118.tar.gz --markdown 20240507/r/recon-lw/3.1.0.dev8969639035-3.1.0.dev8972554118/README.md --exclude *.pyd
+[2024-05-07 08:52:52] INFO root fetch - processPackages [accelbyte-py-sdk-service-ugc]: Downloading https://files.pythonhosted.org/packages/9c/1e/82d9cca7b93a6544efea853940c56d999397b44f2d670da8dbb29fb0da0d/accelbyte-py-sdk-service-ugc-0.9.0.tar.gz
+[2024-05-07 08:52:52] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-05-07 08:52:52] INFO root fetch - processPackages [odoo-addons-oca-social]: executing diffoscope
+[2024-05-07 08:52:52] INFO root fetch - processPackages [django-admin-thumbnails]: executing diffoscope
+[2024-05-07 08:52:52] INFO root fetch - processPackages [django-admin-thumbnails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-thumbnails-0.2.8.tar.gz tmp/django-admin-thumbnails-0.2.9.tar.gz --markdown 20240507/d/django-admin-thumbnails/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-07 08:52:52] INFO root fetch - processPackages [odoo-addons-oca-social]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_social-16.0.20240320.0-py3-none-any.whl.zip tmp/odoo_addons_oca_social-16.0.20240325.0-py3-none-any.whl.zip --markdown 20240507/o/odoo-addons-oca-social/16.0.20240320.0-16.0.20240325.0/README.md --exclude *.pyd
+[2024-05-07 08:52:52] INFO root fetch - processPackages [accelbyte-py-sdk-service-social]: Downloading https://files.pythonhosted.org/packages/42/85/5e911a128a51f0df25e7c308726254699914c88254d4ab5ad99e6db6b40f/accelbyte-py-sdk-service-social-0.9.0.tar.gz
+[2024-05-07 08:52:52] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-05-07 08:52:52] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240507/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 08:52:52] INFO root fetch - processPackages [accelbyte-py-sdk-service-ugc]: executing diffoscope
+[2024-05-07 08:52:52] INFO root fetch - processPackages [accelbyte-py-sdk-service-ugc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-ugc-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-ugc-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-ugc/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:52:52] INFO root fetch - processPackages [accelbyte-py-sdk-service-social]: executing diffoscope
+[2024-05-07 08:52:52] INFO root fetch - processPackages [accelbyte-py-sdk-service-social]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-social-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-social-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-social/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:52:52] WARNING root fetch - processPackages [bw2io]: Skipping package: exceeds size limit 35426844>=10485760
+[2024-05-07 08:52:52] INFO root fetch - main [MainThread]: End processing [bw2io] error
+[2024-05-07 08:52:53] INFO root fetch - processPackages [django-admin-thumbnails]: Remove: archive file [/home/abi/fetcher/tmp/django-admin-thumbnails-0.2.8.tar.gz]
+[2024-05-07 08:52:53] INFO root fetch - processPackages [django-admin-thumbnails]: Remove: archive file [/home/abi/fetcher/tmp/django-admin-thumbnails-0.2.9.tar.gz]
+[2024-05-07 08:52:53] INFO root fetch - main [MainThread]: End processing [django-admin-thumbnails]: success
+[2024-05-07 08:52:53] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20240320.0-py3-none-any.whl.zip]
+[2024-05-07 08:52:53] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20240325.0-py3-none-any.whl.zip]
+[2024-05-07 08:52:53] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-social]: success
+[2024-05-07 08:52:53] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.1.0.dev8969639035.tar.gz]
+[2024-05-07 08:52:53] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.1.0.dev8972554118.tar.gz]
+[2024-05-07 08:52:53] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2024-05-07 08:52:53] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-05-07 08:52:53] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-05-07 08:52:53] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-05-07 08:52:53] INFO root fetch - processPackages [accelbyte-py-sdk-service-social]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-social-0.8.0.tar.gz]
+[2024-05-07 08:52:53] INFO root fetch - processPackages [accelbyte-py-sdk-service-social]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-social-0.9.0.tar.gz]
+[2024-05-07 08:52:53] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-social]: success
+[2024-05-07 08:52:55] INFO root fetch - processPackages [accelbyte-py-sdk-service-ugc]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-ugc-0.8.0.tar.gz]
+[2024-05-07 08:52:55] INFO root fetch - processPackages [accelbyte-py-sdk-service-ugc]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-ugc-0.9.0.tar.gz]
+[2024-05-07 08:52:55] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-ugc]: success
+[2024-05-07 08:52:55] INFO root fetch - main [MainThread]: Store serial: [23090993]
