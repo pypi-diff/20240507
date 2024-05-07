@@ -3799,3 +3799,20 @@ EOFError: EOF read where object expected
 [2024-05-07 02:50:37] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-07 02:50:37] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-07 02:50:37] INFO root fetch - main [MainThread]: Store serial: [23086690]
+[2024-05-07 02:52:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086690]
+[2024-05-07 02:52:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 02:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vicregaddon
+[2024-05-07 02:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-tetris-stats
+[2024-05-07 02:52:45] INFO root fetch - processPackages [vicregaddon]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-07 02:52:45] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-07 02:52:46] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/03/fa/a0dfee0275f1be3e689d93fffcfe15becda4d511ecd42b8e7b4c93518eda/nonebot_plugin_tetris_stats-1.0.2.tar.gz
+[2024-05-07 02:52:46] INFO root fetch - processPackages [vicregaddon]: Downloading https://files.pythonhosted.org/packages/37/ab/6451028cbb25887514ef9059c4a91307593792ee98a28b24f67409d7a022/vicregaddon-0.0.3.tar.gz
+[2024-05-07 02:52:46] WARNING root fetch - processPackages [nonebot-plugin-tetris-stats]: Skipping package: exceeds size limit 15906004>=10485760
+[2024-05-07 02:52:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats] error
+[2024-05-07 02:52:46] INFO root fetch - processPackages [vicregaddon]: Downloading https://files.pythonhosted.org/packages/10/a4/fa87ea6d1eb4cf4334963919aea21acac8062a3eab4213bd8729ee71705f/vicregaddon-0.0.4.tar.gz
+[2024-05-07 02:52:46] INFO root fetch - processPackages [vicregaddon]: executing diffoscope
+[2024-05-07 02:52:46] INFO root fetch - processPackages [vicregaddon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vicregaddon-0.0.3.tar.gz tmp/vicregaddon-0.0.4.tar.gz --markdown 20240507/v/vicregaddon/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-07 02:52:47] INFO root fetch - processPackages [vicregaddon]: Remove: archive file [/home/abi/fetcher/tmp/vicregaddon-0.0.3.tar.gz]
+[2024-05-07 02:52:47] INFO root fetch - processPackages [vicregaddon]: Remove: archive file [/home/abi/fetcher/tmp/vicregaddon-0.0.4.tar.gz]
+[2024-05-07 02:52:47] INFO root fetch - main [MainThread]: End processing [vicregaddon]: success
+[2024-05-07 02:52:47] INFO root fetch - main [MainThread]: Store serial: [23086698]
