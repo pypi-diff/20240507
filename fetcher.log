@@ -14864,3 +14864,33 @@ EOFError: EOF read where object expected
 [2024-05-07 09:21:58] INFO root fetch - processPackages [mode-ng]: Remove: archive file [/home/abi/fetcher/tmp/mode_ng-0.7.0.dev0.tar.gz]
 [2024-05-07 09:21:58] INFO root fetch - main [MainThread]: End processing [mode-ng]: success
 [2024-05-07 09:21:58] INFO root fetch - main [MainThread]: Store serial: [23091424]
+[2024-05-07 09:24:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091424]
+[2024-05-07 09:24:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 09:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataforseo-client
+[2024-05-07 09:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tidevice3
+[2024-05-07 09:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: p1afempy
+[2024-05-07 09:24:07] INFO root fetch - processPackages [dataforseo-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 09:24:07] INFO root fetch - processPackages [p1afempy]: New version: [0.2.6] Old Version: [0.2.4]
+[2024-05-07 09:24:07] INFO root fetch - processPackages [tidevice3]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-07 09:24:07] INFO root fetch - processPackages [dataforseo-client]: Downloading https://files.pythonhosted.org/packages/d2/68/84689fba81cb3c59fee0e9b14ee4e226f70268905547fed46e29a9c67acd/dataforseo-client-1.0.8.tar.gz
+[2024-05-07 09:24:07] INFO root fetch - processPackages [p1afempy]: Downloading https://files.pythonhosted.org/packages/66/c7/d3607efe314301614c310216f123cf0200fedfe71ffb75d9dcecd3fd3bba/p1afempy-0.2.4.tar.gz
+[2024-05-07 09:24:07] INFO root fetch - processPackages [tidevice3]: Downloading https://files.pythonhosted.org/packages/8a/17/e0f82c11869b11833b40302d8d0fe110e38365a27113f69a3f46035324ed/tidevice3-0.8.4.tar.gz
+[2024-05-07 09:24:07] INFO root fetch - processPackages [tidevice3]: Downloading https://files.pythonhosted.org/packages/2c/f4/083237e9504ad0bf6aeae982e20d0bbdaafb39a0be3514f3648b39275cb0/tidevice3-0.9.0.tar.gz
+[2024-05-07 09:24:07] INFO root fetch - processPackages [p1afempy]: Downloading https://files.pythonhosted.org/packages/cb/6f/c6c4da910c7e7679514f5faf83173406a3884c5398f85bfbdcc83d2a85ee/p1afempy-0.2.6.tar.gz
+[2024-05-07 09:24:07] INFO root fetch - processPackages [tidevice3]: executing diffoscope
+[2024-05-07 09:24:07] INFO root fetch - processPackages [tidevice3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidevice3-0.8.4.tar.gz tmp/tidevice3-0.9.0.tar.gz --markdown 20240507/t/tidevice3/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-07 09:24:08] INFO root fetch - processPackages [p1afempy]: executing diffoscope
+[2024-05-07 09:24:08] INFO root fetch - processPackages [p1afempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p1afempy-0.2.4.tar.gz tmp/p1afempy-0.2.6.tar.gz --markdown 20240507/p/p1afempy/0.2.4-0.2.6/README.md --exclude *.pyd
+[2024-05-07 09:24:08] INFO root fetch - processPackages [dataforseo-client]: Downloading https://files.pythonhosted.org/packages/8d/04/47b191652bf6e54ee50a87ce1cdfc88a53f79dafe06782858d8b4d892246/dataforseo-client-1.0.9.tar.gz
+[2024-05-07 09:24:08] INFO root fetch - processPackages [tidevice3]: Remove: archive file [/home/abi/fetcher/tmp/tidevice3-0.8.4.tar.gz]
+[2024-05-07 09:24:08] INFO root fetch - processPackages [tidevice3]: Remove: archive file [/home/abi/fetcher/tmp/tidevice3-0.9.0.tar.gz]
+[2024-05-07 09:24:08] INFO root fetch - main [MainThread]: End processing [tidevice3]: success
+[2024-05-07 09:24:08] INFO root fetch - processPackages [dataforseo-client]: executing diffoscope
+[2024-05-07 09:24:08] INFO root fetch - processPackages [dataforseo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataforseo-client-1.0.8.tar.gz tmp/dataforseo-client-1.0.9.tar.gz --markdown 20240507/d/dataforseo-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 09:24:08] INFO root fetch - processPackages [p1afempy]: Remove: archive file [/home/abi/fetcher/tmp/p1afempy-0.2.4.tar.gz]
+[2024-05-07 09:24:08] INFO root fetch - processPackages [p1afempy]: Remove: archive file [/home/abi/fetcher/tmp/p1afempy-0.2.6.tar.gz]
+[2024-05-07 09:24:08] INFO root fetch - main [MainThread]: End processing [p1afempy]: success
+[2024-05-07 09:24:35] INFO root fetch - processPackages [dataforseo-client]: Remove: archive file [/home/abi/fetcher/tmp/dataforseo-client-1.0.8.tar.gz]
+[2024-05-07 09:24:35] INFO root fetch - processPackages [dataforseo-client]: Remove: archive file [/home/abi/fetcher/tmp/dataforseo-client-1.0.9.tar.gz]
+[2024-05-07 09:24:35] INFO root fetch - main [MainThread]: End processing [dataforseo-client]: success
+[2024-05-07 09:24:35] INFO root fetch - main [MainThread]: Store serial: [23091433]
