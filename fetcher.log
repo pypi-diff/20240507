@@ -11995,3 +11995,90 @@ EOFError: EOF read where object expected
 [2024-05-07 07:41:15] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.9-py3-none-any.whl.zip]
 [2024-05-07 07:41:15] INFO root fetch - main [MainThread]: End processing [azureml-rag]: success
 [2024-05-07 07:41:15] INFO root fetch - main [MainThread]: Store serial: [23090017]
+[2024-05-07 07:43:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090017]
+[2024-05-07 07:43:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-07 07:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aiven
+[2024-05-07 07:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flow-prompt
+[2024-05-07 07:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-cmethods
+[2024-05-07 07:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-confluentcloud
+[2024-05-07 07:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qdtrader
+[2024-05-07 07:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickstart-vdk
+[2024-05-07 07:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-azuredevops
+[2024-05-07 07:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ara-tools
+[2024-05-07 07:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: taskwarrior_flow
+[2024-05-07 07:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nowgg
+[2024-05-07 07:43:26] WARNING root fetch - processPackages [qdtrader]: Skipping, unable to determine old version
+[2024-05-07 07:43:26] INFO root fetch - main [MainThread]: End processing [qdtrader] error
+[2024-05-07 07:43:26] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-07 07:43:26] INFO root fetch - processPackages [nowgg]: New version: [1.1.0] Old Version: [1.0.8]
+[2024-05-07 07:43:26] INFO root fetch - processPackages [flow-prompt]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 07:43:26] INFO root fetch - processPackages [python-cmethods]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-07 07:43:26] INFO root fetch - processPackages [ara-tools]: New version: [0.1.4.9] Old Version: [0.1.4.7]
+[2024-05-07 07:43:26] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.1.0a1715059317] Old Version: [3.1.0a1714562447]
+[2024-05-07 07:43:26] INFO root fetch - processPackages [taskwarrior_flow]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-07 07:43:26] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-05-07 07:43:26] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.9.0a1704274395] Old Version: [6.9.0a1704258951]
+[2024-05-07 07:43:26] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-07 07:43:26] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/89/fb/adacc179c277b4328f00f1483cac3f1c2227c33318802c8f88e0ee8e93c3/pulumi_aiven-6.9.0a1704258951.tar.gz
+[2024-05-07 07:43:26] INFO root fetch - processPackages [flow-prompt]: Downloading https://files.pythonhosted.org/packages/72/f9/38ef6fa40d94bbeafd364e526d317c1663b2ae27a4088ff19884fcd2be4c/flow_prompt-0.1.8.tar.gz
+[2024-05-07 07:43:26] INFO root fetch - processPackages [nowgg]: Downloading https://files.pythonhosted.org/packages/f9/59/73c3f0281b7cdaa5b957ea5354103c284cbecd28adca53b1b19b56b3a4f1/nowgg-1.0.8.tar.gz
+[2024-05-07 07:43:26] INFO root fetch - processPackages [python-cmethods]: Downloading https://files.pythonhosted.org/packages/6b/b1/815b8be36c23d6b4d50bc99b0f649606f1c9748628aab34929531f36bc69/python_cmethods-2.2.1-py3-none-any.whl
+[2024-05-07 07:43:26] INFO root fetch - processPackages [ara-tools]: Downloading https://files.pythonhosted.org/packages/61/c2/1f3d69fc991264dd1e6328b3883195ba6fa6d5e6dfe12f30bfb63b1a821a/ara-tools-0.1.4.7.tar.gz
+[2024-05-07 07:43:26] INFO root fetch - processPackages [taskwarrior_flow]: Downloading https://files.pythonhosted.org/packages/1d/ad/e887241ec4cbf3262a79c8cb80da0484b5ff490e9cccfd08f9fee47b37b7/taskwarrior_flow-0.2.0.tar.gz
+[2024-05-07 07:43:26] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/d8/9e/8240622410540f4f80ed0af8d6dd0ab5cdd6856e76a021647c6dff964f16/pulumi_azuredevops-3.1.0a1714562447.tar.gz
+[2024-05-07 07:43:26] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-05-07 07:43:26] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-07 07:43:26] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-07 07:43:26] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240507/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-07 07:43:26] INFO root fetch - processPackages [flow-prompt]: Downloading https://files.pythonhosted.org/packages/cd/ec/941792778cb04be1b65a8eea5ed3314227dc695adb9e45673fd875489565/flow_prompt-0.1.9.tar.gz
+[2024-05-07 07:43:27] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/58/4d/df63cee14469cb3bb5ff7e2a4af56d19adf0cd17ce9192b84188dc240736/pulumi_aiven-6.9.0a1704274395.tar.gz
+[2024-05-07 07:43:27] INFO root fetch - processPackages [python-cmethods]: Downloading https://files.pythonhosted.org/packages/95/72/687b3c4eb639a1d94ec2e87b96143171589ef649bac5a366a8012e23b802/python_cmethods-2.2.2.tar.gz
+[2024-05-07 07:43:27] INFO root fetch - processPackages [nowgg]: Downloading https://files.pythonhosted.org/packages/36/58/cfb146ae33d1ad1b59b4c6b6eed3db8d919c2ee06ad9f68e0861096b0bd4/nowgg-1.1.0.tar.gz
+[2024-05-07 07:43:27] INFO root fetch - processPackages [flow-prompt]: executing diffoscope
+[2024-05-07 07:43:27] INFO root fetch - processPackages [flow-prompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow_prompt-0.1.8.tar.gz tmp/flow_prompt-0.1.9.tar.gz --markdown 20240507/f/flow-prompt/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 07:43:27] INFO root fetch - processPackages [ara-tools]: Downloading https://files.pythonhosted.org/packages/7c/e1/03c26e41f4232ed77de9425e2c3c556446e754b88575d02b10b992988c26/ara-tools-0.1.4.9.tar.gz
+[2024-05-07 07:43:27] INFO root fetch - processPackages [taskwarrior_flow]: Downloading https://files.pythonhosted.org/packages/20/99/34d20432602ced0a58301b4ec1b64ac59f54781e02a4f85e53e0c3b3afd4/taskwarrior_flow-0.3.0.tar.gz
+[2024-05-07 07:43:27] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/02/32/497f3374a8cef9a2713e23f401dd5cd9a9c9624239c8440e98ff35597561/pulumi_azuredevops-3.1.0a1715059317.tar.gz
+[2024-05-07 07:43:27] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-05-07 07:43:27] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2024-05-07 07:43:27] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.9.0a1704258951.tar.gz tmp/pulumi_aiven-6.9.0a1704274395.tar.gz --markdown 20240507/p/pulumi-aiven/6.9.0a1704258951-6.9.0a1704274395/README.md --exclude *.pyd
+[2024-05-07 07:43:27] INFO root fetch - processPackages [python-cmethods]: executing diffoscope
+[2024-05-07 07:43:27] INFO root fetch - processPackages [python-cmethods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_cmethods-2.2.1-py3-none-any.whl.zip tmp/python_cmethods-2.2.2.tar.gz --markdown 20240507/p/python-cmethods/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-07 07:43:27] INFO root fetch - processPackages [ara-tools]: executing diffoscope
+[2024-05-07 07:43:27] INFO root fetch - processPackages [ara-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ara-tools-0.1.4.7.tar.gz tmp/ara-tools-0.1.4.9.tar.gz --markdown 20240507/a/ara-tools/0.1.4.7-0.1.4.9/README.md --exclude *.pyd
+[2024-05-07 07:43:27] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-05-07 07:43:27] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240507/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-05-07 07:43:27] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-05-07 07:43:27] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.1.0a1714562447.tar.gz tmp/pulumi_azuredevops-3.1.0a1715059317.tar.gz --markdown 20240507/p/pulumi-azuredevops/3.1.0a1714562447-3.1.0a1715059317/README.md --exclude *.pyd
+[2024-05-07 07:43:27] INFO root fetch - processPackages [nowgg]: executing diffoscope
+[2024-05-07 07:43:27] INFO root fetch - processPackages [nowgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowgg-1.0.8.tar.gz tmp/nowgg-1.1.0.tar.gz --markdown 20240507/n/nowgg/1.0.8-1.1.0/README.md --exclude *.pyd
+[2024-05-07 07:43:27] INFO root fetch - processPackages [taskwarrior_flow]: executing diffoscope
+[2024-05-07 07:43:27] INFO root fetch - processPackages [taskwarrior_flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskwarrior_flow-0.2.0.tar.gz tmp/taskwarrior_flow-0.3.0.tar.gz --markdown 20240507/t/taskwarrior_flow/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-07 07:43:27] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-07 07:43:27] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-07 07:43:27] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-07 07:43:27] INFO root fetch - processPackages [flow-prompt]: Remove: archive file [/home/abi/fetcher/tmp/flow_prompt-0.1.8.tar.gz]
+[2024-05-07 07:43:28] INFO root fetch - processPackages [flow-prompt]: Remove: archive file [/home/abi/fetcher/tmp/flow_prompt-0.1.9.tar.gz]
+[2024-05-07 07:43:28] INFO root fetch - main [MainThread]: End processing [flow-prompt]: success
+[2024-05-07 07:43:28] INFO root fetch - processPackages [python-cmethods]: Remove: archive file [/home/abi/fetcher/tmp/python_cmethods-2.2.1-py3-none-any.whl.zip]
+[2024-05-07 07:43:28] INFO root fetch - processPackages [python-cmethods]: Remove: archive file [/home/abi/fetcher/tmp/python_cmethods-2.2.2.tar.gz]
+[2024-05-07 07:43:28] INFO root fetch - main [MainThread]: End processing [python-cmethods]: success
+[2024-05-07 07:43:28] INFO root fetch - processPackages [nowgg]: Remove: archive file [/home/abi/fetcher/tmp/nowgg-1.0.8.tar.gz]
+[2024-05-07 07:43:28] INFO root fetch - processPackages [nowgg]: Remove: archive file [/home/abi/fetcher/tmp/nowgg-1.1.0.tar.gz]
+[2024-05-07 07:43:28] INFO root fetch - main [MainThread]: End processing [nowgg]: success
+[2024-05-07 07:43:28] INFO root fetch - processPackages [ara-tools]: Remove: archive file [/home/abi/fetcher/tmp/ara-tools-0.1.4.7.tar.gz]
+[2024-05-07 07:43:28] INFO root fetch - processPackages [ara-tools]: Remove: archive file [/home/abi/fetcher/tmp/ara-tools-0.1.4.9.tar.gz]
+[2024-05-07 07:43:28] INFO root fetch - main [MainThread]: End processing [ara-tools]: success
+[2024-05-07 07:43:28] INFO root fetch - processPackages [taskwarrior_flow]: Remove: archive file [/home/abi/fetcher/tmp/taskwarrior_flow-0.2.0.tar.gz]
+[2024-05-07 07:43:28] INFO root fetch - processPackages [taskwarrior_flow]: Remove: archive file [/home/abi/fetcher/tmp/taskwarrior_flow-0.3.0.tar.gz]
+[2024-05-07 07:43:28] INFO root fetch - main [MainThread]: End processing [taskwarrior_flow]: success
+[2024-05-07 07:43:28] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-05-07 07:43:28] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-05-07 07:43:28] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-05-07 07:43:28] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704258951.tar.gz]
+[2024-05-07 07:43:28] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
+[2024-05-07 07:43:28] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2024-05-07 07:43:28] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1714562447.tar.gz]
+[2024-05-07 07:43:28] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715059317.tar.gz]
+[2024-05-07 07:43:28] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-05-07 07:43:28] INFO root fetch - main [MainThread]: Store serial: [23090044]
