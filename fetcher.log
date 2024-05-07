@@ -14894,3 +14894,105 @@ EOFError: EOF read where object expected
 [2024-05-07 09:24:35] INFO root fetch - processPackages [dataforseo-client]: Remove: archive file [/home/abi/fetcher/tmp/dataforseo-client-1.0.9.tar.gz]
 [2024-05-07 09:24:35] INFO root fetch - main [MainThread]: End processing [dataforseo-client]: success
 [2024-05-07 09:24:35] INFO root fetch - main [MainThread]: Store serial: [23091433]
+[2024-05-07 09:26:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091433]
+[2024-05-07 09:26:44] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-07 09:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edx-enterprise
+[2024-05-07 09:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foscat
+[2024-05-07 09:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: doku-python-library
+[2024-05-07 09:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-athena-community
+[2024-05-07 09:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: worldlessz
+[2024-05-07 09:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: helmet
+[2024-05-07 09:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aimhub-client
+[2024-05-07 09:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cogflow
+[2024-05-07 09:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pisahkan-ktp
+[2024-05-07 09:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twyn
+[2024-05-07 09:26:45] INFO root fetch - processPackages [pisahkan-ktp]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-07 09:26:45] INFO root fetch - processPackages [twyn]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-05-07 09:26:45] INFO root fetch - processPackages [cogflow]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-05-07 09:26:45] WARNING root fetch - processPackages [doku-python-library]: Skipping, unable to determine old version
+[2024-05-07 09:26:45] INFO root fetch - processPackages [doku-python-library]: Start processing: aiZero
+[2024-05-07 09:26:45] INFO root fetch - main [MainThread]: End processing [doku-python-library] error
+[2024-05-07 09:26:45] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/8d/a7/1a6419b6c17595affa5a76044beac8d135c676f6715dc3d8ea3bda66413a/pisahkan_ktp-0.0.3.tar.gz
+[2024-05-07 09:26:45] WARNING root fetch - processPackages [worldlessz]: Skipping, unable to determine old version
+[2024-05-07 09:26:45] INFO root fetch - processPackages [worldlessz]: Start processing: qBitrr2
+[2024-05-07 09:26:45] INFO root fetch - main [MainThread]: End processing [worldlessz] error
+[2024-05-07 09:26:45] INFO root fetch - processPackages [helmet]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-07 09:26:45] INFO root fetch - processPackages [foscat]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-07 09:26:45] INFO root fetch - processPackages [dbt-athena-community]: New version: [1.8.0rc1] Old Version: [1.8.0b1]
+[2024-05-07 09:26:45] INFO root fetch - processPackages [aimhub-client]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-07 09:26:45] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/3e/65/9a67763e70ad9b9b3fe662256881abfbdd085de12bd040fa57c2a3fa47d3/twyn-2.6.8.tar.gz
+[2024-05-07 09:26:45] INFO root fetch - processPackages [edx-enterprise]: New version: [4.9.5] Old Version: [4.9.2]
+[2024-05-07 09:26:45] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/16/e8/30e723d4cfd67ceefcb16298fad33f949895b9b3ef04995a5c874104da2e/cogflow-1.9.7.tar.gz
+[2024-05-07 09:26:45] WARNING root fetch - processPackages [aiZero]: Skipping, unable to determine old version
+[2024-05-07 09:26:45] INFO root fetch - processPackages [aiZero]: Start processing: odoo14-addon-stock-available-to-promise-release
+[2024-05-07 09:26:45] INFO root fetch - main [MainThread]: End processing [aiZero] error
+[2024-05-07 09:26:45] INFO root fetch - processPackages [qBitrr2]: New version: [4.5.8] Old Version: [4.5.7]
+[2024-05-07 09:26:45] INFO root fetch - processPackages [helmet]: Downloading https://files.pythonhosted.org/packages/40/4c/a9c0f459832379de1241560903d96d77a5a2d78b565e9b4183eaed4f25de/helmet-1.1.0.tar.gz
+[2024-05-07 09:26:45] INFO root fetch - processPackages [odoo14-addon-stock-available-to-promise-release]: New version: [14.0.3.1.0] Old Version: [14.0.3.0.1.dev1]
+[2024-05-07 09:26:45] INFO root fetch - processPackages [dbt-athena-community]: Downloading https://files.pythonhosted.org/packages/55/1c/9deddce1f05ae6af0fa5247ad37652e70bb1d2b22a1ca98cf834ea248dfc/dbt_athena_community-1.8.0b1.tar.gz
+[2024-05-07 09:26:45] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/b6/1a/cff11416f3547c8dc9a5231634209d3692fac4d553dab54be2058eae0087/foscat-3.0.8.tar.gz
+[2024-05-07 09:26:45] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/61/66/200fb13e9086b43ae9bb85b1e3325ec6da3d55eb634ac4b1bd2020be5677/twyn-2.6.9.tar.gz
+[2024-05-07 09:26:45] INFO root fetch - processPackages [odoo14-addon-stock-available-to-promise-release]: Downloading https://files.pythonhosted.org/packages/f9/09/995cb74b1ec4821a8c44361d0c9db8b9ca079e3b095feb0d3959894c6274/odoo14_addon_stock_available_to_promise_release-14.0.3.0.1.dev1-py3-none-any.whl
+[2024-05-07 09:26:45] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/ad/9d/ec8253cd778a3cf8877c8b846614e58d7fcdd8475a0362b70e8e364d7b9b/pisahkan_ktp-0.0.4.tar.gz
+[2024-05-07 09:26:45] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/e4/b3/dc021f2c163a19997e4167718a40d80668c3f4a6aa155975e4fbc7d84bc6/edx-enterprise-4.9.2.tar.gz
+[2024-05-07 09:26:45] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2024-05-07 09:26:45] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.6.8.tar.gz tmp/twyn-2.6.9.tar.gz --markdown 20240507/t/twyn/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-05-07 09:26:45] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/1e/69/034905aa90ec361aed4cbfc6f241e5b0149a646c073e24bd457b2e1ee8ea/qbitrr2-4.5.7.tar.gz
+[2024-05-07 09:26:45] INFO root fetch - processPackages [aimhub-client]: Downloading https://files.pythonhosted.org/packages/4c/91/d402d34832c7ec9d9d7cab0a95dd22c8a373ae9e8c696e41bbd094d928e9/aimhub_client-0.5.0.tar.gz
+[2024-05-07 09:26:45] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/3a/44/2dd887dfefc5e198a68539c2565726dced636a615597d201136d1a92a466/cogflow-1.9.8.tar.gz
+[2024-05-07 09:26:45] INFO root fetch - processPackages [pisahkan-ktp]: executing diffoscope
+[2024-05-07 09:26:45] INFO root fetch - processPackages [pisahkan-ktp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisahkan_ktp-0.0.3.tar.gz tmp/pisahkan_ktp-0.0.4.tar.gz --markdown 20240507/p/pisahkan-ktp/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-07 09:26:45] INFO root fetch - processPackages [helmet]: Downloading https://files.pythonhosted.org/packages/5b/62/86ed4a14dd37bc335b436064745aeadcc28d679b0eb1c2715248fe29daf1/helmet-1.1.1.tar.gz
+[2024-05-07 09:26:45] INFO root fetch - processPackages [dbt-athena-community]: Downloading https://files.pythonhosted.org/packages/52/a0/2e0d6af321e0ab64f1e23c93702191b9d88025007a47afc16c9ed687420d/dbt_athena_community-1.8.0rc1.tar.gz
+[2024-05-07 09:26:45] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/42/3c/3ec0d9aa38fb2a3152ce79ba0f92a03372e73164626118a07121951ed317/foscat-3.0.9.tar.gz
+[2024-05-07 09:26:46] INFO root fetch - processPackages [helmet]: executing diffoscope
+[2024-05-07 09:26:46] INFO root fetch - processPackages [helmet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helmet-1.1.0.tar.gz tmp/helmet-1.1.1.tar.gz --markdown 20240507/h/helmet/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-07 09:26:46] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-07 09:26:46] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.7.tar.gz tmp/cogflow-1.9.8.tar.gz --markdown 20240507/c/cogflow/1.9.7-1.9.8/README.md --exclude *.pyd
+[2024-05-07 09:26:46] INFO root fetch - processPackages [odoo14-addon-stock-available-to-promise-release]: Downloading https://files.pythonhosted.org/packages/a1/d0/9dcd4163ae7518b99246938a44551548ed53b6e972439cf09de1ed1f2dbc/odoo14_addon_stock_available_to_promise_release-14.0.3.1.0-py3-none-any.whl
+[2024-05-07 09:26:46] INFO root fetch - processPackages [dbt-athena-community]: executing diffoscope
+[2024-05-07 09:26:46] INFO root fetch - processPackages [dbt-athena-community]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_athena_community-1.8.0b1.tar.gz tmp/dbt_athena_community-1.8.0rc1.tar.gz --markdown 20240507/d/dbt-athena-community/1.8.0b1-1.8.0rc1/README.md --exclude *.pyd
+[2024-05-07 09:26:46] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/84/7a/7c6a859d986da1919c0e46ccd4ad158ae434034b1ceb7800889556c6dfd4/qbitrr2-4.5.8.tar.gz
+[2024-05-07 09:26:46] INFO root fetch - processPackages [foscat]: executing diffoscope
+[2024-05-07 09:26:46] INFO root fetch - processPackages [foscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foscat-3.0.8.tar.gz tmp/foscat-3.0.9.tar.gz --markdown 20240507/f/foscat/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-07 09:26:46] INFO root fetch - processPackages [aimhub-client]: Downloading https://files.pythonhosted.org/packages/b1/e2/ddbd0e7236597573ae8c25940fef377071067466f0a74514ffab8167edee/aimhub_client-0.5.1.tar.gz
+[2024-05-07 09:26:46] INFO root fetch - processPackages [odoo14-addon-stock-available-to-promise-release]: executing diffoscope
+[2024-05-07 09:26:46] INFO root fetch - processPackages [odoo14-addon-stock-available-to-promise-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_available_to_promise_release-14.0.3.0.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_stock_available_to_promise_release-14.0.3.1.0-py3-none-any.whl.zip --markdown 20240507/o/odoo14-addon-stock-available-to-promise-release/14.0.3.0.1.dev1-14.0.3.1.0/README.md --exclude *.pyd
+[2024-05-07 09:26:46] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/38/83/c01344f1866c05fe5671721941192ad2a1ab055d72d2e575ce08b970d4ef/edx-enterprise-4.9.5.tar.gz
+[2024-05-07 09:26:46] INFO root fetch - processPackages [qBitrr2]: executing diffoscope
+[2024-05-07 09:26:46] INFO root fetch - processPackages [qBitrr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbitrr2-4.5.7.tar.gz tmp/qbitrr2-4.5.8.tar.gz --markdown 20240507/q/qBitrr2/4.5.7-4.5.8/README.md --exclude *.pyd
+[2024-05-07 09:26:46] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.0.3.tar.gz]
+[2024-05-07 09:26:46] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.0.4.tar.gz]
+[2024-05-07 09:26:46] INFO root fetch - main [MainThread]: End processing [pisahkan-ktp]: success
+[2024-05-07 09:26:46] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.6.8.tar.gz]
+[2024-05-07 09:26:46] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.6.9.tar.gz]
+[2024-05-07 09:26:46] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2024-05-07 09:26:47] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.7.tar.gz]
+[2024-05-07 09:26:47] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.8.tar.gz]
+[2024-05-07 09:26:47] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-07 09:26:47] INFO root fetch - processPackages [helmet]: Remove: archive file [/home/abi/fetcher/tmp/helmet-1.1.0.tar.gz]
+[2024-05-07 09:26:47] INFO root fetch - processPackages [helmet]: Remove: archive file [/home/abi/fetcher/tmp/helmet-1.1.1.tar.gz]
+[2024-05-07 09:26:47] INFO root fetch - main [MainThread]: End processing [helmet]: success
+[2024-05-07 09:26:47] INFO root fetch - processPackages [dbt-athena-community]: Remove: archive file [/home/abi/fetcher/tmp/dbt_athena_community-1.8.0b1.tar.gz]
+[2024-05-07 09:26:47] INFO root fetch - processPackages [dbt-athena-community]: Remove: archive file [/home/abi/fetcher/tmp/dbt_athena_community-1.8.0rc1.tar.gz]
+[2024-05-07 09:26:47] INFO root fetch - main [MainThread]: End processing [dbt-athena-community]: success
+[2024-05-07 09:26:47] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-3.0.8.tar.gz]
+[2024-05-07 09:26:47] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-3.0.9.tar.gz]
+[2024-05-07 09:26:47] INFO root fetch - main [MainThread]: End processing [foscat]: success
+[2024-05-07 09:26:47] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2024-05-07 09:26:47] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-4.9.2.tar.gz tmp/edx-enterprise-4.9.5.tar.gz --markdown 20240507/e/edx-enterprise/4.9.2-4.9.5/README.md --exclude *.pyd
+[2024-05-07 09:26:47] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.7.tar.gz]
+[2024-05-07 09:26:47] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.8.tar.gz]
+[2024-05-07 09:26:47] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
+[2024-05-07 09:26:47] INFO root fetch - processPackages [aimhub-client]: executing diffoscope
+[2024-05-07 09:26:47] INFO root fetch - processPackages [aimhub-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimhub_client-0.5.0.tar.gz tmp/aimhub_client-0.5.1.tar.gz --markdown 20240507/a/aimhub-client/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-07 09:26:47] INFO root fetch - processPackages [odoo14-addon-stock-available-to-promise-release]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_available_to_promise_release-14.0.3.0.1.dev1-py3-none-any.whl.zip]
+[2024-05-07 09:26:47] INFO root fetch - processPackages [odoo14-addon-stock-available-to-promise-release]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_available_to_promise_release-14.0.3.1.0-py3-none-any.whl.zip]
+[2024-05-07 09:26:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-available-to-promise-release]: success
+[2024-05-07 09:26:50] INFO root fetch - processPackages [aimhub-client]: Remove: archive file [/home/abi/fetcher/tmp/aimhub_client-0.5.0.tar.gz]
+[2024-05-07 09:26:50] INFO root fetch - processPackages [aimhub-client]: Remove: archive file [/home/abi/fetcher/tmp/aimhub_client-0.5.1.tar.gz]
+[2024-05-07 09:26:50] INFO root fetch - main [MainThread]: End processing [aimhub-client]: success
+[2024-05-07 09:26:50] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.2.tar.gz]
+[2024-05-07 09:26:50] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.5.tar.gz]
+[2024-05-07 09:26:50] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2024-05-07 09:26:50] INFO root fetch - main [MainThread]: Store serial: [23091481]
