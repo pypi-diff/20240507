@@ -10411,3 +10411,18 @@ EOFError: EOF read where object expected
 [2024-05-07 05:51:37] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-1.5.6.tar.gz]
 [2024-05-07 05:51:37] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
 [2024-05-07 05:51:37] INFO root fetch - main [MainThread]: Store serial: [23089177]
+[2024-05-07 05:53:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089177]
+[2024-05-07 05:53:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: christianiaz
+[2024-05-07 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: overminutelyz
+[2024-05-07 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epexegesesz
+[2024-05-07 05:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: japez
+[2024-05-07 05:53:46] WARNING root fetch - processPackages [christianiaz]: Skipping, unable to determine old version
+[2024-05-07 05:53:46] INFO root fetch - main [MainThread]: End processing [christianiaz] error
+[2024-05-07 05:53:46] WARNING root fetch - processPackages [epexegesesz]: Skipping, unable to determine old version
+[2024-05-07 05:53:46] WARNING root fetch - processPackages [japez]: Skipping, unable to determine old version
+[2024-05-07 05:53:46] INFO root fetch - main [MainThread]: End processing [epexegesesz] error
+[2024-05-07 05:53:46] INFO root fetch - main [MainThread]: End processing [japez] error
+[2024-05-07 05:53:46] WARNING root fetch - processPackages [overminutelyz]: Skipping, unable to determine old version
+[2024-05-07 05:53:46] INFO root fetch - main [MainThread]: End processing [overminutelyz] error
+[2024-05-07 05:53:46] INFO root fetch - main [MainThread]: Store serial: [23089207]
