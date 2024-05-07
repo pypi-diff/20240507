@@ -16218,3 +16218,65 @@ EOFError: EOF read where object expected
 [2024-05-07 10:17:28] INFO root fetch - processPackages [menpodetect]: Remove: archive file [/home/abi/fetcher/tmp/menpodetect-0.6.3.tar.gz]
 [2024-05-07 10:17:28] INFO root fetch - main [MainThread]: End processing [menpodetect]: success
 [2024-05-07 10:17:28] INFO root fetch - main [MainThread]: Store serial: [23092095]
+[2024-05-07 10:19:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092095]
+[2024-05-07 10:19:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 10:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tipg
+[2024-05-07 10:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OSF-EIMTC
+[2024-05-07 10:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ofunctions.platform
+[2024-05-07 10:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: convert-us-to-uk
+[2024-05-07 10:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gennet-forked
+[2024-05-07 10:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: test-nvf-builds
+[2024-05-07 10:19:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PACMAN-charge
+[2024-05-07 10:19:37] INFO root fetch - processPackages [test-nvf-builds]: New version: [0.0.3.2] Old Version: [0.0.3.1]
+[2024-05-07 10:19:37] INFO root fetch - processPackages [gennet-forked]: New version: [2.0.0.1] Old Version: [2.0.0]
+[2024-05-07 10:19:37] INFO root fetch - processPackages [OSF-EIMTC]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 10:19:37] INFO root fetch - processPackages [test-nvf-builds]: Downloading https://files.pythonhosted.org/packages/33/f5/8a63be06cf42181c8349512dd50b94a4d1368de54cd85700cf6da7d3dcb7/test_nvf_builds-0.0.3.1.tar.gz
+[2024-05-07 10:19:37] INFO root fetch - processPackages [gennet-forked]: Downloading https://files.pythonhosted.org/packages/14/33/589bc825937565624ed87045d62a68939618d9d2bb5ef6a90426f76f83d2/gennet_forked-2.0.0.tar.gz
+[2024-05-07 10:19:37] INFO root fetch - processPackages [ofunctions.platform]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-07 10:19:37] INFO root fetch - processPackages [convert-us-to-uk]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-07 10:19:37] INFO root fetch - processPackages [tipg]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-07 10:19:37] INFO root fetch - processPackages [PACMAN-charge]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 10:19:37] INFO root fetch - processPackages [OSF-EIMTC]: Downloading https://files.pythonhosted.org/packages/07/47/16d078e1107ddbfc1c5606fa448180e3bd7923ef32d5aad2a9a3e97e0214/OSF_EIMTC-0.1.8.tar.gz
+[2024-05-07 10:19:37] INFO root fetch - processPackages [tipg]: Downloading https://files.pythonhosted.org/packages/48/72/a4bf5fffeed4003241fbf58ef16941706f5d034ad2db235d355fdc70c2cd/tipg-0.7.0.tar.gz
+[2024-05-07 10:19:37] INFO root fetch - processPackages [gennet-forked]: Downloading https://files.pythonhosted.org/packages/7c/47/9942491e4b906488e5e61172430f8ab120eb3a773ec7dc316c53b31a5272/gennet_forked-2.0.0.1.tar.gz
+[2024-05-07 10:19:37] INFO root fetch - processPackages [PACMAN-charge]: Downloading https://files.pythonhosted.org/packages/19/b4/c814e42f6db63c0651790c1dfdd9107ebb8931bc9aaf05a5ecf417c38918/PACMAN-charge-0.1.8.tar.gz
+[2024-05-07 10:19:37] INFO root fetch - processPackages [ofunctions.platform]: Downloading https://files.pythonhosted.org/packages/7f/2e/13808bf111907d9e40bfbcc1c413e64640a9a2deb8f545a4e6d1194166f4/ofunctions.platform-1.5.0.tar.gz
+[2024-05-07 10:19:37] INFO root fetch - processPackages [convert-us-to-uk]: Downloading https://files.pythonhosted.org/packages/fa/66/1f978f24e108dc54eb46a3c98aaf95d2212df457c27e15eaf2ede6fe3c74/convert-us-to-uk-0.1.6.tar.gz
+[2024-05-07 10:19:37] WARNING root fetch - processPackages [OSF-EIMTC]: Skipping package: exceeds size limit 13771117>=10485760
+[2024-05-07 10:19:37] INFO root fetch - main [MainThread]: End processing [OSF-EIMTC] error
+[2024-05-07 10:19:37] INFO root fetch - processPackages [test-nvf-builds]: Downloading https://files.pythonhosted.org/packages/03/50/a57c3b5c959f2c32119b2243ebfd251ed7497f8edb26a244291282e1a9ac/test_nvf_builds-0.0.3.2.tar.gz
+[2024-05-07 10:19:37] INFO root fetch - processPackages [gennet-forked]: executing diffoscope
+[2024-05-07 10:19:37] INFO root fetch - processPackages [gennet-forked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gennet_forked-2.0.0.tar.gz tmp/gennet_forked-2.0.0.1.tar.gz --markdown 20240507/g/gennet-forked/2.0.0-2.0.0.1/README.md --exclude *.pyd
+[2024-05-07 10:19:37] INFO root fetch - processPackages [test-nvf-builds]: executing diffoscope
+[2024-05-07 10:19:37] INFO root fetch - processPackages [test-nvf-builds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_nvf_builds-0.0.3.1.tar.gz tmp/test_nvf_builds-0.0.3.2.tar.gz --markdown 20240507/t/test-nvf-builds/0.0.3.1-0.0.3.2/README.md --exclude *.pyd
+[2024-05-07 10:19:37] INFO root fetch - processPackages [PACMAN-charge]: Downloading https://files.pythonhosted.org/packages/09/e0/73a0148eb1229963e2f3cfe62f310306e94fb477e03eb78b6e2ac9bdc9c4/PACMAN-charge-0.1.9.tar.gz
+[2024-05-07 10:19:37] INFO root fetch - processPackages [convert-us-to-uk]: Downloading https://files.pythonhosted.org/packages/28/c0/4ab6b95c41f410132a90c836c08780fe35c8baa135dedf017f3d472ca80e/convert-us-to-uk-0.1.7.tar.gz
+[2024-05-07 10:19:37] INFO root fetch - processPackages [tipg]: Downloading https://files.pythonhosted.org/packages/cb/4d/e24ce4cf2eb968c8a4d722571c800406c95c3b7595f4d730f89060d50203/tipg-0.7.1.tar.gz
+[2024-05-07 10:19:37] INFO root fetch - processPackages [ofunctions.platform]: Downloading https://files.pythonhosted.org/packages/2b/83/f17e91562143fd4c1e37b776a33c9cf8f8ca7174c4fa7f9fee21affc03c1/ofunctions.platform-1.5.1.tar.gz
+[2024-05-07 10:19:37] INFO root fetch - processPackages [convert-us-to-uk]: executing diffoscope
+[2024-05-07 10:19:37] INFO root fetch - processPackages [convert-us-to-uk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convert-us-to-uk-0.1.6.tar.gz tmp/convert-us-to-uk-0.1.7.tar.gz --markdown 20240507/c/convert-us-to-uk/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-07 10:19:38] INFO root fetch - processPackages [tipg]: executing diffoscope
+[2024-05-07 10:19:38] INFO root fetch - processPackages [tipg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tipg-0.7.0.tar.gz tmp/tipg-0.7.1.tar.gz --markdown 20240507/t/tipg/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-07 10:19:38] INFO root fetch - processPackages [ofunctions.platform]: executing diffoscope
+[2024-05-07 10:19:38] INFO root fetch - processPackages [ofunctions.platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofunctions.platform-1.5.0.tar.gz tmp/ofunctions.platform-1.5.1.tar.gz --markdown 20240507/o/ofunctions.platform/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-07 10:19:38] INFO root fetch - processPackages [PACMAN-charge]: executing diffoscope
+[2024-05-07 10:19:38] INFO root fetch - processPackages [PACMAN-charge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PACMAN-charge-0.1.8.tar.gz tmp/PACMAN-charge-0.1.9.tar.gz --markdown 20240507/P/PACMAN-charge/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 10:19:38] INFO root fetch - processPackages [test-nvf-builds]: Remove: archive file [/home/abi/fetcher/tmp/test_nvf_builds-0.0.3.1.tar.gz]
+[2024-05-07 10:19:38] INFO root fetch - processPackages [test-nvf-builds]: Remove: archive file [/home/abi/fetcher/tmp/test_nvf_builds-0.0.3.2.tar.gz]
+[2024-05-07 10:19:38] INFO root fetch - main [MainThread]: End processing [test-nvf-builds]: success
+[2024-05-07 10:19:38] INFO root fetch - processPackages [convert-us-to-uk]: Remove: archive file [/home/abi/fetcher/tmp/convert-us-to-uk-0.1.6.tar.gz]
+[2024-05-07 10:19:38] INFO root fetch - processPackages [convert-us-to-uk]: Remove: archive file [/home/abi/fetcher/tmp/convert-us-to-uk-0.1.7.tar.gz]
+[2024-05-07 10:19:38] INFO root fetch - main [MainThread]: End processing [convert-us-to-uk]: success
+[2024-05-07 10:19:38] INFO root fetch - processPackages [gennet-forked]: Remove: archive file [/home/abi/fetcher/tmp/gennet_forked-2.0.0.tar.gz]
+[2024-05-07 10:19:38] INFO root fetch - processPackages [gennet-forked]: Remove: archive file [/home/abi/fetcher/tmp/gennet_forked-2.0.0.1.tar.gz]
+[2024-05-07 10:19:38] INFO root fetch - main [MainThread]: End processing [gennet-forked]: success
+[2024-05-07 10:19:38] INFO root fetch - processPackages [ofunctions.platform]: Remove: archive file [/home/abi/fetcher/tmp/ofunctions.platform-1.5.0.tar.gz]
+[2024-05-07 10:19:38] INFO root fetch - processPackages [ofunctions.platform]: Remove: archive file [/home/abi/fetcher/tmp/ofunctions.platform-1.5.1.tar.gz]
+[2024-05-07 10:19:38] INFO root fetch - main [MainThread]: End processing [ofunctions.platform]: success
+[2024-05-07 10:19:38] INFO root fetch - processPackages [tipg]: Remove: archive file [/home/abi/fetcher/tmp/tipg-0.7.0.tar.gz]
+[2024-05-07 10:19:38] INFO root fetch - processPackages [tipg]: Remove: archive file [/home/abi/fetcher/tmp/tipg-0.7.1.tar.gz]
+[2024-05-07 10:19:38] INFO root fetch - main [MainThread]: End processing [tipg]: success
+[2024-05-07 10:19:39] INFO root fetch - processPackages [PACMAN-charge]: Remove: archive file [/home/abi/fetcher/tmp/PACMAN-charge-0.1.8.tar.gz]
+[2024-05-07 10:19:39] INFO root fetch - processPackages [PACMAN-charge]: Remove: archive file [/home/abi/fetcher/tmp/PACMAN-charge-0.1.9.tar.gz]
+[2024-05-07 10:19:39] INFO root fetch - main [MainThread]: End processing [PACMAN-charge]: success
+[2024-05-07 10:19:39] INFO root fetch - main [MainThread]: Store serial: [23092112]
