@@ -15164,3 +15164,99 @@ EOFError: EOF read where object expected
 [2024-05-07 09:33:24] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.5rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-07 09:33:24] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2024-05-07 09:33:24] INFO root fetch - main [MainThread]: Store serial: [23091578]
+[2024-05-07 09:35:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091578]
+[2024-05-07 09:35:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-07 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doku-python-library-beta
+[2024-05-07 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MoonshotAI-Api
+[2024-05-07 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: new-dt-algorithm
+[2024-05-07 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mwxlib
+[2024-05-07 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: danila-lib
+[2024-05-07 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omicverse
+[2024-05-07 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: marvel-logging
+[2024-05-07 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seven-cloudapp-frame
+[2024-05-07 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: HA-cfg-cleaner-DiosWolf
+[2024-05-07 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cj-package
+[2024-05-07 09:35:33] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: New version: [0.0.40] Old Version: [0.0.39]
+[2024-05-07 09:35:33] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 09:35:33] WARNING root fetch - processPackages [doku-python-library-beta]: Skipping, unable to determine old version
+[2024-05-07 09:35:33] INFO root fetch - processPackages [doku-python-library-beta]: Start processing: IntuneCD
+[2024-05-07 09:35:33] INFO root fetch - main [MainThread]: End processing [doku-python-library-beta] error
+[2024-05-07 09:35:33] WARNING root fetch - processPackages [marvel-logging]: Skipping, unable to determine old version
+[2024-05-07 09:35:33] INFO root fetch - processPackages [marvel-logging]: Start processing: cg
+[2024-05-07 09:35:33] INFO root fetch - main [MainThread]: End processing [marvel-logging] error
+[2024-05-07 09:35:33] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: Downloading https://files.pythonhosted.org/packages/40/4a/72eb360b19961f511a800e56b28abb82151ca283829a2c654e3d6669cc2c/ha_cfg_cleaner_dioswolf-0.0.39.tar.gz
+[2024-05-07 09:35:33] INFO root fetch - processPackages [danila-lib]: New version: [1.4.0] Old Version: [1.3.9]
+[2024-05-07 09:35:33] INFO root fetch - processPackages [MoonshotAI-Api]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-07 09:35:33] INFO root fetch - processPackages [mwxlib]: New version: [0.94.8] Old Version: [0.94.5]
+[2024-05-07 09:35:33] WARNING root fetch - processPackages [new-dt-algorithm]: Skipping, unable to determine old version
+[2024-05-07 09:35:33] INFO root fetch - processPackages [new-dt-algorithm]: Start processing: selectorz
+[2024-05-07 09:35:33] INFO root fetch - main [MainThread]: End processing [new-dt-algorithm] error
+[2024-05-07 09:35:33] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-05-07 09:35:33] INFO root fetch - processPackages [omicverse]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-07 09:35:33] INFO root fetch - processPackages [cg]: New version: [60.7.0] Old Version: [60.6.3]
+[2024-05-07 09:35:33] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-07 09:35:33] INFO root fetch - processPackages [IntuneCD]: New version: [2.3.3b1] Old Version: [2.3.2b1]
+[2024-05-07 09:35:33] WARNING root fetch - processPackages [selectorz]: Skipping, unable to determine old version
+[2024-05-07 09:35:33] INFO root fetch - main [MainThread]: End processing [selectorz] error
+[2024-05-07 09:35:33] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/3f/c7/f65de66f10f61501a2cfc50da290c1d318b2cd5be04e91b02bb648b77124/cg-60.6.3.tar.gz
+[2024-05-07 09:35:33] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/e0/fe/2c0df49f3498eb47e2cee1d6168c2609f2b0e3c7a23bf6dd7c5223edae74/danila-lib-1.3.9.tar.gz
+[2024-05-07 09:35:33] INFO root fetch - processPackages [MoonshotAI-Api]: Downloading https://files.pythonhosted.org/packages/0e/0b/18518b6e58ad3e18d8309b9beedeaf94225949f1f62ff27761fd510b0f2a/MoonshotAI_Api-0.0.2.tar.gz
+[2024-05-07 09:35:33] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/c7/c0/e9ab766aaa4522181e4d4c49bc704b99a86abfc7f593900b9e745b461637/omicverse-1.5.8.tar.gz
+[2024-05-07 09:35:33] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/4b/d4/b9c3b01a408d4fc11f4bf979bf1818724d2d58c0b8ff8e08ddeebf587a74/mwxlib-0.94.5-py3-none-any.whl
+[2024-05-07 09:35:33] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-05-07 09:35:33] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: Downloading https://files.pythonhosted.org/packages/5c/d4/54e15ed3787a1784090333cbbb030e25bfc846669ec97ebf08baec7d364c/ha_cfg_cleaner_dioswolf-0.0.40.tar.gz
+[2024-05-07 09:35:33] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-05-07 09:35:33] INFO root fetch - processPackages [IntuneCD]: Downloading https://files.pythonhosted.org/packages/bc/89/762d014ff743c4a2acda162cd378bdcfcb9cb481fd37e238b8771d96d7fd/IntuneCD-2.3.2b1.tar.gz
+[2024-05-07 09:35:33] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-05-07 09:35:33] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240507/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 09:35:33] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: executing diffoscope
+[2024-05-07 09:35:33] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ha_cfg_cleaner_dioswolf-0.0.39.tar.gz tmp/ha_cfg_cleaner_dioswolf-0.0.40.tar.gz --markdown 20240507/H/HA-cfg-cleaner-DiosWolf/0.0.39-0.0.40/README.md --exclude *.pyd
+[2024-05-07 09:35:34] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/e2/af/2e0ade80c1d54c10d60cfeda6e1d3a8dc4e8f322681cc5487908f7905411/danila-lib-1.4.0.tar.gz
+[2024-05-07 09:35:34] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/51/68/f0aae8b89a87b46ad1db5948cb0a34185c68199bd6b417f917cd70114a76/cg-60.7.0.tar.gz
+[2024-05-07 09:35:34] INFO root fetch - processPackages [MoonshotAI-Api]: Downloading https://files.pythonhosted.org/packages/db/5a/a8c8cc8333d5f643b855f4e2a36596b885e1796e7e489f85fa9fd30f462f/MoonshotAI_Api-0.0.3.tar.gz
+[2024-05-07 09:35:34] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/56/4f/964310a0eba984f0fc10110b97d86f174d6c0041263038a9120aac8a01f0/mwxlib-0.94.8-py3-none-any.whl
+[2024-05-07 09:35:34] INFO root fetch - processPackages [IntuneCD]: Downloading https://files.pythonhosted.org/packages/73/17/2dcb440f84a87ba9fd3219d3071b3786849ff42ca191771e60eda591c4e1/intunecd-2.3.3b1.tar.gz
+[2024-05-07 09:35:34] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-07 09:35:34] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.3.9.tar.gz tmp/danila-lib-1.4.0.tar.gz --markdown 20240507/d/danila-lib/1.3.9-1.4.0/README.md --exclude *.pyd
+[2024-05-07 09:35:34] INFO root fetch - processPackages [MoonshotAI-Api]: executing diffoscope
+[2024-05-07 09:35:34] INFO root fetch - processPackages [MoonshotAI-Api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MoonshotAI_Api-0.0.2.tar.gz tmp/MoonshotAI_Api-0.0.3.tar.gz --markdown 20240507/M/MoonshotAI-Api/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-07 09:35:34] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2024-05-07 09:35:34] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.94.5-py3-none-any.whl.zip tmp/mwxlib-0.94.8-py3-none-any.whl.zip --markdown 20240507/m/mwxlib/0.94.5-0.94.8/README.md --exclude *.pyd
+[2024-05-07 09:35:34] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/ca/48/0255f32e1e10e15b507d25c9e6d394d9c0727ae1789b92a7ee0df25e2799/omicverse-1.5.9.tar.gz
+[2024-05-07 09:35:34] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-05-07 09:35:34] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-07 09:35:34] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.6.3.tar.gz tmp/cg-60.7.0.tar.gz --markdown 20240507/c/cg/60.6.3-60.7.0/README.md --exclude *.pyd
+[2024-05-07 09:35:34] INFO root fetch - processPackages [IntuneCD]: executing diffoscope
+[2024-05-07 09:35:34] INFO root fetch - processPackages [IntuneCD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IntuneCD-2.3.2b1.tar.gz tmp/intunecd-2.3.3b1.tar.gz --markdown 20240507/I/IntuneCD/2.3.2b1-2.3.3b1/README.md --exclude *.pyd
+[2024-05-07 09:35:34] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-05-07 09:35:34] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240507/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-07 09:35:34] INFO root fetch - processPackages [omicverse]: executing diffoscope
+[2024-05-07 09:35:34] INFO root fetch - processPackages [omicverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omicverse-1.5.8.tar.gz tmp/omicverse-1.5.9.tar.gz --markdown 20240507/o/omicverse/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-07 09:35:34] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-05-07 09:35:34] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-05-07 09:35:34] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-05-07 09:35:34] INFO root fetch - processPackages [MoonshotAI-Api]: Remove: archive file [/home/abi/fetcher/tmp/MoonshotAI_Api-0.0.2.tar.gz]
+[2024-05-07 09:35:34] INFO root fetch - processPackages [MoonshotAI-Api]: Remove: archive file [/home/abi/fetcher/tmp/MoonshotAI_Api-0.0.3.tar.gz]
+[2024-05-07 09:35:34] INFO root fetch - main [MainThread]: End processing [MoonshotAI-Api]: success
+[2024-05-07 09:35:34] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: Remove: archive file [/home/abi/fetcher/tmp/ha_cfg_cleaner_dioswolf-0.0.39.tar.gz]
+[2024-05-07 09:35:34] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: Remove: archive file [/home/abi/fetcher/tmp/ha_cfg_cleaner_dioswolf-0.0.40.tar.gz]
+[2024-05-07 09:35:34] INFO root fetch - main [MainThread]: End processing [HA-cfg-cleaner-DiosWolf]: success
+[2024-05-07 09:35:35] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.3.9.tar.gz]
+[2024-05-07 09:35:35] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.0.tar.gz]
+[2024-05-07 09:35:35] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-07 09:35:35] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.94.5-py3-none-any.whl.zip]
+[2024-05-07 09:35:35] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.94.8-py3-none-any.whl.zip]
+[2024-05-07 09:35:35] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2024-05-07 09:35:35] INFO root fetch - processPackages [IntuneCD]: Remove: archive file [/home/abi/fetcher/tmp/IntuneCD-2.3.2b1.tar.gz]
+[2024-05-07 09:35:35] INFO root fetch - processPackages [IntuneCD]: Remove: archive file [/home/abi/fetcher/tmp/intunecd-2.3.3b1.tar.gz]
+[2024-05-07 09:35:35] INFO root fetch - main [MainThread]: End processing [IntuneCD]: success
+[2024-05-07 09:35:35] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-05-07 09:35:35] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-05-07 09:35:35] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-05-07 09:35:36] INFO root fetch - processPackages [omicverse]: Remove: archive file [/home/abi/fetcher/tmp/omicverse-1.5.8.tar.gz]
+[2024-05-07 09:35:36] INFO root fetch - processPackages [omicverse]: Remove: archive file [/home/abi/fetcher/tmp/omicverse-1.5.9.tar.gz]
+[2024-05-07 09:35:36] INFO root fetch - main [MainThread]: End processing [omicverse]: success
+[2024-05-07 09:35:38] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.6.3.tar.gz]
+[2024-05-07 09:35:38] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.0.tar.gz]
+[2024-05-07 09:35:38] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-07 09:35:38] INFO root fetch - main [MainThread]: Store serial: [23091627]
