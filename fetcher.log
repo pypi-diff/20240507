@@ -9366,3 +9366,51 @@ EOFError: EOF read where object expected
 [2024-05-07 05:04:20] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.9.tar.gz]
 [2024-05-07 05:04:20] INFO root fetch - main [MainThread]: End processing [sawsi]: success
 [2024-05-07 05:04:20] INFO root fetch - main [MainThread]: Store serial: [23088803]
+[2024-05-07 05:06:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088803]
+[2024-05-07 05:06:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 05:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-snowflake
+[2024-05-07 05:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yolink-api
+[2024-05-07 05:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparrowEncryptionDecryption
+[2024-05-07 05:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: T0
+[2024-05-07 05:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reaxfit
+[2024-05-07 05:06:29] INFO root fetch - processPackages [T0]: New version: [3.1.6] Old Version: [3.1.5.8]
+[2024-05-07 05:06:29] INFO root fetch - processPackages [dbt-snowflake]: New version: [1.8.0b4] Old Version: [1.8.0b3]
+[2024-05-07 05:06:29] INFO root fetch - processPackages [yolink-api]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-07 05:06:29] INFO root fetch - processPackages [sparrowEncryptionDecryption]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-07 05:06:29] INFO root fetch - processPackages [reaxfit]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-05-07 05:06:29] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/f8/78/3776508f11ae91709e9dcab45d205b629506b66d71f2921999a5062e9853/dbt_snowflake-1.8.0b3.tar.gz
+[2024-05-07 05:06:29] INFO root fetch - processPackages [T0]: Downloading https://files.pythonhosted.org/packages/95/bd/78055cf371818dcafbafd641bba206ee41b78d3e6f9d9f2dfccd609e755b/t0-3.1.5.8.tar.gz
+[2024-05-07 05:06:29] INFO root fetch - processPackages [sparrowEncryptionDecryption]: Downloading https://files.pythonhosted.org/packages/d2/a2/934606bcf1862b5eaaee06fb9405225523b9f5b6bdc7f998a13dac73f3b1/sparrowEncryptionDecryption-0.1.tar.gz
+[2024-05-07 05:06:29] INFO root fetch - processPackages [yolink-api]: Downloading https://files.pythonhosted.org/packages/75/6a/f30c17a0bfd80533d8c9b3dcabc1de1477632155fdca188b9903111d32e6/yolink-api-0.4.3.tar.gz
+[2024-05-07 05:06:29] INFO root fetch - processPackages [reaxfit]: Downloading https://files.pythonhosted.org/packages/42/02/a20aff23a851e2dff3a8e68f74e3ec8540446efa1042ef107cda427eb307/reaxfit-0.2.3.tar.gz
+[2024-05-07 05:06:29] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/bd/60/b59213c833eeaa21ba493ba25b4a261f4ec9c500a20cffd301de6e3cd9d4/dbt_snowflake-1.8.0b4.tar.gz
+[2024-05-07 05:06:30] INFO root fetch - processPackages [T0]: Downloading https://files.pythonhosted.org/packages/e9/35/65691066b9234be2381dedeabe485566192a3a84cd5cb080fbf4b70964a6/t0-3.1.6.tar.gz
+[2024-05-07 05:06:30] INFO root fetch - processPackages [dbt-snowflake]: executing diffoscope
+[2024-05-07 05:06:30] INFO root fetch - processPackages [dbt-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_snowflake-1.8.0b3.tar.gz tmp/dbt_snowflake-1.8.0b4.tar.gz --markdown 20240507/d/dbt-snowflake/1.8.0b3-1.8.0b4/README.md --exclude *.pyd
+[2024-05-07 05:06:30] INFO root fetch - processPackages [T0]: executing diffoscope
+[2024-05-07 05:06:30] INFO root fetch - processPackages [T0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t0-3.1.5.8.tar.gz tmp/t0-3.1.6.tar.gz --markdown 20240507/T/T0/3.1.5.8-3.1.6/README.md --exclude *.pyd
+[2024-05-07 05:06:30] INFO root fetch - processPackages [sparrowEncryptionDecryption]: Downloading https://files.pythonhosted.org/packages/28/b8/3b7590ef640c3f2d7061b5119dabda650933dd935f9d2092f04db1514350/sparrowEncryptionDecryption-0.1.1.tar.gz
+[2024-05-07 05:06:30] INFO root fetch - processPackages [yolink-api]: Downloading https://files.pythonhosted.org/packages/64/d7/8fdcdd2d7ce11ee712f5ef31c5a6b3bb1de8fe0e6dff0478ea433427c6c3/yolink-api-0.4.4.tar.gz
+[2024-05-07 05:06:30] INFO root fetch - processPackages [reaxfit]: Downloading https://files.pythonhosted.org/packages/59/5e/3cc8bc18f4f7503a80a9c140311d14dface60cb40964f8027d3c316cf628/reaxfit-0.3.0.tar.gz
+[2024-05-07 05:06:30] INFO root fetch - processPackages [sparrowEncryptionDecryption]: executing diffoscope
+[2024-05-07 05:06:30] INFO root fetch - processPackages [sparrowEncryptionDecryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrowEncryptionDecryption-0.1.tar.gz tmp/sparrowEncryptionDecryption-0.1.1.tar.gz --markdown 20240507/s/sparrowEncryptionDecryption/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-07 05:06:30] INFO root fetch - processPackages [yolink-api]: executing diffoscope
+[2024-05-07 05:06:30] INFO root fetch - processPackages [yolink-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolink-api-0.4.3.tar.gz tmp/yolink-api-0.4.4.tar.gz --markdown 20240507/y/yolink-api/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-07 05:06:30] INFO root fetch - processPackages [reaxfit]: executing diffoscope
+[2024-05-07 05:06:30] INFO root fetch - processPackages [reaxfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaxfit-0.2.3.tar.gz tmp/reaxfit-0.3.0.tar.gz --markdown 20240507/r/reaxfit/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-05-07 05:06:30] INFO root fetch - processPackages [dbt-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snowflake-1.8.0b3.tar.gz]
+[2024-05-07 05:06:30] INFO root fetch - processPackages [dbt-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snowflake-1.8.0b4.tar.gz]
+[2024-05-07 05:06:30] INFO root fetch - main [MainThread]: End processing [dbt-snowflake]: success
+[2024-05-07 05:06:30] INFO root fetch - processPackages [sparrowEncryptionDecryption]: Remove: archive file [/home/abi/fetcher/tmp/sparrowEncryptionDecryption-0.1.tar.gz]
+[2024-05-07 05:06:30] INFO root fetch - processPackages [sparrowEncryptionDecryption]: Remove: archive file [/home/abi/fetcher/tmp/sparrowEncryptionDecryption-0.1.1.tar.gz]
+[2024-05-07 05:06:30] INFO root fetch - main [MainThread]: End processing [sparrowEncryptionDecryption]: success
+[2024-05-07 05:06:31] INFO root fetch - processPackages [yolink-api]: Remove: archive file [/home/abi/fetcher/tmp/yolink-api-0.4.3.tar.gz]
+[2024-05-07 05:06:31] INFO root fetch - processPackages [yolink-api]: Remove: archive file [/home/abi/fetcher/tmp/yolink-api-0.4.4.tar.gz]
+[2024-05-07 05:06:31] INFO root fetch - main [MainThread]: End processing [yolink-api]: success
+[2024-05-07 05:06:31] INFO root fetch - processPackages [reaxfit]: Remove: archive file [/home/abi/fetcher/tmp/reaxfit-0.2.3.tar.gz]
+[2024-05-07 05:06:31] INFO root fetch - processPackages [reaxfit]: Remove: archive file [/home/abi/fetcher/tmp/reaxfit-0.3.0.tar.gz]
+[2024-05-07 05:06:31] INFO root fetch - main [MainThread]: End processing [reaxfit]: success
+[2024-05-07 05:06:31] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-3.1.5.8.tar.gz]
+[2024-05-07 05:06:31] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-3.1.6.tar.gz]
+[2024-05-07 05:06:31] INFO root fetch - main [MainThread]: End processing [T0]: success
+[2024-05-07 05:06:31] INFO root fetch - main [MainThread]: Store serial: [23088819]
