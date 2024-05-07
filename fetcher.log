@@ -12121,3 +12121,33 @@ EOFError: EOF read where object expected
 [2024-05-07 07:45:39] INFO root fetch - processPackages [psp-liquids-daq-parser]: Remove: archive file [/home/abi/fetcher/tmp/psp_liquids_daq_parser-0.0.9.tar.gz]
 [2024-05-07 07:45:39] INFO root fetch - main [MainThread]: End processing [psp-liquids-daq-parser]: success
 [2024-05-07 07:45:39] INFO root fetch - main [MainThread]: Store serial: [23090058]
+[2024-05-07 07:47:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090058]
+[2024-05-07 07:47:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 07:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-partner-contact
+[2024-05-07 07:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-dnsimple
+[2024-05-07 07:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syncmodels
+[2024-05-07 07:47:48] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 07:47:48] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: New version: [16.0.20240506.0] Old Version: [16.0.20240313.0]
+[2024-05-07 07:47:48] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1715059797] Old Version: [3.5.0a1714562898]
+[2024-05-07 07:47:48] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-07 07:47:48] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/55/9f/616ae31431ba11b624530915031340681cef6052bc32991e0cfc90c33dd4/odoo_addons_oca_partner_contact-16.0.20240313.0-py3-none-any.whl
+[2024-05-07 07:47:48] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/09/42/29ec1a2e4ac7fe8ce90929d92285dd78aa799eef5dfce65089b3c1db2fb1/pulumi_dnsimple-3.5.0a1714562898.tar.gz
+[2024-05-07 07:47:48] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-07 07:47:48] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-07 07:47:48] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240507/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 07:47:48] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/43/4e/82e47a53f5cc4b1a9d4c02db5bebd2315d79b9b021a91244d316e689fa7b/odoo_addons_oca_partner_contact-16.0.20240506.0-py3-none-any.whl
+[2024-05-07 07:47:48] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/a6/f4/0ec120c14183719b99249f001fa2d79cec1ca4cb150a92ba70b7af2c4143/pulumi_dnsimple-3.5.0a1715059797.tar.gz
+[2024-05-07 07:47:48] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: executing diffoscope
+[2024-05-07 07:47:48] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_partner_contact-16.0.20240313.0-py3-none-any.whl.zip tmp/odoo_addons_oca_partner_contact-16.0.20240506.0-py3-none-any.whl.zip --markdown 20240507/o/odoo-addons-oca-partner-contact/16.0.20240313.0-16.0.20240506.0/README.md --exclude *.pyd
+[2024-05-07 07:47:48] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2024-05-07 07:47:48] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1714562898.tar.gz tmp/pulumi_dnsimple-3.5.0a1715059797.tar.gz --markdown 20240507/p/pulumi-dnsimple/3.5.0a1714562898-3.5.0a1715059797/README.md --exclude *.pyd
+[2024-05-07 07:47:49] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-07 07:47:49] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-07 07:47:49] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-07 07:47:49] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_partner_contact-16.0.20240313.0-py3-none-any.whl.zip]
+[2024-05-07 07:47:49] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_partner_contact-16.0.20240506.0-py3-none-any.whl.zip]
+[2024-05-07 07:47:49] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-partner-contact]: success
+[2024-05-07 07:47:49] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1714562898.tar.gz]
+[2024-05-07 07:47:49] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1715059797.tar.gz]
+[2024-05-07 07:47:49] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2024-05-07 07:47:49] INFO root fetch - main [MainThread]: Store serial: [23090070]
