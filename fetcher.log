@@ -21922,3 +21922,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 13:45:11] INFO root fetch - processPackages [metpx-sr3]: Remove: archive file [/home/abi/fetcher/tmp/metpx_sr3-3.0.9-py3-none-any.whl.zip]
 [2024-05-07 13:45:11] INFO root fetch - main [MainThread]: End processing [metpx-sr3]: success
 [2024-05-07 13:45:11] INFO root fetch - main [MainThread]: Store serial: [23094878]
+[2024-05-07 13:47:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094878]
+[2024-05-07 13:47:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 13:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flashlight-text
+[2024-05-07 13:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fintech
+[2024-05-07 13:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioetherscan
+[2024-05-07 13:47:20] INFO root fetch - processPackages [fintech]: New version: [7.5.1] Old Version: [7.4.3]
+[2024-05-07 13:47:20] INFO root fetch - processPackages [aioetherscan]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-07 13:47:20] INFO root fetch - processPackages [flashlight-text]: New version: [0.0.8.dev308] Old Version: [0.0.8.dev307]
+[2024-05-07 13:47:21] INFO root fetch - processPackages [fintech]: Downloading https://files.pythonhosted.org/packages/2e/a8/22888d5b24517dbf5e0c883604cba44a359406bf63b1653efae3780c730d/fintech-7.4.3-cp39-none-any.whl
+[2024-05-07 13:47:21] INFO root fetch - processPackages [aioetherscan]: Downloading https://files.pythonhosted.org/packages/8f/68/d52501c7861a5550dff9bbc893d3b4d7ebc9bbe67d6ba857928ba00a9647/aioetherscan-0.8.8.tar.gz
+[2024-05-07 13:47:21] INFO root fetch - processPackages [flashlight-text]: Downloading https://files.pythonhosted.org/packages/41/cc/27ce7f9b5fae4048f55fa8538b619509433d643b8ab5115e97f5732b342f/flashlight_text-0.0.8.dev307.tar.gz
+[2024-05-07 13:47:21] INFO root fetch - processPackages [aioetherscan]: Downloading https://files.pythonhosted.org/packages/e7/48/c58e05f6aa67749d86b6aa87b436841ff45729fc5a707c64314e8b43bcd3/aioetherscan-0.8.9.tar.gz
+[2024-05-07 13:47:21] INFO root fetch - processPackages [flashlight-text]: Downloading https://files.pythonhosted.org/packages/10/4b/c1d45b5beb38bb1571e91604f26c39578ad41ea4fb876d453c002ed84c5f/flashlight_text-0.0.8.dev308-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-05-07 13:47:21] INFO root fetch - processPackages [fintech]: Downloading https://files.pythonhosted.org/packages/3b/20/4f9456b525944918b02f5d0e8fcfa42f6a9a7f354cf3a1677fede187da32/fintech-7.5.1-cp39-none-any.whl
+[2024-05-07 13:47:21] INFO root fetch - processPackages [aioetherscan]: executing diffoscope
+[2024-05-07 13:47:21] INFO root fetch - processPackages [aioetherscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioetherscan-0.8.8.tar.gz tmp/aioetherscan-0.8.9.tar.gz --markdown 20240507/a/aioetherscan/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-07 13:47:21] INFO root fetch - processPackages [fintech]: executing diffoscope
+[2024-05-07 13:47:21] INFO root fetch - processPackages [fintech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fintech-7.4.3-cp39-none-any.whl.zip tmp/fintech-7.5.1-cp39-none-any.whl.zip --markdown 20240507/f/fintech/7.4.3-7.5.1/README.md --exclude *.pyd
+[2024-05-07 13:47:22] INFO root fetch - processPackages [flashlight-text]: executing diffoscope
+[2024-05-07 13:47:22] INFO root fetch - processPackages [flashlight-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashlight_text-0.0.8.dev307.tar.gz tmp/flashlight_text-0.0.8.dev308-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240507/f/flashlight-text/0.0.8.dev307-0.0.8.dev308/README.md --exclude *.pyd
+[2024-05-07 13:47:22] INFO root fetch - processPackages [aioetherscan]: Remove: archive file [/home/abi/fetcher/tmp/aioetherscan-0.8.8.tar.gz]
+[2024-05-07 13:47:22] INFO root fetch - processPackages [aioetherscan]: Remove: archive file [/home/abi/fetcher/tmp/aioetherscan-0.8.9.tar.gz]
+[2024-05-07 13:47:22] INFO root fetch - main [MainThread]: End processing [aioetherscan]: success
+[2024-05-07 13:47:22] INFO root fetch - processPackages [flashlight-text]: Remove: archive file [/home/abi/fetcher/tmp/flashlight_text-0.0.8.dev307.tar.gz]
+[2024-05-07 13:47:22] INFO root fetch - processPackages [flashlight-text]: Remove: archive file [/home/abi/fetcher/tmp/flashlight_text-0.0.8.dev308-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-05-07 13:47:22] INFO root fetch - main [MainThread]: End processing [flashlight-text]: success
+[2024-05-07 13:47:39] INFO root fetch - processPackages [fintech]: Remove: archive file [/home/abi/fetcher/tmp/fintech-7.4.3-cp39-none-any.whl.zip]
+[2024-05-07 13:47:39] INFO root fetch - processPackages [fintech]: Remove: archive file [/home/abi/fetcher/tmp/fintech-7.5.1-cp39-none-any.whl.zip]
+[2024-05-07 13:47:39] INFO root fetch - main [MainThread]: End processing [fintech]: success
+[2024-05-07 13:47:39] INFO root fetch - main [MainThread]: Store serial: [23094920]
