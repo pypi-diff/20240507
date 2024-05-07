@@ -14359,3 +14359,78 @@ EOFError: EOF read where object expected
 [2024-05-07 09:06:19] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
 [2024-05-07 09:06:19] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
 [2024-05-07 09:06:19] INFO root fetch - main [MainThread]: Store serial: [23091209]
+[2024-05-07 09:08:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091209]
+[2024-05-07 09:08:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-07 09:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duwi-smart-sdk
+[2024-05-07 09:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pisahkan-ktp
+[2024-05-07 09:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: g3elements
+[2024-05-07 09:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bridgecrew
+[2024-05-07 09:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentops
+[2024-05-07 09:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-fs-product-brand-multi-image
+[2024-05-07 09:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: g3visu
+[2024-05-07 09:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fosslight-binary
+[2024-05-07 09:08:28] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 09:08:28] INFO root fetch - processPackages [pisahkan-ktp]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-07 09:08:28] INFO root fetch - processPackages [odoo-addon-fs-product-brand-multi-image]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.4]
+[2024-05-07 09:08:28] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.82]
+[2024-05-07 09:08:28] INFO root fetch - processPackages [agentops]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 09:08:28] INFO root fetch - processPackages [g3elements]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-07 09:08:28] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/7e/9d/6950809034e2c7e1b5fe8ed96b929a1b9770729b83badf9c03d9590560b5/duwi_smart_sdk-0.0.8.tar.gz
+[2024-05-07 09:08:28] INFO root fetch - processPackages [g3visu]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-07 09:08:28] INFO root fetch - processPackages [odoo-addon-fs-product-brand-multi-image]: Downloading https://files.pythonhosted.org/packages/44/c6/502dc365ee18125a8dd24e28a08eedf891f9a50702e8f3e09e6b171e6286/odoo_addon_fs_product_brand_multi_image-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-07 09:08:29] INFO root fetch - processPackages [fosslight-binary]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-05-07 09:08:29] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/42/7e/4ed63dfde4806f36efa9d3d880bf0af9a887adc0a807f1b880c53809ea4d/pisahkan_ktp-0.0.1.tar.gz
+[2024-05-07 09:08:29] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/a9/3b/b8ca952a3af55cf737d87ad1ae62ae5bd14ff7c59311901fb73e644c859f/bridgecrew-3.2.82.tar.gz
+[2024-05-07 09:08:29] INFO root fetch - processPackages [g3elements]: Downloading https://files.pythonhosted.org/packages/2c/a2/c8a9881fe4b895f0402de811107d1535370cf6e6d6ddcbfb94bf6d6f297a/g3elements-0.2.0.tar.gz
+[2024-05-07 09:08:29] INFO root fetch - processPackages [agentops]: Downloading https://files.pythonhosted.org/packages/92/69/e51fa1714f169f692e4fad0a42ebeb77c7a27c48f62b751c869ad6441c69/agentops-0.1.8.tar.gz
+[2024-05-07 09:08:29] INFO root fetch - processPackages [g3visu]: Downloading https://files.pythonhosted.org/packages/77/5f/771e2e1e02169c687e73fd9979e7e4bfeb9f5e0abce7c61394633efce48a/g3visu-0.1.1.tar.gz
+[2024-05-07 09:08:29] INFO root fetch - processPackages [fosslight-binary]: Downloading https://files.pythonhosted.org/packages/22/6f/85c088e1b2ead56f08eea1b306f89a388b2747b84042a5e7692874f9eb1e/fosslight_binary-4.1.8.tar.gz
+[2024-05-07 09:08:29] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/0f/76/0ea840deba96ce3e7ff4ffd26345664a0ff425caa630b265b3ebad893129/duwi_smart_sdk-0.0.9.tar.gz
+[2024-05-07 09:08:29] INFO root fetch - processPackages [odoo-addon-fs-product-brand-multi-image]: Downloading https://files.pythonhosted.org/packages/f8/64/5ea783964c17bc897a7f9a95cc1ce64e0c0e3730eb280c7d30d5098c8d87/odoo_addon_fs_product_brand_multi_image-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-07 09:08:29] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/cc/93/9e612d48f6ea9d84d69d9fc68f068f49dc985fc3f4a47f09f51ed068722d/pisahkan_ktp-0.0.2.tar.gz
+[2024-05-07 09:08:29] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-05-07 09:08:29] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-07 09:08:29] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.0.8.tar.gz tmp/duwi_smart_sdk-0.0.9.tar.gz --markdown 20240507/d/duwi-smart-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 09:08:29] INFO root fetch - processPackages [g3elements]: Downloading https://files.pythonhosted.org/packages/dc/54/6c7405bdfe17eff5bf5a9771384e11f6dfcab93606122a31d1ed383fc5bc/g3elements-0.2.1.tar.gz
+[2024-05-07 09:08:29] INFO root fetch - processPackages [odoo-addon-fs-product-brand-multi-image]: executing diffoscope
+[2024-05-07 09:08:29] INFO root fetch - processPackages [odoo-addon-fs-product-brand-multi-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_product_brand_multi_image-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_fs_product_brand_multi_image-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-fs-product-brand-multi-image/16.0.1.0.0.4-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-07 09:08:29] INFO root fetch - processPackages [pisahkan-ktp]: executing diffoscope
+[2024-05-07 09:08:29] INFO root fetch - processPackages [pisahkan-ktp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisahkan_ktp-0.0.1.tar.gz tmp/pisahkan_ktp-0.0.2.tar.gz --markdown 20240507/p/pisahkan-ktp/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-07 09:08:29] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-07 09:08:29] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.82.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240507/b/bridgecrew/3.2.82-3.2.9/README.md --exclude *.pyd
+[2024-05-07 09:08:29] INFO root fetch - processPackages [agentops]: Downloading https://files.pythonhosted.org/packages/df/2b/8fc76d629d8a83b0796612a27b966426550114c930eee5d730654fcd9fe9/agentops-0.1.9.tar.gz
+[2024-05-07 09:08:29] INFO root fetch - processPackages [g3visu]: Downloading https://files.pythonhosted.org/packages/e7/51/8972df1c5c71512fc3d4762de97b0f823d34bc94a4fe6e0d27dd5f5b8d85/g3visu-0.1.2.tar.gz
+[2024-05-07 09:08:29] INFO root fetch - processPackages [g3elements]: executing diffoscope
+[2024-05-07 09:08:29] INFO root fetch - processPackages [g3elements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3elements-0.2.0.tar.gz tmp/g3elements-0.2.1.tar.gz --markdown 20240507/g/g3elements/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-07 09:08:29] INFO root fetch - processPackages [fosslight-binary]: Downloading https://files.pythonhosted.org/packages/1b/f1/ff2a6a1db0c0046609a8ecbe67161601a6146e496014527cd0c32620806d/fosslight_binary-4.1.9.tar.gz
+[2024-05-07 09:08:29] INFO root fetch - processPackages [agentops]: executing diffoscope
+[2024-05-07 09:08:29] INFO root fetch - processPackages [agentops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentops-0.1.8.tar.gz tmp/agentops-0.1.9.tar.gz --markdown 20240507/a/agentops/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 09:08:29] INFO root fetch - processPackages [g3visu]: executing diffoscope
+[2024-05-07 09:08:29] INFO root fetch - processPackages [g3visu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3visu-0.1.1.tar.gz tmp/g3visu-0.1.2.tar.gz --markdown 20240507/g/g3visu/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-07 09:08:29] INFO root fetch - processPackages [fosslight-binary]: executing diffoscope
+[2024-05-07 09:08:29] INFO root fetch - processPackages [fosslight-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_binary-4.1.8.tar.gz tmp/fosslight_binary-4.1.9.tar.gz --markdown 20240507/f/fosslight-binary/4.1.8-4.1.9/README.md --exclude *.pyd
+[2024-05-07 09:08:30] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.0.1.tar.gz]
+[2024-05-07 09:08:30] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.0.2.tar.gz]
+[2024-05-07 09:08:30] INFO root fetch - main [MainThread]: End processing [pisahkan-ktp]: success
+[2024-05-07 09:08:30] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.0.8.tar.gz]
+[2024-05-07 09:08:30] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.0.9.tar.gz]
+[2024-05-07 09:08:30] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-07 09:08:30] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.82.tar.gz]
+[2024-05-07 09:08:30] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-05-07 09:08:30] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-07 09:08:30] INFO root fetch - processPackages [g3elements]: Remove: archive file [/home/abi/fetcher/tmp/g3elements-0.2.0.tar.gz]
+[2024-05-07 09:08:30] INFO root fetch - processPackages [g3elements]: Remove: archive file [/home/abi/fetcher/tmp/g3elements-0.2.1.tar.gz]
+[2024-05-07 09:08:30] INFO root fetch - main [MainThread]: End processing [g3elements]: success
+[2024-05-07 09:08:30] INFO root fetch - processPackages [odoo-addon-fs-product-brand-multi-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_product_brand_multi_image-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-07 09:08:30] INFO root fetch - processPackages [odoo-addon-fs-product-brand-multi-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_product_brand_multi_image-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-07 09:08:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-product-brand-multi-image]: success
+[2024-05-07 09:08:30] INFO root fetch - processPackages [g3visu]: Remove: archive file [/home/abi/fetcher/tmp/g3visu-0.1.1.tar.gz]
+[2024-05-07 09:08:30] INFO root fetch - processPackages [g3visu]: Remove: archive file [/home/abi/fetcher/tmp/g3visu-0.1.2.tar.gz]
+[2024-05-07 09:08:30] INFO root fetch - main [MainThread]: End processing [g3visu]: success
+[2024-05-07 09:08:30] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.8.tar.gz]
+[2024-05-07 09:08:30] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.9.tar.gz]
+[2024-05-07 09:08:30] INFO root fetch - main [MainThread]: End processing [agentops]: success
+[2024-05-07 09:08:30] INFO root fetch - processPackages [fosslight-binary]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_binary-4.1.8.tar.gz]
+[2024-05-07 09:08:30] INFO root fetch - processPackages [fosslight-binary]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_binary-4.1.9.tar.gz]
+[2024-05-07 09:08:30] INFO root fetch - main [MainThread]: End processing [fosslight-binary]: success
+[2024-05-07 09:08:30] INFO root fetch - main [MainThread]: Store serial: [23091239]
