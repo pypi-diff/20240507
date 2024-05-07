@@ -3187,3 +3187,63 @@ EOFError: EOF read where object expected
 [2024-05-07 02:14:56] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
 [2024-05-07 02:14:56] INFO root fetch - main [MainThread]: End processing [kayalab]: success
 [2024-05-07 02:14:56] INFO root fetch - main [MainThread]: Store serial: [23086432]
+[2024-05-07 02:16:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086432]
+[2024-05-07 02:17:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 02:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vnpy-binance
+[2024-05-07 02:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: web-plotter
+[2024-05-07 02:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plasmapy-sphinx
+[2024-05-07 02:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py2saber
+[2024-05-07 02:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-05-07 02:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-07 02:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: psygnal
+[2024-05-07 02:17:05] INFO root fetch - processPackages [py2saber]: New version: [0.14] Old Version: [0.13.1]
+[2024-05-07 02:17:05] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-07 02:17:05] INFO root fetch - processPackages [psygnal]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-07 02:17:05] INFO root fetch - processPackages [plasmapy-sphinx]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2024-05-07 02:17:05] INFO root fetch - processPackages [vnpy-binance]: New version: [2024.5.7] Old Version: [2024.3.12]
+[2024-05-07 02:17:05] WARNING root fetch - processPackages [web-plotter]: Skipping, unable to determine old version
+[2024-05-07 02:17:05] INFO root fetch - main [MainThread]: End processing [web-plotter] error
+[2024-05-07 02:17:05] INFO root fetch - processPackages [py2saber]: Downloading https://files.pythonhosted.org/packages/5e/02/d45e03a5f9058bc8c139b33468b1a4bc9b21b32a4d9e5a823a5c29657763/py2saber-0.13.1.tar.gz
+[2024-05-07 02:17:05] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-05-07 02:17:05] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-07 02:17:05] INFO root fetch - processPackages [psygnal]: Downloading https://files.pythonhosted.org/packages/83/36/e86937d4c60107c5e5a0e01369965b5455d37eaf3efad854be7411d2e58b/psygnal-0.9.4.tar.gz
+[2024-05-07 02:17:05] INFO root fetch - processPackages [vnpy-binance]: Downloading https://files.pythonhosted.org/packages/3d/8f/8dba165e0d2cb7a42d27c482a6e650eee6fb74f622f882b1732739a114af/vnpy_binance-2024.3.12.tar.gz
+[2024-05-07 02:17:05] INFO root fetch - processPackages [plasmapy-sphinx]: Downloading https://files.pythonhosted.org/packages/b6/97/55938e22340be88203ca1839db132b330228a2103d692a1a2544bbd8d710/plasmapy_sphinx-0.1.0a4.tar.gz
+[2024-05-07 02:17:05] INFO root fetch - processPackages [py2saber]: Downloading https://files.pythonhosted.org/packages/7b/7b/0f29ee75827a055f8a5c3a2833c910364d28ebb29074fbfa55ded3545608/py2saber-0.14.tar.gz
+[2024-05-07 02:17:05] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-07 02:17:05] INFO root fetch - processPackages [py2saber]: executing diffoscope
+[2024-05-07 02:17:05] INFO root fetch - processPackages [py2saber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2saber-0.13.1.tar.gz tmp/py2saber-0.14.tar.gz --markdown 20240507/p/py2saber/0.13.1-0.14/README.md --exclude *.pyd
+[2024-05-07 02:17:05] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-05-07 02:17:05] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-05-07 02:17:05] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240507/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-07 02:17:05] INFO root fetch - processPackages [vnpy-binance]: Downloading https://files.pythonhosted.org/packages/9c/01/cff9054a60826ebdbf228a4848d52caffdde3aede4934ab13128d4614b48/vnpy_binance-2024.5.7.tar.gz
+[2024-05-07 02:17:05] INFO root fetch - processPackages [plasmapy-sphinx]: Downloading https://files.pythonhosted.org/packages/8f/73/efa75993ca7814e286d2ca3252f89ba7c047a568476344d977f0278d7c93/plasmapy_sphinx-0.1.0a5.tar.gz
+[2024-05-07 02:17:05] INFO root fetch - processPackages [psygnal]: Downloading https://files.pythonhosted.org/packages/09/f9/6113b6f7277ddf7e05bf282f8defc60c48b7deb6978b55f374edbc253491/psygnal-0.9.5.tar.gz
+[2024-05-07 02:17:05] INFO root fetch - processPackages [vnpy-binance]: executing diffoscope
+[2024-05-07 02:17:05] INFO root fetch - processPackages [vnpy-binance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_binance-2024.3.12.tar.gz tmp/vnpy_binance-2024.5.7.tar.gz --markdown 20240507/v/vnpy-binance/2024.3.12-2024.5.7/README.md --exclude *.pyd
+[2024-05-07 02:17:05] INFO root fetch - processPackages [plasmapy-sphinx]: executing diffoscope
+[2024-05-07 02:17:05] INFO root fetch - processPackages [plasmapy-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plasmapy_sphinx-0.1.0a4.tar.gz tmp/plasmapy_sphinx-0.1.0a5.tar.gz --markdown 20240507/p/plasmapy-sphinx/0.1.0a4-0.1.0a5/README.md --exclude *.pyd
+[2024-05-07 02:17:05] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-07 02:17:06] INFO root fetch - processPackages [psygnal]: executing diffoscope
+[2024-05-07 02:17:06] INFO root fetch - processPackages [psygnal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psygnal-0.9.4.tar.gz tmp/psygnal-0.9.5.tar.gz --markdown 20240507/p/psygnal/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-07 02:17:06] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-07 02:17:06] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240507/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-07 02:17:06] INFO root fetch - processPackages [py2saber]: Remove: archive file [/home/abi/fetcher/tmp/py2saber-0.13.1.tar.gz]
+[2024-05-07 02:17:06] INFO root fetch - processPackages [py2saber]: Remove: archive file [/home/abi/fetcher/tmp/py2saber-0.14.tar.gz]
+[2024-05-07 02:17:06] INFO root fetch - main [MainThread]: End processing [py2saber]: success
+[2024-05-07 02:17:06] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-05-07 02:17:06] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-05-07 02:17:06] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-05-07 02:17:06] INFO root fetch - processPackages [vnpy-binance]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_binance-2024.3.12.tar.gz]
+[2024-05-07 02:17:06] INFO root fetch - processPackages [vnpy-binance]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_binance-2024.5.7.tar.gz]
+[2024-05-07 02:17:06] INFO root fetch - main [MainThread]: End processing [vnpy-binance]: success
+[2024-05-07 02:17:06] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-07 02:17:06] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-07 02:17:06] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-07 02:17:06] INFO root fetch - processPackages [plasmapy-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/plasmapy_sphinx-0.1.0a4.tar.gz]
+[2024-05-07 02:17:06] INFO root fetch - processPackages [plasmapy-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/plasmapy_sphinx-0.1.0a5.tar.gz]
+[2024-05-07 02:17:06] INFO root fetch - main [MainThread]: End processing [plasmapy-sphinx]: success
+[2024-05-07 02:17:06] INFO root fetch - processPackages [psygnal]: Remove: archive file [/home/abi/fetcher/tmp/psygnal-0.9.4.tar.gz]
+[2024-05-07 02:17:06] INFO root fetch - processPackages [psygnal]: Remove: archive file [/home/abi/fetcher/tmp/psygnal-0.9.5.tar.gz]
+[2024-05-07 02:17:06] INFO root fetch - main [MainThread]: End processing [psygnal]: success
+[2024-05-07 02:17:06] INFO root fetch - main [MainThread]: Store serial: [23086452]
