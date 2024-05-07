@@ -23154,3 +23154,104 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 14:25:06] INFO root fetch - main [MainThread]: End processing [openctp-ctp-cp]: success
 [2024-05-07 14:25:06] INFO root fetch - main [MainThread]: End processing [openctp-ctp-cp]: success
 [2024-05-07 14:25:06] INFO root fetch - main [MainThread]: Store serial: [23095510]
+[2024-05-07 14:27:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23095510]
+[2024-05-07 14:27:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-07 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-linkedin-ads
+[2024-05-07 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdfminer.aemc
+[2024-05-07 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdfplumber-aemc
+[2024-05-07 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: profile-local
+[2024-05-07 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloud-governance
+[2024-05-07 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airbyte-source-harvest
+[2024-05-07 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ssvc
+[2024-05-07 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airbyte-source-instagram
+[2024-05-07 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: faim-ipa
+[2024-05-07 14:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-cloudapi20160714
+[2024-05-07 14:27:28] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-07 14:27:29] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-07 14:27:29] INFO root fetch - processPackages [airbyte-source-instagram]: New version: [3.0.7] Old Version: [3.0.5]
+[2024-05-07 14:27:29] INFO root fetch - processPackages [pdfplumber-aemc]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-05-07 14:27:29] INFO root fetch - processPackages [profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 14:27:29] INFO root fetch - processPackages [faim-ipa]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-07 14:27:29] INFO root fetch - processPackages [airbyte-source-harvest]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 14:27:29] INFO root fetch - processPackages [ssvc]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-07 14:27:29] INFO root fetch - processPackages [pdfminer.aemc]: New version: [20231229] Old Version: [20231228]
+[2024-05-07 14:27:29] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: New version: [4.0.0] Old Version: [3.2.0]
+[2024-05-07 14:27:29] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-05-07 14:27:29] INFO root fetch - processPackages [airbyte-source-instagram]: Downloading https://files.pythonhosted.org/packages/59/5b/dc74259242bb9631cd8f9895b742d68c79a2fc762dffb6a6811b4069e8c0/airbyte_source_instagram-3.0.5.tar.gz
+[2024-05-07 14:27:29] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: Downloading https://files.pythonhosted.org/packages/91/a0/2360decedc9c597b298ca62f081cf5aa1af649d2f13caf060711c4aaae1c/airbyte_source_linkedin_ads-2.1.1.tar.gz
+[2024-05-07 14:27:29] INFO root fetch - processPackages [faim-ipa]: Downloading https://files.pythonhosted.org/packages/8e/b0/b9efc1e87fbb7b938e796ab07a36c98fca264383de08f76d08bb4e819c23/faim_ipa-0.3.1.tar.gz
+[2024-05-07 14:27:29] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/4b/d7/8af14a0850e980f53de36404fc2079c451edc1e65f24be79c595f88f602d/profile-local-0.0.8.tar.gz
+[2024-05-07 14:27:29] INFO root fetch - processPackages [ssvc]: Downloading https://files.pythonhosted.org/packages/5c/eb/c2caac2d3d37baae11630e9f6e201dd36eab0aaa12190534acf32c620fd1/ssvc-1.0.5.tar.gz
+[2024-05-07 14:27:29] INFO root fetch - processPackages [pdfplumber-aemc]: Downloading https://files.pythonhosted.org/packages/11/45/1db032d152258bc4c1d0b2176b7ad414892fa46620682b2074f65556277a/pdfplumber-aemc-0.7.6.tar.gz
+[2024-05-07 14:27:29] INFO root fetch - processPackages [pdfminer.aemc]: Downloading https://files.pythonhosted.org/packages/31/ae/f4ce8b6439601249e165dd3ad7ab996902945dff388a7e5f5a191024c43b/pdfminer_aemc-20231228.tar.gz
+[2024-05-07 14:27:29] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/90/fe/54ae33d49325216dd0e704bfa10dca8d2e910d08dd49657f9ffe0f7ca4fb/alibabacloud_cloudapi20160714-3.2.0.tar.gz
+[2024-05-07 14:27:29] INFO root fetch - processPackages [airbyte-source-harvest]: Downloading https://files.pythonhosted.org/packages/1e/9b/84b721618d950ac58ff65489db49250806d170a8db6fe352c3e65780e91b/airbyte_source_harvest-1.0.0.tar.gz
+[2024-05-07 14:27:29] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: executing diffoscope
+[2024-05-07 14:27:29] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_linkedin_ads-2.1.0.tar.gz tmp/airbyte_source_linkedin_ads-2.1.1.tar.gz --markdown 20240507/a/airbyte-source-linkedin-ads/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-07 14:27:29] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-05-07 14:27:29] INFO root fetch - processPackages [airbyte-source-instagram]: Downloading https://files.pythonhosted.org/packages/7e/d9/3a37bb63c0d8fb4dfe742b5289857bd935a41b8cced144b61c7b3ca7ec3c/airbyte_source_instagram-3.0.7.tar.gz
+[2024-05-07 14:27:29] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/a8/54/e07308090c523485559291c7a02f014be5ed9511f87a7701fb7328a58149/profile-local-0.0.9.tar.gz
+[2024-05-07 14:27:29] INFO root fetch - processPackages [ssvc]: Downloading https://files.pythonhosted.org/packages/ba/7b/0e27d979e81c8be80d0caf185ed4eb07b934d61384ff782cd3b88eea6ff1/ssvc-1.0.6.tar.gz
+[2024-05-07 14:27:29] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-05-07 14:27:29] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240507/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-07 14:27:29] INFO root fetch - processPackages [faim-ipa]: Downloading https://files.pythonhosted.org/packages/85/b4/2661abc8b45dfb849240d8506ee3e3a17df51c2f28368db4b6c3d752a4bb/faim_ipa-0.3.2.tar.gz
+[2024-05-07 14:27:30] INFO root fetch - processPackages [airbyte-source-harvest]: Downloading https://files.pythonhosted.org/packages/4f/a7/13c5d17d20cc4bfe0b1b5a07b8cc91b4420e5a0cb975ed5dba5ce7ef520b/airbyte_source_harvest-1.0.1.tar.gz
+[2024-05-07 14:27:30] INFO root fetch - processPackages [pdfplumber-aemc]: Downloading https://files.pythonhosted.org/packages/ba/14/2964c33d2c7dab9419585ac28f625e1068a1a5d8c9b30e359a9ddd8868a0/pdfplumber-aemc-0.7.7.tar.gz
+[2024-05-07 14:27:30] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/af/ce/ecfe546199ad58c692c0c25ceac0e71e13787fba230243bb937998d8e035/alibabacloud_cloudapi20160714-4.0.0.tar.gz
+[2024-05-07 14:27:30] INFO root fetch - processPackages [profile-local]: executing diffoscope
+[2024-05-07 14:27:30] INFO root fetch - processPackages [profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-local-0.0.8.tar.gz tmp/profile-local-0.0.9.tar.gz --markdown 20240507/p/profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 14:27:30] INFO root fetch - processPackages [airbyte-source-instagram]: executing diffoscope
+[2024-05-07 14:27:30] INFO root fetch - processPackages [airbyte-source-instagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_instagram-3.0.5.tar.gz tmp/airbyte_source_instagram-3.0.7.tar.gz --markdown 20240507/a/airbyte-source-instagram/3.0.5-3.0.7/README.md --exclude *.pyd
+[2024-05-07 14:27:30] INFO root fetch - processPackages [ssvc]: executing diffoscope
+[2024-05-07 14:27:30] INFO root fetch - processPackages [ssvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssvc-1.0.5.tar.gz tmp/ssvc-1.0.6.tar.gz --markdown 20240507/s/ssvc/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-07 14:27:30] INFO root fetch - processPackages [faim-ipa]: executing diffoscope
+[2024-05-07 14:27:30] INFO root fetch - processPackages [faim-ipa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faim_ipa-0.3.1.tar.gz tmp/faim_ipa-0.3.2.tar.gz --markdown 20240507/f/faim-ipa/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-07 14:27:30] INFO root fetch - processPackages [pdfplumber-aemc]: executing diffoscope
+[2024-05-07 14:27:30] INFO root fetch - processPackages [pdfplumber-aemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfplumber-aemc-0.7.6.tar.gz tmp/pdfplumber-aemc-0.7.7.tar.gz --markdown 20240507/p/pdfplumber-aemc/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-05-07 14:27:30] INFO root fetch - processPackages [airbyte-source-harvest]: executing diffoscope
+[2024-05-07 14:27:30] INFO root fetch - processPackages [airbyte-source-harvest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_harvest-1.0.0.tar.gz tmp/airbyte_source_harvest-1.0.1.tar.gz --markdown 20240507/a/airbyte-source-harvest/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-07 14:27:30] INFO root fetch - processPackages [pdfminer.aemc]: Downloading https://files.pythonhosted.org/packages/f9/6f/63f28174a7f6d7704e0f3c6bd1c0fe872cbab82115657451eeaf1ba4ddd6/pdfminer_aemc-20231229.tar.gz
+[2024-05-07 14:27:30] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: executing diffoscope
+[2024-05-07 14:27:30] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudapi20160714-3.2.0.tar.gz tmp/alibabacloud_cloudapi20160714-4.0.0.tar.gz --markdown 20240507/a/alibabacloud-cloudapi20160714/3.2.0-4.0.0/README.md --exclude *.pyd
+[2024-05-07 14:27:30] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_linkedin_ads-2.1.0.tar.gz]
+[2024-05-07 14:27:30] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_linkedin_ads-2.1.1.tar.gz]
+[2024-05-07 14:27:30] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: Start processing: ingredient-slicer
+[2024-05-07 14:27:30] INFO root fetch - main [MainThread]: End processing [airbyte-source-linkedin-ads]: success
+[2024-05-07 14:27:31] INFO root fetch - processPackages [ingredient-slicer]: New version: [1.0.0] Old Version: [0.0.88]
+[2024-05-07 14:27:31] INFO root fetch - processPackages [ingredient-slicer]: Downloading https://files.pythonhosted.org/packages/df/f5/fc03925a131b1368709d9d4ecb1516c63bcf728ad5f311d16a54649246ab/ingredient_slicer-0.0.88.tar.gz
+[2024-05-07 14:27:31] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.8.tar.gz]
+[2024-05-07 14:27:31] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.9.tar.gz]
+[2024-05-07 14:27:31] INFO root fetch - main [MainThread]: End processing [profile-local]: success
+[2024-05-07 14:27:31] INFO root fetch - processPackages [airbyte-source-instagram]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_instagram-3.0.5.tar.gz]
+[2024-05-07 14:27:31] INFO root fetch - processPackages [airbyte-source-instagram]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_instagram-3.0.7.tar.gz]
+[2024-05-07 14:27:31] INFO root fetch - main [MainThread]: End processing [airbyte-source-instagram]: success
+[2024-05-07 14:27:31] INFO root fetch - processPackages [ssvc]: Remove: archive file [/home/abi/fetcher/tmp/ssvc-1.0.5.tar.gz]
+[2024-05-07 14:27:31] INFO root fetch - processPackages [ssvc]: Remove: archive file [/home/abi/fetcher/tmp/ssvc-1.0.6.tar.gz]
+[2024-05-07 14:27:31] INFO root fetch - main [MainThread]: End processing [ssvc]: success
+[2024-05-07 14:27:31] INFO root fetch - processPackages [pdfplumber-aemc]: Remove: archive file [/home/abi/fetcher/tmp/pdfplumber-aemc-0.7.6.tar.gz]
+[2024-05-07 14:27:31] INFO root fetch - processPackages [pdfplumber-aemc]: Remove: archive file [/home/abi/fetcher/tmp/pdfplumber-aemc-0.7.7.tar.gz]
+[2024-05-07 14:27:31] INFO root fetch - main [MainThread]: End processing [pdfplumber-aemc]: success
+[2024-05-07 14:27:31] INFO root fetch - processPackages [faim-ipa]: Remove: archive file [/home/abi/fetcher/tmp/faim_ipa-0.3.1.tar.gz]
+[2024-05-07 14:27:31] INFO root fetch - processPackages [faim-ipa]: Remove: archive file [/home/abi/fetcher/tmp/faim_ipa-0.3.2.tar.gz]
+[2024-05-07 14:27:31] INFO root fetch - main [MainThread]: End processing [faim-ipa]: success
+[2024-05-07 14:27:31] INFO root fetch - processPackages [airbyte-source-harvest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_harvest-1.0.0.tar.gz]
+[2024-05-07 14:27:31] INFO root fetch - processPackages [airbyte-source-harvest]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_harvest-1.0.1.tar.gz]
+[2024-05-07 14:27:31] INFO root fetch - main [MainThread]: End processing [airbyte-source-harvest]: success
+[2024-05-07 14:27:31] INFO root fetch - processPackages [ingredient-slicer]: Downloading https://files.pythonhosted.org/packages/05/14/46098ee37421e1c9a9639ef541481291fa875e9719618aa7090edb9d9e67/ingredient_slicer-1.0.0.tar.gz
+[2024-05-07 14:27:31] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-05-07 14:27:31] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-05-07 14:27:31] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-05-07 14:27:32] INFO root fetch - processPackages [ingredient-slicer]: executing diffoscope
+[2024-05-07 14:27:32] INFO root fetch - processPackages [ingredient-slicer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ingredient_slicer-0.0.88.tar.gz tmp/ingredient_slicer-1.0.0.tar.gz --markdown 20240507/i/ingredient-slicer/0.0.88-1.0.0/README.md --exclude *.pyd
+[2024-05-07 14:27:33] INFO root fetch - processPackages [ingredient-slicer]: Remove: archive file [/home/abi/fetcher/tmp/ingredient_slicer-0.0.88.tar.gz]
+[2024-05-07 14:27:33] INFO root fetch - processPackages [ingredient-slicer]: Remove: archive file [/home/abi/fetcher/tmp/ingredient_slicer-1.0.0.tar.gz]
+[2024-05-07 14:27:33] INFO root fetch - main [MainThread]: End processing [ingredient-slicer]: success
+[2024-05-07 14:27:33] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-3.2.0.tar.gz]
+[2024-05-07 14:27:33] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-4.0.0.tar.gz]
+[2024-05-07 14:27:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714]: success
+[2024-05-07 14:27:35] INFO root fetch - processPackages [pdfminer.aemc]: executing diffoscope
+[2024-05-07 14:27:35] INFO root fetch - processPackages [pdfminer.aemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfminer_aemc-20231228.tar.gz tmp/pdfminer_aemc-20231229.tar.gz --markdown 20240507/p/pdfminer.aemc/20231228-20231229/README.md --exclude *.pyd
+[2024-05-07 14:27:37] INFO root fetch - processPackages [pdfminer.aemc]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer_aemc-20231228.tar.gz]
+[2024-05-07 14:27:37] INFO root fetch - processPackages [pdfminer.aemc]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer_aemc-20231229.tar.gz]
+[2024-05-07 14:27:37] INFO root fetch - main [MainThread]: End processing [pdfminer.aemc]: success
+[2024-05-07 14:27:37] INFO root fetch - main [MainThread]: Store serial: [23095556]
