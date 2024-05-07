@@ -9053,3 +9053,62 @@ EOFError: EOF read where object expected
 [2024-05-07 04:49:06] INFO root fetch - processPackages [osc-llm]: Remove: archive file [/home/abi/fetcher/tmp/osc_llm-0.1.2.tar.gz]
 [2024-05-07 04:49:06] INFO root fetch - main [MainThread]: End processing [osc-llm]: success
 [2024-05-07 04:49:06] INFO root fetch - main [MainThread]: Store serial: [23088632]
+[2024-05-07 04:51:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088632]
+[2024-05-07 04:51:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-07 04:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datalibro-backend
+[2024-05-07 04:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-telegram-broadcast
+[2024-05-07 04:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyScopedStorage
+[2024-05-07 04:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: refusedz
+[2024-05-07 04:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: erp-apis
+[2024-05-07 04:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sz-utils
+[2024-05-07 04:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bitblas
+[2024-05-07 04:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: roastinglyz
+[2024-05-07 04:51:15] INFO root fetch - processPackages [erp-apis]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-07 04:51:15] INFO root fetch - processPackages [sz-utils]: New version: [0.6] Old Version: [0.5]
+[2024-05-07 04:51:15] INFO root fetch - processPackages [python-telegram-broadcast]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-05-07 04:51:15] INFO root fetch - processPackages [datalibro-backend]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-07 04:51:15] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/b2/89/55fb7e11743cfe091ba7c3d2853de57e202d2c63964b6ae5c76168ea68dd/erp_apis-1.0.1-py3-none-any.whl
+[2024-05-07 04:51:15] INFO root fetch - processPackages [sz-utils]: Downloading https://files.pythonhosted.org/packages/6f/15/49a7d3a39d6e21f84e99ad5d6cb7b842d615f9b8148e2780d38bd0fd13b9/sz_utils-0.5.tar.gz
+[2024-05-07 04:51:15] INFO root fetch - processPackages [PyScopedStorage]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-07 04:51:15] INFO root fetch - processPackages [bitblas]: New version: [0.0.1.dev5] Old Version: [0.0.1.dev4]
+[2024-05-07 04:51:15] WARNING root fetch - processPackages [roastinglyz]: Skipping, unable to determine old version
+[2024-05-07 04:51:15] INFO root fetch - main [MainThread]: End processing [roastinglyz] error
+[2024-05-07 04:51:15] WARNING root fetch - processPackages [refusedz]: Skipping, unable to determine old version
+[2024-05-07 04:51:15] INFO root fetch - main [MainThread]: End processing [refusedz] error
+[2024-05-07 04:51:15] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/7a/f2/514cfbb3d6ebd798e3da68ee27c942c6acb35a67b0749f7957fc45d4b0dc/python-telegram-broadcast-0.6.3.tar.gz
+[2024-05-07 04:51:15] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/32/2d/b655bf79847a0117dc356918234839f34cfa9832d12b2b72f99f99410a0d/datalibro_backend-1.1.2.tar.gz
+[2024-05-07 04:51:15] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/19/49/21635dfc84d237ecb63cc4ae1deb3f750161d11346519eb218afef9de7d9/erp_apis-1.0.2-py3-none-any.whl
+[2024-05-07 04:51:15] INFO root fetch - processPackages [PyScopedStorage]: Downloading https://files.pythonhosted.org/packages/87/5c/28f664acd8c72743187b612c04c5e605bfa46f1212863cc747f56b909f71/pyscopedstorage-0.0.1.tar.gz
+[2024-05-07 04:51:15] INFO root fetch - processPackages [bitblas]: Downloading https://files.pythonhosted.org/packages/a4/9e/037dc92960440e28d18fa8b84bec365029dfd5f7d78afd90c71047994887/bitblas-0.0.1.dev4-py3-none-manylinux1_x86_64.whl
+[2024-05-07 04:51:15] WARNING root fetch - processPackages [bitblas]: Skipping package: exceeds size limit 57304867>=10485760
+[2024-05-07 04:51:15] INFO root fetch - main [MainThread]: End processing [bitblas] error
+[2024-05-07 04:51:15] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/02/b7/8c786b6ec3530d3cdc86b32fd65f4c85290901b9ecdce3b2c6dc3b131136/python-telegram-broadcast-0.7.0.tar.gz
+[2024-05-07 04:51:15] INFO root fetch - processPackages [sz-utils]: Downloading https://files.pythonhosted.org/packages/dd/d9/f28f04daad47370a066d9358f2785e63af611f4e1446b99821c1a8e167a8/sz_utils-0.6.tar.gz
+[2024-05-07 04:51:15] INFO root fetch - processPackages [erp-apis]: executing diffoscope
+[2024-05-07 04:51:15] INFO root fetch - processPackages [erp-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erp_apis-1.0.1-py3-none-any.whl.zip tmp/erp_apis-1.0.2-py3-none-any.whl.zip --markdown 20240507/e/erp-apis/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-07 04:51:15] INFO root fetch - processPackages [sz-utils]: executing diffoscope
+[2024-05-07 04:51:15] INFO root fetch - processPackages [sz-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sz_utils-0.5.tar.gz tmp/sz_utils-0.6.tar.gz --markdown 20240507/s/sz-utils/0.5-0.6/README.md --exclude *.pyd
+[2024-05-07 04:51:15] INFO root fetch - processPackages [python-telegram-broadcast]: executing diffoscope
+[2024-05-07 04:51:15] INFO root fetch - processPackages [python-telegram-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-telegram-broadcast-0.6.3.tar.gz tmp/python-telegram-broadcast-0.7.0.tar.gz --markdown 20240507/p/python-telegram-broadcast/0.6.3-0.7.0/README.md --exclude *.pyd
+[2024-05-07 04:51:15] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/35/bf/92a0a5743cdb47350ab1340519bb06127ea1471052965ca395d06e71c4c4/datalibro_backend-1.1.3.tar.gz
+[2024-05-07 04:51:15] INFO root fetch - processPackages [PyScopedStorage]: Downloading https://files.pythonhosted.org/packages/08/96/e32b24478e365bd297cef3800c419798927fe8c192be78d87eb4a0658ad7/pyscopedstorage-0.0.2.tar.gz
+[2024-05-07 04:51:15] INFO root fetch - processPackages [datalibro-backend]: executing diffoscope
+[2024-05-07 04:51:15] INFO root fetch - processPackages [datalibro-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalibro_backend-1.1.2.tar.gz tmp/datalibro_backend-1.1.3.tar.gz --markdown 20240507/d/datalibro-backend/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-07 04:51:15] INFO root fetch - processPackages [PyScopedStorage]: executing diffoscope
+[2024-05-07 04:51:15] INFO root fetch - processPackages [PyScopedStorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscopedstorage-0.0.1.tar.gz tmp/pyscopedstorage-0.0.2.tar.gz --markdown 20240507/P/PyScopedStorage/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-07 04:51:16] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-broadcast-0.6.3.tar.gz]
+[2024-05-07 04:51:16] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-broadcast-0.7.0.tar.gz]
+[2024-05-07 04:51:16] INFO root fetch - main [MainThread]: End processing [python-telegram-broadcast]: success
+[2024-05-07 04:51:16] INFO root fetch - processPackages [sz-utils]: Remove: archive file [/home/abi/fetcher/tmp/sz_utils-0.5.tar.gz]
+[2024-05-07 04:51:16] INFO root fetch - processPackages [sz-utils]: Remove: archive file [/home/abi/fetcher/tmp/sz_utils-0.6.tar.gz]
+[2024-05-07 04:51:16] INFO root fetch - main [MainThread]: End processing [sz-utils]: success
+[2024-05-07 04:51:16] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.1-py3-none-any.whl.zip]
+[2024-05-07 04:51:16] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.2-py3-none-any.whl.zip]
+[2024-05-07 04:51:16] INFO root fetch - main [MainThread]: End processing [erp-apis]: success
+[2024-05-07 04:51:16] INFO root fetch - processPackages [PyScopedStorage]: Remove: archive file [/home/abi/fetcher/tmp/pyscopedstorage-0.0.1.tar.gz]
+[2024-05-07 04:51:16] INFO root fetch - processPackages [PyScopedStorage]: Remove: archive file [/home/abi/fetcher/tmp/pyscopedstorage-0.0.2.tar.gz]
+[2024-05-07 04:51:16] INFO root fetch - main [MainThread]: End processing [PyScopedStorage]: success
+[2024-05-07 04:51:16] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.2.tar.gz]
+[2024-05-07 04:51:16] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.3.tar.gz]
+[2024-05-07 04:51:16] INFO root fetch - main [MainThread]: End processing [datalibro-backend]: success
+[2024-05-07 04:51:16] INFO root fetch - main [MainThread]: Store serial: [23088655]
