@@ -3467,3 +3467,51 @@ EOFError: EOF read where object expected
 [2024-05-07 02:26:07] INFO root fetch - processPackages [profcomff-definitions]: Remove: archive file [/home/abi/fetcher/tmp/profcomff_definitions-2024.5.7.tar.gz]
 [2024-05-07 02:26:07] INFO root fetch - main [MainThread]: End processing [profcomff-definitions]: success
 [2024-05-07 02:26:07] INFO root fetch - main [MainThread]: Store serial: [23086554]
+[2024-05-07 02:28:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086554]
+[2024-05-07 02:28:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 02:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-ecs-service-extensions
+[2024-05-07 02:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-07 02:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-statemachine
+[2024-05-07 02:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-gitlab-runner
+[2024-05-07 02:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: genie-partner-sdk
+[2024-05-07 02:28:16] INFO root fetch - processPackages [genie-partner-sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 02:28:16] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-07 02:28:16] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-07 02:28:16] INFO root fetch - processPackages [genie-partner-sdk]: Downloading https://files.pythonhosted.org/packages/17/aa/5fa58a9905d3200e459cb84f4401b770926a0ce99c0f97a6e9051011c894/genie_partner_sdk-1.0.0.tar.gz
+[2024-05-07 02:28:16] INFO root fetch - processPackages [python-statemachine]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-05-07 02:28:16] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-05-07 02:28:16] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-07 02:28:16] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-07 02:28:16] INFO root fetch - processPackages [genie-partner-sdk]: Downloading https://files.pythonhosted.org/packages/85/d0/586a068ab2946025269ac65a549899b87d1444ed590459486f2c22adee3b/genie_partner_sdk-1.0.1.tar.gz
+[2024-05-07 02:28:16] INFO root fetch - processPackages [python-statemachine]: Downloading https://files.pythonhosted.org/packages/c5/f0/c842cde8ac1998235f9d58be428d1705610e7bf0d983763c15f0f4247dc3/python_statemachine-2.1.2.tar.gz
+[2024-05-07 02:28:16] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-07 02:28:17] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-05-07 02:28:17] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-07 02:28:17] INFO root fetch - processPackages [genie-partner-sdk]: executing diffoscope
+[2024-05-07 02:28:17] INFO root fetch - processPackages [genie-partner-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genie_partner_sdk-1.0.0.tar.gz tmp/genie_partner_sdk-1.0.1.tar.gz --markdown 20240507/g/genie-partner-sdk/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-07 02:28:17] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-07 02:28:17] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240507/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-07 02:28:17] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-07 02:28:17] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240507/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-07 02:28:17] INFO root fetch - processPackages [python-statemachine]: Downloading https://files.pythonhosted.org/packages/17/c7/9b8e3a06b8d89e04a3dfc51a4d76136e248df538cfc375f3bcc4b0a8139d/python_statemachine-2.2.0.tar.gz
+[2024-05-07 02:28:17] INFO root fetch - processPackages [python-statemachine]: executing diffoscope
+[2024-05-07 02:28:17] INFO root fetch - processPackages [python-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_statemachine-2.1.2.tar.gz tmp/python_statemachine-2.2.0.tar.gz --markdown 20240507/p/python-statemachine/2.1.2-2.2.0/README.md --exclude *.pyd
+[2024-05-07 02:28:17] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-05-07 02:28:17] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-05-07 02:28:17] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240507/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-05-07 02:28:17] INFO root fetch - processPackages [genie-partner-sdk]: Remove: archive file [/home/abi/fetcher/tmp/genie_partner_sdk-1.0.0.tar.gz]
+[2024-05-07 02:28:17] INFO root fetch - processPackages [genie-partner-sdk]: Remove: archive file [/home/abi/fetcher/tmp/genie_partner_sdk-1.0.1.tar.gz]
+[2024-05-07 02:28:17] INFO root fetch - main [MainThread]: End processing [genie-partner-sdk]: success
+[2024-05-07 02:28:17] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-07 02:28:17] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-07 02:28:17] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-07 02:28:17] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-07 02:28:17] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-07 02:28:17] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-07 02:28:18] INFO root fetch - processPackages [python-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/python_statemachine-2.1.2.tar.gz]
+[2024-05-07 02:28:18] INFO root fetch - processPackages [python-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/python_statemachine-2.2.0.tar.gz]
+[2024-05-07 02:28:18] INFO root fetch - main [MainThread]: End processing [python-statemachine]: success
+[2024-05-07 02:28:18] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-05-07 02:28:18] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-05-07 02:28:18] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-05-07 02:28:18] INFO root fetch - main [MainThread]: Store serial: [23086577]
