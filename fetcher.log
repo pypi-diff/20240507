@@ -12411,3 +12411,45 @@ EOFError: EOF read where object expected
 [2024-05-07 07:58:46] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkedmall20230930-2.2.1.tar.gz]
 [2024-05-07 07:58:46] INFO root fetch - main [MainThread]: End processing [alibabacloud-linkedmall20230930]: success
 [2024-05-07 07:58:46] INFO root fetch - main [MainThread]: Store serial: [23090173]
+[2024-05-07 08:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090173]
+[2024-05-07 08:00:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 08:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-datadog
+[2024-05-07 08:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2024-05-07 08:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bpgtask
+[2024-05-07 08:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thingspire-datasets
+[2024-05-07 08:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: safe-init
+[2024-05-07 08:00:55] INFO root fetch - processPackages [bpgtask]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-07 08:00:55] WARNING root fetch - processPackages [thingspire-datasets]: Skipping, unable to determine old version
+[2024-05-07 08:00:55] INFO root fetch - main [MainThread]: End processing [thingspire-datasets] error
+[2024-05-07 08:00:55] INFO root fetch - processPackages [safe-init]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-07 08:00:55] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2024-05-07 08:00:55] INFO root fetch - processPackages [kfish]: New version: [99.0.202405070559] Old Version: [99.0.202405051643]
+[2024-05-07 08:00:56] INFO root fetch - processPackages [bpgtask]: Downloading https://files.pythonhosted.org/packages/f8/23/b5dc4e90354f8d7f7791fc044da31feedc4be3398570f1eecf1dde345282/bpgtask-0.1.1.tar.gz
+[2024-05-07 08:00:56] INFO root fetch - processPackages [safe-init]: Downloading https://files.pythonhosted.org/packages/e0/a4/80c51b28a6978799601573226fc0ad58c862fb6ead6f927a1d966706c8bb/safe_init-1.0.2.tar.gz
+[2024-05-07 08:00:56] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2024-05-07 08:00:56] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/aa/6d/f4cd7646a6045a073e110073c68e976739f182e6ed8475443cd787bfdb22/kfish-99.0.202405051643-py3-none-any.whl
+[2024-05-07 08:00:56] INFO root fetch - processPackages [bpgtask]: Downloading https://files.pythonhosted.org/packages/ad/42/278d39719204364ea0025a4c80674a675116f2992dbb5fb2a4ffc0e25a32/bpgtask-0.1.2.tar.gz
+[2024-05-07 08:00:56] INFO root fetch - processPackages [bpgtask]: executing diffoscope
+[2024-05-07 08:00:56] INFO root fetch - processPackages [bpgtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpgtask-0.1.1.tar.gz tmp/bpgtask-0.1.2.tar.gz --markdown 20240507/b/bpgtask/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-07 08:00:56] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f4/5b/b69f635a839ab56cfccf8d21550150d1cdd8699b944b256f9489052289b7/kfish-99.0.202405070559-py3-none-any.whl
+[2024-05-07 08:00:56] INFO root fetch - processPackages [safe-init]: Downloading https://files.pythonhosted.org/packages/e1/47/b1e262801639b1846a9e27e7e0ddab3cdd6ddc6fe7a8330ef62f6b8a7759/safe_init-1.1.0.tar.gz
+[2024-05-07 08:00:56] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-07 08:00:56] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405051643-py3-none-any.whl.zip tmp/kfish-99.0.202405070559-py3-none-any.whl.zip --markdown 20240507/k/kfish/99.0.202405051643-99.0.202405070559/README.md --exclude *.pyd
+[2024-05-07 08:00:56] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2024-05-07 08:00:56] INFO root fetch - processPackages [safe-init]: executing diffoscope
+[2024-05-07 08:00:56] INFO root fetch - processPackages [safe-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_init-1.0.2.tar.gz tmp/safe_init-1.1.0.tar.gz --markdown 20240507/s/safe-init/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-07 08:00:56] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2024-05-07 08:00:56] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20240507/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/README.md --exclude *.pyd
+[2024-05-07 08:00:57] INFO root fetch - processPackages [bpgtask]: Remove: archive file [/home/abi/fetcher/tmp/bpgtask-0.1.1.tar.gz]
+[2024-05-07 08:00:57] INFO root fetch - processPackages [bpgtask]: Remove: archive file [/home/abi/fetcher/tmp/bpgtask-0.1.2.tar.gz]
+[2024-05-07 08:00:57] INFO root fetch - main [MainThread]: End processing [bpgtask]: success
+[2024-05-07 08:00:57] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405051643-py3-none-any.whl.zip]
+[2024-05-07 08:00:57] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405070559-py3-none-any.whl.zip]
+[2024-05-07 08:00:57] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-07 08:00:57] INFO root fetch - processPackages [safe-init]: Remove: archive file [/home/abi/fetcher/tmp/safe_init-1.0.2.tar.gz]
+[2024-05-07 08:00:57] INFO root fetch - processPackages [safe-init]: Remove: archive file [/home/abi/fetcher/tmp/safe_init-1.1.0.tar.gz]
+[2024-05-07 08:00:57] INFO root fetch - main [MainThread]: End processing [safe-init]: success
+[2024-05-07 08:00:59] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2024-05-07 08:00:59] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2024-05-07 08:00:59] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2024-05-07 08:00:59] INFO root fetch - main [MainThread]: Store serial: [23090239]
