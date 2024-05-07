@@ -20524,3 +20524,54 @@ AssertionError: tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip does not exi
 [2024-05-07 13:02:34] INFO root fetch - processPackages [activitypub.py]: Remove: archive file [/home/abi/fetcher/tmp/activitypub_py-0.1.0.tar.gz]
 [2024-05-07 13:02:34] INFO root fetch - main [MainThread]: End processing [activitypub.py]: success
 [2024-05-07 13:02:34] INFO root fetch - main [MainThread]: Store serial: [23094188]
+[2024-05-07 13:04:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094188]
+[2024-05-07 13:04:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 13:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: activitypub.py
+[2024-05-07 13:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crawlipt
+[2024-05-07 13:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tdrpa.tdworker
+[2024-05-07 13:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aistudio-cognition
+[2024-05-07 13:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edq-canvas
+[2024-05-07 13:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyprocessors-segment_renseignor
+[2024-05-07 13:04:43] INFO root fetch - processPackages [activitypub.py]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-07 13:04:43] INFO root fetch - processPackages [crawlipt]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-07 13:04:43] WARNING root fetch - processPackages [pyprocessors-segment_renseignor]: Skipping, unable to determine old version
+[2024-05-07 13:04:43] INFO root fetch - main [MainThread]: End processing [pyprocessors-segment_renseignor] error
+[2024-05-07 13:04:43] INFO root fetch - processPackages [activitypub.py]: Downloading https://files.pythonhosted.org/packages/ce/91/01d1f523fcf3f04eb6cb58e7cf2eb3cade6da04ef0c7e79012f27cf5bd04/activitypub_py-0.0.1.tar.gz
+[2024-05-07 13:04:43] INFO root fetch - processPackages [tdrpa.tdworker]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-07 13:04:43] INFO root fetch - processPackages [crawlipt]: Downloading https://files.pythonhosted.org/packages/2b/95/0a7e422b694db9bd5da171b153c00471ac511d27e756dbde2c2a5cad20ad/crawlipt-0.0.4.tar.gz
+[2024-05-07 13:04:43] INFO root fetch - processPackages [aistudio-cognition]: New version: [3.5.0.2] Old Version: [3.5.0.1]
+[2024-05-07 13:04:43] INFO root fetch - processPackages [edq-canvas]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-07 13:04:43] INFO root fetch - processPackages [tdrpa.tdworker]: Downloading https://files.pythonhosted.org/packages/e1/37/c5c851d9071ac6b21999c68d6ba6fcf082eb365ed2b073b031c539aa8dc6/tdrpa.tdworker-1.1.0-py3-none-any.whl
+[2024-05-07 13:04:43] INFO root fetch - processPackages [aistudio-cognition]: Downloading https://files.pythonhosted.org/packages/8d/4b/0422ecc84fcc259a2b639a106c0efdc4957ba338c91771463f577f052dba/aistudio_cognition-3.5.0.1.tar.gz
+[2024-05-07 13:04:43] INFO root fetch - processPackages [crawlipt]: Downloading https://files.pythonhosted.org/packages/81/7a/5dc2ab46b1310eb2584d0baf39632fa81aac39c83be7c20b32fbff671473/crawlipt-0.0.5.tar.gz
+[2024-05-07 13:04:43] INFO root fetch - processPackages [edq-canvas]: Downloading https://files.pythonhosted.org/packages/24/8e/c5d99ba26d1a4c9e41889f4746abf6a8d99e2106cc3471d95d437367b5c7/edq-canvas-0.0.5.tar.gz
+[2024-05-07 13:04:43] INFO root fetch - processPackages [activitypub.py]: Downloading https://files.pythonhosted.org/packages/fe/00/de285e8b329770fcb7e25d4dea9b89b944748963fce23e682973352ff7d2/activitypub_py-0.1.0.tar.gz
+[2024-05-07 13:04:44] INFO root fetch - processPackages [crawlipt]: executing diffoscope
+[2024-05-07 13:04:44] INFO root fetch - processPackages [crawlipt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlipt-0.0.4.tar.gz tmp/crawlipt-0.0.5.tar.gz --markdown 20240507/c/crawlipt/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-07 13:04:44] INFO root fetch - processPackages [activitypub.py]: executing diffoscope
+[2024-05-07 13:04:44] INFO root fetch - processPackages [activitypub.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activitypub_py-0.0.1.tar.gz tmp/activitypub_py-0.1.0.tar.gz --markdown 20240507/a/activitypub.py/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-07 13:04:44] INFO root fetch - processPackages [tdrpa.tdworker]: Downloading https://files.pythonhosted.org/packages/85/06/a40ce7d06f467e849063af6c380462237d145069b07a4db25677953ddec6/tdrpa.tdworker-1.1.1-py3-none-any.whl
+[2024-05-07 13:04:44] INFO root fetch - processPackages [aistudio-cognition]: Downloading https://files.pythonhosted.org/packages/31/70/ae3c41e22031a3174b945b8f6a84ce1ee0f59cbabaa5c3033ef77a1c5928/aistudio_cognition-3.5.0.2.tar.gz
+[2024-05-07 13:04:44] INFO root fetch - processPackages [edq-canvas]: Downloading https://files.pythonhosted.org/packages/18/79/a352c80630211f7f16ac489ec3b61c180bc2525729c8787938aca2e87264/edq_canvas-0.0.6.tar.gz
+[2024-05-07 13:04:44] INFO root fetch - processPackages [aistudio-cognition]: executing diffoscope
+[2024-05-07 13:04:44] INFO root fetch - processPackages [aistudio-cognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistudio_cognition-3.5.0.1.tar.gz tmp/aistudio_cognition-3.5.0.2.tar.gz --markdown 20240507/a/aistudio-cognition/3.5.0.1-3.5.0.2/README.md --exclude *.pyd
+[2024-05-07 13:04:44] INFO root fetch - processPackages [tdrpa.tdworker]: executing diffoscope
+[2024-05-07 13:04:44] INFO root fetch - processPackages [tdrpa.tdworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdrpa.tdworker-1.1.0-py3-none-any.whl.zip tmp/tdrpa.tdworker-1.1.1-py3-none-any.whl.zip --markdown 20240507/t/tdrpa.tdworker/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-07 13:04:44] INFO root fetch - processPackages [edq-canvas]: executing diffoscope
+[2024-05-07 13:04:44] INFO root fetch - processPackages [edq-canvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edq-canvas-0.0.5.tar.gz tmp/edq_canvas-0.0.6.tar.gz --markdown 20240507/e/edq-canvas/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-07 13:04:44] INFO root fetch - processPackages [activitypub.py]: Remove: archive file [/home/abi/fetcher/tmp/activitypub_py-0.0.1.tar.gz]
+[2024-05-07 13:04:44] INFO root fetch - processPackages [activitypub.py]: Remove: archive file [/home/abi/fetcher/tmp/activitypub_py-0.1.0.tar.gz]
+[2024-05-07 13:04:44] INFO root fetch - main [MainThread]: End processing [activitypub.py]: success
+[2024-05-07 13:04:45] INFO root fetch - processPackages [crawlipt]: Remove: archive file [/home/abi/fetcher/tmp/crawlipt-0.0.4.tar.gz]
+[2024-05-07 13:04:45] INFO root fetch - processPackages [crawlipt]: Remove: archive file [/home/abi/fetcher/tmp/crawlipt-0.0.5.tar.gz]
+[2024-05-07 13:04:45] INFO root fetch - main [MainThread]: End processing [crawlipt]: success
+[2024-05-07 13:04:45] INFO root fetch - processPackages [aistudio-cognition]: Remove: archive file [/home/abi/fetcher/tmp/aistudio_cognition-3.5.0.1.tar.gz]
+[2024-05-07 13:04:45] INFO root fetch - processPackages [aistudio-cognition]: Remove: archive file [/home/abi/fetcher/tmp/aistudio_cognition-3.5.0.2.tar.gz]
+[2024-05-07 13:04:45] INFO root fetch - main [MainThread]: End processing [aistudio-cognition]: success
+[2024-05-07 13:04:45] INFO root fetch - processPackages [tdrpa.tdworker]: Remove: archive file [/home/abi/fetcher/tmp/tdrpa.tdworker-1.1.0-py3-none-any.whl.zip]
+[2024-05-07 13:04:45] INFO root fetch - processPackages [tdrpa.tdworker]: Remove: archive file [/home/abi/fetcher/tmp/tdrpa.tdworker-1.1.1-py3-none-any.whl.zip]
+[2024-05-07 13:04:45] INFO root fetch - main [MainThread]: End processing [tdrpa.tdworker]: success
+[2024-05-07 13:04:45] INFO root fetch - processPackages [edq-canvas]: Remove: archive file [/home/abi/fetcher/tmp/edq-canvas-0.0.5.tar.gz]
+[2024-05-07 13:04:45] INFO root fetch - processPackages [edq-canvas]: Remove: archive file [/home/abi/fetcher/tmp/edq_canvas-0.0.6.tar.gz]
+[2024-05-07 13:04:45] INFO root fetch - main [MainThread]: End processing [edq-canvas]: success
+[2024-05-07 13:04:45] INFO root fetch - main [MainThread]: Store serial: [23094208]
