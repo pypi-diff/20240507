@@ -14434,3 +14434,57 @@ EOFError: EOF read where object expected
 [2024-05-07 09:08:30] INFO root fetch - processPackages [fosslight-binary]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_binary-4.1.9.tar.gz]
 [2024-05-07 09:08:30] INFO root fetch - main [MainThread]: End processing [fosslight-binary]: success
 [2024-05-07 09:08:30] INFO root fetch - main [MainThread]: Store serial: [23091239]
+[2024-05-07 09:10:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091239]
+[2024-05-07 09:10:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-hub-nightly
+[2024-05-07 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-surveyplus
+[2024-05-07 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-survey-question-type-binary
+[2024-05-07 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zern
+[2024-05-07 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-survey
+[2024-05-07 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nickedz
+[2024-05-07 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: brianpackage
+[2024-05-07 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysdot
+[2024-05-07 09:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: codejudge-common-utils
+[2024-05-07 09:10:39] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-07 09:10:39] WARNING root fetch - processPackages [brianpackage]: Skipping, unable to determine old version
+[2024-05-07 09:10:39] INFO root fetch - main [MainThread]: End processing [brianpackage] error
+[2024-05-07 09:10:39] WARNING root fetch - processPackages [odoo-addon-survey-question-type-binary]: Skipping, unable to determine old version
+[2024-05-07 09:10:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-survey-question-type-binary] error
+[2024-05-07 09:10:39] INFO root fetch - processPackages [zern]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 09:10:39] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-07 09:10:39] WARNING root fetch - processPackages [codejudge-common-utils]: Skipping, unable to determine old version
+[2024-05-07 09:10:39] INFO root fetch - main [MainThread]: End processing [codejudge-common-utils] error
+[2024-05-07 09:10:39] WARNING root fetch - processPackages [nickedz]: Skipping, unable to determine old version
+[2024-05-07 09:10:39] INFO root fetch - main [MainThread]: End processing [nickedz] error
+[2024-05-07 09:10:39] WARNING root fetch - processPackages [django-surveyplus]: Skipping, unable to determine old version
+[2024-05-07 09:10:39] INFO root fetch - main [MainThread]: End processing [django-surveyplus] error
+[2024-05-07 09:10:39] INFO root fetch - processPackages [pysdot]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-07 09:10:39] INFO root fetch - processPackages [odoo-addons-oca-survey]: New version: [16.0.20240506.0] Old Version: [16.0.20240403.0]
+[2024-05-07 09:10:39] INFO root fetch - processPackages [zern]: Downloading https://files.pythonhosted.org/packages/1f/da/00162e2371310a89c93444b828c4ef9046e808f78d46d6d744de51a78a29/zern-0.0.8.tar.gz
+[2024-05-07 09:10:39] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-07 09:10:39] INFO root fetch - processPackages [odoo-addons-oca-survey]: Downloading https://files.pythonhosted.org/packages/16/8d/7272f16ed2f46c543a172ab176dea39fcd34c8eecd4d07551d8ece7ea2cd/odoo_addons_oca_survey-16.0.20240403.0-py3-none-any.whl
+[2024-05-07 09:10:39] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/58/c8/07a56a466b82e7f91faaaed1e412c855bbb21a4da376ec56718ee02e2df7/pysdot-0.2.7.tar.gz
+[2024-05-07 09:10:39] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-07 09:10:39] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240507/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-07 09:10:40] INFO root fetch - processPackages [zern]: Downloading https://files.pythonhosted.org/packages/da/2b/b995610e20e170f20bfa70249e2c9ccfa458bda26c1898ebe6ba0844b9e6/zern-0.0.9.tar.gz
+[2024-05-07 09:10:40] INFO root fetch - processPackages [zern]: executing diffoscope
+[2024-05-07 09:10:40] INFO root fetch - processPackages [zern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zern-0.0.8.tar.gz tmp/zern-0.0.9.tar.gz --markdown 20240507/z/zern/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 09:10:40] INFO root fetch - processPackages [odoo-addons-oca-survey]: Downloading https://files.pythonhosted.org/packages/14/50/156b52cf486272c5733d07574a94b949abab9e2f2255dda35c72b2d4a677/odoo_addons_oca_survey-16.0.20240506.0-py3-none-any.whl
+[2024-05-07 09:10:40] INFO root fetch - processPackages [odoo-addons-oca-survey]: executing diffoscope
+[2024-05-07 09:10:40] INFO root fetch - processPackages [odoo-addons-oca-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_survey-16.0.20240403.0-py3-none-any.whl.zip tmp/odoo_addons_oca_survey-16.0.20240506.0-py3-none-any.whl.zip --markdown 20240507/o/odoo-addons-oca-survey/16.0.20240403.0-16.0.20240506.0/README.md --exclude *.pyd
+[2024-05-07 09:10:40] INFO root fetch - processPackages [pysdot]: Downloading https://files.pythonhosted.org/packages/13/97/8fcde2da6b06276a9ef7c3fea9e816e5e0cd9025cfe13a8053a4435c66ae/pysdot-0.2.8.tar.gz
+[2024-05-07 09:10:40] INFO root fetch - processPackages [pysdot]: executing diffoscope
+[2024-05-07 09:10:40] INFO root fetch - processPackages [pysdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysdot-0.2.7.tar.gz tmp/pysdot-0.2.8.tar.gz --markdown 20240507/p/pysdot/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-07 09:10:40] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-07 09:10:40] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-07 09:10:40] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-07 09:10:40] INFO root fetch - processPackages [zern]: Remove: archive file [/home/abi/fetcher/tmp/zern-0.0.8.tar.gz]
+[2024-05-07 09:10:40] INFO root fetch - processPackages [zern]: Remove: archive file [/home/abi/fetcher/tmp/zern-0.0.9.tar.gz]
+[2024-05-07 09:10:40] INFO root fetch - main [MainThread]: End processing [zern]: success
+[2024-05-07 09:10:40] INFO root fetch - processPackages [odoo-addons-oca-survey]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_survey-16.0.20240403.0-py3-none-any.whl.zip]
+[2024-05-07 09:10:40] INFO root fetch - processPackages [odoo-addons-oca-survey]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_survey-16.0.20240506.0-py3-none-any.whl.zip]
+[2024-05-07 09:10:40] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-survey]: success
+[2024-05-07 09:10:40] INFO root fetch - processPackages [pysdot]: Remove: archive file [/home/abi/fetcher/tmp/pysdot-0.2.7.tar.gz]
+[2024-05-07 09:10:40] INFO root fetch - processPackages [pysdot]: Remove: archive file [/home/abi/fetcher/tmp/pysdot-0.2.8.tar.gz]
+[2024-05-07 09:10:40] INFO root fetch - main [MainThread]: End processing [pysdot]: success
+[2024-05-07 09:10:40] INFO root fetch - main [MainThread]: Store serial: [23091264]
