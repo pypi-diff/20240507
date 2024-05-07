@@ -11697,3 +11697,51 @@ EOFError: EOF read where object expected
 [2024-05-07 07:23:43] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.9.1.tar.gz]
 [2024-05-07 07:23:43] INFO root fetch - main [MainThread]: End processing [magentic]: success
 [2024-05-07 07:23:43] INFO root fetch - main [MainThread]: Store serial: [23089900]
+[2024-05-07 07:25:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089900]
+[2024-05-07 07:25:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 07:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: guibot
+[2024-05-07 07:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autorunpy
+[2024-05-07 07:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: first-poetry-project-Ibrahim1
+[2024-05-07 07:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: suql
+[2024-05-07 07:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thingspire-test
+[2024-05-07 07:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PREN-flawas
+[2024-05-07 07:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bpgtask
+[2024-05-07 07:25:52] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 07:25:52] INFO root fetch - processPackages [suql]: New version: [1.1.7a2] Old Version: [1.1.7a1]
+[2024-05-07 07:25:52] INFO root fetch - processPackages [autorunpy]: New version: [8.1.9] Old Version: [8.1.8]
+[2024-05-07 07:25:52] WARNING root fetch - processPackages [thingspire-test]: Skipping, unable to determine old version
+[2024-05-07 07:25:52] INFO root fetch - main [MainThread]: End processing [thingspire-test] error
+[2024-05-07 07:25:52] WARNING root fetch - processPackages [first-poetry-project-Ibrahim1]: Skipping, unable to determine old version
+[2024-05-07 07:25:52] INFO root fetch - main [MainThread]: End processing [first-poetry-project-Ibrahim1] error
+[2024-05-07 07:25:52] INFO root fetch - processPackages [guibot]: New version: [0.51.1] Old Version: [0.50.1]
+[2024-05-07 07:25:52] WARNING root fetch - processPackages [bpgtask]: Skipping, unable to determine old version
+[2024-05-07 07:25:52] INFO root fetch - main [MainThread]: End processing [bpgtask] error
+[2024-05-07 07:25:52] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-07 07:25:52] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/ee/0e/700a47cb14f497e673ab9875a362272657cdd9ae0d257f57b8c3005d3851/suql-1.1.7a1.tar.gz
+[2024-05-07 07:25:52] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/78/26/79dece636032c00611a4546dfdd997ac9c67c8b202706dc055a1c45cc809/autorunpy-8.1.8.tar.gz
+[2024-05-07 07:25:52] INFO root fetch - processPackages [guibot]: Downloading https://files.pythonhosted.org/packages/91/c7/30ab9c6a911807f102a2cf729941c0f7af402777a6e32516b0d1bcfa0394/guibot-0.50.1.tar.gz
+[2024-05-07 07:25:52] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/87/6a/5320449949756b9b4b752886bb89898fac32db3e5ddeee8a74a313f7fd19/autorunpy-8.1.9.tar.gz
+[2024-05-07 07:25:52] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/c2/0f/b57a0afccd560ea9a75efcf081bae28f420ce98ee75e9164f38a703ed56b/suql-1.1.7a2.tar.gz
+[2024-05-07 07:25:52] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-07 07:25:53] INFO root fetch - processPackages [autorunpy]: executing diffoscope
+[2024-05-07 07:25:53] INFO root fetch - processPackages [autorunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorunpy-8.1.8.tar.gz tmp/autorunpy-8.1.9.tar.gz --markdown 20240507/a/autorunpy/8.1.8-8.1.9/README.md --exclude *.pyd
+[2024-05-07 07:25:53] INFO root fetch - processPackages [suql]: executing diffoscope
+[2024-05-07 07:25:53] INFO root fetch - processPackages [suql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suql-1.1.7a1.tar.gz tmp/suql-1.1.7a2.tar.gz --markdown 20240507/s/suql/1.1.7a1-1.1.7a2/README.md --exclude *.pyd
+[2024-05-07 07:25:53] INFO root fetch - processPackages [guibot]: Downloading https://files.pythonhosted.org/packages/6d/aa/5d717f4493d556ca530b56b25cd42aa60a913c361f1dc9464b17501826a5/guibot-0.51.1.tar.gz
+[2024-05-07 07:25:53] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-07 07:25:53] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240507/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 07:25:53] INFO root fetch - processPackages [guibot]: executing diffoscope
+[2024-05-07 07:25:53] INFO root fetch - processPackages [guibot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guibot-0.50.1.tar.gz tmp/guibot-0.51.1.tar.gz --markdown 20240507/g/guibot/0.50.1-0.51.1/README.md --exclude *.pyd
+[2024-05-07 07:25:53] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.1.8.tar.gz]
+[2024-05-07 07:25:53] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.1.9.tar.gz]
+[2024-05-07 07:25:53] INFO root fetch - main [MainThread]: End processing [autorunpy]: success
+[2024-05-07 07:25:53] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.7a1.tar.gz]
+[2024-05-07 07:25:53] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.7a2.tar.gz]
+[2024-05-07 07:25:53] INFO root fetch - main [MainThread]: End processing [suql]: success
+[2024-05-07 07:25:53] INFO root fetch - processPackages [guibot]: Remove: archive file [/home/abi/fetcher/tmp/guibot-0.50.1.tar.gz]
+[2024-05-07 07:25:53] INFO root fetch - processPackages [guibot]: Remove: archive file [/home/abi/fetcher/tmp/guibot-0.51.1.tar.gz]
+[2024-05-07 07:25:53] INFO root fetch - main [MainThread]: End processing [guibot]: success
+[2024-05-07 07:25:53] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-07 07:25:53] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-07 07:25:54] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-07 07:25:54] INFO root fetch - main [MainThread]: Store serial: [23089927]
