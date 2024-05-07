@@ -3816,3 +3816,45 @@ EOFError: EOF read where object expected
 [2024-05-07 02:52:47] INFO root fetch - processPackages [vicregaddon]: Remove: archive file [/home/abi/fetcher/tmp/vicregaddon-0.0.4.tar.gz]
 [2024-05-07 02:52:47] INFO root fetch - main [MainThread]: End processing [vicregaddon]: success
 [2024-05-07 02:52:47] INFO root fetch - main [MainThread]: Store serial: [23086698]
+[2024-05-07 02:54:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086698]
+[2024-05-07 02:54:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 02:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elastic-stacker
+[2024-05-07 02:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2024-05-07 02:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansar-connect
+[2024-05-07 02:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-pandas
+[2024-05-07 02:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medicafe
+[2024-05-07 02:54:55] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.216] Old Version: [0.1.215]
+[2024-05-07 02:54:55] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/1b/77/fbc65306076720495129198fdc7bf0915338bfa597a8acf3bb51624d3053/ansar_connect-0.1.215.tar.gz
+[2024-05-07 02:54:55] WARNING root fetch - processPackages [elastic-stacker]: Skipping, unable to determine old version
+[2024-05-07 02:54:55] INFO root fetch - main [MainThread]: End processing [elastic-stacker] error
+[2024-05-07 02:54:55] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-07 02:54:55] INFO root fetch - processPackages [medicafe]: New version: [0.240506.1] Old Version: [0.240501.5]
+[2024-05-07 02:54:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-07 02:54:55] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-07 02:54:56] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-07 02:54:56] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/a4/ab/4b5c15dc4ef7ad0d367f4d58070d8649309791b81d7aa833981b9e8d8921/medicafe-0.240501.5.tar.gz
+[2024-05-07 02:54:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-07 02:54:56] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/4e/b6/8d00050bfd0863bf1c88fc463a509532517e1bdea977f2599cb70ec09ee7/ansar_connect-0.1.216.tar.gz
+[2024-05-07 02:54:56] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-07 02:54:56] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240507/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-07 02:54:56] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-07 02:54:56] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.215.tar.gz tmp/ansar_connect-0.1.216.tar.gz --markdown 20240507/a/ansar-connect/0.1.215-0.1.216/README.md --exclude *.pyd
+[2024-05-07 02:54:56] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/b7/52/ad6e8f9069360e371dae7a5ba50e5370618c7dbaac9242b44631e4a53141/medicafe-0.240506.1-py3-none-any.whl
+[2024-05-07 02:54:56] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-07 02:54:56] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240501.5.tar.gz tmp/medicafe-0.240506.1-py3-none-any.whl.zip --markdown 20240507/m/medicafe/0.240501.5-0.240506.1/README.md --exclude *.pyd
+[2024-05-07 02:54:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-07 02:54:56] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-07 02:54:56] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-07 02:54:56] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-07 02:54:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-07 02:54:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240507/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-07 02:54:56] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.215.tar.gz]
+[2024-05-07 02:54:56] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.216.tar.gz]
+[2024-05-07 02:54:56] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-07 02:54:57] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240501.5.tar.gz]
+[2024-05-07 02:54:57] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240506.1-py3-none-any.whl.zip]
+[2024-05-07 02:54:57] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-07 02:54:57] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-07 02:54:57] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-07 02:54:57] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-07 02:54:57] INFO root fetch - main [MainThread]: Store serial: [23086711]
