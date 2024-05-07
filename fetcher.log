@@ -8025,3 +8025,42 @@ EOFError: EOF read where object expected
 [2024-05-07 03:41:30] INFO root fetch - processPackages [multilearn]: Remove: archive file [/home/abi/fetcher/tmp/multilearn-0.0.4.tar.gz]
 [2024-05-07 03:41:30] INFO root fetch - main [MainThread]: End processing [multilearn]: success
 [2024-05-07 03:41:30] INFO root fetch - main [MainThread]: Store serial: [23088153]
+[2024-05-07 03:43:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088153]
+[2024-05-07 03:43:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 03:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qteasy
+[2024-05-07 03:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deflate
+[2024-05-07 03:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: octoflow-plugins
+[2024-05-07 03:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AICelltype
+[2024-05-07 03:43:39] INFO root fetch - processPackages [AICelltype]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-07 03:43:39] INFO root fetch - processPackages [qteasy]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-07 03:43:39] INFO root fetch - processPackages [AICelltype]: Downloading https://files.pythonhosted.org/packages/1d/da/0c38b73bc2cb1f603e8427c953378b5d7b1d03e009683640848a3a5b4884/aicelltype-0.0.1.tar.gz
+[2024-05-07 03:43:39] INFO root fetch - processPackages [octoflow-plugins]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-07 03:43:39] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/51/92/0338a6e7fa32d54eb11ff25af5b6e3509a03191dd7206facb6cd9cdec3ef/qteasy-1.2.4.tar.gz
+[2024-05-07 03:43:39] INFO root fetch - processPackages [deflate]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-07 03:43:39] INFO root fetch - processPackages [octoflow-plugins]: Downloading https://files.pythonhosted.org/packages/ed/d0/9df3de6b6b44896e5c6849ff34b7c4d4f123ee5fde1d0225f202fe791cfe/octoflow_plugins-0.0.4.tar.gz
+[2024-05-07 03:43:39] INFO root fetch - processPackages [deflate]: Downloading https://files.pythonhosted.org/packages/32/e7/0c7a4d59a118c7c0391453e252f63cc37f82b2e5a81335d4b52346a2bc68/deflate-0.6.0.tar.gz
+[2024-05-07 03:43:40] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/b4/74/c07612da1f4edd793ae9c1353728bcb8ba879ff4a1d458d9067d9e0828b7/qteasy-1.2.5.tar.gz
+[2024-05-07 03:43:40] INFO root fetch - processPackages [octoflow-plugins]: Downloading https://files.pythonhosted.org/packages/7e/81/43701c55afa48b3228071f354b0e4ca9c7029b0686c2eb0e4ba238f0402d/octoflow_plugins-0.0.5.tar.gz
+[2024-05-07 03:43:40] INFO root fetch - processPackages [AICelltype]: Downloading https://files.pythonhosted.org/packages/af/18/b2efee35b04062581341d88d636126de461f1a364dee601ac829fa302e30/aicelltype-0.0.2.tar.gz
+[2024-05-07 03:43:40] INFO root fetch - processPackages [qteasy]: executing diffoscope
+[2024-05-07 03:43:40] INFO root fetch - processPackages [qteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qteasy-1.2.4.tar.gz tmp/qteasy-1.2.5.tar.gz --markdown 20240507/q/qteasy/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-07 03:43:40] INFO root fetch - processPackages [octoflow-plugins]: executing diffoscope
+[2024-05-07 03:43:40] INFO root fetch - processPackages [octoflow-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflow_plugins-0.0.4.tar.gz tmp/octoflow_plugins-0.0.5.tar.gz --markdown 20240507/o/octoflow-plugins/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-07 03:43:40] INFO root fetch - processPackages [deflate]: Downloading https://files.pythonhosted.org/packages/c1/f4/040ba513ab92beea49c95c33cf8bf8ea7dc9cd6fb971ded85219f59603a8/deflate-0.6.1-cp39-cp39-musllinux_1_1_i686.whl
+[2024-05-07 03:43:40] INFO root fetch - processPackages [AICelltype]: executing diffoscope
+[2024-05-07 03:43:40] INFO root fetch - processPackages [AICelltype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicelltype-0.0.1.tar.gz tmp/aicelltype-0.0.2.tar.gz --markdown 20240507/A/AICelltype/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-07 03:43:40] INFO root fetch - processPackages [octoflow-plugins]: Remove: archive file [/home/abi/fetcher/tmp/octoflow_plugins-0.0.4.tar.gz]
+[2024-05-07 03:43:40] INFO root fetch - processPackages [octoflow-plugins]: Remove: archive file [/home/abi/fetcher/tmp/octoflow_plugins-0.0.5.tar.gz]
+[2024-05-07 03:43:40] INFO root fetch - main [MainThread]: End processing [octoflow-plugins]: success
+[2024-05-07 03:43:40] INFO root fetch - processPackages [AICelltype]: Remove: archive file [/home/abi/fetcher/tmp/aicelltype-0.0.1.tar.gz]
+[2024-05-07 03:43:40] INFO root fetch - processPackages [AICelltype]: Remove: archive file [/home/abi/fetcher/tmp/aicelltype-0.0.2.tar.gz]
+[2024-05-07 03:43:40] INFO root fetch - main [MainThread]: End processing [AICelltype]: success
+[2024-05-07 03:43:41] INFO root fetch - processPackages [deflate]: executing diffoscope
+[2024-05-07 03:43:41] INFO root fetch - processPackages [deflate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deflate-0.6.0.tar.gz tmp/deflate-0.6.1-cp39-cp39-musllinux_1_1_i686.whl.zip --markdown 20240507/d/deflate/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-07 03:43:41] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.2.4.tar.gz]
+[2024-05-07 03:43:41] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.2.5.tar.gz]
+[2024-05-07 03:43:41] INFO root fetch - main [MainThread]: End processing [qteasy]: success
+[2024-05-07 03:43:41] INFO root fetch - processPackages [deflate]: Remove: archive file [/home/abi/fetcher/tmp/deflate-0.6.0.tar.gz]
+[2024-05-07 03:43:41] INFO root fetch - processPackages [deflate]: Remove: archive file [/home/abi/fetcher/tmp/deflate-0.6.1-cp39-cp39-musllinux_1_1_i686.whl.zip]
+[2024-05-07 03:43:41] INFO root fetch - main [MainThread]: End processing [deflate]: success
+[2024-05-07 03:43:41] INFO root fetch - main [MainThread]: Store serial: [23088197]
