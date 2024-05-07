@@ -14488,3 +14488,63 @@ EOFError: EOF read where object expected
 [2024-05-07 09:10:40] INFO root fetch - processPackages [pysdot]: Remove: archive file [/home/abi/fetcher/tmp/pysdot-0.2.8.tar.gz]
 [2024-05-07 09:10:40] INFO root fetch - main [MainThread]: End processing [pysdot]: success
 [2024-05-07 09:10:40] INFO root fetch - main [MainThread]: Store serial: [23091264]
+[2024-05-07 09:12:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091264]
+[2024-05-07 09:12:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 09:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omegi-python-instrumentation
+[2024-05-07 09:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: music-kraken
+[2024-05-07 09:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: olx-api-wrapper
+[2024-05-07 09:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-proxmoxve
+[2024-05-07 09:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: com.precisely.apis
+[2024-05-07 09:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rdf-doctor
+[2024-05-07 09:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyter-vscode-proxy
+[2024-05-07 09:12:49] WARNING root fetch - processPackages [olx-api-wrapper]: Skipping, unable to determine old version
+[2024-05-07 09:12:49] INFO root fetch - main [MainThread]: End processing [olx-api-wrapper] error
+[2024-05-07 09:12:49] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.7.0]
+[2024-05-07 09:12:49] INFO root fetch - processPackages [omegi-python-instrumentation]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-07 09:12:49] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/cb/06/8ae70afb14c2307fb716d0fe36aad66a90c9e2598f47879c1277c5f23318/music_kraken-1.7.0.tar.gz
+[2024-05-07 09:12:49] INFO root fetch - processPackages [rdf-doctor]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-07 09:12:49] INFO root fetch - processPackages [jupyter-vscode-proxy]: New version: [0.6] Old Version: [0.5]
+[2024-05-07 09:12:49] INFO root fetch - processPackages [com.precisely.apis]: New version: [18.1.0] Old Version: [18.0.1]
+[2024-05-07 09:12:49] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/12/07/ffec87083de6e186acd1ed1129269b7631e72beaea71e203b5ef4530ee5d/omegi_python_instrumentation-0.0.2.tar.gz
+[2024-05-07 09:12:49] INFO root fetch - processPackages [pulumi-proxmoxve]: New version: [6.5.1] Old Version: [6.5.0]
+[2024-05-07 09:12:49] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/73/4f/63ef69bec540c9f942f97c6a0fa436c1353702bc4d8ead039886d4f5bdb9/rdf_doctor-1.1.1-py3-none-any.whl
+[2024-05-07 09:12:49] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-05-07 09:12:49] INFO root fetch - processPackages [com.precisely.apis]: Downloading https://files.pythonhosted.org/packages/44/b4/9053c62bb1ab9440f8303d548603f2204901e284741612c54413ccd8e102/com.precisely.apis-18.0.1.tar.gz
+[2024-05-07 09:12:49] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/a7/09/f9309f1729728f5e8e1c0546a5d18b77f2882338c1a927ef55cb4855433e/pulumi_proxmoxve-6.5.0.tar.gz
+[2024-05-07 09:12:49] INFO root fetch - processPackages [jupyter-vscode-proxy]: Downloading https://files.pythonhosted.org/packages/47/98/f8ad255f67ed43ac1058296a5d9f38f76e19d8a0844937b2f05098c60454/jupyter_vscode_proxy-0.5.tar.gz
+[2024-05-07 09:12:49] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/79/d0/5464f1087e860197eebcc3a432c2557214beaacfb69f5e551d057e9a3660/omegi_python_instrumentation-0.0.3.tar.gz
+[2024-05-07 09:12:49] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-05-07 09:12:49] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.7.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240507/m/music-kraken/1.7.0-1.9.0/README.md --exclude *.pyd
+[2024-05-07 09:12:50] INFO root fetch - processPackages [omegi-python-instrumentation]: executing diffoscope
+[2024-05-07 09:12:50] INFO root fetch - processPackages [omegi-python-instrumentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omegi_python_instrumentation-0.0.2.tar.gz tmp/omegi_python_instrumentation-0.0.3.tar.gz --markdown 20240507/o/omegi-python-instrumentation/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-07 09:12:50] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/b1/b4/37b9fda9512aa852f8bf8b4af3c6eb2024797abf19739095e79d98520e90/rdf_doctor-1.1.2-py3-none-any.whl
+[2024-05-07 09:12:50] INFO root fetch - processPackages [com.precisely.apis]: Downloading https://files.pythonhosted.org/packages/31/63/5b4a5ac3749aea207dd6428619ac5267b823abdd2e17395f3a503328bdb6/com_precisely_apis-18.1.0.tar.gz
+[2024-05-07 09:12:50] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/47/85/1d8d3b696a737b9360f50c5af456b7bf86741920773dfb45498c5bbe0ea9/pulumi_proxmoxve-6.5.1.tar.gz
+[2024-05-07 09:12:50] INFO root fetch - processPackages [jupyter-vscode-proxy]: Downloading https://files.pythonhosted.org/packages/e8/b2/a32c4a70738e08841aa26c213c37cfab0ac151b7fb1d7a4b80e6289426f3/jupyter_vscode_proxy-0.6.tar.gz
+[2024-05-07 09:12:50] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2024-05-07 09:12:50] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-1.1.1-py3-none-any.whl.zip tmp/rdf_doctor-1.1.2-py3-none-any.whl.zip --markdown 20240507/r/rdf-doctor/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-07 09:12:50] INFO root fetch - processPackages [com.precisely.apis]: executing diffoscope
+[2024-05-07 09:12:50] INFO root fetch - processPackages [com.precisely.apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/com.precisely.apis-18.0.1.tar.gz tmp/com_precisely_apis-18.1.0.tar.gz --markdown 20240507/c/com.precisely.apis/18.0.1-18.1.0/README.md --exclude *.pyd
+[2024-05-07 09:12:50] INFO root fetch - processPackages [pulumi-proxmoxve]: executing diffoscope
+[2024-05-07 09:12:50] INFO root fetch - processPackages [pulumi-proxmoxve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_proxmoxve-6.5.0.tar.gz tmp/pulumi_proxmoxve-6.5.1.tar.gz --markdown 20240507/p/pulumi-proxmoxve/6.5.0-6.5.1/README.md --exclude *.pyd
+[2024-05-07 09:12:50] INFO root fetch - processPackages [jupyter-vscode-proxy]: executing diffoscope
+[2024-05-07 09:12:50] INFO root fetch - processPackages [jupyter-vscode-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_vscode_proxy-0.5.tar.gz tmp/jupyter_vscode_proxy-0.6.tar.gz --markdown 20240507/j/jupyter-vscode-proxy/0.5-0.6/README.md --exclude *.pyd
+[2024-05-07 09:12:50] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.7.0.tar.gz]
+[2024-05-07 09:12:50] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-05-07 09:12:50] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-05-07 09:12:50] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi_python_instrumentation-0.0.2.tar.gz]
+[2024-05-07 09:12:50] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi_python_instrumentation-0.0.3.tar.gz]
+[2024-05-07 09:12:50] INFO root fetch - main [MainThread]: End processing [omegi-python-instrumentation]: success
+[2024-05-07 09:12:50] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.1-py3-none-any.whl.zip]
+[2024-05-07 09:12:50] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.2-py3-none-any.whl.zip]
+[2024-05-07 09:12:50] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2024-05-07 09:12:51] INFO root fetch - processPackages [jupyter-vscode-proxy]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_vscode_proxy-0.5.tar.gz]
+[2024-05-07 09:12:51] INFO root fetch - processPackages [jupyter-vscode-proxy]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_vscode_proxy-0.6.tar.gz]
+[2024-05-07 09:12:51] INFO root fetch - main [MainThread]: End processing [jupyter-vscode-proxy]: success
+[2024-05-07 09:12:51] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-6.5.0.tar.gz]
+[2024-05-07 09:12:51] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-6.5.1.tar.gz]
+[2024-05-07 09:12:51] INFO root fetch - main [MainThread]: End processing [pulumi-proxmoxve]: success
+[2024-05-07 09:12:55] INFO root fetch - processPackages [com.precisely.apis]: Remove: archive file [/home/abi/fetcher/tmp/com.precisely.apis-18.0.1.tar.gz]
+[2024-05-07 09:12:55] INFO root fetch - processPackages [com.precisely.apis]: Remove: archive file [/home/abi/fetcher/tmp/com_precisely_apis-18.1.0.tar.gz]
+[2024-05-07 09:12:55] INFO root fetch - main [MainThread]: End processing [com.precisely.apis]: success
+[2024-05-07 09:12:55] INFO root fetch - main [MainThread]: Store serial: [23091282]
