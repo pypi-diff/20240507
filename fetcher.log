@@ -3548,3 +3548,33 @@ EOFError: EOF read where object expected
 [2024-05-07 02:32:37] INFO root fetch - processPackages [makim]: Remove: archive file [/home/abi/fetcher/tmp/makim-1.9.1.tar.gz]
 [2024-05-07 02:32:37] INFO root fetch - main [MainThread]: End processing [makim]: success
 [2024-05-07 02:32:37] INFO root fetch - main [MainThread]: Store serial: [23086596]
+[2024-05-07 02:34:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086596]
+[2024-05-07 02:34:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 02:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skrutable
+[2024-05-07 02:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cc-py-commons
+[2024-05-07 02:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-snowflake
+[2024-05-07 02:34:46] INFO root fetch - processPackages [skrutable]: New version: [1.3.0.dev1] Old Version: [1.2.1]
+[2024-05-07 02:34:46] INFO root fetch - processPackages [skrutable]: Downloading https://files.pythonhosted.org/packages/dd/fb/dc034e503eee3c93966d7d817f0ac3d705149009ae4ad6b2e349f91ba5c0/skrutable-1.2.1.tar.gz
+[2024-05-07 02:34:46] INFO root fetch - processPackages [cc-py-commons]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-07 02:34:46] INFO root fetch - processPackages [dbt-snowflake]: New version: [1.8.0b4] Old Version: [1.8.0b3]
+[2024-05-07 02:34:46] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/02/51/ab6a44e639c5f9d9f0326a28ef3fda2c427588325abb610d909ba562511e/cc_py_commons-0.4.0.tar.gz
+[2024-05-07 02:34:46] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/f8/78/3776508f11ae91709e9dcab45d205b629506b66d71f2921999a5062e9853/dbt_snowflake-1.8.0b3.tar.gz
+[2024-05-07 02:34:46] INFO root fetch - processPackages [skrutable]: Downloading https://files.pythonhosted.org/packages/e7/df/6c52db12756a4defdbea6a8f0e31eabec1050141dadba06445d30534977a/skrutable-1.3.0.dev1.tar.gz
+[2024-05-07 02:34:46] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/29/c7/f56a3f60fc1ee362a5af51340d765200f9a5cdd4b3d7f31aeb9c346275f6/cc_py_commons-0.4.1.tar.gz
+[2024-05-07 02:34:46] INFO root fetch - processPackages [skrutable]: executing diffoscope
+[2024-05-07 02:34:46] INFO root fetch - processPackages [skrutable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skrutable-1.2.1.tar.gz tmp/skrutable-1.3.0.dev1.tar.gz --markdown 20240507/s/skrutable/1.2.1-1.3.0.dev1/README.md --exclude *.pyd
+[2024-05-07 02:34:46] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2024-05-07 02:34:46] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.4.0.tar.gz tmp/cc_py_commons-0.4.1.tar.gz --markdown 20240507/c/cc-py-commons/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-07 02:34:46] INFO root fetch - processPackages [dbt-snowflake]: Downloading https://files.pythonhosted.org/packages/bd/60/b59213c833eeaa21ba493ba25b4a261f4ec9c500a20cffd301de6e3cd9d4/dbt_snowflake-1.8.0b4.tar.gz
+[2024-05-07 02:34:47] INFO root fetch - processPackages [dbt-snowflake]: executing diffoscope
+[2024-05-07 02:34:47] INFO root fetch - processPackages [dbt-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_snowflake-1.8.0b3.tar.gz tmp/dbt_snowflake-1.8.0b4.tar.gz --markdown 20240507/d/dbt-snowflake/1.8.0b3-1.8.0b4/README.md --exclude *.pyd
+[2024-05-07 02:34:47] INFO root fetch - processPackages [skrutable]: Remove: archive file [/home/abi/fetcher/tmp/skrutable-1.2.1.tar.gz]
+[2024-05-07 02:34:47] INFO root fetch - processPackages [skrutable]: Remove: archive file [/home/abi/fetcher/tmp/skrutable-1.3.0.dev1.tar.gz]
+[2024-05-07 02:34:47] INFO root fetch - main [MainThread]: End processing [skrutable]: success
+[2024-05-07 02:34:47] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.4.0.tar.gz]
+[2024-05-07 02:34:47] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.4.1.tar.gz]
+[2024-05-07 02:34:47] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2024-05-07 02:34:47] INFO root fetch - processPackages [dbt-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snowflake-1.8.0b3.tar.gz]
+[2024-05-07 02:34:47] INFO root fetch - processPackages [dbt-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snowflake-1.8.0b4.tar.gz]
+[2024-05-07 02:34:47] INFO root fetch - main [MainThread]: End processing [dbt-snowflake]: success
+[2024-05-07 02:34:47] INFO root fetch - main [MainThread]: Store serial: [23086604]
