@@ -16442,3 +16442,78 @@ EOFError: EOF read where object expected
 [2024-05-07 10:26:30] INFO root fetch - processPackages [nvidia-cudnn-frontend]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_cudnn_frontend-1.4.0-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip]
 [2024-05-07 10:26:30] INFO root fetch - main [MainThread]: End processing [nvidia-cudnn-frontend]: success
 [2024-05-07 10:26:30] INFO root fetch - main [MainThread]: Store serial: [23092180]
+[2024-05-07 10:28:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092180]
+[2024-05-07 10:28:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-07 10:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: capellambse
+[2024-05-07 10:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazyad
+[2024-05-07 10:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naas
+[2024-05-07 10:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polars
+[2024-05-07 10:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-sql-explorer-squad
+[2024-05-07 10:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: genv
+[2024-05-07 10:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polars-lts-cpu
+[2024-05-07 10:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: csp-cryspy
+[2024-05-07 10:28:42] INFO root fetch - processPackages [polars]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-07 10:28:43] INFO root fetch - processPackages [genv]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-07 10:28:43] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 10:28:43] INFO root fetch - processPackages [django-sql-explorer-squad]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-07 10:28:43] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-05-07 10:28:43] INFO root fetch - processPackages [naas]: New version: [2.9.3] Old Version: [2.9.1]
+[2024-05-07 10:28:43] INFO root fetch - processPackages [polars-lts-cpu]: New version: [0.20.9] Old Version: [0.20.8]
+[2024-05-07 10:28:43] INFO root fetch - processPackages [csp-cryspy]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-07 10:28:43] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/e7/87/d9b28ede138dfbfa298446f324fd99a8c9f1229deeabc69024c8613d68f8/polars-0.9.8.tar.gz
+[2024-05-07 10:28:43] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-05-07 10:28:43] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-05-07 10:28:43] INFO root fetch - processPackages [genv]: Downloading https://files.pythonhosted.org/packages/12/8a/90c7f6b2d01d58570c6aacc62e0fffebc21684b1a82ab21d7a198fdbf6b5/genv-1.4.1.tar.gz
+[2024-05-07 10:28:43] INFO root fetch - processPackages [naas]: Downloading https://files.pythonhosted.org/packages/0e/4c/dbdc0bf7e2eaee174b740c551b20d67cb0506f434d93cbe45ca0d19b1a97/naas-2.9.1.tar.gz
+[2024-05-07 10:28:43] INFO root fetch - processPackages [django-sql-explorer-squad]: Downloading https://files.pythonhosted.org/packages/90/c7/9142ff58231887983b889980e68ebde5a91a43d71727afe94695068ddc43/django_sql_explorer_squad-0.9.8-py3-none-any.whl
+[2024-05-07 10:28:43] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/22/c0/7c8fcfe8d4d7376848e02a8a3975268cbd0ec0f863fbf3338068ff73c90f/polars_lts_cpu-0.20.8.tar.gz
+[2024-05-07 10:28:43] INFO root fetch - processPackages [csp-cryspy]: Downloading https://files.pythonhosted.org/packages/66/eb/f569ff7bb9eea51d1d79f24d7c9a38a8a387d85912db68e54b4702e55ad0/csp-cryspy-1.2.3.tar.gz
+[2024-05-07 10:28:43] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-05-07 10:28:43] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/96/26/63076bebabb9ecbc73cd58cf48f924a3f05b871166f576b56d9935158194/polars-0.9.9.tar.gz
+[2024-05-07 10:28:43] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-05-07 10:28:43] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240507/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 10:28:43] INFO root fetch - processPackages [csp-cryspy]: Downloading https://files.pythonhosted.org/packages/55/cc/579a9c4d8019e2d9d38d1f1b48433f922de576fa8cd537a44be61dcff743/csp_cryspy-1.2.4-py3-none-any.whl
+[2024-05-07 10:28:43] INFO root fetch - processPackages [genv]: Downloading https://files.pythonhosted.org/packages/9b/aa/dc5dcb8d64ebe7affaf063f8abbb0d998f85c70ac751a1e9f92c408f89ab/genv-1.4.2.tar.gz
+[2024-05-07 10:28:43] INFO root fetch - processPackages [django-sql-explorer-squad]: Downloading https://files.pythonhosted.org/packages/b7/2e/491e0b57bd65f72b320cc98089151b4abdf96aba414e327989a386dca1f2/django_sql_explorer_squad-0.9.9-py3-none-any.whl
+[2024-05-07 10:28:43] INFO root fetch - processPackages [naas]: Downloading https://files.pythonhosted.org/packages/a7/8d/3b9c38a078b48b7c43694d4a7dc0cd1554c6c937a82ac7e3a2980ca8fed7/naas-2.9.3.tar.gz
+[2024-05-07 10:28:43] INFO root fetch - processPackages [django-sql-explorer-squad]: executing diffoscope
+[2024-05-07 10:28:43] INFO root fetch - processPackages [django-sql-explorer-squad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sql_explorer_squad-0.9.8-py3-none-any.whl.zip tmp/django_sql_explorer_squad-0.9.9-py3-none-any.whl.zip --markdown 20240507/d/django-sql-explorer-squad/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-07 10:28:43] INFO root fetch - processPackages [polars]: executing diffoscope
+[2024-05-07 10:28:43] INFO root fetch - processPackages [polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars-0.9.8.tar.gz tmp/polars-0.9.9.tar.gz --markdown 20240507/p/polars/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-07 10:28:43] INFO root fetch - processPackages [naas]: executing diffoscope
+[2024-05-07 10:28:43] INFO root fetch - processPackages [naas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naas-2.9.1.tar.gz tmp/naas-2.9.3.tar.gz --markdown 20240507/n/naas/2.9.1-2.9.3/README.md --exclude *.pyd
+[2024-05-07 10:28:43] INFO root fetch - processPackages [genv]: executing diffoscope
+[2024-05-07 10:28:43] INFO root fetch - processPackages [csp-cryspy]: executing diffoscope
+[2024-05-07 10:28:43] INFO root fetch - processPackages [genv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genv-1.4.1.tar.gz tmp/genv-1.4.2.tar.gz --markdown 20240507/g/genv/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-07 10:28:43] INFO root fetch - processPackages [csp-cryspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csp-cryspy-1.2.3.tar.gz tmp/csp_cryspy-1.2.4-py3-none-any.whl.zip --markdown 20240507/c/csp-cryspy/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-07 10:28:44] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-05-07 10:28:44] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-05-07 10:28:44] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-05-07 10:28:44] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-05-07 10:28:44] INFO root fetch - processPackages [csp-cryspy]: Remove: archive file [/home/abi/fetcher/tmp/csp-cryspy-1.2.3.tar.gz]
+[2024-05-07 10:28:44] INFO root fetch - processPackages [csp-cryspy]: Remove: archive file [/home/abi/fetcher/tmp/csp_cryspy-1.2.4-py3-none-any.whl.zip]
+[2024-05-07 10:28:44] INFO root fetch - main [MainThread]: End processing [csp-cryspy]: success
+[2024-05-07 10:28:44] INFO root fetch - processPackages [django-sql-explorer-squad]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer_squad-0.9.8-py3-none-any.whl.zip]
+[2024-05-07 10:28:44] INFO root fetch - processPackages [django-sql-explorer-squad]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer_squad-0.9.9-py3-none-any.whl.zip]
+[2024-05-07 10:28:44] INFO root fetch - main [MainThread]: End processing [django-sql-explorer-squad]: success
+[2024-05-07 10:28:44] INFO root fetch - processPackages [naas]: Remove: archive file [/home/abi/fetcher/tmp/naas-2.9.1.tar.gz]
+[2024-05-07 10:28:44] INFO root fetch - processPackages [naas]: Remove: archive file [/home/abi/fetcher/tmp/naas-2.9.3.tar.gz]
+[2024-05-07 10:28:44] INFO root fetch - main [MainThread]: End processing [naas]: success
+[2024-05-07 10:28:44] INFO root fetch - processPackages [genv]: Remove: archive file [/home/abi/fetcher/tmp/genv-1.4.1.tar.gz]
+[2024-05-07 10:28:44] INFO root fetch - processPackages [genv]: Remove: archive file [/home/abi/fetcher/tmp/genv-1.4.2.tar.gz]
+[2024-05-07 10:28:44] INFO root fetch - main [MainThread]: End processing [genv]: success
+[2024-05-07 10:28:45] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/33/5e/df508475e1d147ef4c8bc6849d8274906574714b6f551b1e6674c7b94c3a/polars_lts_cpu-0.20.9.tar.gz
+[2024-05-07 10:28:46] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-05-07 10:28:46] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240507/c/capellambse/0.5.9-0.5.9.dev5/README.md --exclude *.pyd
+[2024-05-07 10:28:46] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.8.tar.gz]
+[2024-05-07 10:28:46] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.9.tar.gz]
+[2024-05-07 10:28:46] INFO root fetch - main [MainThread]: End processing [polars]: success
+[2024-05-07 10:28:46] INFO root fetch - processPackages [polars-lts-cpu]: executing diffoscope
+[2024-05-07 10:28:46] INFO root fetch - processPackages [polars-lts-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_lts_cpu-0.20.8.tar.gz tmp/polars_lts_cpu-0.20.9.tar.gz --markdown 20240507/p/polars-lts-cpu/0.20.8-0.20.9/README.md --exclude *.pyd
+[2024-05-07 10:28:51] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-05-07 10:28:51] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-05-07 10:28:51] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-05-07 10:29:00] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.20.8.tar.gz]
+[2024-05-07 10:29:00] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.20.9.tar.gz]
+[2024-05-07 10:29:00] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
+[2024-05-07 10:29:00] INFO root fetch - main [MainThread]: Store serial: [23092207]
