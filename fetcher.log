@@ -20191,3 +20191,49 @@ AssertionError: tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip does not exi
 
 [2024-05-07 12:47:03] INFO root fetch - main [MainThread]: End processing [openctp-ctp] error
 [2024-05-07 12:47:03] INFO root fetch - main [MainThread]: Store serial: [23093894]
+[2024-05-07 12:49:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093894]
+[2024-05-07 12:49:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 12:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phenomApis
+[2024-05-07 12:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openctp-ctp
+[2024-05-07 12:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterlab-new-launcher
+[2024-05-07 12:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: retry-reloaded
+[2024-05-07 12:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openctp-ctp
+[2024-05-07 12:49:12] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 12:49:12] INFO root fetch - processPackages [openctp-ctp]: New version: [6.7.2.6] Old Version: [6.7.2.5]
+[2024-05-07 12:49:12] INFO root fetch - processPackages [openctp-ctp]: New version: [6.7.2.6] Old Version: [6.7.2.5]
+[2024-05-07 12:49:12] INFO root fetch - processPackages [retry-reloaded]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-07 12:49:12] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-07 12:49:12] INFO root fetch - processPackages [jupyterlab-new-launcher]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-07 12:49:12] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/b8/5b/55216866b439f1def4957d8af137cb241904d679c85834403f05136a73c9/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl
+[2024-05-07 12:49:12] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/b8/5b/55216866b439f1def4957d8af137cb241904d679c85834403f05136a73c9/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl
+[2024-05-07 12:49:13] INFO root fetch - processPackages [retry-reloaded]: Downloading https://files.pythonhosted.org/packages/9d/d1/4561125006d02fd043f32cfb8a2dd47528c00f797a1bd599071d1948fccd/retry-reloaded-0.0.3.tar.gz
+[2024-05-07 12:49:13] INFO root fetch - processPackages [jupyterlab-new-launcher]: Downloading https://files.pythonhosted.org/packages/4b/6c/391f27bdb9b0b0e70564019fb9fdea62e2027722c423658b9e77d7b418dd/jupyterlab_new_launcher-0.1.0.tar.gz
+[2024-05-07 12:49:13] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-07 12:49:13] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-07 12:49:13] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240507/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 12:49:13] INFO root fetch - processPackages [retry-reloaded]: Downloading https://files.pythonhosted.org/packages/ae/c0/c2a8f26e458e78e200dd41579f6974c5dc9e2698f8ee006852041dbd920f/retry_reloaded-0.0.4.tar.gz
+[2024-05-07 12:49:13] INFO root fetch - processPackages [jupyterlab-new-launcher]: Downloading https://files.pythonhosted.org/packages/34/1f/3a0d01901c1365131fa45c80430a82cb866b20d67d343f0348ae8a0de2ab/jupyterlab_new_launcher-0.2.0.tar.gz
+[2024-05-07 12:49:13] INFO root fetch - processPackages [retry-reloaded]: executing diffoscope
+[2024-05-07 12:49:13] INFO root fetch - processPackages [retry-reloaded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retry-reloaded-0.0.3.tar.gz tmp/retry_reloaded-0.0.4.tar.gz --markdown 20240507/r/retry-reloaded/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-07 12:49:13] INFO root fetch - processPackages [jupyterlab-new-launcher]: executing diffoscope
+[2024-05-07 12:49:13] INFO root fetch - processPackages [jupyterlab-new-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_new_launcher-0.1.0.tar.gz tmp/jupyterlab_new_launcher-0.2.0.tar.gz --markdown 20240507/j/jupyterlab-new-launcher/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-07 12:49:13] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/93/45/84b41db3f40a8e7082430b5ee8dd982ab2096e203119b795789465f2dd54/openctp_ctp-6.7.2.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-07 12:49:13] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/93/45/84b41db3f40a8e7082430b5ee8dd982ab2096e203119b795789465f2dd54/openctp_ctp-6.7.2.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-07 12:49:14] INFO root fetch - processPackages [retry-reloaded]: Remove: archive file [/home/abi/fetcher/tmp/retry-reloaded-0.0.3.tar.gz]
+[2024-05-07 12:49:14] INFO root fetch - processPackages [retry-reloaded]: Remove: archive file [/home/abi/fetcher/tmp/retry_reloaded-0.0.4.tar.gz]
+[2024-05-07 12:49:14] INFO root fetch - main [MainThread]: End processing [retry-reloaded]: success
+[2024-05-07 12:49:14] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-07 12:49:14] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-07 12:49:14] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-07 12:49:15] INFO root fetch - processPackages [jupyterlab-new-launcher]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_new_launcher-0.1.0.tar.gz]
+[2024-05-07 12:49:15] INFO root fetch - processPackages [jupyterlab-new-launcher]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_new_launcher-0.2.0.tar.gz]
+[2024-05-07 12:49:15] INFO root fetch - main [MainThread]: End processing [jupyterlab-new-launcher]: success
+[2024-05-07 12:49:16] INFO root fetch - processPackages [openctp-ctp]: executing diffoscope
+[2024-05-07 12:49:16] INFO root fetch - processPackages [openctp-ctp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp-6.7.2.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240507/o/openctp-ctp/6.7.2.5-6.7.2.6/README.md --exclude *.pyd
+[2024-05-07 12:49:16] INFO root fetch - processPackages [openctp-ctp]: executing diffoscope
+[2024-05-07 12:49:16] INFO root fetch - processPackages [openctp-ctp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp-6.7.2.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240507/o/openctp-ctp/6.7.2.5-6.7.2.6/README.md --exclude *.pyd
+[2024-05-07 12:49:18] INFO root fetch - processPackages [openctp-ctp]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl.zip]
+[2024-05-07 12:49:18] INFO root fetch - processPackages [openctp-ctp]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctp-6.7.2.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-07 12:49:18] INFO root fetch - main [MainThread]: End processing [openctp-ctp]: success
+[2024-05-07 12:49:18] INFO root fetch - main [MainThread]: End processing [openctp-ctp]: success
+[2024-05-07 12:49:18] INFO root fetch - main [MainThread]: Store serial: [23093935]
