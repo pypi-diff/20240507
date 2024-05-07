@@ -13581,3 +13581,93 @@ EOFError: EOF read where object expected
 [2024-05-07 08:44:01] INFO root fetch - processPackages [accelbyte-py-sdk-service-legal]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_legal-0.9.0.tar.gz]
 [2024-05-07 08:44:01] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-legal]: success
 [2024-05-07 08:44:01] INFO root fetch - main [MainThread]: Store serial: [23090830]
+[2024-05-07 08:46:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090830]
+[2024-05-07 08:46:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-07 08:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glaciologistz
+[2024-05-07 08:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: accelbyte-py-sdk-service-lobby
+[2024-05-07 08:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2024-05-07 08:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: accelbyte-py-sdk-service-match2
+[2024-05-07 08:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xlwingsform
+[2024-05-07 08:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ssb-altinn-python
+[2024-05-07 08:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-signalfx
+[2024-05-07 08:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: soa-report
+[2024-05-07 08:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: accelbyte-py-sdk-service-matchmaking
+[2024-05-07 08:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: turbo_boot
+[2024-05-07 08:46:10] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-07 08:46:10] INFO root fetch - processPackages [xlwingsform]: New version: [0.6.0] Old Version: [0.10.0]
+[2024-05-07 08:46:10] WARNING root fetch - processPackages [glaciologistz]: Skipping, unable to determine old version
+[2024-05-07 08:46:10] INFO root fetch - processPackages [glaciologistz]: Start processing: omegi-python-instrumentation
+[2024-05-07 08:46:10] INFO root fetch - main [MainThread]: End processing [glaciologistz] error
+[2024-05-07 08:46:10] INFO root fetch - processPackages [ssb-altinn-python]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-07 08:46:10] INFO root fetch - processPackages [xlwingsform]: Downloading https://files.pythonhosted.org/packages/1b/21/64a03f47008022bc3a1dc01126d0ff6556ae8a63b94b1115258e5f3279b7/xlwingsform-0.10.0.tar.gz
+[2024-05-07 08:46:10] INFO root fetch - processPackages [accelbyte-py-sdk-service-matchmaking]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:46:10] INFO root fetch - processPackages [soa-report]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-07 08:46:10] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1715062812] Old Version: [7.2.0a1714565625]
+[2024-05-07 08:46:10] INFO root fetch - processPackages [accelbyte-py-sdk-service-match2]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:46:10] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-07 08:46:10] INFO root fetch - processPackages [accelbyte-py-sdk-service-lobby]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:46:10] INFO root fetch - processPackages [turbo_boot]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-07 08:46:10] WARNING root fetch - processPackages [omegi-python-instrumentation]: Skipping, unable to determine old version
+[2024-05-07 08:46:10] INFO root fetch - main [MainThread]: End processing [omegi-python-instrumentation] error
+[2024-05-07 08:46:10] INFO root fetch - processPackages [soa-report]: Downloading https://files.pythonhosted.org/packages/65/20/25e558d74cc2ae562abcdde0a6ac44f5a98b8410904b89331c5fa5e5c12c/soa_report-1.2.5-py3-none-any.whl
+[2024-05-07 08:46:10] INFO root fetch - processPackages [xlwingsform]: Downloading https://files.pythonhosted.org/packages/3d/8c/399d84354cd6eeaa84d1811568020f381e0bf708f75cc901b3388928d888/xlwingsform-0.6.0.tar.gz
+[2024-05-07 08:46:10] INFO root fetch - processPackages [accelbyte-py-sdk-service-lobby]: Downloading https://files.pythonhosted.org/packages/0d/69/5f63ba592b422a0764bbd3aef8ef4746c1fe8960fbc4af1d1cd7d45f5138/accelbyte-py-sdk-service-lobby-0.8.0.tar.gz
+[2024-05-07 08:46:10] INFO root fetch - processPackages [ssb-altinn-python]: Downloading https://files.pythonhosted.org/packages/98/b1/53c160c4e9f8101230bf4313d67a9b0cbaf7244a8785da5a7a35edbb29b1/ssb_altinn_python-0.4.8.tar.gz
+[2024-05-07 08:46:10] INFO root fetch - processPackages [accelbyte-py-sdk-service-matchmaking]: Downloading https://files.pythonhosted.org/packages/0a/31/63199dd77f26b024fe50b747bf4749a6173de17060d59ca4746a5709529a/accelbyte-py-sdk-service-matchmaking-0.8.0.tar.gz
+[2024-05-07 08:46:10] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/a3/d1/94c61a6e5d139278cef80149e621c5dd836c120d9548ff49e1fe83835678/pulumi_signalfx-7.2.0a1714565625.tar.gz
+[2024-05-07 08:46:10] INFO root fetch - processPackages [turbo_boot]: Downloading https://files.pythonhosted.org/packages/74/61/5df20d577546b2ce3673b5bdd5c5456991d9bcce7e47ab47ecee11b9c8b0/turbo_boot-0.1.7.tar.gz
+[2024-05-07 08:46:10] INFO root fetch - processPackages [accelbyte-py-sdk-service-match2]: Downloading https://files.pythonhosted.org/packages/f8/0a/fcd1f8260101f3496d65fd4f87cf2b88f783665de8f43a1a8107d683ea93/accelbyte-py-sdk-service-match2-0.8.0.tar.gz
+[2024-05-07 08:46:11] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-07 08:46:11] INFO root fetch - processPackages [xlwingsform]: executing diffoscope
+[2024-05-07 08:46:11] INFO root fetch - processPackages [xlwingsform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlwingsform-0.10.0.tar.gz tmp/xlwingsform-0.6.0.tar.gz --markdown 20240507/x/xlwingsform/0.10.0-0.6.0/README.md --exclude *.pyd
+[2024-05-07 08:46:11] INFO root fetch - processPackages [soa-report]: Downloading https://files.pythonhosted.org/packages/9e/0a/402e1baa39b0b49165c92da2723fa07f0650d12afde2f3502cc455d779b2/soa_report-1.2.6-py3-none-any.whl
+[2024-05-07 08:46:11] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-07 08:46:11] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240507/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-07 08:46:11] INFO root fetch - processPackages [accelbyte-py-sdk-service-lobby]: Downloading https://files.pythonhosted.org/packages/7e/6b/ea379ece20bd545de31392c460be57008aae7cc7d12b6d05041b112a29c0/accelbyte_py_sdk_service_lobby-0.9.0.tar.gz
+[2024-05-07 08:46:11] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/d5/a3/ce08d9bc4ba76eac3a033aac62318f6537f8029544dd26633d0b82061150/pulumi_signalfx-7.2.0a1715062812.tar.gz
+[2024-05-07 08:46:11] INFO root fetch - processPackages [accelbyte-py-sdk-service-match2]: Downloading https://files.pythonhosted.org/packages/24/48/102b8185be5e755ed915fc539d09e078d524dd51cec5acd4e0c6d7dfa2f3/accelbyte_py_sdk_service_match2-0.9.0.tar.gz
+[2024-05-07 08:46:11] INFO root fetch - processPackages [soa-report]: executing diffoscope
+[2024-05-07 08:46:11] INFO root fetch - processPackages [soa-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soa_report-1.2.5-py3-none-any.whl.zip tmp/soa_report-1.2.6-py3-none-any.whl.zip --markdown 20240507/s/soa-report/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-07 08:46:11] INFO root fetch - processPackages [turbo_boot]: Downloading https://files.pythonhosted.org/packages/b0/9d/690e173d1a71bc676b63d706a922d91f4662a84fcd1fbf0d6e1b3c762672/turbo_boot-0.1.8.tar.gz
+[2024-05-07 08:46:11] INFO root fetch - processPackages [accelbyte-py-sdk-service-lobby]: executing diffoscope
+[2024-05-07 08:46:11] INFO root fetch - processPackages [accelbyte-py-sdk-service-lobby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-lobby-0.8.0.tar.gz tmp/accelbyte_py_sdk_service_lobby-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-lobby/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:46:11] INFO root fetch - processPackages [ssb-altinn-python]: Downloading https://files.pythonhosted.org/packages/29/b7/a8add56208b4fde43a78ba8e425f3ab58c40defab08c5ff10f755e6b1eca/ssb_altinn_python-0.4.9.tar.gz
+[2024-05-07 08:46:11] INFO root fetch - processPackages [accelbyte-py-sdk-service-matchmaking]: Downloading https://files.pythonhosted.org/packages/e0/85/889379bd09f93ccd273f5d1ff01d6daf0eb840cafde45cb762073bf2fa8d/accelbyte-py-sdk-service-matchmaking-0.9.0.tar.gz
+[2024-05-07 08:46:11] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-05-07 08:46:11] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1714565625.tar.gz tmp/pulumi_signalfx-7.2.0a1715062812.tar.gz --markdown 20240507/p/pulumi-signalfx/7.2.0a1714565625-7.2.0a1715062812/README.md --exclude *.pyd
+[2024-05-07 08:46:11] INFO root fetch - processPackages [accelbyte-py-sdk-service-match2]: executing diffoscope
+[2024-05-07 08:46:11] INFO root fetch - processPackages [accelbyte-py-sdk-service-match2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-match2-0.8.0.tar.gz tmp/accelbyte_py_sdk_service_match2-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-match2/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:46:11] INFO root fetch - processPackages [ssb-altinn-python]: executing diffoscope
+[2024-05-07 08:46:11] INFO root fetch - processPackages [ssb-altinn-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn_python-0.4.8.tar.gz tmp/ssb_altinn_python-0.4.9.tar.gz --markdown 20240507/s/ssb-altinn-python/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-07 08:46:11] INFO root fetch - processPackages [accelbyte-py-sdk-service-matchmaking]: executing diffoscope
+[2024-05-07 08:46:11] INFO root fetch - processPackages [accelbyte-py-sdk-service-matchmaking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-matchmaking-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-matchmaking-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-matchmaking/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:46:11] INFO root fetch - processPackages [turbo_boot]: executing diffoscope
+[2024-05-07 08:46:11] INFO root fetch - processPackages [xlwingsform]: Remove: archive file [/home/abi/fetcher/tmp/xlwingsform-0.10.0.tar.gz]
+[2024-05-07 08:46:11] INFO root fetch - processPackages [turbo_boot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbo_boot-0.1.7.tar.gz tmp/turbo_boot-0.1.8.tar.gz --markdown 20240507/t/turbo_boot/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-07 08:46:11] INFO root fetch - processPackages [xlwingsform]: Remove: archive file [/home/abi/fetcher/tmp/xlwingsform-0.6.0.tar.gz]
+[2024-05-07 08:46:11] INFO root fetch - main [MainThread]: End processing [xlwingsform]: success
+[2024-05-07 08:46:12] INFO root fetch - processPackages [soa-report]: Remove: archive file [/home/abi/fetcher/tmp/soa_report-1.2.5-py3-none-any.whl.zip]
+[2024-05-07 08:46:12] INFO root fetch - processPackages [soa-report]: Remove: archive file [/home/abi/fetcher/tmp/soa_report-1.2.6-py3-none-any.whl.zip]
+[2024-05-07 08:46:12] INFO root fetch - main [MainThread]: End processing [soa-report]: success
+[2024-05-07 08:46:12] INFO root fetch - processPackages [ssb-altinn-python]: Remove: archive file [/home/abi/fetcher/tmp/ssb_altinn_python-0.4.8.tar.gz]
+[2024-05-07 08:46:12] INFO root fetch - processPackages [ssb-altinn-python]: Remove: archive file [/home/abi/fetcher/tmp/ssb_altinn_python-0.4.9.tar.gz]
+[2024-05-07 08:46:12] INFO root fetch - main [MainThread]: End processing [ssb-altinn-python]: success
+[2024-05-07 08:46:12] INFO root fetch - processPackages [turbo_boot]: Remove: archive file [/home/abi/fetcher/tmp/turbo_boot-0.1.7.tar.gz]
+[2024-05-07 08:46:12] INFO root fetch - processPackages [turbo_boot]: Remove: archive file [/home/abi/fetcher/tmp/turbo_boot-0.1.8.tar.gz]
+[2024-05-07 08:46:12] INFO root fetch - main [MainThread]: End processing [turbo_boot]: success
+[2024-05-07 08:46:12] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1714565625.tar.gz]
+[2024-05-07 08:46:12] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1715062812.tar.gz]
+[2024-05-07 08:46:12] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-05-07 08:46:12] INFO root fetch - processPackages [accelbyte-py-sdk-service-matchmaking]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-matchmaking-0.8.0.tar.gz]
+[2024-05-07 08:46:12] INFO root fetch - processPackages [accelbyte-py-sdk-service-matchmaking]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-matchmaking-0.9.0.tar.gz]
+[2024-05-07 08:46:12] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-matchmaking]: success
+[2024-05-07 08:46:13] INFO root fetch - processPackages [accelbyte-py-sdk-service-match2]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-match2-0.8.0.tar.gz]
+[2024-05-07 08:46:13] INFO root fetch - processPackages [accelbyte-py-sdk-service-match2]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_match2-0.9.0.tar.gz]
+[2024-05-07 08:46:13] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-match2]: success
+[2024-05-07 08:46:13] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-07 08:46:13] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-07 08:46:13] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-07 08:46:14] INFO root fetch - processPackages [accelbyte-py-sdk-service-lobby]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-lobby-0.8.0.tar.gz]
+[2024-05-07 08:46:14] INFO root fetch - processPackages [accelbyte-py-sdk-service-lobby]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_lobby-0.9.0.tar.gz]
+[2024-05-07 08:46:14] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-lobby]: success
+[2024-05-07 08:46:14] INFO root fetch - main [MainThread]: Store serial: [23090867]
