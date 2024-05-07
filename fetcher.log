@@ -15411,3 +15411,30 @@ EOFError: EOF read where object expected
 [2024-05-07 09:44:27] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-5.0.7.tar.gz]
 [2024-05-07 09:44:27] INFO root fetch - main [MainThread]: End processing [slpkg]: success
 [2024-05-07 09:44:27] INFO root fetch - main [MainThread]: Store serial: [23091729]
+[2024-05-07 09:46:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091729]
+[2024-05-07 09:46:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 09:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syize
+[2024-05-07 09:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tracebloc-package-dev
+[2024-05-07 09:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyzk-new
+[2024-05-07 09:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: affectablez
+[2024-05-07 09:46:36] INFO root fetch - processPackages [syize]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-07 09:46:36] WARNING root fetch - processPackages [affectablez]: Skipping, unable to determine old version
+[2024-05-07 09:46:36] INFO root fetch - main [MainThread]: End processing [affectablez] error
+[2024-05-07 09:46:36] WARNING root fetch - processPackages [pyzk-new]: Skipping, unable to determine old version
+[2024-05-07 09:46:36] INFO root fetch - main [MainThread]: End processing [pyzk-new] error
+[2024-05-07 09:46:36] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-07 09:46:36] INFO root fetch - processPackages [syize]: Downloading https://files.pythonhosted.org/packages/11/c0/b6a5dc3435b170d5caa16dfc3df0bba7c93595719fccbbedf3bcaaf06856/syize-1.2.5.tar.gz
+[2024-05-07 09:46:36] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/f5/c8/13a696d72bb172c25134ff8497e2a33abae28952aaf6027b69f19e6020ba/tracebloc_package-dev-0.5.8.tar.gz
+[2024-05-07 09:46:36] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/29/74/ba081cbca75b4aef7de5e023ed946f224d93c52d8874131c97fc1c3a2682/tracebloc_package-dev-0.5.9.tar.gz
+[2024-05-07 09:46:36] INFO root fetch - processPackages [syize]: Downloading https://files.pythonhosted.org/packages/d8/d7/f0525ecff888790871e0a11012e15ac7a271e7a160554725145f046e0407/syize-1.2.6.tar.gz
+[2024-05-07 09:46:36] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2024-05-07 09:46:36] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.8.tar.gz tmp/tracebloc_package-dev-0.5.9.tar.gz --markdown 20240507/t/tracebloc-package-dev/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-07 09:46:36] INFO root fetch - processPackages [syize]: executing diffoscope
+[2024-05-07 09:46:36] INFO root fetch - processPackages [syize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syize-1.2.5.tar.gz tmp/syize-1.2.6.tar.gz --markdown 20240507/s/syize/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-07 09:46:37] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.8.tar.gz]
+[2024-05-07 09:46:37] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.9.tar.gz]
+[2024-05-07 09:46:37] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2024-05-07 09:46:37] INFO root fetch - processPackages [syize]: Remove: archive file [/home/abi/fetcher/tmp/syize-1.2.5.tar.gz]
+[2024-05-07 09:46:37] INFO root fetch - processPackages [syize]: Remove: archive file [/home/abi/fetcher/tmp/syize-1.2.6.tar.gz]
+[2024-05-07 09:46:37] INFO root fetch - main [MainThread]: End processing [syize]: success
+[2024-05-07 09:46:37] INFO root fetch - main [MainThread]: Store serial: [23091745]
