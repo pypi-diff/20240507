@@ -15504,3 +15504,18 @@ EOFError: EOF read where object expected
 [2024-05-07 09:50:59] INFO root fetch - processPackages [newrelic-lambda-cli]: Remove: archive file [/home/abi/fetcher/tmp/newrelic_lambda_cli-0.9.1.tar.gz]
 [2024-05-07 09:50:59] INFO root fetch - main [MainThread]: End processing [newrelic-lambda-cli]: success
 [2024-05-07 09:50:59] INFO root fetch - main [MainThread]: Store serial: [23091772]
+[2024-05-07 09:53:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091772]
+[2024-05-07 09:53:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 09:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matter-persistence
+[2024-05-07 09:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rushcards
+[2024-05-07 09:53:07] INFO root fetch - processPackages [matter-persistence]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-05-07 09:53:07] WARNING root fetch - processPackages [rushcards]: Skipping, unable to determine old version
+[2024-05-07 09:53:07] INFO root fetch - main [MainThread]: End processing [rushcards] error
+[2024-05-07 09:53:08] INFO root fetch - processPackages [matter-persistence]: Downloading https://files.pythonhosted.org/packages/48/66/232c42eec09b642f083261f1ae97685b8f6680be1b7a8cb4374bcb7506ca/matter_persistence-0.9.0-py3-none-any.whl
+[2024-05-07 09:53:08] INFO root fetch - processPackages [matter-persistence]: Downloading https://files.pythonhosted.org/packages/66/d6/5ed5bf25ded9e61146b18e3d9b43674537ff54b90119113ef3be2fe45007/matter_persistence-1.0.0-py3-none-any.whl
+[2024-05-07 09:53:08] INFO root fetch - processPackages [matter-persistence]: executing diffoscope
+[2024-05-07 09:53:08] INFO root fetch - processPackages [matter-persistence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matter_persistence-0.9.0-py3-none-any.whl.zip tmp/matter_persistence-1.0.0-py3-none-any.whl.zip --markdown 20240507/m/matter-persistence/0.9.0-1.0.0/README.md --exclude *.pyd
+[2024-05-07 09:53:09] INFO root fetch - processPackages [matter-persistence]: Remove: archive file [/home/abi/fetcher/tmp/matter_persistence-0.9.0-py3-none-any.whl.zip]
+[2024-05-07 09:53:09] INFO root fetch - processPackages [matter-persistence]: Remove: archive file [/home/abi/fetcher/tmp/matter_persistence-1.0.0-py3-none-any.whl.zip]
+[2024-05-07 09:53:09] INFO root fetch - main [MainThread]: End processing [matter-persistence]: success
+[2024-05-07 09:53:09] INFO root fetch - main [MainThread]: Store serial: [23091781]
