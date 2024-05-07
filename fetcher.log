@@ -13205,3 +13205,63 @@ EOFError: EOF read where object expected
 [2024-05-07 08:32:57] INFO root fetch - processPackages [accelbyte-py-sdk-service-achievement]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-achievement-0.9.0.tar.gz]
 [2024-05-07 08:32:57] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-achievement]: success
 [2024-05-07 08:32:57] INFO root fetch - main [MainThread]: Store serial: [23090702]
+[2024-05-07 08:35:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090702]
+[2024-05-07 08:35:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 08:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accelbyte-py-sdk-service-ams
+[2024-05-07 08:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-opsgenie
+[2024-05-07 08:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-sale-workflow
+[2024-05-07 08:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: accelbyte-py-sdk-service-basic
+[2024-05-07 08:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pisahkan-ktp
+[2024-05-07 08:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: accelbyte-py-sdk-service-challenge
+[2024-05-07 08:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: img-cache
+[2024-05-07 08:35:06] INFO root fetch - processPackages [img-cache]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 08:35:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-challenge]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-07 08:35:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-basic]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:35:06] WARNING root fetch - processPackages [pisahkan-ktp]: Skipping, unable to determine old version
+[2024-05-07 08:35:06] INFO root fetch - main [MainThread]: End processing [pisahkan-ktp] error
+[2024-05-07 08:35:06] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20240502.1] Old Version: [16.0.20240213.0]
+[2024-05-07 08:35:06] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.4.0a1715061972] Old Version: [1.4.0a1714565071]
+[2024-05-07 08:35:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-ams]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-07 08:35:06] INFO root fetch - processPackages [img-cache]: Downloading https://files.pythonhosted.org/packages/bc/ce/4ffc620fba6809cf9402f79514e5d0e15d4e8fad992dc82e666587964c88/img_cache-0.1.0.tar.gz
+[2024-05-07 08:35:06] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/69/7b/41ab8c5ba46dc76cd026881f7cadca037c81264475892be96e937e788fd4/pulumi_opsgenie-1.4.0a1714565071.tar.gz
+[2024-05-07 08:35:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-challenge]: Downloading https://files.pythonhosted.org/packages/31/a8/627f2e93c45265d8abe40cdc6543b91f3d1da07c5be114ceeabf80606f69/accelbyte-py-sdk-service-challenge-0.2.0.tar.gz
+[2024-05-07 08:35:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-ams]: Downloading https://files.pythonhosted.org/packages/2a/7b/28fc3a6ae0a93566eb3ce578fdcce7750f4466b077a44925ab7878061645/accelbyte-py-sdk-service-ams-0.7.0.tar.gz
+[2024-05-07 08:35:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-basic]: Downloading https://files.pythonhosted.org/packages/1b/84/fe905efbcc51c3235529e03152a5ab9ca0e7ddf625aae5be59ea920c83a8/accelbyte-py-sdk-service-basic-0.8.0.tar.gz
+[2024-05-07 08:35:06] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/e6/9d/df5e0ce3613ec4510ce7cc5e8bcca93c415b973b0fdca158d2ea701d2a3c/odoo_addons_oca_sale_workflow-16.0.20240213.0-py3-none-any.whl
+[2024-05-07 08:35:06] INFO root fetch - processPackages [img-cache]: Downloading https://files.pythonhosted.org/packages/1c/a8/c4aa596d0ebc1f1ffe96c42636d2469401bda0a391ebac376b158d1c4809/img_cache-0.1.1.tar.gz
+[2024-05-07 08:35:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-challenge]: Downloading https://files.pythonhosted.org/packages/e4/0a/79c84ee1362e9fab20b047c1583d2250b96869150d37b7cab5e319ee7642/accelbyte_py_sdk_service_challenge-0.3.0.tar.gz
+[2024-05-07 08:35:06] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/1e/97/80cdc028846c0021b5a98437f1a2e477ebcc522fd4a09c404948d3d2cd70/pulumi_opsgenie-1.4.0a1715061972.tar.gz
+[2024-05-07 08:35:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-ams]: Downloading https://files.pythonhosted.org/packages/3e/2e/bf7906e13a55be1a7ba79ebc34604f7363fc0afa86f8a4d666fbc67a45e6/accelbyte_py_sdk_service_ams-0.8.0.tar.gz
+[2024-05-07 08:35:06] INFO root fetch - processPackages [img-cache]: executing diffoscope
+[2024-05-07 08:35:06] INFO root fetch - processPackages [img-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img_cache-0.1.0.tar.gz tmp/img_cache-0.1.1.tar.gz --markdown 20240507/i/img-cache/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 08:35:06] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/31/3d/163b2ea43dada577af8fb1d3062ef3bcdb67a172374847a71db194270694/odoo_addons_oca_sale_workflow-16.0.20240502.1-py3-none-any.whl
+[2024-05-07 08:35:06] INFO root fetch - processPackages [accelbyte-py-sdk-service-basic]: Downloading https://files.pythonhosted.org/packages/d1/fd/a3d89be6fd4a595d0084ee7a5f89445318dc77fd725308f08327b0c159b7/accelbyte-py-sdk-service-basic-0.9.0.tar.gz
+[2024-05-07 08:35:06] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2024-05-07 08:35:06] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.4.0a1714565071.tar.gz tmp/pulumi_opsgenie-1.4.0a1715061972.tar.gz --markdown 20240507/p/pulumi-opsgenie/1.4.0a1714565071-1.4.0a1715061972/README.md --exclude *.pyd
+[2024-05-07 08:35:07] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2024-05-07 08:35:07] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20240213.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20240502.1-py3-none-any.whl.zip --markdown 20240507/o/odoo-addons-oca-sale-workflow/16.0.20240213.0-16.0.20240502.1/README.md --exclude *.pyd
+[2024-05-07 08:35:07] INFO root fetch - processPackages [accelbyte-py-sdk-service-challenge]: executing diffoscope
+[2024-05-07 08:35:07] INFO root fetch - processPackages [accelbyte-py-sdk-service-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-challenge-0.2.0.tar.gz tmp/accelbyte_py_sdk_service_challenge-0.3.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-challenge/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-07 08:35:07] INFO root fetch - processPackages [accelbyte-py-sdk-service-ams]: executing diffoscope
+[2024-05-07 08:35:07] INFO root fetch - processPackages [accelbyte-py-sdk-service-ams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-ams-0.7.0.tar.gz tmp/accelbyte_py_sdk_service_ams-0.8.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-ams/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-07 08:35:07] INFO root fetch - processPackages [accelbyte-py-sdk-service-basic]: executing diffoscope
+[2024-05-07 08:35:07] INFO root fetch - processPackages [accelbyte-py-sdk-service-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-basic-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-basic-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-basic/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:35:07] INFO root fetch - processPackages [img-cache]: Remove: archive file [/home/abi/fetcher/tmp/img_cache-0.1.0.tar.gz]
+[2024-05-07 08:35:07] INFO root fetch - processPackages [img-cache]: Remove: archive file [/home/abi/fetcher/tmp/img_cache-0.1.1.tar.gz]
+[2024-05-07 08:35:07] INFO root fetch - main [MainThread]: End processing [img-cache]: success
+[2024-05-07 08:35:07] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20240213.0-py3-none-any.whl.zip]
+[2024-05-07 08:35:07] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20240502.1-py3-none-any.whl.zip]
+[2024-05-07 08:35:07] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2024-05-07 08:35:07] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1714565071.tar.gz]
+[2024-05-07 08:35:07] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1715061972.tar.gz]
+[2024-05-07 08:35:07] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2024-05-07 08:35:08] INFO root fetch - processPackages [accelbyte-py-sdk-service-challenge]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-challenge-0.2.0.tar.gz]
+[2024-05-07 08:35:08] INFO root fetch - processPackages [accelbyte-py-sdk-service-challenge]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_challenge-0.3.0.tar.gz]
+[2024-05-07 08:35:08] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-challenge]: success
+[2024-05-07 08:35:08] INFO root fetch - processPackages [accelbyte-py-sdk-service-basic]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-basic-0.8.0.tar.gz]
+[2024-05-07 08:35:08] INFO root fetch - processPackages [accelbyte-py-sdk-service-basic]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-basic-0.9.0.tar.gz]
+[2024-05-07 08:35:08] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-basic]: success
+[2024-05-07 08:35:08] INFO root fetch - processPackages [accelbyte-py-sdk-service-ams]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-ams-0.7.0.tar.gz]
+[2024-05-07 08:35:08] INFO root fetch - processPackages [accelbyte-py-sdk-service-ams]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_ams-0.8.0.tar.gz]
+[2024-05-07 08:35:08] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-ams]: success
+[2024-05-07 08:35:08] INFO root fetch - main [MainThread]: Store serial: [23090725]
