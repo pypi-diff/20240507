@@ -7737,3 +7737,24 @@ EOFError: EOF read where object expected
 [2024-05-07 03:23:12] INFO root fetch - processPackages [flask-openapi3-swagger]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_swagger-5.17.2.tar.gz]
 [2024-05-07 03:23:12] INFO root fetch - main [MainThread]: End processing [flask-openapi3-swagger]: success
 [2024-05-07 03:23:12] INFO root fetch - main [MainThread]: Store serial: [23087722]
+[2024-05-07 03:25:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23087722]
+[2024-05-07 03:25:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 03:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-us
+[2024-05-07 03:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-telegram-broadcast
+[2024-05-07 03:25:22] INFO root fetch - processPackages [python-telegram-broadcast]: New version: [0.4] Old Version: [0.2]
+[2024-05-07 03:25:22] INFO root fetch - processPackages [policyengine-us]: New version: [0.762.0] Old Version: [0.761.0]
+[2024-05-07 03:25:22] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/59/14/42c84a718c755c1e6f995100c970a8c2f77ba762e03ca1ecf8dd3702b1a8/policyengine-us-0.761.0.tar.gz
+[2024-05-07 03:25:22] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/de/2a/29f576bdf3905763bdd7df2a5c3c944f32e31a4a19f16d069f1bfeb5ba45/python-telegram-broadcast-0.2.tar.gz
+[2024-05-07 03:25:22] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/0c/3b/86c5a5e15517e8ac91bf186070dd1881da2c65a69b786ff48246c849028c/python-telegram-broadcast-0.4.tar.gz
+[2024-05-07 03:25:22] INFO root fetch - processPackages [python-telegram-broadcast]: executing diffoscope
+[2024-05-07 03:25:22] INFO root fetch - processPackages [python-telegram-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-telegram-broadcast-0.2.tar.gz tmp/python-telegram-broadcast-0.4.tar.gz --markdown 20240507/p/python-telegram-broadcast/0.2-0.4/README.md --exclude *.pyd
+[2024-05-07 03:25:23] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/0c/4c/8d5d7813d026be4408ccaaf5d159adc7765728c9d97bdbbb94f06f835aa3/policyengine-us-0.762.0.tar.gz
+[2024-05-07 03:25:23] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-05-07 03:25:23] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.761.0.tar.gz tmp/policyengine-us-0.762.0.tar.gz --markdown 20240507/p/policyengine-us/0.761.0-0.762.0/README.md --exclude *.pyd
+[2024-05-07 03:25:23] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-broadcast-0.2.tar.gz]
+[2024-05-07 03:25:23] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-broadcast-0.4.tar.gz]
+[2024-05-07 03:25:23] INFO root fetch - main [MainThread]: End processing [python-telegram-broadcast]: success
+[2024-05-07 03:25:55] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.761.0.tar.gz]
+[2024-05-07 03:25:55] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.762.0.tar.gz]
+[2024-05-07 03:25:55] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-05-07 03:25:55] INFO root fetch - main [MainThread]: Store serial: [23087793]
