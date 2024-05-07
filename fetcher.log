@@ -20327,3 +20327,36 @@ AssertionError: tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip does not exi
 [2024-05-07 12:53:46] INFO root fetch - processPackages [sbcli-release]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_release-1.1.2.zip]
 [2024-05-07 12:53:46] INFO root fetch - main [MainThread]: End processing [sbcli-release]: success
 [2024-05-07 12:53:46] INFO root fetch - main [MainThread]: Store serial: [23094032]
+[2024-05-07 12:55:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094032]
+[2024-05-07 12:55:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 12:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stag
+[2024-05-07 12:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ETH-GTD-cli
+[2024-05-07 12:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ibmcloudant
+[2024-05-07 12:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: firebird-driver
+[2024-05-07 12:55:55] WARNING root fetch - processPackages [ETH-GTD-cli]: Skipping, unable to determine old version
+[2024-05-07 12:55:55] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli] error
+[2024-05-07 12:55:55] INFO root fetch - processPackages [stag]: New version: [2.0.0] Old Version: [1.2.1]
+[2024-05-07 12:55:55] INFO root fetch - processPackages [ibmcloudant]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-07 12:55:55] INFO root fetch - processPackages [firebird-driver]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-07 12:55:56] INFO root fetch - processPackages [stag]: Downloading https://files.pythonhosted.org/packages/55/f8/5356fa86f2cd05d896ee2ce7ba691d6ad6fe865c3fc6955482af4aa7e497/stag-1.2.1.tar.gz
+[2024-05-07 12:55:56] INFO root fetch - processPackages [firebird-driver]: Downloading https://files.pythonhosted.org/packages/66/b7/1db4dabe2efe7ba7470a7cea2d472e6d0412b19853a8fecbb9c050052645/firebird-driver-1.8.0.tar.gz
+[2024-05-07 12:55:56] INFO root fetch - processPackages [ibmcloudant]: Downloading https://files.pythonhosted.org/packages/15/42/e3209fc435ac11a888ef131278625bc3bac3ca671be938940199ef9f8871/ibmcloudant-0.8.0.tar.gz
+[2024-05-07 12:55:56] INFO root fetch - processPackages [ibmcloudant]: Downloading https://files.pythonhosted.org/packages/c8/bb/1601094f1ab4c8418cc0f5060c31b6ce3b09efd4f85bab56aeb3d56c960d/ibmcloudant-0.8.1.tar.gz
+[2024-05-07 12:55:56] INFO root fetch - processPackages [firebird-driver]: Downloading https://files.pythonhosted.org/packages/fd/a6/11b48665bb11e311334373d339993f1e34fa50199e1409940b59f5e5e28d/firebird-driver-1.9.0.tar.gz
+[2024-05-07 12:55:56] INFO root fetch - processPackages [stag]: Downloading https://files.pythonhosted.org/packages/2c/06/e3fca641ac0a9e73832f126f2c79ea71cf8dc8e01939099bf79c832675cc/stag-2.0.0.tar.gz
+[2024-05-07 12:55:56] INFO root fetch - processPackages [firebird-driver]: executing diffoscope
+[2024-05-07 12:55:56] INFO root fetch - processPackages [firebird-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firebird-driver-1.8.0.tar.gz tmp/firebird-driver-1.9.0.tar.gz --markdown 20240507/f/firebird-driver/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-07 12:55:56] INFO root fetch - processPackages [ibmcloudant]: executing diffoscope
+[2024-05-07 12:55:56] INFO root fetch - processPackages [ibmcloudant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibmcloudant-0.8.0.tar.gz tmp/ibmcloudant-0.8.1.tar.gz --markdown 20240507/i/ibmcloudant/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-07 12:55:56] INFO root fetch - processPackages [stag]: executing diffoscope
+[2024-05-07 12:55:56] INFO root fetch - processPackages [stag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stag-1.2.1.tar.gz tmp/stag-2.0.0.tar.gz --markdown 20240507/s/stag/1.2.1-2.0.0/README.md --exclude *.pyd
+[2024-05-07 12:55:57] INFO root fetch - processPackages [firebird-driver]: Remove: archive file [/home/abi/fetcher/tmp/firebird-driver-1.8.0.tar.gz]
+[2024-05-07 12:55:57] INFO root fetch - processPackages [firebird-driver]: Remove: archive file [/home/abi/fetcher/tmp/firebird-driver-1.9.0.tar.gz]
+[2024-05-07 12:55:57] INFO root fetch - main [MainThread]: End processing [firebird-driver]: success
+[2024-05-07 12:55:58] INFO root fetch - processPackages [ibmcloudant]: Remove: archive file [/home/abi/fetcher/tmp/ibmcloudant-0.8.0.tar.gz]
+[2024-05-07 12:55:58] INFO root fetch - processPackages [ibmcloudant]: Remove: archive file [/home/abi/fetcher/tmp/ibmcloudant-0.8.1.tar.gz]
+[2024-05-07 12:55:58] INFO root fetch - main [MainThread]: End processing [ibmcloudant]: success
+[2024-05-07 12:55:58] INFO root fetch - processPackages [stag]: Remove: archive file [/home/abi/fetcher/tmp/stag-1.2.1.tar.gz]
+[2024-05-07 12:55:58] INFO root fetch - processPackages [stag]: Remove: archive file [/home/abi/fetcher/tmp/stag-2.0.0.tar.gz]
+[2024-05-07 12:55:58] INFO root fetch - main [MainThread]: End processing [stag]: success
+[2024-05-07 12:55:58] INFO root fetch - main [MainThread]: Store serial: [23094082]
