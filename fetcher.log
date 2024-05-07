@@ -15764,3 +15764,57 @@ EOFError: EOF read where object expected
 [2024-05-07 10:02:03] INFO root fetch - processPackages [naneos-devices]: Remove: archive file [/home/abi/fetcher/tmp/naneos_devices-1.0.9.tar.gz]
 [2024-05-07 10:02:03] INFO root fetch - main [MainThread]: End processing [naneos-devices]: success
 [2024-05-07 10:02:03] INFO root fetch - main [MainThread]: Store serial: [23091888]
+[2024-05-07 10:04:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091888]
+[2024-05-07 10:04:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ya-business-api
+[2024-05-07 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oc-python-sdk
+[2024-05-07 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dslog
+[2024-05-07 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-google-spanner
+[2024-05-07 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langfun
+[2024-05-07 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IISRapi
+[2024-05-07 10:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GnDocTrans
+[2024-05-07 10:04:12] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240506] Old Version: [0.0.2.dev20240505]
+[2024-05-07 10:04:12] INFO root fetch - processPackages [django-google-spanner]: New version: [4.0.1] Old Version: [3.1.0]
+[2024-05-07 10:04:12] INFO root fetch - processPackages [IISRapi]: New version: [1.3] Old Version: [1.2.1]
+[2024-05-07 10:04:12] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/a4/d2/4fbdc38356bca69bdd4af711e6bc9ef29f242c1a5f7a6e6a006747bdb4be/langfun-0.0.2.dev20240505.tar.gz
+[2024-05-07 10:04:12] INFO root fetch - processPackages [oc-python-sdk]: New version: [3.0.0] Old Version: [2.1.2]
+[2024-05-07 10:04:12] WARNING root fetch - processPackages [ya-business-api]: Skipping, unable to determine old version
+[2024-05-07 10:04:12] INFO root fetch - processPackages [dslog]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-07 10:04:12] INFO root fetch - main [MainThread]: End processing [ya-business-api] error
+[2024-05-07 10:04:12] WARNING root fetch - processPackages [GnDocTrans]: Skipping, unable to determine old version
+[2024-05-07 10:04:12] INFO root fetch - main [MainThread]: End processing [GnDocTrans] error
+[2024-05-07 10:04:12] INFO root fetch - processPackages [django-google-spanner]: Downloading https://files.pythonhosted.org/packages/37/06/ec5bc3dc3c437cc72d1de4d4335600c3b06c5fdd702f8db9a67f278a3191/django-google-spanner-3.1.0.tar.gz
+[2024-05-07 10:04:12] INFO root fetch - processPackages [oc-python-sdk]: Downloading https://files.pythonhosted.org/packages/83/83/d3de1db93ee6e0b5c7160f368972fc37a5d7becb8fd5f85d1f15bac5b72c/oc_python_sdk-2.1.2.tar.gz
+[2024-05-07 10:04:12] INFO root fetch - processPackages [IISRapi]: Downloading https://files.pythonhosted.org/packages/fe/f6/7bfceef0d330dd73805f69f456ae54be0cf3bb6a167c7a3856cb825a5cf7/IISRapi-1.2.1.tar.gz
+[2024-05-07 10:04:12] INFO root fetch - processPackages [dslog]: Downloading https://files.pythonhosted.org/packages/b1/f3/b989d289100963951d2a0ef2343e2ea1c463ca9a33dcf46fd6360b3ec5e7/dslog-0.1.5.tar.gz
+[2024-05-07 10:04:12] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/ab/88/f950461cac72b3075183300c2df5095d7d0d075deeffbd72052fc1a3b3bc/langfun-0.0.2.dev20240506.tar.gz
+[2024-05-07 10:04:12] INFO root fetch - processPackages [django-google-spanner]: Downloading https://files.pythonhosted.org/packages/31/5d/e77af0bdc79c2410e96a699b922f8882523515e99036ff21ba38363fa6d0/django-google-spanner-4.0.1.tar.gz
+[2024-05-07 10:04:12] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-07 10:04:12] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240505.tar.gz tmp/langfun-0.0.2.dev20240506.tar.gz --markdown 20240507/l/langfun/0.0.2.dev20240505-0.0.2.dev20240506/README.md --exclude *.pyd
+[2024-05-07 10:04:12] INFO root fetch - processPackages [oc-python-sdk]: Downloading https://files.pythonhosted.org/packages/9d/bd/4328845531f8b3c7fc28a58f61b1ab2a0468e5bb8c38e05cd3d96799cfb7/oc_python_sdk-3.0.0.tar.gz
+[2024-05-07 10:04:12] INFO root fetch - processPackages [dslog]: Downloading https://files.pythonhosted.org/packages/3d/54/06e81cf77435f2a788dd0e313cd8824295b084e6f63929379d4d49198e2d/dslog-0.1.6.tar.gz
+[2024-05-07 10:04:12] INFO root fetch - processPackages [IISRapi]: Downloading https://files.pythonhosted.org/packages/13/fe/eda28e8368a19d0c2b7889165b6b93cc7649dac6c29819d1561d1c026097/IISRapi-1.3.tar.gz
+[2024-05-07 10:04:12] INFO root fetch - processPackages [django-google-spanner]: executing diffoscope
+[2024-05-07 10:04:12] INFO root fetch - processPackages [django-google-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-google-spanner-3.1.0.tar.gz tmp/django-google-spanner-4.0.1.tar.gz --markdown 20240507/d/django-google-spanner/3.1.0-4.0.1/README.md --exclude *.pyd
+[2024-05-07 10:04:13] INFO root fetch - processPackages [dslog]: executing diffoscope
+[2024-05-07 10:04:13] INFO root fetch - processPackages [dslog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dslog-0.1.5.tar.gz tmp/dslog-0.1.6.tar.gz --markdown 20240507/d/dslog/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-07 10:04:13] INFO root fetch - processPackages [oc-python-sdk]: executing diffoscope
+[2024-05-07 10:04:13] INFO root fetch - processPackages [oc-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_python_sdk-2.1.2.tar.gz tmp/oc_python_sdk-3.0.0.tar.gz --markdown 20240507/o/oc-python-sdk/2.1.2-3.0.0/README.md --exclude *.pyd
+[2024-05-07 10:04:13] INFO root fetch - processPackages [IISRapi]: executing diffoscope
+[2024-05-07 10:04:13] INFO root fetch - processPackages [IISRapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IISRapi-1.2.1.tar.gz tmp/IISRapi-1.3.tar.gz --markdown 20240507/I/IISRapi/1.2.1-1.3/README.md --exclude *.pyd
+[2024-05-07 10:04:14] INFO root fetch - processPackages [IISRapi]: Remove: archive file [/home/abi/fetcher/tmp/IISRapi-1.2.1.tar.gz]
+[2024-05-07 10:04:14] INFO root fetch - processPackages [IISRapi]: Remove: archive file [/home/abi/fetcher/tmp/IISRapi-1.3.tar.gz]
+[2024-05-07 10:04:14] INFO root fetch - main [MainThread]: End processing [IISRapi]: success
+[2024-05-07 10:04:14] INFO root fetch - processPackages [oc-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/oc_python_sdk-2.1.2.tar.gz]
+[2024-05-07 10:04:14] INFO root fetch - processPackages [oc-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/oc_python_sdk-3.0.0.tar.gz]
+[2024-05-07 10:04:14] INFO root fetch - main [MainThread]: End processing [oc-python-sdk]: success
+[2024-05-07 10:04:14] INFO root fetch - processPackages [dslog]: Remove: archive file [/home/abi/fetcher/tmp/dslog-0.1.5.tar.gz]
+[2024-05-07 10:04:14] INFO root fetch - processPackages [dslog]: Remove: archive file [/home/abi/fetcher/tmp/dslog-0.1.6.tar.gz]
+[2024-05-07 10:04:14] INFO root fetch - main [MainThread]: End processing [dslog]: success
+[2024-05-07 10:04:14] INFO root fetch - processPackages [django-google-spanner]: Remove: archive file [/home/abi/fetcher/tmp/django-google-spanner-3.1.0.tar.gz]
+[2024-05-07 10:04:14] INFO root fetch - processPackages [django-google-spanner]: Remove: archive file [/home/abi/fetcher/tmp/django-google-spanner-4.0.1.tar.gz]
+[2024-05-07 10:04:14] INFO root fetch - main [MainThread]: End processing [django-google-spanner]: success
+[2024-05-07 10:04:14] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240505.tar.gz]
+[2024-05-07 10:04:14] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240506.tar.gz]
+[2024-05-07 10:04:14] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-07 10:04:14] INFO root fetch - main [MainThread]: Store serial: [23091907]
