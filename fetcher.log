@@ -17169,3 +17169,48 @@ EOFError: EOF read where object expected
 [2024-05-07 10:53:30] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
 [2024-05-07 10:53:30] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
 [2024-05-07 10:53:30] INFO root fetch - main [MainThread]: Store serial: [23092496]
+[2024-05-07 10:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092496]
+[2024-05-07 10:55:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 10:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: french-cities
+[2024-05-07 10:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: niwatoko
+[2024-05-07 10:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenio-theme-tugraz
+[2024-05-07 10:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparrowApi
+[2024-05-07 10:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HusBot
+[2024-05-07 10:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psssodls
+[2024-05-07 10:55:38] INFO root fetch - processPackages [niwatoko]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-07 10:55:38] WARNING root fetch - processPackages [HusBot]: Skipping, unable to determine old version
+[2024-05-07 10:55:38] INFO root fetch - main [MainThread]: End processing [HusBot] error
+[2024-05-07 10:55:38] INFO root fetch - processPackages [sparrowApi]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-07 10:55:38] WARNING root fetch - processPackages [psssodls]: Skipping, unable to determine old version
+[2024-05-07 10:55:38] INFO root fetch - main [MainThread]: End processing [psssodls] error
+[2024-05-07 10:55:38] INFO root fetch - processPackages [french-cities]: New version: [0.2.1] Old Version: [0.1.1a5]
+[2024-05-07 10:55:38] INFO root fetch - processPackages [invenio-theme-tugraz]: New version: [4.12.9] Old Version: [4.12.8]
+[2024-05-07 10:55:38] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/f5/18/fb5d2bdc3e6f91f999737c66cdd1b7baddbeb3b6b37fe8b2c18bfd294ec0/niwatoko-1.0.6.tar.gz
+[2024-05-07 10:55:39] INFO root fetch - processPackages [sparrowApi]: Downloading https://files.pythonhosted.org/packages/71/24/0b3d37cb7fab5221f7f53638bd7426b84399fed8bca4ff032dec41efbda7/sparrowApi-0.1.2.tar.gz
+[2024-05-07 10:55:39] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/d6/60/7f1f95b4e868baaebe976ed6e81a24a396fecf73139409993baaa1bcc1eb/french_cities-0.1.1a5.tar.gz
+[2024-05-07 10:55:39] INFO root fetch - processPackages [invenio-theme-tugraz]: Downloading https://files.pythonhosted.org/packages/d5/9a/004072b23cf9f4e9fc14c772e11f2efa6d017f3838315e142ac1bcd726f9/invenio-theme-tugraz-4.12.8.tar.gz
+[2024-05-07 10:55:39] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/83/19/1b40e4acdc7868b010ca93fc5678737a561a545372e46e0d13cfcf778bd7/niwatoko-1.0.7.tar.gz
+[2024-05-07 10:55:39] INFO root fetch - processPackages [niwatoko]: executing diffoscope
+[2024-05-07 10:55:39] INFO root fetch - processPackages [niwatoko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niwatoko-1.0.6.tar.gz tmp/niwatoko-1.0.7.tar.gz --markdown 20240507/n/niwatoko/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-07 10:55:39] INFO root fetch - processPackages [sparrowApi]: Downloading https://files.pythonhosted.org/packages/51/88/c78a5300d168e183a58691562203ed8b6270a3a0b040dad03b263d78d828/sparrowApi-0.1.3.tar.gz
+[2024-05-07 10:55:39] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/cd/d4/fdfd44d73d783414a359f279fc959c392a7aaad10dc794809edf57970939/french_cities-0.2.1.tar.gz
+[2024-05-07 10:55:39] INFO root fetch - processPackages [sparrowApi]: executing diffoscope
+[2024-05-07 10:55:39] INFO root fetch - processPackages [sparrowApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrowApi-0.1.2.tar.gz tmp/sparrowApi-0.1.3.tar.gz --markdown 20240507/s/sparrowApi/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-07 10:55:39] INFO root fetch - processPackages [invenio-theme-tugraz]: Downloading https://files.pythonhosted.org/packages/0c/2f/6fa2f7185d9ba4b2de4925becb4490148385ab1dc3c00a86a5e75f9f7076/invenio-theme-tugraz-4.12.9.tar.gz
+[2024-05-07 10:55:39] INFO root fetch - processPackages [french-cities]: executing diffoscope
+[2024-05-07 10:55:39] INFO root fetch - processPackages [french-cities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/french_cities-0.1.1a5.tar.gz tmp/french_cities-0.2.1.tar.gz --markdown 20240507/f/french-cities/0.1.1a5-0.2.1/README.md --exclude *.pyd
+[2024-05-07 10:55:39] INFO root fetch - processPackages [invenio-theme-tugraz]: executing diffoscope
+[2024-05-07 10:55:39] INFO root fetch - processPackages [invenio-theme-tugraz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-theme-tugraz-4.12.8.tar.gz tmp/invenio-theme-tugraz-4.12.9.tar.gz --markdown 20240507/i/invenio-theme-tugraz/4.12.8-4.12.9/README.md --exclude *.pyd
+[2024-05-07 10:55:40] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.0.6.tar.gz]
+[2024-05-07 10:55:40] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.0.7.tar.gz]
+[2024-05-07 10:55:40] INFO root fetch - main [MainThread]: End processing [niwatoko]: success
+[2024-05-07 10:55:40] INFO root fetch - processPackages [sparrowApi]: Remove: archive file [/home/abi/fetcher/tmp/sparrowApi-0.1.2.tar.gz]
+[2024-05-07 10:55:40] INFO root fetch - processPackages [sparrowApi]: Remove: archive file [/home/abi/fetcher/tmp/sparrowApi-0.1.3.tar.gz]
+[2024-05-07 10:55:40] INFO root fetch - main [MainThread]: End processing [sparrowApi]: success
+[2024-05-07 10:55:40] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.1.1a5.tar.gz]
+[2024-05-07 10:55:40] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.2.1.tar.gz]
+[2024-05-07 10:55:40] INFO root fetch - main [MainThread]: End processing [french-cities]: success
+[2024-05-07 10:55:40] INFO root fetch - processPackages [invenio-theme-tugraz]: Remove: archive file [/home/abi/fetcher/tmp/invenio-theme-tugraz-4.12.8.tar.gz]
+[2024-05-07 10:55:40] INFO root fetch - processPackages [invenio-theme-tugraz]: Remove: archive file [/home/abi/fetcher/tmp/invenio-theme-tugraz-4.12.9.tar.gz]
+[2024-05-07 10:55:40] INFO root fetch - main [MainThread]: End processing [invenio-theme-tugraz]: success
+[2024-05-07 10:55:40] INFO root fetch - main [MainThread]: Store serial: [23092517]
