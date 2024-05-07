@@ -8508,3 +8508,42 @@ EOFError: EOF read where object expected
 [2024-05-07 04:13:37] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.9.tar.gz]
 [2024-05-07 04:13:37] INFO root fetch - main [MainThread]: End processing [np-aind-metadata]: success
 [2024-05-07 04:13:37] INFO root fetch - main [MainThread]: Store serial: [23088394]
+[2024-05-07 04:15:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088394]
+[2024-05-07 04:15:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 04:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cardex
+[2024-05-07 04:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duwi-smart-sdk
+[2024-05-07 04:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mecord-cli
+[2024-05-07 04:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beanhub-import
+[2024-05-07 04:15:46] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-07 04:15:46] INFO root fetch - processPackages [beanhub-import]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-07 04:15:46] INFO root fetch - processPackages [cardex]: New version: [0.2.0.dev9] Old Version: [0.2.0.dev8]
+[2024-05-07 04:15:46] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/5b/6e/f1ef4c3122f591c3a80bbb9a78fda0f5ecdc7bdf7fcad18d866cf8da9c8a/duwi_smart_sdk-0.0.6.tar.gz
+[2024-05-07 04:15:46] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/6a/31/5920f40bc8063b3db477ff8a77d9184db79b98f90e1795716da546318607/beanhub_import-0.0.7.tar.gz
+[2024-05-07 04:15:46] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/96/6e/6c4d87215e2446a0ac9bc903860b173f9fc347eb73dc8e4a21a298670a00/cardex-0.2.0.dev8.tar.gz
+[2024-05-07 04:15:46] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-07 04:15:46] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/a5/f1/936319cd5a1e0862bc33edbce29c37659ee57c4782e76613d4ce0b406196/cardex-0.2.0.dev9.tar.gz
+[2024-05-07 04:15:46] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/bb/77/dae5bdac719ecbecd8bf41f2b16da91a7f0050259def4978dddfccde611e/duwi_smart_sdk-0.0.7.tar.gz
+[2024-05-07 04:15:46] INFO root fetch - processPackages [cardex]: executing diffoscope
+[2024-05-07 04:15:46] INFO root fetch - processPackages [cardex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardex-0.2.0.dev8.tar.gz tmp/cardex-0.2.0.dev9.tar.gz --markdown 20240507/c/cardex/0.2.0.dev8-0.2.0.dev9/README.md --exclude *.pyd
+[2024-05-07 04:15:46] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-05-07 04:15:46] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/c9/d6/ae24b576714d23df49bc3a98137ad5bfb3e9dc0ddce82d5ee212081cc7c3/beanhub_import-0.0.8.tar.gz
+[2024-05-07 04:15:46] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-07 04:15:46] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.0.6.tar.gz tmp/duwi_smart_sdk-0.0.7.tar.gz --markdown 20240507/d/duwi-smart-sdk/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-07 04:15:46] INFO root fetch - processPackages [beanhub-import]: executing diffoscope
+[2024-05-07 04:15:46] INFO root fetch - processPackages [beanhub-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanhub_import-0.0.7.tar.gz tmp/beanhub_import-0.0.8.tar.gz --markdown 20240507/b/beanhub-import/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-07 04:15:46] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-05-07 04:15:47] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-05-07 04:15:47] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240507/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-07 04:15:47] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.0.7.tar.gz]
+[2024-05-07 04:15:47] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.0.8.tar.gz]
+[2024-05-07 04:15:47] INFO root fetch - main [MainThread]: End processing [beanhub-import]: success
+[2024-05-07 04:15:47] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.0.6.tar.gz]
+[2024-05-07 04:15:47] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.0.7.tar.gz]
+[2024-05-07 04:15:47] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-07 04:15:47] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev8.tar.gz]
+[2024-05-07 04:15:47] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev9.tar.gz]
+[2024-05-07 04:15:47] INFO root fetch - main [MainThread]: End processing [cardex]: success
+[2024-05-07 04:15:47] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-05-07 04:15:47] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-05-07 04:15:47] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-05-07 04:15:47] INFO root fetch - main [MainThread]: Store serial: [23088405]
