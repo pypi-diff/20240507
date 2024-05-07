@@ -21147,3 +21147,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 13:22:23] INFO root fetch - processPackages [sap-business-document-processing]: Remove: archive file [/home/abi/fetcher/tmp/sap_business_document_processing-0.4.1.tar.gz]
 [2024-05-07 13:22:23] INFO root fetch - main [MainThread]: End processing [sap-business-document-processing]: success
 [2024-05-07 13:22:23] INFO root fetch - main [MainThread]: Store serial: [23094479]
+[2024-05-07 13:24:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094479]
+[2024-05-07 13:24:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-07 13:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leadguru-jobs
+[2024-05-07 13:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe-21
+[2024-05-07 13:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-azure-native
+[2024-05-07 13:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: furthrmind
+[2024-05-07 13:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-gateways
+[2024-05-07 13:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: selenium-authenticated-proxy
+[2024-05-07 13:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hahomematic
+[2024-05-07 13:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: raga-testing-platform
+[2024-05-07 13:24:32] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-05-07 13:24:32] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-07 13:24:32] INFO root fetch - processPackages [selenium-authenticated-proxy]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-07 13:24:32] INFO root fetch - processPackages [netbox-gateways]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-05-07 13:24:32] INFO root fetch - processPackages [furthrmind]: New version: [0.1b9] Old Version: [0.1b8]
+[2024-05-07 13:24:32] INFO root fetch - processPackages [hahomematic]: New version: [2024.5.1] Old Version: [2024.5.0]
+[2024-05-07 13:24:32] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-07 13:24:32] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240507] Old Version: [2.5.0b20240506]
+[2024-05-07 13:24:32] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-07 13:24:32] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-05-07 13:24:32] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-05-07 13:24:32] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-05-07 13:24:32] INFO root fetch - processPackages [netbox-gateways]: Downloading https://files.pythonhosted.org/packages/42/3e/2de342fb47d77dae9ea9a5d5a0f518084072fd6fedd2f342a3fb667a9e83/netbox-gateways-0.4.3.tar.gz
+[2024-05-07 13:24:32] INFO root fetch - processPackages [furthrmind]: Downloading https://files.pythonhosted.org/packages/6b/1c/93a4a8e7af23546373a1b82cee0d135677e2cf9ce042f45322f462306363/furthrmind-0.1b8.tar.gz
+[2024-05-07 13:24:32] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/86/08/7e36b01533e96c94ab87efa9a28e6a6ff69c20ebfaf7489bebc07a67418f/bigdl_core_xe_21-2.5.0b20240506-cp39-cp39-win_amd64.whl
+[2024-05-07 13:24:32] INFO root fetch - processPackages [selenium-authenticated-proxy]: Downloading https://files.pythonhosted.org/packages/1a/44/ca81d24b1f877e09e46513f9ce5309b4495a9806c443b0b801afdb57becd/selenium_authenticated_proxy-1.0.1-py3-none-any.whl
+[2024-05-07 13:24:32] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/cc/62/124892ffc7283a5573f3dcbf7e92a705c9c3d613fc9f827078d5f83faab6/hahomematic-2024.5.0.tar.gz
+[2024-05-07 13:24:32] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/9e/96/7d3df28f50cc4d409b3729c541cb56bfd959e667a76ebc41e27a2d33774e/raga-testing-platform-1.1.7.tar.gz
+[2024-05-07 13:24:32] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-07 13:24:32] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 28998868>=10485760
+[2024-05-07 13:24:32] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-07 13:24:32] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-07 13:24:32] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240507/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-07 13:24:33] INFO root fetch - processPackages [furthrmind]: Downloading https://files.pythonhosted.org/packages/ff/ee/844bcc88d136af575ddbb2cb68d65757706abdb455a19a2337df2ac4b7e4/furthrmind-0.1b9.tar.gz
+[2024-05-07 13:24:33] INFO root fetch - processPackages [selenium-authenticated-proxy]: Downloading https://files.pythonhosted.org/packages/6d/30/38e7690d0149582e234a5ea3f6d887f566dd5d777aefd6eb7280210d0353/selenium_authenticated_proxy-1.1.0-py3-none-any.whl
+[2024-05-07 13:24:33] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/a6/c8/c9bcf4dace8ecafa7193964855b22bae2cbb345952c3f9da4f286561e0ad/hahomematic-2024.5.1.tar.gz
+[2024-05-07 13:24:33] INFO root fetch - processPackages [netbox-gateways]: Downloading https://files.pythonhosted.org/packages/91/1b/ea3b97dbddad01b30a9628c21be0f745e9d84d31d021a8bc5e4374022386/netbox_gateways-0.5.0.tar.gz
+[2024-05-07 13:24:33] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/f3/0c/cf8081496c50df535dc7d62d57017bb420067952060b63e9833e6d7e35ae/raga-testing-platform-1.1.8.tar.gz
+[2024-05-07 13:24:33] INFO root fetch - processPackages [furthrmind]: executing diffoscope
+[2024-05-07 13:24:33] INFO root fetch - processPackages [furthrmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furthrmind-0.1b8.tar.gz tmp/furthrmind-0.1b9.tar.gz --markdown 20240507/f/furthrmind/0.1b8-0.1b9/README.md --exclude *.pyd
+[2024-05-07 13:24:33] INFO root fetch - processPackages [selenium-authenticated-proxy]: executing diffoscope
+[2024-05-07 13:24:33] INFO root fetch - processPackages [selenium-authenticated-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_authenticated_proxy-1.0.1-py3-none-any.whl.zip tmp/selenium_authenticated_proxy-1.1.0-py3-none-any.whl.zip --markdown 20240507/s/selenium-authenticated-proxy/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-07 13:24:33] INFO root fetch - processPackages [netbox-gateways]: executing diffoscope
+[2024-05-07 13:24:33] INFO root fetch - processPackages [netbox-gateways]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-gateways-0.4.3.tar.gz tmp/netbox_gateways-0.5.0.tar.gz --markdown 20240507/n/netbox-gateways/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-05-07 13:24:33] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2024-05-07 13:24:33] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.1.7.tar.gz tmp/raga-testing-platform-1.1.8.tar.gz --markdown 20240507/r/raga-testing-platform/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-07 13:24:33] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2024-05-07 13:24:33] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2024.5.0.tar.gz tmp/hahomematic-2024.5.1.tar.gz --markdown 20240507/h/hahomematic/2024.5.0-2024.5.1/README.md --exclude *.pyd
+[2024-05-07 13:24:33] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-07 13:24:33] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-07 13:24:33] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-07 13:24:33] INFO root fetch - processPackages [netbox-gateways]: Remove: archive file [/home/abi/fetcher/tmp/netbox-gateways-0.4.3.tar.gz]
+[2024-05-07 13:24:33] INFO root fetch - processPackages [netbox-gateways]: Remove: archive file [/home/abi/fetcher/tmp/netbox_gateways-0.5.0.tar.gz]
+[2024-05-07 13:24:33] INFO root fetch - main [MainThread]: End processing [netbox-gateways]: success
+[2024-05-07 13:24:34] INFO root fetch - processPackages [selenium-authenticated-proxy]: Remove: archive file [/home/abi/fetcher/tmp/selenium_authenticated_proxy-1.0.1-py3-none-any.whl.zip]
+[2024-05-07 13:24:34] INFO root fetch - processPackages [selenium-authenticated-proxy]: Remove: archive file [/home/abi/fetcher/tmp/selenium_authenticated_proxy-1.1.0-py3-none-any.whl.zip]
+[2024-05-07 13:24:34] INFO root fetch - main [MainThread]: End processing [selenium-authenticated-proxy]: success
+[2024-05-07 13:24:34] INFO root fetch - processPackages [furthrmind]: Remove: archive file [/home/abi/fetcher/tmp/furthrmind-0.1b8.tar.gz]
+[2024-05-07 13:24:34] INFO root fetch - processPackages [furthrmind]: Remove: archive file [/home/abi/fetcher/tmp/furthrmind-0.1b9.tar.gz]
+[2024-05-07 13:24:34] INFO root fetch - main [MainThread]: End processing [furthrmind]: success
+[2024-05-07 13:24:34] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.7.tar.gz]
+[2024-05-07 13:24:34] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.8.tar.gz]
+[2024-05-07 13:24:34] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2024-05-07 13:24:34] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.5.0.tar.gz]
+[2024-05-07 13:24:34] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.5.1.tar.gz]
+[2024-05-07 13:24:34] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2024-05-07 13:24:34] INFO root fetch - main [MainThread]: Store serial: [23094501]
