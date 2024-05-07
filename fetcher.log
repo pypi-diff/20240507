@@ -17910,3 +17910,53 @@ EOFError: EOF read where object expected
 [2024-05-07 11:16:24] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17150733.tar.gz]
 [2024-05-07 11:16:24] INFO root fetch - main [MainThread]: End processing [utilmy]: success
 [2024-05-07 11:16:24] INFO root fetch - main [MainThread]: Store serial: [23092828]
+[2024-05-07 11:18:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092828]
+[2024-05-07 11:18:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-kraken
+[2024-05-07 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codejudge-common-utils
+[2024-05-07 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyproject-maker
+[2024-05-07 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recon-lw
+[2024-05-07 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: visum-io-sdk
+[2024-05-07 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chaostoolkit-lib
+[2024-05-07 11:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: h5ui
+[2024-05-07 11:18:33] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.7.0]
+[2024-05-07 11:18:33] WARNING root fetch - processPackages [codejudge-common-utils]: Skipping, unable to determine old version
+[2024-05-07 11:18:33] INFO root fetch - main [MainThread]: End processing [codejudge-common-utils] error
+[2024-05-07 11:18:33] WARNING root fetch - processPackages [visum-io-sdk]: Skipping, unable to determine old version
+[2024-05-07 11:18:33] INFO root fetch - main [MainThread]: End processing [visum-io-sdk] error
+[2024-05-07 11:18:33] INFO root fetch - processPackages [h5ui]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-07 11:18:33] INFO root fetch - processPackages [recon-lw]: New version: [3.1.0.dev8980955442] Old Version: [3.1.0.dev8972554118]
+[2024-05-07 11:18:33] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/cb/06/8ae70afb14c2307fb716d0fe36aad66a90c9e2598f47879c1277c5f23318/music_kraken-1.7.0.tar.gz
+[2024-05-07 11:18:33] INFO root fetch - processPackages [pyproject-maker]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-07 11:18:33] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/8d/8f/cc4fc3e0f6dabb757c1d9c0aabd60d1ca0cd0e2df2c91a59623ecfdbad98/recon_lw-3.1.0.dev8972554118.tar.gz
+[2024-05-07 11:18:33] INFO root fetch - processPackages [chaostoolkit-lib]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-07 11:18:33] INFO root fetch - processPackages [h5ui]: Downloading https://files.pythonhosted.org/packages/be/e7/16a2d74894522366321a6ff8c210043dae92f5d49740a01c2bb62eac131a/h5ui-0.1.6.tar.gz
+[2024-05-07 11:18:33] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-05-07 11:18:33] WARNING root fetch - processPackages [h5ui]: Skipping package: exceeds size limit 15180369>=10485760
+[2024-05-07 11:18:33] INFO root fetch - main [MainThread]: End processing [h5ui] error
+[2024-05-07 11:18:33] INFO root fetch - processPackages [pyproject-maker]: Downloading https://files.pythonhosted.org/packages/84/85/fa12cb7f1b8bfe8438d4c10588089513f54e2b7afab14b725c5fc9723907/pyproject_maker-0.9.4.tar.gz
+[2024-05-07 11:18:33] INFO root fetch - processPackages [chaostoolkit-lib]: Downloading https://files.pythonhosted.org/packages/2a/b2/27ef91763ac611976a29729d92af54212c349b1f24fd343a2ab0429a6004/chaostoolkit-lib-1.8.1.tar.gz
+[2024-05-07 11:18:33] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-05-07 11:18:33] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.7.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240507/m/music-kraken/1.7.0-1.9.0/README.md --exclude *.pyd
+[2024-05-07 11:18:34] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/82/54/631145b8504e49bdce3ef61dd329e7c5ccb055c3de7e5cda2b07019ec1a5/recon_lw-3.1.0.dev8980955442.tar.gz
+[2024-05-07 11:18:34] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2024-05-07 11:18:34] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-3.1.0.dev8972554118.tar.gz tmp/recon_lw-3.1.0.dev8980955442.tar.gz --markdown 20240507/r/recon-lw/3.1.0.dev8972554118-3.1.0.dev8980955442/README.md --exclude *.pyd
+[2024-05-07 11:18:34] INFO root fetch - processPackages [pyproject-maker]: Downloading https://files.pythonhosted.org/packages/8a/b8/0fba59730b8d400e161bf8a40b4a9d6b5bb6b8de79eecf541a4304443ef9/pyproject_maker-0.9.5.tar.gz
+[2024-05-07 11:18:34] INFO root fetch - processPackages [chaostoolkit-lib]: Downloading https://files.pythonhosted.org/packages/ce/ed/18f1241fe016fd9143c099b74f06962ddab60503251292c27a44324ac201/chaostoolkit-lib-1.9.0.tar.gz
+[2024-05-07 11:18:34] INFO root fetch - processPackages [pyproject-maker]: executing diffoscope
+[2024-05-07 11:18:34] INFO root fetch - processPackages [pyproject-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_maker-0.9.4.tar.gz tmp/pyproject_maker-0.9.5.tar.gz --markdown 20240507/p/pyproject-maker/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-07 11:18:34] INFO root fetch - processPackages [chaostoolkit-lib]: executing diffoscope
+[2024-05-07 11:18:34] INFO root fetch - processPackages [chaostoolkit-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-lib-1.8.1.tar.gz tmp/chaostoolkit-lib-1.9.0.tar.gz --markdown 20240507/c/chaostoolkit-lib/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-07 11:18:34] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.7.0.tar.gz]
+[2024-05-07 11:18:34] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-05-07 11:18:34] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-05-07 11:18:35] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.1.0.dev8972554118.tar.gz]
+[2024-05-07 11:18:35] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-3.1.0.dev8980955442.tar.gz]
+[2024-05-07 11:18:35] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2024-05-07 11:18:35] INFO root fetch - processPackages [chaostoolkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-lib-1.8.1.tar.gz]
+[2024-05-07 11:18:35] INFO root fetch - processPackages [chaostoolkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-lib-1.9.0.tar.gz]
+[2024-05-07 11:18:35] INFO root fetch - main [MainThread]: End processing [chaostoolkit-lib]: success
+[2024-05-07 11:18:35] INFO root fetch - processPackages [pyproject-maker]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_maker-0.9.4.tar.gz]
+[2024-05-07 11:18:35] INFO root fetch - processPackages [pyproject-maker]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_maker-0.9.5.tar.gz]
+[2024-05-07 11:18:35] INFO root fetch - main [MainThread]: End processing [pyproject-maker]: success
+[2024-05-07 11:18:35] INFO root fetch - main [MainThread]: Store serial: [23092857]
