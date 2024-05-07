@@ -21214,3 +21214,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 13:24:34] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.5.1.tar.gz]
 [2024-05-07 13:24:34] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
 [2024-05-07 13:24:34] INFO root fetch - main [MainThread]: Store serial: [23094501]
+[2024-05-07 13:26:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094501]
+[2024-05-07 13:26:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 13:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openmetadata-ingestion
+[2024-05-07 13:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: piximind
+[2024-05-07 13:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ETH-GTD-cli
+[2024-05-07 13:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alphaz-next
+[2024-05-07 13:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: user-external-local
+[2024-05-07 13:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webviz-subsurface
+[2024-05-07 13:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: T0
+[2024-05-07 13:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yayawallet-python-sdk
+[2024-05-07 13:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: google-cloud-utilities
+[2024-05-07 13:26:43] INFO root fetch - processPackages [user-external-local]: New version: [0.0.39] Old Version: [0.0.38]
+[2024-05-07 13:26:43] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-07 13:26:43] INFO root fetch - processPackages [T0]: New version: [4.0.1] Old Version: [3.1.6]
+[2024-05-07 13:26:43] WARNING root fetch - processPackages [piximind]: Skipping, unable to determine old version
+[2024-05-07 13:26:43] INFO root fetch - main [MainThread]: End processing [piximind] error
+[2024-05-07 13:26:43] INFO root fetch - processPackages [yayawallet-python-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 13:26:43] INFO root fetch - processPackages [user-external-local]: Downloading https://files.pythonhosted.org/packages/1c/25/2b9f7670c4600205f4cc233fd07ca05abe24a54b767f552e5d4bc01d1697/user-external-local-0.0.38.tar.gz
+[2024-05-07 13:26:43] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.4.0.0rc1] Old Version: [1.3.4.0]
+[2024-05-07 13:26:43] INFO root fetch - processPackages [google-cloud-utilities]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-07 13:26:43] INFO root fetch - processPackages [webviz-subsurface]: New version: [0.2.9rc0] Old Version: [0.2.9]
+[2024-05-07 13:26:43] INFO root fetch - processPackages [alphaz-next]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-07 13:26:43] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/7f/1a/73f4ceb21ac70b8a11c1a6087df5bd46fc60d10280290cef051b99523607/eth_gtd_cli-0.0.1.tar.gz
+[2024-05-07 13:26:44] INFO root fetch - processPackages [T0]: Downloading https://files.pythonhosted.org/packages/e9/35/65691066b9234be2381dedeabe485566192a3a84cd5cb080fbf4b70964a6/t0-3.1.6.tar.gz
+[2024-05-07 13:26:44] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/10/e4/26e1c94be47a4e474bba20d504731560cc0265ed71472b4056ea62afd8a1/openmetadata-ingestion-1.3.4.0.tar.gz
+[2024-05-07 13:26:44] INFO root fetch - processPackages [yayawallet-python-sdk]: Downloading https://files.pythonhosted.org/packages/6e/f2/492010135eba233fc672a647840fad48c44f90ebe80a0254d3e49344a377/yayawallet-python-sdk-0.1.8.tar.gz
+[2024-05-07 13:26:44] INFO root fetch - processPackages [user-external-local]: Downloading https://files.pythonhosted.org/packages/5e/ed/7ebac192e9dd0130ceaa36f02cecc99e4897e32d3b8b56bc0bc3296f051a/user_external_local-0.0.39.tar.gz
+[2024-05-07 13:26:44] INFO root fetch - processPackages [google-cloud-utilities]: Downloading https://files.pythonhosted.org/packages/80/07/665824376dfd909a952fa8ae669aae8afd993ea3538a29b4091685b23157/google_cloud_utilities-0.7.3.tar.gz
+[2024-05-07 13:26:44] INFO root fetch - processPackages [webviz-subsurface]: Downloading https://files.pythonhosted.org/packages/cb/b6/496b97d6e24433e8425adfc3e4ab3c08214fa937f58c70ff38f8097fe91a/webviz-subsurface-0.2.9.tar.gz
+[2024-05-07 13:26:44] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/a7/84/2e3c45165161d3e66b9bd501a0513f94663a78f9b79a4965c1c3fbf0561e/alphaz-next-0.6.1.tar.gz
+[2024-05-07 13:26:44] INFO root fetch - processPackages [user-external-local]: executing diffoscope
+[2024-05-07 13:26:44] INFO root fetch - processPackages [user-external-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user-external-local-0.0.38.tar.gz tmp/user_external_local-0.0.39.tar.gz --markdown 20240507/u/user-external-local/0.0.38-0.0.39/README.md --exclude *.pyd
+[2024-05-07 13:26:44] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/43/2f/e39f618ee70cdfff16bf61ed5bc7b059c563efe413df8651d4173b48288c/eth_gtd_cli-0.0.2.tar.gz
+[2024-05-07 13:26:44] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-07 13:26:44] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.1.tar.gz tmp/eth_gtd_cli-0.0.2.tar.gz --markdown 20240507/E/ETH-GTD-cli/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-07 13:26:44] INFO root fetch - processPackages [T0]: Downloading https://files.pythonhosted.org/packages/41/7a/ed7c05e142b60f4147063f05983e968314f8fda477a59730efa0b90797f8/t0-4.0.1.tar.gz
+[2024-05-07 13:26:44] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/37/05/225d9e4e05e5ec2fae893db156a99ac1bea4ad70c53939de2669985c36ca/alphaz-next-0.6.2.tar.gz
+[2024-05-07 13:26:44] INFO root fetch - processPackages [yayawallet-python-sdk]: Downloading https://files.pythonhosted.org/packages/54/df/40e6b73274202cdd4aa4487014cdc36808705fcd3242947f32e2cac6f064/yayawallet-python-sdk-0.1.9.tar.gz
+[2024-05-07 13:26:44] INFO root fetch - processPackages [google-cloud-utilities]: Downloading https://files.pythonhosted.org/packages/18/33/b514ef982400000a746b92e46ad61ac7a56f62961dc37554bf42d755c863/google_cloud_utilities-0.7.4.tar.gz
+[2024-05-07 13:26:44] INFO root fetch - processPackages [T0]: executing diffoscope
+[2024-05-07 13:26:44] INFO root fetch - processPackages [T0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t0-3.1.6.tar.gz tmp/t0-4.0.1.tar.gz --markdown 20240507/T/T0/3.1.6-4.0.1/README.md --exclude *.pyd
+[2024-05-07 13:26:44] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/a7/d1/22ef0740726dfbca4de6bfa2934e55f2aebed812cd7c53d8beaf59db6304/openmetadata-ingestion-1.4.0.0rc1.tar.gz
+[2024-05-07 13:26:44] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-05-07 13:26:44] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.6.1.tar.gz tmp/alphaz-next-0.6.2.tar.gz --markdown 20240507/a/alphaz-next/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-07 13:26:44] INFO root fetch - processPackages [yayawallet-python-sdk]: executing diffoscope
+[2024-05-07 13:26:44] INFO root fetch - processPackages [yayawallet-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yayawallet-python-sdk-0.1.8.tar.gz tmp/yayawallet-python-sdk-0.1.9.tar.gz --markdown 20240507/y/yayawallet-python-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 13:26:44] INFO root fetch - processPackages [webviz-subsurface]: Downloading https://files.pythonhosted.org/packages/c4/4c/09f887372799ea7da993ba18f2595ecc1ab65b5b21a24e39383f41b193f7/webviz-subsurface-0.2.9rc0.tar.gz
+[2024-05-07 13:26:44] INFO root fetch - processPackages [google-cloud-utilities]: executing diffoscope
+[2024-05-07 13:26:44] INFO root fetch - processPackages [google-cloud-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_cloud_utilities-0.7.3.tar.gz tmp/google_cloud_utilities-0.7.4.tar.gz --markdown 20240507/g/google-cloud-utilities/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-07 13:26:45] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2024-05-07 13:26:45] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.3.4.0.tar.gz tmp/openmetadata-ingestion-1.4.0.0rc1.tar.gz --markdown 20240507/o/openmetadata-ingestion/1.3.4.0-1.4.0.0rc1/README.md --exclude *.pyd
+[2024-05-07 13:26:45] INFO root fetch - processPackages [webviz-subsurface]: executing diffoscope
+[2024-05-07 13:26:45] INFO root fetch - processPackages [webviz-subsurface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webviz-subsurface-0.2.9.tar.gz tmp/webviz-subsurface-0.2.9rc0.tar.gz --markdown 20240507/w/webviz-subsurface/0.2.9-0.2.9rc0/README.md --exclude *.pyd
+[2024-05-07 13:26:45] INFO root fetch - processPackages [user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/user-external-local-0.0.38.tar.gz]
+[2024-05-07 13:26:45] INFO root fetch - processPackages [user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/user_external_local-0.0.39.tar.gz]
+[2024-05-07 13:26:45] INFO root fetch - main [MainThread]: End processing [user-external-local]: success
+[2024-05-07 13:26:45] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.1.tar.gz]
+[2024-05-07 13:26:45] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.2.tar.gz]
+[2024-05-07 13:26:45] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-07 13:26:45] INFO root fetch - processPackages [yayawallet-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yayawallet-python-sdk-0.1.8.tar.gz]
+[2024-05-07 13:26:45] INFO root fetch - processPackages [yayawallet-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yayawallet-python-sdk-0.1.9.tar.gz]
+[2024-05-07 13:26:45] INFO root fetch - main [MainThread]: End processing [yayawallet-python-sdk]: success
+[2024-05-07 13:26:46] INFO root fetch - processPackages [google-cloud-utilities]: Remove: archive file [/home/abi/fetcher/tmp/google_cloud_utilities-0.7.3.tar.gz]
+[2024-05-07 13:26:46] INFO root fetch - processPackages [google-cloud-utilities]: Remove: archive file [/home/abi/fetcher/tmp/google_cloud_utilities-0.7.4.tar.gz]
+[2024-05-07 13:26:46] INFO root fetch - main [MainThread]: End processing [google-cloud-utilities]: success
+[2024-05-07 13:26:46] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.6.1.tar.gz]
+[2024-05-07 13:26:46] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.6.2.tar.gz]
+[2024-05-07 13:26:46] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-05-07 13:26:46] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-3.1.6.tar.gz]
+[2024-05-07 13:26:46] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-4.0.1.tar.gz]
+[2024-05-07 13:26:46] INFO root fetch - main [MainThread]: End processing [T0]: success
+[2024-05-07 13:26:47] INFO root fetch - processPackages [webviz-subsurface]: Remove: archive file [/home/abi/fetcher/tmp/webviz-subsurface-0.2.9.tar.gz]
+[2024-05-07 13:26:47] INFO root fetch - processPackages [webviz-subsurface]: Remove: archive file [/home/abi/fetcher/tmp/webviz-subsurface-0.2.9rc0.tar.gz]
+[2024-05-07 13:26:47] INFO root fetch - main [MainThread]: End processing [webviz-subsurface]: success
+[2024-05-07 13:26:55] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.3.4.0.tar.gz]
+[2024-05-07 13:26:55] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.4.0.0rc1.tar.gz]
+[2024-05-07 13:26:55] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2024-05-07 13:26:55] INFO root fetch - main [MainThread]: Store serial: [23094528]
