@@ -18716,3 +18716,38 @@ EOFError: EOF read where object expected
 [2024-05-07 11:44:48] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes-stubs-elephant-fork-9.0.1.tar.gz]
 [2024-05-07 11:44:48] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
 [2024-05-07 11:44:48] INFO root fetch - main [MainThread]: Store serial: [23093198]
+[2024-05-07 11:46:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093198]
+[2024-05-07 11:46:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 11:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-aws-api-gateway-websockets
+[2024-05-07 11:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: filchatter
+[2024-05-07 11:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sourcespec
+[2024-05-07 11:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-prestashop
+[2024-05-07 11:46:58] INFO root fetch - processPackages [filchatter]: New version: [1.6] Old Version: [1.5]
+[2024-05-07 11:46:58] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 11:46:58] INFO root fetch - processPackages [filchatter]: Downloading https://files.pythonhosted.org/packages/85/5f/61e7bdd39eecfe64a53e543e15e199c039079f152df3ad12f4f50d92beab/filchatter-1.5.tar.gz
+[2024-05-07 11:46:58] INFO root fetch - processPackages [airbyte-source-prestashop]: New version: [1.0.4] Old Version: [1.0.0]
+[2024-05-07 11:46:58] INFO root fetch - processPackages [sourcespec]: New version: [1.8] Old Version: [1.7]
+[2024-05-07 11:46:58] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: Downloading https://files.pythonhosted.org/packages/8b/1e/95119ce90a00763d2fe6b98d0207cced34d29ca7bfa9b713b40ab2a65cc2/django-aws-api-gateway-websockets-1.0.8.tar.gz
+[2024-05-07 11:46:58] INFO root fetch - processPackages [airbyte-source-prestashop]: Downloading https://files.pythonhosted.org/packages/7c/fa/6f231312395e0c0cf1e9fcbb0e5e12a79cca45db5bb8c35fd5a2b81dfc36/airbyte-source-prestashop-1.0.0.tar.gz
+[2024-05-07 11:46:58] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: Downloading https://files.pythonhosted.org/packages/27/f0/3aa75f3d7e6c532d4cb44254d345bd11b0293cc27249dc13f3086ed897fb/django-aws-api-gateway-websockets-1.0.9.tar.gz
+[2024-05-07 11:46:58] INFO root fetch - processPackages [sourcespec]: Downloading https://files.pythonhosted.org/packages/f2/c7/7cdf1826eda5335237393fd160c10e9530bab5efefc083b1a2199955ee65/sourcespec-1.7.tar.gz
+[2024-05-07 11:46:58] INFO root fetch - processPackages [filchatter]: Downloading https://files.pythonhosted.org/packages/93/07/d17106c832fc9b57ab33624bd223da87ef6575c7e303da165c2dd96f3f48/filchatter-1.6.tar.gz
+[2024-05-07 11:46:58] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: executing diffoscope
+[2024-05-07 11:46:58] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-aws-api-gateway-websockets-1.0.8.tar.gz tmp/django-aws-api-gateway-websockets-1.0.9.tar.gz --markdown 20240507/d/django-aws-api-gateway-websockets/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 11:46:58] INFO root fetch - processPackages [filchatter]: executing diffoscope
+[2024-05-07 11:46:58] INFO root fetch - processPackages [filchatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filchatter-1.5.tar.gz tmp/filchatter-1.6.tar.gz --markdown 20240507/f/filchatter/1.5-1.6/README.md --exclude *.pyd
+[2024-05-07 11:46:58] ERROR root fetch - processPackages [airbyte-source-prestashop]: Unable to fetch info: No such project/version 'airbyte-source-prestashop' 1.0.4
+[2024-05-07 11:46:58] INFO root fetch - main [MainThread]: End processing [airbyte-source-prestashop] error
+[2024-05-07 11:46:58] INFO root fetch - processPackages [sourcespec]: Downloading https://files.pythonhosted.org/packages/0e/2c/0e587aec91d61050cc825344e68bc2ea86f1e583cc331f1a21cd7243c014/sourcespec-1.8.tar.gz
+[2024-05-07 11:46:58] INFO root fetch - processPackages [sourcespec]: executing diffoscope
+[2024-05-07 11:46:58] INFO root fetch - processPackages [sourcespec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourcespec-1.7.tar.gz tmp/sourcespec-1.8.tar.gz --markdown 20240507/s/sourcespec/1.7-1.8/README.md --exclude *.pyd
+[2024-05-07 11:46:59] INFO root fetch - processPackages [filchatter]: Remove: archive file [/home/abi/fetcher/tmp/filchatter-1.5.tar.gz]
+[2024-05-07 11:46:59] INFO root fetch - processPackages [filchatter]: Remove: archive file [/home/abi/fetcher/tmp/filchatter-1.6.tar.gz]
+[2024-05-07 11:46:59] INFO root fetch - main [MainThread]: End processing [filchatter]: success
+[2024-05-07 11:46:59] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: Remove: archive file [/home/abi/fetcher/tmp/django-aws-api-gateway-websockets-1.0.8.tar.gz]
+[2024-05-07 11:46:59] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: Remove: archive file [/home/abi/fetcher/tmp/django-aws-api-gateway-websockets-1.0.9.tar.gz]
+[2024-05-07 11:46:59] INFO root fetch - main [MainThread]: End processing [django-aws-api-gateway-websockets]: success
+[2024-05-07 11:47:00] INFO root fetch - processPackages [sourcespec]: Remove: archive file [/home/abi/fetcher/tmp/sourcespec-1.7.tar.gz]
+[2024-05-07 11:47:00] INFO root fetch - processPackages [sourcespec]: Remove: archive file [/home/abi/fetcher/tmp/sourcespec-1.8.tar.gz]
+[2024-05-07 11:47:00] INFO root fetch - main [MainThread]: End processing [sourcespec]: success
+[2024-05-07 11:47:00] INFO root fetch - main [MainThread]: Store serial: [23093213]
