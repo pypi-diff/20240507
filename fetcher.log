@@ -10724,3 +10724,48 @@ EOFError: EOF read where object expected
 [2024-05-07 06:18:14] INFO root fetch - processPackages [ScreenPro2]: Remove: archive file [/home/abi/fetcher/tmp/ScreenPro2-0.2.9-py2.py3-none-any.whl.zip]
 [2024-05-07 06:18:14] INFO root fetch - main [MainThread]: End processing [ScreenPro2]: success
 [2024-05-07 06:18:14] INFO root fetch - main [MainThread]: Store serial: [23089341]
+[2024-05-07 06:20:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089341]
+[2024-05-07 06:20:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 06:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: behaverse
+[2024-05-07 06:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thingspire-datasets
+[2024-05-07 06:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: json-extracter
+[2024-05-07 06:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antchain-bot
+[2024-05-07 06:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-hr-employee-birthday-mail
+[2024-05-07 06:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rosco
+[2024-05-07 06:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airflow-dagfactory
+[2024-05-07 06:20:23] INFO root fetch - processPackages [behaverse]: New version: [0.0.2.dev4] Old Version: [0.0.2.dev2]
+[2024-05-07 06:20:23] WARNING root fetch - processPackages [thingspire-datasets]: Skipping, unable to determine old version
+[2024-05-07 06:20:23] INFO root fetch - main [MainThread]: End processing [thingspire-datasets] error
+[2024-05-07 06:20:23] INFO root fetch - processPackages [antchain-bot]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-05-07 06:20:23] INFO root fetch - processPackages [odoo14-addon-hr-employee-birthday-mail]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2024-05-07 06:20:23] WARNING root fetch - processPackages [json-extracter]: Skipping, unable to determine old version
+[2024-05-07 06:20:23] INFO root fetch - main [MainThread]: End processing [json-extracter] error
+[2024-05-07 06:20:23] WARNING root fetch - processPackages [airflow-dagfactory]: Skipping, unable to determine old version
+[2024-05-07 06:20:23] INFO root fetch - main [MainThread]: End processing [airflow-dagfactory] error
+[2024-05-07 06:20:23] INFO root fetch - processPackages [rosco]: New version: [2.9.2] Old Version: [2.9.0]
+[2024-05-07 06:20:23] INFO root fetch - processPackages [behaverse]: Downloading https://files.pythonhosted.org/packages/53/57/69127e27b62b1f6adc0ef11fdd34daa6ef9d123d8b80abdc963cabe65317/behaverse-0.0.2.dev2.tar.gz
+[2024-05-07 06:20:23] INFO root fetch - processPackages [odoo14-addon-hr-employee-birthday-mail]: Downloading https://files.pythonhosted.org/packages/b4/29/3cf4acee159b2eb3ffb9dcc9aa59626ef6e380a82333d6d49621adac9d37/odoo14_addon_hr_employee_birthday_mail-14.0.1.0.1.dev8-py3-none-any.whl
+[2024-05-07 06:20:23] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/0d/86/cbf1b955dbc338cc6302fd0ed42f2ae42c1245a00c6439e1fba6cae53d92/antchain_bot-1.9.7.tar.gz
+[2024-05-07 06:20:23] INFO root fetch - processPackages [rosco]: Downloading https://files.pythonhosted.org/packages/91/da/a1d612003f98587ced5aa182359b70e60ad25453ac69de219542e55b9a68/rosco-2.9.0.tar.gz
+[2024-05-07 06:20:23] INFO root fetch - processPackages [behaverse]: Downloading https://files.pythonhosted.org/packages/ff/28/5ad944a62c869789ea55041d2b80d548797309c6bc902e5c8ef7cd9665ae/behaverse-0.0.2.dev4.tar.gz
+[2024-05-07 06:20:23] INFO root fetch - processPackages [behaverse]: executing diffoscope
+[2024-05-07 06:20:23] INFO root fetch - processPackages [behaverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/behaverse-0.0.2.dev2.tar.gz tmp/behaverse-0.0.2.dev4.tar.gz --markdown 20240507/b/behaverse/0.0.2.dev2-0.0.2.dev4/README.md --exclude *.pyd
+[2024-05-07 06:20:23] INFO root fetch - processPackages [odoo14-addon-hr-employee-birthday-mail]: Downloading https://files.pythonhosted.org/packages/e0/f3/ad97d9f3e4d86d097e66f0da5eee51c6ef009af56c68c9861bc2a2e1c9f0/odoo14_addon_hr_employee_birthday_mail-14.0.1.0.1.dev9-py3-none-any.whl
+[2024-05-07 06:20:23] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/fa/96/2ef07a099db771e78580bcb8a6f9269b6404019fd3aefd68b80738181db3/antchain_bot-1.9.8.tar.gz
+[2024-05-07 06:20:23] INFO root fetch - processPackages [odoo14-addon-hr-employee-birthday-mail]: executing diffoscope
+[2024-05-07 06:20:23] INFO root fetch - processPackages [odoo14-addon-hr-employee-birthday-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_employee_birthday_mail-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_hr_employee_birthday_mail-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20240507/o/odoo14-addon-hr-employee-birthday-mail/14.0.1.0.1.dev8-14.0.1.0.1.dev9/README.md --exclude *.pyd
+[2024-05-07 06:20:23] INFO root fetch - processPackages [antchain-bot]: executing diffoscope
+[2024-05-07 06:20:23] INFO root fetch - processPackages [antchain-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bot-1.9.7.tar.gz tmp/antchain_bot-1.9.8.tar.gz --markdown 20240507/a/antchain-bot/1.9.7-1.9.8/README.md --exclude *.pyd
+[2024-05-07 06:20:24] INFO root fetch - processPackages [behaverse]: Remove: archive file [/home/abi/fetcher/tmp/behaverse-0.0.2.dev2.tar.gz]
+[2024-05-07 06:20:24] INFO root fetch - processPackages [behaverse]: Remove: archive file [/home/abi/fetcher/tmp/behaverse-0.0.2.dev4.tar.gz]
+[2024-05-07 06:20:24] INFO root fetch - main [MainThread]: End processing [behaverse]: success
+[2024-05-07 06:20:24] INFO root fetch - processPackages [odoo14-addon-hr-employee-birthday-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_employee_birthday_mail-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-05-07 06:20:24] INFO root fetch - processPackages [odoo14-addon-hr-employee-birthday-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_employee_birthday_mail-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-05-07 06:20:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-employee-birthday-mail]: success
+[2024-05-07 06:20:25] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.9.7.tar.gz]
+[2024-05-07 06:20:25] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.9.8.tar.gz]
+[2024-05-07 06:20:25] INFO root fetch - main [MainThread]: End processing [antchain-bot]: success
+[2024-05-07 06:20:25] INFO root fetch - processPackages [rosco]: Downloading https://files.pythonhosted.org/packages/10/2d/771858fa20da0fe2b5ef0b3d0df0dc8b0e67f1528df6cbe8ea8e421138b9/rosco-2.9.2-cp310-cp310-musllinux_1_1_x86_64.whl
+[2024-05-07 06:20:25] WARNING root fetch - processPackages [rosco]: Skipping package: exceeds size limit 11520537>=10485760
+[2024-05-07 06:20:25] INFO root fetch - main [MainThread]: End processing [rosco] error
+[2024-05-07 06:20:25] INFO root fetch - main [MainThread]: Store serial: [23089367]
