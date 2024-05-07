@@ -21952,3 +21952,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 13:47:39] INFO root fetch - processPackages [fintech]: Remove: archive file [/home/abi/fetcher/tmp/fintech-7.5.1-cp39-none-any.whl.zip]
 [2024-05-07 13:47:39] INFO root fetch - main [MainThread]: End processing [fintech]: success
 [2024-05-07 13:47:39] INFO root fetch - main [MainThread]: Store serial: [23094920]
+[2024-05-07 13:49:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094920]
+[2024-05-07 13:49:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 13:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-klaviyo
+[2024-05-07 13:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RPICommLink
+[2024-05-07 13:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrt-lib-rasmusklitgaard
+[2024-05-07 13:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-sale-commission-salesman
+[2024-05-07 13:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-model-manager
+[2024-05-07 13:49:49] INFO root fetch - processPackages [torch-model-manager]: New version: [0.2.0.dev9] Old Version: [0.2.0.dev8]
+[2024-05-07 13:49:49] INFO root fetch - processPackages [odoo14-addon-sale-commission-salesman]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev7]
+[2024-05-07 13:49:49] INFO root fetch - processPackages [RPICommLink]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-07 13:49:49] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/52/2a/f1ee6f524ac08e001c5e946829cb5139504c9d61ce54fda6f9a90564747c/torch_model_manager-0.2.0.dev8.tar.gz
+[2024-05-07 13:49:49] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: New version: [0.4.1] Old Version: [0.3.9]
+[2024-05-07 13:49:49] INFO root fetch - processPackages [airbyte-source-klaviyo]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-05-07 13:49:50] INFO root fetch - processPackages [odoo14-addon-sale-commission-salesman]: Downloading https://files.pythonhosted.org/packages/da/83/cbbf8196436b6ef48e5e09f81644bfacc9db5b4c1bbd0b5eb138b52e4ac6/odoo14_addon_sale_commission_salesman-14.0.1.0.1.dev7-py3-none-any.whl
+[2024-05-07 13:49:50] INFO root fetch - processPackages [RPICommLink]: Downloading https://files.pythonhosted.org/packages/1f/73/ebf14985950e1cc3384bde6de7d74d77215fed446bc8642b39e3d7355761/RPICommLink-1.0.6.tar.gz
+[2024-05-07 13:49:50] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/50/52/58a38fb347b178e592723404228ca162219c343692c036deb63552c9ab4b/pyrt_lib_rasmusklitgaard-0.3.9.tar.gz
+[2024-05-07 13:49:50] INFO root fetch - processPackages [airbyte-source-klaviyo]: Downloading https://files.pythonhosted.org/packages/20/0f/37e9c0ca5c8b76c872450dfc3116ee5ba2d4c7d257562bbf902ba74b9deb/airbyte_source_klaviyo-2.6.0.tar.gz
+[2024-05-07 13:49:50] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/74/72/d37fb1c20b9919d276f0f36cc47753d4cd5f9a15720240bbdb098639efdc/torch_model_manager-0.2.0.dev9.tar.gz
+[2024-05-07 13:49:50] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-07 13:49:50] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.2.0.dev8.tar.gz tmp/torch_model_manager-0.2.0.dev9.tar.gz --markdown 20240507/t/torch-model-manager/0.2.0.dev8-0.2.0.dev9/README.md --exclude *.pyd
+[2024-05-07 13:49:50] INFO root fetch - processPackages [RPICommLink]: Downloading https://files.pythonhosted.org/packages/93/ab/d2a4d38674da665025bff8fb70e4df541f364b07b8f929d19d5723352f8f/RPICommLink-1.0.7.tar.gz
+[2024-05-07 13:49:50] INFO root fetch - processPackages [airbyte-source-klaviyo]: Downloading https://files.pythonhosted.org/packages/69/2c/57ca77d4e6e01c09b73fd71b5e192d0ded548ebff66167fd7d4f82461ba2/airbyte_source_klaviyo-2.6.1.tar.gz
+[2024-05-07 13:49:50] INFO root fetch - processPackages [RPICommLink]: executing diffoscope
+[2024-05-07 13:49:50] INFO root fetch - processPackages [RPICommLink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RPICommLink-1.0.6.tar.gz tmp/RPICommLink-1.0.7.tar.gz --markdown 20240507/R/RPICommLink/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-07 13:49:50] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/02/a5/723900f1f55bf98e1a2ab359c85b4c8b2e467d2a509685790833d54cfbf0/pyrt_lib_rasmusklitgaard-0.4.1.tar.gz
+[2024-05-07 13:49:50] INFO root fetch - processPackages [airbyte-source-klaviyo]: executing diffoscope
+[2024-05-07 13:49:50] INFO root fetch - processPackages [airbyte-source-klaviyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_klaviyo-2.6.0.tar.gz tmp/airbyte_source_klaviyo-2.6.1.tar.gz --markdown 20240507/a/airbyte-source-klaviyo/2.6.0-2.6.1/README.md --exclude *.pyd
+[2024-05-07 13:49:50] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: executing diffoscope
+[2024-05-07 13:49:50] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrt_lib_rasmusklitgaard-0.3.9.tar.gz tmp/pyrt_lib_rasmusklitgaard-0.4.1.tar.gz --markdown 20240507/p/pyrt-lib-rasmusklitgaard/0.3.9-0.4.1/README.md --exclude *.pyd
+[2024-05-07 13:49:50] INFO root fetch - processPackages [odoo14-addon-sale-commission-salesman]: Downloading https://files.pythonhosted.org/packages/62/6d/71ccb7e17c2a420deac51b278c8bb4988cc5e8e17f6409c3ca748a871520/odoo14_addon_sale_commission_salesman-14.0.1.0.1.dev9-py3-none-any.whl
+[2024-05-07 13:49:50] INFO root fetch - processPackages [odoo14-addon-sale-commission-salesman]: executing diffoscope
+[2024-05-07 13:49:50] INFO root fetch - processPackages [odoo14-addon-sale-commission-salesman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_commission_salesman-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_sale_commission_salesman-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20240507/o/odoo14-addon-sale-commission-salesman/14.0.1.0.1.dev7-14.0.1.0.1.dev9/README.md --exclude *.pyd
+[2024-05-07 13:49:50] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev8.tar.gz]
+[2024-05-07 13:49:50] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.2.0.dev9.tar.gz]
+[2024-05-07 13:49:50] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-07 13:49:51] INFO root fetch - processPackages [RPICommLink]: Remove: archive file [/home/abi/fetcher/tmp/RPICommLink-1.0.6.tar.gz]
+[2024-05-07 13:49:51] INFO root fetch - processPackages [RPICommLink]: Remove: archive file [/home/abi/fetcher/tmp/RPICommLink-1.0.7.tar.gz]
+[2024-05-07 13:49:51] INFO root fetch - main [MainThread]: End processing [RPICommLink]: success
+[2024-05-07 13:49:51] INFO root fetch - processPackages [airbyte-source-klaviyo]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_klaviyo-2.6.0.tar.gz]
+[2024-05-07 13:49:51] INFO root fetch - processPackages [airbyte-source-klaviyo]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_klaviyo-2.6.1.tar.gz]
+[2024-05-07 13:49:51] INFO root fetch - main [MainThread]: End processing [airbyte-source-klaviyo]: success
+[2024-05-07 13:49:51] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.3.9.tar.gz]
+[2024-05-07 13:49:51] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.4.1.tar.gz]
+[2024-05-07 13:49:51] INFO root fetch - main [MainThread]: End processing [pyrt-lib-rasmusklitgaard]: success
+[2024-05-07 13:49:51] INFO root fetch - processPackages [odoo14-addon-sale-commission-salesman]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_salesman-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2024-05-07 13:49:51] INFO root fetch - processPackages [odoo14-addon-sale-commission-salesman]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_salesman-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-05-07 13:49:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission-salesman]: success
+[2024-05-07 13:49:51] INFO root fetch - main [MainThread]: Store serial: [23094933]
