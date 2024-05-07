@@ -19643,3 +19643,60 @@ EOFError: EOF read where object expected
 [2024-05-07 12:25:11] INFO root fetch - processPackages [sphinx-scylladb-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_scylladb_theme-1.7.2.tar.gz]
 [2024-05-07 12:25:11] INFO root fetch - main [MainThread]: End processing [sphinx-scylladb-theme]: success
 [2024-05-07 12:25:11] INFO root fetch - main [MainThread]: Store serial: [23093603]
+[2024-05-07 12:27:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093603]
+[2024-05-07 12:27:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 12:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-fastapi
+[2024-05-07 12:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reqstool
+[2024-05-07 12:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-banking-sepa-direct-debit
+[2024-05-07 12:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AlgoGrade
+[2024-05-07 12:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlops-ods
+[2024-05-07 12:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FancySchmancyTestsplit
+[2024-05-07 12:27:20] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-05-07 12:27:20] INFO root fetch - processPackages [mlops-ods]: New version: [0.1.202405071027] Old Version: [0.1.202405061002]
+[2024-05-07 12:27:20] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/d4/99/6ba717eef4c010e95d6c2cf437025e807c91ba4867eca4ded08bb49cb8d6/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-07 12:27:20] INFO root fetch - processPackages [auto-fastapi]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-05-07 12:27:20] INFO root fetch - processPackages [reqstool]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-07 12:27:21] INFO root fetch - processPackages [AlgoGrade]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 12:27:21] INFO root fetch - processPackages [FancySchmancyTestsplit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 12:27:21] INFO root fetch - processPackages [mlops-ods]: Downloading https://files.pythonhosted.org/packages/90/a0/d7ed28bac8cd4014e281474220b5ff2b431004e0a2a273110ac9dad6db9d/mlops_ods-0.1.202405061002.tar.gz
+[2024-05-07 12:27:21] INFO root fetch - processPackages [AlgoGrade]: Downloading https://files.pythonhosted.org/packages/33/90/206b7f28a7e746ae76657cb69afe50035d6aff011258781e2ece9766581b/AlgoGrade-1.0.8.tar.gz
+[2024-05-07 12:27:21] INFO root fetch - processPackages [auto-fastapi]: Downloading https://files.pythonhosted.org/packages/6a/5c/36d10aabc055ce4f30bce5fa63f48de2a84718df26cfb5a1a03287e47006/auto-fastapi-0.0.3.tar.gz
+[2024-05-07 12:27:21] INFO root fetch - processPackages [reqstool]: Downloading https://files.pythonhosted.org/packages/aa/5f/bad3c453ea700aed10b9ae9385bf4d80116c20463149325357e3821c49e9/reqstool-0.4.3.tar.gz
+[2024-05-07 12:27:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/63/83/aebb7df09a0f45bf85c25c7a95331927991689d5af286ff0107aa28b7eab/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.6-py3-none-any.whl
+[2024-05-07 12:27:21] INFO root fetch - processPackages [FancySchmancyTestsplit]: Downloading https://files.pythonhosted.org/packages/5f/3d/b6b5b2374bbaa6e63551147fb1cc840203e76f436a623cfff18d47bebf49/FancySchmancyTestsplit-0.1.8.tar.gz
+[2024-05-07 12:27:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: executing diffoscope
+[2024-05-07 12:27:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-account-banking-sepa-direct-debit/17.0.1.0.0.5-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-07 12:27:21] INFO root fetch - processPackages [AlgoGrade]: Downloading https://files.pythonhosted.org/packages/f3/8c/50a21ccffcb9d6f18d7b27b3039f1e90a1b91fe9721d89295f083a8bf52c/AlgoGrade-1.0.9.tar.gz
+[2024-05-07 12:27:21] INFO root fetch - processPackages [FancySchmancyTestsplit]: Downloading https://files.pythonhosted.org/packages/f0/7a/15b7b4d05668e8ade4d0d8d6f2d444e47fb4c283b8d0978808b822c7ce39/FancySchmancyTestsplit-0.1.9.tar.gz
+[2024-05-07 12:27:21] INFO root fetch - processPackages [auto-fastapi]: Downloading https://files.pythonhosted.org/packages/e4/cc/8037277a6f0ee62fa85cfbe92c01bbd3ea39ca6f29db9da110e00f6a08d1/auto-fastapi-0.1.0.tar.gz
+[2024-05-07 12:27:21] INFO root fetch - processPackages [mlops-ods]: Downloading https://files.pythonhosted.org/packages/d9/6a/22276cb091e220165857cd5febb571124c5320412a8c4a06990b82e0793e/mlops_ods-0.1.202405071027.tar.gz
+[2024-05-07 12:27:21] INFO root fetch - processPackages [AlgoGrade]: executing diffoscope
+[2024-05-07 12:27:21] INFO root fetch - processPackages [AlgoGrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlgoGrade-1.0.8.tar.gz tmp/AlgoGrade-1.0.9.tar.gz --markdown 20240507/A/AlgoGrade/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 12:27:21] INFO root fetch - processPackages [reqstool]: Downloading https://files.pythonhosted.org/packages/c5/12/bd666fd317021d6cf9edc50dee2d9d9b8eb6ede843ee7c66c4b901f333bf/reqstool-0.4.4.tar.gz
+[2024-05-07 12:27:21] INFO root fetch - processPackages [FancySchmancyTestsplit]: executing diffoscope
+[2024-05-07 12:27:21] INFO root fetch - processPackages [FancySchmancyTestsplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FancySchmancyTestsplit-0.1.8.tar.gz tmp/FancySchmancyTestsplit-0.1.9.tar.gz --markdown 20240507/F/FancySchmancyTestsplit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 12:27:21] INFO root fetch - processPackages [auto-fastapi]: executing diffoscope
+[2024-05-07 12:27:21] INFO root fetch - processPackages [auto-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-fastapi-0.0.3.tar.gz tmp/auto-fastapi-0.1.0.tar.gz --markdown 20240507/a/auto-fastapi/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-05-07 12:27:22] INFO root fetch - processPackages [reqstool]: executing diffoscope
+[2024-05-07 12:27:22] INFO root fetch - processPackages [reqstool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqstool-0.4.3.tar.gz tmp/reqstool-0.4.4.tar.gz --markdown 20240507/r/reqstool/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-07 12:27:22] INFO root fetch - processPackages [mlops-ods]: executing diffoscope
+[2024-05-07 12:27:22] INFO root fetch - processPackages [mlops-ods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlops_ods-0.1.202405061002.tar.gz tmp/mlops_ods-0.1.202405071027.tar.gz --markdown 20240507/m/mlops-ods/0.1.202405061002-0.1.202405071027/README.md --exclude *.pyd
+[2024-05-07 12:27:22] INFO root fetch - processPackages [auto-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/auto-fastapi-0.0.3.tar.gz]
+[2024-05-07 12:27:22] INFO root fetch - processPackages [auto-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/auto-fastapi-0.1.0.tar.gz]
+[2024-05-07 12:27:22] INFO root fetch - main [MainThread]: End processing [auto-fastapi]: success
+[2024-05-07 12:27:22] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-07 12:27:22] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-07 12:27:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-sepa-direct-debit]: success
+[2024-05-07 12:27:22] INFO root fetch - processPackages [FancySchmancyTestsplit]: Remove: archive file [/home/abi/fetcher/tmp/FancySchmancyTestsplit-0.1.8.tar.gz]
+[2024-05-07 12:27:22] INFO root fetch - processPackages [FancySchmancyTestsplit]: Remove: archive file [/home/abi/fetcher/tmp/FancySchmancyTestsplit-0.1.9.tar.gz]
+[2024-05-07 12:27:22] INFO root fetch - main [MainThread]: End processing [FancySchmancyTestsplit]: success
+[2024-05-07 12:27:22] INFO root fetch - processPackages [AlgoGrade]: Remove: archive file [/home/abi/fetcher/tmp/AlgoGrade-1.0.8.tar.gz]
+[2024-05-07 12:27:22] INFO root fetch - processPackages [AlgoGrade]: Remove: archive file [/home/abi/fetcher/tmp/AlgoGrade-1.0.9.tar.gz]
+[2024-05-07 12:27:22] INFO root fetch - main [MainThread]: End processing [AlgoGrade]: success
+[2024-05-07 12:27:23] INFO root fetch - processPackages [reqstool]: Remove: archive file [/home/abi/fetcher/tmp/reqstool-0.4.3.tar.gz]
+[2024-05-07 12:27:23] INFO root fetch - processPackages [reqstool]: Remove: archive file [/home/abi/fetcher/tmp/reqstool-0.4.4.tar.gz]
+[2024-05-07 12:27:23] INFO root fetch - main [MainThread]: End processing [reqstool]: success
+[2024-05-07 12:27:23] INFO root fetch - processPackages [mlops-ods]: Remove: archive file [/home/abi/fetcher/tmp/mlops_ods-0.1.202405061002.tar.gz]
+[2024-05-07 12:27:23] INFO root fetch - processPackages [mlops-ods]: Remove: archive file [/home/abi/fetcher/tmp/mlops_ods-0.1.202405071027.tar.gz]
+[2024-05-07 12:27:23] INFO root fetch - main [MainThread]: End processing [mlops-ods]: success
+[2024-05-07 12:27:23] INFO root fetch - main [MainThread]: Store serial: [23093617]
