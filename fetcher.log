@@ -8277,3 +8277,72 @@ EOFError: EOF read where object expected
 [2024-05-07 04:01:03] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.6.0-py3-none-any.whl.zip]
 [2024-05-07 04:01:03] INFO root fetch - main [MainThread]: End processing [ip-check]: success
 [2024-05-07 04:01:03] INFO root fetch - main [MainThread]: Store serial: [23088270]
+[2024-05-07 04:03:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088270]
+[2024-05-07 04:03:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-07 04:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contentctl
+[2024-05-07 04:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cardex
+[2024-05-07 04:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-telegram-broadcast
+[2024-05-07 04:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eidolon-ai-client
+[2024-05-07 04:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eidolon-ai-sdk
+[2024-05-07 04:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ooo-dev-tools
+[2024-05-07 04:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pebblo
+[2024-05-07 04:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sz-utils
+[2024-05-07 04:03:12] INFO root fetch - processPackages [eidolon-ai-sdk]: New version: [0.1.49] Old Version: [0.1.48]
+[2024-05-07 04:03:12] INFO root fetch - processPackages [python-telegram-broadcast]: New version: [0.6] Old Version: [0.5]
+[2024-05-07 04:03:12] INFO root fetch - processPackages [eidolon-ai-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 04:03:12] INFO root fetch - processPackages [cardex]: New version: [0.2.0.dev9] Old Version: [0.2.0.dev8]
+[2024-05-07 04:03:12] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/90/53/39de2ce2b9216a049bf7f6bc85179ad359acbcc12ec609fc04f205bcbc29/eidolon_ai_sdk-0.1.48.tar.gz
+[2024-05-07 04:03:12] WARNING root fetch - processPackages [sz-utils]: Skipping, unable to determine old version
+[2024-05-07 04:03:12] INFO root fetch - main [MainThread]: End processing [sz-utils] error
+[2024-05-07 04:03:12] INFO root fetch - processPackages [pebblo]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 04:03:12] INFO root fetch - processPackages [eidolon-ai-client]: Downloading https://files.pythonhosted.org/packages/f0/61/6ca231006909006ba96753a764654d05e47de665b1bf7f42b131a6cdb841/eidolon_ai_client-0.1.8.tar.gz
+[2024-05-07 04:03:12] INFO root fetch - processPackages [contentctl]: New version: [4.0.1] Old Version: [3.6.0]
+[2024-05-07 04:03:12] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/c3/9f/9a64b8809613f9d258f528799cd03d6a3213f466f4fa1d7b90cc6a78606c/python-telegram-broadcast-0.5.tar.gz
+[2024-05-07 04:03:12] INFO root fetch - processPackages [ooo-dev-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-07 04:03:12] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/96/6e/6c4d87215e2446a0ac9bc903860b173f9fc347eb73dc8e4a21a298670a00/cardex-0.2.0.dev8.tar.gz
+[2024-05-07 04:03:12] INFO root fetch - processPackages [pebblo]: Downloading https://files.pythonhosted.org/packages/94/e4/ff581984f85164d28b824d5242289b1a69f0f38a712e2bf680c7dca773e4/pebblo-0.1.8-py3-none-any.whl
+[2024-05-07 04:03:12] INFO root fetch - processPackages [eidolon-ai-client]: Downloading https://files.pythonhosted.org/packages/14/16/63be890da3058c38960189037563296eb56f3d69154718e4a35d80261950/eidolon_ai_client-0.1.9.tar.gz
+[2024-05-07 04:03:12] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/25/92/9f41985fc2c5c12cbf987a46ed3df1c834eea8fbaed4d6b3c313eb178b25/python-telegram-broadcast-0.6.tar.gz
+[2024-05-07 04:03:12] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/41/44/3184c5212ea19d64e5dcf92dc1f7e0c08bda64a5787bdf62a49038d1b40a/ooo_dev_tools-0.9.7.tar.gz
+[2024-05-07 04:03:12] INFO root fetch - processPackages [contentctl]: Downloading https://files.pythonhosted.org/packages/3f/11/05607fb0fd5eacf192eebb2c94269e215398e88ec50aa63249809ce31dc8/contentctl-3.6.0.tar.gz
+[2024-05-07 04:03:12] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/11/13/57bd0ce039f94dcc187cf3c3ae0f03ac631222ab8261168ec03d30550fcc/eidolon_ai_sdk-0.1.49.tar.gz
+[2024-05-07 04:03:12] INFO root fetch - processPackages [eidolon-ai-client]: executing diffoscope
+[2024-05-07 04:03:12] INFO root fetch - processPackages [eidolon-ai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_client-0.1.8.tar.gz tmp/eidolon_ai_client-0.1.9.tar.gz --markdown 20240507/e/eidolon-ai-client/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 04:03:12] INFO root fetch - processPackages [python-telegram-broadcast]: executing diffoscope
+[2024-05-07 04:03:12] INFO root fetch - processPackages [python-telegram-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-telegram-broadcast-0.5.tar.gz tmp/python-telegram-broadcast-0.6.tar.gz --markdown 20240507/p/python-telegram-broadcast/0.5-0.6/README.md --exclude *.pyd
+[2024-05-07 04:03:12] INFO root fetch - processPackages [eidolon-ai-sdk]: executing diffoscope
+[2024-05-07 04:03:12] INFO root fetch - processPackages [eidolon-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_sdk-0.1.48.tar.gz tmp/eidolon_ai_sdk-0.1.49.tar.gz --markdown 20240507/e/eidolon-ai-sdk/0.1.48-0.1.49/README.md --exclude *.pyd
+[2024-05-07 04:03:13] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/a5/f1/936319cd5a1e0862bc33edbce29c37659ee57c4782e76613d4ce0b406196/cardex-0.2.0.dev9.tar.gz
+[2024-05-07 04:03:13] INFO root fetch - processPackages [contentctl]: Downloading https://files.pythonhosted.org/packages/c2/d4/c37c4e84550a816cfadccb5c96ded2fdf871a10b3d54fc1a4b08c42b1291/contentctl-4.0.1.tar.gz
+[2024-05-07 04:03:13] INFO root fetch - processPackages [cardex]: executing diffoscope
+[2024-05-07 04:03:13] INFO root fetch - processPackages [cardex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardex-0.2.0.dev8.tar.gz tmp/cardex-0.2.0.dev9.tar.gz --markdown 20240507/c/cardex/0.2.0.dev8-0.2.0.dev9/README.md --exclude *.pyd
+[2024-05-07 04:03:13] INFO root fetch - processPackages [contentctl]: executing diffoscope
+[2024-05-07 04:03:13] INFO root fetch - processPackages [contentctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contentctl-3.6.0.tar.gz tmp/contentctl-4.0.1.tar.gz --markdown 20240507/c/contentctl/3.6.0-4.0.1/README.md --exclude *.pyd
+[2024-05-07 04:03:13] INFO root fetch - processPackages [eidolon-ai-client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.8.tar.gz]
+[2024-05-07 04:03:13] INFO root fetch - processPackages [eidolon-ai-client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.9.tar.gz]
+[2024-05-07 04:03:13] INFO root fetch - main [MainThread]: End processing [eidolon-ai-client]: success
+[2024-05-07 04:03:13] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-broadcast-0.5.tar.gz]
+[2024-05-07 04:03:13] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-broadcast-0.6.tar.gz]
+[2024-05-07 04:03:13] INFO root fetch - main [MainThread]: End processing [python-telegram-broadcast]: success
+[2024-05-07 04:03:13] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/20/e8/b38a2ad24f414b81985e10c35e1192cb22350ca6b0dc68f0104509e3c0bf/ooo_dev_tools-0.9.8.tar.gz
+[2024-05-07 04:03:13] INFO root fetch - processPackages [pebblo]: Downloading https://files.pythonhosted.org/packages/86/2e/3d07d6f0c72c18bcde1722b242095a148a3be74ff881233f64d55496ec59/pebblo-0.1.9-py3-none-any.whl
+[2024-05-07 04:03:13] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev8.tar.gz]
+[2024-05-07 04:03:13] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev9.tar.gz]
+[2024-05-07 04:03:13] INFO root fetch - main [MainThread]: End processing [cardex]: success
+[2024-05-07 04:03:13] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.48.tar.gz]
+[2024-05-07 04:03:13] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.49.tar.gz]
+[2024-05-07 04:03:13] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
+[2024-05-07 04:03:14] INFO root fetch - processPackages [ooo-dev-tools]: executing diffoscope
+[2024-05-07 04:03:14] INFO root fetch - processPackages [ooo-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooo_dev_tools-0.9.7.tar.gz tmp/ooo_dev_tools-0.9.8.tar.gz --markdown 20240507/o/ooo-dev-tools/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-07 04:03:14] INFO root fetch - processPackages [contentctl]: Remove: archive file [/home/abi/fetcher/tmp/contentctl-3.6.0.tar.gz]
+[2024-05-07 04:03:14] INFO root fetch - processPackages [contentctl]: Remove: archive file [/home/abi/fetcher/tmp/contentctl-4.0.1.tar.gz]
+[2024-05-07 04:03:14] INFO root fetch - main [MainThread]: End processing [contentctl]: success
+[2024-05-07 04:03:14] INFO root fetch - processPackages [pebblo]: executing diffoscope
+[2024-05-07 04:03:14] INFO root fetch - processPackages [pebblo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pebblo-0.1.8-py3-none-any.whl.zip tmp/pebblo-0.1.9-py3-none-any.whl.zip --markdown 20240507/p/pebblo/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 04:03:15] INFO root fetch - processPackages [pebblo]: Remove: archive file [/home/abi/fetcher/tmp/pebblo-0.1.8-py3-none-any.whl.zip]
+[2024-05-07 04:03:15] INFO root fetch - processPackages [pebblo]: Remove: archive file [/home/abi/fetcher/tmp/pebblo-0.1.9-py3-none-any.whl.zip]
+[2024-05-07 04:03:15] INFO root fetch - main [MainThread]: End processing [pebblo]: success
+[2024-05-07 04:03:16] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.7.tar.gz]
+[2024-05-07 04:03:16] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
+[2024-05-07 04:03:16] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
+[2024-05-07 04:03:16] INFO root fetch - main [MainThread]: Store serial: [23088295]
