@@ -3527,3 +3527,24 @@ EOFError: EOF read where object expected
 [2024-05-07 02:30:27] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240506.tar.gz]
 [2024-05-07 02:30:27] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
 [2024-05-07 02:30:27] INFO root fetch - main [MainThread]: Store serial: [23086588]
+[2024-05-07 02:32:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086588]
+[2024-05-07 02:32:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 02:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unkey.py
+[2024-05-07 02:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: makim
+[2024-05-07 02:32:36] INFO root fetch - processPackages [unkey.py]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-07 02:32:36] INFO root fetch - processPackages [makim]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-07 02:32:36] INFO root fetch - processPackages [unkey.py]: Downloading https://files.pythonhosted.org/packages/17/f5/a4e1907683ba93adcf2ebe9b159da133449b63d4c45d64c9e20d06d5d5a0/unkey_py-0.7.1.tar.gz
+[2024-05-07 02:32:36] INFO root fetch - processPackages [makim]: Downloading https://files.pythonhosted.org/packages/e0/3d/e4e4792cd68166efa4aecf9819e43dabfe79f6516ce300d172485d08781a/makim-1.9.0.tar.gz
+[2024-05-07 02:32:36] INFO root fetch - processPackages [unkey.py]: Downloading https://files.pythonhosted.org/packages/e5/49/5ad9cbb8840fea5c6bc0f1dcf702478d0b85e139b5455a4acc288a738d18/unkey_py-0.7.2.tar.gz
+[2024-05-07 02:32:36] INFO root fetch - processPackages [unkey.py]: executing diffoscope
+[2024-05-07 02:32:36] INFO root fetch - processPackages [unkey.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unkey_py-0.7.1.tar.gz tmp/unkey_py-0.7.2.tar.gz --markdown 20240507/u/unkey.py/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-07 02:32:36] INFO root fetch - processPackages [makim]: Downloading https://files.pythonhosted.org/packages/76/49/a70877421ce911916f2cf111c95e72b135947a0be408d0da6ef609089b72/makim-1.9.1.tar.gz
+[2024-05-07 02:32:37] INFO root fetch - processPackages [makim]: executing diffoscope
+[2024-05-07 02:32:37] INFO root fetch - processPackages [makim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makim-1.9.0.tar.gz tmp/makim-1.9.1.tar.gz --markdown 20240507/m/makim/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-07 02:32:37] INFO root fetch - processPackages [unkey.py]: Remove: archive file [/home/abi/fetcher/tmp/unkey_py-0.7.1.tar.gz]
+[2024-05-07 02:32:37] INFO root fetch - processPackages [unkey.py]: Remove: archive file [/home/abi/fetcher/tmp/unkey_py-0.7.2.tar.gz]
+[2024-05-07 02:32:37] INFO root fetch - main [MainThread]: End processing [unkey.py]: success
+[2024-05-07 02:32:37] INFO root fetch - processPackages [makim]: Remove: archive file [/home/abi/fetcher/tmp/makim-1.9.0.tar.gz]
+[2024-05-07 02:32:37] INFO root fetch - processPackages [makim]: Remove: archive file [/home/abi/fetcher/tmp/makim-1.9.1.tar.gz]
+[2024-05-07 02:32:37] INFO root fetch - main [MainThread]: End processing [makim]: success
+[2024-05-07 02:32:37] INFO root fetch - main [MainThread]: Store serial: [23086596]
