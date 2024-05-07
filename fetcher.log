@@ -13942,3 +13942,120 @@ EOFError: EOF read where object expected
 [2024-05-07 08:52:55] INFO root fetch - processPackages [accelbyte-py-sdk-service-ugc]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-ugc-0.9.0.tar.gz]
 [2024-05-07 08:52:55] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-ugc]: success
 [2024-05-07 08:52:55] INFO root fetch - main [MainThread]: Store serial: [23090993]
+[2024-05-07 08:54:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090993]
+[2024-05-07 08:55:04] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-07 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlfactory
+[2024-05-07 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-tls
+[2024-05-07 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-splunk
+[2024-05-07 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: accelbyte-py-sdk-all
+[2024-05-07 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pluggingz
+[2024-05-07 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: turbo_boot
+[2024-05-07 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-nightly
+[2024-05-07 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iota-sdk
+[2024-05-07 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-spotinst
+[2024-05-07 08:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: botifyme
+[2024-05-07 08:55:04] INFO root fetch - processPackages [botifyme]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-07 08:55:04] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.34.1.dev20240505] Old Version: [1.34.1.dev20240504]
+[2024-05-07 08:55:04] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-05-07 08:55:04] WARNING root fetch - processPackages [turbo_boot]: Skipping, unable to determine old version
+[2024-05-07 08:55:04] INFO root fetch - processPackages [turbo_boot]: Start processing: music-kraken
+[2024-05-07 08:55:04] INFO root fetch - main [MainThread]: End processing [turbo_boot] error
+[2024-05-07 08:55:04] INFO root fetch - processPackages [accelbyte-py-sdk-all]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-07 08:55:04] WARNING root fetch - processPackages [pluggingz]: Skipping, unable to determine old version
+[2024-05-07 08:55:04] INFO root fetch - processPackages [pluggingz]: Start processing: pulumi-ns1
+[2024-05-07 08:55:04] INFO root fetch - main [MainThread]: End processing [pluggingz] error
+[2024-05-07 08:55:04] INFO root fetch - processPackages [botifyme]: Downloading https://files.pythonhosted.org/packages/35/d7/7c0c6fde7579a16122e40390e651e404634c48e48e33afd26b1d54aac530/botifyme-0.1.2.tar.gz
+[2024-05-07 08:55:04] INFO root fetch - processPackages [sqlfactory]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-05-07 08:55:04] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.7.0]
+[2024-05-07 08:55:04] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1715063522] Old Version: [5.1.0a1714566736]
+[2024-05-07 08:55:04] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1715063294] Old Version: [1.3.0a1714565742]
+[2024-05-07 08:55:04] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-05-07 08:55:04] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/87/ac/80ac35ea3b39b39e77bcf206a74d068fa0ac7fd1e1da80633f5036595b53/streamlit_nightly-1.34.1.dev20240504.tar.gz
+[2024-05-07 08:55:04] INFO root fetch - processPackages [iota-sdk]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-07 08:55:04] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/cb/06/8ae70afb14c2307fb716d0fe36aad66a90c9e2598f47879c1277c5f23318/music_kraken-1.7.0.tar.gz
+[2024-05-07 08:55:04] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.3.0a1715061254] Old Version: [3.3.0a1714564361]
+[2024-05-07 08:55:04] INFO root fetch - processPackages [accelbyte-py-sdk-all]: Downloading https://files.pythonhosted.org/packages/80/20/82df8a0a95324ca9dc567aa0bf9eaeec6fb52ca4831e04f0a2915611c533/accelbyte-py-sdk-all-0.4.0.tar.gz
+[2024-05-07 08:55:04] INFO root fetch - processPackages [sqlfactory]: Downloading https://files.pythonhosted.org/packages/61/45/7257933f35152a20ad411f97e93d4f9d390777f46ee38da168b2441b14ba/sqlfactory-1.0.3.tar.gz
+[2024-05-07 08:55:04] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/08/ae/4dc8d2c94f6167110c944eeb9c2c85afff5b84aac520f5d72aa988b10df1/pulumi_tls-5.1.0a1714566736.tar.gz
+[2024-05-07 08:55:04] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/e6/fb/8888fc9440c55045caea001dc58676c3bea8c135b222b52412a50a76f669/pulumi_splunk-1.3.0a1714565742.tar.gz
+[2024-05-07 08:55:04] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/36/63/d4a18332acc45689e1d61f9992bcae49aeb8560932240b0cad93bb0f52e6/pulumi_ns1-3.3.0a1714564361.tar.gz
+[2024-05-07 08:55:04] INFO root fetch - processPackages [iota-sdk]: Downloading https://files.pythonhosted.org/packages/c8/d6/00009cb1fa1d1343fbfd5d4143969d84a10a81c4a911d7af75eda34caaef/iota_sdk-1.1.3-cp39-none-win_amd64.whl
+[2024-05-07 08:55:04] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-05-07 08:55:04] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-05-07 08:55:05] INFO root fetch - processPackages [botifyme]: Downloading https://files.pythonhosted.org/packages/66/5c/98e7df17437678ef4cdc01f9ec91c544d284c512cc7a23ad0d0b82b8d758/botifyme-0.1.3.tar.gz
+[2024-05-07 08:55:05] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-05-07 08:55:05] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.7.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240507/m/music-kraken/1.7.0-1.9.0/README.md --exclude *.pyd
+[2024-05-07 08:55:05] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-05-07 08:55:05] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240507/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/README.md --exclude *.pyd
+[2024-05-07 08:55:05] INFO root fetch - processPackages [accelbyte-py-sdk-all]: Downloading https://files.pythonhosted.org/packages/47/c1/97a76550213a0ae689785fa54924dea9d864c1c6013513c0c75a7c4c1eb6/accelbyte_py_sdk_all-0.5.0.tar.gz
+[2024-05-07 08:55:05] INFO root fetch - processPackages [sqlfactory]: Downloading https://files.pythonhosted.org/packages/55/5e/069f9ffeedca22c34745cbdcea9446013c4e6f73efd2ea0166c5633324fd/sqlfactory-1.1.0.tar.gz
+[2024-05-07 08:55:05] INFO root fetch - processPackages [botifyme]: executing diffoscope
+[2024-05-07 08:55:05] INFO root fetch - processPackages [botifyme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botifyme-0.1.2.tar.gz tmp/botifyme-0.1.3.tar.gz --markdown 20240507/b/botifyme/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-07 08:55:05] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/5f/3c/16f02327072945c73a202e7ff79d120016af67a9796478bf728a8e0d59eb/pulumi_tls-5.1.0a1715063522.tar.gz
+[2024-05-07 08:55:05] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/a6/f9/a2c88df91cd460ceb89520b65abb31f3ee33b32be2b5e425702b77583096/pulumi_ns1-3.3.0a1715061254.tar.gz
+[2024-05-07 08:55:05] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/4f/06/a8791a0f44ad28fa104a7a534260a30b0c7aa1f9fce92cf05d71f43a257e/pulumi_splunk-1.3.0a1715063294.tar.gz
+[2024-05-07 08:55:05] INFO root fetch - processPackages [accelbyte-py-sdk-all]: executing diffoscope
+[2024-05-07 08:55:05] INFO root fetch - processPackages [accelbyte-py-sdk-all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-all-0.4.0.tar.gz tmp/accelbyte_py_sdk_all-0.5.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-all/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-07 08:55:05] INFO root fetch - processPackages [sqlfactory]: executing diffoscope
+[2024-05-07 08:55:05] INFO root fetch - processPackages [sqlfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfactory-1.0.3.tar.gz tmp/sqlfactory-1.1.0.tar.gz --markdown 20240507/s/sqlfactory/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-05-07 08:55:05] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-05-07 08:55:05] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1714566736.tar.gz tmp/pulumi_tls-5.1.0a1715063522.tar.gz --markdown 20240507/p/pulumi-tls/5.1.0a1714566736-5.1.0a1715063522/README.md --exclude *.pyd
+[2024-05-07 08:55:05] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2024-05-07 08:55:05] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1714565742.tar.gz tmp/pulumi_splunk-1.3.0a1715063294.tar.gz --markdown 20240507/p/pulumi-splunk/1.3.0a1714565742-1.3.0a1715063294/README.md --exclude *.pyd
+[2024-05-07 08:55:05] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2024-05-07 08:55:05] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.3.0a1714564361.tar.gz tmp/pulumi_ns1-3.3.0a1715061254.tar.gz --markdown 20240507/p/pulumi-ns1/3.3.0a1714564361-3.3.0a1715061254/README.md --exclude *.pyd
+[2024-05-07 08:55:05] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/fe/4b/9ee33e097f9f1c433c7a0c8d3d5401f063cc2873126ff18dad10a1d1a391/streamlit_nightly-1.34.1.dev20240505.tar.gz
+[2024-05-07 08:55:05] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.7.0.tar.gz]
+[2024-05-07 08:55:05] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-05-07 08:55:05] INFO root fetch - processPackages [music-kraken]: Start processing: devinci-pybuilder
+[2024-05-07 08:55:05] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-05-07 08:55:06] INFO root fetch - processPackages [botifyme]: Remove: archive file [/home/abi/fetcher/tmp/botifyme-0.1.2.tar.gz]
+[2024-05-07 08:55:06] INFO root fetch - processPackages [botifyme]: Remove: archive file [/home/abi/fetcher/tmp/botifyme-0.1.3.tar.gz]
+[2024-05-07 08:55:06] INFO root fetch - processPackages [botifyme]: Start processing: django-environment-config
+[2024-05-07 08:55:06] INFO root fetch - main [MainThread]: End processing [botifyme]: success
+[2024-05-07 08:55:06] INFO root fetch - processPackages [devinci-pybuilder]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-05-07 08:55:06] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-05-07 08:55:06] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.34.1.dev20240504.tar.gz tmp/streamlit_nightly-1.34.1.dev20240505.tar.gz --markdown 20240507/s/streamlit-nightly/1.34.1.dev20240504-1.34.1.dev20240505/README.md --exclude *.pyd
+[2024-05-07 08:55:06] INFO root fetch - processPackages [accelbyte-py-sdk-all]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-all-0.4.0.tar.gz]
+[2024-05-07 08:55:06] INFO root fetch - processPackages [accelbyte-py-sdk-all]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_all-0.5.0.tar.gz]
+[2024-05-07 08:55:06] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-all]: success
+[2024-05-07 08:55:06] INFO root fetch - processPackages [django-environment-config]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 08:55:06] INFO root fetch - processPackages [iota-sdk]: Downloading https://files.pythonhosted.org/packages/6b/24/4aa24f10c6c52940d8e4a8aaa4e19974ba80cc85013de737ae71c59f225d/iota_sdk-1.1.4-cp38-none-win_amd64.whl
+[2024-05-07 08:55:06] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-05-07 08:55:06] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-05-07 08:55:06] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-05-07 08:55:06] INFO root fetch - processPackages [devinci-pybuilder]: Downloading https://files.pythonhosted.org/packages/03/0b/564e03919b954c4e27e6b51d2a72358dfcba1d512f0ea61d4cf566c12b0c/devinci_pybuilder-0.0.3.tar.gz
+[2024-05-07 08:55:06] INFO root fetch - processPackages [sqlfactory]: Remove: archive file [/home/abi/fetcher/tmp/sqlfactory-1.0.3.tar.gz]
+[2024-05-07 08:55:06] INFO root fetch - processPackages [sqlfactory]: Remove: archive file [/home/abi/fetcher/tmp/sqlfactory-1.1.0.tar.gz]
+[2024-05-07 08:55:06] INFO root fetch - main [MainThread]: End processing [sqlfactory]: success
+[2024-05-07 08:55:06] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1714564361.tar.gz]
+[2024-05-07 08:55:06] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1715061254.tar.gz]
+[2024-05-07 08:55:06] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2024-05-07 08:55:06] INFO root fetch - processPackages [django-environment-config]: Downloading https://files.pythonhosted.org/packages/9e/26/8b835b3e9c4ddfb5c95b5aca7300648dc78a9a7c98b5849a4e0ad8a16811/django_environment_config-0.1.0.tar.gz
+[2024-05-07 08:55:06] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1714565742.tar.gz]
+[2024-05-07 08:55:06] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1715063294.tar.gz]
+[2024-05-07 08:55:06] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2024-05-07 08:55:06] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1714566736.tar.gz]
+[2024-05-07 08:55:06] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1715063522.tar.gz]
+[2024-05-07 08:55:06] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-05-07 08:55:06] INFO root fetch - processPackages [devinci-pybuilder]: Downloading https://files.pythonhosted.org/packages/6a/7d/b38d9f69a876a25422b84daadc12a1d1ff6d7565ca381727e1780446aeae/devinci_pybuilder-0.1.0.tar.gz
+[2024-05-07 08:55:06] INFO root fetch - processPackages [django-environment-config]: Downloading https://files.pythonhosted.org/packages/99/8a/f36202c92b4763ffc14c156e8dba7dc51245f9d284c4ee3b1f240ae01675/django_environment_config-0.1.1.tar.gz
+[2024-05-07 08:55:06] INFO root fetch - processPackages [devinci-pybuilder]: executing diffoscope
+[2024-05-07 08:55:06] INFO root fetch - processPackages [devinci-pybuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devinci_pybuilder-0.0.3.tar.gz tmp/devinci_pybuilder-0.1.0.tar.gz --markdown 20240507/d/devinci-pybuilder/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-05-07 08:55:07] INFO root fetch - processPackages [devinci-pybuilder]: Remove: archive file [/home/abi/fetcher/tmp/devinci_pybuilder-0.0.3.tar.gz]
+[2024-05-07 08:55:07] INFO root fetch - processPackages [devinci-pybuilder]: Remove: archive file [/home/abi/fetcher/tmp/devinci_pybuilder-0.1.0.tar.gz]
+[2024-05-07 08:55:07] INFO root fetch - main [MainThread]: End processing [devinci-pybuilder]: success
+[2024-05-07 08:55:07] INFO root fetch - processPackages [django-environment-config]: executing diffoscope
+[2024-05-07 08:55:07] INFO root fetch - processPackages [django-environment-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_environment_config-0.1.0.tar.gz tmp/django_environment_config-0.1.1.tar.gz --markdown 20240507/d/django-environment-config/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 08:55:07] INFO root fetch - processPackages [django-environment-config]: Remove: archive file [/home/abi/fetcher/tmp/django_environment_config-0.1.0.tar.gz]
+[2024-05-07 08:55:07] INFO root fetch - processPackages [django-environment-config]: Remove: archive file [/home/abi/fetcher/tmp/django_environment_config-0.1.1.tar.gz]
+[2024-05-07 08:55:07] INFO root fetch - main [MainThread]: End processing [django-environment-config]: success
+[2024-05-07 08:55:09] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240504.tar.gz]
+[2024-05-07 08:55:09] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240505.tar.gz]
+[2024-05-07 08:55:09] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-05-07 08:55:09] INFO root fetch - processPackages [iota-sdk]: executing diffoscope
+[2024-05-07 08:55:09] INFO root fetch - processPackages [iota-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iota_sdk-1.1.3-cp39-none-win_amd64.whl.zip tmp/iota_sdk-1.1.4-cp38-none-win_amd64.whl.zip --markdown 20240507/i/iota-sdk/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-07 08:55:10] INFO root fetch - processPackages [iota-sdk]: Remove: archive file [/home/abi/fetcher/tmp/iota_sdk-1.1.3-cp39-none-win_amd64.whl.zip]
+[2024-05-07 08:55:10] INFO root fetch - processPackages [iota-sdk]: Remove: archive file [/home/abi/fetcher/tmp/iota_sdk-1.1.4-cp38-none-win_amd64.whl.zip]
+[2024-05-07 08:55:10] INFO root fetch - main [MainThread]: End processing [iota-sdk]: success
+[2024-05-07 08:55:10] INFO root fetch - main [MainThread]: Store serial: [23091049]
