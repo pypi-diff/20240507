@@ -10688,3 +10688,39 @@ EOFError: EOF read where object expected
 [2024-05-07 06:16:04] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-05-07 06:16:04] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-05-07 06:16:04] INFO root fetch - main [MainThread]: Store serial: [23089327]
+[2024-05-07 06:18:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089327]
+[2024-05-07 06:18:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 06:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kjutils
+[2024-05-07 06:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmdsclient
+[2024-05-07 06:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gridfanapi
+[2024-05-07 06:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: horsebackz
+[2024-05-07 06:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ScreenPro2
+[2024-05-07 06:18:12] INFO root fetch - processPackages [tmdsclient]: New version: [0.2.0] Old Version: [0.1.22]
+[2024-05-07 06:18:12] WARNING root fetch - processPackages [horsebackz]: Skipping, unable to determine old version
+[2024-05-07 06:18:12] INFO root fetch - processPackages [tmdsclient]: Downloading https://files.pythonhosted.org/packages/6c/d0/5e2b25ade5622ff7bc87f16de441dbc7775d35688a3b23317756021ab28e/tmdsclient-0.1.22.tar.gz
+[2024-05-07 06:18:12] INFO root fetch - main [MainThread]: End processing [horsebackz] error
+[2024-05-07 06:18:12] INFO root fetch - processPackages [ScreenPro2]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-07 06:18:12] INFO root fetch - processPackages [kjutils]: New version: [1.7] Old Version: [1.6]
+[2024-05-07 06:18:12] WARNING root fetch - processPackages [gridfanapi]: Skipping, unable to determine old version
+[2024-05-07 06:18:12] INFO root fetch - main [MainThread]: End processing [gridfanapi] error
+[2024-05-07 06:18:13] INFO root fetch - processPackages [ScreenPro2]: Downloading https://files.pythonhosted.org/packages/64/10/5fd6a74f690b67d73d2f0adcb0017c7892cc5c83d022522ae67bd0d7dbcd/ScreenPro2-0.2.8-py2.py3-none-any.whl
+[2024-05-07 06:18:13] INFO root fetch - processPackages [kjutils]: Downloading https://files.pythonhosted.org/packages/41/f8/1fd38d2be99a65303968058676c59bc362f0e5895ebb26c483e01b21b4c4/kjutils-1.6-py3-none-any.whl
+[2024-05-07 06:18:13] INFO root fetch - processPackages [tmdsclient]: Downloading https://files.pythonhosted.org/packages/20/b9/b9065e160915f4fdd25f550aca638c59ae90ae54c5a93d5aeedca36197e1/tmdsclient-0.2.0.tar.gz
+[2024-05-07 06:18:13] INFO root fetch - processPackages [tmdsclient]: executing diffoscope
+[2024-05-07 06:18:13] INFO root fetch - processPackages [tmdsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmdsclient-0.1.22.tar.gz tmp/tmdsclient-0.2.0.tar.gz --markdown 20240507/t/tmdsclient/0.1.22-0.2.0/README.md --exclude *.pyd
+[2024-05-07 06:18:13] INFO root fetch - processPackages [kjutils]: Downloading https://files.pythonhosted.org/packages/8b/8f/2cb7d13a7ed90dd0365c5c66df8e04f52577b05ebba4a56247dca91beeaf/kjutils-1.7-py3-none-any.whl
+[2024-05-07 06:18:13] INFO root fetch - processPackages [ScreenPro2]: Downloading https://files.pythonhosted.org/packages/7d/8a/61bafdb52eb9fcce0d3c7b4deeef65bdf99aee21d23a408eb4bd3d9b2692/ScreenPro2-0.2.9-py2.py3-none-any.whl
+[2024-05-07 06:18:13] INFO root fetch - processPackages [kjutils]: executing diffoscope
+[2024-05-07 06:18:13] INFO root fetch - processPackages [kjutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kjutils-1.6-py3-none-any.whl.zip tmp/kjutils-1.7-py3-none-any.whl.zip --markdown 20240507/k/kjutils/1.6-1.7/README.md --exclude *.pyd
+[2024-05-07 06:18:13] INFO root fetch - processPackages [ScreenPro2]: executing diffoscope
+[2024-05-07 06:18:13] INFO root fetch - processPackages [ScreenPro2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScreenPro2-0.2.8-py2.py3-none-any.whl.zip tmp/ScreenPro2-0.2.9-py2.py3-none-any.whl.zip --markdown 20240507/S/ScreenPro2/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-07 06:18:13] INFO root fetch - processPackages [tmdsclient]: Remove: archive file [/home/abi/fetcher/tmp/tmdsclient-0.1.22.tar.gz]
+[2024-05-07 06:18:13] INFO root fetch - processPackages [tmdsclient]: Remove: archive file [/home/abi/fetcher/tmp/tmdsclient-0.2.0.tar.gz]
+[2024-05-07 06:18:13] INFO root fetch - main [MainThread]: End processing [tmdsclient]: success
+[2024-05-07 06:18:13] INFO root fetch - processPackages [kjutils]: Remove: archive file [/home/abi/fetcher/tmp/kjutils-1.6-py3-none-any.whl.zip]
+[2024-05-07 06:18:13] INFO root fetch - processPackages [kjutils]: Remove: archive file [/home/abi/fetcher/tmp/kjutils-1.7-py3-none-any.whl.zip]
+[2024-05-07 06:18:13] INFO root fetch - main [MainThread]: End processing [kjutils]: success
+[2024-05-07 06:18:14] INFO root fetch - processPackages [ScreenPro2]: Remove: archive file [/home/abi/fetcher/tmp/ScreenPro2-0.2.8-py2.py3-none-any.whl.zip]
+[2024-05-07 06:18:14] INFO root fetch - processPackages [ScreenPro2]: Remove: archive file [/home/abi/fetcher/tmp/ScreenPro2-0.2.9-py2.py3-none-any.whl.zip]
+[2024-05-07 06:18:14] INFO root fetch - main [MainThread]: End processing [ScreenPro2]: success
+[2024-05-07 06:18:14] INFO root fetch - main [MainThread]: Store serial: [23089341]
