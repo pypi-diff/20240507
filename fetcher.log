@@ -16379,3 +16379,66 @@ EOFError: EOF read where object expected
 [2024-05-07 10:24:03] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.9.0.tar.gz]
 [2024-05-07 10:24:03] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2024-05-07 10:24:03] INFO root fetch - main [MainThread]: Store serial: [23092155]
+[2024-05-07 10:26:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092155]
+[2024-05-07 10:26:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-07 10:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangoldp-energiepartagee
+[2024-05-07 10:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pathobj-handler
+[2024-05-07 10:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tool-use
+[2024-05-07 10:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: niwatoko
+[2024-05-07 10:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qwak-core
+[2024-05-07 10:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvidia-cudnn-frontend
+[2024-05-07 10:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gaarf-exporter
+[2024-05-07 10:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: doku-python-library
+[2024-05-07 10:26:13] INFO root fetch - processPackages [niwatoko]: New version: [1.0.5] Old Version: [1.0.3]
+[2024-05-07 10:26:13] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-07 10:26:13] INFO root fetch - processPackages [qwak-core]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-07 10:26:13] WARNING root fetch - processPackages [pathobj-handler]: Skipping, unable to determine old version
+[2024-05-07 10:26:13] INFO root fetch - main [MainThread]: End processing [pathobj-handler] error
+[2024-05-07 10:26:13] INFO root fetch - processPackages [nvidia-cudnn-frontend]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-07 10:26:13] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/fe/30/45e1fdd71c07f49076d34cb6825ec479d53935b6f396918e0f5675ac394e/niwatoko-1.0.3.tar.gz
+[2024-05-07 10:26:13] INFO root fetch - processPackages [gaarf-exporter]: New version: [0.7.0rc1] Old Version: [0.7.0.dev2]
+[2024-05-07 10:26:13] INFO root fetch - processPackages [tool-use]: New version: [0.2.1rc1] Old Version: [0.2.0]
+[2024-05-07 10:26:13] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-07 10:26:13] WARNING root fetch - processPackages [doku-python-library]: Skipping, unable to determine old version
+[2024-05-07 10:26:13] INFO root fetch - main [MainThread]: End processing [doku-python-library] error
+[2024-05-07 10:26:13] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/91/50/398fddaafe78bbe7e391ddc622ac3bd91f1beadd25a13eeddfeb4d52556a/qwak_core-0.4.2.tar.gz
+[2024-05-07 10:26:13] INFO root fetch - processPackages [nvidia-cudnn-frontend]: Downloading https://files.pythonhosted.org/packages/ec/52/abb7fdbfb59394d89bc487ebc49c057096d6162dde8ba47c080fc6895b97/nvidia_cudnn_frontend-1.3.0-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+[2024-05-07 10:26:13] INFO root fetch - processPackages [tool-use]: Downloading https://files.pythonhosted.org/packages/da/08/cb5ff7b8413fe774cecafb5ad39713f4bf50202c076828964c2e899d3ad4/tool_use-0.2.0.tar.gz
+[2024-05-07 10:26:13] INFO root fetch - processPackages [gaarf-exporter]: Downloading https://files.pythonhosted.org/packages/56/6a/cd9390bdd2465065ebe88038bcc9c7bb5d3e5f6b5a526b764dc15e6f06da/gaarf-exporter-0.7.0.dev2.tar.gz
+[2024-05-07 10:26:13] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/df/8b/4535077613b522144a90e833e96e27dadddb83886984182a3d2dac7f664b/niwatoko-1.0.5.tar.gz
+[2024-05-07 10:26:13] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-07 10:26:13] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/ba/76/95305773140f405024441aabfc5f6adae4257a1d0c472f37cb15d2a87182/qwak_core-0.4.3.tar.gz
+[2024-05-07 10:26:13] INFO root fetch - processPackages [niwatoko]: executing diffoscope
+[2024-05-07 10:26:13] INFO root fetch - processPackages [niwatoko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niwatoko-1.0.3.tar.gz tmp/niwatoko-1.0.5.tar.gz --markdown 20240507/n/niwatoko/1.0.3-1.0.5/README.md --exclude *.pyd
+[2024-05-07 10:26:13] INFO root fetch - processPackages [tool-use]: Downloading https://files.pythonhosted.org/packages/84/f8/4f640c6cd84f451cc4a068078d671a4c993caa5058d03c1dd3096d8dc37f/tool_use-0.2.1rc1.tar.gz
+[2024-05-07 10:26:13] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-07 10:26:13] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240507/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-07 10:26:13] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-07 10:26:13] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.2.tar.gz tmp/qwak_core-0.4.3.tar.gz --markdown 20240507/q/qwak-core/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-07 10:26:13] INFO root fetch - processPackages [gaarf-exporter]: Downloading https://files.pythonhosted.org/packages/c6/af/1ba27e2e799955f43d3dc04d50110a6a740d4532e9add294d981bb72cf13/gaarf-exporter-0.7.0rc1.tar.gz
+[2024-05-07 10:26:13] INFO root fetch - processPackages [nvidia-cudnn-frontend]: Downloading https://files.pythonhosted.org/packages/4b/43/e1f992094cf4bd394ff7136618d198cc9c0c9fc671ee82872cf5ff1c04c5/nvidia_cudnn_frontend-1.4.0-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+[2024-05-07 10:26:14] INFO root fetch - processPackages [tool-use]: executing diffoscope
+[2024-05-07 10:26:14] INFO root fetch - processPackages [tool-use]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tool_use-0.2.0.tar.gz tmp/tool_use-0.2.1rc1.tar.gz --markdown 20240507/t/tool-use/0.2.0-0.2.1rc1/README.md --exclude *.pyd
+[2024-05-07 10:26:14] INFO root fetch - processPackages [gaarf-exporter]: executing diffoscope
+[2024-05-07 10:26:14] INFO root fetch - processPackages [gaarf-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaarf-exporter-0.7.0.dev2.tar.gz tmp/gaarf-exporter-0.7.0rc1.tar.gz --markdown 20240507/g/gaarf-exporter/0.7.0.dev2-0.7.0rc1/README.md --exclude *.pyd
+[2024-05-07 10:26:14] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.0.3.tar.gz]
+[2024-05-07 10:26:14] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.0.5.tar.gz]
+[2024-05-07 10:26:14] INFO root fetch - main [MainThread]: End processing [niwatoko]: success
+[2024-05-07 10:26:14] INFO root fetch - processPackages [tool-use]: Remove: archive file [/home/abi/fetcher/tmp/tool_use-0.2.0.tar.gz]
+[2024-05-07 10:26:14] INFO root fetch - processPackages [tool-use]: Remove: archive file [/home/abi/fetcher/tmp/tool_use-0.2.1rc1.tar.gz]
+[2024-05-07 10:26:14] INFO root fetch - main [MainThread]: End processing [tool-use]: success
+[2024-05-07 10:26:14] INFO root fetch - processPackages [gaarf-exporter]: Remove: archive file [/home/abi/fetcher/tmp/gaarf-exporter-0.7.0.dev2.tar.gz]
+[2024-05-07 10:26:14] INFO root fetch - processPackages [gaarf-exporter]: Remove: archive file [/home/abi/fetcher/tmp/gaarf-exporter-0.7.0rc1.tar.gz]
+[2024-05-07 10:26:14] INFO root fetch - main [MainThread]: End processing [gaarf-exporter]: success
+[2024-05-07 10:26:15] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-07 10:26:15] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-07 10:26:15] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-07 10:26:15] INFO root fetch - processPackages [nvidia-cudnn-frontend]: executing diffoscope
+[2024-05-07 10:26:15] INFO root fetch - processPackages [nvidia-cudnn-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_cudnn_frontend-1.3.0-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip tmp/nvidia_cudnn_frontend-1.4.0-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip --markdown 20240507/n/nvidia-cudnn-frontend/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-07 10:26:16] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.2.tar.gz]
+[2024-05-07 10:26:16] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.3.tar.gz]
+[2024-05-07 10:26:16] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-07 10:26:30] INFO root fetch - processPackages [nvidia-cudnn-frontend]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_cudnn_frontend-1.3.0-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip]
+[2024-05-07 10:26:30] INFO root fetch - processPackages [nvidia-cudnn-frontend]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_cudnn_frontend-1.4.0-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip]
+[2024-05-07 10:26:30] INFO root fetch - main [MainThread]: End processing [nvidia-cudnn-frontend]: success
+[2024-05-07 10:26:30] INFO root fetch - main [MainThread]: Store serial: [23092180]
