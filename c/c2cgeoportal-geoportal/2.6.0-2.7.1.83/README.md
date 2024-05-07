@@ -16882,7 +16882,7 @@
 
  * *Files identical despite different names*
 
-## Comparing `/tmp/diffoscope_gl130fw0_/tmpskwkit1c_ZipContainer/Readme.txt` & `/tmp/diffoscope_gl130fw0_/tmpojy2b5nh_ZipContainer/Readme.txt`
+## Comparing `/tmp/diffoscope_b_yjqi8b_/tmp3qaexk_n_ZipContainer/Readme.txt` & `/tmp/diffoscope_b_yjqi8b_/tmpyb10cx8e_ZipContainer/Readme.txt`
 
  * *Files 0% similar despite different names*
 
