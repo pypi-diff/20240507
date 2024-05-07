@@ -10973,3 +10973,15 @@ EOFError: EOF read where object expected
 [2024-05-07 06:39:52] INFO root fetch - processPackages [datamaker-sdk]: Remove: archive file [/home/abi/fetcher/tmp/datamaker_sdk-0.9.tar.gz]
 [2024-05-07 06:39:52] INFO root fetch - main [MainThread]: End processing [datamaker-sdk]: success
 [2024-05-07 06:39:52] INFO root fetch - main [MainThread]: Store serial: [23089483]
+[2024-05-07 06:41:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089483]
+[2024-05-07 06:42:00] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-07 06:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iac-init
+[2024-05-07 06:42:00] INFO root fetch - processPackages [iac-init]: New version: [0.5.7] Old Version: [0.5.5]
+[2024-05-07 06:42:00] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/12/14/932ecbe85a1f5e4653133b0dee903f6e88f560e43fa058daec012c5eca45/iac_init-0.5.5.tar.gz
+[2024-05-07 06:42:01] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/b4/76/9dbd335a814a839776fc49abd674304fe29b343fe87c42f0b0eed02126b5/iac_init-0.5.7.tar.gz
+[2024-05-07 06:42:01] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-07 06:42:01] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.5.5.tar.gz tmp/iac_init-0.5.7.tar.gz --markdown 20240507/i/iac-init/0.5.5-0.5.7/README.md --exclude *.pyd
+[2024-05-07 06:42:01] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.5.5.tar.gz]
+[2024-05-07 06:42:01] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.5.7.tar.gz]
+[2024-05-07 06:42:01] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-07 06:42:01] INFO root fetch - main [MainThread]: Store serial: [23089486]
