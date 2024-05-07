@@ -15260,3 +15260,74 @@ EOFError: EOF read where object expected
 [2024-05-07 09:35:38] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.0.tar.gz]
 [2024-05-07 09:35:38] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-07 09:35:38] INFO root fetch - main [MainThread]: Store serial: [23091627]
+[2024-05-07 09:37:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091627]
+[2024-05-07 09:37:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-07 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomic-bomb-engine
+[2024-05-07 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-modelopt
+[2024-05-07 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threed-optix
+[2024-05-07 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vfs-merge
+[2024-05-07 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rdb-json-parser
+[2024-05-07 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lalsuite
+[2024-05-07 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: s1-cns-cli
+[2024-05-07 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-customer-deposit-sale-margin
+[2024-05-07 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: omegi-python-instrumentation
+[2024-05-07 09:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xurpas-data-quality
+[2024-05-07 09:37:47] INFO root fetch - processPackages [omegi-python-instrumentation]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-07 09:37:47] WARNING root fetch - processPackages [rdb-json-parser]: Skipping, unable to determine old version
+[2024-05-07 09:37:47] INFO root fetch - main [MainThread]: End processing [rdb-json-parser] error
+[2024-05-07 09:37:47] INFO root fetch - processPackages [xurpas-data-quality]: New version: [0.0.3a1] Old Version: [0.0.3]
+[2024-05-07 09:37:47] INFO root fetch - processPackages [threed-optix]: New version: [5.0.4] Old Version: [5.0.2]
+[2024-05-07 09:37:48] WARNING root fetch - processPackages [vfs-merge]: Skipping, unable to determine old version
+[2024-05-07 09:37:48] INFO root fetch - main [MainThread]: End processing [vfs-merge] error
+[2024-05-07 09:37:48] INFO root fetch - processPackages [nvidia-modelopt]: New version: [0.11.1] Old Version: [0.11.0]
+[2024-05-07 09:37:48] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/bd/5c/b93edff93a5817d0bb0b9c961c9ca2f2c9878d9710b86e14412547a0c3d4/omegi_python_instrumentation-0.0.4.tar.gz
+[2024-05-07 09:37:48] WARNING root fetch - processPackages [odoo-addon-stock-customer-deposit-sale-margin]: Skipping, unable to determine old version
+[2024-05-07 09:37:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-customer-deposit-sale-margin] error
+[2024-05-07 09:37:48] INFO root fetch - processPackages [s1-cns-cli]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-07 09:37:48] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/2c/a5/8d381fbb3660cf1070fd8c44721fb68300f61b22dc6eecb2423180b8b2b6/xurpas_data_quality-0.0.3-py3-none-any.whl
+[2024-05-07 09:37:48] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/db/13/2a360240285f16129a679dd960274f677c835f5993757739dd09c3aed370/threed_optix-5.0.2.tar.gz
+[2024-05-07 09:37:48] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-07 09:37:48] INFO root fetch - processPackages [nvidia-modelopt]: Downloading https://files.pythonhosted.org/packages/4c/33/00504283f06d3d8ed01aed12379acb410126132a6dd6fac422f70673935d/nvidia_modelopt-0.11.0-cp39-cp39-win_amd64.whl
+[2024-05-07 09:37:48] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/67/b5/464c8836a78e96dd73f470abf22fa16672d5b747d72372254f2bfdd71d52/threed_optix-5.0.4.tar.gz
+[2024-05-07 09:37:48] INFO root fetch - processPackages [s1-cns-cli]: Downloading https://files.pythonhosted.org/packages/92/da/5e7d719fe1f161e70d14d74cd9c5ea2bc67f60e8b8d225e08d1a3944fe11/s1_cns_cli-0.3.4.tar.gz
+[2024-05-07 09:37:48] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-05-07 09:37:48] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/8a/c7/1cf231df351d4ca39e0b0e78791bc745182f76273dec3ef32c9f4bfb28c5/omegi_python_instrumentation-0.0.5.tar.gz
+[2024-05-07 09:37:48] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/54/c1/402742efef45136d8febade7fdd0a65735383f5bc76fd9e0bc5f9586f334/xurpas_data_quality-0.0.3a1-py3-none-any.whl
+[2024-05-07 09:37:48] INFO root fetch - processPackages [threed-optix]: executing diffoscope
+[2024-05-07 09:37:48] INFO root fetch - processPackages [threed-optix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threed_optix-5.0.2.tar.gz tmp/threed_optix-5.0.4.tar.gz --markdown 20240507/t/threed-optix/5.0.2-5.0.4/README.md --exclude *.pyd
+[2024-05-07 09:37:48] INFO root fetch - processPackages [omegi-python-instrumentation]: executing diffoscope
+[2024-05-07 09:37:48] INFO root fetch - processPackages [omegi-python-instrumentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omegi_python_instrumentation-0.0.4.tar.gz tmp/omegi_python_instrumentation-0.0.5.tar.gz --markdown 20240507/o/omegi-python-instrumentation/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-07 09:37:48] INFO root fetch - processPackages [xurpas-data-quality]: executing diffoscope
+[2024-05-07 09:37:48] INFO root fetch - processPackages [xurpas-data-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xurpas_data_quality-0.0.3-py3-none-any.whl.zip tmp/xurpas_data_quality-0.0.3a1-py3-none-any.whl.zip --markdown 20240507/x/xurpas-data-quality/0.0.3-0.0.3a1/README.md --exclude *.pyd
+[2024-05-07 09:37:48] INFO root fetch - processPackages [nvidia-modelopt]: Downloading https://files.pythonhosted.org/packages/dd/fa/4b12b63b3eef9a59ddcf77821f2767dfc6c82d496eb5f178be3beef15c07/nvidia_modelopt-0.11.1-cp39-cp39-win_amd64.whl
+[2024-05-07 09:37:48] INFO root fetch - processPackages [s1-cns-cli]: Downloading https://files.pythonhosted.org/packages/36/e2/bebd9b580a1a3e4f3224180efeb35b1ad46bfef09a8680780270a3ff250b/s1_cns_cli-0.3.5.tar.gz
+[2024-05-07 09:37:49] INFO root fetch - processPackages [nvidia-modelopt]: executing diffoscope
+[2024-05-07 09:37:49] INFO root fetch - processPackages [nvidia-modelopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_modelopt-0.11.0-cp39-cp39-win_amd64.whl.zip tmp/nvidia_modelopt-0.11.1-cp39-cp39-win_amd64.whl.zip --markdown 20240507/n/nvidia-modelopt/0.11.0-0.11.1/README.md --exclude *.pyd
+[2024-05-07 09:37:49] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-05-07 09:37:49] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-05-07 09:37:49] INFO root fetch - processPackages [s1-cns-cli]: executing diffoscope
+[2024-05-07 09:37:49] INFO root fetch - processPackages [s1-cns-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s1_cns_cli-0.3.4.tar.gz tmp/s1_cns_cli-0.3.5.tar.gz --markdown 20240507/s/s1-cns-cli/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-07 09:37:49] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi_python_instrumentation-0.0.4.tar.gz]
+[2024-05-07 09:37:49] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi_python_instrumentation-0.0.5.tar.gz]
+[2024-05-07 09:37:49] INFO root fetch - main [MainThread]: End processing [omegi-python-instrumentation]: success
+[2024-05-07 09:37:49] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.3-py3-none-any.whl.zip]
+[2024-05-07 09:37:49] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.3a1-py3-none-any.whl.zip]
+[2024-05-07 09:37:49] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality]: success
+[2024-05-07 09:37:49] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-5.0.2.tar.gz]
+[2024-05-07 09:37:49] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-5.0.4.tar.gz]
+[2024-05-07 09:37:49] INFO root fetch - main [MainThread]: End processing [threed-optix]: success
+[2024-05-07 09:37:49] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-07 09:37:49] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-05-07 09:37:49] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-05-07 09:37:49] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-05-07 09:37:49] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240507/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-07 09:37:50] INFO root fetch - processPackages [nvidia-modelopt]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_modelopt-0.11.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-07 09:37:50] INFO root fetch - processPackages [nvidia-modelopt]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_modelopt-0.11.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-07 09:37:50] INFO root fetch - main [MainThread]: End processing [nvidia-modelopt]: success
+[2024-05-07 09:37:50] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-05-07 09:37:50] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-05-07 09:37:50] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-05-07 09:37:56] INFO root fetch - processPackages [s1-cns-cli]: Remove: archive file [/home/abi/fetcher/tmp/s1_cns_cli-0.3.4.tar.gz]
+[2024-05-07 09:37:56] INFO root fetch - processPackages [s1-cns-cli]: Remove: archive file [/home/abi/fetcher/tmp/s1_cns_cli-0.3.5.tar.gz]
+[2024-05-07 09:37:56] INFO root fetch - main [MainThread]: End processing [s1-cns-cli]: success
+[2024-05-07 09:37:56] INFO root fetch - main [MainThread]: Store serial: [23091671]
