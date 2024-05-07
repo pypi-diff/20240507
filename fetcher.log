@@ -20980,3 +20980,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 13:15:50] INFO root fetch - processPackages [pymoxel]: Remove: archive file [/home/abi/fetcher/tmp/pymoxel-0.1.1.tar.gz]
 [2024-05-07 13:15:50] INFO root fetch - main [MainThread]: End processing [pymoxel]: success
 [2024-05-07 13:15:50] INFO root fetch - main [MainThread]: Store serial: [23094421]
+[2024-05-07 13:17:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094421]
+[2024-05-07 13:17:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-07 13:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mysql-study-datamaker-CN
+[2024-05-07 13:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-user-limiter
+[2024-05-07 13:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: activitypub.py
+[2024-05-07 13:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: safe-init
+[2024-05-07 13:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pddl-plus-parser
+[2024-05-07 13:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: biodata
+[2024-05-07 13:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dwave-sona-core
+[2024-05-07 13:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: questioning-machine
+[2024-05-07 13:17:59] INFO root fetch - processPackages [dwave-sona-core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-07 13:17:59] INFO root fetch - processPackages [safe-init]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-07 13:17:59] INFO root fetch - processPackages [mysql-study-datamaker-CN]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-05-07 13:17:59] INFO root fetch - processPackages [activitypub.py]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 13:17:59] WARNING root fetch - processPackages [questioning-machine]: Skipping, unable to determine old version
+[2024-05-07 13:17:59] INFO root fetch - main [MainThread]: End processing [questioning-machine] error
+[2024-05-07 13:17:59] INFO root fetch - processPackages [fastapi-user-limiter]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-07 13:17:59] INFO root fetch - processPackages [activitypub.py]: Downloading https://files.pythonhosted.org/packages/fe/00/de285e8b329770fcb7e25d4dea9b89b944748963fce23e682973352ff7d2/activitypub_py-0.1.0.tar.gz
+[2024-05-07 13:17:59] INFO root fetch - processPackages [pddl-plus-parser]: New version: [3.5.9] Old Version: [3.5.8]
+[2024-05-07 13:17:59] INFO root fetch - processPackages [biodata]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-07 13:17:59] INFO root fetch - processPackages [mysql-study-datamaker-CN]: Downloading https://files.pythonhosted.org/packages/60/73/1906d01f1ac542cbaff20f1bb04e7cff165fe21ce7ba2ebeb9293cfc6b4d/mysql_study_datamaker_cn-0.0.6.tar.gz
+[2024-05-07 13:17:59] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/db/7c/9339ceb47958f7d191e79904c25617e39aa742a8888ee55b02cca9f7553b/dwave_sona_core-1.2.8.tar.gz
+[2024-05-07 13:17:59] INFO root fetch - processPackages [fastapi-user-limiter]: Downloading https://files.pythonhosted.org/packages/a9/50/0d6c0721d6a552649df0b8565fe1f754a7da42b088c05c08de90a5e2ff10/fastapi_user_limiter-1.1.0.tar.gz
+[2024-05-07 13:17:59] INFO root fetch - processPackages [safe-init]: Downloading https://files.pythonhosted.org/packages/e1/47/b1e262801639b1846a9e27e7e0ddab3cdd6ddc6fe7a8330ef62f6b8a7759/safe_init-1.1.0.tar.gz
+[2024-05-07 13:18:00] INFO root fetch - processPackages [pddl-plus-parser]: Downloading https://files.pythonhosted.org/packages/1f/47/3d8dd14f346d281f859e090603e6593cd6aed46a8ea405c5edfb541715b1/pddl-plus-parser-3.5.8.tar.gz
+[2024-05-07 13:18:00] INFO root fetch - processPackages [biodata]: Downloading https://files.pythonhosted.org/packages/ce/1d/bae79d7215cc2c53f61c09d5b9522b03b4487b3d2106496e932c717dfd25/biodata-0.0.6.tar.gz
+[2024-05-07 13:18:00] INFO root fetch - processPackages [activitypub.py]: Downloading https://files.pythonhosted.org/packages/32/e2/871b87ab3dbd5f437911baed8410b7628178ea13229c2feee1fda98165a2/activitypub_py-0.1.1.tar.gz
+[2024-05-07 13:18:00] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/82/1f/6cd56c8023053a161c0daaa6d9953b37ecac0cfa01e9c4911db6c9a422f3/dwave_sona_core-1.2.9.tar.gz
+[2024-05-07 13:18:00] INFO root fetch - processPackages [mysql-study-datamaker-CN]: Downloading https://files.pythonhosted.org/packages/1c/8c/0850e1fc8ff8bebe402ebf47bbf9741756ab286d429edeb0048d2fa5a1b1/mysql_study_datamaker_cn-0.1.0.tar.gz
+[2024-05-07 13:18:00] INFO root fetch - processPackages [fastapi-user-limiter]: Downloading https://files.pythonhosted.org/packages/8a/e1/d95b8e7afead836d0706ae845053df264e1f5c9a6c654a5de2bbe58802f3/fastapi_user_limiter-1.2.0.tar.gz
+[2024-05-07 13:18:00] INFO root fetch - processPackages [safe-init]: Downloading https://files.pythonhosted.org/packages/b1/5a/9360bff9493726c49b614e8667094d8e65c930b1df29da2963b67220d973/safe_init-1.1.1.tar.gz
+[2024-05-07 13:18:00] INFO root fetch - processPackages [activitypub.py]: executing diffoscope
+[2024-05-07 13:18:00] INFO root fetch - processPackages [activitypub.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activitypub_py-0.1.0.tar.gz tmp/activitypub_py-0.1.1.tar.gz --markdown 20240507/a/activitypub.py/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 13:18:00] INFO root fetch - processPackages [mysql-study-datamaker-CN]: executing diffoscope
+[2024-05-07 13:18:00] INFO root fetch - processPackages [mysql-study-datamaker-CN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_study_datamaker_cn-0.0.6.tar.gz tmp/mysql_study_datamaker_cn-0.1.0.tar.gz --markdown 20240507/m/mysql-study-datamaker-CN/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-05-07 13:18:00] INFO root fetch - processPackages [dwave-sona-core]: executing diffoscope
+[2024-05-07 13:18:00] INFO root fetch - processPackages [dwave-sona-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave_sona_core-1.2.8.tar.gz tmp/dwave_sona_core-1.2.9.tar.gz --markdown 20240507/d/dwave-sona-core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-07 13:18:00] INFO root fetch - processPackages [fastapi-user-limiter]: executing diffoscope
+[2024-05-07 13:18:00] INFO root fetch - processPackages [fastapi-user-limiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_user_limiter-1.1.0.tar.gz tmp/fastapi_user_limiter-1.2.0.tar.gz --markdown 20240507/f/fastapi-user-limiter/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-07 13:18:00] INFO root fetch - processPackages [safe-init]: executing diffoscope
+[2024-05-07 13:18:00] INFO root fetch - processPackages [safe-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_init-1.1.0.tar.gz tmp/safe_init-1.1.1.tar.gz --markdown 20240507/s/safe-init/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-07 13:18:00] INFO root fetch - processPackages [pddl-plus-parser]: Downloading https://files.pythonhosted.org/packages/f9/8d/a47c0e8f9ae906c28d6fe2513f4950b6d6d088b0ec761d0ca6639b5fe0f9/pddl-plus-parser-3.5.9.tar.gz
+[2024-05-07 13:18:00] INFO root fetch - processPackages [biodata]: Downloading https://files.pythonhosted.org/packages/75/de/27a803e83279aad099f1fdf1c023adcc417120f016e68054d7b9335aa923/biodata-0.0.7.tar.gz
+[2024-05-07 13:18:00] INFO root fetch - processPackages [biodata]: executing diffoscope
+[2024-05-07 13:18:00] INFO root fetch - processPackages [biodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biodata-0.0.6.tar.gz tmp/biodata-0.0.7.tar.gz --markdown 20240507/b/biodata/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-07 13:18:00] INFO root fetch - processPackages [pddl-plus-parser]: executing diffoscope
+[2024-05-07 13:18:00] INFO root fetch - processPackages [pddl-plus-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pddl-plus-parser-3.5.8.tar.gz tmp/pddl-plus-parser-3.5.9.tar.gz --markdown 20240507/p/pddl-plus-parser/3.5.8-3.5.9/README.md --exclude *.pyd
+[2024-05-07 13:18:01] INFO root fetch - processPackages [activitypub.py]: Remove: archive file [/home/abi/fetcher/tmp/activitypub_py-0.1.0.tar.gz]
+[2024-05-07 13:18:01] INFO root fetch - processPackages [activitypub.py]: Remove: archive file [/home/abi/fetcher/tmp/activitypub_py-0.1.1.tar.gz]
+[2024-05-07 13:18:01] INFO root fetch - main [MainThread]: End processing [activitypub.py]: success
+[2024-05-07 13:18:01] INFO root fetch - processPackages [mysql-study-datamaker-CN]: Remove: archive file [/home/abi/fetcher/tmp/mysql_study_datamaker_cn-0.0.6.tar.gz]
+[2024-05-07 13:18:01] INFO root fetch - processPackages [mysql-study-datamaker-CN]: Remove: archive file [/home/abi/fetcher/tmp/mysql_study_datamaker_cn-0.1.0.tar.gz]
+[2024-05-07 13:18:01] INFO root fetch - main [MainThread]: End processing [mysql-study-datamaker-CN]: success
+[2024-05-07 13:18:01] INFO root fetch - processPackages [fastapi-user-limiter]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_user_limiter-1.1.0.tar.gz]
+[2024-05-07 13:18:01] INFO root fetch - processPackages [fastapi-user-limiter]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_user_limiter-1.2.0.tar.gz]
+[2024-05-07 13:18:01] INFO root fetch - main [MainThread]: End processing [fastapi-user-limiter]: success
+[2024-05-07 13:18:01] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.8.tar.gz]
+[2024-05-07 13:18:01] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.9.tar.gz]
+[2024-05-07 13:18:01] INFO root fetch - main [MainThread]: End processing [dwave-sona-core]: success
+[2024-05-07 13:18:01] INFO root fetch - processPackages [biodata]: Remove: archive file [/home/abi/fetcher/tmp/biodata-0.0.6.tar.gz]
+[2024-05-07 13:18:01] INFO root fetch - processPackages [biodata]: Remove: archive file [/home/abi/fetcher/tmp/biodata-0.0.7.tar.gz]
+[2024-05-07 13:18:01] INFO root fetch - main [MainThread]: End processing [biodata]: success
+[2024-05-07 13:18:01] INFO root fetch - processPackages [safe-init]: Remove: archive file [/home/abi/fetcher/tmp/safe_init-1.1.0.tar.gz]
+[2024-05-07 13:18:01] INFO root fetch - processPackages [safe-init]: Remove: archive file [/home/abi/fetcher/tmp/safe_init-1.1.1.tar.gz]
+[2024-05-07 13:18:01] INFO root fetch - main [MainThread]: End processing [safe-init]: success
+[2024-05-07 13:18:01] INFO root fetch - processPackages [pddl-plus-parser]: Remove: archive file [/home/abi/fetcher/tmp/pddl-plus-parser-3.5.8.tar.gz]
+[2024-05-07 13:18:01] INFO root fetch - processPackages [pddl-plus-parser]: Remove: archive file [/home/abi/fetcher/tmp/pddl-plus-parser-3.5.9.tar.gz]
+[2024-05-07 13:18:01] INFO root fetch - main [MainThread]: End processing [pddl-plus-parser]: success
+[2024-05-07 13:18:01] INFO root fetch - main [MainThread]: Store serial: [23094444]
