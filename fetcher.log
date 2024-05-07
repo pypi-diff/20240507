@@ -14711,3 +14711,87 @@ EOFError: EOF read where object expected
 [2024-05-07 09:17:18] INFO root fetch - processPackages [ibm-watsonx-ai]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watsonx_ai-1.0.2.tar.gz]
 [2024-05-07 09:17:18] INFO root fetch - main [MainThread]: End processing [ibm-watsonx-ai]: success
 [2024-05-07 09:17:18] INFO root fetch - main [MainThread]: Store serial: [23091370]
+[2024-05-07 09:19:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091370]
+[2024-05-07 09:19:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 09:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bluesmet
+[2024-05-07 09:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botifyme
+[2024-05-07 09:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-transformation-marta-miseke1
+[2024-05-07 09:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pisahkan-ktp
+[2024-05-07 09:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-environment-config
+[2024-05-07 09:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-oci
+[2024-05-07 09:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cj-package
+[2024-05-07 09:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: twyn
+[2024-05-07 09:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mpservice
+[2024-05-07 09:19:28] INFO root fetch - processPackages [data-transformation-marta-miseke1]: New version: [0.1.1a8] Old Version: [0.1.1a7]
+[2024-05-07 09:19:28] INFO root fetch - processPackages [pisahkan-ktp]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-07 09:19:28] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 09:19:28] INFO root fetch - processPackages [botifyme]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-07 09:19:28] INFO root fetch - processPackages [django-environment-config]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-07 09:19:28] INFO root fetch - processPackages [bluesmet]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-07 09:19:28] INFO root fetch - processPackages [data-transformation-marta-miseke1]: Downloading https://files.pythonhosted.org/packages/f5/f6/12ab139513f07527b332aae8ea910003de703451dda088ff6c0821d9d428/data_transformation_marta_miseke1-0.1.1a7.tar.gz
+[2024-05-07 09:19:28] INFO root fetch - processPackages [twyn]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-05-07 09:19:28] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2024-05-07 09:19:28] INFO root fetch - processPackages [pulumi-oci]: New version: [1.9.0a1693981063] Old Version: [1.9.0a1693634572]
+[2024-05-07 09:19:28] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-05-07 09:19:28] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/cc/93/9e612d48f6ea9d84d69d9fc68f068f49dc985fc3f4a47f09f51ed068722d/pisahkan_ktp-0.0.2.tar.gz
+[2024-05-07 09:19:28] INFO root fetch - processPackages [botifyme]: Downloading https://files.pythonhosted.org/packages/66/5c/98e7df17437678ef4cdc01f9ec91c544d284c512cc7a23ad0d0b82b8d758/botifyme-0.1.3.tar.gz
+[2024-05-07 09:19:28] INFO root fetch - processPackages [django-environment-config]: Downloading https://files.pythonhosted.org/packages/99/8a/f36202c92b4763ffc14c156e8dba7dc51245f9d284c4ee3b1f240ae01675/django_environment_config-0.1.1.tar.gz
+[2024-05-07 09:19:28] INFO root fetch - processPackages [bluesmet]: Downloading https://files.pythonhosted.org/packages/0a/ba/fca5094d0f850d58f24dccd16c82028a01311e51fd5592602fec6fd1a376/bluesmet-0.4.3.tar.gz
+[2024-05-07 09:19:28] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/02/f8/59b31ede3416e4e37062af605ed2293a67d7cfe3eec867258c58481c638d/pulumi_oci-1.9.0a1693634572.tar.gz
+[2024-05-07 09:19:28] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/3e/65/9a67763e70ad9b9b3fe662256881abfbdd085de12bd040fa57c2a3fa47d3/twyn-2.6.8.tar.gz
+[2024-05-07 09:19:28] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2024-05-07 09:19:28] INFO root fetch - processPackages [data-transformation-marta-miseke1]: Downloading https://files.pythonhosted.org/packages/6f/20/ff310638ca2ee02577b9fa23930e7b9bf453c0d5de76d7591f81890c87fc/data_transformation_marta_miseke1-0.1.1a8.tar.gz
+[2024-05-07 09:19:28] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-05-07 09:19:28] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/8d/a7/1a6419b6c17595affa5a76044beac8d135c676f6715dc3d8ea3bda66413a/pisahkan_ktp-0.0.3.tar.gz
+[2024-05-07 09:19:28] INFO root fetch - processPackages [botifyme]: Downloading https://files.pythonhosted.org/packages/a6/0a/99be9af8067fcca76f95d8467966be534dbdbf96616796563986d8fc1bd3/botifyme-0.1.4.tar.gz
+[2024-05-07 09:19:28] INFO root fetch - processPackages [data-transformation-marta-miseke1]: executing diffoscope
+[2024-05-07 09:19:28] INFO root fetch - processPackages [data-transformation-marta-miseke1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_transformation_marta_miseke1-0.1.1a7.tar.gz tmp/data_transformation_marta_miseke1-0.1.1a8.tar.gz --markdown 20240507/d/data-transformation-marta-miseke1/0.1.1a7-0.1.1a8/README.md --exclude *.pyd
+[2024-05-07 09:19:28] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-05-07 09:19:28] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240507/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 09:19:28] INFO root fetch - processPackages [django-environment-config]: Downloading https://files.pythonhosted.org/packages/f2/69/0003d5d1c4c58a8a6a664739ad7945ccea48183649c8d0f81cc38a304ff7/django_environment_config-0.1.2.tar.gz
+[2024-05-07 09:19:28] INFO root fetch - processPackages [pisahkan-ktp]: executing diffoscope
+[2024-05-07 09:19:28] INFO root fetch - processPackages [pisahkan-ktp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisahkan_ktp-0.0.2.tar.gz tmp/pisahkan_ktp-0.0.3.tar.gz --markdown 20240507/p/pisahkan-ktp/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-07 09:19:28] INFO root fetch - processPackages [botifyme]: executing diffoscope
+[2024-05-07 09:19:28] INFO root fetch - processPackages [botifyme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botifyme-0.1.3.tar.gz tmp/botifyme-0.1.4.tar.gz --markdown 20240507/b/botifyme/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-07 09:19:28] INFO root fetch - processPackages [bluesmet]: Downloading https://files.pythonhosted.org/packages/f3/a0/b178abed4026378e3775bbe12a281d7156ce7c981c0b8484e195a11fe5dd/bluesmet-0.4.4.tar.gz
+[2024-05-07 09:19:28] INFO root fetch - processPackages [django-environment-config]: executing diffoscope
+[2024-05-07 09:19:28] INFO root fetch - processPackages [django-environment-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_environment_config-0.1.1.tar.gz tmp/django_environment_config-0.1.2.tar.gz --markdown 20240507/d/django-environment-config/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-07 09:19:28] INFO root fetch - processPackages [bluesmet]: executing diffoscope
+[2024-05-07 09:19:28] INFO root fetch - processPackages [bluesmet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluesmet-0.4.3.tar.gz tmp/bluesmet-0.4.4.tar.gz --markdown 20240507/b/bluesmet/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-07 09:19:28] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2024-05-07 09:19:29] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/61/66/200fb13e9086b43ae9bb85b1e3325ec6da3d55eb634ac4b1bd2020be5677/twyn-2.6.9.tar.gz
+[2024-05-07 09:19:29] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2024-05-07 09:19:29] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20240507/m/mpservice/0.9.9-0.9.9.post1/README.md --exclude *.pyd
+[2024-05-07 09:19:29] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2024-05-07 09:19:29] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.6.8.tar.gz tmp/twyn-2.6.9.tar.gz --markdown 20240507/t/twyn/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-05-07 09:19:29] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/77/93/cd3384a9ca236f6aa79a6f6fa7c94647e0588bdaf8a86d173cca47e31e21/pulumi_oci-1.9.0a1693981063.tar.gz
+[2024-05-07 09:19:29] INFO root fetch - processPackages [data-transformation-marta-miseke1]: Remove: archive file [/home/abi/fetcher/tmp/data_transformation_marta_miseke1-0.1.1a7.tar.gz]
+[2024-05-07 09:19:29] INFO root fetch - processPackages [data-transformation-marta-miseke1]: Remove: archive file [/home/abi/fetcher/tmp/data_transformation_marta_miseke1-0.1.1a8.tar.gz]
+[2024-05-07 09:19:29] INFO root fetch - main [MainThread]: End processing [data-transformation-marta-miseke1]: success
+[2024-05-07 09:19:30] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.0.2.tar.gz]
+[2024-05-07 09:19:30] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.0.3.tar.gz]
+[2024-05-07 09:19:30] INFO root fetch - main [MainThread]: End processing [pisahkan-ktp]: success
+[2024-05-07 09:19:30] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-05-07 09:19:30] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-05-07 09:19:30] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-05-07 09:19:30] INFO root fetch - processPackages [botifyme]: Remove: archive file [/home/abi/fetcher/tmp/botifyme-0.1.3.tar.gz]
+[2024-05-07 09:19:30] INFO root fetch - processPackages [botifyme]: Remove: archive file [/home/abi/fetcher/tmp/botifyme-0.1.4.tar.gz]
+[2024-05-07 09:19:30] INFO root fetch - main [MainThread]: End processing [botifyme]: success
+[2024-05-07 09:19:30] INFO root fetch - processPackages [bluesmet]: Remove: archive file [/home/abi/fetcher/tmp/bluesmet-0.4.3.tar.gz]
+[2024-05-07 09:19:30] INFO root fetch - processPackages [bluesmet]: Remove: archive file [/home/abi/fetcher/tmp/bluesmet-0.4.4.tar.gz]
+[2024-05-07 09:19:30] INFO root fetch - main [MainThread]: End processing [bluesmet]: success
+[2024-05-07 09:19:30] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.6.8.tar.gz]
+[2024-05-07 09:19:30] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.6.9.tar.gz]
+[2024-05-07 09:19:30] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2024-05-07 09:19:30] INFO root fetch - processPackages [django-environment-config]: Remove: archive file [/home/abi/fetcher/tmp/django_environment_config-0.1.1.tar.gz]
+[2024-05-07 09:19:30] INFO root fetch - processPackages [django-environment-config]: Remove: archive file [/home/abi/fetcher/tmp/django_environment_config-0.1.2.tar.gz]
+[2024-05-07 09:19:30] INFO root fetch - main [MainThread]: End processing [django-environment-config]: success
+[2024-05-07 09:19:30] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2024-05-07 09:19:30] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2024-05-07 09:19:30] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2024-05-07 09:19:31] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2024-05-07 09:19:31] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.9.0a1693634572.tar.gz tmp/pulumi_oci-1.9.0a1693981063.tar.gz --markdown 20240507/p/pulumi-oci/1.9.0a1693634572-1.9.0a1693981063/README.md --exclude *.pyd
+[2024-05-07 09:19:46] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693634572.tar.gz]
+[2024-05-07 09:19:46] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
+[2024-05-07 09:19:46] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2024-05-07 09:19:46] INFO root fetch - main [MainThread]: Store serial: [23091399]
