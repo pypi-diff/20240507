@@ -11064,3 +11064,36 @@ EOFError: EOF read where object expected
 [2024-05-07 06:48:44] WARNING root fetch - processPackages [intuitivismz]: Skipping, unable to determine old version
 [2024-05-07 06:48:44] INFO root fetch - main [MainThread]: End processing [intuitivismz] error
 [2024-05-07 06:48:44] INFO root fetch - main [MainThread]: Store serial: [23089560]
+[2024-05-07 06:50:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089560]
+[2024-05-07 06:50:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 06:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansar-connect
+[2024-05-07 06:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickstart-vdk
+[2024-05-07 06:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nebx
+[2024-05-07 06:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amino.light.py
+[2024-05-07 06:50:53] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.217] Old Version: [0.1.216]
+[2024-05-07 06:50:53] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-07 06:50:53] WARNING root fetch - processPackages [nebx]: Skipping, unable to determine old version
+[2024-05-07 06:50:53] INFO root fetch - main [MainThread]: End processing [nebx] error
+[2024-05-07 06:50:53] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/4e/b6/8d00050bfd0863bf1c88fc463a509532517e1bdea977f2599cb70ec09ee7/ansar_connect-0.1.216.tar.gz
+[2024-05-07 06:50:53] INFO root fetch - processPackages [amino.light.py]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-07 06:50:53] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-07 06:50:53] INFO root fetch - processPackages [amino.light.py]: Downloading https://files.pythonhosted.org/packages/19/fa/35c6ee8e1d46741e56ec9b0fdbb5994cf778e615ec2bf1679c7ab15b8de5/amino.light.py-0.1.9.tar.gz
+[2024-05-07 06:50:53] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-07 06:50:53] INFO root fetch - processPackages [amino.light.py]: Downloading https://files.pythonhosted.org/packages/e3/a7/ae959ff56e78a2fa01c4512b07db884288c35a0153a2a103220d8ce6941d/amino.light.py-0.2.0.tar.gz
+[2024-05-07 06:50:53] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/78/92/5e0014ff88372cdcdff739dd1cd81cfdba52dc373e852c50e278a73c83f7/ansar_connect-0.1.217.tar.gz
+[2024-05-07 06:50:53] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-07 06:50:53] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240507/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-07 06:50:54] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-07 06:50:54] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.216.tar.gz tmp/ansar_connect-0.1.217.tar.gz --markdown 20240507/a/ansar-connect/0.1.216-0.1.217/README.md --exclude *.pyd
+[2024-05-07 06:50:54] INFO root fetch - processPackages [amino.light.py]: executing diffoscope
+[2024-05-07 06:50:54] INFO root fetch - processPackages [amino.light.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amino.light.py-0.1.9.tar.gz tmp/amino.light.py-0.2.0.tar.gz --markdown 20240507/a/amino.light.py/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-07 06:50:54] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-07 06:50:54] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-07 06:50:54] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-07 06:50:54] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.216.tar.gz]
+[2024-05-07 06:50:54] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.217.tar.gz]
+[2024-05-07 06:50:54] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-07 06:50:54] INFO root fetch - processPackages [amino.light.py]: Remove: archive file [/home/abi/fetcher/tmp/amino.light.py-0.1.9.tar.gz]
+[2024-05-07 06:50:54] INFO root fetch - processPackages [amino.light.py]: Remove: archive file [/home/abi/fetcher/tmp/amino.light.py-0.2.0.tar.gz]
+[2024-05-07 06:50:54] INFO root fetch - main [MainThread]: End processing [amino.light.py]: success
+[2024-05-07 06:50:54] INFO root fetch - main [MainThread]: Store serial: [23089571]
