@@ -7921,3 +7921,65 @@ EOFError: EOF read where object expected
 [2024-05-07 03:34:47] INFO root fetch - processPackages [docassemble.demo]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.demo-1.4.99.tar.gz]
 [2024-05-07 03:34:47] INFO root fetch - main [MainThread]: End processing [docassemble.demo]: success
 [2024-05-07 03:34:47] INFO root fetch - main [MainThread]: Store serial: [23088118]
+[2024-05-07 03:36:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088118]
+[2024-05-07 03:36:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 03:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docassemble.webapp
+[2024-05-07 03:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: refoss-ha
+[2024-05-07 03:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arch-flow
+[2024-05-07 03:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ict-agent
+[2024-05-07 03:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: homeassistant-stubs
+[2024-05-07 03:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coll-filter
+[2024-05-07 03:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uitestrunner-syberos
+[2024-05-07 03:36:56] INFO root fetch - processPackages [ict-agent]: New version: [1.0.11] Old Version: [1.0.10]
+[2024-05-07 03:36:56] INFO root fetch - processPackages [ict-agent]: Downloading https://files.pythonhosted.org/packages/ca/7c/a97b47b2bcd69eabc73e901a11a7e7dbcec6cb3cc29b52706eb6f7dee382/ict_agent-1.0.10.tar.gz
+[2024-05-07 03:36:56] INFO root fetch - processPackages [docassemble.webapp]: New version: [1.4.99] Old Version: [1.4.98]
+[2024-05-07 03:36:56] INFO root fetch - processPackages [refoss-ha]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-07 03:36:56] INFO root fetch - processPackages [coll-filter]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-07 03:36:56] INFO root fetch - processPackages [arch-flow]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-07 03:36:56] INFO root fetch - processPackages [uitestrunner-syberos]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-05-07 03:36:56] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-07 03:36:56] INFO root fetch - processPackages [ict-agent]: Downloading https://files.pythonhosted.org/packages/3f/9d/27cae3a00a1ab9fa9eec11315fc03e9ceace7c17a386c0071181c0d33b2c/ict_agent-1.0.11.tar.gz
+[2024-05-07 03:36:56] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/2d/cf/51a09408573088f9ea4d1e96bd1d8de19d00ae342d32fa0c339d056e7cb7/docassemble.webapp-1.4.98.tar.gz
+[2024-05-07 03:36:56] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/01/7e/fdb1d489a031ddd1411692e0ba0ff172a4384290dc1535207e04d12b2659/arch_flow-0.1.4.tar.gz
+[2024-05-07 03:36:56] INFO root fetch - processPackages [coll-filter]: Downloading https://files.pythonhosted.org/packages/fb/0c/02401e66db28b56402c2c1e0e7444c8e72de635f32aa7030afea8ee0741c/coll-filter-1.2.5.tar.gz
+[2024-05-07 03:36:56] INFO root fetch - processPackages [uitestrunner-syberos]: Downloading https://files.pythonhosted.org/packages/05/2f/ebfd0233d0beba99599e25c53dde5974fc69b6afbd81bcbcb14583dcaedb/uitestrunner_syberos-2.3.0.tar.gz
+[2024-05-07 03:36:56] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/cf/c6/34c702261286c20f8601e162a4e4006f2156248062a932175704a0bbdaa8/homeassistant_stubs-2024.5.1.tar.gz
+[2024-05-07 03:36:56] INFO root fetch - processPackages [ict-agent]: executing diffoscope
+[2024-05-07 03:36:56] INFO root fetch - processPackages [ict-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ict_agent-1.0.10.tar.gz tmp/ict_agent-1.0.11.tar.gz --markdown 20240507/i/ict-agent/1.0.10-1.0.11/README.md --exclude *.pyd
+[2024-05-07 03:36:57] INFO root fetch - processPackages [refoss-ha]: Downloading https://files.pythonhosted.org/packages/61/83/d74fb06ebe9b77d1d5fb30c0fc839b51e225ace51fe785eebfc042cad7b7/refoss_ha-1.2.0-py3-none-any.whl
+[2024-05-07 03:36:57] WARNING root fetch - processPackages [uitestrunner-syberos]: Skipping package: exceeds size limit 61923789>=10485760
+[2024-05-07 03:36:57] INFO root fetch - main [MainThread]: End processing [uitestrunner-syberos] error
+[2024-05-07 03:36:57] INFO root fetch - processPackages [coll-filter]: Downloading https://files.pythonhosted.org/packages/96/2a/65dfc381dd5306b808bd5ea307c09c2d5cfdf2ac90f3519356ec7d237f15/coll-filter-1.2.6.tar.gz
+[2024-05-07 03:36:57] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/34/e0/97b1808737c37e66a733dab2ae9f50e25b76d5630dbe43c2a594f300d32e/arch_flow-0.1.5.tar.gz
+[2024-05-07 03:36:57] INFO root fetch - processPackages [refoss-ha]: Downloading https://files.pythonhosted.org/packages/42/c1/863d5c78664852aa420d310e2dadb80fae1240bdc669df22e7bcf780e69b/refoss_ha-1.2.1-py3-none-any.whl
+[2024-05-07 03:36:57] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/c3/68/7c08b2e0e0891015576e2e60957d4897ff06294ef75b0f73fabd45279584/homeassistant_stubs-2024.5.2.tar.gz
+[2024-05-07 03:36:57] INFO root fetch - processPackages [coll-filter]: executing diffoscope
+[2024-05-07 03:36:57] INFO root fetch - processPackages [coll-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coll-filter-1.2.5.tar.gz tmp/coll-filter-1.2.6.tar.gz --markdown 20240507/c/coll-filter/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-07 03:36:57] INFO root fetch - processPackages [arch-flow]: executing diffoscope
+[2024-05-07 03:36:57] INFO root fetch - processPackages [arch-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_flow-0.1.4.tar.gz tmp/arch_flow-0.1.5.tar.gz --markdown 20240507/a/arch-flow/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-07 03:36:57] INFO root fetch - processPackages [ict-agent]: Remove: archive file [/home/abi/fetcher/tmp/ict_agent-1.0.10.tar.gz]
+[2024-05-07 03:36:57] INFO root fetch - processPackages [ict-agent]: Remove: archive file [/home/abi/fetcher/tmp/ict_agent-1.0.11.tar.gz]
+[2024-05-07 03:36:57] INFO root fetch - main [MainThread]: End processing [ict-agent]: success
+[2024-05-07 03:36:57] INFO root fetch - processPackages [refoss-ha]: executing diffoscope
+[2024-05-07 03:36:57] INFO root fetch - processPackages [refoss-ha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refoss_ha-1.2.0-py3-none-any.whl.zip tmp/refoss_ha-1.2.1-py3-none-any.whl.zip --markdown 20240507/r/refoss-ha/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-07 03:36:57] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-05-07 03:36:57] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.5.1.tar.gz tmp/homeassistant_stubs-2024.5.2.tar.gz --markdown 20240507/h/homeassistant-stubs/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-07 03:36:57] INFO root fetch - processPackages [coll-filter]: Remove: archive file [/home/abi/fetcher/tmp/coll-filter-1.2.5.tar.gz]
+[2024-05-07 03:36:57] INFO root fetch - processPackages [coll-filter]: Remove: archive file [/home/abi/fetcher/tmp/coll-filter-1.2.6.tar.gz]
+[2024-05-07 03:36:57] INFO root fetch - main [MainThread]: End processing [coll-filter]: success
+[2024-05-07 03:36:58] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.4.tar.gz]
+[2024-05-07 03:36:58] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.1.5.tar.gz]
+[2024-05-07 03:36:58] INFO root fetch - main [MainThread]: End processing [arch-flow]: success
+[2024-05-07 03:36:58] INFO root fetch - processPackages [refoss-ha]: Remove: archive file [/home/abi/fetcher/tmp/refoss_ha-1.2.0-py3-none-any.whl.zip]
+[2024-05-07 03:36:58] INFO root fetch - processPackages [refoss-ha]: Remove: archive file [/home/abi/fetcher/tmp/refoss_ha-1.2.1-py3-none-any.whl.zip]
+[2024-05-07 03:36:58] INFO root fetch - main [MainThread]: End processing [refoss-ha]: success
+[2024-05-07 03:36:59] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/f6/c0/9fde55b04929167c432c602176d328ac450748b5039b84cdf84e6ce5f525/docassemble.webapp-1.4.99.tar.gz
+[2024-05-07 03:37:00] INFO root fetch - processPackages [docassemble.webapp]: executing diffoscope
+[2024-05-07 03:37:00] INFO root fetch - processPackages [docassemble.webapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.webapp-1.4.98.tar.gz tmp/docassemble.webapp-1.4.99.tar.gz --markdown 20240507/d/docassemble.webapp/1.4.98-1.4.99/README.md --exclude *.pyd
+[2024-05-07 03:37:05] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.98.tar.gz]
+[2024-05-07 03:37:05] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.99.tar.gz]
+[2024-05-07 03:37:05] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
+[2024-05-07 03:37:10] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.5.1.tar.gz]
+[2024-05-07 03:37:10] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.5.2.tar.gz]
+[2024-05-07 03:37:10] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-05-07 03:37:10] INFO root fetch - main [MainThread]: Store serial: [23088141]
