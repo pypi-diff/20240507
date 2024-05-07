@@ -19815,3 +19815,69 @@ EOFError: EOF read where object expected
 [2024-05-07 12:33:54] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.9.tar.gz]
 [2024-05-07 12:33:54] INFO root fetch - main [MainThread]: End processing [corvic-engine]: success
 [2024-05-07 12:33:54] INFO root fetch - main [MainThread]: Store serial: [23093659]
+[2024-05-07 12:35:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093659]
+[2024-05-07 12:36:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ftrack-qt
+[2024-05-07 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-pcrjjc
+[2024-05-07 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2024-05-07 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: causadb
+[2024-05-07 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libsps
+[2024-05-07 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mecord-cli
+[2024-05-07 12:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ce-mkc
+[2024-05-07 12:36:03] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-07 12:36:03] INFO root fetch - processPackages [ce-mkc]: New version: [0.1.0] Old Version: [0.0.1a1]
+[2024-05-07 12:36:03] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-07 12:36:03] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-05-07 12:36:03] INFO root fetch - processPackages [ftrack-qt]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-07 12:36:03] INFO root fetch - processPackages [causadb]: New version: [1.9.0] Old Version: [1.8.8]
+[2024-05-07 12:36:03] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-07 12:36:03] INFO root fetch - processPackages [libsps]: New version: [1.1.1] Old Version: [1.0.1]
+[2024-05-07 12:36:03] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-07 12:36:03] INFO root fetch - processPackages [ce-mkc]: Downloading https://files.pythonhosted.org/packages/75/55/cd5b272fb56e1e1b26dedc9988d34f688bc2e24b24c0086a7f64e8c670e4/ce_mkc-0.0.1a1.tar.gz
+[2024-05-07 12:36:03] INFO root fetch - processPackages [ftrack-qt]: Downloading https://files.pythonhosted.org/packages/1b/db/76f7c36b73d0cf87cdd4edf548f90729141ecad64df796807a57577d243f/ftrack_qt-2.2.0.tar.gz
+[2024-05-07 12:36:03] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Downloading https://files.pythonhosted.org/packages/44/6c/3eab922a2a1e841501698963f37f635f6f4d4773b632596a141c8e16c17f/nonebot_plugin_pcrjjc-0.7.0.tar.gz
+[2024-05-07 12:36:03] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-05-07 12:36:03] INFO root fetch - processPackages [causadb]: Downloading https://files.pythonhosted.org/packages/0d/04/18b6a6103c974a2ace6d365e3671bcc2dee83efb8a1d468b5a1be70bcf12/causadb-1.8.8.tar.gz
+[2024-05-07 12:36:03] INFO root fetch - processPackages [libsps]: Downloading https://files.pythonhosted.org/packages/fb/89/8aa2334e045ad6eb14f29badd5d8e50ac25612ed2035e55fe910e216bd29/libsps-1.0.1.tar.gz
+[2024-05-07 12:36:04] INFO root fetch - processPackages [ce-mkc]: Downloading https://files.pythonhosted.org/packages/11/ab/9fff11613225db011d59bdc3a97169c34b56709bd7b878dfac2f0203b200/ce_mkc-0.1.0.tar.gz
+[2024-05-07 12:36:04] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-07 12:36:04] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-05-07 12:36:04] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240507/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-07 12:36:04] INFO root fetch - processPackages [ce-mkc]: executing diffoscope
+[2024-05-07 12:36:04] INFO root fetch - processPackages [ce-mkc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ce_mkc-0.0.1a1.tar.gz tmp/ce_mkc-0.1.0.tar.gz --markdown 20240507/c/ce-mkc/0.0.1a1-0.1.0/README.md --exclude *.pyd
+[2024-05-07 12:36:04] INFO root fetch - processPackages [ftrack-qt]: Downloading https://files.pythonhosted.org/packages/a8/f6/873e8f083647d0ef55f03f05656f0c47223cf1cffb9530b266fbcb53e43f/ftrack_qt-2.2.1.tar.gz
+[2024-05-07 12:36:04] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Downloading https://files.pythonhosted.org/packages/da/c9/ba461c2a2a87b0bbd7fe7cb42f08461d73a1de4c27d2a2738e5746e28085/nonebot_plugin_pcrjjc-0.8.0.tar.gz
+[2024-05-07 12:36:04] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-07 12:36:04] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240507/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-07 12:36:04] INFO root fetch - processPackages [libsps]: Downloading https://files.pythonhosted.org/packages/a8/70/67358ff5fa58cabd0398cef7a054574092c980b1a6f9ad0bb896ca22b7c7/libsps-1.1.1-cp39-cp39-macosx_11_0_arm64.whl
+[2024-05-07 12:36:04] INFO root fetch - processPackages [ftrack-qt]: executing diffoscope
+[2024-05-07 12:36:04] INFO root fetch - processPackages [ftrack-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_qt-2.2.0.tar.gz tmp/ftrack_qt-2.2.1.tar.gz --markdown 20240507/f/ftrack-qt/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-07 12:36:04] INFO root fetch - processPackages [causadb]: Downloading https://files.pythonhosted.org/packages/b4/79/d885149b3962edeb0954a0bc0892b79fbeba673ea007f10d2a2bee904a4e/causadb-1.9.0.tar.gz
+[2024-05-07 12:36:04] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: executing diffoscope
+[2024-05-07 12:36:04] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_pcrjjc-0.7.0.tar.gz tmp/nonebot_plugin_pcrjjc-0.8.0.tar.gz --markdown 20240507/n/nonebot-plugin-pcrjjc/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-07 12:36:04] INFO root fetch - processPackages [causadb]: executing diffoscope
+[2024-05-07 12:36:04] INFO root fetch - processPackages [causadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causadb-1.8.8.tar.gz tmp/causadb-1.9.0.tar.gz --markdown 20240507/c/causadb/1.8.8-1.9.0/README.md --exclude *.pyd
+[2024-05-07 12:36:04] INFO root fetch - processPackages [ce-mkc]: Remove: archive file [/home/abi/fetcher/tmp/ce_mkc-0.0.1a1.tar.gz]
+[2024-05-07 12:36:04] INFO root fetch - processPackages [ce-mkc]: Remove: archive file [/home/abi/fetcher/tmp/ce_mkc-0.1.0.tar.gz]
+[2024-05-07 12:36:04] INFO root fetch - main [MainThread]: End processing [ce-mkc]: success
+[2024-05-07 12:36:04] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-05-07 12:36:04] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-05-07 12:36:04] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-05-07 12:36:05] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_pcrjjc-0.7.0.tar.gz]
+[2024-05-07 12:36:05] INFO root fetch - processPackages [nonebot-plugin-pcrjjc]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_pcrjjc-0.8.0.tar.gz]
+[2024-05-07 12:36:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pcrjjc]: success
+[2024-05-07 12:36:05] INFO root fetch - processPackages [libsps]: executing diffoscope
+[2024-05-07 12:36:05] INFO root fetch - processPackages [libsps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsps-1.0.1.tar.gz tmp/libsps-1.1.1-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20240507/l/libsps/1.0.1-1.1.1/README.md --exclude *.pyd
+[2024-05-07 12:36:05] INFO root fetch - processPackages [ftrack-qt]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_qt-2.2.0.tar.gz]
+[2024-05-07 12:36:05] INFO root fetch - processPackages [ftrack-qt]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_qt-2.2.1.tar.gz]
+[2024-05-07 12:36:05] INFO root fetch - main [MainThread]: End processing [ftrack-qt]: success
+[2024-05-07 12:36:05] INFO root fetch - processPackages [causadb]: Remove: archive file [/home/abi/fetcher/tmp/causadb-1.8.8.tar.gz]
+[2024-05-07 12:36:05] INFO root fetch - processPackages [causadb]: Remove: archive file [/home/abi/fetcher/tmp/causadb-1.9.0.tar.gz]
+[2024-05-07 12:36:05] INFO root fetch - main [MainThread]: End processing [causadb]: success
+[2024-05-07 12:36:05] INFO root fetch - processPackages [libsps]: Remove: archive file [/home/abi/fetcher/tmp/libsps-1.0.1.tar.gz]
+[2024-05-07 12:36:05] INFO root fetch - processPackages [libsps]: Remove: archive file [/home/abi/fetcher/tmp/libsps-1.1.1-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-05-07 12:36:05] INFO root fetch - main [MainThread]: End processing [libsps]: success
+[2024-05-07 12:36:06] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-07 12:36:06] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-07 12:36:06] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-07 12:36:06] INFO root fetch - main [MainThread]: Store serial: [23093754]
