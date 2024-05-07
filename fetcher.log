@@ -19896,3 +19896,93 @@ EOFError: EOF read where object expected
 [2024-05-07 12:38:16] INFO root fetch - processPackages [drf-standardized-response]: Remove: archive file [/home/abi/fetcher/tmp/drf_standardized_response-1.tar.gz]
 [2024-05-07 12:38:16] INFO root fetch - main [MainThread]: End processing [drf-standardized-response]: success
 [2024-05-07 12:38:16] INFO root fetch - main [MainThread]: Store serial: [23093768]
+[2024-05-07 12:40:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093768]
+[2024-05-07 12:40:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-07 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: safe-init
+[2024-05-07 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nb-helloworld
+[2024-05-07 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparkpipelineframework
+[2024-05-07 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skypilot-nightly
+[2024-05-07 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vanguard-api
+[2024-05-07 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pcffont
+[2024-05-07 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: diwork
+[2024-05-07 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PepperPepper
+[2024-05-07 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymemgpt-nightly
+[2024-05-07 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sbcli-release
+[2024-05-07 12:40:25] INFO root fetch - processPackages [diwork]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-07 12:40:25] INFO root fetch - processPackages [sparkpipelineframework]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-07 12:40:25] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-07 12:40:25] INFO root fetch - processPackages [safe-init]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-07 12:40:25] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-07 12:40:25] WARNING root fetch - processPackages [vanguard-api]: Skipping, unable to determine old version
+[2024-05-07 12:40:25] INFO root fetch - processPackages [vanguard-api]: Start processing: DataExtractorOEG
+[2024-05-07 12:40:25] INFO root fetch - main [MainThread]: End processing [vanguard-api] error
+[2024-05-07 12:40:25] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/4a/24/db5b24084e6d72e7e20ba2f6c6f9ed26f014c9a46a8eb9f0202b6c97c059/sparkpipelineframework-2.0.8.tar.gz
+[2024-05-07 12:40:25] INFO root fetch - processPackages [sbcli-release]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-07 12:40:25] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/a2/6a/fc1e17ed8249aa662d736747b383ab6c49c7144dc000f01a9057721c3218/pepperpepper-0.0.7.8.tar.gz
+[2024-05-07 12:40:25] WARNING root fetch - processPackages [nb-helloworld]: Skipping, unable to determine old version
+[2024-05-07 12:40:25] INFO root fetch - main [MainThread]: End processing [nb-helloworld] error
+[2024-05-07 12:40:25] INFO root fetch - processPackages [pcffont]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-07 12:40:25] INFO root fetch - processPackages [diwork]: Downloading https://files.pythonhosted.org/packages/ad/87/531bc309031527f7a4af6ed8ac4cfbf943520012e5b06422bd2781618fd4/diwork-1.3.0.tar.gz
+[2024-05-07 12:40:25] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-07 12:40:25] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240507] Old Version: [1.0.0.dev20240506]
+[2024-05-07 12:40:25] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-07 12:40:25] INFO root fetch - processPackages [safe-init]: Downloading https://files.pythonhosted.org/packages/e0/a4/80c51b28a6978799601573226fc0ad58c862fb6ead6f927a1d966706c8bb/safe_init-1.0.2.tar.gz
+[2024-05-07 12:40:25] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/0b/73/8db260aa8d5c5a2add547e442041aab12b3f2bbaee6bd06cee8ac8c84867/dataextractoroeg-0.4.7.tar.gz
+[2024-05-07 12:40:25] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/8f/65/c5a79f96f3fb90276c59162aeffa250d4afc055e628f150f637b57290373/pcffont-0.0.7.tar.gz
+[2024-05-07 12:40:25] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/51/1e/6feb38a436da6de257cad0f364a6a0a67f6bd1630714efe72137bcf3b447/skypilot_nightly-1.0.0.dev20240506.tar.gz
+[2024-05-07 12:40:25] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/bd/bd/74c69c2a57615281d2dab96af6ddca9210d7c0be7e2ab04c6f559e1aea99/pepperpepper-0.0.7.9.tar.gz
+[2024-05-07 12:40:25] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/cd/26/28286b2b98e444bd3ef46a0e8a3e370f9d4ce4798c088170e0083e8dbbaa/sparkpipelineframework-2.0.9.tar.gz
+[2024-05-07 12:40:25] INFO root fetch - processPackages [sbcli-release]: Downloading https://files.pythonhosted.org/packages/17/ac/0d76b102d1fa9e83fd44a0891f6897adb9dc3ba14993d7f6e91323b005a0/sbcli_release-1.1.0.zip
+[2024-05-07 12:40:25] INFO root fetch - processPackages [diwork]: Downloading https://files.pythonhosted.org/packages/59/f8/6d7477db5ec097496eff9c7bf3ecc10ab82d906984fb5b7dfb2ffc80c53c/diwork-1.4.0.tar.gz
+[2024-05-07 12:40:25] INFO root fetch - processPackages [safe-init]: Downloading https://files.pythonhosted.org/packages/e1/47/b1e262801639b1846a9e27e7e0ddab3cdd6ddc6fe7a8330ef62f6b8a7759/safe_init-1.1.0.tar.gz
+[2024-05-07 12:40:25] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-07 12:40:25] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-07 12:40:25] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.8.tar.gz tmp/pepperpepper-0.0.7.9.tar.gz --markdown 20240507/P/PepperPepper/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-07 12:40:26] INFO root fetch - processPackages [diwork]: executing diffoscope
+[2024-05-07 12:40:26] INFO root fetch - processPackages [diwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diwork-1.3.0.tar.gz tmp/diwork-1.4.0.tar.gz --markdown 20240507/d/diwork/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-07 12:40:26] INFO root fetch - processPackages [sparkpipelineframework]: executing diffoscope
+[2024-05-07 12:40:26] INFO root fetch - processPackages [sparkpipelineframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkpipelineframework-2.0.8.tar.gz tmp/sparkpipelineframework-2.0.9.tar.gz --markdown 20240507/s/sparkpipelineframework/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-07 12:40:26] INFO root fetch - processPackages [safe-init]: executing diffoscope
+[2024-05-07 12:40:26] INFO root fetch - processPackages [safe-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_init-1.0.2.tar.gz tmp/safe_init-1.1.0.tar.gz --markdown 20240507/s/safe-init/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-07 12:40:26] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-07 12:40:26] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240507/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-07 12:40:26] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/4a/ca/171c584f699ed1394819ec69a49a82321229749a51385a3b02d7bf2d3481/dataextractoroeg-0.4.8.tar.gz
+[2024-05-07 12:40:26] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/92/35/03862ad6dd7b59fd56a2b6550361d86db7575145d828ac85b1bfa29d722d/pcffont-0.0.8.tar.gz
+[2024-05-07 12:40:26] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/61/1a/481be8bc24c3bece159e108d7a8a789dba7792b03b5b898241d7747cf35c/skypilot_nightly-1.0.0.dev20240507.tar.gz
+[2024-05-07 12:40:26] INFO root fetch - processPackages [sbcli-release]: Downloading https://files.pythonhosted.org/packages/98/0b/abc870b3e9603b3ebceb4db5c9f554493d4e3ce3a66d75b9071b3890ac0f/sbcli_release-1.1.1.zip
+[2024-05-07 12:40:26] INFO root fetch - processPackages [sbcli-release]: executing diffoscope
+[2024-05-07 12:40:26] INFO root fetch - processPackages [sbcli-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_release-1.1.0.zip tmp/sbcli_release-1.1.1.zip --markdown 20240507/s/sbcli-release/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-07 12:40:26] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-05-07 12:40:26] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.4.7.tar.gz tmp/dataextractoroeg-0.4.8.tar.gz --markdown 20240507/D/DataExtractorOEG/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-07 12:40:26] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-07 12:40:26] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240506.tar.gz tmp/skypilot_nightly-1.0.0.dev20240507.tar.gz --markdown 20240507/s/skypilot-nightly/1.0.0.dev20240506-1.0.0.dev20240507/README.md --exclude *.pyd
+[2024-05-07 12:40:26] INFO root fetch - processPackages [pcffont]: executing diffoscope
+[2024-05-07 12:40:26] INFO root fetch - processPackages [pcffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcffont-0.0.7.tar.gz tmp/pcffont-0.0.8.tar.gz --markdown 20240507/p/pcffont/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-07 12:40:26] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.8.tar.gz]
+[2024-05-07 12:40:26] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
+[2024-05-07 12:40:26] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-07 12:40:26] INFO root fetch - processPackages [safe-init]: Remove: archive file [/home/abi/fetcher/tmp/safe_init-1.0.2.tar.gz]
+[2024-05-07 12:40:26] INFO root fetch - processPackages [safe-init]: Remove: archive file [/home/abi/fetcher/tmp/safe_init-1.1.0.tar.gz]
+[2024-05-07 12:40:26] INFO root fetch - main [MainThread]: End processing [safe-init]: success
+[2024-05-07 12:40:26] INFO root fetch - processPackages [diwork]: Remove: archive file [/home/abi/fetcher/tmp/diwork-1.3.0.tar.gz]
+[2024-05-07 12:40:26] INFO root fetch - processPackages [diwork]: Remove: archive file [/home/abi/fetcher/tmp/diwork-1.4.0.tar.gz]
+[2024-05-07 12:40:26] INFO root fetch - main [MainThread]: End processing [diwork]: success
+[2024-05-07 12:40:27] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.7.tar.gz]
+[2024-05-07 12:40:27] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.8.tar.gz]
+[2024-05-07 12:40:27] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-05-07 12:40:27] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-07 12:40:27] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-07 12:40:27] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-07 12:40:27] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-2.0.8.tar.gz]
+[2024-05-07 12:40:27] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-2.0.9.tar.gz]
+[2024-05-07 12:40:27] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
+[2024-05-07 12:40:27] INFO root fetch - processPackages [sbcli-release]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_release-1.1.0.zip]
+[2024-05-07 12:40:27] INFO root fetch - processPackages [sbcli-release]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_release-1.1.1.zip]
+[2024-05-07 12:40:27] INFO root fetch - main [MainThread]: End processing [sbcli-release]: success
+[2024-05-07 12:40:28] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.7.tar.gz]
+[2024-05-07 12:40:28] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.8.tar.gz]
+[2024-05-07 12:40:28] INFO root fetch - main [MainThread]: End processing [pcffont]: success
+[2024-05-07 12:40:28] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240506.tar.gz]
+[2024-05-07 12:40:28] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240507.tar.gz]
+[2024-05-07 12:40:28] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-07 12:40:28] INFO root fetch - main [MainThread]: Store serial: [23093804]
