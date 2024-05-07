@@ -13127,3 +13127,60 @@ EOFError: EOF read where object expected
 [2024-05-07 08:28:36] INFO root fetch - processPackages [spo4onnx]: Remove: archive file [/home/abi/fetcher/tmp/spo4onnx-1.0.5.tar.gz]
 [2024-05-07 08:28:36] INFO root fetch - main [MainThread]: End processing [spo4onnx]: success
 [2024-05-07 08:28:36] INFO root fetch - main [MainThread]: Store serial: [23090668]
+[2024-05-07 08:30:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090668]
+[2024-05-07 08:30:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-07 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-onelogin
+[2024-05-07 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: copy-to
+[2024-05-07 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e6data-python-connector
+[2024-05-07 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: punkweb-bb
+[2024-05-07 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gotrackit
+[2024-05-07 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spotify2youtubemusic
+[2024-05-07 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NPDoseResponse
+[2024-05-07 08:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hdforce
+[2024-05-07 08:30:45] INFO root fetch - processPackages [copy-to]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-07 08:30:45] WARNING root fetch - processPackages [hdforce]: Skipping, unable to determine old version
+[2024-05-07 08:30:45] WARNING root fetch - processPackages [spotify2youtubemusic]: Skipping, unable to determine old version
+[2024-05-07 08:30:45] INFO root fetch - main [MainThread]: End processing [hdforce] error
+[2024-05-07 08:30:45] INFO root fetch - main [MainThread]: End processing [spotify2youtubemusic] error
+[2024-05-07 08:30:45] INFO root fetch - processPackages [copy-to]: Downloading https://files.pythonhosted.org/packages/3f/bd/552ffe4c7bf8dac05eee1ff1cfa399e95179c832a683082191c1bbc84635/copy-to-1.3.8.tar.gz
+[2024-05-07 08:30:45] INFO root fetch - processPackages [e6data-python-connector]: New version: [2.1.9.dev0] Old Version: [2.1.9]
+[2024-05-07 08:30:45] INFO root fetch - processPackages [punkweb-bb]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-07 08:30:45] INFO root fetch - processPackages [gotrackit]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-07 08:30:45] WARNING root fetch - processPackages [NPDoseResponse]: Skipping, unable to determine old version
+[2024-05-07 08:30:45] INFO root fetch - main [MainThread]: End processing [NPDoseResponse] error
+[2024-05-07 08:30:45] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.7.0a1715061651] Old Version: [0.7.0a1714564826]
+[2024-05-07 08:30:45] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/3b/f2/73cc111099ae8f8930a9fa380bcf03f07d762a19907bb84bc1e7fb7f5fa0/e6data-python-connector-2.1.9.tar.gz
+[2024-05-07 08:30:45] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/d9/04/ae74a615721a014ef4c32cbfd358b0163f596f3571e94527c7b547ebdbe2/punkweb_bb-0.1.2.tar.gz
+[2024-05-07 08:30:45] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/0a/d7/00d2ddbb20e008b3c4c3e660cf87ae3fd4570c7594357b3716295f0023fc/pulumi_onelogin-0.7.0a1714564826.tar.gz
+[2024-05-07 08:30:45] INFO root fetch - processPackages [copy-to]: Downloading https://files.pythonhosted.org/packages/d5/9a/e1cf706621904d886141bebf3c24390caf4c9135cae97c5a2df84d95731c/copy-to-1.3.9.tar.gz
+[2024-05-07 08:30:45] INFO root fetch - processPackages [gotrackit]: Downloading https://files.pythonhosted.org/packages/38/d5/cc50a3673b6ce7bcb9f592703e76f47078b8ea0e942b1bc2e8dfe820aa84/gotrackit-0.2.2.tar.gz
+[2024-05-07 08:30:45] INFO root fetch - processPackages [copy-to]: executing diffoscope
+[2024-05-07 08:30:45] INFO root fetch - processPackages [copy-to]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copy-to-1.3.8.tar.gz tmp/copy-to-1.3.9.tar.gz --markdown 20240507/c/copy-to/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-07 08:30:45] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/d5/3e/179dd9991168c94caa30f75b1bb444c7031b437254db41117b698d316f7f/e6data-python-connector-2.1.9.dev0.tar.gz
+[2024-05-07 08:30:45] INFO root fetch - processPackages [gotrackit]: Downloading https://files.pythonhosted.org/packages/73/fe/5f1d9fb62b07aaba4e1538c9ea2d55938f5a88fad1322d3a2847aa8c523a/gotrackit-0.2.3.tar.gz
+[2024-05-07 08:30:45] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/00/5c/57444557512f9d0c29cc76447f75ec327c1c2a3e3b03bd5beaa6a34e4c93/punkweb_bb-0.1.3.tar.gz
+[2024-05-07 08:30:45] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/09/d6/c352765828cdb4487c624ac81c45d0394fce349eccee23278f96174b8e0c/pulumi_onelogin-0.7.0a1715061651.tar.gz
+[2024-05-07 08:30:45] INFO root fetch - processPackages [gotrackit]: executing diffoscope
+[2024-05-07 08:30:45] INFO root fetch - processPackages [gotrackit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gotrackit-0.2.2.tar.gz tmp/gotrackit-0.2.3.tar.gz --markdown 20240507/g/gotrackit/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-07 08:30:45] INFO root fetch - processPackages [e6data-python-connector]: executing diffoscope
+[2024-05-07 08:30:45] INFO root fetch - processPackages [e6data-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e6data-python-connector-2.1.9.tar.gz tmp/e6data-python-connector-2.1.9.dev0.tar.gz --markdown 20240507/e/e6data-python-connector/2.1.9-2.1.9.dev0/README.md --exclude *.pyd
+[2024-05-07 08:30:45] INFO root fetch - processPackages [punkweb-bb]: executing diffoscope
+[2024-05-07 08:30:45] INFO root fetch - processPackages [punkweb-bb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punkweb_bb-0.1.2.tar.gz tmp/punkweb_bb-0.1.3.tar.gz --markdown 20240507/p/punkweb-bb/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-07 08:30:45] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2024-05-07 08:30:45] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.7.0a1714564826.tar.gz tmp/pulumi_onelogin-0.7.0a1715061651.tar.gz --markdown 20240507/p/pulumi-onelogin/0.7.0a1714564826-0.7.0a1715061651/README.md --exclude *.pyd
+[2024-05-07 08:30:46] INFO root fetch - processPackages [copy-to]: Remove: archive file [/home/abi/fetcher/tmp/copy-to-1.3.8.tar.gz]
+[2024-05-07 08:30:46] INFO root fetch - processPackages [copy-to]: Remove: archive file [/home/abi/fetcher/tmp/copy-to-1.3.9.tar.gz]
+[2024-05-07 08:30:46] INFO root fetch - main [MainThread]: End processing [copy-to]: success
+[2024-05-07 08:30:46] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-2.1.9.tar.gz]
+[2024-05-07 08:30:46] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-2.1.9.dev0.tar.gz]
+[2024-05-07 08:30:46] INFO root fetch - main [MainThread]: End processing [e6data-python-connector]: success
+[2024-05-07 08:30:46] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1714564826.tar.gz]
+[2024-05-07 08:30:46] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1715061651.tar.gz]
+[2024-05-07 08:30:46] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2024-05-07 08:30:46] INFO root fetch - processPackages [gotrackit]: Remove: archive file [/home/abi/fetcher/tmp/gotrackit-0.2.2.tar.gz]
+[2024-05-07 08:30:46] INFO root fetch - processPackages [gotrackit]: Remove: archive file [/home/abi/fetcher/tmp/gotrackit-0.2.3.tar.gz]
+[2024-05-07 08:30:46] INFO root fetch - main [MainThread]: End processing [gotrackit]: success
+[2024-05-07 08:30:47] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.1.2.tar.gz]
+[2024-05-07 08:30:47] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.1.3.tar.gz]
+[2024-05-07 08:30:47] INFO root fetch - main [MainThread]: End processing [punkweb-bb]: success
+[2024-05-07 08:30:47] INFO root fetch - main [MainThread]: Store serial: [23090696]
