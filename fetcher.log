@@ -13414,3 +13414,83 @@ EOFError: EOF read where object expected
 [2024-05-07 08:39:34] INFO root fetch - processPackages [accelbyte-py-sdk-service-dsmc]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_dsmc-0.8.0.tar.gz]
 [2024-05-07 08:39:34] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-dsmc]: success
 [2024-05-07 08:39:34] INFO root fetch - main [MainThread]: Store serial: [23090774]
+[2024-05-07 08:41:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090774]
+[2024-05-07 08:41:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 08:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotify2youtubemusic
+[2024-05-07 08:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: accelbyte-py-sdk-service-gdpr
+[2024-05-07 08:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numerous
+[2024-05-07 08:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nowgg
+[2024-05-07 08:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-rabbitmq
+[2024-05-07 08:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peutils
+[2024-05-07 08:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: accelbyte-py-sdk-service-group
+[2024-05-07 08:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xlwingsform
+[2024-05-07 08:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: accelbyte-py-sdk-service-iam
+[2024-05-07 08:41:43] INFO root fetch - processPackages [spotify2youtubemusic]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-07 08:41:43] INFO root fetch - processPackages [nowgg]: New version: [1.1.0] Old Version: [1.0.8]
+[2024-05-07 08:41:43] INFO root fetch - processPackages [accelbyte-py-sdk-service-gdpr]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-07 08:41:43] INFO root fetch - processPackages [accelbyte-py-sdk-service-iam]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:41:43] INFO root fetch - processPackages [xlwingsform]: New version: [0.6.0] Old Version: [0.10.0]
+[2024-05-07 08:41:43] INFO root fetch - processPackages [accelbyte-py-sdk-service-group]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:41:43] INFO root fetch - processPackages [numerous]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-07 08:41:43] INFO root fetch - processPackages [peutils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-07 08:41:43] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1715062412] Old Version: [3.4.0a1714565275]
+[2024-05-07 08:41:43] INFO root fetch - processPackages [nowgg]: Downloading https://files.pythonhosted.org/packages/f9/59/73c3f0281b7cdaa5b957ea5354103c284cbecd28adca53b1b19b56b3a4f1/nowgg-1.0.8.tar.gz
+[2024-05-07 08:41:43] INFO root fetch - processPackages [spotify2youtubemusic]: Downloading https://files.pythonhosted.org/packages/a5/bb/3c57c3c5b43215fc97ff42c86b99fe009b6ef9528db3d14077423014588c/spotify2youtubemusic-0.1.tar.gz
+[2024-05-07 08:41:43] INFO root fetch - processPackages [accelbyte-py-sdk-service-gdpr]: Downloading https://files.pythonhosted.org/packages/66/2a/916cdd6e23d29935c62f69bbca6ffbd1448e6d50ffa0622c36cc7ccfd18c/accelbyte-py-sdk-service-gdpr-0.7.0.tar.gz
+[2024-05-07 08:41:43] INFO root fetch - processPackages [accelbyte-py-sdk-service-iam]: Downloading https://files.pythonhosted.org/packages/2b/05/6e108e5562faefab5de548992f07293491ac4ed3c5b8551ea76042a6d64f/accelbyte-py-sdk-service-iam-0.8.0.tar.gz
+[2024-05-07 08:41:43] INFO root fetch - processPackages [xlwingsform]: Downloading https://files.pythonhosted.org/packages/1b/21/64a03f47008022bc3a1dc01126d0ff6556ae8a63b94b1115258e5f3279b7/xlwingsform-0.10.0.tar.gz
+[2024-05-07 08:41:43] INFO root fetch - processPackages [nowgg]: Downloading https://files.pythonhosted.org/packages/36/58/cfb146ae33d1ad1b59b4c6b6eed3db8d919c2ee06ad9f68e0861096b0bd4/nowgg-1.1.0.tar.gz
+[2024-05-07 08:41:43] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/86/56/fc38c0e7cb317b1857f035c575fbf769b42801fd4ebbac8e63455b682efc/peutils-0.0.98.tar.gz
+[2024-05-07 08:41:43] INFO root fetch - processPackages [accelbyte-py-sdk-service-group]: Downloading https://files.pythonhosted.org/packages/ff/5b/be5886895bcd60cc3b19c5b5284e5461174923f37943936aa91ba47bfe3d/accelbyte-py-sdk-service-group-0.8.0.tar.gz
+[2024-05-07 08:41:43] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/74/98/c0f673796e006eb9bad2feb2f04a082dd43b77ef6ebf6f33750898dc8419/pulumi_rabbitmq-3.4.0a1714565275.tar.gz
+[2024-05-07 08:41:43] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/5e/24/27a07b2b8a687d40e67fce5f391929b59517618e05ed7af0de3d636a970b/numerous-0.1.3.tar.gz
+[2024-05-07 08:41:43] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 63953355>=10485760
+[2024-05-07 08:41:43] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-05-07 08:41:43] INFO root fetch - processPackages [nowgg]: executing diffoscope
+[2024-05-07 08:41:43] INFO root fetch - processPackages [nowgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowgg-1.0.8.tar.gz tmp/nowgg-1.1.0.tar.gz --markdown 20240507/n/nowgg/1.0.8-1.1.0/README.md --exclude *.pyd
+[2024-05-07 08:41:43] INFO root fetch - processPackages [spotify2youtubemusic]: Downloading https://files.pythonhosted.org/packages/ac/76/eaba51ff1a986324aff42bd22d00301adf23d2736cba326e91eb396ed2ea/spotify2youtubemusic-0.1.1.tar.gz
+[2024-05-07 08:41:43] INFO root fetch - processPackages [accelbyte-py-sdk-service-gdpr]: Downloading https://files.pythonhosted.org/packages/35/53/42b6831ba3e4da025a1c40779d5d6398dc6400ad2cd32c65fe6e935707f7/accelbyte_py_sdk_service_gdpr-0.8.0.tar.gz
+[2024-05-07 08:41:43] INFO root fetch - processPackages [spotify2youtubemusic]: executing diffoscope
+[2024-05-07 08:41:43] INFO root fetch - processPackages [spotify2youtubemusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify2youtubemusic-0.1.tar.gz tmp/spotify2youtubemusic-0.1.1.tar.gz --markdown 20240507/s/spotify2youtubemusic/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-07 08:41:43] INFO root fetch - processPackages [xlwingsform]: Downloading https://files.pythonhosted.org/packages/3d/8c/399d84354cd6eeaa84d1811568020f381e0bf708f75cc901b3388928d888/xlwingsform-0.6.0.tar.gz
+[2024-05-07 08:41:44] INFO root fetch - processPackages [accelbyte-py-sdk-service-gdpr]: executing diffoscope
+[2024-05-07 08:41:44] INFO root fetch - processPackages [accelbyte-py-sdk-service-gdpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-gdpr-0.7.0.tar.gz tmp/accelbyte_py_sdk_service_gdpr-0.8.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-gdpr/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-07 08:41:44] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/ba/fe/8c48c448fd9667ae84b126cee4f1683e818dc74524c954a888b5bc50330a/peutils-0.0.99.tar.gz
+[2024-05-07 08:41:44] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/90/c1/b8db39578ed43d1a6a0d6b123d93ada091984ef9435de23c555fb077737e/pulumi_rabbitmq-3.4.0a1715062412.tar.gz
+[2024-05-07 08:41:44] INFO root fetch - processPackages [accelbyte-py-sdk-service-group]: Downloading https://files.pythonhosted.org/packages/7c/8f/898e72b216585d5390a7e83c622fbde5334443f26c726222d5046f8bc37b/accelbyte-py-sdk-service-group-0.9.0.tar.gz
+[2024-05-07 08:41:44] INFO root fetch - processPackages [xlwingsform]: executing diffoscope
+[2024-05-07 08:41:44] INFO root fetch - processPackages [xlwingsform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlwingsform-0.10.0.tar.gz tmp/xlwingsform-0.6.0.tar.gz --markdown 20240507/x/xlwingsform/0.10.0-0.6.0/README.md --exclude *.pyd
+[2024-05-07 08:41:44] INFO root fetch - processPackages [accelbyte-py-sdk-service-iam]: Downloading https://files.pythonhosted.org/packages/43/2d/04cd38706d0a5d157235554748fce00bf7d574538e3a265f7d50bfe8a22f/accelbyte-py-sdk-service-iam-0.9.0.tar.gz
+[2024-05-07 08:41:44] INFO root fetch - processPackages [peutils]: executing diffoscope
+[2024-05-07 08:41:44] INFO root fetch - processPackages [peutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peutils-0.0.98.tar.gz tmp/peutils-0.0.99.tar.gz --markdown 20240507/p/peutils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-07 08:41:44] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2024-05-07 08:41:44] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1714565275.tar.gz tmp/pulumi_rabbitmq-3.4.0a1715062412.tar.gz --markdown 20240507/p/pulumi-rabbitmq/3.4.0a1714565275-3.4.0a1715062412/README.md --exclude *.pyd
+[2024-05-07 08:41:44] INFO root fetch - processPackages [accelbyte-py-sdk-service-group]: executing diffoscope
+[2024-05-07 08:41:44] INFO root fetch - processPackages [accelbyte-py-sdk-service-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-group-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-group-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-group/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:41:44] INFO root fetch - processPackages [accelbyte-py-sdk-service-iam]: executing diffoscope
+[2024-05-07 08:41:44] INFO root fetch - processPackages [accelbyte-py-sdk-service-iam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-iam-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-iam-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-iam/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:41:44] INFO root fetch - processPackages [spotify2youtubemusic]: Remove: archive file [/home/abi/fetcher/tmp/spotify2youtubemusic-0.1.tar.gz]
+[2024-05-07 08:41:44] INFO root fetch - processPackages [spotify2youtubemusic]: Remove: archive file [/home/abi/fetcher/tmp/spotify2youtubemusic-0.1.1.tar.gz]
+[2024-05-07 08:41:44] INFO root fetch - main [MainThread]: End processing [spotify2youtubemusic]: success
+[2024-05-07 08:41:44] INFO root fetch - processPackages [nowgg]: Remove: archive file [/home/abi/fetcher/tmp/nowgg-1.0.8.tar.gz]
+[2024-05-07 08:41:44] INFO root fetch - processPackages [nowgg]: Remove: archive file [/home/abi/fetcher/tmp/nowgg-1.1.0.tar.gz]
+[2024-05-07 08:41:44] INFO root fetch - main [MainThread]: End processing [nowgg]: success
+[2024-05-07 08:41:44] INFO root fetch - processPackages [xlwingsform]: Remove: archive file [/home/abi/fetcher/tmp/xlwingsform-0.10.0.tar.gz]
+[2024-05-07 08:41:44] INFO root fetch - processPackages [xlwingsform]: Remove: archive file [/home/abi/fetcher/tmp/xlwingsform-0.6.0.tar.gz]
+[2024-05-07 08:41:44] INFO root fetch - main [MainThread]: End processing [xlwingsform]: success
+[2024-05-07 08:41:44] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.98.tar.gz]
+[2024-05-07 08:41:44] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.99.tar.gz]
+[2024-05-07 08:41:44] INFO root fetch - main [MainThread]: End processing [peutils]: success
+[2024-05-07 08:41:45] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1714565275.tar.gz]
+[2024-05-07 08:41:45] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1715062412.tar.gz]
+[2024-05-07 08:41:45] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2024-05-07 08:41:45] INFO root fetch - processPackages [accelbyte-py-sdk-service-gdpr]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-gdpr-0.7.0.tar.gz]
+[2024-05-07 08:41:45] INFO root fetch - processPackages [accelbyte-py-sdk-service-gdpr]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_gdpr-0.8.0.tar.gz]
+[2024-05-07 08:41:45] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-gdpr]: success
+[2024-05-07 08:41:45] INFO root fetch - processPackages [accelbyte-py-sdk-service-group]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-group-0.8.0.tar.gz]
+[2024-05-07 08:41:45] INFO root fetch - processPackages [accelbyte-py-sdk-service-group]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-group-0.9.0.tar.gz]
+[2024-05-07 08:41:45] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-group]: success
+[2024-05-07 08:41:48] INFO root fetch - processPackages [accelbyte-py-sdk-service-iam]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-iam-0.8.0.tar.gz]
+[2024-05-07 08:41:48] INFO root fetch - processPackages [accelbyte-py-sdk-service-iam]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-iam-0.9.0.tar.gz]
+[2024-05-07 08:41:48] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-iam]: success
+[2024-05-07 08:41:48] INFO root fetch - main [MainThread]: Store serial: [23090799]
