@@ -12453,3 +12453,21 @@ EOFError: EOF read where object expected
 [2024-05-07 08:00:59] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
 [2024-05-07 08:00:59] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
 [2024-05-07 08:00:59] INFO root fetch - main [MainThread]: Store serial: [23090239]
+[2024-05-07 08:03:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090239]
+[2024-05-07 08:03:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 08:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: theraputantz
+[2024-05-07 08:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thingspire-datasets
+[2024-05-07 08:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: erp-apis
+[2024-05-07 08:03:08] WARNING root fetch - processPackages [thingspire-datasets]: Skipping, unable to determine old version
+[2024-05-07 08:03:08] INFO root fetch - main [MainThread]: End processing [thingspire-datasets] error
+[2024-05-07 08:03:08] INFO root fetch - processPackages [erp-apis]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-07 08:03:08] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/77/87/ff8bf986523202dc45ce3624d3162ff5f4bbfa24a08c605dd6af7934557e/erp_apis-1.0.4-py3-none-any.whl
+[2024-05-07 08:03:08] WARNING root fetch - processPackages [theraputantz]: Skipping, unable to determine old version
+[2024-05-07 08:03:08] INFO root fetch - main [MainThread]: End processing [theraputantz] error
+[2024-05-07 08:03:09] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/66/60/b580005fae8fa8cae5d1ffa987aedc6c8ac7ff0e89f47ec2eb6eab1f0c80/erp_apis-1.0.5-py3-none-any.whl
+[2024-05-07 08:03:09] INFO root fetch - processPackages [erp-apis]: executing diffoscope
+[2024-05-07 08:03:09] INFO root fetch - processPackages [erp-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erp_apis-1.0.4-py3-none-any.whl.zip tmp/erp_apis-1.0.5-py3-none-any.whl.zip --markdown 20240507/e/erp-apis/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-07 08:03:09] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.4-py3-none-any.whl.zip]
+[2024-05-07 08:03:09] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.5-py3-none-any.whl.zip]
+[2024-05-07 08:03:09] INFO root fetch - main [MainThread]: End processing [erp-apis]: success
+[2024-05-07 08:03:09] INFO root fetch - main [MainThread]: Store serial: [23090267]
