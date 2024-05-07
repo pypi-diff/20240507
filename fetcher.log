@@ -20054,3 +20054,40 @@ EOFError: EOF read where object expected
 [2024-05-07 12:42:39] INFO root fetch - processPackages [sqlmodel-filters]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel_filters-0.0.8.tar.gz]
 [2024-05-07 12:42:39] INFO root fetch - main [MainThread]: End processing [sqlmodel-filters]: success
 [2024-05-07 12:42:39] INFO root fetch - main [MainThread]: Store serial: [23093834]
+[2024-05-07 12:44:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093834]
+[2024-05-07 12:44:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 12:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PepperPepper
+[2024-05-07 12:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openctp-ctp
+[2024-05-07 12:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnx2tf
+[2024-05-07 12:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openctp-ctp
+[2024-05-07 12:44:48] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-07 12:44:48] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-07 12:44:48] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/a2/6a/fc1e17ed8249aa662d736747b383ab6c49c7144dc000f01a9057721c3218/pepperpepper-0.0.7.8.tar.gz
+[2024-05-07 12:44:48] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2024-05-07 12:44:48] INFO root fetch - processPackages [openctp-ctp]: New version: [6.7.2.5] Old Version: [6.7.2.4]
+[2024-05-07 12:44:48] INFO root fetch - processPackages [openctp-ctp]: New version: [6.7.2.5] Old Version: [6.7.2.4]
+[2024-05-07 12:44:48] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/bd/bd/74c69c2a57615281d2dab96af6ddca9210d7c0be7e2ab04c6f559e1aea99/pepperpepper-0.0.7.9.tar.gz
+[2024-05-07 12:44:48] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2024-05-07 12:44:48] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-07 12:44:48] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.8.tar.gz tmp/pepperpepper-0.0.7.9.tar.gz --markdown 20240507/P/PepperPepper/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-07 12:44:49] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/c6/8d/02c31fa7ddb6ac9071dc961e0234a9b364aa4eba17dc32648f438cec0b78/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl
+[2024-05-07 12:44:49] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/c6/8d/02c31fa7ddb6ac9071dc961e0234a9b364aa4eba17dc32648f438cec0b78/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl
+[2024-05-07 12:44:49] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2024-05-07 12:44:49] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20240507/o/onnx2tf/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-07 12:44:49] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.8.tar.gz]
+[2024-05-07 12:44:49] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
+[2024-05-07 12:44:49] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-07 12:44:49] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/b8/5b/55216866b439f1def4957d8af137cb241904d679c85834403f05136a73c9/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl
+[2024-05-07 12:44:49] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/b8/5b/55216866b439f1def4957d8af137cb241904d679c85834403f05136a73c9/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl
+[2024-05-07 12:44:50] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2024-05-07 12:44:50] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2024-05-07 12:44:50] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2024-05-07 12:44:51] INFO root fetch - processPackages [openctp-ctp]: executing diffoscope
+[2024-05-07 12:44:51] INFO root fetch - processPackages [openctp-ctp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl.zip --markdown 20240507/o/openctp-ctp/6.7.2.4-6.7.2.5/README.md --exclude *.pyd
+[2024-05-07 12:44:51] INFO root fetch - processPackages [openctp-ctp]: executing diffoscope
+[2024-05-07 12:44:51] INFO root fetch - processPackages [openctp-ctp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl.zip --markdown 20240507/o/openctp-ctp/6.7.2.4-6.7.2.5/README.md --exclude *.pyd
+[2024-05-07 12:44:51] INFO root fetch - processPackages [openctp-ctp]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip]
+[2024-05-07 12:44:51] INFO root fetch - processPackages [openctp-ctp]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl.zip]
+[2024-05-07 12:44:51] INFO root fetch - main [MainThread]: End processing [openctp-ctp]: success
+[2024-05-07 12:44:52] INFO root fetch - main [MainThread]: End processing [openctp-ctp]: success
+[2024-05-07 12:44:52] INFO root fetch - main [MainThread]: Store serial: [23093846]
