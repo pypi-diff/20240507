@@ -8889,3 +8889,51 @@ EOFError: EOF read where object expected
 [2024-05-07 04:38:09] INFO root fetch - processPackages [fancy-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/fancy_dataclass-0.4.4.tar.gz]
 [2024-05-07 04:38:09] INFO root fetch - main [MainThread]: End processing [fancy-dataclass]: success
 [2024-05-07 04:38:09] INFO root fetch - main [MainThread]: Store serial: [23088540]
+[2024-05-07 04:40:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088540]
+[2024-05-07 04:40:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 04:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: falcon-challenge
+[2024-05-07 04:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbappinator
+[2024-05-07 04:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: filewatchdog
+[2024-05-07 04:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-telegram-broadcast
+[2024-05-07 04:40:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sphractal
+[2024-05-07 04:40:18] INFO root fetch - processPackages [python-telegram-broadcast]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-07 04:40:18] INFO root fetch - processPackages [nbappinator]: New version: [0.1.2b2] Old Version: [0.1.2b1]
+[2024-05-07 04:40:18] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/db/fd/31f52942926b673fc890dad80cac74a76b1cb26f3747ddd3070b6eaca024/python-telegram-broadcast-0.6.2.tar.gz
+[2024-05-07 04:40:18] INFO root fetch - processPackages [sphractal]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-07 04:40:18] INFO root fetch - processPackages [filewatchdog]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 04:40:18] INFO root fetch - processPackages [falcon-challenge]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-07 04:40:18] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/b2/d3/fae7baf24fe96926d945c260b21a8b9dec488e0545177d01c8bb151c46ab/nbappinator-0.1.2b1.tar.gz
+[2024-05-07 04:40:18] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/0e/96/1ac3442ef3db127d287d2bf640ca06157722ea5b89ac2123fd68a5ee3596/sphractal-1.1.4.tar.gz
+[2024-05-07 04:40:18] INFO root fetch - processPackages [filewatchdog]: Downloading https://files.pythonhosted.org/packages/e1/7d/b82340b4ef43cb11719f6c47b56e32e40a9036a029aba34657a36071049d/filewatchdog-0.1.0.tar.gz
+[2024-05-07 04:40:18] INFO root fetch - processPackages [falcon-challenge]: Downloading https://files.pythonhosted.org/packages/fc/c9/dc4e03dde2bb7a070a3a918081b36c079d429aea0a1c0cdd011288e8f3de/falcon_challenge-0.3.3.tar.gz
+[2024-05-07 04:40:20] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/7a/f2/514cfbb3d6ebd798e3da68ee27c942c6acb35a67b0749f7957fc45d4b0dc/python-telegram-broadcast-0.6.3.tar.gz
+[2024-05-07 04:40:20] INFO root fetch - processPackages [falcon-challenge]: Downloading https://files.pythonhosted.org/packages/e9/6b/98953dd2ee8bcbf0a52e68659447f621efa190d99c1222c7ce3931c52d68/falcon_challenge-0.3.4.tar.gz
+[2024-05-07 04:40:20] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/7c/5a/a1c904a44a11c23d11c33a1ee895bdd2dcfc0307807fa48231a3f8c99172/nbappinator-0.1.2b2.tar.gz
+[2024-05-07 04:40:20] INFO root fetch - processPackages [filewatchdog]: Downloading https://files.pythonhosted.org/packages/85/85/2c450e6729fbcbdb790d14647254a470ce4dbb1ad37de674d4794c03fd01/filewatchdog-0.1.1.tar.gz
+[2024-05-07 04:40:20] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/2b/ae/0e997edffefdd89225f58e583f10baffb56e8e8e7e1e596d9c7076efaa56/sphractal-1.1.5.tar.gz
+[2024-05-07 04:40:20] INFO root fetch - processPackages [python-telegram-broadcast]: executing diffoscope
+[2024-05-07 04:40:20] INFO root fetch - processPackages [python-telegram-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-telegram-broadcast-0.6.2.tar.gz tmp/python-telegram-broadcast-0.6.3.tar.gz --markdown 20240507/p/python-telegram-broadcast/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-07 04:40:20] INFO root fetch - processPackages [nbappinator]: executing diffoscope
+[2024-05-07 04:40:20] INFO root fetch - processPackages [nbappinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbappinator-0.1.2b1.tar.gz tmp/nbappinator-0.1.2b2.tar.gz --markdown 20240507/n/nbappinator/0.1.2b1-0.1.2b2/README.md --exclude *.pyd
+[2024-05-07 04:40:20] INFO root fetch - processPackages [falcon-challenge]: executing diffoscope
+[2024-05-07 04:40:20] INFO root fetch - processPackages [falcon-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falcon_challenge-0.3.3.tar.gz tmp/falcon_challenge-0.3.4.tar.gz --markdown 20240507/f/falcon-challenge/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-07 04:40:20] INFO root fetch - processPackages [filewatchdog]: executing diffoscope
+[2024-05-07 04:40:20] INFO root fetch - processPackages [filewatchdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filewatchdog-0.1.0.tar.gz tmp/filewatchdog-0.1.1.tar.gz --markdown 20240507/f/filewatchdog/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 04:40:20] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2024-05-07 04:40:20] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-1.1.4.tar.gz tmp/sphractal-1.1.5.tar.gz --markdown 20240507/s/sphractal/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-07 04:40:20] INFO root fetch - processPackages [filewatchdog]: Remove: archive file [/home/abi/fetcher/tmp/filewatchdog-0.1.0.tar.gz]
+[2024-05-07 04:40:20] INFO root fetch - processPackages [filewatchdog]: Remove: archive file [/home/abi/fetcher/tmp/filewatchdog-0.1.1.tar.gz]
+[2024-05-07 04:40:20] INFO root fetch - main [MainThread]: End processing [filewatchdog]: success
+[2024-05-07 04:40:20] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.1.2b1.tar.gz]
+[2024-05-07 04:40:20] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.1.2b2.tar.gz]
+[2024-05-07 04:40:20] INFO root fetch - main [MainThread]: End processing [nbappinator]: success
+[2024-05-07 04:40:21] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-broadcast-0.6.2.tar.gz]
+[2024-05-07 04:40:21] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-broadcast-0.6.3.tar.gz]
+[2024-05-07 04:40:21] INFO root fetch - main [MainThread]: End processing [python-telegram-broadcast]: success
+[2024-05-07 04:40:21] INFO root fetch - processPackages [falcon-challenge]: Remove: archive file [/home/abi/fetcher/tmp/falcon_challenge-0.3.3.tar.gz]
+[2024-05-07 04:40:21] INFO root fetch - processPackages [falcon-challenge]: Remove: archive file [/home/abi/fetcher/tmp/falcon_challenge-0.3.4.tar.gz]
+[2024-05-07 04:40:21] INFO root fetch - main [MainThread]: End processing [falcon-challenge]: success
+[2024-05-07 04:40:22] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-1.1.4.tar.gz]
+[2024-05-07 04:40:22] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-1.1.5.tar.gz]
+[2024-05-07 04:40:22] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2024-05-07 04:40:22] INFO root fetch - main [MainThread]: Store serial: [23088555]
