@@ -15077,3 +15077,90 @@ EOFError: EOF read where object expected
 [2024-05-07 09:31:12] INFO root fetch - processPackages [md2tgmd]: Remove: archive file [/home/abi/fetcher/tmp/md2tgmd-0.1.4.tar.gz]
 [2024-05-07 09:31:12] INFO root fetch - main [MainThread]: End processing [md2tgmd]: success
 [2024-05-07 09:31:12] INFO root fetch - main [MainThread]: Store serial: [23091532]
+[2024-05-07 09:33:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091532]
+[2024-05-07 09:33:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-07 09:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rdb-json-parser
+[2024-05-07 09:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: words-n-fun
+[2024-05-07 09:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: didi-notebook-extension
+[2024-05-07 09:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: entegywrapper
+[2024-05-07 09:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Simplex
+[2024-05-07 09:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omegi-python-instrumentation
+[2024-05-07 09:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: duwi-smart-sdk
+[2024-05-07 09:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymodaq-plugins-bnc
+[2024-05-07 09:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: weditor
+[2024-05-07 09:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dg-itest
+[2024-05-07 09:33:20] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-07 09:33:20] INFO root fetch - processPackages [dg-itest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 09:33:20] INFO root fetch - processPackages [omegi-python-instrumentation]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-07 09:33:20] INFO root fetch - processPackages [entegywrapper]: New version: [7.2.5] Old Version: [7.2.4]
+[2024-05-07 09:33:20] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.7.5rc1] Old Version: [6.7.4rc2]
+[2024-05-07 09:33:20] INFO root fetch - processPackages [pymodaq-plugins-bnc]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-07 09:33:20] INFO root fetch - processPackages [dg-itest]: Downloading https://files.pythonhosted.org/packages/c3/bc/67359d3a583eaae52d3b6acfa02f600d9982aa97155110fa0caffc4922be/dg-itest-0.0.8.tar.gz
+[2024-05-07 09:33:20] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/0e/b2/7b6e0b27a65f41cc222ff53cb15c17a332f4ab7e2e7f4785ae174be6f55d/duwi_smart_sdk-0.1.2.tar.gz
+[2024-05-07 09:33:20] WARNING root fetch - processPackages [rdb-json-parser]: Skipping, unable to determine old version
+[2024-05-07 09:33:20] INFO root fetch - main [MainThread]: End processing [rdb-json-parser] error
+[2024-05-07 09:33:20] INFO root fetch - processPackages [didi-notebook-extension]: New version: [0.2.7] Old Version: [0.0.16]
+[2024-05-07 09:33:20] INFO root fetch - processPackages [words-n-fun]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-07 09:33:20] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/79/d0/5464f1087e860197eebcc3a432c2557214beaacfb69f5e551d057e9a3660/omegi_python_instrumentation-0.0.3.tar.gz
+[2024-05-07 09:33:20] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/46/f5/62e838f636177ec5ac60b8c4388a28f1d80437b3ea434eebd933737053ee/entegywrapper-7.2.4.tar.gz
+[2024-05-07 09:33:20] INFO root fetch - processPackages [weditor]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-07 09:33:21] INFO root fetch - processPackages [words-n-fun]: Downloading https://files.pythonhosted.org/packages/40/ac/186803a6bda5d4f3882a9e0810713366e2be66ee398c846f676127338315/words_n_fun-1.6.0.tar.gz
+[2024-05-07 09:33:21] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/bf/c4/3b237634c83b6b59e47347af610dbdacbf2e980476dd58d9f0cda08d7fae/Geode_Simplex-6.7.4rc2-cp39-cp39-win_amd64.whl
+[2024-05-07 09:33:21] INFO root fetch - processPackages [didi-notebook-extension]: Downloading https://files.pythonhosted.org/packages/d7/b8/b841460dc80c1f378b92e2002d1a101ff0eef32b58b136ce86e59046d135/didi_notebook_extension-0.0.16.tar.gz
+[2024-05-07 09:33:21] INFO root fetch - processPackages [pymodaq-plugins-bnc]: Downloading https://files.pythonhosted.org/packages/95/57/014bad474a9775cc7bc0f2166356fa993ef0e5fcc2274c0b379a188e6635/pymodaq_plugins_bnc-0.0.3.tar.gz
+[2024-05-07 09:33:21] INFO root fetch - processPackages [weditor]: Downloading https://files.pythonhosted.org/packages/a1/c6/ec92e8d4a95f4e901e3b6764e1b716ac85dd9892d36d5f40fef6063cdbd6/weditor-0.7.2.tar.gz
+[2024-05-07 09:33:21] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/50/d6/823e9fb47f925b749855768beb7256489f45b947add52b259cbcf769f3bb/entegywrapper-7.2.5.tar.gz
+[2024-05-07 09:33:21] INFO root fetch - processPackages [dg-itest]: Downloading https://files.pythonhosted.org/packages/49/3d/20545a273c3ff5068b2cad2c51394773957ec86cd1607d365b25b7773979/dg-itest-0.0.9.tar.gz
+[2024-05-07 09:33:21] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/bd/5c/b93edff93a5817d0bb0b9c961c9ca2f2c9878d9710b86e14412547a0c3d4/omegi_python_instrumentation-0.0.4.tar.gz
+[2024-05-07 09:33:21] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/8a/af/a4842cdeb988ce898ce88533ad3f39b00b2cac1fa1fee165ca3603d539bf/duwi_smart_sdk-0.1.3.tar.gz
+[2024-05-07 09:33:21] INFO root fetch - processPackages [entegywrapper]: executing diffoscope
+[2024-05-07 09:33:21] INFO root fetch - processPackages [entegywrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entegywrapper-7.2.4.tar.gz tmp/entegywrapper-7.2.5.tar.gz --markdown 20240507/e/entegywrapper/7.2.4-7.2.5/README.md --exclude *.pyd
+[2024-05-07 09:33:21] INFO root fetch - processPackages [omegi-python-instrumentation]: executing diffoscope
+[2024-05-07 09:33:21] INFO root fetch - processPackages [omegi-python-instrumentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omegi_python_instrumentation-0.0.3.tar.gz tmp/omegi_python_instrumentation-0.0.4.tar.gz --markdown 20240507/o/omegi-python-instrumentation/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-07 09:33:21] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-07 09:33:21] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.1.2.tar.gz tmp/duwi_smart_sdk-0.1.3.tar.gz --markdown 20240507/d/duwi-smart-sdk/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-07 09:33:21] INFO root fetch - processPackages [dg-itest]: executing diffoscope
+[2024-05-07 09:33:21] INFO root fetch - processPackages [dg-itest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dg-itest-0.0.8.tar.gz tmp/dg-itest-0.0.9.tar.gz --markdown 20240507/d/dg-itest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 09:33:21] INFO root fetch - processPackages [words-n-fun]: Downloading https://files.pythonhosted.org/packages/ec/77/e7f67caa074410f0ad0dea47fdc5fbcf4e0ec17e9d61eadc2491b7a76a3d/words_n_fun-1.6.1.tar.gz
+[2024-05-07 09:33:21] INFO root fetch - processPackages [didi-notebook-extension]: Downloading https://files.pythonhosted.org/packages/dd/3e/f3c7d806f494d5055b63329194e8ba2061225d1d1b6236ee44382f7f681c/didi_notebook_extension-0.2.7.tar.gz
+[2024-05-07 09:33:21] INFO root fetch - processPackages [pymodaq-plugins-bnc]: Downloading https://files.pythonhosted.org/packages/f4/92/46c2bf04b234e7679730df319c87d56b4d1dde63140c9a0aafae45b25e82/pymodaq_plugins_bnc-0.0.4.tar.gz
+[2024-05-07 09:33:21] INFO root fetch - processPackages [words-n-fun]: executing diffoscope
+[2024-05-07 09:33:21] INFO root fetch - processPackages [words-n-fun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/words_n_fun-1.6.0.tar.gz tmp/words_n_fun-1.6.1.tar.gz --markdown 20240507/w/words-n-fun/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-07 09:33:21] INFO root fetch - processPackages [didi-notebook-extension]: executing diffoscope
+[2024-05-07 09:33:21] INFO root fetch - processPackages [didi-notebook-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/didi_notebook_extension-0.0.16.tar.gz tmp/didi_notebook_extension-0.2.7.tar.gz --markdown 20240507/d/didi-notebook-extension/0.0.16-0.2.7/README.md --exclude *.pyd
+[2024-05-07 09:33:21] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/38/54/52a247a99655c4eb288e1f1667fa5c731c7488e33f6c36c78ba799b1a031/Geode_Simplex-6.7.5rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-07 09:33:21] INFO root fetch - processPackages [weditor]: Downloading https://files.pythonhosted.org/packages/ab/8a/dfe8a1b803ab71644140a5a6d4ce4ad8db0c6e1f92634072c4290f58193c/weditor-0.7.3.tar.gz
+[2024-05-07 09:33:21] INFO root fetch - processPackages [pymodaq-plugins-bnc]: executing diffoscope
+[2024-05-07 09:33:21] INFO root fetch - processPackages [pymodaq-plugins-bnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq_plugins_bnc-0.0.3.tar.gz tmp/pymodaq_plugins_bnc-0.0.4.tar.gz --markdown 20240507/p/pymodaq-plugins-bnc/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-07 09:33:22] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi_python_instrumentation-0.0.3.tar.gz]
+[2024-05-07 09:33:22] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi_python_instrumentation-0.0.4.tar.gz]
+[2024-05-07 09:33:22] INFO root fetch - main [MainThread]: End processing [omegi-python-instrumentation]: success
+[2024-05-07 09:33:22] INFO root fetch - processPackages [dg-itest]: Remove: archive file [/home/abi/fetcher/tmp/dg-itest-0.0.8.tar.gz]
+[2024-05-07 09:33:22] INFO root fetch - processPackages [dg-itest]: Remove: archive file [/home/abi/fetcher/tmp/dg-itest-0.0.9.tar.gz]
+[2024-05-07 09:33:22] INFO root fetch - main [MainThread]: End processing [dg-itest]: success
+[2024-05-07 09:33:22] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.2.tar.gz]
+[2024-05-07 09:33:22] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.3.tar.gz]
+[2024-05-07 09:33:22] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-07 09:33:22] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.2.4.tar.gz]
+[2024-05-07 09:33:22] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.2.5.tar.gz]
+[2024-05-07 09:33:22] INFO root fetch - main [MainThread]: End processing [entegywrapper]: success
+[2024-05-07 09:33:22] INFO root fetch - processPackages [weditor]: executing diffoscope
+[2024-05-07 09:33:22] INFO root fetch - processPackages [weditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weditor-0.7.2.tar.gz tmp/weditor-0.7.3.tar.gz --markdown 20240507/w/weditor/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-07 09:33:22] INFO root fetch - processPackages [words-n-fun]: Remove: archive file [/home/abi/fetcher/tmp/words_n_fun-1.6.0.tar.gz]
+[2024-05-07 09:33:22] INFO root fetch - processPackages [words-n-fun]: Remove: archive file [/home/abi/fetcher/tmp/words_n_fun-1.6.1.tar.gz]
+[2024-05-07 09:33:22] INFO root fetch - main [MainThread]: End processing [words-n-fun]: success
+[2024-05-07 09:33:22] INFO root fetch - processPackages [pymodaq-plugins-bnc]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_bnc-0.0.3.tar.gz]
+[2024-05-07 09:33:22] INFO root fetch - processPackages [pymodaq-plugins-bnc]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_bnc-0.0.4.tar.gz]
+[2024-05-07 09:33:22] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-bnc]: success
+[2024-05-07 09:33:22] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2024-05-07 09:33:22] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.7.4rc2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.7.5rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240507/G/Geode-Simplex/6.7.4rc2-6.7.5rc1/README.md --exclude *.pyd
+[2024-05-07 09:33:23] INFO root fetch - processPackages [didi-notebook-extension]: Remove: archive file [/home/abi/fetcher/tmp/didi_notebook_extension-0.0.16.tar.gz]
+[2024-05-07 09:33:23] INFO root fetch - processPackages [didi-notebook-extension]: Remove: archive file [/home/abi/fetcher/tmp/didi_notebook_extension-0.2.7.tar.gz]
+[2024-05-07 09:33:23] INFO root fetch - main [MainThread]: End processing [didi-notebook-extension]: success
+[2024-05-07 09:33:23] INFO root fetch - processPackages [weditor]: Remove: archive file [/home/abi/fetcher/tmp/weditor-0.7.2.tar.gz]
+[2024-05-07 09:33:23] INFO root fetch - processPackages [weditor]: Remove: archive file [/home/abi/fetcher/tmp/weditor-0.7.3.tar.gz]
+[2024-05-07 09:33:23] INFO root fetch - main [MainThread]: End processing [weditor]: success
+[2024-05-07 09:33:24] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.4rc2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-07 09:33:24] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.5rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-07 09:33:24] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2024-05-07 09:33:24] INFO root fetch - main [MainThread]: Store serial: [23091578]
