@@ -20812,3 +20812,171 @@ AssertionError: tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip does not exi
 [2024-05-07 13:13:38] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-05-07 13:13:38] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-05-07 13:13:38] INFO root fetch - main [MainThread]: Store serial: [23094362]
+[2024-05-07 13:15:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094362]
+[2024-05-07 13:15:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-07 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-cpp
+[2024-05-07 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-configuration-sdk
+[2024-05-07 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonecorn
+[2024-05-07 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-xe-esimd-21
+[2024-05-07 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypipr
+[2024-05-07 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: justai
+[2024-05-07 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: midiscripter
+[2024-05-07 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-master
+[2024-05-07 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: special-agents
+[2024-05-07 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymoxel
+[2024-05-07 13:15:48] INFO root fetch - processPackages [justai]: New version: [3.4.0] Old Version: [3.3.2]
+[2024-05-07 13:15:48] WARNING root fetch - processPackages [special-agents]: Skipping, unable to determine old version
+[2024-05-07 13:15:48] INFO root fetch - main [MainThread]: End processing [special-agents] error
+[2024-05-07 13:15:48] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240507.9.27.513064] Old Version: [20240507.8.31.82510]
+[2024-05-07 13:15:48] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240506] Old Version: [2.5.0b20240505]
+[2024-05-07 13:15:48] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/13/1a/b512ec29fdec449553354c99fc872f431222483de14ce038e975e7053973/justai-3.3.2.tar.gz
+[2024-05-07 13:15:48] INFO root fetch - processPackages [pymoxel]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 13:15:48] INFO root fetch - processPackages [lusid-configuration-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-07 13:15:48] INFO root fetch - processPackages [midiscripter]: New version: [0.3] Old Version: [0.2]
+[2024-05-07 13:15:48] INFO root fetch - processPackages [nonecorn]: New version: [0.16.0.dev6] Old Version: [0.16.0.dev5]
+[2024-05-07 13:15:48] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240507] Old Version: [2.5.0b20240506]
+[2024-05-07 13:15:48] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/f4/fd/c937df37698f0b456ffb30f186202f58ed963c4e8e5eb216666acf0b471d/certora-cli-alpha-master-20240507.8.31.82510.tar.gz
+[2024-05-07 13:15:48] INFO root fetch - processPackages [pypipr]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-07 13:15:48] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14533453>=10485760
+[2024-05-07 13:15:48] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-07 13:15:48] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/8e/e2/64c3878c2fecd5fb615940f9a05c9d225f85bf1f3d6b4369dc904faec19d/bigdl_core_cpp-2.5.0b20240505-py3-none-win_amd64.whl
+[2024-05-07 13:15:48] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 28077786>=10485760
+[2024-05-07 13:15:48] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-05-07 13:15:48] INFO root fetch - processPackages [pymoxel]: Downloading https://files.pythonhosted.org/packages/cc/b0/3ed45b8e4b0a4ec5f1cff61c2bd3fb915e2b58120b3caab8f87d1d94d8b3/pymoxel-0.1.0.tar.gz
+[2024-05-07 13:15:48] INFO root fetch - processPackages [lusid-configuration-sdk]: Downloading https://files.pythonhosted.org/packages/5b/5b/92ff9593317f48411450dfe5ddf59fa167dfe6db48fecc6abd8c35fb901a/lusid_configuration_sdk-2.1.8.tar.gz
+[2024-05-07 13:15:48] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/d1/8f/be46d53edaf16eb015e651480ec580b26c053fe92a2792d224ca09a7d950/justai-3.4.0.tar.gz
+[2024-05-07 13:15:48] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/cf/76/413358dc17da12fd84e814dd71d471ea4709bdea453509f685c5e2c87173/bigdl_core_xe_esimd_21-2.5.0b20240506-cp39-cp39-win_amd64.whl
+[2024-05-07 13:15:48] INFO root fetch - processPackages [nonecorn]: Downloading https://files.pythonhosted.org/packages/00/de/8104b5388247f1b271eafa560b4a055b3eca0a4b5be56bdfe86e63a35d46/nonecorn-0.16.0.dev5.tar.gz
+[2024-05-07 13:15:48] INFO root fetch - processPackages [midiscripter]: Downloading https://files.pythonhosted.org/packages/9d/8c/377b55da37d4744bc142cece529b7238a20336824549228f4d01bb0d703d/midiscripter-0.2.tar.gz
+[2024-05-07 13:15:48] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/41/8e/296646c6a3d68ecf6c58c3ec52ece636443172c24750f76c7001939e52d3/pypipr-1.0.98.tar.gz
+[2024-05-07 13:15:48] INFO root fetch - processPackages [justai]: executing diffoscope
+[2024-05-07 13:15:48] INFO root fetch - processPackages [justai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justai-3.3.2.tar.gz tmp/justai-3.4.0.tar.gz --markdown 20240507/j/justai/3.3.2-3.4.0/README.md --exclude *.pyd
+[2024-05-07 13:15:48] INFO root fetch - processPackages [midiscripter]: Downloading https://files.pythonhosted.org/packages/52/76/0d53e3f46fe6299ed9f36e23729e4075b234d570472ce7cf7ebe651e6b2a/midiscripter-0.3.tar.gz
+[2024-05-07 13:15:48] INFO root fetch - processPackages [nonecorn]: Downloading https://files.pythonhosted.org/packages/a1/dd/247a0b161005fac988f4aeacc0302abf856ecfa011b6c74ea0d2cfbccbf2/nonecorn-0.16.0.dev6.tar.gz
+[2024-05-07 13:15:48] INFO root fetch - processPackages [lusid-configuration-sdk]: Downloading https://files.pythonhosted.org/packages/f0/dd/405172d11d93dacc4884861c5b68b8c3e80517ed89ebdca3e4e5bc9cd685/lusid_configuration_sdk-2.1.9.tar.gz
+[2024-05-07 13:15:48] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/49/d0/c23afc67d1fa03531bbd97cc72ad024e79b8e25678a6a5674d469d19cdf9/pypipr-1.0.99.tar.gz
+[2024-05-07 13:15:48] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/a4/42/ef1ea0dc04740291e388cad899c6ab3679690d34f4be9d0f1edd01098b00/bigdl_core_xe_esimd_21-2.5.0b20240507-cp310-cp310-win_amd64.whl
+[2024-05-07 13:15:49] INFO root fetch - processPackages [lusid-configuration-sdk]: executing diffoscope
+[2024-05-07 13:15:49] INFO root fetch - processPackages [lusid-configuration-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_configuration_sdk-2.1.8.tar.gz tmp/lusid_configuration_sdk-2.1.9.tar.gz --markdown 20240507/l/lusid-configuration-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-07 13:15:49] INFO root fetch - processPackages [nonecorn]: executing diffoscope
+[2024-05-07 13:15:49] INFO root fetch - processPackages [nonecorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonecorn-0.16.0.dev5.tar.gz tmp/nonecorn-0.16.0.dev6.tar.gz --markdown 20240507/n/nonecorn/0.16.0.dev5-0.16.0.dev6/README.md --exclude *.pyd
+[2024-05-07 13:15:49] INFO root fetch - processPackages [midiscripter]: executing diffoscope
+[2024-05-07 13:15:49] INFO root fetch - processPackages [midiscripter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midiscripter-0.2.tar.gz tmp/midiscripter-0.3.tar.gz --markdown 20240507/m/midiscripter/0.2-0.3/README.md --exclude *.pyd
+[2024-05-07 13:15:49] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-05-07 13:15:49] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.98.tar.gz tmp/pypipr-1.0.99.tar.gz --markdown 20240507/p/pypipr/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-07 13:15:49] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-05-07 13:15:49] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240506-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240507-cp310-cp310-win_amd64.whl.zip --markdown 20240507/b/bigdl-core-xe-esimd-21/2.5.0b20240506-2.5.0b20240507/README.md --exclude *.pyd
+[2024-05-07 13:15:49] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.3.2.tar.gz]
+[2024-05-07 13:15:49] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.4.0.tar.gz]
+[2024-05-07 13:15:49] INFO root fetch - main [MainThread]: End processing [justai]: success
+[2024-05-07 13:15:49] INFO root fetch - processPackages [pymoxel]: Downloading https://files.pythonhosted.org/packages/68/1a/8e3c1ab786f9a8f5965c34abe803519e75ecd52990cc39a3a3ee8f9f4681/pymoxel-0.1.1.tar.gz
+[2024-05-07 13:15:49] INFO root fetch - processPackages [pymoxel]: executing diffoscope
+[2024-05-07 13:15:49] INFO root fetch - processPackages [pymoxel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymoxel-0.1.0.tar.gz tmp/pymoxel-0.1.1.tar.gz --markdown 20240507/p/pymoxel/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 13:15:50] INFO root fetch - processPackages [lusid-configuration-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_configuration_sdk-2.1.8.tar.gz]
+[2024-05-07 13:15:50] INFO root fetch - processPackages [midiscripter]: Remove: archive file [/home/abi/fetcher/tmp/midiscripter-0.2.tar.gz]
+[2024-05-07 13:15:50] INFO root fetch - processPackages [lusid-configuration-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_configuration_sdk-2.1.9.tar.gz]
+[2024-05-07 13:15:50] INFO root fetch - processPackages [midiscripter]: Remove: archive file [/home/abi/fetcher/tmp/midiscripter-0.3.tar.gz]
+[2024-05-07 13:15:50] INFO root fetch - main [MainThread]: End processing [lusid-configuration-sdk]: success
+[2024-05-07 13:15:50] INFO root fetch - main [MainThread]: End processing [midiscripter]: success
+[2024-05-07 13:15:50] ERROR root fetch - processPackages [bigdl-core-xe-esimd-21]: Diffoscope failed: time="2024-05-07T13:15:49+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140235849604608)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140235715386768)
+
+[2024-05-07 13:15:50] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-05-07 13:15:50] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.98.tar.gz]
+[2024-05-07 13:15:50] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.99.tar.gz]
+[2024-05-07 13:15:50] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-05-07 13:15:50] INFO root fetch - processPackages [nonecorn]: Remove: archive file [/home/abi/fetcher/tmp/nonecorn-0.16.0.dev5.tar.gz]
+[2024-05-07 13:15:50] INFO root fetch - processPackages [nonecorn]: Remove: archive file [/home/abi/fetcher/tmp/nonecorn-0.16.0.dev6.tar.gz]
+[2024-05-07 13:15:50] INFO root fetch - main [MainThread]: End processing [nonecorn]: success
+[2024-05-07 13:15:50] INFO root fetch - processPackages [pymoxel]: Remove: archive file [/home/abi/fetcher/tmp/pymoxel-0.1.0.tar.gz]
+[2024-05-07 13:15:50] INFO root fetch - processPackages [pymoxel]: Remove: archive file [/home/abi/fetcher/tmp/pymoxel-0.1.1.tar.gz]
+[2024-05-07 13:15:50] INFO root fetch - main [MainThread]: End processing [pymoxel]: success
+[2024-05-07 13:15:50] INFO root fetch - main [MainThread]: Store serial: [23094421]
