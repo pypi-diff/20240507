@@ -17534,3 +17534,71 @@ EOFError: EOF read where object expected
 [2024-05-07 11:06:39] INFO root fetch - processPackages [dslog]: Remove: archive file [/home/abi/fetcher/tmp/dslog-0.1.6.tar.gz]
 [2024-05-07 11:06:39] INFO root fetch - main [MainThread]: End processing [dslog]: success
 [2024-05-07 11:06:39] INFO root fetch - main [MainThread]: Store serial: [23092658]
+[2024-05-07 11:08:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092658]
+[2024-05-07 11:08:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DeTrusty
+[2024-05-07 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: njfutest
+[2024-05-07 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iec870ree-moxa
+[2024-05-07 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fosforml
+[2024-05-07 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: didi-notebook-extension
+[2024-05-07 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zippyform
+[2024-05-07 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-node-binding
+[2024-05-07 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moonstreamdb
+[2024-05-07 11:08:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ckanext-nhm
+[2024-05-07 11:08:48] INFO root fetch - processPackages [zippyform]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-07 11:08:48] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1257] Old Version: [3.0.3.post1254]
+[2024-05-07 11:08:48] INFO root fetch - processPackages [didi-notebook-extension]: New version: [0.2.7] Old Version: [0.0.16]
+[2024-05-07 11:08:48] WARNING root fetch - processPackages [fosforml]: Skipping, unable to determine old version
+[2024-05-07 11:08:48] INFO root fetch - main [MainThread]: End processing [fosforml] error
+[2024-05-07 11:08:48] INFO root fetch - processPackages [DeTrusty]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-07 11:08:48] INFO root fetch - processPackages [iec870ree-moxa]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-07 11:08:48] INFO root fetch - processPackages [zippyform]: Downloading https://files.pythonhosted.org/packages/d7/d6/89a6c3a90a6a9ec63ae63d27de4e6b7e1a8b78b640496e3ed291bb36030e/zippyform-1.4.8-py3-none-any.whl
+[2024-05-07 11:08:48] INFO root fetch - processPackages [moonstreamdb]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-07 11:08:48] WARNING root fetch - processPackages [njfutest]: Skipping, unable to determine old version
+[2024-05-07 11:08:48] INFO root fetch - processPackages [ckanext-nhm]: New version: [6.7.0] Old Version: [6.6.2]
+[2024-05-07 11:08:48] INFO root fetch - main [MainThread]: End processing [njfutest] error
+[2024-05-07 11:08:48] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/67/cc/e93f2b9d2318acc2b6f94818fa84f40f79f8b0c248952b69bb4a91ac7c00/nucliadb_node_binding-3.0.3.post1254.tar.gz
+[2024-05-07 11:08:48] INFO root fetch - processPackages [didi-notebook-extension]: Downloading https://files.pythonhosted.org/packages/d7/b8/b841460dc80c1f378b92e2002d1a101ff0eef32b58b136ce86e59046d135/didi_notebook_extension-0.0.16.tar.gz
+[2024-05-07 11:08:49] INFO root fetch - processPackages [iec870ree-moxa]: Downloading https://files.pythonhosted.org/packages/30/14/e8d4dd2bd2dfe98a4956473642ebbec21fac057e6dcbcd1cce77167f2ec7/iec870ree_moxa-0.5.1.tar.gz
+[2024-05-07 11:08:49] INFO root fetch - processPackages [DeTrusty]: Downloading https://files.pythonhosted.org/packages/11/e2/cf9ab9b4629acd9d9a4b5c78107e725a156b3ec5e0ab9ea91b3d825930dd/DeTrusty-0.9.0.tar.gz
+[2024-05-07 11:08:49] INFO root fetch - processPackages [zippyform]: Downloading https://files.pythonhosted.org/packages/7d/35/a3dfe5803d393705d1159b1f1a2642bbc1518edd9ce0df79604a1596ea5d/zippyform-1.4.9-py3-none-any.whl
+[2024-05-07 11:08:49] INFO root fetch - processPackages [ckanext-nhm]: Downloading https://files.pythonhosted.org/packages/08/ed/1ae916870f2c191d7e8fe1dc03f60ddea3cf5a969263696d6f05fff5b067/ckanext_nhm-6.6.2.tar.gz
+[2024-05-07 11:08:49] INFO root fetch - processPackages [moonstreamdb]: Downloading https://files.pythonhosted.org/packages/33/23/4cdd512e6c31b0e2a5d7d61a8ec25ae987da3d426ae49dfb7aceba26ae0d/moonstreamdb-0.4.3.tar.gz
+[2024-05-07 11:08:49] INFO root fetch - processPackages [didi-notebook-extension]: Downloading https://files.pythonhosted.org/packages/dd/3e/f3c7d806f494d5055b63329194e8ba2061225d1d1b6236ee44382f7f681c/didi_notebook_extension-0.2.7.tar.gz
+[2024-05-07 11:08:49] INFO root fetch - processPackages [zippyform]: executing diffoscope
+[2024-05-07 11:08:49] INFO root fetch - processPackages [zippyform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zippyform-1.4.8-py3-none-any.whl.zip tmp/zippyform-1.4.9-py3-none-any.whl.zip --markdown 20240507/z/zippyform/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-07 11:08:49] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/32/6e/f4af7615f7409d7fe4215a2afdf721de5c345e505dc4addfc57cc8f37bb3/nucliadb_node_binding-3.0.3.post1257.tar.gz
+[2024-05-07 11:08:49] WARNING root fetch - processPackages [ckanext-nhm]: Skipping package: exceeds size limit 55573014>=10485760
+[2024-05-07 11:08:49] INFO root fetch - main [MainThread]: End processing [ckanext-nhm] error
+[2024-05-07 11:08:49] INFO root fetch - processPackages [didi-notebook-extension]: executing diffoscope
+[2024-05-07 11:08:49] INFO root fetch - processPackages [didi-notebook-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/didi_notebook_extension-0.0.16.tar.gz tmp/didi_notebook_extension-0.2.7.tar.gz --markdown 20240507/d/didi-notebook-extension/0.0.16-0.2.7/README.md --exclude *.pyd
+[2024-05-07 11:08:49] INFO root fetch - processPackages [iec870ree-moxa]: Downloading https://files.pythonhosted.org/packages/b4/7f/32c1c3a42efc48b9a6dfb518d987014322145edde360d6771c0d0042594d/iec870ree_moxa-0.5.2.tar.gz
+[2024-05-07 11:08:49] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-07 11:08:49] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.3.post1254.tar.gz tmp/nucliadb_node_binding-3.0.3.post1257.tar.gz --markdown 20240507/n/nucliadb-node-binding/3.0.3.post1254-3.0.3.post1257/README.md --exclude *.pyd
+[2024-05-07 11:08:49] INFO root fetch - processPackages [DeTrusty]: Downloading https://files.pythonhosted.org/packages/9b/17/910209fd393771c7721f22f44b11b5fda1afe218e4e1c33aaf336ebeac17/DeTrusty-0.9.1.tar.gz
+[2024-05-07 11:08:49] INFO root fetch - processPackages [moonstreamdb]: Downloading https://files.pythonhosted.org/packages/4d/33/dad399c4d0fd31bc759988d901685a0607c1464971d20eb2e2e6a6fb903f/moonstreamdb-0.4.4.tar.gz
+[2024-05-07 11:08:49] INFO root fetch - processPackages [iec870ree-moxa]: executing diffoscope
+[2024-05-07 11:08:49] INFO root fetch - processPackages [iec870ree-moxa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iec870ree_moxa-0.5.1.tar.gz tmp/iec870ree_moxa-0.5.2.tar.gz --markdown 20240507/i/iec870ree-moxa/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-07 11:08:49] INFO root fetch - processPackages [moonstreamdb]: executing diffoscope
+[2024-05-07 11:08:49] INFO root fetch - processPackages [moonstreamdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonstreamdb-0.4.3.tar.gz tmp/moonstreamdb-0.4.4.tar.gz --markdown 20240507/m/moonstreamdb/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-07 11:08:49] INFO root fetch - processPackages [DeTrusty]: executing diffoscope
+[2024-05-07 11:08:49] INFO root fetch - processPackages [DeTrusty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeTrusty-0.9.0.tar.gz tmp/DeTrusty-0.9.1.tar.gz --markdown 20240507/D/DeTrusty/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-07 11:08:50] INFO root fetch - processPackages [zippyform]: Remove: archive file [/home/abi/fetcher/tmp/zippyform-1.4.8-py3-none-any.whl.zip]
+[2024-05-07 11:08:50] INFO root fetch - processPackages [zippyform]: Remove: archive file [/home/abi/fetcher/tmp/zippyform-1.4.9-py3-none-any.whl.zip]
+[2024-05-07 11:08:50] INFO root fetch - main [MainThread]: End processing [zippyform]: success
+[2024-05-07 11:08:50] INFO root fetch - processPackages [moonstreamdb]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-0.4.3.tar.gz]
+[2024-05-07 11:08:50] INFO root fetch - processPackages [moonstreamdb]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-0.4.4.tar.gz]
+[2024-05-07 11:08:50] INFO root fetch - main [MainThread]: End processing [moonstreamdb]: success
+[2024-05-07 11:08:50] INFO root fetch - processPackages [iec870ree-moxa]: Remove: archive file [/home/abi/fetcher/tmp/iec870ree_moxa-0.5.1.tar.gz]
+[2024-05-07 11:08:50] INFO root fetch - processPackages [iec870ree-moxa]: Remove: archive file [/home/abi/fetcher/tmp/iec870ree_moxa-0.5.2.tar.gz]
+[2024-05-07 11:08:50] INFO root fetch - main [MainThread]: End processing [iec870ree-moxa]: success
+[2024-05-07 11:08:50] INFO root fetch - processPackages [DeTrusty]: Remove: archive file [/home/abi/fetcher/tmp/DeTrusty-0.9.0.tar.gz]
+[2024-05-07 11:08:50] INFO root fetch - processPackages [DeTrusty]: Remove: archive file [/home/abi/fetcher/tmp/DeTrusty-0.9.1.tar.gz]
+[2024-05-07 11:08:50] INFO root fetch - main [MainThread]: End processing [DeTrusty]: success
+[2024-05-07 11:08:51] INFO root fetch - processPackages [didi-notebook-extension]: Remove: archive file [/home/abi/fetcher/tmp/didi_notebook_extension-0.0.16.tar.gz]
+[2024-05-07 11:08:51] INFO root fetch - processPackages [didi-notebook-extension]: Remove: archive file [/home/abi/fetcher/tmp/didi_notebook_extension-0.2.7.tar.gz]
+[2024-05-07 11:08:51] INFO root fetch - main [MainThread]: End processing [didi-notebook-extension]: success
+[2024-05-07 11:08:51] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1254.tar.gz]
+[2024-05-07 11:08:51] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1257.tar.gz]
+[2024-05-07 11:08:51] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-07 11:08:51] INFO root fetch - main [MainThread]: Store serial: [23092705]
