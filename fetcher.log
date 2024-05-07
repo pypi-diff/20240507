@@ -10441,3 +10441,23 @@ EOFError: EOF read where object expected
 [2024-05-07 05:55:56] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.9.tar.gz]
 [2024-05-07 05:55:56] INFO root fetch - main [MainThread]: End processing [experiment-helpers]: success
 [2024-05-07 05:55:56] INFO root fetch - main [MainThread]: Store serial: [23089214]
+[2024-05-07 05:57:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089214]
+[2024-05-07 05:58:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 05:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synfras
+[2024-05-07 05:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-google
+[2024-05-07 05:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transmission-rpc
+[2024-05-07 05:58:04] WARNING root fetch - processPackages [synfras]: Skipping, unable to determine old version
+[2024-05-07 05:58:04] INFO root fetch - main [MainThread]: End processing [synfras] error
+[2024-05-07 05:58:04] INFO root fetch - processPackages [transmission-rpc]: New version: [7.0.5] Old Version: [7.0.4]
+[2024-05-07 05:58:04] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [9.0.5] Old Version: [9.0.4]
+[2024-05-07 05:58:04] INFO root fetch - processPackages [transmission-rpc]: Downloading https://files.pythonhosted.org/packages/e5/0d/a05cb91d043fa367d59f16974e12232e6410033e77c32e211c765b130174/transmission_rpc-7.0.4.tar.gz
+[2024-05-07 05:58:04] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/38/8e/fcb0358ec1a555837d4cad74bbe97207bd6fe247dc32a5f79b90aaaac8b8/cdktf-cdktf-provider-google-9.0.4.tar.gz
+[2024-05-07 05:58:05] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 22123916>=10485760
+[2024-05-07 05:58:05] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2024-05-07 05:58:05] INFO root fetch - processPackages [transmission-rpc]: Downloading https://files.pythonhosted.org/packages/1f/46/8fe964511f748765a48292e842b9f826815d86f80dc2e1c4940394f1465a/transmission_rpc-7.0.5.tar.gz
+[2024-05-07 05:58:05] INFO root fetch - processPackages [transmission-rpc]: executing diffoscope
+[2024-05-07 05:58:05] INFO root fetch - processPackages [transmission-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transmission_rpc-7.0.4.tar.gz tmp/transmission_rpc-7.0.5.tar.gz --markdown 20240507/t/transmission-rpc/7.0.4-7.0.5/README.md --exclude *.pyd
+[2024-05-07 05:58:05] INFO root fetch - processPackages [transmission-rpc]: Remove: archive file [/home/abi/fetcher/tmp/transmission_rpc-7.0.4.tar.gz]
+[2024-05-07 05:58:05] INFO root fetch - processPackages [transmission-rpc]: Remove: archive file [/home/abi/fetcher/tmp/transmission_rpc-7.0.5.tar.gz]
+[2024-05-07 05:58:05] INFO root fetch - main [MainThread]: End processing [transmission-rpc]: success
+[2024-05-07 05:58:05] INFO root fetch - main [MainThread]: Store serial: [23089225]
