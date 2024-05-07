@@ -17214,3 +17214,42 @@ EOFError: EOF read where object expected
 [2024-05-07 10:55:40] INFO root fetch - processPackages [invenio-theme-tugraz]: Remove: archive file [/home/abi/fetcher/tmp/invenio-theme-tugraz-4.12.9.tar.gz]
 [2024-05-07 10:55:40] INFO root fetch - main [MainThread]: End processing [invenio-theme-tugraz]: success
 [2024-05-07 10:55:40] INFO root fetch - main [MainThread]: Store serial: [23092517]
+[2024-05-07 10:57:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092517]
+[2024-05-07 10:57:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openlrc
+[2024-05-07 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: segments-ai
+[2024-05-07 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jtt-utils
+[2024-05-07 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-chain-secrets
+[2024-05-07 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-ise
+[2024-05-07 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visum-io-sdk
+[2024-05-07 10:57:49] INFO root fetch - processPackages [aws-chain-secrets]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-07 10:57:49] INFO root fetch - processPackages [aws-chain-secrets]: Downloading https://files.pythonhosted.org/packages/b6/ee/737ea11095442fc82db5d4ec863977ba7ad7c5bee6085283e3b9f0b3cecc/aws_chain_secrets-1.0.1.tar.gz
+[2024-05-07 10:57:49] ERROR root fetch - processPackages [pulumi-ise]: Unable to get metadata: No such project 'pulumi-ise'
+[2024-05-07 10:57:49] INFO root fetch - main [MainThread]: End processing [pulumi-ise] error
+[2024-05-07 10:57:49] WARNING root fetch - processPackages [jtt-utils]: Skipping, unable to determine old version
+[2024-05-07 10:57:49] INFO root fetch - main [MainThread]: End processing [jtt-utils] error
+[2024-05-07 10:57:49] WARNING root fetch - processPackages [visum-io-sdk]: Skipping, unable to determine old version
+[2024-05-07 10:57:49] INFO root fetch - main [MainThread]: End processing [visum-io-sdk] error
+[2024-05-07 10:57:49] INFO root fetch - processPackages [openlrc]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-07 10:57:49] INFO root fetch - processPackages [segments-ai]: New version: [1.8.0] Old Version: [1.7.6]
+[2024-05-07 10:57:49] INFO root fetch - processPackages [aws-chain-secrets]: Downloading https://files.pythonhosted.org/packages/05/04/3fe5e86d2c34bc90d941bb9365186e96f72dafc7141fba95ae9fc96d2b3a/aws_chain_secrets-1.0.2.tar.gz
+[2024-05-07 10:57:49] INFO root fetch - processPackages [segments-ai]: Downloading https://files.pythonhosted.org/packages/81/d8/9575e362c8d0b7362ad4cd6648a206be8739583c86c0beb10edfcf681a65/segments-ai-1.7.6.tar.gz
+[2024-05-07 10:57:49] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/a3/fa/59a652da51deaa6d361856ac5e47b09ce8d03380ad24ee79586f9c167cf2/openlrc-1.3.0.tar.gz
+[2024-05-07 10:57:50] INFO root fetch - processPackages [aws-chain-secrets]: executing diffoscope
+[2024-05-07 10:57:50] INFO root fetch - processPackages [aws-chain-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_chain_secrets-1.0.1.tar.gz tmp/aws_chain_secrets-1.0.2.tar.gz --markdown 20240507/a/aws-chain-secrets/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-07 10:57:50] INFO root fetch - processPackages [segments-ai]: Downloading https://files.pythonhosted.org/packages/a8/84/655e6fa12347bca0ea14b654822da164b571d3708e2a2fd2859a3a854035/segments-ai-1.8.0.tar.gz
+[2024-05-07 10:57:50] INFO root fetch - processPackages [openlrc]: Downloading https://files.pythonhosted.org/packages/ae/4a/72d156f9f099194111fffe71e3fecd499e244c0cd23f69934202024cd503/openlrc-1.3.1.tar.gz
+[2024-05-07 10:57:50] INFO root fetch - processPackages [segments-ai]: executing diffoscope
+[2024-05-07 10:57:50] INFO root fetch - processPackages [openlrc]: executing diffoscope
+[2024-05-07 10:57:50] INFO root fetch - processPackages [segments-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segments-ai-1.7.6.tar.gz tmp/segments-ai-1.8.0.tar.gz --markdown 20240507/s/segments-ai/1.7.6-1.8.0/README.md --exclude *.pyd
+[2024-05-07 10:57:50] INFO root fetch - processPackages [openlrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlrc-1.3.0.tar.gz tmp/openlrc-1.3.1.tar.gz --markdown 20240507/o/openlrc/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-07 10:57:50] INFO root fetch - processPackages [aws-chain-secrets]: Remove: archive file [/home/abi/fetcher/tmp/aws_chain_secrets-1.0.1.tar.gz]
+[2024-05-07 10:57:50] INFO root fetch - processPackages [aws-chain-secrets]: Remove: archive file [/home/abi/fetcher/tmp/aws_chain_secrets-1.0.2.tar.gz]
+[2024-05-07 10:57:50] INFO root fetch - main [MainThread]: End processing [aws-chain-secrets]: success
+[2024-05-07 10:57:51] INFO root fetch - processPackages [segments-ai]: Remove: archive file [/home/abi/fetcher/tmp/segments-ai-1.7.6.tar.gz]
+[2024-05-07 10:57:51] INFO root fetch - processPackages [segments-ai]: Remove: archive file [/home/abi/fetcher/tmp/segments-ai-1.8.0.tar.gz]
+[2024-05-07 10:57:51] INFO root fetch - main [MainThread]: End processing [segments-ai]: success
+[2024-05-07 10:57:51] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-1.3.0.tar.gz]
+[2024-05-07 10:57:51] INFO root fetch - processPackages [openlrc]: Remove: archive file [/home/abi/fetcher/tmp/openlrc-1.3.1.tar.gz]
+[2024-05-07 10:57:51] INFO root fetch - main [MainThread]: End processing [openlrc]: success
+[2024-05-07 10:57:51] INFO root fetch - main [MainThread]: Store serial: [23092538]
