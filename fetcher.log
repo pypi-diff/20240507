@@ -22614,3 +22614,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 14:07:53] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.4.2.tar.gz]
 [2024-05-07 14:07:53] INFO root fetch - main [MainThread]: End processing [erlab]: success
 [2024-05-07 14:07:53] INFO root fetch - main [MainThread]: Store serial: [23095241]
+[2024-05-07 14:09:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23095241]
+[2024-05-07 14:10:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 14:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erlab
+[2024-05-07 14:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AppAuthN
+[2024-05-07 14:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wemeet-openapi-sdk
+[2024-05-07 14:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AutoThemeGenerator
+[2024-05-07 14:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: special-agents
+[2024-05-07 14:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torcheval-nightly
+[2024-05-07 14:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: new-dt-algorithm
+[2024-05-07 14:10:02] INFO root fetch - processPackages [special-agents]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-07 14:10:02] INFO root fetch - processPackages [erlab]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-05-07 14:10:02] INFO root fetch - processPackages [AppAuthN]: New version: [0.0.17] Old Version: [0.0.16]
+[2024-05-07 14:10:02] INFO root fetch - processPackages [new-dt-algorithm]: New version: [0.5] Old Version: [0.4]
+[2024-05-07 14:10:02] WARNING root fetch - processPackages [AutoThemeGenerator]: Skipping, unable to determine old version
+[2024-05-07 14:10:02] INFO root fetch - main [MainThread]: End processing [AutoThemeGenerator] error
+[2024-05-07 14:10:02] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/b9/44/2f83c137e8b04fe673d79230b2222237a346f97acad340c5fee58dd2e7c4/special_agents-1.0.3.tar.gz
+[2024-05-07 14:10:02] WARNING root fetch - processPackages [wemeet-openapi-sdk]: Skipping, unable to determine old version
+[2024-05-07 14:10:02] INFO root fetch - main [MainThread]: End processing [wemeet-openapi-sdk] error
+[2024-05-07 14:10:02] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/5c/16/87f337a6e1904578af56d66eb85bdf24fba536c5199cce7db117d7ce98d1/erlab-2.4.1.tar.gz
+[2024-05-07 14:10:02] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.5.7] Old Version: [2024.5.6]
+[2024-05-07 14:10:02] INFO root fetch - processPackages [AppAuthN]: Downloading https://files.pythonhosted.org/packages/11/9f/3ed82a4b973937d3a25dd32b7f172b7f147890e3534846ae4c02da6e2cfb/AppAuthN-0.0.16.tar.gz
+[2024-05-07 14:10:02] INFO root fetch - processPackages [new-dt-algorithm]: Downloading https://files.pythonhosted.org/packages/c8/61/9acca546ba549593a027fde43a4afcea77294a9a395761659b899baadcc3/new_dt_algorithm-0.4.tar.gz
+[2024-05-07 14:10:02] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/aa/61/7a407dbfb63469f9f682b1ed6ae3562c683f61bb290ea7cd8eea8b4f2a4c/torcheval-nightly-2024.5.6.tar.gz
+[2024-05-07 14:10:02] INFO root fetch - processPackages [AppAuthN]: Downloading https://files.pythonhosted.org/packages/8f/55/8573cc1bdb63ef16838c58ba414cecfbe1314c84c2b4c76cce0b740da70c/AppAuthN-0.0.17.tar.gz
+[2024-05-07 14:10:02] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/d7/df/aef2ef9486e9fc80d4887cfc64623f42085154be8c5c7aa4c9e723a30839/special_agents-1.0.4.tar.gz
+[2024-05-07 14:10:02] INFO root fetch - processPackages [new-dt-algorithm]: Downloading https://files.pythonhosted.org/packages/02/a9/d6478336aa331232c5f29c6e2a98c73645e5779cce9c7bb6bed531dad22a/new_dt_algorithm-0.5.tar.gz
+[2024-05-07 14:10:03] INFO root fetch - processPackages [AppAuthN]: executing diffoscope
+[2024-05-07 14:10:03] INFO root fetch - processPackages [AppAuthN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppAuthN-0.0.16.tar.gz tmp/AppAuthN-0.0.17.tar.gz --markdown 20240507/A/AppAuthN/0.0.16-0.0.17/README.md --exclude *.pyd
+[2024-05-07 14:10:03] INFO root fetch - processPackages [special-agents]: executing diffoscope
+[2024-05-07 14:10:03] INFO root fetch - processPackages [special-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/special_agents-1.0.3.tar.gz tmp/special_agents-1.0.4.tar.gz --markdown 20240507/s/special-agents/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-07 14:10:03] INFO root fetch - processPackages [new-dt-algorithm]: executing diffoscope
+[2024-05-07 14:10:03] INFO root fetch - processPackages [new-dt-algorithm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/new_dt_algorithm-0.4.tar.gz tmp/new_dt_algorithm-0.5.tar.gz --markdown 20240507/n/new-dt-algorithm/0.4-0.5/README.md --exclude *.pyd
+[2024-05-07 14:10:03] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/35/0a/367883007a8d83f90eade3beec97079dbb94322cc5d55654839d84c4c1c5/erlab-2.4.2.tar.gz
+[2024-05-07 14:10:03] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/b6/df/a6e089363145961856811998c6edea1ab97748af555063ac7e266b1f2679/torcheval_nightly-2024.5.7.tar.gz
+[2024-05-07 14:10:03] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-05-07 14:10:03] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.5.6.tar.gz tmp/torcheval_nightly-2024.5.7.tar.gz --markdown 20240507/t/torcheval-nightly/2024.5.6-2024.5.7/README.md --exclude *.pyd
+[2024-05-07 14:10:03] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-05-07 14:10:03] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-2.4.1.tar.gz tmp/erlab-2.4.2.tar.gz --markdown 20240507/e/erlab/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-05-07 14:10:03] INFO root fetch - processPackages [AppAuthN]: Remove: archive file [/home/abi/fetcher/tmp/AppAuthN-0.0.16.tar.gz]
+[2024-05-07 14:10:03] INFO root fetch - processPackages [AppAuthN]: Remove: archive file [/home/abi/fetcher/tmp/AppAuthN-0.0.17.tar.gz]
+[2024-05-07 14:10:03] INFO root fetch - main [MainThread]: End processing [AppAuthN]: success
+[2024-05-07 14:10:03] INFO root fetch - processPackages [new-dt-algorithm]: Remove: archive file [/home/abi/fetcher/tmp/new_dt_algorithm-0.4.tar.gz]
+[2024-05-07 14:10:03] INFO root fetch - processPackages [new-dt-algorithm]: Remove: archive file [/home/abi/fetcher/tmp/new_dt_algorithm-0.5.tar.gz]
+[2024-05-07 14:10:03] INFO root fetch - main [MainThread]: End processing [new-dt-algorithm]: success
+[2024-05-07 14:10:03] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.3.tar.gz]
+[2024-05-07 14:10:03] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.4.tar.gz]
+[2024-05-07 14:10:03] INFO root fetch - main [MainThread]: End processing [special-agents]: success
+[2024-05-07 14:10:04] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.5.6.tar.gz]
+[2024-05-07 14:10:04] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval_nightly-2024.5.7.tar.gz]
+[2024-05-07 14:10:04] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-05-07 14:10:05] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.4.1.tar.gz]
+[2024-05-07 14:10:05] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.4.2.tar.gz]
+[2024-05-07 14:10:05] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-05-07 14:10:05] INFO root fetch - main [MainThread]: Store serial: [23095271]
