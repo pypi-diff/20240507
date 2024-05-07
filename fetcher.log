@@ -7758,3 +7758,48 @@ EOFError: EOF read where object expected
 [2024-05-07 03:25:55] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.762.0.tar.gz]
 [2024-05-07 03:25:55] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-05-07 03:25:55] INFO root fetch - main [MainThread]: Store serial: [23087793]
+[2024-05-07 03:27:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23087793]
+[2024-05-07 03:28:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 03:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bugprint
+[2024-05-07 03:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multiconnections
+[2024-05-07 03:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agixt
+[2024-05-07 03:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djangoldp-energiepartagee
+[2024-05-07 03:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onediff
+[2024-05-07 03:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onediffx
+[2024-05-07 03:28:04] WARNING root fetch - processPackages [bugprint]: Skipping, unable to determine old version
+[2024-05-07 03:28:04] INFO root fetch - main [MainThread]: End processing [bugprint] error
+[2024-05-07 03:28:04] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-07 03:28:04] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202405060127] Old Version: [1.0.0.dev202405050129]
+[2024-05-07 03:28:04] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202405060127] Old Version: [1.0.0.dev202405050129]
+[2024-05-07 03:28:04] INFO root fetch - processPackages [agixt]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-07 03:28:04] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/99/3d/1df243325009d3687c423dfec7ad75378c2d6567fb9b91d9fbb178955437/onediffx-1.0.0.dev202405050129.tar.gz
+[2024-05-07 03:28:04] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-07 03:28:04] WARNING root fetch - processPackages [multiconnections]: Skipping, unable to determine old version
+[2024-05-07 03:28:04] INFO root fetch - main [MainThread]: End processing [multiconnections] error
+[2024-05-07 03:28:04] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/de/11/ff828510f3448d1584e83cecae6a88bc3ca1a66e3d4dca96bde1c2fccaca/onediff-1.0.0.dev202405050129.tar.gz
+[2024-05-07 03:28:04] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/06/8b/f4b0981365819afdbeecb1796ebb1d23439132f5063fcb9b4192e4c43a18/agixt-1.5.8-py3-none-any.whl
+[2024-05-07 03:28:05] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-07 03:28:05] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/15/99/edc61f0bff267f6cb5231881e1a59a68bf2404e77fa2777215a1da9e4d10/onediffx-1.0.0.dev202405060127.tar.gz
+[2024-05-07 03:28:05] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/e6/a8/bc8988f3d416064d9e5895d501d206720fd66565d0e448021db1d25f4dfa/onediff-1.0.0.dev202405060127.tar.gz
+[2024-05-07 03:28:05] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-07 03:28:05] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240507/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-07 03:28:05] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/25/a0/f70bdd10c23b4095f2f5ebd25957e2c061b93a50907a0651a729f4b4656c/agixt-1.5.9-py3-none-any.whl
+[2024-05-07 03:28:05] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-05-07 03:28:05] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202405050129.tar.gz tmp/onediffx-1.0.0.dev202405060127.tar.gz --markdown 20240507/o/onediffx/1.0.0.dev202405050129-1.0.0.dev202405060127/README.md --exclude *.pyd
+[2024-05-07 03:28:05] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-07 03:28:05] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202405050129.tar.gz tmp/onediff-1.0.0.dev202405060127.tar.gz --markdown 20240507/o/onediff/1.0.0.dev202405050129-1.0.0.dev202405060127/README.md --exclude *.pyd
+[2024-05-07 03:28:05] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2024-05-07 03:28:05] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.5.8-py3-none-any.whl.zip tmp/agixt-1.5.9-py3-none-any.whl.zip --markdown 20240507/a/agixt/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-07 03:28:05] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405050129.tar.gz]
+[2024-05-07 03:28:05] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405060127.tar.gz]
+[2024-05-07 03:28:05] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-05-07 03:28:05] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.8-py3-none-any.whl.zip]
+[2024-05-07 03:28:05] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.5.9-py3-none-any.whl.zip]
+[2024-05-07 03:28:05] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2024-05-07 03:28:06] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405050129.tar.gz]
+[2024-05-07 03:28:06] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405060127.tar.gz]
+[2024-05-07 03:28:06] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-07 03:28:06] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-07 03:28:06] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-07 03:28:06] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-07 03:28:06] INFO root fetch - main [MainThread]: Store serial: [23087887]
