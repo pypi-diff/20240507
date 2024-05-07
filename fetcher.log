@@ -13671,3 +13671,81 @@ EOFError: EOF read where object expected
 [2024-05-07 08:46:14] INFO root fetch - processPackages [accelbyte-py-sdk-service-lobby]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_lobby-0.9.0.tar.gz]
 [2024-05-07 08:46:14] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-lobby]: success
 [2024-05-07 08:46:14] INFO root fetch - main [MainThread]: Store serial: [23090867]
+[2024-05-07 08:48:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090867]
+[2024-05-07 08:48:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 08:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omegi-python-instrumentation
+[2024-05-07 08:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-slack
+[2024-05-07 08:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: accelbyte-py-sdk-service-platform
+[2024-05-07 08:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trc-data-reader
+[2024-05-07 08:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: accelbyte-py-sdk-service-qosm
+[2024-05-07 08:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-rancher2
+[2024-05-07 08:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bencode2
+[2024-05-07 08:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: accelbyte-py-sdk-service-reporting
+[2024-05-07 08:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-server-action-mass-edit
+[2024-05-07 08:48:23] WARNING root fetch - processPackages [omegi-python-instrumentation]: Skipping, unable to determine old version
+[2024-05-07 08:48:23] INFO root fetch - main [MainThread]: End processing [omegi-python-instrumentation] error
+[2024-05-07 08:48:23] INFO root fetch - processPackages [odoo-addon-server-action-mass-edit]: New version: [17.0.1.0.0.2] Old Version: [16.0.2.0.3.1]
+[2024-05-07 08:48:23] INFO root fetch - processPackages [odoo-addon-server-action-mass-edit]: Downloading https://files.pythonhosted.org/packages/77/da/5b67fbc1159a291d9816e30f326974599a35bcf54db48d6b17a313f9ef78/odoo_addon_server_action_mass_edit-16.0.2.0.3.1-py3-none-any.whl
+[2024-05-07 08:48:23] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:48:23] INFO root fetch - processPackages [accelbyte-py-sdk-service-reporting]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-07 08:48:23] INFO root fetch - processPackages [accelbyte-py-sdk-service-qosm]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-07 08:48:23] INFO root fetch - processPackages [pulumi-slack]: New version: [0.5.0a1715062776] Old Version: [0.5.0a1714565557]
+[2024-05-07 08:48:23] INFO root fetch - processPackages [trc-data-reader]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-07 08:48:23] INFO root fetch - processPackages [pulumi-rancher2]: New version: [6.2.0a1715062402] Old Version: [6.2.0a1714565435]
+[2024-05-07 08:48:23] INFO root fetch - processPackages [bencode2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 08:48:23] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: Downloading https://files.pythonhosted.org/packages/9a/97/499a8e61b01a7baced57d028a457af78cd842a4e53dc67ebed7d970eae01/accelbyte-py-sdk-service-platform-0.8.0.tar.gz
+[2024-05-07 08:48:23] INFO root fetch - processPackages [trc-data-reader]: Downloading https://files.pythonhosted.org/packages/19/89/63404aed9e0517a7a0c2f72fcd791171fcec28766e150037c904b7ff6a14/trc_data_reader-0.3.3-py3-none-any.whl
+[2024-05-07 08:48:23] INFO root fetch - processPackages [accelbyte-py-sdk-service-qosm]: Downloading https://files.pythonhosted.org/packages/81/ee/8539ab1654ee9af96ce575eac2863c67d24619b40491f7407bda9ef1c3d9/accelbyte-py-sdk-service-qosm-0.3.0.tar.gz
+[2024-05-07 08:48:23] INFO root fetch - processPackages [accelbyte-py-sdk-service-reporting]: Downloading https://files.pythonhosted.org/packages/30/fa/5e1c1d75bd41eb5a827b0026eb2d64f11dab949ae0ae7ba2dc0d2215dbc1/accelbyte-py-sdk-service-reporting-0.6.0.tar.gz
+[2024-05-07 08:48:23] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/56/52/f29bd80851af08b8e24066315fb7c93e490bbab43154a25c248ce5ba7aff/pulumi_slack-0.5.0a1714565557.tar.gz
+[2024-05-07 08:48:23] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/dd/f3/3b5f761e741d92c5840583d6d37b09615160e8f919c554aaa363429a9d4b/pulumi_rancher2-6.2.0a1714565435.tar.gz
+[2024-05-07 08:48:23] INFO root fetch - processPackages [bencode2]: Downloading https://files.pythonhosted.org/packages/23/f4/a28e8c52b18fc023e1b81784bbf2d9b9a8238d10dbf675853b69f64f6f8d/bencode2-0.0.8.tar.gz
+[2024-05-07 08:48:23] INFO root fetch - processPackages [odoo-addon-server-action-mass-edit]: Downloading https://files.pythonhosted.org/packages/a7/d8/e76bf81867bcd18b45df07d3461fd85e71721fa0551546433f5e957e804e/odoo_addon_server_action_mass_edit-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-07 08:48:23] INFO root fetch - processPackages [odoo-addon-server-action-mass-edit]: executing diffoscope
+[2024-05-07 08:48:23] INFO root fetch - processPackages [odoo-addon-server-action-mass-edit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_server_action_mass_edit-16.0.2.0.3.1-py3-none-any.whl.zip tmp/odoo_addon_server_action_mass_edit-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-server-action-mass-edit/16.0.2.0.3.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-07 08:48:23] INFO root fetch - processPackages [trc-data-reader]: Downloading https://files.pythonhosted.org/packages/3c/17/8f56586e5d8a65358bb081bd5da46e9a811cacb98e388adcc176adfad42e/trc_data_reader-0.3.4-py3-none-any.whl
+[2024-05-07 08:48:23] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/97/0e/3b24b25687639ba2f4d203f6fc5695270ebac0497629e20e8ea1bc4cf4fc/pulumi_slack-0.5.0a1715062776.tar.gz
+[2024-05-07 08:48:23] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/f6/cb/1d129b7d3cee04d7ccf7e897721da13f3a11c3e3507427de8a6a69a01207/pulumi_rancher2-6.2.0a1715062402.tar.gz
+[2024-05-07 08:48:23] INFO root fetch - processPackages [accelbyte-py-sdk-service-qosm]: Downloading https://files.pythonhosted.org/packages/e1/25/fcd64a604cb9801da35f15df29ceff4a695e8c3863926c6475ff2c66cb74/accelbyte_py_sdk_service_qosm-0.4.0.tar.gz
+[2024-05-07 08:48:23] INFO root fetch - processPackages [accelbyte-py-sdk-service-reporting]: Downloading https://files.pythonhosted.org/packages/a3/e3/7698073cf6dd38a87005892a8a4778d4c18b37dfe8f6ba48a0fbb954c067/accelbyte_py_sdk_service_reporting-0.7.0.tar.gz
+[2024-05-07 08:48:23] INFO root fetch - processPackages [bencode2]: Downloading https://files.pythonhosted.org/packages/0f/06/7fedfc22787eec56cd4d7da016a9d7a7aa43a4ab7e1a41b7443bdc8bf981/bencode2-0.0.9.tar.gz
+[2024-05-07 08:48:23] INFO root fetch - processPackages [trc-data-reader]: executing diffoscope
+[2024-05-07 08:48:23] INFO root fetch - processPackages [trc-data-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trc_data_reader-0.3.3-py3-none-any.whl.zip tmp/trc_data_reader-0.3.4-py3-none-any.whl.zip --markdown 20240507/t/trc-data-reader/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-07 08:48:23] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2024-05-07 08:48:23] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.5.0a1714565557.tar.gz tmp/pulumi_slack-0.5.0a1715062776.tar.gz --markdown 20240507/p/pulumi-slack/0.5.0a1714565557-0.5.0a1715062776/README.md --exclude *.pyd
+[2024-05-07 08:48:23] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: Downloading https://files.pythonhosted.org/packages/d0/ed/66f26d257d94460e2db1eae9628824e19558c96208f5ae93f9b41d3bbf17/accelbyte-py-sdk-service-platform-0.9.0.tar.gz
+[2024-05-07 08:48:24] INFO root fetch - processPackages [accelbyte-py-sdk-service-qosm]: executing diffoscope
+[2024-05-07 08:48:24] INFO root fetch - processPackages [accelbyte-py-sdk-service-qosm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-qosm-0.3.0.tar.gz tmp/accelbyte_py_sdk_service_qosm-0.4.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-qosm/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-07 08:48:24] INFO root fetch - processPackages [bencode2]: executing diffoscope
+[2024-05-07 08:48:24] INFO root fetch - processPackages [bencode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bencode2-0.0.8.tar.gz tmp/bencode2-0.0.9.tar.gz --markdown 20240507/b/bencode2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 08:48:24] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2024-05-07 08:48:24] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-6.2.0a1714565435.tar.gz tmp/pulumi_rancher2-6.2.0a1715062402.tar.gz --markdown 20240507/p/pulumi-rancher2/6.2.0a1714565435-6.2.0a1715062402/README.md --exclude *.pyd
+[2024-05-07 08:48:24] INFO root fetch - processPackages [accelbyte-py-sdk-service-reporting]: executing diffoscope
+[2024-05-07 08:48:24] INFO root fetch - processPackages [accelbyte-py-sdk-service-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-reporting-0.6.0.tar.gz tmp/accelbyte_py_sdk_service_reporting-0.7.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-reporting/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-07 08:48:24] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: executing diffoscope
+[2024-05-07 08:48:24] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-platform-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-platform-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-platform/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:48:24] INFO root fetch - processPackages [trc-data-reader]: Remove: archive file [/home/abi/fetcher/tmp/trc_data_reader-0.3.3-py3-none-any.whl.zip]
+[2024-05-07 08:48:24] INFO root fetch - processPackages [trc-data-reader]: Remove: archive file [/home/abi/fetcher/tmp/trc_data_reader-0.3.4-py3-none-any.whl.zip]
+[2024-05-07 08:48:24] INFO root fetch - main [MainThread]: End processing [trc-data-reader]: success
+[2024-05-07 08:48:24] INFO root fetch - processPackages [odoo-addon-server-action-mass-edit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_server_action_mass_edit-16.0.2.0.3.1-py3-none-any.whl.zip]
+[2024-05-07 08:48:24] INFO root fetch - processPackages [odoo-addon-server-action-mass-edit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_server_action_mass_edit-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-07 08:48:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-server-action-mass-edit]: success
+[2024-05-07 08:48:24] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1714565557.tar.gz]
+[2024-05-07 08:48:24] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1715062776.tar.gz]
+[2024-05-07 08:48:24] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2024-05-07 08:48:24] INFO root fetch - processPackages [bencode2]: Remove: archive file [/home/abi/fetcher/tmp/bencode2-0.0.8.tar.gz]
+[2024-05-07 08:48:24] INFO root fetch - processPackages [bencode2]: Remove: archive file [/home/abi/fetcher/tmp/bencode2-0.0.9.tar.gz]
+[2024-05-07 08:48:24] INFO root fetch - main [MainThread]: End processing [bencode2]: success
+[2024-05-07 08:48:25] INFO root fetch - processPackages [accelbyte-py-sdk-service-qosm]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-qosm-0.3.0.tar.gz]
+[2024-05-07 08:48:25] INFO root fetch - processPackages [accelbyte-py-sdk-service-qosm]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_qosm-0.4.0.tar.gz]
+[2024-05-07 08:48:25] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-qosm]: success
+[2024-05-07 08:48:25] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1714565435.tar.gz]
+[2024-05-07 08:48:25] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715062402.tar.gz]
+[2024-05-07 08:48:25] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2024-05-07 08:48:25] INFO root fetch - processPackages [accelbyte-py-sdk-service-reporting]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-reporting-0.6.0.tar.gz]
+[2024-05-07 08:48:25] INFO root fetch - processPackages [accelbyte-py-sdk-service-reporting]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_reporting-0.7.0.tar.gz]
+[2024-05-07 08:48:25] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-reporting]: success
+[2024-05-07 08:48:28] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-platform-0.8.0.tar.gz]
+[2024-05-07 08:48:28] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-platform-0.9.0.tar.gz]
+[2024-05-07 08:48:28] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-platform]: success
+[2024-05-07 08:48:28] INFO root fetch - main [MainThread]: Store serial: [23090919]
