@@ -10476,3 +10476,33 @@ EOFError: EOF read where object expected
 [2024-05-07 06:00:18] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
 [2024-05-07 06:00:18] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2024-05-07 06:00:18] INFO root fetch - main [MainThread]: Store serial: [23089235]
+[2024-05-07 06:02:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089235]
+[2024-05-07 06:02:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 06:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazysdk
+[2024-05-07 06:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysparkplug
+[2024-05-07 06:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-quality-validation-pydeequ
+[2024-05-07 06:02:27] INFO root fetch - processPackages [data-quality-validation-pydeequ]: New version: [0.4] Old Version: [0.3]
+[2024-05-07 06:02:27] INFO root fetch - processPackages [pysparkplug]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-07 06:02:27] INFO root fetch - processPackages [lazysdk]: New version: [0.1.91] Old Version: [0.1.90]
+[2024-05-07 06:02:27] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/f6/13/d12d412ab21ca7a22f62c4103cd5929c7d6ebb2e91e38ccc9d177966b550/data-quality-validation-pydeequ-0.3.tar.gz
+[2024-05-07 06:02:27] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/3b/9d/662a835290a8d7d32e3e7a0130d7bd38cb4d161559a8a27193fa0715ef52/lazysdk-0.1.90.tar.gz
+[2024-05-07 06:02:27] INFO root fetch - processPackages [pysparkplug]: Downloading https://files.pythonhosted.org/packages/ce/95/dc5cec82729e10b16a671de4fee433ceef9daa0175c49281d862ced180c9/pysparkplug-0.3.1.tar.gz
+[2024-05-07 06:02:27] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/c0/64/9c6503187a9bc71b7f963f84d5f64a0b2e64a023d7a6614cd0159ea1ffa6/data-quality-validation-pydeequ-0.4.tar.gz
+[2024-05-07 06:02:27] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/9c/ba/6bc5ce5ffd2575368c60da44f1c98e1e67888afa12967d0c9157cae0b0ea/lazysdk-0.1.91.tar.gz
+[2024-05-07 06:02:27] INFO root fetch - processPackages [data-quality-validation-pydeequ]: executing diffoscope
+[2024-05-07 06:02:27] INFO root fetch - processPackages [data-quality-validation-pydeequ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-quality-validation-pydeequ-0.3.tar.gz tmp/data-quality-validation-pydeequ-0.4.tar.gz --markdown 20240507/d/data-quality-validation-pydeequ/0.3-0.4/README.md --exclude *.pyd
+[2024-05-07 06:02:28] INFO root fetch - processPackages [pysparkplug]: Downloading https://files.pythonhosted.org/packages/65/5e/e553e32c3bb554f1075f33448d06c8c8644856ceefa597a3fe287ef6936a/pysparkplug-0.3.2.tar.gz
+[2024-05-07 06:02:28] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2024-05-07 06:02:28] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.90.tar.gz tmp/lazysdk-0.1.91.tar.gz --markdown 20240507/l/lazysdk/0.1.90-0.1.91/README.md --exclude *.pyd
+[2024-05-07 06:02:28] INFO root fetch - processPackages [pysparkplug]: executing diffoscope
+[2024-05-07 06:02:28] INFO root fetch - processPackages [pysparkplug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparkplug-0.3.1.tar.gz tmp/pysparkplug-0.3.2.tar.gz --markdown 20240507/p/pysparkplug/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-07 06:02:28] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.3.tar.gz]
+[2024-05-07 06:02:28] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.4.tar.gz]
+[2024-05-07 06:02:28] INFO root fetch - main [MainThread]: End processing [data-quality-validation-pydeequ]: success
+[2024-05-07 06:02:28] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.90.tar.gz]
+[2024-05-07 06:02:28] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.91.tar.gz]
+[2024-05-07 06:02:28] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2024-05-07 06:02:28] INFO root fetch - processPackages [pysparkplug]: Remove: archive file [/home/abi/fetcher/tmp/pysparkplug-0.3.1.tar.gz]
+[2024-05-07 06:02:28] INFO root fetch - processPackages [pysparkplug]: Remove: archive file [/home/abi/fetcher/tmp/pysparkplug-0.3.2.tar.gz]
+[2024-05-07 06:02:28] INFO root fetch - main [MainThread]: End processing [pysparkplug]: success
+[2024-05-07 06:02:28] INFO root fetch - main [MainThread]: Store serial: [23089247]
