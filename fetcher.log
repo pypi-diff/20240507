@@ -22796,3 +22796,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 14:15:09] INFO root fetch - processPackages [mock-cminor]: Remove: archive file [/home/abi/fetcher/tmp/mock_cminor-0.0.5.tar.gz]
 [2024-05-07 14:15:09] INFO root fetch - main [MainThread]: End processing [mock-cminor]: success
 [2024-05-07 14:15:09] INFO root fetch - main [MainThread]: Store serial: [23095316]
+[2024-05-07 14:17:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23095316]
+[2024-05-07 14:17:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 14:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adls-acl
+[2024-05-07 14:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SNPmanifold
+[2024-05-07 14:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clappform-integrations
+[2024-05-07 14:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: music-kraken
+[2024-05-07 14:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eurmlsdk
+[2024-05-07 14:17:18] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-07 14:17:18] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.7.0]
+[2024-05-07 14:17:18] INFO root fetch - processPackages [clappform-integrations]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 14:17:18] INFO root fetch - processPackages [adls-acl]: New version: [0.1.0] Old Version: [0.0.7]
+[2024-05-07 14:17:18] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/aa/69/42c46dede83d9b389b5db9559c6ea6c86a36f1726e705df074c901fbcb2a/eurmlsdk-0.0.6.tar.gz
+[2024-05-07 14:17:18] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/cb/06/8ae70afb14c2307fb716d0fe36aad66a90c9e2598f47879c1277c5f23318/music_kraken-1.7.0.tar.gz
+[2024-05-07 14:17:18] WARNING root fetch - processPackages [SNPmanifold]: Skipping, unable to determine old version
+[2024-05-07 14:17:18] INFO root fetch - main [MainThread]: End processing [SNPmanifold] error
+[2024-05-07 14:17:18] INFO root fetch - processPackages [clappform-integrations]: Downloading https://files.pythonhosted.org/packages/20/77/57c7ebb9ba32b318b442c9f31f596182611f8b9949b9a0800a0f3abecdb5/clappform-integrations-1.0.8.tar.gz
+[2024-05-07 14:17:18] INFO root fetch - processPackages [adls-acl]: Downloading https://files.pythonhosted.org/packages/38/82/27508f6c3ca0ba5d0e3f6c959ae104444b5e32b78fdea1a4b481e3cbaf59/adls_acl-0.0.7.tar.gz
+[2024-05-07 14:17:18] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-05-07 14:17:18] INFO root fetch - processPackages [clappform-integrations]: Downloading https://files.pythonhosted.org/packages/1b/87/d1bd22e550a438c726df88f986c9ca34f15cf630f0c0d3587eb3081d4339/clappform-integrations-1.0.9.tar.gz
+[2024-05-07 14:17:19] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-05-07 14:17:19] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.7.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240507/m/music-kraken/1.7.0-1.9.0/README.md --exclude *.pyd
+[2024-05-07 14:17:19] INFO root fetch - processPackages [clappform-integrations]: executing diffoscope
+[2024-05-07 14:17:19] INFO root fetch - processPackages [clappform-integrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clappform-integrations-1.0.8.tar.gz tmp/clappform-integrations-1.0.9.tar.gz --markdown 20240507/c/clappform-integrations/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 14:17:19] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/48/5e/a9898ac379fa99a4698f07704b4612169dcd57d84acdca70191d5d22ce9e/eurmlsdk-0.0.7.tar.gz
+[2024-05-07 14:17:19] INFO root fetch - processPackages [adls-acl]: Downloading https://files.pythonhosted.org/packages/86/47/86dd74b3db9394699ab22a3624504ed43963dba5fe8e58b41276b4c11b24/adls_acl-0.1.0.tar.gz
+[2024-05-07 14:17:19] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-07 14:17:19] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.6.tar.gz tmp/eurmlsdk-0.0.7.tar.gz --markdown 20240507/e/eurmlsdk/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-07 14:17:19] INFO root fetch - processPackages [adls-acl]: executing diffoscope
+[2024-05-07 14:17:19] INFO root fetch - processPackages [adls-acl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adls_acl-0.0.7.tar.gz tmp/adls_acl-0.1.0.tar.gz --markdown 20240507/a/adls-acl/0.0.7-0.1.0/README.md --exclude *.pyd
+[2024-05-07 14:17:20] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.7.0.tar.gz]
+[2024-05-07 14:17:20] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-05-07 14:17:20] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-05-07 14:17:20] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.6.tar.gz]
+[2024-05-07 14:17:20] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.7.tar.gz]
+[2024-05-07 14:17:20] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-07 14:17:20] INFO root fetch - processPackages [clappform-integrations]: Remove: archive file [/home/abi/fetcher/tmp/clappform-integrations-1.0.8.tar.gz]
+[2024-05-07 14:17:20] INFO root fetch - processPackages [clappform-integrations]: Remove: archive file [/home/abi/fetcher/tmp/clappform-integrations-1.0.9.tar.gz]
+[2024-05-07 14:17:20] INFO root fetch - main [MainThread]: End processing [clappform-integrations]: success
+[2024-05-07 14:17:20] INFO root fetch - processPackages [adls-acl]: Remove: archive file [/home/abi/fetcher/tmp/adls_acl-0.0.7.tar.gz]
+[2024-05-07 14:17:20] INFO root fetch - processPackages [adls-acl]: Remove: archive file [/home/abi/fetcher/tmp/adls_acl-0.1.0.tar.gz]
+[2024-05-07 14:17:20] INFO root fetch - main [MainThread]: End processing [adls-acl]: success
+[2024-05-07 14:17:20] INFO root fetch - main [MainThread]: Store serial: [23095330]
