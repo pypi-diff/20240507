@@ -13053,3 +13053,77 @@ EOFError: EOF read where object expected
 [2024-05-07 08:26:24] INFO root fetch - processPackages [accelbyte-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk-0.65.0.tar.gz]
 [2024-05-07 08:26:24] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk]: success
 [2024-05-07 08:26:24] INFO root fetch - main [MainThread]: Store serial: [23090619]
+[2024-05-07 08:28:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090619]
+[2024-05-07 08:28:34] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-07 08:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngstoolkits
+[2024-05-07 08:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkg-omegi-python-instrumentation
+[2024-05-07 08:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: doku-python-library
+[2024-05-07 08:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mikrotik-bt5
+[2024-05-07 08:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: turbo_boot
+[2024-05-07 08:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zcorepy
+[2024-05-07 08:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spo4onnx
+[2024-05-07 08:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rdb-json-parser
+[2024-05-07 08:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: narciscissiz
+[2024-05-07 08:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gdmty-django-users
+[2024-05-07 08:28:34] INFO root fetch - processPackages [mikrotik-bt5]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 08:28:34] WARNING root fetch - processPackages [ngstoolkits]: Skipping, unable to determine old version
+[2024-05-07 08:28:34] INFO root fetch - processPackages [ngstoolkits]: Start processing: xurpas-data-quality
+[2024-05-07 08:28:34] INFO root fetch - main [MainThread]: End processing [ngstoolkits] error
+[2024-05-07 08:28:34] INFO root fetch - processPackages [xurpas-data-quality]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-07 08:28:34] WARNING root fetch - processPackages [pkg-omegi-python-instrumentation]: Skipping, unable to determine old version
+[2024-05-07 08:28:34] INFO root fetch - processPackages [pkg-omegi-python-instrumentation]: Start processing: indusmes
+[2024-05-07 08:28:34] INFO root fetch - main [MainThread]: End processing [pkg-omegi-python-instrumentation] error
+[2024-05-07 08:28:34] WARNING root fetch - processPackages [doku-python-library]: Skipping, unable to determine old version
+[2024-05-07 08:28:34] INFO root fetch - processPackages [doku-python-library]: Start processing: pathobj-handler
+[2024-05-07 08:28:34] INFO root fetch - processPackages [mikrotik-bt5]: Downloading https://files.pythonhosted.org/packages/bc/fb/38f394a43b1bf2460d1564c822eb6230524b07511eff14d0069bd579630b/mikrotik-bt5-1.0.0.tar.gz
+[2024-05-07 08:28:34] INFO root fetch - main [MainThread]: End processing [doku-python-library] error
+[2024-05-07 08:28:34] WARNING root fetch - processPackages [narciscissiz]: Skipping, unable to determine old version
+[2024-05-07 08:28:34] INFO root fetch - main [MainThread]: End processing [narciscissiz] error
+[2024-05-07 08:28:34] WARNING root fetch - processPackages [zcorepy]: Skipping, unable to determine old version
+[2024-05-07 08:28:34] INFO root fetch - main [MainThread]: End processing [zcorepy] error
+[2024-05-07 08:28:34] INFO root fetch - processPackages [turbo_boot]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-07 08:28:34] WARNING root fetch - processPackages [rdb-json-parser]: Skipping, unable to determine old version
+[2024-05-07 08:28:34] INFO root fetch - main [MainThread]: End processing [rdb-json-parser] error
+[2024-05-07 08:28:34] INFO root fetch - processPackages [spo4onnx]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-07 08:28:34] INFO root fetch - processPackages [gdmty-django-users]: New version: [24.4.1] Old Version: [24.4.0]
+[2024-05-07 08:28:34] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/e0/af/dcc591044d79a219a1bcae942f28392ffa43165dc185f9e153c73255eff8/xurpas_data_quality-0.0.1-py3-none-any.whl
+[2024-05-07 08:28:34] INFO root fetch - processPackages [indusmes]: New version: [1.0.0] Old Version: [0.0.5]
+[2024-05-07 08:28:34] WARNING root fetch - processPackages [pathobj-handler]: Skipping, unable to determine old version
+[2024-05-07 08:28:34] INFO root fetch - main [MainThread]: End processing [pathobj-handler] error
+[2024-05-07 08:28:35] INFO root fetch - processPackages [turbo_boot]: Downloading https://files.pythonhosted.org/packages/ec/59/9dbe2aaabeae1f5959297df6ceb2ab1ec92b88d84a623a5f8132c09ef872/turbo_boot-0.1.6.tar.gz
+[2024-05-07 08:28:35] INFO root fetch - processPackages [spo4onnx]: Downloading https://files.pythonhosted.org/packages/53/25/2637604598543e61003582248bd9d97d33e4807947b29eb1de1a27878f1d/spo4onnx-1.0.4.tar.gz
+[2024-05-07 08:28:35] INFO root fetch - processPackages [gdmty-django-users]: Downloading https://files.pythonhosted.org/packages/ef/b2/aa031f2d94b22dea398862e327dd41439b5b60933838d789de281c5878f7/gdmty_django_users-24.4.0.tar.gz
+[2024-05-07 08:28:35] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/66/67/9e13388687fe4f4ac924492b24d4a07dc500ca278ab978f198640613efac/xurpas_data_quality-0.0.2-py3-none-any.whl
+[2024-05-07 08:28:35] INFO root fetch - processPackages [indusmes]: Downloading https://files.pythonhosted.org/packages/5d/50/488b939d9cc3fc4379bbc251c83b0b5e2df9949969645a59681295a0d711/indusmes-0.0.5.tar.gz
+[2024-05-07 08:28:35] ERROR root fetch - processPackages [mikrotik-bt5]: Unable to fetch info: No such project/version 'mikrotik-bt5' 1.0.1
+[2024-05-07 08:28:35] INFO root fetch - main [MainThread]: End processing [mikrotik-bt5] error
+[2024-05-07 08:28:35] INFO root fetch - processPackages [xurpas-data-quality]: executing diffoscope
+[2024-05-07 08:28:35] INFO root fetch - processPackages [xurpas-data-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xurpas_data_quality-0.0.1-py3-none-any.whl.zip tmp/xurpas_data_quality-0.0.2-py3-none-any.whl.zip --markdown 20240507/x/xurpas-data-quality/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-07 08:28:35] INFO root fetch - processPackages [gdmty-django-users]: Downloading https://files.pythonhosted.org/packages/1f/28/db6f5d9ac016a34e18d726f2b03b01ea4c71bc620e796b5222fb4ae98dc9/gdmty_django_users-24.4.1.tar.gz
+[2024-05-07 08:28:35] INFO root fetch - processPackages [indusmes]: Downloading https://files.pythonhosted.org/packages/a8/ce/424463aa7c3ca7b4aa15c44c9199ea9c296c7f0915f3c4a2edc0682239de/indusmes-1.0.0-py3-none-any.whl
+[2024-05-07 08:28:35] INFO root fetch - processPackages [turbo_boot]: Downloading https://files.pythonhosted.org/packages/74/61/5df20d577546b2ce3673b5bdd5c5456991d9bcce7e47ab47ecee11b9c8b0/turbo_boot-0.1.7.tar.gz
+[2024-05-07 08:28:35] INFO root fetch - processPackages [spo4onnx]: Downloading https://files.pythonhosted.org/packages/20/e5/bb018f64cc98ce8e1b91f2a65492904418d117cf9b7c426e8b5d2cde898e/spo4onnx-1.0.5.tar.gz
+[2024-05-07 08:28:35] INFO root fetch - processPackages [gdmty-django-users]: executing diffoscope
+[2024-05-07 08:28:35] INFO root fetch - processPackages [gdmty-django-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdmty_django_users-24.4.0.tar.gz tmp/gdmty_django_users-24.4.1.tar.gz --markdown 20240507/g/gdmty-django-users/24.4.0-24.4.1/README.md --exclude *.pyd
+[2024-05-07 08:28:35] INFO root fetch - processPackages [turbo_boot]: executing diffoscope
+[2024-05-07 08:28:35] INFO root fetch - processPackages [turbo_boot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbo_boot-0.1.6.tar.gz tmp/turbo_boot-0.1.7.tar.gz --markdown 20240507/t/turbo_boot/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-07 08:28:35] INFO root fetch - processPackages [spo4onnx]: executing diffoscope
+[2024-05-07 08:28:35] INFO root fetch - processPackages [spo4onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spo4onnx-1.0.4.tar.gz tmp/spo4onnx-1.0.5.tar.gz --markdown 20240507/s/spo4onnx/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-07 08:28:35] INFO root fetch - processPackages [indusmes]: executing diffoscope
+[2024-05-07 08:28:35] INFO root fetch - processPackages [indusmes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indusmes-0.0.5.tar.gz tmp/indusmes-1.0.0-py3-none-any.whl.zip --markdown 20240507/i/indusmes/0.0.5-1.0.0/README.md --exclude *.pyd
+[2024-05-07 08:28:35] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.1-py3-none-any.whl.zip]
+[2024-05-07 08:28:35] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.2-py3-none-any.whl.zip]
+[2024-05-07 08:28:35] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality]: success
+[2024-05-07 08:28:36] INFO root fetch - processPackages [gdmty-django-users]: Remove: archive file [/home/abi/fetcher/tmp/gdmty_django_users-24.4.0.tar.gz]
+[2024-05-07 08:28:36] INFO root fetch - processPackages [gdmty-django-users]: Remove: archive file [/home/abi/fetcher/tmp/gdmty_django_users-24.4.1.tar.gz]
+[2024-05-07 08:28:36] INFO root fetch - main [MainThread]: End processing [gdmty-django-users]: success
+[2024-05-07 08:28:36] INFO root fetch - processPackages [indusmes]: Remove: archive file [/home/abi/fetcher/tmp/indusmes-0.0.5.tar.gz]
+[2024-05-07 08:28:36] INFO root fetch - processPackages [indusmes]: Remove: archive file [/home/abi/fetcher/tmp/indusmes-1.0.0-py3-none-any.whl.zip]
+[2024-05-07 08:28:36] INFO root fetch - main [MainThread]: End processing [indusmes]: success
+[2024-05-07 08:28:36] INFO root fetch - processPackages [turbo_boot]: Remove: archive file [/home/abi/fetcher/tmp/turbo_boot-0.1.6.tar.gz]
+[2024-05-07 08:28:36] INFO root fetch - processPackages [turbo_boot]: Remove: archive file [/home/abi/fetcher/tmp/turbo_boot-0.1.7.tar.gz]
+[2024-05-07 08:28:36] INFO root fetch - main [MainThread]: End processing [turbo_boot]: success
+[2024-05-07 08:28:36] INFO root fetch - processPackages [spo4onnx]: Remove: archive file [/home/abi/fetcher/tmp/spo4onnx-1.0.4.tar.gz]
+[2024-05-07 08:28:36] INFO root fetch - processPackages [spo4onnx]: Remove: archive file [/home/abi/fetcher/tmp/spo4onnx-1.0.5.tar.gz]
+[2024-05-07 08:28:36] INFO root fetch - main [MainThread]: End processing [spo4onnx]: success
+[2024-05-07 08:28:36] INFO root fetch - main [MainThread]: Store serial: [23090668]
