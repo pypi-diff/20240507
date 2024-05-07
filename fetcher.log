@@ -3313,3 +3313,79 @@ EOFError: EOF read where object expected
 [2024-05-07 02:19:17] INFO root fetch - processPackages [flyteidl]: Remove: archive file [/home/abi/fetcher/tmp/flyteidl-1.5.9.tar.gz]
 [2024-05-07 02:19:17] INFO root fetch - main [MainThread]: End processing [flyteidl]: success
 [2024-05-07 02:19:17] INFO root fetch - main [MainThread]: Store serial: [23086473]
+[2024-05-07 02:21:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086473]
+[2024-05-07 02:21:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 02:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multiconnections
+[2024-05-07 02:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flyteidl
+[2024-05-07 02:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-ethereum-node
+[2024-05-07 02:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adelie
+[2024-05-07 02:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-cr-constructs
+[2024-05-07 02:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-aurora-globaldatabase
+[2024-05-07 02:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plasmapy-sphinx
+[2024-05-07 02:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-aws
+[2024-05-07 02:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: NEURON-nightly
+[2024-05-07 02:21:26] INFO root fetch - processPackages [plasmapy-sphinx]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2024-05-07 02:21:26] INFO root fetch - processPackages [multiconnections]: New version: [2.35.1] Old Version: [2.34.23]
+[2024-05-07 02:21:26] INFO root fetch - processPackages [flyteidl]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-07 02:21:26] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.447] Old Version: [2.1.446]
+[2024-05-07 02:21:26] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-07 02:21:26] INFO root fetch - processPackages [adelie]: New version: [1.1.31] Old Version: [1.1.30]
+[2024-05-07 02:21:26] INFO root fetch - processPackages [NEURON-nightly]: New version: [9.0a1.dev238] Old Version: [9.0a1.dev236]
+[2024-05-07 02:21:26] INFO root fetch - processPackages [multiconnections]: Downloading https://files.pythonhosted.org/packages/cf/60/e3b764e7b8dc9b6b990d7b384838543811c5552ba8e452b32dc34a13b470/multiconnections-2.34.23.tar.gz
+[2024-05-07 02:21:26] INFO root fetch - processPackages [plasmapy-sphinx]: Downloading https://files.pythonhosted.org/packages/b6/97/55938e22340be88203ca1839db132b330228a2103d692a1a2544bbd8d710/plasmapy_sphinx-0.1.0a4.tar.gz
+[2024-05-07 02:21:26] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-05-07 02:21:26] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-07 02:21:26] INFO root fetch - processPackages [flyteidl]: Downloading https://files.pythonhosted.org/packages/30/75/40650c36dbb4ef8cc1004e8f2165f0e1e0bb2845ddfa4bf608056d4f5e43/flyteidl-1.5.8.tar.gz
+[2024-05-07 02:21:26] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-07 02:21:26] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/35/a8/55d7ed33d5e79ea19dcc9e8bb742f4600cea66efc6faa47ad586064f24aa/cdk-cr-constructs-2.1.446.tar.gz
+[2024-05-07 02:21:26] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15193011>=10485760
+[2024-05-07 02:21:26] INFO root fetch - processPackages [adelie]: Downloading https://files.pythonhosted.org/packages/c7/d4/a2cd8eecb2cd2e3218ccc7b856c97b11e64c7874d1e479659a96c3127ad9/adelie-1.1.30.tar.gz
+[2024-05-07 02:21:26] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-05-07 02:21:26] INFO root fetch - processPackages [NEURON-nightly]: Downloading https://files.pythonhosted.org/packages/79/a3/cd5149a9d0d3e9f2385465bf368c88927b3a0e24b9eb4781b1616d2906c0/NEURON_nightly-9.0a1.dev236-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-07 02:21:27] INFO root fetch - processPackages [multiconnections]: Downloading https://files.pythonhosted.org/packages/e1/a6/69c0386188b5907e8d3ea6ea0b32fc565c6b4d3fe58d7dc04798c974880b/multiconnections-2.35.1.tar.gz
+[2024-05-07 02:21:27] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-05-07 02:21:27] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-05-07 02:21:27] INFO root fetch - processPackages [plasmapy-sphinx]: Downloading https://files.pythonhosted.org/packages/8f/73/efa75993ca7814e286d2ca3252f89ba7c047a568476344d977f0278d7c93/plasmapy_sphinx-0.1.0a5.tar.gz
+[2024-05-07 02:21:27] WARNING root fetch - processPackages [NEURON-nightly]: Skipping package: exceeds size limit 26078894>=10485760
+[2024-05-07 02:21:27] INFO root fetch - main [MainThread]: End processing [NEURON-nightly] error
+[2024-05-07 02:21:27] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-07 02:21:27] INFO root fetch - processPackages [flyteidl]: Downloading https://files.pythonhosted.org/packages/19/01/bd5a3ada5dbd449e8c95df9c3101ff352c4cc765c8f1f41fe9e3d5c1eed1/flyteidl-1.5.9.tar.gz
+[2024-05-07 02:21:27] INFO root fetch - processPackages [multiconnections]: executing diffoscope
+[2024-05-07 02:21:27] INFO root fetch - processPackages [multiconnections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiconnections-2.34.23.tar.gz tmp/multiconnections-2.35.1.tar.gz --markdown 20240507/m/multiconnections/2.34.23-2.35.1/README.md --exclude *.pyd
+[2024-05-07 02:21:27] INFO root fetch - processPackages [plasmapy-sphinx]: executing diffoscope
+[2024-05-07 02:21:27] INFO root fetch - processPackages [plasmapy-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plasmapy_sphinx-0.1.0a4.tar.gz tmp/plasmapy_sphinx-0.1.0a5.tar.gz --markdown 20240507/p/plasmapy-sphinx/0.1.0a4-0.1.0a5/README.md --exclude *.pyd
+[2024-05-07 02:21:27] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-07 02:21:27] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240507/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-07 02:21:27] INFO root fetch - processPackages [flyteidl]: executing diffoscope
+[2024-05-07 02:21:27] INFO root fetch - processPackages [flyteidl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyteidl-1.5.8.tar.gz tmp/flyteidl-1.5.9.tar.gz --markdown 20240507/f/flyteidl/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-07 02:21:27] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-05-07 02:21:27] INFO root fetch - processPackages [adelie]: Downloading https://files.pythonhosted.org/packages/b3/c3/fdedb7185941b9aecd48e1934f94d08a2044d11553df2b8cd71e7b5d9ddc/adelie-1.1.31.tar.gz
+[2024-05-07 02:21:27] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-05-07 02:21:27] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240507/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-07 02:21:27] INFO root fetch - processPackages [multiconnections]: Remove: archive file [/home/abi/fetcher/tmp/multiconnections-2.34.23.tar.gz]
+[2024-05-07 02:21:27] INFO root fetch - processPackages [multiconnections]: Remove: archive file [/home/abi/fetcher/tmp/multiconnections-2.35.1.tar.gz]
+[2024-05-07 02:21:27] INFO root fetch - main [MainThread]: End processing [multiconnections]: success
+[2024-05-07 02:21:27] INFO root fetch - processPackages [adelie]: executing diffoscope
+[2024-05-07 02:21:27] INFO root fetch - processPackages [adelie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adelie-1.1.30.tar.gz tmp/adelie-1.1.31.tar.gz --markdown 20240507/a/adelie/1.1.30-1.1.31/README.md --exclude *.pyd
+[2024-05-07 02:21:27] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-07 02:21:27] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-07 02:21:27] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-07 02:21:28] INFO root fetch - processPackages [plasmapy-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/plasmapy_sphinx-0.1.0a4.tar.gz]
+[2024-05-07 02:21:28] INFO root fetch - processPackages [plasmapy-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/plasmapy_sphinx-0.1.0a5.tar.gz]
+[2024-05-07 02:21:28] INFO root fetch - main [MainThread]: End processing [plasmapy-sphinx]: success
+[2024-05-07 02:21:28] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-05-07 02:21:28] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-05-07 02:21:28] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-05-07 02:21:28] INFO root fetch - processPackages [flyteidl]: Remove: archive file [/home/abi/fetcher/tmp/flyteidl-1.5.8.tar.gz]
+[2024-05-07 02:21:28] INFO root fetch - processPackages [flyteidl]: Remove: archive file [/home/abi/fetcher/tmp/flyteidl-1.5.9.tar.gz]
+[2024-05-07 02:21:28] INFO root fetch - main [MainThread]: End processing [flyteidl]: success
+[2024-05-07 02:21:28] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-05-07 02:21:28] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-05-07 02:21:28] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240507/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-05-07 02:21:30] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.30.tar.gz]
+[2024-05-07 02:21:30] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.31.tar.gz]
+[2024-05-07 02:21:30] INFO root fetch - main [MainThread]: End processing [adelie]: success
+[2024-05-07 02:21:44] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-05-07 02:21:44] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-05-07 02:21:44] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-05-07 02:21:44] INFO root fetch - main [MainThread]: Store serial: [23086509]
