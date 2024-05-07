@@ -21511,3 +21511,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 13:31:45] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.60.tar.gz]
 [2024-05-07 13:31:45] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
 [2024-05-07 13:31:45] INFO root fetch - main [MainThread]: Store serial: [23094717]
+[2024-05-07 13:33:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094717]
+[2024-05-07 13:33:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 13:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-notifications-sdk-preview
+[2024-05-07 13:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-cms-articles
+[2024-05-07 13:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpflib
+[2024-05-07 13:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: printt
+[2024-05-07 13:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: new-dt-algorithm
+[2024-05-07 13:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdo-sdk-python
+[2024-05-07 13:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vairflow-search
+[2024-05-07 13:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AutoMLApp
+[2024-05-07 13:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-notifications-sdk
+[2024-05-07 13:33:54] INFO root fetch - processPackages [AutoMLApp]: New version: [0.1.55] Old Version: [0.1.54]
+[2024-05-07 13:33:54] INFO root fetch - processPackages [gpflib]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-07 13:33:54] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-07 13:33:54] INFO root fetch - processPackages [new-dt-algorithm]: New version: [0.4] Old Version: [0.3]
+[2024-05-07 13:33:54] INFO root fetch - processPackages [printt]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-07 13:33:54] WARNING root fetch - processPackages [vairflow-search]: Skipping, unable to determine old version
+[2024-05-07 13:33:55] INFO root fetch - main [MainThread]: End processing [vairflow-search] error
+[2024-05-07 13:33:55] INFO root fetch - processPackages [django-cms-articles]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-05-07 13:33:55] INFO root fetch - processPackages [lusid-notifications-sdk]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-07 13:33:55] INFO root fetch - processPackages [gpflib]: Downloading https://files.pythonhosted.org/packages/4b/d5/38b1c9277b1ebea3f7c7e9094d59b043b805859223c9731c55db6135dce8/gpflib-1.1.7.tar.gz
+[2024-05-07 13:33:55] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-07 13:33:55] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.935] Old Version: [0.1.934]
+[2024-05-07 13:33:55] WARNING root fetch - processPackages [gpflib]: Skipping package: exceeds size limit 25115236>=10485760
+[2024-05-07 13:33:55] INFO root fetch - main [MainThread]: End processing [gpflib] error
+[2024-05-07 13:33:55] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/21/23/2e7e8ce750839535cd896103b8996146e1c8368336eac4fa55b0db71c44e/automlapp-0.1.54.tar.gz
+[2024-05-07 13:33:55] INFO root fetch - processPackages [django-cms-articles]: Downloading https://files.pythonhosted.org/packages/02/06/1702137143fbf29f8b952d8e3d087cada1d5bb4081efc78db68f0b32ea86/django_cms_articles-2.0.3.tar.gz
+[2024-05-07 13:33:55] INFO root fetch - processPackages [new-dt-algorithm]: Downloading https://files.pythonhosted.org/packages/83/92/71f1dbaeacc4e98ef2e63f89005671a2215a768bd547044e4791d4bec239/new_dt_algorithm-0.3.tar.gz
+[2024-05-07 13:33:55] INFO root fetch - processPackages [printt]: Downloading https://files.pythonhosted.org/packages/b9/b6/0e8d00cefac062f198668bfd6c42babe6713c1d971f6d341cbf01b1df3cb/printt-0.1.1.tar.gz
+[2024-05-07 13:33:55] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/1d/2b/93fd8fe15c2c31b4c6da6036c26b432f5de6ff971674bd9274a01eb8dc8b/lusid-notifications-sdk-preview-0.1.934.tar.gz
+[2024-05-07 13:33:55] INFO root fetch - processPackages [lusid-notifications-sdk]: Downloading https://files.pythonhosted.org/packages/01/ad/f5f41734425ef02dde19c538fb878d78215c421a44a9b8e31bca9b23e1cf/lusid_notifications_sdk-2.1.4.tar.gz
+[2024-05-07 13:33:55] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-07 13:33:55] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-07 13:33:55] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240507/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-07 13:33:55] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/1e/c4/9aa78857f1cc07b5e9599d96f53de24f5ba9f662c64c8a98f0a2fbcb3300/automlapp-0.1.55.tar.gz
+[2024-05-07 13:33:55] INFO root fetch - processPackages [new-dt-algorithm]: Downloading https://files.pythonhosted.org/packages/c8/61/9acca546ba549593a027fde43a4afcea77294a9a395761659b899baadcc3/new_dt_algorithm-0.4.tar.gz
+[2024-05-07 13:33:55] INFO root fetch - processPackages [printt]: Downloading https://files.pythonhosted.org/packages/ba/58/bdb08b1e3dc954924847ecbd604158b48d0bb86161fda11c34c4dffb34d8/printt-0.1.2.tar.gz
+[2024-05-07 13:33:55] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/05/fb/0bd0e949120691cc19f10ee997cc5c0581c3d1e1f8c56d5c8788082fe322/lusid-notifications-sdk-preview-0.1.935.tar.gz
+[2024-05-07 13:33:55] INFO root fetch - processPackages [lusid-notifications-sdk]: Downloading https://files.pythonhosted.org/packages/34/1b/5a9b3f7d5e1414980274b82421e588188962879fe859a5ba31fafebe79b9/lusid_notifications_sdk-2.1.5.tar.gz
+[2024-05-07 13:33:55] INFO root fetch - processPackages [AutoMLApp]: executing diffoscope
+[2024-05-07 13:33:55] INFO root fetch - processPackages [AutoMLApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automlapp-0.1.54.tar.gz tmp/automlapp-0.1.55.tar.gz --markdown 20240507/A/AutoMLApp/0.1.54-0.1.55/README.md --exclude *.pyd
+[2024-05-07 13:33:55] INFO root fetch - processPackages [django-cms-articles]: Downloading https://files.pythonhosted.org/packages/bc/1e/2f332afc9e10c7f8ce0efd97798c0726eca4c41ef9a02122c22d5a887cdf/django_cms_articles-2.1.0.tar.gz
+[2024-05-07 13:33:55] INFO root fetch - processPackages [new-dt-algorithm]: executing diffoscope
+[2024-05-07 13:33:55] INFO root fetch - processPackages [new-dt-algorithm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/new_dt_algorithm-0.3.tar.gz tmp/new_dt_algorithm-0.4.tar.gz --markdown 20240507/n/new-dt-algorithm/0.3-0.4/README.md --exclude *.pyd
+[2024-05-07 13:33:55] INFO root fetch - processPackages [printt]: executing diffoscope
+[2024-05-07 13:33:55] INFO root fetch - processPackages [printt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/printt-0.1.1.tar.gz tmp/printt-0.1.2.tar.gz --markdown 20240507/p/printt/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-07 13:33:55] INFO root fetch - processPackages [lusid-notifications-sdk]: executing diffoscope
+[2024-05-07 13:33:55] INFO root fetch - processPackages [lusid-notifications-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_notifications_sdk-2.1.4.tar.gz tmp/lusid_notifications_sdk-2.1.5.tar.gz --markdown 20240507/l/lusid-notifications-sdk/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-07 13:33:55] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2024-05-07 13:33:55] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.934.tar.gz tmp/lusid-notifications-sdk-preview-0.1.935.tar.gz --markdown 20240507/l/lusid-notifications-sdk-preview/0.1.934-0.1.935/README.md --exclude *.pyd
+[2024-05-07 13:33:55] INFO root fetch - processPackages [django-cms-articles]: executing diffoscope
+[2024-05-07 13:33:55] INFO root fetch - processPackages [django-cms-articles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cms_articles-2.0.3.tar.gz tmp/django_cms_articles-2.1.0.tar.gz --markdown 20240507/d/django-cms-articles/2.0.3-2.1.0/README.md --exclude *.pyd
+[2024-05-07 13:33:56] INFO root fetch - processPackages [printt]: Remove: archive file [/home/abi/fetcher/tmp/printt-0.1.1.tar.gz]
+[2024-05-07 13:33:56] INFO root fetch - processPackages [printt]: Remove: archive file [/home/abi/fetcher/tmp/printt-0.1.2.tar.gz]
+[2024-05-07 13:33:56] INFO root fetch - main [MainThread]: End processing [printt]: success
+[2024-05-07 13:33:56] INFO root fetch - processPackages [new-dt-algorithm]: Remove: archive file [/home/abi/fetcher/tmp/new_dt_algorithm-0.3.tar.gz]
+[2024-05-07 13:33:56] INFO root fetch - processPackages [new-dt-algorithm]: Remove: archive file [/home/abi/fetcher/tmp/new_dt_algorithm-0.4.tar.gz]
+[2024-05-07 13:33:56] INFO root fetch - main [MainThread]: End processing [new-dt-algorithm]: success
+[2024-05-07 13:33:56] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.54.tar.gz]
+[2024-05-07 13:33:56] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.55.tar.gz]
+[2024-05-07 13:33:56] INFO root fetch - main [MainThread]: End processing [AutoMLApp]: success
+[2024-05-07 13:33:57] INFO root fetch - processPackages [lusid-notifications-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_notifications_sdk-2.1.4.tar.gz]
+[2024-05-07 13:33:57] INFO root fetch - processPackages [lusid-notifications-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_notifications_sdk-2.1.5.tar.gz]
+[2024-05-07 13:33:57] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk]: success
+[2024-05-07 13:33:57] INFO root fetch - processPackages [django-cms-articles]: Remove: archive file [/home/abi/fetcher/tmp/django_cms_articles-2.0.3.tar.gz]
+[2024-05-07 13:33:57] INFO root fetch - processPackages [django-cms-articles]: Remove: archive file [/home/abi/fetcher/tmp/django_cms_articles-2.1.0.tar.gz]
+[2024-05-07 13:33:57] INFO root fetch - main [MainThread]: End processing [django-cms-articles]: success
+[2024-05-07 13:33:57] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-07 13:33:57] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-07 13:33:57] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-07 13:33:57] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.934.tar.gz]
+[2024-05-07 13:33:57] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.935.tar.gz]
+[2024-05-07 13:33:57] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2024-05-07 13:33:57] INFO root fetch - main [MainThread]: Store serial: [23094750]
