@@ -11413,3 +11413,33 @@ EOFError: EOF read where object expected
 [2024-05-07 07:06:10] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
 [2024-05-07 07:06:10] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
 [2024-05-07 07:06:10] INFO root fetch - main [MainThread]: Store serial: [23089742]
+[2024-05-07 07:08:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089742]
+[2024-05-07 07:08:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proboscis-async-events
+[2024-05-07 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-hologres
+[2024-05-07 07:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-delivery-gls-asm
+[2024-05-07 07:08:19] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.3]
+[2024-05-07 07:08:19] INFO root fetch - processPackages [proboscis-async-events]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-07 07:08:19] INFO root fetch - processPackages [dbt-hologres]: New version: [1.7.7a0] Old Version: [1.7.7]
+[2024-05-07 07:08:19] INFO root fetch - processPackages [proboscis-async-events]: Downloading https://files.pythonhosted.org/packages/0e/65/9ed0722ae286bd7bf5bf9d42a0333e96255f563e9a69dd6393d5e2ebe9d6/proboscis_async_events-0.1.5.tar.gz
+[2024-05-07 07:08:19] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/a1/e0/27bd24d5c132f1e71f675ddc1bf9dee6d2860c64359d973fa2884ed3b10d/odoo_addon_delivery_gls_asm-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-07 07:08:19] INFO root fetch - processPackages [dbt-hologres]: Downloading https://files.pythonhosted.org/packages/a8/74/14893165ab58953237ebdff810b6e873a2b09ef58e88a4add7b427f26782/dbt_hologres-1.7.7.tar.gz
+[2024-05-07 07:08:20] INFO root fetch - processPackages [dbt-hologres]: Downloading https://files.pythonhosted.org/packages/df/5c/ed3f76e261a908f57dedd73963bda597329ea0f6880ed8aa15b13e12e395/dbt_hologres-1.7.7a0.tar.gz
+[2024-05-07 07:08:20] INFO root fetch - processPackages [proboscis-async-events]: Downloading https://files.pythonhosted.org/packages/f6/96/afd4b4deff155fc52f59ba225484446258281d521bb3a6379c27b7f6b299/proboscis_async_events-0.1.6.tar.gz
+[2024-05-07 07:08:20] INFO root fetch - processPackages [dbt-hologres]: executing diffoscope
+[2024-05-07 07:08:20] INFO root fetch - processPackages [dbt-hologres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_hologres-1.7.7.tar.gz tmp/dbt_hologres-1.7.7a0.tar.gz --markdown 20240507/d/dbt-hologres/1.7.7-1.7.7a0/README.md --exclude *.pyd
+[2024-05-07 07:08:20] INFO root fetch - processPackages [proboscis-async-events]: executing diffoscope
+[2024-05-07 07:08:20] INFO root fetch - processPackages [proboscis-async-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proboscis_async_events-0.1.5.tar.gz tmp/proboscis_async_events-0.1.6.tar.gz --markdown 20240507/p/proboscis-async-events/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-07 07:08:20] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Downloading https://files.pythonhosted.org/packages/ad/6b/dfd3f0bfaa185f135af654e3e3d5bff47423548b41c7fd9943ed4f9d0534/odoo_addon_delivery_gls_asm-16.0.1.1.0-py3-none-any.whl
+[2024-05-07 07:08:20] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: executing diffoscope
+[2024-05-07 07:08:20] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_gls_asm-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_delivery_gls_asm-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-delivery-gls-asm/16.0.1.0.0.3-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-07 07:08:20] INFO root fetch - processPackages [proboscis-async-events]: Remove: archive file [/home/abi/fetcher/tmp/proboscis_async_events-0.1.5.tar.gz]
+[2024-05-07 07:08:20] INFO root fetch - processPackages [proboscis-async-events]: Remove: archive file [/home/abi/fetcher/tmp/proboscis_async_events-0.1.6.tar.gz]
+[2024-05-07 07:08:20] INFO root fetch - main [MainThread]: End processing [proboscis-async-events]: success
+[2024-05-07 07:08:20] INFO root fetch - processPackages [dbt-hologres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_hologres-1.7.7.tar.gz]
+[2024-05-07 07:08:20] INFO root fetch - processPackages [dbt-hologres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_hologres-1.7.7a0.tar.gz]
+[2024-05-07 07:08:20] INFO root fetch - main [MainThread]: End processing [dbt-hologres]: success
+[2024-05-07 07:08:20] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_gls_asm-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-07 07:08:20] INFO root fetch - processPackages [odoo-addon-delivery-gls-asm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_gls_asm-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-07 07:08:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-gls-asm]: success
+[2024-05-07 07:08:20] INFO root fetch - main [MainThread]: Store serial: [23089750]
