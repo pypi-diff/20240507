@@ -9183,3 +9183,42 @@ EOFError: EOF read where object expected
 [2024-05-07 04:55:39] INFO root fetch - processPackages [pyaedt]: Remove: archive file [/home/abi/fetcher/tmp/pyaedt-0.8.9.tar.gz]
 [2024-05-07 04:55:39] INFO root fetch - main [MainThread]: End processing [pyaedt]: success
 [2024-05-07 04:55:39] INFO root fetch - main [MainThread]: Store serial: [23088723]
+[2024-05-07 04:57:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088723]
+[2024-05-07 04:57:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 04:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-account-invoicing
+[2024-05-07 04:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-invoice-line-default-account
+[2024-05-07 04:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: experiment-helpers
+[2024-05-07 04:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keyakiz
+[2024-05-07 04:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: monitor-folium
+[2024-05-07 04:57:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cookdomz
+[2024-05-07 04:57:48] INFO root fetch - processPackages [experiment-helpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 04:57:48] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/d8/b8/4d2059d553d489beb944d46490e92a1c756a53a2151fe5a13ac31f8c7e2d/experiment_helpers-0.0.8.tar.gz
+[2024-05-07 04:57:48] INFO root fetch - processPackages [odoo-addon-account-invoice-line-default-account]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.1]
+[2024-05-07 04:57:48] WARNING root fetch - processPackages [keyakiz]: Skipping, unable to determine old version
+[2024-05-07 04:57:48] INFO root fetch - main [MainThread]: End processing [keyakiz] error
+[2024-05-07 04:57:48] WARNING root fetch - processPackages [cookdomz]: Skipping, unable to determine old version
+[2024-05-07 04:57:48] WARNING root fetch - processPackages [monitor-folium]: Skipping, unable to determine old version
+[2024-05-07 04:57:48] INFO root fetch - main [MainThread]: End processing [cookdomz] error
+[2024-05-07 04:57:48] INFO root fetch - main [MainThread]: End processing [monitor-folium] error
+[2024-05-07 04:57:48] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: New version: [16.0.20240424.0] Old Version: [16.0.20240313.0]
+[2024-05-07 04:57:48] INFO root fetch - processPackages [odoo-addon-account-invoice-line-default-account]: Downloading https://files.pythonhosted.org/packages/ba/c2/391b92e2a46128e99078bda72e0aad3cd7cb69fe17f73375733cdfb42f08/odoo_addon_account_invoice_line_default_account-16.0.1.0.0.1-py3-none-any.whl
+[2024-05-07 04:57:49] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/ce/7c/dea9c2b6ad1e068868f887840642e9f1640e8aea476b77ce529059a421c0/odoo_addons_oca_account_invoicing-16.0.20240313.0-py3-none-any.whl
+[2024-05-07 04:57:49] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/91/85/d55140197c7fbdcf545e299dfef55310447c595a8fc02678c5384bed232b/experiment_helpers-0.0.9.tar.gz
+[2024-05-07 04:57:49] INFO root fetch - processPackages [experiment-helpers]: executing diffoscope
+[2024-05-07 04:57:49] INFO root fetch - processPackages [experiment-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment_helpers-0.0.8.tar.gz tmp/experiment_helpers-0.0.9.tar.gz --markdown 20240507/e/experiment-helpers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 04:57:49] INFO root fetch - processPackages [odoo-addon-account-invoice-line-default-account]: Downloading https://files.pythonhosted.org/packages/98/3c/b3f90272cbd6c5833b4dbc64286cf373c92630fefd07d90166296cf92f68/odoo_addon_account_invoice_line_default_account-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-07 04:57:49] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/48/eb/6740c9c69d7f1309bc1144961ea7c799eed690fae4e17027a4786a3e8aca/odoo_addons_oca_account_invoicing-16.0.20240424.0-py3-none-any.whl
+[2024-05-07 04:57:49] INFO root fetch - processPackages [odoo-addon-account-invoice-line-default-account]: executing diffoscope
+[2024-05-07 04:57:49] INFO root fetch - processPackages [odoo-addon-account-invoice-line-default-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_line_default_account-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_line_default_account-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-account-invoice-line-default-account/16.0.1.0.0.1-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-07 04:57:49] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: executing diffoscope
+[2024-05-07 04:57:49] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_invoicing-16.0.20240313.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_invoicing-16.0.20240424.0-py3-none-any.whl.zip --markdown 20240507/o/odoo-addons-oca-account-invoicing/16.0.20240313.0-16.0.20240424.0/README.md --exclude *.pyd
+[2024-05-07 04:57:49] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.8.tar.gz]
+[2024-05-07 04:57:49] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.9.tar.gz]
+[2024-05-07 04:57:49] INFO root fetch - main [MainThread]: End processing [experiment-helpers]: success
+[2024-05-07 04:57:50] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_invoicing-16.0.20240313.0-py3-none-any.whl.zip]
+[2024-05-07 04:57:50] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_invoicing-16.0.20240424.0-py3-none-any.whl.zip]
+[2024-05-07 04:57:50] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-invoicing]: success
+[2024-05-07 04:57:50] INFO root fetch - processPackages [odoo-addon-account-invoice-line-default-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_line_default_account-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-05-07 04:57:50] INFO root fetch - processPackages [odoo-addon-account-invoice-line-default-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_line_default_account-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-07 04:57:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-line-default-account]: success
+[2024-05-07 04:57:50] INFO root fetch - main [MainThread]: Store serial: [23088742]
