@@ -11809,3 +11809,42 @@ EOFError: EOF read where object expected
 [2024-05-07 07:28:04] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240506.350.tar.gz]
 [2024-05-07 07:28:04] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
 [2024-05-07 07:28:04] INFO root fetch - main [MainThread]: Store serial: [23089948]
+[2024-05-07 07:30:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089948]
+[2024-05-07 07:30:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 07:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-akamai
+[2024-05-07 07:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-artifactory
+[2024-05-07 07:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eidolon-ai-client
+[2024-05-07 07:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eidolon-ai-sdk
+[2024-05-07 07:30:13] INFO root fetch - processPackages [eidolon-ai-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 07:30:13] INFO root fetch - processPackages [eidolon-ai-sdk]: New version: [0.1.50] Old Version: [0.1.49]
+[2024-05-07 07:30:13] INFO root fetch - processPackages [eidolon-ai-client]: Downloading https://files.pythonhosted.org/packages/f0/61/6ca231006909006ba96753a764654d05e47de665b1bf7f42b131a6cdb841/eidolon_ai_client-0.1.8.tar.gz
+[2024-05-07 07:30:13] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/11/13/57bd0ce039f94dcc187cf3c3ae0f03ac631222ab8261168ec03d30550fcc/eidolon_ai_sdk-0.1.49.tar.gz
+[2024-05-07 07:30:13] INFO root fetch - processPackages [pulumi-akamai]: New version: [7.2.0a1715058600] Old Version: [7.2.0a1714561826]
+[2024-05-07 07:30:13] INFO root fetch - processPackages [pulumi-artifactory]: New version: [6.8.0a1715058743] Old Version: [6.8.0a1714766791]
+[2024-05-07 07:30:13] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/31/b9/5de47eb02e24a0cefaca4861da682c9a51b7d73233f0c875129d2e7996c1/pulumi_akamai-7.2.0a1714561826.tar.gz
+[2024-05-07 07:30:13] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/af/aa/459eac5218c29312605e67ff790b538962beb2f006da1df4f17606eda1c2/pulumi_artifactory-6.8.0a1714766791.tar.gz
+[2024-05-07 07:30:13] INFO root fetch - processPackages [eidolon-ai-client]: Downloading https://files.pythonhosted.org/packages/14/16/63be890da3058c38960189037563296eb56f3d69154718e4a35d80261950/eidolon_ai_client-0.1.9.tar.gz
+[2024-05-07 07:30:13] INFO root fetch - processPackages [eidolon-ai-client]: executing diffoscope
+[2024-05-07 07:30:13] INFO root fetch - processPackages [eidolon-ai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_client-0.1.8.tar.gz tmp/eidolon_ai_client-0.1.9.tar.gz --markdown 20240507/e/eidolon-ai-client/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 07:30:13] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/3d/a1/eb25ec5f053dd965b720496c49551075b891cc5137f9765f662bf0b1f2de/eidolon_ai_sdk-0.1.50.tar.gz
+[2024-05-07 07:30:13] INFO root fetch - processPackages [eidolon-ai-sdk]: executing diffoscope
+[2024-05-07 07:30:13] INFO root fetch - processPackages [eidolon-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_sdk-0.1.49.tar.gz tmp/eidolon_ai_sdk-0.1.50.tar.gz --markdown 20240507/e/eidolon-ai-sdk/0.1.49-0.1.50/README.md --exclude *.pyd
+[2024-05-07 07:30:13] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/c6/58/84fb0b70e4a36e38f275310c2b31711030adfac600f4393c365ba56e05f4/pulumi_artifactory-6.8.0a1715058743.tar.gz
+[2024-05-07 07:30:14] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2024-05-07 07:30:14] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-6.8.0a1714766791.tar.gz tmp/pulumi_artifactory-6.8.0a1715058743.tar.gz --markdown 20240507/p/pulumi-artifactory/6.8.0a1714766791-6.8.0a1715058743/README.md --exclude *.pyd
+[2024-05-07 07:30:14] INFO root fetch - processPackages [eidolon-ai-client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.8.tar.gz]
+[2024-05-07 07:30:14] INFO root fetch - processPackages [eidolon-ai-client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.9.tar.gz]
+[2024-05-07 07:30:14] INFO root fetch - main [MainThread]: End processing [eidolon-ai-client]: success
+[2024-05-07 07:30:14] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/f3/68/363e0adf08a10c3eb52f7a98648374ae9408a42e24eb8b668302f14b539c/pulumi_akamai-7.2.0a1715058600.tar.gz
+[2024-05-07 07:30:14] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2024-05-07 07:30:14] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-7.2.0a1714561826.tar.gz tmp/pulumi_akamai-7.2.0a1715058600.tar.gz --markdown 20240507/p/pulumi-akamai/7.2.0a1714561826-7.2.0a1715058600/README.md --exclude *.pyd
+[2024-05-07 07:30:14] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.49.tar.gz]
+[2024-05-07 07:30:14] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.50.tar.gz]
+[2024-05-07 07:30:14] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
+[2024-05-07 07:30:16] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1714766791.tar.gz]
+[2024-05-07 07:30:16] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1715058743.tar.gz]
+[2024-05-07 07:30:16] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2024-05-07 07:30:17] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1714561826.tar.gz]
+[2024-05-07 07:30:17] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1715058600.tar.gz]
+[2024-05-07 07:30:17] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2024-05-07 07:30:17] INFO root fetch - main [MainThread]: Store serial: [23089961]
