@@ -10869,3 +10869,21 @@ EOFError: EOF read where object expected
 [2024-05-07 06:31:11] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-3.1.6.tar.gz]
 [2024-05-07 06:31:11] INFO root fetch - main [MainThread]: End processing [T0]: success
 [2024-05-07 06:31:11] INFO root fetch - main [MainThread]: Store serial: [23089431]
+[2024-05-07 06:33:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089431]
+[2024-05-07 06:33:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 06:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dq-check
+[2024-05-07 06:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iac-init
+[2024-05-07 06:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: operatizez
+[2024-05-07 06:33:20] WARNING root fetch - processPackages [dq-check]: Skipping, unable to determine old version
+[2024-05-07 06:33:20] WARNING root fetch - processPackages [operatizez]: Skipping, unable to determine old version
+[2024-05-07 06:33:20] INFO root fetch - main [MainThread]: End processing [dq-check] error
+[2024-05-07 06:33:20] INFO root fetch - main [MainThread]: End processing [operatizez] error
+[2024-05-07 06:33:20] INFO root fetch - processPackages [iac-init]: New version: [0.5.7] Old Version: [0.5.5]
+[2024-05-07 06:33:20] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/12/14/932ecbe85a1f5e4653133b0dee903f6e88f560e43fa058daec012c5eca45/iac_init-0.5.5.tar.gz
+[2024-05-07 06:33:21] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/b4/76/9dbd335a814a839776fc49abd674304fe29b343fe87c42f0b0eed02126b5/iac_init-0.5.7.tar.gz
+[2024-05-07 06:33:21] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-07 06:33:21] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.5.5.tar.gz tmp/iac_init-0.5.7.tar.gz --markdown 20240507/i/iac-init/0.5.5-0.5.7/README.md --exclude *.pyd
+[2024-05-07 06:33:21] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.5.5.tar.gz]
+[2024-05-07 06:33:21] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.5.7.tar.gz]
+[2024-05-07 06:33:21] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-07 06:33:21] INFO root fetch - main [MainThread]: Store serial: [23089444]
