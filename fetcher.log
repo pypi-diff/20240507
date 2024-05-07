@@ -9000,3 +9000,21 @@ EOFError: EOF read where object expected
 [2024-05-07 04:44:46] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev3.tar.gz]
 [2024-05-07 04:44:46] INFO root fetch - main [MainThread]: End processing [create-mountaineer-app]: success
 [2024-05-07 04:44:46] INFO root fetch - main [MainThread]: Store serial: [23088600]
+[2024-05-07 04:46:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088600]
+[2024-05-07 04:46:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 04:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pneumochirurgiaz
+[2024-05-07 04:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tejapi
+[2024-05-07 04:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wristbonez
+[2024-05-07 04:46:55] WARNING root fetch - processPackages [pneumochirurgiaz]: Skipping, unable to determine old version
+[2024-05-07 04:46:55] INFO root fetch - main [MainThread]: End processing [pneumochirurgiaz] error
+[2024-05-07 04:46:55] WARNING root fetch - processPackages [wristbonez]: Skipping, unable to determine old version
+[2024-05-07 04:46:55] INFO root fetch - main [MainThread]: End processing [wristbonez] error
+[2024-05-07 04:46:55] INFO root fetch - processPackages [tejapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 04:46:55] INFO root fetch - processPackages [tejapi]: Downloading https://files.pythonhosted.org/packages/a2/f8/ecd3a6c88cbf49e61b643ce730730348501a9d699375594af1758f1f18c0/tejapi-0.1.8.tar.gz
+[2024-05-07 04:46:55] INFO root fetch - processPackages [tejapi]: Downloading https://files.pythonhosted.org/packages/9c/50/d570accf7223270797303b2ec9e43d8aa46e8e47d9ea923122cc1f9d06d6/tejapi-0.1.9.tar.gz
+[2024-05-07 04:46:55] INFO root fetch - processPackages [tejapi]: executing diffoscope
+[2024-05-07 04:46:55] INFO root fetch - processPackages [tejapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tejapi-0.1.8.tar.gz tmp/tejapi-0.1.9.tar.gz --markdown 20240507/t/tejapi/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 04:46:56] INFO root fetch - processPackages [tejapi]: Remove: archive file [/home/abi/fetcher/tmp/tejapi-0.1.8.tar.gz]
+[2024-05-07 04:46:56] INFO root fetch - processPackages [tejapi]: Remove: archive file [/home/abi/fetcher/tmp/tejapi-0.1.9.tar.gz]
+[2024-05-07 04:46:56] INFO root fetch - main [MainThread]: End processing [tejapi]: success
+[2024-05-07 04:46:56] INFO root fetch - main [MainThread]: Store serial: [23088612]
