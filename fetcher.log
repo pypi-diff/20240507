@@ -18476,3 +18476,57 @@ EOFError: EOF read where object expected
 [2024-05-07 11:33:55] INFO root fetch - processPackages [odoo-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_statement-16.0.1.0.1.2-py3-none-any.whl.zip]
 [2024-05-07 11:33:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-statement]: success
 [2024-05-07 11:33:55] INFO root fetch - main [MainThread]: Store serial: [23093105]
+[2024-05-07 11:35:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093105]
+[2024-05-07 11:36:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 11:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NJFU
+[2024-05-07 11:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inni
+[2024-05-07 11:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m3u8-achiver
+[2024-05-07 11:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-aws-api-gateway-websockets
+[2024-05-07 11:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-delivery-cttexpress
+[2024-05-07 11:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oaipmh-scythe
+[2024-05-07 11:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arrow-udf
+[2024-05-07 11:36:04] WARNING root fetch - processPackages [NJFU]: Skipping, unable to determine old version
+[2024-05-07 11:36:04] INFO root fetch - main [MainThread]: End processing [NJFU] error
+[2024-05-07 11:36:04] INFO root fetch - processPackages [m3u8-achiver]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 11:36:04] INFO root fetch - processPackages [inni]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-05-07 11:36:04] WARNING root fetch - processPackages [arrow-udf]: Skipping, unable to determine old version
+[2024-05-07 11:36:04] INFO root fetch - main [MainThread]: End processing [arrow-udf] error
+[2024-05-07 11:36:04] INFO root fetch - processPackages [inni]: Downloading https://files.pythonhosted.org/packages/33/78/d0464da61ea2ffa9dc5c54448044d7078d0403bd5a0b5cc51542c4e36d9b/inni-0.4.2.tar.gz
+[2024-05-07 11:36:04] INFO root fetch - processPackages [odoo13-addon-delivery-cttexpress]: New version: [13.0.1.0.1.dev4] Old Version: [13.0.1.0.1.dev3]
+[2024-05-07 11:36:04] INFO root fetch - processPackages [oaipmh-scythe]: New version: [0.13.0] Old Version: [0.12.1]
+[2024-05-07 11:36:04] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 11:36:04] INFO root fetch - processPackages [m3u8-achiver]: Downloading https://files.pythonhosted.org/packages/d0/62/ce1b7bf39fd10c3eabcf0ed5321640eae744ec31043345ff9dbbbe427342/m3u8_achiver-1.0.0.tar.gz
+[2024-05-07 11:36:04] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: Downloading https://files.pythonhosted.org/packages/8b/1e/95119ce90a00763d2fe6b98d0207cced34d29ca7bfa9b713b40ab2a65cc2/django-aws-api-gateway-websockets-1.0.8.tar.gz
+[2024-05-07 11:36:04] INFO root fetch - processPackages [odoo13-addon-delivery-cttexpress]: Downloading https://files.pythonhosted.org/packages/02/2d/14226e88204bc2fd5e7c83d038cbddeca814ac5c963313cca2e4b9fb3816/odoo13_addon_delivery_cttexpress-13.0.1.0.1.dev3-py3-none-any.whl
+[2024-05-07 11:36:04] INFO root fetch - processPackages [inni]: Downloading https://files.pythonhosted.org/packages/91/dc/304d6db82cd270b3793e4d2e3bcbdf27a58bbac3c8e31193599cd592c134/inni-0.5.0.tar.gz
+[2024-05-07 11:36:04] INFO root fetch - processPackages [oaipmh-scythe]: Downloading https://files.pythonhosted.org/packages/57/65/c7b743d9c5ee071e9d2e369191a81e259c9049c1cb7175d81c3e3d70ed18/oaipmh_scythe-0.12.1.tar.gz
+[2024-05-07 11:36:04] INFO root fetch - processPackages [inni]: executing diffoscope
+[2024-05-07 11:36:04] INFO root fetch - processPackages [inni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inni-0.4.2.tar.gz tmp/inni-0.5.0.tar.gz --markdown 20240507/i/inni/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-05-07 11:36:04] INFO root fetch - processPackages [m3u8-achiver]: Downloading https://files.pythonhosted.org/packages/39/cf/c69790899709aa8b54282abe7cb065ae64a88dfec1959371835308f4586f/m3u8_achiver-1.0.1.tar.gz
+[2024-05-07 11:36:05] INFO root fetch - processPackages [m3u8-achiver]: executing diffoscope
+[2024-05-07 11:36:05] INFO root fetch - processPackages [m3u8-achiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3u8_achiver-1.0.0.tar.gz tmp/m3u8_achiver-1.0.1.tar.gz --markdown 20240507/m/m3u8-achiver/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-07 11:36:05] INFO root fetch - processPackages [odoo13-addon-delivery-cttexpress]: Downloading https://files.pythonhosted.org/packages/9d/ec/38d92f113710b0ddeddadbb9b6182f6476b5dcd97bf55583034371dbe535/odoo13_addon_delivery_cttexpress-13.0.1.0.1.dev4-py3-none-any.whl
+[2024-05-07 11:36:05] INFO root fetch - processPackages [oaipmh-scythe]: Downloading https://files.pythonhosted.org/packages/65/b2/c02f41ec7b876dc0abe214d47c37e5070e718f9ffe216de83117a303d6ee/oaipmh_scythe-0.13.0.tar.gz
+[2024-05-07 11:36:05] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: Downloading https://files.pythonhosted.org/packages/27/f0/3aa75f3d7e6c532d4cb44254d345bd11b0293cc27249dc13f3086ed897fb/django-aws-api-gateway-websockets-1.0.9.tar.gz
+[2024-05-07 11:36:05] INFO root fetch - processPackages [odoo13-addon-delivery-cttexpress]: executing diffoscope
+[2024-05-07 11:36:05] INFO root fetch - processPackages [odoo13-addon-delivery-cttexpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_delivery_cttexpress-13.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo13_addon_delivery_cttexpress-13.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20240507/o/odoo13-addon-delivery-cttexpress/13.0.1.0.1.dev3-13.0.1.0.1.dev4/README.md --exclude *.pyd
+[2024-05-07 11:36:05] INFO root fetch - processPackages [oaipmh-scythe]: executing diffoscope
+[2024-05-07 11:36:05] INFO root fetch - processPackages [oaipmh-scythe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oaipmh_scythe-0.12.1.tar.gz tmp/oaipmh_scythe-0.13.0.tar.gz --markdown 20240507/o/oaipmh-scythe/0.12.1-0.13.0/README.md --exclude *.pyd
+[2024-05-07 11:36:05] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: executing diffoscope
+[2024-05-07 11:36:05] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-aws-api-gateway-websockets-1.0.8.tar.gz tmp/django-aws-api-gateway-websockets-1.0.9.tar.gz --markdown 20240507/d/django-aws-api-gateway-websockets/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 11:36:05] INFO root fetch - processPackages [inni]: Remove: archive file [/home/abi/fetcher/tmp/inni-0.4.2.tar.gz]
+[2024-05-07 11:36:05] INFO root fetch - processPackages [inni]: Remove: archive file [/home/abi/fetcher/tmp/inni-0.5.0.tar.gz]
+[2024-05-07 11:36:05] INFO root fetch - main [MainThread]: End processing [inni]: success
+[2024-05-07 11:36:05] INFO root fetch - processPackages [m3u8-achiver]: Remove: archive file [/home/abi/fetcher/tmp/m3u8_achiver-1.0.0.tar.gz]
+[2024-05-07 11:36:05] INFO root fetch - processPackages [m3u8-achiver]: Remove: archive file [/home/abi/fetcher/tmp/m3u8_achiver-1.0.1.tar.gz]
+[2024-05-07 11:36:05] INFO root fetch - main [MainThread]: End processing [m3u8-achiver]: success
+[2024-05-07 11:36:05] INFO root fetch - processPackages [odoo13-addon-delivery-cttexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_delivery_cttexpress-13.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2024-05-07 11:36:05] INFO root fetch - processPackages [odoo13-addon-delivery-cttexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_delivery_cttexpress-13.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2024-05-07 11:36:05] INFO root fetch - main [MainThread]: End processing [odoo13-addon-delivery-cttexpress]: success
+[2024-05-07 11:36:05] INFO root fetch - processPackages [oaipmh-scythe]: Remove: archive file [/home/abi/fetcher/tmp/oaipmh_scythe-0.12.1.tar.gz]
+[2024-05-07 11:36:05] INFO root fetch - processPackages [oaipmh-scythe]: Remove: archive file [/home/abi/fetcher/tmp/oaipmh_scythe-0.13.0.tar.gz]
+[2024-05-07 11:36:05] INFO root fetch - main [MainThread]: End processing [oaipmh-scythe]: success
+[2024-05-07 11:36:06] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: Remove: archive file [/home/abi/fetcher/tmp/django-aws-api-gateway-websockets-1.0.8.tar.gz]
+[2024-05-07 11:36:06] INFO root fetch - processPackages [django-aws-api-gateway-websockets]: Remove: archive file [/home/abi/fetcher/tmp/django-aws-api-gateway-websockets-1.0.9.tar.gz]
+[2024-05-07 11:36:06] INFO root fetch - main [MainThread]: End processing [django-aws-api-gateway-websockets]: success
+[2024-05-07 11:36:06] INFO root fetch - main [MainThread]: Store serial: [23093129]
