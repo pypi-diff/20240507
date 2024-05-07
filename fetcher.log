@@ -20683,3 +20683,60 @@ AssertionError: tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip does not exi
 [2024-05-07 13:09:16] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.4.9.tar.gz]
 [2024-05-07 13:09:16] INFO root fetch - main [MainThread]: End processing [django-project-base]: success
 [2024-05-07 13:09:16] INFO root fetch - main [MainThread]: Store serial: [23094305]
+[2024-05-07 13:11:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094305]
+[2024-05-07 13:11:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 13:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyprocessors-segment_renseignor
+[2024-05-07 13:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: samna
+[2024-05-07 13:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AutoMLApp
+[2024-05-07 13:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-admin-keycloak
+[2024-05-07 13:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: riptide-cli
+[2024-05-07 13:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: riptide-lib
+[2024-05-07 13:11:25] INFO root fetch - processPackages [AutoMLApp]: New version: [0.1.5] Old Version: [0.1.2]
+[2024-05-07 13:11:25] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: New version: [0.5.8] Old Version: [0.5.4]
+[2024-05-07 13:11:25] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/92/2f/4c9204701d9ab9574bdf81d1547ea88b1a1ef5e05745771efaa272a1fffe/automlapp-0.1.2.tar.gz
+[2024-05-07 13:11:25] INFO root fetch - processPackages [django-admin-keycloak]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-07 13:11:25] INFO root fetch - processPackages [riptide-lib]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-07 13:11:25] INFO root fetch - processPackages [riptide-cli]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-07 13:11:25] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: Downloading https://files.pythonhosted.org/packages/00/56/51b6c1455bbea7da296ce605e453d184f38744e318db5efcd0d0f07e9644/pyprocessors_segment_renseignor-0.5.4.tar.gz
+[2024-05-07 13:11:25] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2024-05-07 13:11:25] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2024-05-07 13:11:25] INFO root fetch - processPackages [riptide-cli]: Downloading https://files.pythonhosted.org/packages/43/b1/92aebd461a0e691ac9e80353ef4d17fa1bc39785a8e67aab7d429f586e72/riptide_cli-0.8.2-py3-none-any.whl
+[2024-05-07 13:11:25] INFO root fetch - processPackages [riptide-lib]: Downloading https://files.pythonhosted.org/packages/fe/eb/854b3798b322f9bf479be23a81bd724dd32dc23f21943a3f87a43dc12f34/riptide_lib-0.8.1-py3-none-any.whl
+[2024-05-07 13:11:25] INFO root fetch - processPackages [django-admin-keycloak]: Downloading https://files.pythonhosted.org/packages/fd/4e/7a06a14f5f895a9ef5cd9e500f42712bb58f4c4afedadef5e9f78b2c5bfd/django_admin_keycloak-0.3.1.tar.gz
+[2024-05-07 13:11:25] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: Downloading https://files.pythonhosted.org/packages/d5/27/74c9f1728e4cc8c94fb0b0963d4cd13b2f061b36f066aa5de8191d33fb4f/pyprocessors_segment_renseignor-0.5.8.tar.gz
+[2024-05-07 13:11:25] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/80/a2/8f826c8f1274a0cddf23b1d36b3e4c317206673cca2a8e22fe07c441f6f9/automlapp-0.1.5.tar.gz
+[2024-05-07 13:11:25] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: executing diffoscope
+[2024-05-07 13:11:25] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors_segment_renseignor-0.5.4.tar.gz tmp/pyprocessors_segment_renseignor-0.5.8.tar.gz --markdown 20240507/p/pyprocessors-segment_renseignor/0.5.4-0.5.8/README.md --exclude *.pyd
+[2024-05-07 13:11:25] INFO root fetch - processPackages [AutoMLApp]: executing diffoscope
+[2024-05-07 13:11:25] INFO root fetch - processPackages [AutoMLApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automlapp-0.1.2.tar.gz tmp/automlapp-0.1.5.tar.gz --markdown 20240507/A/AutoMLApp/0.1.2-0.1.5/README.md --exclude *.pyd
+[2024-05-07 13:11:26] INFO root fetch - processPackages [riptide-cli]: Downloading https://files.pythonhosted.org/packages/0a/f8/c1e463874773f6b0b6a3144ca25647cffcb449d1d33e660de6f878064eae/riptide_cli-0.8.3-py3-none-any.whl
+[2024-05-07 13:11:26] INFO root fetch - processPackages [riptide-lib]: Downloading https://files.pythonhosted.org/packages/e4/89/0526de4537bb529dc6c9d8f6d51927c2f0b9ed8a91e2a16858ed1b81cca2/riptide_lib-0.8.2-py3-none-any.whl
+[2024-05-07 13:11:26] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2024-05-07 13:11:26] INFO root fetch - processPackages [django-admin-keycloak]: Downloading https://files.pythonhosted.org/packages/12/a2/7517a0ed999b2076b2dbc204a1b61ce0e68e8fabc68060e2398758cc339d/django_admin_keycloak-0.3.2.tar.gz
+[2024-05-07 13:11:26] INFO root fetch - processPackages [riptide-cli]: executing diffoscope
+[2024-05-07 13:11:26] INFO root fetch - processPackages [riptide-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptide_cli-0.8.2-py3-none-any.whl.zip tmp/riptide_cli-0.8.3-py3-none-any.whl.zip --markdown 20240507/r/riptide-cli/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-07 13:11:26] INFO root fetch - processPackages [riptide-lib]: executing diffoscope
+[2024-05-07 13:11:26] INFO root fetch - processPackages [riptide-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riptide_lib-0.8.1-py3-none-any.whl.zip tmp/riptide_lib-0.8.2-py3-none-any.whl.zip --markdown 20240507/r/riptide-lib/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-07 13:11:26] INFO root fetch - processPackages [samna]: executing diffoscope
+[2024-05-07 13:11:26] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20240507/s/samna/0.9.38.0-0.9.39.0/README.md --exclude *.pyd
+[2024-05-07 13:11:26] INFO root fetch - processPackages [django-admin-keycloak]: executing diffoscope
+[2024-05-07 13:11:26] INFO root fetch - processPackages [django-admin-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_admin_keycloak-0.3.1.tar.gz tmp/django_admin_keycloak-0.3.2.tar.gz --markdown 20240507/d/django-admin-keycloak/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-07 13:11:26] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_segment_renseignor-0.5.4.tar.gz]
+[2024-05-07 13:11:26] INFO root fetch - processPackages [pyprocessors-segment_renseignor]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_segment_renseignor-0.5.8.tar.gz]
+[2024-05-07 13:11:26] INFO root fetch - main [MainThread]: End processing [pyprocessors-segment_renseignor]: success
+[2024-05-07 13:11:26] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.2.tar.gz]
+[2024-05-07 13:11:26] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.5.tar.gz]
+[2024-05-07 13:11:26] INFO root fetch - main [MainThread]: End processing [AutoMLApp]: success
+[2024-05-07 13:11:26] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.38.0-py3-none-any.whl.zip]
+[2024-05-07 13:11:26] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.39.0-py3-none-any.whl.zip]
+[2024-05-07 13:11:26] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2024-05-07 13:11:27] INFO root fetch - processPackages [riptide-cli]: Remove: archive file [/home/abi/fetcher/tmp/riptide_cli-0.8.2-py3-none-any.whl.zip]
+[2024-05-07 13:11:27] INFO root fetch - processPackages [riptide-cli]: Remove: archive file [/home/abi/fetcher/tmp/riptide_cli-0.8.3-py3-none-any.whl.zip]
+[2024-05-07 13:11:27] INFO root fetch - main [MainThread]: End processing [riptide-cli]: success
+[2024-05-07 13:11:27] INFO root fetch - processPackages [django-admin-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/django_admin_keycloak-0.3.1.tar.gz]
+[2024-05-07 13:11:27] INFO root fetch - processPackages [django-admin-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/django_admin_keycloak-0.3.2.tar.gz]
+[2024-05-07 13:11:27] INFO root fetch - main [MainThread]: End processing [django-admin-keycloak]: success
+[2024-05-07 13:11:27] INFO root fetch - processPackages [riptide-lib]: Remove: archive file [/home/abi/fetcher/tmp/riptide_lib-0.8.1-py3-none-any.whl.zip]
+[2024-05-07 13:11:27] INFO root fetch - processPackages [riptide-lib]: Remove: archive file [/home/abi/fetcher/tmp/riptide_lib-0.8.2-py3-none-any.whl.zip]
+[2024-05-07 13:11:27] INFO root fetch - main [MainThread]: End processing [riptide-lib]: success
+[2024-05-07 13:11:27] INFO root fetch - main [MainThread]: Store serial: [23094322]
