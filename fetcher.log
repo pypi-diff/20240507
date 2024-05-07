@@ -8205,3 +8205,36 @@ EOFError: EOF read where object expected
 [2024-05-07 03:56:42] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.6.tar.gz]
 [2024-05-07 03:56:42] INFO root fetch - main [MainThread]: End processing [InternEvo]: success
 [2024-05-07 03:56:42] INFO root fetch - main [MainThread]: Store serial: [23088248]
+[2024-05-07 03:58:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088248]
+[2024-05-07 03:58:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 03:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: facturama
+[2024-05-07 03:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fakesnow
+[2024-05-07 03:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: specklia
+[2024-05-07 03:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pkg-inspect
+[2024-05-07 03:58:51] INFO root fetch - processPackages [pkg-inspect]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-07 03:58:51] WARNING root fetch - processPackages [facturama]: Skipping, unable to determine old version
+[2024-05-07 03:58:51] INFO root fetch - main [MainThread]: End processing [facturama] error
+[2024-05-07 03:58:51] INFO root fetch - processPackages [pkg-inspect]: Downloading https://files.pythonhosted.org/packages/2f/98/417e366bc496c568b8f4fffc3a960bb7eb3113ee86158213ed0e90a886ea/pkg_inspect-0.1.6.tar.gz
+[2024-05-07 03:58:51] INFO root fetch - processPackages [fakesnow]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-07 03:58:51] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-07 03:58:51] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-05-07 03:58:51] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/6b/2a/f0ce270f9094e390b8d6c6206e1725c88d65989bc2bdb25d259f4e371ed7/fakesnow-0.9.8.tar.gz
+[2024-05-07 03:58:51] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-05-07 03:58:51] INFO root fetch - processPackages [pkg-inspect]: Downloading https://files.pythonhosted.org/packages/8c/91/30f6150f88f9f3f93b474c7c2921444c4740f68520c817ce79ac0393af45/pkg_inspect-0.1.7.tar.gz
+[2024-05-07 03:58:52] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-05-07 03:58:52] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240507/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-07 03:58:52] INFO root fetch - processPackages [pkg-inspect]: executing diffoscope
+[2024-05-07 03:58:52] INFO root fetch - processPackages [pkg-inspect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkg_inspect-0.1.6.tar.gz tmp/pkg_inspect-0.1.7.tar.gz --markdown 20240507/p/pkg-inspect/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-07 03:58:52] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/94/7b/47725738bd7c4bb10ac4759bcf5f0d7f42e6c1c128424c7aaf38ea0524be/fakesnow-0.9.9.tar.gz
+[2024-05-07 03:58:52] INFO root fetch - processPackages [fakesnow]: executing diffoscope
+[2024-05-07 03:58:52] INFO root fetch - processPackages [fakesnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakesnow-0.9.8.tar.gz tmp/fakesnow-0.9.9.tar.gz --markdown 20240507/f/fakesnow/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-07 03:58:52] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-05-07 03:58:52] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-05-07 03:58:52] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-05-07 03:58:52] INFO root fetch - processPackages [pkg-inspect]: Remove: archive file [/home/abi/fetcher/tmp/pkg_inspect-0.1.6.tar.gz]
+[2024-05-07 03:58:52] INFO root fetch - processPackages [pkg-inspect]: Remove: archive file [/home/abi/fetcher/tmp/pkg_inspect-0.1.7.tar.gz]
+[2024-05-07 03:58:52] INFO root fetch - main [MainThread]: End processing [pkg-inspect]: success
+[2024-05-07 03:58:53] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.9.8.tar.gz]
+[2024-05-07 03:58:53] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.9.9.tar.gz]
+[2024-05-07 03:58:53] INFO root fetch - main [MainThread]: End processing [fakesnow]: success
+[2024-05-07 03:58:53] INFO root fetch - main [MainThread]: Store serial: [23088261]
