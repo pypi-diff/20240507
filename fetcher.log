@@ -18377,3 +18377,69 @@ EOFError: EOF read where object expected
 [2024-05-07 11:29:34] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2024-05-07 11:29:34] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2024-05-07 11:29:34] INFO root fetch - main [MainThread]: Store serial: [23093060]
+[2024-05-07 11:31:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093060]
+[2024-05-07 11:31:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 11:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inni
+[2024-05-07 11:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: md2tgmd
+[2024-05-07 11:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xnode-pop
+[2024-05-07 11:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rdb-json-parser
+[2024-05-07 11:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-financial-report
+[2024-05-07 11:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartfarm-pop
+[2024-05-07 11:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sunholo
+[2024-05-07 11:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gw-dsl-parser
+[2024-05-07 11:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dsmlibrary
+[2024-05-07 11:31:43] INFO root fetch - processPackages [md2tgmd]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-07 11:31:43] WARNING root fetch - processPackages [rdb-json-parser]: Skipping, unable to determine old version
+[2024-05-07 11:31:43] INFO root fetch - main [MainThread]: End processing [rdb-json-parser] error
+[2024-05-07 11:31:43] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.2] Old Version: [17.0.1.1.1]
+[2024-05-07 11:31:43] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-07 11:31:43] INFO root fetch - processPackages [md2tgmd]: Downloading https://files.pythonhosted.org/packages/32/21/2bc114a3678c8a6b65ed9226979df6b573f0208744307e9b9feb879c3d37/md2tgmd-0.1.5.tar.gz
+[2024-05-07 11:31:43] INFO root fetch - processPackages [inni]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-05-07 11:31:43] WARNING root fetch - processPackages [xnode-pop]: Skipping, unable to determine old version
+[2024-05-07 11:31:43] INFO root fetch - main [MainThread]: End processing [xnode-pop] error
+[2024-05-07 11:31:43] WARNING root fetch - processPackages [smartfarm-pop]: Skipping, unable to determine old version
+[2024-05-07 11:31:43] INFO root fetch - main [MainThread]: End processing [smartfarm-pop] error
+[2024-05-07 11:31:43] INFO root fetch - processPackages [gw-dsl-parser]: New version: [0.1.8a0] Old Version: [0.1.8]
+[2024-05-07 11:31:43] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/45/ea/e9bbe4361e6e9f4b4bb48f4d100a160bb8e1de5a147ab2fd1ee65f06b509/odoo_addon_account_financial_report-17.0.1.1.1-py3-none-any.whl
+[2024-05-07 11:31:43] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-07 11:31:43] INFO root fetch - processPackages [dsmlibrary]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 11:31:43] INFO root fetch - processPackages [inni]: Downloading https://files.pythonhosted.org/packages/33/78/d0464da61ea2ffa9dc5c54448044d7078d0403bd5a0b5cc51542c4e36d9b/inni-0.4.2.tar.gz
+[2024-05-07 11:31:43] INFO root fetch - processPackages [gw-dsl-parser]: Downloading https://files.pythonhosted.org/packages/15/a5/9506f443525fa668e12d0fbac4b2c738b95a3fe1cd4314152f38ed356cdc/gw_dsl_parser-0.1.8.tar.gz
+[2024-05-07 11:31:43] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-07 11:31:43] INFO root fetch - processPackages [dsmlibrary]: Downloading https://files.pythonhosted.org/packages/2d/b4/349cf477597e3246da2fb92f755eb53a5ddc72efc5b55c4bab6643f00126/dsmlibrary-1.0.8.tar.gz
+[2024-05-07 11:31:43] INFO root fetch - processPackages [md2tgmd]: Downloading https://files.pythonhosted.org/packages/46/cc/498f75d30e45812a7053159e499b7abcdadd65e9e6ae144a4f83bc8fdb37/md2tgmd-0.1.6.tar.gz
+[2024-05-07 11:31:43] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/81/4f/d8b81d3e54d6db919ee371e3664f509b8e698355f38665e245c16d5b88c6/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl
+[2024-05-07 11:31:43] INFO root fetch - processPackages [md2tgmd]: executing diffoscope
+[2024-05-07 11:31:43] INFO root fetch - processPackages [md2tgmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2tgmd-0.1.5.tar.gz tmp/md2tgmd-0.1.6.tar.gz --markdown 20240507/m/md2tgmd/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-07 11:31:43] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-07 11:31:43] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240507/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-07 11:31:43] INFO root fetch - processPackages [inni]: Downloading https://files.pythonhosted.org/packages/91/dc/304d6db82cd270b3793e4d2e3bcbdf27a58bbac3c8e31193599cd592c134/inni-0.5.0.tar.gz
+[2024-05-07 11:31:43] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-05-07 11:31:43] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-account-financial-report/17.0.1.1.1-17.0.1.1.2/README.md --exclude *.pyd
+[2024-05-07 11:31:43] INFO root fetch - processPackages [inni]: executing diffoscope
+[2024-05-07 11:31:43] INFO root fetch - processPackages [inni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inni-0.4.2.tar.gz tmp/inni-0.5.0.tar.gz --markdown 20240507/i/inni/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-05-07 11:31:44] INFO root fetch - processPackages [dsmlibrary]: Downloading https://files.pythonhosted.org/packages/ea/3e/efd41c6216445e1e6c4a3c6894202966ae2c647e1015bdb63493c543a500/dsmlibrary-1.0.9.tar.gz
+[2024-05-07 11:31:44] INFO root fetch - processPackages [gw-dsl-parser]: Downloading https://files.pythonhosted.org/packages/32/42/18d9b154f1fdecbcb44e2be2dad97b95800d6b5f358955218f560638633c/gw_dsl_parser-0.1.8a0.tar.gz
+[2024-05-07 11:31:44] INFO root fetch - processPackages [dsmlibrary]: executing diffoscope
+[2024-05-07 11:31:44] INFO root fetch - processPackages [dsmlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsmlibrary-1.0.8.tar.gz tmp/dsmlibrary-1.0.9.tar.gz --markdown 20240507/d/dsmlibrary/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 11:31:44] INFO root fetch - processPackages [gw-dsl-parser]: executing diffoscope
+[2024-05-07 11:31:44] INFO root fetch - processPackages [gw-dsl-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gw_dsl_parser-0.1.8.tar.gz tmp/gw_dsl_parser-0.1.8a0.tar.gz --markdown 20240507/g/gw-dsl-parser/0.1.8-0.1.8a0/README.md --exclude *.pyd
+[2024-05-07 11:31:44] INFO root fetch - processPackages [md2tgmd]: Remove: archive file [/home/abi/fetcher/tmp/md2tgmd-0.1.5.tar.gz]
+[2024-05-07 11:31:44] INFO root fetch - processPackages [md2tgmd]: Remove: archive file [/home/abi/fetcher/tmp/md2tgmd-0.1.6.tar.gz]
+[2024-05-07 11:31:44] INFO root fetch - main [MainThread]: End processing [md2tgmd]: success
+[2024-05-07 11:31:44] INFO root fetch - processPackages [inni]: Remove: archive file [/home/abi/fetcher/tmp/inni-0.4.2.tar.gz]
+[2024-05-07 11:31:44] INFO root fetch - processPackages [inni]: Remove: archive file [/home/abi/fetcher/tmp/inni-0.5.0.tar.gz]
+[2024-05-07 11:31:44] INFO root fetch - main [MainThread]: End processing [inni]: success
+[2024-05-07 11:31:44] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-07 11:31:44] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-07 11:31:44] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-07 11:31:44] INFO root fetch - processPackages [dsmlibrary]: Remove: archive file [/home/abi/fetcher/tmp/dsmlibrary-1.0.8.tar.gz]
+[2024-05-07 11:31:44] INFO root fetch - processPackages [dsmlibrary]: Remove: archive file [/home/abi/fetcher/tmp/dsmlibrary-1.0.9.tar.gz]
+[2024-05-07 11:31:44] INFO root fetch - main [MainThread]: End processing [dsmlibrary]: success
+[2024-05-07 11:31:45] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-07 11:31:45] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-07 11:31:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-05-07 11:31:45] INFO root fetch - processPackages [gw-dsl-parser]: Remove: archive file [/home/abi/fetcher/tmp/gw_dsl_parser-0.1.8.tar.gz]
+[2024-05-07 11:31:45] INFO root fetch - processPackages [gw-dsl-parser]: Remove: archive file [/home/abi/fetcher/tmp/gw_dsl_parser-0.1.8a0.tar.gz]
+[2024-05-07 11:31:45] INFO root fetch - main [MainThread]: End processing [gw-dsl-parser]: success
+[2024-05-07 11:31:45] INFO root fetch - main [MainThread]: Store serial: [23093090]
