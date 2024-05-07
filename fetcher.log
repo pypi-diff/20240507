@@ -11350,3 +11350,66 @@ EOFError: EOF read where object expected
 [2024-05-07 07:04:00] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-05-07 07:04:00] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2024-05-07 07:04:00] INFO root fetch - main [MainThread]: Store serial: [23089669]
+[2024-05-07 07:06:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089669]
+[2024-05-07 07:06:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 07:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proboscis-async-events
+[2024-05-07 07:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarmtube
+[2024-05-07 07:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opendp
+[2024-05-07 07:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opyngpt
+[2024-05-07 07:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strictdoc
+[2024-05-07 07:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapid-pe
+[2024-05-07 07:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-homeassistant-custom-component
+[2024-05-07 07:06:09] INFO root fetch - processPackages [proboscis-async-events]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-07 07:06:09] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240505001]
+[2024-05-07 07:06:09] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240506] Old Version: [0.1.2.dev20240505]
+[2024-05-07 07:06:09] INFO root fetch - processPackages [proboscis-async-events]: Downloading https://files.pythonhosted.org/packages/58/da/6b76d88affd0a3940641a1cf2af94e38ae0d154bcfa7c1da9b2e7fa329e1/proboscis_async_events-0.1.4.tar.gz
+[2024-05-07 07:06:09] INFO root fetch - processPackages [strictdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 07:06:09] INFO root fetch - processPackages [opyngpt]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-07 07:06:09] INFO root fetch - processPackages [swarmtube]: New version: [0.1.31] Old Version: [0.1.0]
+[2024-05-07 07:06:09] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/f4/9d/cc150236d8d6d92f870fe0f325e56a36bd9514a5e52dabfaedab225cc8e0/rapid_pe-0.1.2.dev20240505.tar.gz
+[2024-05-07 07:06:09] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-07 07:06:09] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/a5/17/a92aaa239aae39bf80fa40b8ce4f7a60f82e37b4794d2a4cef308dbf5f87/opendp-0.9.2a20240505001.tar.gz
+[2024-05-07 07:06:09] INFO root fetch - processPackages [opyngpt]: Downloading https://files.pythonhosted.org/packages/2c/9f/3e31cc2927311c44d3f26fc365d81793aeaca6d18eb56d6216bc1262eff9/opyngpt-0.2.0.tar.gz
+[2024-05-07 07:06:09] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/0e/0c/3782c5673a36cda9e2189ef1e7d9661ba2f1e5c9822b736cf2ce0d2545a7/strictdoc-0.0.8.tar.gz
+[2024-05-07 07:06:09] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/c5/00/f47f256519ee4a5160405b04b1775c9e1e0425aa76cc224b2ac1499f8d3b/swarmtube-0.1.0-py2.py3-none-any.whl
+[2024-05-07 07:06:09] INFO root fetch - processPackages [proboscis-async-events]: Downloading https://files.pythonhosted.org/packages/0e/65/9ed0722ae286bd7bf5bf9d42a0333e96255f563e9a69dd6393d5e2ebe9d6/proboscis_async_events-0.1.5.tar.gz
+[2024-05-07 07:06:09] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2024-05-07 07:06:09] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/f6/5e/c328c63b3872b3d3dcf1c2a90217ec45a896183950031b6bf9493a2350e1/rapid_pe-0.1.2.dev20240506.tar.gz
+[2024-05-07 07:06:09] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/85/6c/b343f02569a02102fd61d7a89f66fb699dbdbf7903119928f4cc3ce8516d/opendp-0.9.2b20240207001-py3-none-any.whl
+[2024-05-07 07:06:09] INFO root fetch - processPackages [opyngpt]: Downloading https://files.pythonhosted.org/packages/4a/eb/9b81c5dfb937a48c57bb79fc5e7f586c99ce27c8d8168c8170948d8875a4/opyngpt-0.3.0.tar.gz
+[2024-05-07 07:06:09] INFO root fetch - processPackages [proboscis-async-events]: executing diffoscope
+[2024-05-07 07:06:09] INFO root fetch - processPackages [proboscis-async-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proboscis_async_events-0.1.4.tar.gz tmp/proboscis_async_events-0.1.5.tar.gz --markdown 20240507/p/proboscis-async-events/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-07 07:06:09] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/b6/06/2219b569301c00406d344dca69ac5e31a169bb9529b66ec957609495d940/strictdoc-0.0.9.tar.gz
+[2024-05-07 07:06:09] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36048210>=10485760
+[2024-05-07 07:06:09] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-05-07 07:06:09] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-05-07 07:06:09] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240505.tar.gz tmp/rapid_pe-0.1.2.dev20240506.tar.gz --markdown 20240507/r/rapid-pe/0.1.2.dev20240505-0.1.2.dev20240506/README.md --exclude *.pyd
+[2024-05-07 07:06:09] INFO root fetch - processPackages [opyngpt]: executing diffoscope
+[2024-05-07 07:06:09] INFO root fetch - processPackages [opyngpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opyngpt-0.2.0.tar.gz tmp/opyngpt-0.3.0.tar.gz --markdown 20240507/o/opyngpt/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-07 07:06:09] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/53/11/613b3d39c83c39bff7b182b49761f06b38ad3540daecf93d25ba29722b5d/swarmtube-0.1.31-py2.py3-none-any.whl
+[2024-05-07 07:06:10] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2024-05-07 07:06:10] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-07 07:06:10] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.0-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.31-py2.py3-none-any.whl.zip --markdown 20240507/s/swarmtube/0.1.0-0.1.31/README.md --exclude *.pyd
+[2024-05-07 07:06:10] INFO root fetch - processPackages [strictdoc]: executing diffoscope
+[2024-05-07 07:06:10] INFO root fetch - processPackages [strictdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictdoc-0.0.8.tar.gz tmp/strictdoc-0.0.9.tar.gz --markdown 20240507/s/strictdoc/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 07:06:10] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2024-05-07 07:06:10] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20240507/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-07 07:06:10] INFO root fetch - processPackages [proboscis-async-events]: Remove: archive file [/home/abi/fetcher/tmp/proboscis_async_events-0.1.4.tar.gz]
+[2024-05-07 07:06:10] INFO root fetch - processPackages [proboscis-async-events]: Remove: archive file [/home/abi/fetcher/tmp/proboscis_async_events-0.1.5.tar.gz]
+[2024-05-07 07:06:10] INFO root fetch - main [MainThread]: End processing [proboscis-async-events]: success
+[2024-05-07 07:06:10] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240505.tar.gz]
+[2024-05-07 07:06:10] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240506.tar.gz]
+[2024-05-07 07:06:10] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-05-07 07:06:10] INFO root fetch - processPackages [opyngpt]: Remove: archive file [/home/abi/fetcher/tmp/opyngpt-0.2.0.tar.gz]
+[2024-05-07 07:06:10] INFO root fetch - processPackages [opyngpt]: Remove: archive file [/home/abi/fetcher/tmp/opyngpt-0.3.0.tar.gz]
+[2024-05-07 07:06:10] INFO root fetch - main [MainThread]: End processing [opyngpt]: success
+[2024-05-07 07:06:10] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.0-py2.py3-none-any.whl.zip]
+[2024-05-07 07:06:10] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.31-py2.py3-none-any.whl.zip]
+[2024-05-07 07:06:10] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-07 07:06:10] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.8.tar.gz]
+[2024-05-07 07:06:10] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.9.tar.gz]
+[2024-05-07 07:06:10] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
+[2024-05-07 07:06:10] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2024-05-07 07:06:10] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2024-05-07 07:06:10] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2024-05-07 07:06:10] INFO root fetch - main [MainThread]: Store serial: [23089742]
