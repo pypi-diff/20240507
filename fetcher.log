@@ -12261,3 +12261,99 @@ EOFError: EOF read where object expected
 [2024-05-07 07:52:12] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
 [2024-05-07 07:52:12] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
 [2024-05-07 07:52:12] INFO root fetch - main [MainThread]: Store serial: [23090114]
+[2024-05-07 07:54:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090114]
+[2024-05-07 07:54:20] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-07 07:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: g4f
+[2024-05-07 07:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-cloudflare
+[2024-05-07 07:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-viewer
+[2024-05-07 07:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bpgtask
+[2024-05-07 07:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libreflow-launcher
+[2024-05-07 07:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: knob
+[2024-05-07 07:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: krux
+[2024-05-07 07:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data-quality-validation-pydeequ
+[2024-05-07 07:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: specnn4pde
+[2024-05-07 07:54:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-external
+[2024-05-07 07:54:21] INFO root fetch - processPackages [g4f]: New version: [0.3.0.9] Old Version: [0.3.0.8]
+[2024-05-07 07:54:21] INFO root fetch - processPackages [jupyter-viewer]: New version: [0.0.7] Old Version: [0.0.5]
+[2024-05-07 07:54:21] INFO root fetch - processPackages [data-quality-validation-pydeequ]: New version: [0.5] Old Version: [0.4]
+[2024-05-07 07:54:21] WARNING root fetch - processPackages [bpgtask]: Skipping, unable to determine old version
+[2024-05-07 07:54:21] INFO root fetch - processPackages [bpgtask]: Start processing: astro-SPLASH
+[2024-05-07 07:54:21] INFO root fetch - main [MainThread]: End processing [bpgtask] error
+[2024-05-07 07:54:21] INFO root fetch - processPackages [astro-SPLASH]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 07:54:21] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/ab/68/1084c6062cc1cd17dfe90d2eac6ddc2c58a0e37c1a05ee819e43fc7336f9/g4f-0.3.0.8.tar.gz
+[2024-05-07 07:54:21] INFO root fetch - processPackages [libreflow-launcher]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-07 07:54:21] INFO root fetch - processPackages [jupyter-viewer]: Downloading https://files.pythonhosted.org/packages/a9/2e/981bc7c8857b450c20763484d2c439bdfa87fa65911b34040f2b78245b69/jupyter_viewer-0.0.5.tar.gz
+[2024-05-07 07:54:21] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/c0/64/9c6503187a9bc71b7f963f84d5f64a0b2e64a023d7a6614cd0159ea1ffa6/data-quality-validation-pydeequ-0.4.tar.gz
+[2024-05-07 07:54:21] INFO root fetch - processPackages [specnn4pde]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-07 07:54:21] INFO root fetch - processPackages [krux]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 07:54:21] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-05-07 07:54:21] INFO root fetch - processPackages [knob]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 07:54:21] INFO root fetch - processPackages [pulumi-external]: New version: [0.1.0a1715059969] Old Version: [0.1.0a1714563085]
+[2024-05-07 07:54:21] INFO root fetch - processPackages [astro-SPLASH]: Downloading https://files.pythonhosted.org/packages/2d/62/5193b720fe79afcf4ddb0a84999a77b2d3def33934be3e971b52e5290221/astro_SPLASH-0.0.8.tar.gz
+[2024-05-07 07:54:21] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-05-07 07:54:21] INFO root fetch - processPackages [specnn4pde]: Downloading https://files.pythonhosted.org/packages/cb/d8/a5f1253b7b144f7211f9b3439fc40df616410b426af5bebd0af6780ba6c3/specnn4pde-0.0.5.tar.gz
+[2024-05-07 07:54:21] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/20/e6/101ab0cb278d42ab6b2f72dbcf3023d82d8cc9d56510112a891747579e81/pulumi_external-0.1.0a1714563085.tar.gz
+[2024-05-07 07:54:21] INFO root fetch - processPackages [krux]: Downloading https://files.pythonhosted.org/packages/cd/fe/c3b50f6170b2adc49ea549ef4b44a4b4a4751ab7f461b3c0f03d79357dea/krux-0.0.8.tar.gz
+[2024-05-07 07:54:21] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/8e/ad/50aebdb0621058ec246a8b2ca6dfc99245538fdf6cc5f51a677007b34bd2/g4f-0.3.0.9.tar.gz
+[2024-05-07 07:54:21] INFO root fetch - processPackages [knob]: Downloading https://files.pythonhosted.org/packages/10/a7/16523b27a067cefc6f34bb73a1d97794606d73fa566e23837b3b206b4907/knob-0.0.8.tar.gz
+[2024-05-07 07:54:21] INFO root fetch - processPackages [astro-SPLASH]: Downloading https://files.pythonhosted.org/packages/30/3a/87c5464add8f91a77b2cccbc02f5526d7ca05288541725ee9944ccd6f3ad/astro_SPLASH-0.0.9.tar.gz
+[2024-05-07 07:54:21] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/21/95/cc1929b58c6631eb103751c5f6ed477cd07a60d1ed56dcf9d45195235c27/data-quality-validation-pydeequ-0.5.tar.gz
+[2024-05-07 07:54:21] INFO root fetch - processPackages [libreflow-launcher]: Downloading https://files.pythonhosted.org/packages/87/93/dfacbeb159f2103a9bf3ecf8c090b47755cc9b22969c16082708242c01a9/libreflow_launcher-1.0.5.tar.gz
+[2024-05-07 07:54:21] INFO root fetch - processPackages [jupyter-viewer]: Downloading https://files.pythonhosted.org/packages/4e/71/b48c2f1266184386187fdc465b3674ef9070a4d882ffa6efb3795a71e3d8/jupyter_viewer-0.0.7-py3-none-any.whl
+[2024-05-07 07:54:21] INFO root fetch - processPackages [g4f]: executing diffoscope
+[2024-05-07 07:54:21] INFO root fetch - processPackages [g4f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g4f-0.3.0.8.tar.gz tmp/g4f-0.3.0.9.tar.gz --markdown 20240507/g/g4f/0.3.0.8-0.3.0.9/README.md --exclude *.pyd
+[2024-05-07 07:54:21] INFO root fetch - processPackages [astro-SPLASH]: executing diffoscope
+[2024-05-07 07:54:21] INFO root fetch - processPackages [astro-SPLASH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_SPLASH-0.0.8.tar.gz tmp/astro_SPLASH-0.0.9.tar.gz --markdown 20240507/a/astro-SPLASH/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 07:54:21] INFO root fetch - processPackages [data-quality-validation-pydeequ]: executing diffoscope
+[2024-05-07 07:54:21] INFO root fetch - processPackages [data-quality-validation-pydeequ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-quality-validation-pydeequ-0.4.tar.gz tmp/data-quality-validation-pydeequ-0.5.tar.gz --markdown 20240507/d/data-quality-validation-pydeequ/0.4-0.5/README.md --exclude *.pyd
+[2024-05-07 07:54:21] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-05-07 07:54:21] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/ac/f3/099588e5a87ff1c05aed1c9513fc105130158061da89922daaa202605edf/pulumi_external-0.1.0a1715059969.tar.gz
+[2024-05-07 07:54:21] INFO root fetch - processPackages [specnn4pde]: Downloading https://files.pythonhosted.org/packages/73/e8/ab62803a91e7366115d53682df663c53c9ab852fc1302f38754631785d49/specnn4pde-0.0.6.tar.gz
+[2024-05-07 07:54:22] INFO root fetch - processPackages [krux]: Downloading https://files.pythonhosted.org/packages/97/ac/fb12a05b444ec1f9f8f27dab5ebba8b3380ba5ec17de5839b1138c691e94/krux-0.0.9.tar.gz
+[2024-05-07 07:54:22] INFO root fetch - processPackages [knob]: Downloading https://files.pythonhosted.org/packages/19/61/3cf4bf4a83d16762781fea4fdd740f6b4e671467525cce3ab654fbde8beb/knob-0.0.9.tar.gz
+[2024-05-07 07:54:22] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-05-07 07:54:22] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240507/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-05-07 07:54:22] INFO root fetch - processPackages [knob]: executing diffoscope
+[2024-05-07 07:54:22] INFO root fetch - processPackages [knob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knob-0.0.8.tar.gz tmp/knob-0.0.9.tar.gz --markdown 20240507/k/knob/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 07:54:22] INFO root fetch - processPackages [pulumi-external]: executing diffoscope
+[2024-05-07 07:54:22] INFO root fetch - processPackages [pulumi-external]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_external-0.1.0a1714563085.tar.gz tmp/pulumi_external-0.1.0a1715059969.tar.gz --markdown 20240507/p/pulumi-external/0.1.0a1714563085-0.1.0a1715059969/README.md --exclude *.pyd
+[2024-05-07 07:54:22] INFO root fetch - processPackages [krux]: executing diffoscope
+[2024-05-07 07:54:22] INFO root fetch - processPackages [krux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krux-0.0.8.tar.gz tmp/krux-0.0.9.tar.gz --markdown 20240507/k/krux/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 07:54:22] INFO root fetch - processPackages [specnn4pde]: executing diffoscope
+[2024-05-07 07:54:22] INFO root fetch - processPackages [specnn4pde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specnn4pde-0.0.5.tar.gz tmp/specnn4pde-0.0.6.tar.gz --markdown 20240507/s/specnn4pde/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-07 07:54:22] INFO root fetch - processPackages [libreflow-launcher]: Downloading https://files.pythonhosted.org/packages/5a/77/3d00cb2126fc3523196b2236e361937c400e3cd5d0f08be2c484894da2ad/libreflow_launcher-1.0.6.tar.gz
+[2024-05-07 07:54:22] INFO root fetch - processPackages [jupyter-viewer]: executing diffoscope
+[2024-05-07 07:54:22] INFO root fetch - processPackages [jupyter-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_viewer-0.0.5.tar.gz tmp/jupyter_viewer-0.0.7-py3-none-any.whl.zip --markdown 20240507/j/jupyter-viewer/0.0.5-0.0.7/README.md --exclude *.pyd
+[2024-05-07 07:54:22] INFO root fetch - processPackages [libreflow-launcher]: executing diffoscope
+[2024-05-07 07:54:22] INFO root fetch - processPackages [libreflow-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libreflow_launcher-1.0.5.tar.gz tmp/libreflow_launcher-1.0.6.tar.gz --markdown 20240507/l/libreflow-launcher/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-07 07:54:22] INFO root fetch - processPackages [astro-SPLASH]: Remove: archive file [/home/abi/fetcher/tmp/astro_SPLASH-0.0.8.tar.gz]
+[2024-05-07 07:54:22] INFO root fetch - processPackages [astro-SPLASH]: Remove: archive file [/home/abi/fetcher/tmp/astro_SPLASH-0.0.9.tar.gz]
+[2024-05-07 07:54:22] INFO root fetch - main [MainThread]: End processing [astro-SPLASH]: success
+[2024-05-07 07:54:22] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.4.tar.gz]
+[2024-05-07 07:54:22] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.5.tar.gz]
+[2024-05-07 07:54:22] INFO root fetch - main [MainThread]: End processing [data-quality-validation-pydeequ]: success
+[2024-05-07 07:54:23] INFO root fetch - processPackages [krux]: Remove: archive file [/home/abi/fetcher/tmp/krux-0.0.8.tar.gz]
+[2024-05-07 07:54:23] INFO root fetch - processPackages [krux]: Remove: archive file [/home/abi/fetcher/tmp/krux-0.0.9.tar.gz]
+[2024-05-07 07:54:23] INFO root fetch - main [MainThread]: End processing [krux]: success
+[2024-05-07 07:54:23] INFO root fetch - processPackages [knob]: Remove: archive file [/home/abi/fetcher/tmp/knob-0.0.8.tar.gz]
+[2024-05-07 07:54:23] INFO root fetch - processPackages [knob]: Remove: archive file [/home/abi/fetcher/tmp/knob-0.0.9.tar.gz]
+[2024-05-07 07:54:23] INFO root fetch - main [MainThread]: End processing [knob]: success
+[2024-05-07 07:54:23] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.1.0a1714563085.tar.gz]
+[2024-05-07 07:54:23] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.1.0a1715059969.tar.gz]
+[2024-05-07 07:54:23] INFO root fetch - main [MainThread]: End processing [pulumi-external]: success
+[2024-05-07 07:54:23] INFO root fetch - processPackages [specnn4pde]: Remove: archive file [/home/abi/fetcher/tmp/specnn4pde-0.0.5.tar.gz]
+[2024-05-07 07:54:23] INFO root fetch - processPackages [specnn4pde]: Remove: archive file [/home/abi/fetcher/tmp/specnn4pde-0.0.6.tar.gz]
+[2024-05-07 07:54:23] INFO root fetch - main [MainThread]: End processing [specnn4pde]: success
+[2024-05-07 07:54:23] INFO root fetch - processPackages [libreflow-launcher]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_launcher-1.0.5.tar.gz]
+[2024-05-07 07:54:23] INFO root fetch - processPackages [libreflow-launcher]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_launcher-1.0.6.tar.gz]
+[2024-05-07 07:54:23] INFO root fetch - main [MainThread]: End processing [libreflow-launcher]: success
+[2024-05-07 07:54:23] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.3.0.8.tar.gz]
+[2024-05-07 07:54:23] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.3.0.9.tar.gz]
+[2024-05-07 07:54:23] INFO root fetch - main [MainThread]: End processing [g4f]: success
+[2024-05-07 07:54:23] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-05-07 07:54:23] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-05-07 07:54:23] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-05-07 07:54:23] INFO root fetch - processPackages [jupyter-viewer]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_viewer-0.0.5.tar.gz]
+[2024-05-07 07:54:23] INFO root fetch - processPackages [jupyter-viewer]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_viewer-0.0.7-py3-none-any.whl.zip]
+[2024-05-07 07:54:23] INFO root fetch - main [MainThread]: End processing [jupyter-viewer]: success
+[2024-05-07 07:54:23] INFO root fetch - main [MainThread]: Store serial: [23090146]
