@@ -8577,3 +8577,109 @@ EOFError: EOF read where object expected
 [2024-05-07 04:17:57] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.1.2b1.tar.gz]
 [2024-05-07 04:17:57] INFO root fetch - main [MainThread]: End processing [nbappinator]: success
 [2024-05-07 04:17:57] INFO root fetch - main [MainThread]: Store serial: [23088413]
+[2024-05-07 04:20:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088413]
+[2024-05-07 04:20:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 04:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agilicus
+[2024-05-07 04:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sz-utils
+[2024-05-07 04:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: InternEvo
+[2024-05-07 04:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rotary-emb
+[2024-05-07 04:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: draggable-charts
+[2024-05-07 04:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hebill-pypi
+[2024-05-07 04:20:06] INFO root fetch - processPackages [sz-utils]: New version: [0.2] Old Version: [0.1]
+[2024-05-07 04:20:06] INFO root fetch - processPackages [rotary-emb]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-07 04:20:06] INFO root fetch - processPackages [InternEvo]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-07 04:20:06] INFO root fetch - processPackages [hebill-pypi]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 04:20:06] INFO root fetch - processPackages [draggable-charts]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-07 04:20:06] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/d6/38/199e27467a2d35554351964a081a02b67a2827ef5fc32209016cafbab4f9/rotary_emb-0.4.4.tar.gz
+[2024-05-07 04:20:06] INFO root fetch - processPackages [draggable-charts]: Downloading https://files.pythonhosted.org/packages/ec/9b/629e4a2db4addb790e2b804a90853d37c4844d6def9264afc50dcc35617d/draggable-charts-1.2.2.tar.gz
+[2024-05-07 04:20:06] INFO root fetch - processPackages [agilicus]: New version: [1.99.0] Old Version: [1.98.9]
+[2024-05-07 04:20:06] INFO root fetch - processPackages [sz-utils]: Downloading https://files.pythonhosted.org/packages/0c/12/c1a7127caa65ad4b74cda3883a3a8198d926c544ba59c0cd927f59ade5ec/sz_utils-0.1.tar.gz
+[2024-05-07 04:20:06] INFO root fetch - processPackages [hebill-pypi]: Downloading https://files.pythonhosted.org/packages/6b/d3/c2ad52f8ce70d24168adcd2a899603acf7c7c7755d8290502e8faf79c39a/Hebill_Pypi-1.0.0-py3-none-any.whl
+[2024-05-07 04:20:06] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/a3/68/7d36f2607aec5023e183552bbb6d592829451f0529ae50bc0ae0c1f13865/InternEvo-0.4.5.tar.gz
+[2024-05-07 04:20:06] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/ed/ed/5379fee0776f116bac2d010694a8e92fea50be9d59a92fabbe52b25468f3/rotary_emb-0.4.5.tar.gz
+[2024-05-07 04:20:06] INFO root fetch - processPackages [rotary-emb]: executing diffoscope
+[2024-05-07 04:20:06] INFO root fetch - processPackages [rotary-emb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotary_emb-0.4.4.tar.gz tmp/rotary_emb-0.4.5.tar.gz --markdown 20240507/r/rotary-emb/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-07 04:20:07] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/78/49/a626a12e9569256054f423de2f9d979955bf383eb0a87161a2e41f32d7ce/InternEvo-0.4.6.tar.gz
+[2024-05-07 04:20:07] INFO root fetch - processPackages [hebill-pypi]: Downloading https://files.pythonhosted.org/packages/0a/bb/19971bcc69f9ee6d81c15ca7a5fc179185efb4c1d49a62e8d9feaf0c02fa/Hebill_Pypi-1.0.1-py3-none-any.whl
+[2024-05-07 04:20:07] INFO root fetch - processPackages [draggable-charts]: Downloading https://files.pythonhosted.org/packages/31/c3/c9eeba55cee7febacf09d74173958605d3596539310723c947970db554f5/draggable-charts-1.2.3.tar.gz
+[2024-05-07 04:20:07] INFO root fetch - processPackages [sz-utils]: Downloading https://files.pythonhosted.org/packages/3f/50/f415939155c629e12347286b99060c6d34fd22af0c629b1227c403e33e40/sz_utils-0.2.tar.gz
+[2024-05-07 04:20:07] INFO root fetch - processPackages [InternEvo]: executing diffoscope
+[2024-05-07 04:20:07] INFO root fetch - processPackages [InternEvo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InternEvo-0.4.5.tar.gz tmp/InternEvo-0.4.6.tar.gz --markdown 20240507/I/InternEvo/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-07 04:20:07] INFO root fetch - processPackages [hebill-pypi]: executing diffoscope
+[2024-05-07 04:20:07] INFO root fetch - processPackages [hebill-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hebill_Pypi-1.0.0-py3-none-any.whl.zip tmp/Hebill_Pypi-1.0.1-py3-none-any.whl.zip --markdown 20240507/h/hebill-pypi/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-07 04:20:07] INFO root fetch - processPackages [agilicus]: executing diffoscope
+[2024-05-07 04:20:07] INFO root fetch - processPackages [agilicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilicus-1.98.9.tar.gz tmp/agilicus-1.99.0.tar.gz --markdown 20240507/a/agilicus/1.98.9-1.99.0/README.md --exclude *.pyd
+[2024-05-07 04:20:07] INFO root fetch - processPackages [sz-utils]: executing diffoscope
+[2024-05-07 04:20:07] INFO root fetch - processPackages [sz-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sz_utils-0.1.tar.gz tmp/sz_utils-0.2.tar.gz --markdown 20240507/s/sz-utils/0.1-0.2/README.md --exclude *.pyd
+[2024-05-07 04:20:07] INFO root fetch - processPackages [draggable-charts]: executing diffoscope
+[2024-05-07 04:20:07] INFO root fetch - processPackages [draggable-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggable-charts-1.2.2.tar.gz tmp/draggable-charts-1.2.3.tar.gz --markdown 20240507/d/draggable-charts/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-07 04:20:07] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.4.4.tar.gz]
+[2024-05-07 04:20:07] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.4.5.tar.gz]
+[2024-05-07 04:20:07] INFO root fetch - main [MainThread]: End processing [rotary-emb]: success
+[2024-05-07 04:20:07] INFO root fetch - processPackages [sz-utils]: Remove: archive file [/home/abi/fetcher/tmp/sz_utils-0.1.tar.gz]
+[2024-05-07 04:20:07] INFO root fetch - processPackages [sz-utils]: Remove: archive file [/home/abi/fetcher/tmp/sz_utils-0.2.tar.gz]
+[2024-05-07 04:20:07] INFO root fetch - main [MainThread]: End processing [sz-utils]: success
+[2024-05-07 04:20:07] INFO root fetch - processPackages [hebill-pypi]: Remove: archive file [/home/abi/fetcher/tmp/Hebill_Pypi-1.0.0-py3-none-any.whl.zip]
+[2024-05-07 04:20:07] INFO root fetch - processPackages [hebill-pypi]: Remove: archive file [/home/abi/fetcher/tmp/Hebill_Pypi-1.0.1-py3-none-any.whl.zip]
+[2024-05-07 04:20:07] INFO root fetch - main [MainThread]: End processing [hebill-pypi]: success
+[2024-05-07 04:20:08] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.5.tar.gz]
+[2024-05-07 04:20:08] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.6.tar.gz]
+[2024-05-07 04:20:08] INFO root fetch - main [MainThread]: End processing [InternEvo]: success
+[2024-05-07 04:20:08] ERROR root fetch - processPackages [agilicus]: Diffoscope failed: time="2024-05-07T04:20:07+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-05-07 04:20:08] INFO root fetch - main [MainThread]: End processing [agilicus] error
+[2024-05-07 04:20:48] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.2.2.tar.gz]
+[2024-05-07 04:20:48] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.2.3.tar.gz]
+[2024-05-07 04:20:48] INFO root fetch - main [MainThread]: End processing [draggable-charts]: success
+[2024-05-07 04:20:48] INFO root fetch - main [MainThread]: Store serial: [23088431]
