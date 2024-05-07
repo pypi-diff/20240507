@@ -18079,3 +18079,90 @@ EOFError: EOF read where object expected
 [2024-05-07 11:20:47] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.51.tar.gz]
 [2024-05-07 11:20:47] INFO root fetch - main [MainThread]: End processing [composio-openai]: success
 [2024-05-07 11:20:47] INFO root fetch - main [MainThread]: Store serial: [23092921]
+[2024-05-07 11:22:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092921]
+[2024-05-07 11:22:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-07 11:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-table-reader-plugin
+[2024-05-07 11:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqqq
+[2024-05-07 11:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wheelz-idp-validations
+[2024-05-07 11:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: njfutest
+[2024-05-07 11:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strledger
+[2024-05-07 11:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tbp-nightly
+[2024-05-07 11:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anemoi-datasets
+[2024-05-07 11:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyleco
+[2024-05-07 11:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: filchatter
+[2024-05-07 11:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-delivery-cttexpress
+[2024-05-07 11:22:55] INFO root fetch - processPackages [wheelz-idp-validations]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-07 11:22:55] WARNING root fetch - processPackages [njfutest]: Skipping, unable to determine old version
+[2024-05-07 11:22:55] INFO root fetch - main [MainThread]: End processing [njfutest] error
+[2024-05-07 11:22:55] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-05-07 11:22:55] INFO root fetch - processPackages [filchatter]: New version: [1.5] Old Version: [1.4]
+[2024-05-07 11:22:55] INFO root fetch - processPackages [wheelz-idp-validations]: Downloading https://files.pythonhosted.org/packages/0c/64/26b9d0b9e997bf9f543468d4c198b212ea571f8c406417fe38a2b4e8c7cf/wheelz_idp_validations-2.2.0.tar.gz
+[2024-05-07 11:22:55] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-07 11:22:55] INFO root fetch - processPackages [odoo14-addon-delivery-cttexpress]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2024-05-07 11:22:55] INFO root fetch - processPackages [pyleco]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-07 11:22:55] INFO root fetch - processPackages [strledger]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-05-07 11:22:55] INFO root fetch - processPackages [anemoi-datasets]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-07 11:22:55] INFO root fetch - processPackages [pyqqq]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-07 11:22:55] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-05-07 11:22:56] INFO root fetch - processPackages [filchatter]: Downloading https://files.pythonhosted.org/packages/93/53/fa3a71970293740fee265fecb89e004be8b33f479004d9e6608c37d68bd5/filchatter-1.4.tar.gz
+[2024-05-07 11:22:56] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: Downloading https://files.pythonhosted.org/packages/56/da/9542b2cab218c57482c89dcc9e9968ddaf98e689527012447fef9ac3899d/mkdocs_table_reader_plugin-2.2.0.tar.gz
+[2024-05-07 11:22:56] INFO root fetch - processPackages [strledger]: Downloading https://files.pythonhosted.org/packages/40/f3/baf6140d071af6a00449860c48e333766d371ffe524a909e3e9775437254/strledger-0.6.2.tar.gz
+[2024-05-07 11:22:56] INFO root fetch - processPackages [odoo14-addon-delivery-cttexpress]: Downloading https://files.pythonhosted.org/packages/a0/e9/c9fa3f0e0080885c4fb6b6706b4cfeb35d1904250bc5b02f762af6d2cff6/odoo14_addon_delivery_cttexpress-14.0.1.0.1.dev4-py3-none-any.whl
+[2024-05-07 11:22:56] INFO root fetch - processPackages [pyleco]: Downloading https://files.pythonhosted.org/packages/23/d0/9321f780da730ee3afaedd737493e05a6a857d7d7900a2c07e36ab6a4c68/pyleco-0.3.1.tar.gz
+[2024-05-07 11:22:56] INFO root fetch - processPackages [anemoi-datasets]: Downloading https://files.pythonhosted.org/packages/4a/ac/ceea279f517b32ef34be278cb3afb6a8c6d0cfc79529752c55c4359c8aa7/anemoi_datasets-0.1.6.tar.gz
+[2024-05-07 11:22:56] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/1c/b5/a841f5bc7282a2df96230b7b59714bde5e473d40b8ae775998349d989745/pyqqq-0.9.2.tar.gz
+[2024-05-07 11:22:56] INFO root fetch - processPackages [wheelz-idp-validations]: Downloading https://files.pythonhosted.org/packages/cf/c1/6b0c49456d04d5ad8887cee55639971c53fdc1d08d0998180ccbc5e43a47/wheelz_idp_validations-2.2.1.tar.gz
+[2024-05-07 11:22:56] INFO root fetch - processPackages [wheelz-idp-validations]: executing diffoscope
+[2024-05-07 11:22:56] INFO root fetch - processPackages [wheelz-idp-validations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheelz_idp_validations-2.2.0.tar.gz tmp/wheelz_idp_validations-2.2.1.tar.gz --markdown 20240507/w/wheelz-idp-validations/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-07 11:22:56] INFO root fetch - processPackages [filchatter]: Downloading https://files.pythonhosted.org/packages/85/5f/61e7bdd39eecfe64a53e543e15e199c039079f152df3ad12f4f50d92beab/filchatter-1.5.tar.gz
+[2024-05-07 11:22:56] INFO root fetch - processPackages [strledger]: Downloading https://files.pythonhosted.org/packages/dc/ae/aeee4990a1a0bc2eb14d7af63acdfd048c7da64e92d89020ba41a31d58d9/strledger-0.7.0.tar.gz
+[2024-05-07 11:22:56] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: Downloading https://files.pythonhosted.org/packages/2e/7f/d88dc4313c0abc3d9168d6018c830737bf08693ce45f87ab20a7ee799cb9/mkdocs_table_reader_plugin-2.2.1.tar.gz
+[2024-05-07 11:22:56] INFO root fetch - processPackages [filchatter]: executing diffoscope
+[2024-05-07 11:22:56] INFO root fetch - processPackages [filchatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filchatter-1.4.tar.gz tmp/filchatter-1.5.tar.gz --markdown 20240507/f/filchatter/1.4-1.5/README.md --exclude *.pyd
+[2024-05-07 11:22:56] INFO root fetch - processPackages [strledger]: executing diffoscope
+[2024-05-07 11:22:56] INFO root fetch - processPackages [strledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strledger-0.6.2.tar.gz tmp/strledger-0.7.0.tar.gz --markdown 20240507/s/strledger/0.6.2-0.7.0/README.md --exclude *.pyd
+[2024-05-07 11:22:56] INFO root fetch - processPackages [odoo14-addon-delivery-cttexpress]: Downloading https://files.pythonhosted.org/packages/c8/81/e8fcf234933fb219d69f44379a35f6d1c5114ab42cdff067a2cdd900ba58/odoo14_addon_delivery_cttexpress-14.0.1.0.1.dev5-py3-none-any.whl
+[2024-05-07 11:22:56] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-05-07 11:22:56] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/9a/a3/ef120914d7ce7be088c09252c1efe0b68190f9852e5a934b64032f29f8ae/pyqqq-0.9.3.tar.gz
+[2024-05-07 11:22:56] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: executing diffoscope
+[2024-05-07 11:22:56] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_table_reader_plugin-2.2.0.tar.gz tmp/mkdocs_table_reader_plugin-2.2.1.tar.gz --markdown 20240507/m/mkdocs-table-reader-plugin/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-07 11:22:56] INFO root fetch - processPackages [anemoi-datasets]: Downloading https://files.pythonhosted.org/packages/1d/aa/7c0648b943bba7077f0734b3d4ee25117f6f256edcad35352e300b3a1b72/anemoi_datasets-0.1.7.tar.gz
+[2024-05-07 11:22:56] INFO root fetch - processPackages [pyleco]: Downloading https://files.pythonhosted.org/packages/98/23/493d0eafc86b0aab140ffb36195d36797511c3fb4a065b9f9867907fee75/pyleco-0.3.2.tar.gz
+[2024-05-07 11:22:56] INFO root fetch - processPackages [odoo14-addon-delivery-cttexpress]: executing diffoscope
+[2024-05-07 11:22:56] INFO root fetch - processPackages [odoo14-addon-delivery-cttexpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_delivery_cttexpress-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_delivery_cttexpress-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20240507/o/odoo14-addon-delivery-cttexpress/14.0.1.0.1.dev4-14.0.1.0.1.dev5/README.md --exclude *.pyd
+[2024-05-07 11:22:56] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-05-07 11:22:56] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.9.2.tar.gz tmp/pyqqq-0.9.3.tar.gz --markdown 20240507/p/pyqqq/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-07 11:22:56] INFO root fetch - processPackages [anemoi-datasets]: executing diffoscope
+[2024-05-07 11:22:56] INFO root fetch - processPackages [anemoi-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemoi_datasets-0.1.6.tar.gz tmp/anemoi_datasets-0.1.7.tar.gz --markdown 20240507/a/anemoi-datasets/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-07 11:22:56] INFO root fetch - processPackages [pyleco]: executing diffoscope
+[2024-05-07 11:22:56] INFO root fetch - processPackages [pyleco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyleco-0.3.1.tar.gz tmp/pyleco-0.3.2.tar.gz --markdown 20240507/p/pyleco/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-07 11:22:57] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-05-07 11:22:57] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240507/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-05-07 11:22:57] INFO root fetch - processPackages [wheelz-idp-validations]: Remove: archive file [/home/abi/fetcher/tmp/wheelz_idp_validations-2.2.0.tar.gz]
+[2024-05-07 11:22:57] INFO root fetch - processPackages [wheelz-idp-validations]: Remove: archive file [/home/abi/fetcher/tmp/wheelz_idp_validations-2.2.1.tar.gz]
+[2024-05-07 11:22:57] INFO root fetch - main [MainThread]: End processing [wheelz-idp-validations]: success
+[2024-05-07 11:22:57] INFO root fetch - processPackages [filchatter]: Remove: archive file [/home/abi/fetcher/tmp/filchatter-1.4.tar.gz]
+[2024-05-07 11:22:57] INFO root fetch - processPackages [filchatter]: Remove: archive file [/home/abi/fetcher/tmp/filchatter-1.5.tar.gz]
+[2024-05-07 11:22:57] INFO root fetch - main [MainThread]: End processing [filchatter]: success
+[2024-05-07 11:22:57] INFO root fetch - processPackages [strledger]: Remove: archive file [/home/abi/fetcher/tmp/strledger-0.6.2.tar.gz]
+[2024-05-07 11:22:57] INFO root fetch - processPackages [strledger]: Remove: archive file [/home/abi/fetcher/tmp/strledger-0.7.0.tar.gz]
+[2024-05-07 11:22:57] INFO root fetch - main [MainThread]: End processing [strledger]: success
+[2024-05-07 11:22:57] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_table_reader_plugin-2.2.0.tar.gz]
+[2024-05-07 11:22:57] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_table_reader_plugin-2.2.1.tar.gz]
+[2024-05-07 11:22:57] INFO root fetch - main [MainThread]: End processing [mkdocs-table-reader-plugin]: success
+[2024-05-07 11:22:57] INFO root fetch - processPackages [odoo14-addon-delivery-cttexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_cttexpress-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2024-05-07 11:22:57] INFO root fetch - processPackages [odoo14-addon-delivery-cttexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_delivery_cttexpress-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2024-05-07 11:22:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-cttexpress]: success
+[2024-05-07 11:22:57] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.2.tar.gz]
+[2024-05-07 11:22:57] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.3.tar.gz]
+[2024-05-07 11:22:57] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-05-07 11:22:58] INFO root fetch - processPackages [anemoi-datasets]: Remove: archive file [/home/abi/fetcher/tmp/anemoi_datasets-0.1.6.tar.gz]
+[2024-05-07 11:22:58] INFO root fetch - processPackages [anemoi-datasets]: Remove: archive file [/home/abi/fetcher/tmp/anemoi_datasets-0.1.7.tar.gz]
+[2024-05-07 11:22:58] INFO root fetch - main [MainThread]: End processing [anemoi-datasets]: success
+[2024-05-07 11:22:58] INFO root fetch - processPackages [pyleco]: Remove: archive file [/home/abi/fetcher/tmp/pyleco-0.3.1.tar.gz]
+[2024-05-07 11:22:58] INFO root fetch - processPackages [pyleco]: Remove: archive file [/home/abi/fetcher/tmp/pyleco-0.3.2.tar.gz]
+[2024-05-07 11:22:58] INFO root fetch - main [MainThread]: End processing [pyleco]: success
+[2024-05-07 11:22:58] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-05-07 11:22:58] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-05-07 11:22:58] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-05-07 11:22:58] INFO root fetch - main [MainThread]: Store serial: [23092949]
