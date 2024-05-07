@@ -22566,3 +22566,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 14:05:39] INFO root fetch - processPackages [planetmapper]: Remove: archive file [/home/abi/fetcher/tmp/planetmapper-1.9.1.tar.gz]
 [2024-05-07 14:05:39] INFO root fetch - main [MainThread]: End processing [planetmapper]: success
 [2024-05-07 14:05:39] INFO root fetch - main [MainThread]: Store serial: [23095221]
+[2024-05-07 14:07:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23095221]
+[2024-05-07 14:07:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 14:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymoebot
+[2024-05-07 14:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viggoprecificacao
+[2024-05-07 14:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: special-agents
+[2024-05-07 14:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeedu-cli
+[2024-05-07 14:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: erlab
+[2024-05-07 14:07:48] INFO root fetch - processPackages [yeedu-cli]: New version: [4.5.4] Old Version: [1.0.0rc5]
+[2024-05-07 14:07:48] INFO root fetch - processPackages [special-agents]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-07 14:07:48] INFO root fetch - processPackages [yeedu-cli]: Downloading https://files.pythonhosted.org/packages/90/69/2cf88e17d39a95554e1b8f87e72a2eb365f2fdfc14ad6730d429623785ee/yeedu_cli-1.0.0rc5-py3-none-any.whl
+[2024-05-07 14:07:48] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/30/28/3c5434f309fb0d21d26260e0477e3ece9d8e0e6dd78e5c5be5d99d528b44/special_agents-1.0.2.tar.gz
+[2024-05-07 14:07:48] INFO root fetch - processPackages [pymoebot]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-05-07 14:07:48] INFO root fetch - processPackages [viggoprecificacao]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-07 14:07:48] INFO root fetch - processPackages [erlab]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-05-07 14:07:48] INFO root fetch - processPackages [pymoebot]: Downloading https://files.pythonhosted.org/packages/54/19/8e6cfb0e5f8479a3de2ad54e7d804bf613e52ca146029e0102a67982229a/pymoebot-0.2.3.tar.gz
+[2024-05-07 14:07:48] INFO root fetch - processPackages [viggoprecificacao]: Downloading https://files.pythonhosted.org/packages/14/2a/b9d113c6d3e273f43bb03d72d755e992a417bf1f02943e65298514be8c14/viggoprecificacao-1.0.1.tar.gz
+[2024-05-07 14:07:48] INFO root fetch - processPackages [yeedu-cli]: Downloading https://files.pythonhosted.org/packages/e3/aa/da4fe5c54aac3b3bd31767f2ae4ee10c22271b46e1941af4c15bdc4bd8eb/yeedu_cli-4.5.4-py3-none-any.whl
+[2024-05-07 14:07:48] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/b9/44/2f83c137e8b04fe673d79230b2222237a346f97acad340c5fee58dd2e7c4/special_agents-1.0.3.tar.gz
+[2024-05-07 14:07:48] INFO root fetch - processPackages [yeedu-cli]: executing diffoscope
+[2024-05-07 14:07:48] INFO root fetch - processPackages [yeedu-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeedu_cli-1.0.0rc5-py3-none-any.whl.zip tmp/yeedu_cli-4.5.4-py3-none-any.whl.zip --markdown 20240507/y/yeedu-cli/1.0.0rc5-4.5.4/README.md --exclude *.pyd
+[2024-05-07 14:07:48] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/5c/16/87f337a6e1904578af56d66eb85bdf24fba536c5199cce7db117d7ce98d1/erlab-2.4.1.tar.gz
+[2024-05-07 14:07:49] INFO root fetch - processPackages [special-agents]: executing diffoscope
+[2024-05-07 14:07:49] INFO root fetch - processPackages [special-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/special_agents-1.0.2.tar.gz tmp/special_agents-1.0.3.tar.gz --markdown 20240507/s/special-agents/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-07 14:07:49] INFO root fetch - processPackages [pymoebot]: Downloading https://files.pythonhosted.org/packages/ac/26/5b41d26b25b6741bde080e5dd441dd7b6c25f2268a1efa85cae2db6940b4/pymoebot-0.3.0.tar.gz
+[2024-05-07 14:07:49] INFO root fetch - processPackages [viggoprecificacao]: Downloading https://files.pythonhosted.org/packages/fc/78/3c4952af39d6e37380bf371b06ec1d31aa4328f9c335deffee63ab8fb4c4/viggoprecificacao-1.0.2.tar.gz
+[2024-05-07 14:07:49] INFO root fetch - processPackages [pymoebot]: executing diffoscope
+[2024-05-07 14:07:49] INFO root fetch - processPackages [pymoebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymoebot-0.2.3.tar.gz tmp/pymoebot-0.3.0.tar.gz --markdown 20240507/p/pymoebot/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-05-07 14:07:49] INFO root fetch - processPackages [viggoprecificacao]: executing diffoscope
+[2024-05-07 14:07:49] INFO root fetch - processPackages [viggoprecificacao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viggoprecificacao-1.0.1.tar.gz tmp/viggoprecificacao-1.0.2.tar.gz --markdown 20240507/v/viggoprecificacao/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-07 14:07:49] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/35/0a/367883007a8d83f90eade3beec97079dbb94322cc5d55654839d84c4c1c5/erlab-2.4.2.tar.gz
+[2024-05-07 14:07:49] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.2.tar.gz]
+[2024-05-07 14:07:49] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.3.tar.gz]
+[2024-05-07 14:07:50] INFO root fetch - main [MainThread]: End processing [special-agents]: success
+[2024-05-07 14:07:50] INFO root fetch - processPackages [viggoprecificacao]: Remove: archive file [/home/abi/fetcher/tmp/viggoprecificacao-1.0.1.tar.gz]
+[2024-05-07 14:07:50] INFO root fetch - processPackages [viggoprecificacao]: Remove: archive file [/home/abi/fetcher/tmp/viggoprecificacao-1.0.2.tar.gz]
+[2024-05-07 14:07:50] INFO root fetch - main [MainThread]: End processing [viggoprecificacao]: success
+[2024-05-07 14:07:50] INFO root fetch - processPackages [pymoebot]: Remove: archive file [/home/abi/fetcher/tmp/pymoebot-0.2.3.tar.gz]
+[2024-05-07 14:07:50] INFO root fetch - processPackages [pymoebot]: Remove: archive file [/home/abi/fetcher/tmp/pymoebot-0.3.0.tar.gz]
+[2024-05-07 14:07:50] INFO root fetch - main [MainThread]: End processing [pymoebot]: success
+[2024-05-07 14:07:50] INFO root fetch - processPackages [yeedu-cli]: Remove: archive file [/home/abi/fetcher/tmp/yeedu_cli-1.0.0rc5-py3-none-any.whl.zip]
+[2024-05-07 14:07:50] INFO root fetch - processPackages [yeedu-cli]: Remove: archive file [/home/abi/fetcher/tmp/yeedu_cli-4.5.4-py3-none-any.whl.zip]
+[2024-05-07 14:07:50] INFO root fetch - main [MainThread]: End processing [yeedu-cli]: success
+[2024-05-07 14:07:52] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-05-07 14:07:52] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-2.4.1.tar.gz tmp/erlab-2.4.2.tar.gz --markdown 20240507/e/erlab/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-05-07 14:07:53] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.4.1.tar.gz]
+[2024-05-07 14:07:53] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.4.2.tar.gz]
+[2024-05-07 14:07:53] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-05-07 14:07:53] INFO root fetch - main [MainThread]: Store serial: [23095241]
