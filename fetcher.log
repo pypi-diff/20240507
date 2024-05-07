@@ -17289,3 +17289,78 @@ EOFError: EOF read where object expected
 [2024-05-07 11:00:02] INFO root fetch - processPackages [qiclib]: Remove: archive file [/home/abi/fetcher/tmp/qiclib-1.1.0.tar.gz]
 [2024-05-07 11:00:02] INFO root fetch - main [MainThread]: End processing [qiclib]: success
 [2024-05-07 11:00:02] INFO root fetch - main [MainThread]: Store serial: [23092554]
+[2024-05-07 11:02:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092554]
+[2024-05-07 11:02:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-07 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myswiki
+[2024-05-07 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-energy-communities-cooperator
+[2024-05-07 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitalai-release-sdk
+[2024-05-07 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-energy-communities-crm
+[2024-05-07 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-test-common
+[2024-05-07 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flexmeasures
+[2024-05-07 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-dms-auto-classification
+[2024-05-07 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-partner-statement
+[2024-05-07 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: climetlab
+[2024-05-07 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mecord-cli
+[2024-05-07 11:02:12] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-07 11:02:12] WARNING root fetch - processPackages [odoo14-addon-energy-communities-cooperator]: Skipping, unable to determine old version
+[2024-05-07 11:02:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities-cooperator] error
+[2024-05-07 11:02:12] WARNING root fetch - processPackages [myswiki]: Skipping, unable to determine old version
+[2024-05-07 11:02:12] INFO root fetch - main [MainThread]: End processing [myswiki] error
+[2024-05-07 11:02:12] WARNING root fetch - processPackages [odoo14-addon-energy-communities-crm]: Skipping, unable to determine old version
+[2024-05-07 11:02:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities-crm] error
+[2024-05-07 11:02:12] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-05-07 11:02:12] INFO root fetch - processPackages [digitalai-release-sdk]: New version: [24.1.0rc1] Old Version: [24.1.0]
+[2024-05-07 11:02:12] INFO root fetch - processPackages [odoo-addon-partner-statement]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2024-05-07 11:02:12] INFO root fetch - processPackages [auto-test-common]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-07 11:02:12] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-05-07 11:02:12] INFO root fetch - processPackages [flexmeasures]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-07 11:02:12] INFO root fetch - processPackages [climetlab]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-07 11:02:12] INFO root fetch - processPackages [digitalai-release-sdk]: Downloading https://files.pythonhosted.org/packages/7b/bc/aec9588553cbcaaf88b3014c6779b642cdc4d1145d05a9f3fc8a976c8893/digitalai_release_sdk-24.1.0.tar.gz
+[2024-05-07 11:02:12] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/f4/fc/0654730a6eee7968d511f8371c87ddc4b531eba148192f8a79bffd2724c7/odoo_addon_dms_auto_classification-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-07 11:02:12] INFO root fetch - processPackages [climetlab]: Downloading https://files.pythonhosted.org/packages/db/6d/a65baa433c96d08ee4c6d1cfbe1c0a5763bc35da5ded747d4a8eddebb428/climetlab-0.9.8.tar.gz
+[2024-05-07 11:02:12] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/50/a0/85220efd5b975420e3c1e28bf1cc91a37a8b59c44bbd17e60caf60552163/auto-test-common-2.0.3.tar.gz
+[2024-05-07 11:02:12] INFO root fetch - processPackages [odoo-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/58/40/da7c204444e2b57c3b3377f0d5df91399d5efeb38ccf61235ef6c54bb86b/odoo_addon_partner_statement-16.0.1.0.1-py3-none-any.whl
+[2024-05-07 11:02:12] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-05-07 11:02:12] INFO root fetch - processPackages [flexmeasures]: Downloading https://files.pythonhosted.org/packages/54/d6/5f4106babfe3f4bed4f79ff5e21ee46b716203802745656119b7921714e7/flexmeasures-0.9.3.tar.gz
+[2024-05-07 11:02:12] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-05-07 11:02:12] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240507/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-07 11:02:12] INFO root fetch - processPackages [digitalai-release-sdk]: Downloading https://files.pythonhosted.org/packages/f8/0d/0c29d004f254c030a1cf4d875fcd185481f06316d7c804caa2dd946bbeb3/digitalai_release_sdk-24.1.0rc1.tar.gz
+[2024-05-07 11:02:13] INFO root fetch - processPackages [climetlab]: Downloading https://files.pythonhosted.org/packages/83/c3/c4d839d84ba4b462b80d34c1f967286e0291e6a2bf10ae84af528abaff6f/climetlab-0.9.9.tar.gz
+[2024-05-07 11:02:13] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/ff/33/41aa2ba53260f6c7f75ef94700fbf8baacba9cd8d6b9cfb4aa2bb1ea8921/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-07 11:02:13] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/2c/05/28ba518532df3987777a585b67c468edc6255c1e9ba5f815625aa3c957fe/auto-test-common-2.0.4.tar.gz
+[2024-05-07 11:02:13] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: executing diffoscope
+[2024-05-07 11:02:13] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-dms-auto-classification/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-07 11:02:13] INFO root fetch - processPackages [odoo-addon-partner-statement]: Downloading https://files.pythonhosted.org/packages/bc/d4/87c69e24abb9b7adb28789a7c4e857d60908acda9631bf276294e97c81f1/odoo_addon_partner_statement-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-07 11:02:13] INFO root fetch - processPackages [digitalai-release-sdk]: executing diffoscope
+[2024-05-07 11:02:13] INFO root fetch - processPackages [digitalai-release-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalai_release_sdk-24.1.0.tar.gz tmp/digitalai_release_sdk-24.1.0rc1.tar.gz --markdown 20240507/d/digitalai-release-sdk/24.1.0-24.1.0rc1/README.md --exclude *.pyd
+[2024-05-07 11:02:13] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2024-05-07 11:02:13] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-2.0.3.tar.gz tmp/auto-test-common-2.0.4.tar.gz --markdown 20240507/a/auto-test-common/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-07 11:02:13] INFO root fetch - processPackages [climetlab]: executing diffoscope
+[2024-05-07 11:02:13] INFO root fetch - processPackages [climetlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climetlab-0.9.8.tar.gz tmp/climetlab-0.9.9.tar.gz --markdown 20240507/c/climetlab/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-07 11:02:13] INFO root fetch - processPackages [odoo-addon-partner-statement]: executing diffoscope
+[2024-05-07 11:02:13] INFO root fetch - processPackages [odoo-addon-partner-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_statement-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_partner_statement-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-partner-statement/16.0.1.0.1-16.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-07 11:02:13] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-05-07 11:02:13] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-05-07 11:02:13] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-05-07 11:02:13] INFO root fetch - processPackages [flexmeasures]: Downloading https://files.pythonhosted.org/packages/36/f9/a77949c243c7adde4c28f2a6861c0208ad20e4f95832238f910fdbea1103/flexmeasures-0.9.4.tar.gz
+[2024-05-07 11:02:13] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-07 11:02:13] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-07 11:02:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-auto-classification]: success
+[2024-05-07 11:02:14] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.3.tar.gz]
+[2024-05-07 11:02:14] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.4.tar.gz]
+[2024-05-07 11:02:14] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2024-05-07 11:02:14] INFO root fetch - processPackages [odoo-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_statement-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-07 11:02:14] INFO root fetch - processPackages [odoo-addon-partner-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_statement-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-07 11:02:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-statement]: success
+[2024-05-07 11:02:14] INFO root fetch - processPackages [flexmeasures]: executing diffoscope
+[2024-05-07 11:02:14] INFO root fetch - processPackages [flexmeasures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexmeasures-0.9.3.tar.gz tmp/flexmeasures-0.9.4.tar.gz --markdown 20240507/f/flexmeasures/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-07 11:02:14] INFO root fetch - processPackages [climetlab]: Remove: archive file [/home/abi/fetcher/tmp/climetlab-0.9.8.tar.gz]
+[2024-05-07 11:02:14] INFO root fetch - processPackages [climetlab]: Remove: archive file [/home/abi/fetcher/tmp/climetlab-0.9.9.tar.gz]
+[2024-05-07 11:02:14] INFO root fetch - main [MainThread]: End processing [climetlab]: success
+[2024-05-07 11:02:14] INFO root fetch - processPackages [digitalai-release-sdk]: Remove: archive file [/home/abi/fetcher/tmp/digitalai_release_sdk-24.1.0.tar.gz]
+[2024-05-07 11:02:14] INFO root fetch - processPackages [digitalai-release-sdk]: Remove: archive file [/home/abi/fetcher/tmp/digitalai_release_sdk-24.1.0rc1.tar.gz]
+[2024-05-07 11:02:14] INFO root fetch - main [MainThread]: End processing [digitalai-release-sdk]: success
+[2024-05-07 11:02:16] INFO root fetch - processPackages [flexmeasures]: Remove: archive file [/home/abi/fetcher/tmp/flexmeasures-0.9.3.tar.gz]
+[2024-05-07 11:02:16] INFO root fetch - processPackages [flexmeasures]: Remove: archive file [/home/abi/fetcher/tmp/flexmeasures-0.9.4.tar.gz]
+[2024-05-07 11:02:16] INFO root fetch - main [MainThread]: End processing [flexmeasures]: success
+[2024-05-07 11:02:16] INFO root fetch - main [MainThread]: Store serial: [23092589]
