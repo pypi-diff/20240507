@@ -12399,3 +12399,15 @@ EOFError: EOF read where object expected
 [2024-05-07 07:56:36] INFO root fetch - processPackages [aimhub-client]: Remove: archive file [/home/abi/fetcher/tmp/aimhub_client-0.5.0.tar.gz]
 [2024-05-07 07:56:36] INFO root fetch - main [MainThread]: End processing [aimhub-client]: success
 [2024-05-07 07:56:36] INFO root fetch - main [MainThread]: Store serial: [23090165]
+[2024-05-07 07:58:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090165]
+[2024-05-07 07:58:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-07 07:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-linkedmall20230930
+[2024-05-07 07:58:45] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-07 07:58:45] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: Downloading https://files.pythonhosted.org/packages/4f/cc/50e79da6c621214cddcfbf5f59b9d43bc28b8a0a48149cdd01c1afb6835f/alibabacloud_linkedmall20230930-2.2.0.tar.gz
+[2024-05-07 07:58:46] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: Downloading https://files.pythonhosted.org/packages/65/d2/a5ad15cd93a4833510c66533d81db9110e6cb17a0755f31e7d7848498393/alibabacloud_linkedmall20230930-2.2.1.tar.gz
+[2024-05-07 07:58:46] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: executing diffoscope
+[2024-05-07 07:58:46] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_linkedmall20230930-2.2.0.tar.gz tmp/alibabacloud_linkedmall20230930-2.2.1.tar.gz --markdown 20240507/a/alibabacloud-linkedmall20230930/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-07 07:58:46] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkedmall20230930-2.2.0.tar.gz]
+[2024-05-07 07:58:46] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkedmall20230930-2.2.1.tar.gz]
+[2024-05-07 07:58:46] INFO root fetch - main [MainThread]: End processing [alibabacloud-linkedmall20230930]: success
+[2024-05-07 07:58:46] INFO root fetch - main [MainThread]: Store serial: [23090173]
