@@ -10769,3 +10769,25 @@ EOFError: EOF read where object expected
 [2024-05-07 06:20:25] WARNING root fetch - processPackages [rosco]: Skipping package: exceeds size limit 11520537>=10485760
 [2024-05-07 06:20:25] INFO root fetch - main [MainThread]: End processing [rosco] error
 [2024-05-07 06:20:25] INFO root fetch - main [MainThread]: Store serial: [23089367]
+[2024-05-07 06:22:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089367]
+[2024-05-07 06:22:34] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-07 06:24:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089391]
+[2024-05-07 06:24:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 06:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonsensoryz
+[2024-05-07 06:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whyhow
+[2024-05-07 06:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TDCRPy
+[2024-05-07 06:24:39] WARNING root fetch - processPackages [nonsensoryz]: Skipping, unable to determine old version
+[2024-05-07 06:24:39] INFO root fetch - main [MainThread]: End processing [nonsensoryz] error
+[2024-05-07 06:24:39] INFO root fetch - processPackages [whyhow]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-07 06:24:39] INFO root fetch - processPackages [TDCRPy]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-05-07 06:24:39] INFO root fetch - processPackages [whyhow]: Downloading https://files.pythonhosted.org/packages/54/59/67df81144292a083aa417bb3083f929df17a49c36156a8ed0e2c2704d4a9/whyhow-0.0.4.tar.gz
+[2024-05-07 06:24:39] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/b7/c1/72a8b13a759028da1b251f835018dab25db17f41795901695d8516e2e82f/tdcrpy-1.9.7.tar.gz
+[2024-05-07 06:24:40] WARNING root fetch - processPackages [TDCRPy]: Skipping package: exceeds size limit 22239094>=10485760
+[2024-05-07 06:24:40] INFO root fetch - main [MainThread]: End processing [TDCRPy] error
+[2024-05-07 06:24:40] INFO root fetch - processPackages [whyhow]: Downloading https://files.pythonhosted.org/packages/5a/b3/a47a1b4a8202cecc98233fd96f76cf0c21a4950683dfc0bc093892b0fd20/whyhow-0.0.5.tar.gz
+[2024-05-07 06:24:40] INFO root fetch - processPackages [whyhow]: executing diffoscope
+[2024-05-07 06:24:40] INFO root fetch - processPackages [whyhow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyhow-0.0.4.tar.gz tmp/whyhow-0.0.5.tar.gz --markdown 20240507/w/whyhow/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-07 06:24:40] INFO root fetch - processPackages [whyhow]: Remove: archive file [/home/abi/fetcher/tmp/whyhow-0.0.4.tar.gz]
+[2024-05-07 06:24:40] INFO root fetch - processPackages [whyhow]: Remove: archive file [/home/abi/fetcher/tmp/whyhow-0.0.5.tar.gz]
+[2024-05-07 06:24:40] INFO root fetch - main [MainThread]: End processing [whyhow]: success
+[2024-05-07 06:24:40] INFO root fetch - main [MainThread]: Store serial: [23089401]
