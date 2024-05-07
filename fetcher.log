@@ -10848,3 +10848,24 @@ EOFError: EOF read where object expected
 [2024-05-07 06:29:01] INFO root fetch - processPackages [xtlib]: Remove: archive file [/home/abi/fetcher/tmp/xtlib-1.0.0rc2.tar.gz]
 [2024-05-07 06:29:01] INFO root fetch - main [MainThread]: End processing [xtlib]: success
 [2024-05-07 06:29:01] INFO root fetch - main [MainThread]: Store serial: [23089426]
+[2024-05-07 06:31:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089426]
+[2024-05-07 06:31:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 06:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: T0
+[2024-05-07 06:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fms-robot-plugin
+[2024-05-07 06:31:10] INFO root fetch - processPackages [T0]: New version: [3.1.6] Old Version: [3.1.5.2]
+[2024-05-07 06:31:10] INFO root fetch - processPackages [fms-robot-plugin]: New version: [0.2.2rc0] Old Version: [0.2.1rc1]
+[2024-05-07 06:31:10] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/8d/11/62d761972bb1c32634aae2003e3b399db22068897bd622a0c5c56d06712e/fms_robot_plugin-0.2.1rc1.tar.gz
+[2024-05-07 06:31:10] INFO root fetch - processPackages [T0]: Downloading https://files.pythonhosted.org/packages/26/c3/b7749dfb01b644e75bf3f6f5c27bdc82fd293e55f7f83491ed5d1323b45c/t0-3.1.5.2.tar.gz
+[2024-05-07 06:31:10] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/99/e1/d6459b9950703fd32fadc77194ac1e3fc78428b2e4dd0b2bc908b8591ae0/fms_robot_plugin-0.2.2rc0.tar.gz
+[2024-05-07 06:31:10] INFO root fetch - processPackages [T0]: Downloading https://files.pythonhosted.org/packages/e9/35/65691066b9234be2381dedeabe485566192a3a84cd5cb080fbf4b70964a6/t0-3.1.6.tar.gz
+[2024-05-07 06:31:10] INFO root fetch - processPackages [fms-robot-plugin]: executing diffoscope
+[2024-05-07 06:31:10] INFO root fetch - processPackages [fms-robot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fms_robot_plugin-0.2.1rc1.tar.gz tmp/fms_robot_plugin-0.2.2rc0.tar.gz --markdown 20240507/f/fms-robot-plugin/0.2.1rc1-0.2.2rc0/README.md --exclude *.pyd
+[2024-05-07 06:31:11] INFO root fetch - processPackages [T0]: executing diffoscope
+[2024-05-07 06:31:11] INFO root fetch - processPackages [T0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t0-3.1.5.2.tar.gz tmp/t0-3.1.6.tar.gz --markdown 20240507/T/T0/3.1.5.2-3.1.6/README.md --exclude *.pyd
+[2024-05-07 06:31:11] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.2.1rc1.tar.gz]
+[2024-05-07 06:31:11] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.2.2rc0.tar.gz]
+[2024-05-07 06:31:11] INFO root fetch - main [MainThread]: End processing [fms-robot-plugin]: success
+[2024-05-07 06:31:11] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-3.1.5.2.tar.gz]
+[2024-05-07 06:31:11] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-3.1.6.tar.gz]
+[2024-05-07 06:31:11] INFO root fetch - main [MainThread]: End processing [T0]: success
+[2024-05-07 06:31:11] INFO root fetch - main [MainThread]: Store serial: [23089431]
