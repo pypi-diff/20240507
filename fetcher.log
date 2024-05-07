@@ -14059,3 +14059,75 @@ EOFError: EOF read where object expected
 [2024-05-07 08:55:10] INFO root fetch - processPackages [iota-sdk]: Remove: archive file [/home/abi/fetcher/tmp/iota_sdk-1.1.4-cp38-none-win_amd64.whl.zip]
 [2024-05-07 08:55:10] INFO root fetch - main [MainThread]: End processing [iota-sdk]: success
 [2024-05-07 08:55:10] INFO root fetch - main [MainThread]: Store serial: [23091049]
+[2024-05-07 08:57:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091049]
+[2024-05-07 08:57:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-07 08:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-sumologic
+[2024-05-07 08:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-snowflake
+[2024-05-07 08:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brianpackage
+[2024-05-07 08:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: new-dt-algorithm
+[2024-05-07 08:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnx2tf
+[2024-05-07 08:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omegi-python-instrumentation
+[2024-05-07 08:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-venafi
+[2024-05-07 08:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stopwordz
+[2024-05-07 08:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: copy-to
+[2024-05-07 08:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: connectlife
+[2024-05-07 08:57:19] WARNING root fetch - processPackages [connectlife]: Skipping, unable to determine old version
+[2024-05-07 08:57:19] INFO root fetch - processPackages [connectlife]: Start processing: ftrack-qt-style
+[2024-05-07 08:57:19] INFO root fetch - main [MainThread]: End processing [connectlife] error
+[2024-05-07 08:57:19] WARNING root fetch - processPackages [omegi-python-instrumentation]: Skipping, unable to determine old version
+[2024-05-07 08:57:19] INFO root fetch - main [MainThread]: End processing [omegi-python-instrumentation] error
+[2024-05-07 08:57:19] INFO root fetch - processPackages [copy-to]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-07 08:57:19] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2024-05-07 08:57:19] WARNING root fetch - processPackages [brianpackage]: Skipping, unable to determine old version
+[2024-05-07 08:57:19] WARNING root fetch - processPackages [new-dt-algorithm]: Skipping, unable to determine old version
+[2024-05-07 08:57:19] INFO root fetch - main [MainThread]: End processing [brianpackage] error
+[2024-05-07 08:57:19] INFO root fetch - main [MainThread]: End processing [new-dt-algorithm] error
+[2024-05-07 08:57:19] WARNING root fetch - processPackages [stopwordz]: Skipping, unable to determine old version
+[2024-05-07 08:57:19] INFO root fetch - main [MainThread]: End processing [stopwordz] error
+[2024-05-07 08:57:19] INFO root fetch - processPackages [copy-to]: Downloading https://files.pythonhosted.org/packages/3f/bd/552ffe4c7bf8dac05eee1ff1cfa399e95179c832a683082191c1bbc84635/copy-to-1.3.8.tar.gz
+[2024-05-07 08:57:19] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-05-07 08:57:19] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-07 08:57:19] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.9.0a1713292049] Old Version: [1.9.0a1712991486]
+[2024-05-07 08:57:19] INFO root fetch - processPackages [ftrack-qt-style]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-07 08:57:19] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2024-05-07 08:57:19] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-05-07 08:57:19] INFO root fetch - processPackages [copy-to]: Downloading https://files.pythonhosted.org/packages/d5/9a/e1cf706621904d886141bebf3c24390caf4c9135cae97c5a2df84d95731c/copy-to-1.3.9.tar.gz
+[2024-05-07 08:57:19] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/d4/ba/b7bda1ab1fe8291faacca84d278acd6abaf9f99bfd9ed88965e8fcc7d6af/pulumi_venafi-1.9.0a1712991486.tar.gz
+[2024-05-07 08:57:19] INFO root fetch - processPackages [ftrack-qt-style]: Downloading https://files.pythonhosted.org/packages/32/29/ec139ab748c26b32e372b9c78775649567078e209fd85d150eb7e454eee7/ftrack_qt_style-2.2.0.tar.gz
+[2024-05-07 08:57:19] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2024-05-07 08:57:19] INFO root fetch - processPackages [copy-to]: executing diffoscope
+[2024-05-07 08:57:19] INFO root fetch - processPackages [copy-to]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copy-to-1.3.8.tar.gz tmp/copy-to-1.3.9.tar.gz --markdown 20240507/c/copy-to/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-07 08:57:19] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-05-07 08:57:19] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/db/01/dcb11920f0787807e87c2c697ce7f79b7068f63cdc9de29171958916432b/pulumi_venafi-1.9.0a1713292049.tar.gz
+[2024-05-07 08:57:19] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2024-05-07 08:57:19] INFO root fetch - processPackages [ftrack-qt-style]: Downloading https://files.pythonhosted.org/packages/42/9c/d1ea9abbc57b28b5fb485b5ba488ce3c88d0d4925bb358edc6f41079e694/ftrack_qt_style-2.2.1.tar.gz
+[2024-05-07 08:57:19] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2024-05-07 08:57:19] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2024-05-07 08:57:19] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.9.0a1712991486.tar.gz tmp/pulumi_venafi-1.9.0a1713292049.tar.gz --markdown 20240507/p/pulumi-venafi/1.9.0a1712991486-1.9.0a1713292049/README.md --exclude *.pyd
+[2024-05-07 08:57:19] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-05-07 08:57:19] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240507/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-05-07 08:57:19] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2024-05-07 08:57:19] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20240507/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/README.md --exclude *.pyd
+[2024-05-07 08:57:20] INFO root fetch - processPackages [copy-to]: Remove: archive file [/home/abi/fetcher/tmp/copy-to-1.3.8.tar.gz]
+[2024-05-07 08:57:20] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2024-05-07 08:57:20] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20240507/o/onnx2tf/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-07 08:57:20] INFO root fetch - processPackages [copy-to]: Remove: archive file [/home/abi/fetcher/tmp/copy-to-1.3.9.tar.gz]
+[2024-05-07 08:57:20] INFO root fetch - main [MainThread]: End processing [copy-to]: success
+[2024-05-07 08:57:20] INFO root fetch - processPackages [ftrack-qt-style]: executing diffoscope
+[2024-05-07 08:57:20] INFO root fetch - processPackages [ftrack-qt-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_qt_style-2.2.0.tar.gz tmp/ftrack_qt_style-2.2.1.tar.gz --markdown 20240507/f/ftrack-qt-style/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-07 08:57:20] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1712991486.tar.gz]
+[2024-05-07 08:57:20] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1713292049.tar.gz]
+[2024-05-07 08:57:20] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2024-05-07 08:57:20] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2024-05-07 08:57:20] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2024-05-07 08:57:20] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2024-05-07 08:57:21] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-05-07 08:57:21] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-05-07 08:57:21] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-05-07 08:57:21] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2024-05-07 08:57:21] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2024-05-07 08:57:21] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2024-05-07 08:57:24] INFO root fetch - processPackages [ftrack-qt-style]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_qt_style-2.2.0.tar.gz]
+[2024-05-07 08:57:24] INFO root fetch - processPackages [ftrack-qt-style]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_qt_style-2.2.1.tar.gz]
+[2024-05-07 08:57:24] INFO root fetch - main [MainThread]: End processing [ftrack-qt-style]: success
+[2024-05-07 08:57:24] INFO root fetch - main [MainThread]: Store serial: [23091096]
