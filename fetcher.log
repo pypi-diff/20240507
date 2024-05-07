@@ -3437,3 +3437,33 @@ EOFError: EOF read where object expected
 [2024-05-07 02:23:57] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.1.4rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-07 02:23:57] INFO root fetch - main [MainThread]: End processing [OpenGeode-Inspector]: success
 [2024-05-07 02:23:57] INFO root fetch - main [MainThread]: Store serial: [23086530]
+[2024-05-07 02:26:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086530]
+[2024-05-07 02:26:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 02:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: profcomff-definitions
+[2024-05-07 02:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2024-05-07 02:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-serverless-clamscan
+[2024-05-07 02:26:06] INFO root fetch - processPackages [profcomff-definitions]: New version: [2024.5.7] Old Version: [2024.5.5.2]
+[2024-05-07 02:26:06] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-05-07 02:26:06] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-07 02:26:06] INFO root fetch - processPackages [profcomff-definitions]: Downloading https://files.pythonhosted.org/packages/a0/0a/146fce674b83733608afaa9975ba8eac3e45d4454cd3e39df64cc331f64e/profcomff_definitions-2024.5.5.2.tar.gz
+[2024-05-07 02:26:06] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-05-07 02:26:06] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-07 02:26:06] INFO root fetch - processPackages [profcomff-definitions]: Downloading https://files.pythonhosted.org/packages/3b/ad/cbe50962969fe15e57118da29b0f0fbb0bad97cf741ef20e9b7341dc776d/profcomff_definitions-2024.5.7.tar.gz
+[2024-05-07 02:26:06] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-05-07 02:26:06] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-07 02:26:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-07 02:26:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240507/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-07 02:26:07] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-05-07 02:26:07] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240507/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-05-07 02:26:07] INFO root fetch - processPackages [profcomff-definitions]: executing diffoscope
+[2024-05-07 02:26:07] INFO root fetch - processPackages [profcomff-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profcomff_definitions-2024.5.5.2.tar.gz tmp/profcomff_definitions-2024.5.7.tar.gz --markdown 20240507/p/profcomff-definitions/2024.5.5.2-2024.5.7/README.md --exclude *.pyd
+[2024-05-07 02:26:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-07 02:26:07] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-07 02:26:07] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-07 02:26:07] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-05-07 02:26:07] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-05-07 02:26:07] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-05-07 02:26:07] INFO root fetch - processPackages [profcomff-definitions]: Remove: archive file [/home/abi/fetcher/tmp/profcomff_definitions-2024.5.5.2.tar.gz]
+[2024-05-07 02:26:07] INFO root fetch - processPackages [profcomff-definitions]: Remove: archive file [/home/abi/fetcher/tmp/profcomff_definitions-2024.5.7.tar.gz]
+[2024-05-07 02:26:07] INFO root fetch - main [MainThread]: End processing [profcomff-definitions]: success
+[2024-05-07 02:26:07] INFO root fetch - main [MainThread]: Store serial: [23086554]
