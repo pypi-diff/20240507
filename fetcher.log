@@ -10599,3 +10599,48 @@ EOFError: EOF read where object expected
 [2024-05-07 06:09:31] INFO root fetch - processPackages [hello-robot-stretch-body]: Remove: archive file [/home/abi/fetcher/tmp/hello_robot_stretch_body-0.7.9.tar.gz]
 [2024-05-07 06:09:31] INFO root fetch - main [MainThread]: End processing [hello-robot-stretch-body]: success
 [2024-05-07 06:09:31] INFO root fetch - main [MainThread]: Store serial: [23089282]
+[2024-05-07 06:11:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089282]
+[2024-05-07 06:11:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 06:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Way2DSSAT
+[2024-05-07 06:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AppAuthN
+[2024-05-07 06:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MainShortcuts
+[2024-05-07 06:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-telegram-broadcast
+[2024-05-07 06:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: automyte
+[2024-05-07 06:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: REVHubInterface
+[2024-05-07 06:11:40] INFO root fetch - processPackages [Way2DSSAT]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-07 06:11:40] INFO root fetch - processPackages [python-telegram-broadcast]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 06:11:40] INFO root fetch - processPackages [MainShortcuts]: New version: [1.6.86] Old Version: [1.6.85]
+[2024-05-07 06:11:40] WARNING root fetch - processPackages [automyte]: Skipping, unable to determine old version
+[2024-05-07 06:11:40] INFO root fetch - main [MainThread]: End processing [automyte] error
+[2024-05-07 06:11:40] WARNING root fetch - processPackages [REVHubInterface]: Skipping, unable to determine old version
+[2024-05-07 06:11:40] INFO root fetch - main [MainThread]: End processing [REVHubInterface] error
+[2024-05-07 06:11:40] INFO root fetch - processPackages [Way2DSSAT]: Downloading https://files.pythonhosted.org/packages/38/3d/226769d119c3f820e3e884c71a1884a3efa4c98e53d8bf72dc5632efb829/way2dssat-0.0.5.tar.gz
+[2024-05-07 06:11:40] INFO root fetch - processPackages [AppAuthN]: New version: [0.0.17] Old Version: [0.0.16]
+[2024-05-07 06:11:40] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/b7/3e/79cb308a26c7a6d1287181a9e5dfa2ebab132624bc02db3db16c81b9193e/python_telegram_broadcast-0.8.0.tar.gz
+[2024-05-07 06:11:40] INFO root fetch - processPackages [MainShortcuts]: Downloading https://files.pythonhosted.org/packages/ad/a8/12174d7a54f2743b59da6495640b01ac9f79e018e245ab02c13935568abc/mainshortcuts-1.6.85.tar.gz
+[2024-05-07 06:11:40] INFO root fetch - processPackages [AppAuthN]: Downloading https://files.pythonhosted.org/packages/11/9f/3ed82a4b973937d3a25dd32b7f172b7f147890e3534846ae4c02da6e2cfb/AppAuthN-0.0.16.tar.gz
+[2024-05-07 06:11:40] INFO root fetch - processPackages [Way2DSSAT]: Downloading https://files.pythonhosted.org/packages/12/9a/4cd4bf362200ecf0b165466f745bb937bb4e6aabcf246864cd2a7c747b11/way2dssat-0.0.6.tar.gz
+[2024-05-07 06:11:41] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/2e/c6/e0cef1c116cc5949bb20e99f2168fc023a63e4efbda81b0a82625ca9b78d/python_telegram_broadcast-0.9.0.tar.gz
+[2024-05-07 06:11:41] INFO root fetch - processPackages [MainShortcuts]: Downloading https://files.pythonhosted.org/packages/0e/3e/03572d9cec42204ee96ddf2ccffe9bc0e28ab008f2814a59bced50cdadf6/mainshortcuts-1.6.86.tar.gz
+[2024-05-07 06:11:41] INFO root fetch - processPackages [Way2DSSAT]: executing diffoscope
+[2024-05-07 06:11:41] INFO root fetch - processPackages [Way2DSSAT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/way2dssat-0.0.5.tar.gz tmp/way2dssat-0.0.6.tar.gz --markdown 20240507/W/Way2DSSAT/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-07 06:11:41] INFO root fetch - processPackages [AppAuthN]: Downloading https://files.pythonhosted.org/packages/8f/55/8573cc1bdb63ef16838c58ba414cecfbe1314c84c2b4c76cce0b740da70c/AppAuthN-0.0.17.tar.gz
+[2024-05-07 06:11:41] INFO root fetch - processPackages [python-telegram-broadcast]: executing diffoscope
+[2024-05-07 06:11:41] INFO root fetch - processPackages [python-telegram-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_telegram_broadcast-0.8.0.tar.gz tmp/python_telegram_broadcast-0.9.0.tar.gz --markdown 20240507/p/python-telegram-broadcast/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 06:11:41] INFO root fetch - processPackages [MainShortcuts]: executing diffoscope
+[2024-05-07 06:11:41] INFO root fetch - processPackages [MainShortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainshortcuts-1.6.85.tar.gz tmp/mainshortcuts-1.6.86.tar.gz --markdown 20240507/M/MainShortcuts/1.6.85-1.6.86/README.md --exclude *.pyd
+[2024-05-07 06:11:41] INFO root fetch - processPackages [AppAuthN]: executing diffoscope
+[2024-05-07 06:11:41] INFO root fetch - processPackages [AppAuthN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppAuthN-0.0.16.tar.gz tmp/AppAuthN-0.0.17.tar.gz --markdown 20240507/A/AppAuthN/0.0.16-0.0.17/README.md --exclude *.pyd
+[2024-05-07 06:11:41] INFO root fetch - processPackages [Way2DSSAT]: Remove: archive file [/home/abi/fetcher/tmp/way2dssat-0.0.5.tar.gz]
+[2024-05-07 06:11:41] INFO root fetch - processPackages [Way2DSSAT]: Remove: archive file [/home/abi/fetcher/tmp/way2dssat-0.0.6.tar.gz]
+[2024-05-07 06:11:41] INFO root fetch - main [MainThread]: End processing [Way2DSSAT]: success
+[2024-05-07 06:11:41] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python_telegram_broadcast-0.8.0.tar.gz]
+[2024-05-07 06:11:41] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python_telegram_broadcast-0.9.0.tar.gz]
+[2024-05-07 06:11:41] INFO root fetch - main [MainThread]: End processing [python-telegram-broadcast]: success
+[2024-05-07 06:11:41] INFO root fetch - processPackages [MainShortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.85.tar.gz]
+[2024-05-07 06:11:41] INFO root fetch - processPackages [MainShortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.86.tar.gz]
+[2024-05-07 06:11:41] INFO root fetch - main [MainThread]: End processing [MainShortcuts]: success
+[2024-05-07 06:11:41] INFO root fetch - processPackages [AppAuthN]: Remove: archive file [/home/abi/fetcher/tmp/AppAuthN-0.0.16.tar.gz]
+[2024-05-07 06:11:41] INFO root fetch - processPackages [AppAuthN]: Remove: archive file [/home/abi/fetcher/tmp/AppAuthN-0.0.17.tar.gz]
+[2024-05-07 06:11:41] INFO root fetch - main [MainThread]: End processing [AppAuthN]: success
+[2024-05-07 06:11:41] INFO root fetch - main [MainThread]: Store serial: [23089306]
