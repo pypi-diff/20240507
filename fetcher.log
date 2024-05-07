@@ -14239,3 +14239,51 @@ EOFError: EOF read where object expected
 [2024-05-07 09:01:57] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-05-07 09:01:57] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-05-07 09:01:57] INFO root fetch - main [MainThread]: Store serial: [23091169]
+[2024-05-07 09:04:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091169]
+[2024-05-07 09:04:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 09:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqio-nightly
+[2024-05-07 09:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-vault
+[2024-05-07 09:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xurpas-data-quality
+[2024-05-07 09:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-telegram-broadcast
+[2024-05-07 09:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fosslight-scanner
+[2024-05-07 09:04:06] INFO root fetch - processPackages [xurpas-data-quality]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-07 09:04:06] INFO root fetch - processPackages [python-telegram-broadcast]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-07 09:04:06] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-05-07 09:04:06] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/66/67/9e13388687fe4f4ac924492b24d4a07dc500ca278ab978f198640613efac/xurpas_data_quality-0.0.2-py3-none-any.whl
+[2024-05-07 09:04:06] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/ad/a8/be20209c6074e543ef01f3e0c78088a55991e44287406cafa1d80d9605bc/python_telegram_broadcast-0.9.1.tar.gz
+[2024-05-07 09:04:06] INFO root fetch - processPackages [pulumi-vault]: New version: [6.2.0a1715063875] Old Version: [6.2.0a1714566084]
+[2024-05-07 09:04:06] INFO root fetch - processPackages [fosslight-scanner]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-07 09:04:06] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-05-07 09:04:07] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/6b/0d/2794dabc459510727f431d570775e0bd99daff334e8fa7f10d38d9947088/pulumi_vault-6.2.0a1714566084.tar.gz
+[2024-05-07 09:04:07] INFO root fetch - processPackages [fosslight-scanner]: Downloading https://files.pythonhosted.org/packages/29/52/ebbdf6a6e063398271f8932f5b6fefdcd270f750b972a29bf2f956dd3cc7/fosslight_scanner-1.7.8.tar.gz
+[2024-05-07 09:04:07] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-05-07 09:04:07] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/2c/a5/8d381fbb3660cf1070fd8c44721fb68300f61b22dc6eecb2423180b8b2b6/xurpas_data_quality-0.0.3-py3-none-any.whl
+[2024-05-07 09:04:07] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/2a/27/a24a43fe7cf3b524ba0eb77522c18e39f21898b5055adf1749d8decf9367/python_telegram_broadcast-0.9.2.tar.gz
+[2024-05-07 09:04:07] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-05-07 09:04:07] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240507/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-05-07 09:04:07] INFO root fetch - processPackages [xurpas-data-quality]: executing diffoscope
+[2024-05-07 09:04:07] INFO root fetch - processPackages [xurpas-data-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xurpas_data_quality-0.0.2-py3-none-any.whl.zip tmp/xurpas_data_quality-0.0.3-py3-none-any.whl.zip --markdown 20240507/x/xurpas-data-quality/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-07 09:04:07] INFO root fetch - processPackages [python-telegram-broadcast]: executing diffoscope
+[2024-05-07 09:04:07] INFO root fetch - processPackages [python-telegram-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_telegram_broadcast-0.9.1.tar.gz tmp/python_telegram_broadcast-0.9.2.tar.gz --markdown 20240507/p/python-telegram-broadcast/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-07 09:04:07] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/40/ab/030db184f8a2b03e258c0d9560f31b7d316485ab0ff895961a38c545bf21/pulumi_vault-6.2.0a1715063875.tar.gz
+[2024-05-07 09:04:07] INFO root fetch - processPackages [fosslight-scanner]: Downloading https://files.pythonhosted.org/packages/49/60/6eb1e1a4606d6df3400213c55f545bc24a747a7ac1293839763561673e0d/fosslight_scanner-1.7.9.tar.gz
+[2024-05-07 09:04:07] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-05-07 09:04:07] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.2.0a1714566084.tar.gz tmp/pulumi_vault-6.2.0a1715063875.tar.gz --markdown 20240507/p/pulumi-vault/6.2.0a1714566084-6.2.0a1715063875/README.md --exclude *.pyd
+[2024-05-07 09:04:07] INFO root fetch - processPackages [fosslight-scanner]: executing diffoscope
+[2024-05-07 09:04:07] INFO root fetch - processPackages [fosslight-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_scanner-1.7.8.tar.gz tmp/fosslight_scanner-1.7.9.tar.gz --markdown 20240507/f/fosslight-scanner/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-07 09:04:07] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.2-py3-none-any.whl.zip]
+[2024-05-07 09:04:07] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.3-py3-none-any.whl.zip]
+[2024-05-07 09:04:07] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality]: success
+[2024-05-07 09:04:08] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python_telegram_broadcast-0.9.1.tar.gz]
+[2024-05-07 09:04:08] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python_telegram_broadcast-0.9.2.tar.gz]
+[2024-05-07 09:04:08] INFO root fetch - main [MainThread]: End processing [python-telegram-broadcast]: success
+[2024-05-07 09:04:08] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-05-07 09:04:08] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-05-07 09:04:08] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-05-07 09:04:08] INFO root fetch - processPackages [fosslight-scanner]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_scanner-1.7.8.tar.gz]
+[2024-05-07 09:04:08] INFO root fetch - processPackages [fosslight-scanner]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_scanner-1.7.9.tar.gz]
+[2024-05-07 09:04:08] INFO root fetch - main [MainThread]: End processing [fosslight-scanner]: success
+[2024-05-07 09:04:09] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1714566084.tar.gz]
+[2024-05-07 09:04:09] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715063875.tar.gz]
+[2024-05-07 09:04:09] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-05-07 09:04:09] INFO root fetch - main [MainThread]: Store serial: [23091181]
