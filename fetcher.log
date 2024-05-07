@@ -8346,3 +8346,42 @@ EOFError: EOF read where object expected
 [2024-05-07 04:03:16] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
 [2024-05-07 04:03:16] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2024-05-07 04:03:16] INFO root fetch - main [MainThread]: Store serial: [23088295]
+[2024-05-07 04:05:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088295]
+[2024-05-07 04:05:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 04:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: draggable-charts
+[2024-05-07 04:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-telegram-broadcast
+[2024-05-07 04:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmauri
+[2024-05-07 04:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: starlette-compress
+[2024-05-07 04:05:25] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-07 04:05:25] INFO root fetch - processPackages [draggable-charts]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-07 04:05:25] INFO root fetch - processPackages [python-telegram-broadcast]: New version: [0.6.2] Old Version: [0.6]
+[2024-05-07 04:05:25] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-07 04:05:25] INFO root fetch - processPackages [draggable-charts]: Downloading https://files.pythonhosted.org/packages/76/52/3e3f2a07239eb383725b2946f47d7485c8d92f4e3dc01a73ea96fdcebb1f/draggable-charts-1.2.1.tar.gz
+[2024-05-07 04:05:25] INFO root fetch - processPackages [starlette-compress]: New version: [0.1.4] Old Version: [0.1.1]
+[2024-05-07 04:05:25] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/25/92/9f41985fc2c5c12cbf987a46ed3df1c834eea8fbaed4d6b3c313eb178b25/python-telegram-broadcast-0.6.tar.gz
+[2024-05-07 04:05:25] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-07 04:05:25] INFO root fetch - processPackages [starlette-compress]: Downloading https://files.pythonhosted.org/packages/13/ad/d49af3f0aa8340696aa9ea2f8b6b0136aa2c515e1968e6c6abc5230758b7/starlette_compress-0.1.1.tar.gz
+[2024-05-07 04:05:25] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/db/fd/31f52942926b673fc890dad80cac74a76b1cb26f3747ddd3070b6eaca024/python-telegram-broadcast-0.6.2.tar.gz
+[2024-05-07 04:05:25] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-07 04:05:25] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240507/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-07 04:05:25] INFO root fetch - processPackages [draggable-charts]: Downloading https://files.pythonhosted.org/packages/ec/9b/629e4a2db4addb790e2b804a90853d37c4844d6def9264afc50dcc35617d/draggable-charts-1.2.2.tar.gz
+[2024-05-07 04:05:25] INFO root fetch - processPackages [python-telegram-broadcast]: executing diffoscope
+[2024-05-07 04:05:25] INFO root fetch - processPackages [python-telegram-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-telegram-broadcast-0.6.tar.gz tmp/python-telegram-broadcast-0.6.2.tar.gz --markdown 20240507/p/python-telegram-broadcast/0.6-0.6.2/README.md --exclude *.pyd
+[2024-05-07 04:05:26] INFO root fetch - processPackages [starlette-compress]: Downloading https://files.pythonhosted.org/packages/58/30/c19b43a1d630d632044c114f3fe37c9f0ee299d80be4d51f7035d90b1d9d/starlette_compress-0.1.4.tar.gz
+[2024-05-07 04:05:26] INFO root fetch - processPackages [draggable-charts]: executing diffoscope
+[2024-05-07 04:05:26] INFO root fetch - processPackages [draggable-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggable-charts-1.2.1.tar.gz tmp/draggable-charts-1.2.2.tar.gz --markdown 20240507/d/draggable-charts/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-07 04:05:26] INFO root fetch - processPackages [starlette-compress]: executing diffoscope
+[2024-05-07 04:05:26] INFO root fetch - processPackages [starlette-compress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_compress-0.1.1.tar.gz tmp/starlette_compress-0.1.4.tar.gz --markdown 20240507/s/starlette-compress/0.1.1-0.1.4/README.md --exclude *.pyd
+[2024-05-07 04:05:26] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-broadcast-0.6.tar.gz]
+[2024-05-07 04:05:26] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-broadcast-0.6.2.tar.gz]
+[2024-05-07 04:05:26] INFO root fetch - main [MainThread]: End processing [python-telegram-broadcast]: success
+[2024-05-07 04:05:26] INFO root fetch - processPackages [starlette-compress]: Remove: archive file [/home/abi/fetcher/tmp/starlette_compress-0.1.1.tar.gz]
+[2024-05-07 04:05:26] INFO root fetch - processPackages [starlette-compress]: Remove: archive file [/home/abi/fetcher/tmp/starlette_compress-0.1.4.tar.gz]
+[2024-05-07 04:05:26] INFO root fetch - main [MainThread]: End processing [starlette-compress]: success
+[2024-05-07 04:05:27] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-07 04:05:27] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-07 04:05:27] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-07 04:06:07] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.2.1.tar.gz]
+[2024-05-07 04:06:07] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.2.2.tar.gz]
+[2024-05-07 04:06:07] INFO root fetch - main [MainThread]: End processing [draggable-charts]: success
+[2024-05-07 04:06:07] INFO root fetch - main [MainThread]: Store serial: [23088309]
