@@ -10506,3 +10506,27 @@ EOFError: EOF read where object expected
 [2024-05-07 06:02:28] INFO root fetch - processPackages [pysparkplug]: Remove: archive file [/home/abi/fetcher/tmp/pysparkplug-0.3.2.tar.gz]
 [2024-05-07 06:02:28] INFO root fetch - main [MainThread]: End processing [pysparkplug]: success
 [2024-05-07 06:02:28] INFO root fetch - main [MainThread]: Store serial: [23089247]
+[2024-05-07 06:04:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089247]
+[2024-05-07 06:04:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 06:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-spotinst
+[2024-05-07 06:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: YW-matchups
+[2024-05-07 06:04:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: microbalz
+[2024-05-07 06:04:37] WARNING root fetch - processPackages [microbalz]: Skipping, unable to determine old version
+[2024-05-07 06:04:37] INFO root fetch - main [MainThread]: End processing [microbalz] error
+[2024-05-07 06:04:37] INFO root fetch - processPackages [YW-matchups]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-07 06:04:37] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-07 06:04:37] INFO root fetch - processPackages [YW-matchups]: Downloading https://files.pythonhosted.org/packages/99/48/846dd2605fe2df50129a5ecf243f106d277e30a4a1023275c3156af3a4e5/YW_matchups-2.1.0.tar.gz
+[2024-05-07 06:04:37] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/23/3a/ff7bddacc6d9aefca0eeeab5018195400ffe56e21e80a61d96540ae2d5ef/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz
+[2024-05-07 06:04:37] INFO root fetch - processPackages [YW-matchups]: Downloading https://files.pythonhosted.org/packages/88/78/73b0b88e6cc6a69444a43689fb9c8f97bafb8307de2e6c04a7e6e08ce678/YW_matchups-2.1.1.tar.gz
+[2024-05-07 06:04:38] INFO root fetch - processPackages [YW-matchups]: executing diffoscope
+[2024-05-07 06:04:38] INFO root fetch - processPackages [YW-matchups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YW_matchups-2.1.0.tar.gz tmp/YW_matchups-2.1.1.tar.gz --markdown 20240507/Y/YW-matchups/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-07 06:04:38] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/b8/2c/aa878226c72dad7c19534c6713ae070650c0bb7480c80bb6e755f5ccfb7f/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz
+[2024-05-07 06:04:38] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2024-05-07 06:04:38] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz --markdown 20240507/c/cdktf-cdktf-provider-spotinst/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-07 06:04:38] INFO root fetch - processPackages [YW-matchups]: Remove: archive file [/home/abi/fetcher/tmp/YW_matchups-2.1.0.tar.gz]
+[2024-05-07 06:04:38] INFO root fetch - processPackages [YW-matchups]: Remove: archive file [/home/abi/fetcher/tmp/YW_matchups-2.1.1.tar.gz]
+[2024-05-07 06:04:38] INFO root fetch - main [MainThread]: End processing [YW-matchups]: success
+[2024-05-07 06:04:41] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz]
+[2024-05-07 06:04:41] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz]
+[2024-05-07 06:04:41] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2024-05-07 06:04:41] INFO root fetch - main [MainThread]: Store serial: [23089257]
