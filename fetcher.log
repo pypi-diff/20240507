@@ -17364,3 +17364,68 @@ EOFError: EOF read where object expected
 [2024-05-07 11:02:16] INFO root fetch - processPackages [flexmeasures]: Remove: archive file [/home/abi/fetcher/tmp/flexmeasures-0.9.4.tar.gz]
 [2024-05-07 11:02:16] INFO root fetch - main [MainThread]: End processing [flexmeasures]: success
 [2024-05-07 11:02:16] INFO root fetch - main [MainThread]: Store serial: [23092589]
+[2024-05-07 11:04:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092589]
+[2024-05-07 11:04:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-07 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-delivery-cttexpress
+[2024-05-07 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unstract-adapters
+[2024-05-07 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uk-python
+[2024-05-07 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lmdeploy
+[2024-05-07 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynpc
+[2024-05-07 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: web_error
+[2024-05-07 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.common
+[2024-05-07 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.core
+[2024-05-07 11:04:25] INFO root fetch - processPackages [odoo-addon-delivery-cttexpress]: New version: [16.0.1.1.0.4] Old Version: [16.0.1.1.0.3]
+[2024-05-07 11:04:25] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240506] Old Version: [1.1.1b20240505]
+[2024-05-07 11:04:25] WARNING root fetch - processPackages [uk-python]: Skipping, unable to determine old version
+[2024-05-07 11:04:25] INFO root fetch - main [MainThread]: End processing [uk-python] error
+[2024-05-07 11:04:25] INFO root fetch - processPackages [odoo-addon-delivery-cttexpress]: Downloading https://files.pythonhosted.org/packages/f2/2f/c3344960519af7ba69ef9f2e8eb687075ed070d9b0c72ba5f37041e0bec9/odoo_addon_delivery_cttexpress-16.0.1.1.0.3-py3-none-any.whl
+[2024-05-07 11:04:25] INFO root fetch - processPackages [web_error]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-07 11:04:25] INFO root fetch - processPackages [lmdeploy]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-07 11:04:25] INFO root fetch - processPackages [pynpc]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-07 11:04:25] INFO root fetch - processPackages [unstract-adapters]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-07 11:04:25] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/56/cd/d039433a844d62d425932aa1f9d05a954f5d99f1ed1887419bd0bdad35c3/autogluon.common-1.1.1b20240505.tar.gz
+[2024-05-07 11:04:25] INFO root fetch - processPackages [lmdeploy]: Downloading https://files.pythonhosted.org/packages/87/8b/1cd43d1ab3992f4537290e74f3d3b294537b4b6604fb69a2bf5499afe4a0/lmdeploy-0.4.0-cp39-cp39-win_amd64.whl
+[2024-05-07 11:04:25] INFO root fetch - processPackages [odoo-addon-delivery-cttexpress]: Downloading https://files.pythonhosted.org/packages/ac/9a/db5b250b7d9eca5c494003cd698cbd7cafc4954e7d3f35b1952308a443f0/odoo_addon_delivery_cttexpress-16.0.1.1.0.4-py3-none-any.whl
+[2024-05-07 11:04:25] INFO root fetch - processPackages [pynpc]: Downloading https://files.pythonhosted.org/packages/70/86/a0a8d3f02b673fa1ce67052d2c1a359571bb274ba50179227fbbbffb2ba4/pynpc-0.2.2.tar.gz
+[2024-05-07 11:04:25] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/e8/8e/065b97ce989e6044404e38526e7f56617c4721e67eb13b24e0b64270bd97/unstract_adapters-0.9.0.tar.gz
+[2024-05-07 11:04:25] INFO root fetch - processPackages [web_error]: Downloading https://files.pythonhosted.org/packages/5e/25/d00ac9f36630a2a9b5f0fe6e1dfeed67a47dda6a97dc26822b4b5e4e68d1/web_error-0.6.8.tar.gz
+[2024-05-07 11:04:25] WARNING root fetch - processPackages [lmdeploy]: Skipping package: exceeds size limit 54401233>=10485760
+[2024-05-07 11:04:25] INFO root fetch - main [MainThread]: End processing [lmdeploy] error
+[2024-05-07 11:04:25] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240507] Old Version: [1.1.1b20240506]
+[2024-05-07 11:04:25] INFO root fetch - processPackages [odoo-addon-delivery-cttexpress]: executing diffoscope
+[2024-05-07 11:04:25] INFO root fetch - processPackages [odoo-addon-delivery-cttexpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_cttexpress-16.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_delivery_cttexpress-16.0.1.1.0.4-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-delivery-cttexpress/16.0.1.1.0.3-16.0.1.1.0.4/README.md --exclude *.pyd
+[2024-05-07 11:04:25] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/83/38/9c1772f0a95d53cbc9af7a347a8a0b5de211f2cfe7a4fa1225f5e701a7df/autogluon.common-1.1.1b20240506.tar.gz
+[2024-05-07 11:04:26] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-05-07 11:04:26] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240505.tar.gz tmp/autogluon.common-1.1.1b20240506.tar.gz --markdown 20240507/a/autogluon.common/1.1.1b20240505-1.1.1b20240506/README.md --exclude *.pyd
+[2024-05-07 11:04:26] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/6f/8e/ce2b23e3f8dd41f9d591f7aae8133bb3bff3bf86aa1c663dc8a4ba504c9e/unstract_adapters-0.9.1.tar.gz
+[2024-05-07 11:04:26] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/30/c5/be73172724123dd7ce5e3a130df5b69103e6a852d2befc18646ee4f961da/autogluon.core-1.1.1b20240506.tar.gz
+[2024-05-07 11:04:26] INFO root fetch - processPackages [web_error]: Downloading https://files.pythonhosted.org/packages/05/0c/5952c6bcc23e22eea99f57f90c648d92210ff8eebd3b571185b178634884/web_error-0.6.9.tar.gz
+[2024-05-07 11:04:26] INFO root fetch - processPackages [pynpc]: Downloading https://files.pythonhosted.org/packages/e3/06/1ec79aaf908975c1fd1b9eff9e19e222ee6a54e4cd8e76d3548c1288d1d8/pynpc-0.3.0.tar.gz
+[2024-05-07 11:04:26] INFO root fetch - processPackages [web_error]: executing diffoscope
+[2024-05-07 11:04:26] INFO root fetch - processPackages [web_error]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_error-0.6.8.tar.gz tmp/web_error-0.6.9.tar.gz --markdown 20240507/w/web_error/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-07 11:04:26] INFO root fetch - processPackages [unstract-adapters]: executing diffoscope
+[2024-05-07 11:04:26] INFO root fetch - processPackages [unstract-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_adapters-0.9.0.tar.gz tmp/unstract_adapters-0.9.1.tar.gz --markdown 20240507/u/unstract-adapters/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-07 11:04:26] INFO root fetch - processPackages [pynpc]: executing diffoscope
+[2024-05-07 11:04:26] INFO root fetch - processPackages [pynpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynpc-0.2.2.tar.gz tmp/pynpc-0.3.0.tar.gz --markdown 20240507/p/pynpc/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-07 11:04:26] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/d1/0e/4e94c02052ab1bea4919bd0da9b0a07d9dab02821a1a2112ba984870941d/autogluon.core-1.1.1b20240507-py3-none-any.whl
+[2024-05-07 11:04:26] INFO root fetch - processPackages [odoo-addon-delivery-cttexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_cttexpress-16.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-05-07 11:04:26] INFO root fetch - processPackages [odoo-addon-delivery-cttexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_cttexpress-16.0.1.1.0.4-py3-none-any.whl.zip]
+[2024-05-07 11:04:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-cttexpress]: success
+[2024-05-07 11:04:26] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240505.tar.gz]
+[2024-05-07 11:04:26] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240506.tar.gz]
+[2024-05-07 11:04:26] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-05-07 11:04:26] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-05-07 11:04:26] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240506.tar.gz tmp/autogluon.core-1.1.1b20240507-py3-none-any.whl.zip --markdown 20240507/a/autogluon.core/1.1.1b20240506-1.1.1b20240507/README.md --exclude *.pyd
+[2024-05-07 11:04:26] INFO root fetch - processPackages [web_error]: Remove: archive file [/home/abi/fetcher/tmp/web_error-0.6.8.tar.gz]
+[2024-05-07 11:04:26] INFO root fetch - processPackages [web_error]: Remove: archive file [/home/abi/fetcher/tmp/web_error-0.6.9.tar.gz]
+[2024-05-07 11:04:26] INFO root fetch - main [MainThread]: End processing [web_error]: success
+[2024-05-07 11:04:27] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.0.tar.gz]
+[2024-05-07 11:04:27] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.1.tar.gz]
+[2024-05-07 11:04:27] INFO root fetch - main [MainThread]: End processing [unstract-adapters]: success
+[2024-05-07 11:04:27] INFO root fetch - processPackages [pynpc]: Remove: archive file [/home/abi/fetcher/tmp/pynpc-0.2.2.tar.gz]
+[2024-05-07 11:04:27] INFO root fetch - processPackages [pynpc]: Remove: archive file [/home/abi/fetcher/tmp/pynpc-0.3.0.tar.gz]
+[2024-05-07 11:04:27] INFO root fetch - main [MainThread]: End processing [pynpc]: success
+[2024-05-07 11:04:27] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240506.tar.gz]
+[2024-05-07 11:04:27] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240507-py3-none-any.whl.zip]
+[2024-05-07 11:04:27] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-05-07 11:04:27] INFO root fetch - main [MainThread]: Store serial: [23092622]
