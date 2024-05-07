@@ -2932,3 +2932,66 @@
 [2024-05-07 02:08:18] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-05-07 02:08:18] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-05-07 02:08:18] INFO root fetch - main [MainThread]: Store serial: [23086358]
+[2024-05-07 02:10:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086358]
+[2024-05-07 02:10:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-07 02:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2024-05-07 02:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starlette-compress
+[2024-05-07 02:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multiconnections
+[2024-05-07 02:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aind-data-schema-models
+[2024-05-07 02:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: predibase-api
+[2024-05-07 02:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: predibase
+[2024-05-07 02:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rubpy
+[2024-05-07 02:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openbb-nightly
+[2024-05-07 02:10:27] WARNING root fetch - processPackages [starlette-compress]: Skipping, unable to determine old version
+[2024-05-07 02:10:27] INFO root fetch - main [MainThread]: End processing [starlette-compress] error
+[2024-05-07 02:10:27] INFO root fetch - processPackages [predibase-api]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-05-07 02:10:27] INFO root fetch - processPackages [predibase]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-05-07 02:10:27] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.7.dev202405060009] Old Version: [4.1.7.dev202405050010]
+[2024-05-07 02:10:27] INFO root fetch - processPackages [rubpy]: New version: [7.0.4] Old Version: [7.0.3]
+[2024-05-07 02:10:27] WARNING root fetch - processPackages [aind-data-schema-models]: Skipping, unable to determine old version
+[2024-05-07 02:10:27] INFO root fetch - main [MainThread]: End processing [aind-data-schema-models] error
+[2024-05-07 02:10:27] INFO root fetch - processPackages [multiconnections]: New version: [2.35.1] Old Version: [2.34.23]
+[2024-05-07 02:10:27] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/aa/c9/397c7ccd97273320d2617aab083c03247a5a554b344cabb4fd5ca9fd873d/predibase-2024.4.7.tar.gz
+[2024-05-07 02:10:27] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/12/73/1e8ca9686d6fdbd41b63304d8a69affc8a09b91134e599f0ab3a73fdfc20/predibase-api-2024.4.7.tar.gz
+[2024-05-07 02:10:27] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/7c/c5/02a24caafbc230b74845bdfaa4c405fa5dc35a129700a9d34ab4d810342a/openbb_nightly-4.1.7.dev202405050010.tar.gz
+[2024-05-07 02:10:27] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-07 02:10:27] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/50/2b/a691797f37a474efc04a24aed1e30023492f67248385bf775f2612c04751/rubpy-7.0.3.tar.gz
+[2024-05-07 02:10:27] INFO root fetch - processPackages [multiconnections]: Downloading https://files.pythonhosted.org/packages/cf/60/e3b764e7b8dc9b6b990d7b384838543811c5552ba8e452b32dc34a13b470/multiconnections-2.34.23.tar.gz
+[2024-05-07 02:10:27] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/50/0a/2bbc4d934413ba88af00e4955f22d28e77237cdb9ae1ed22a04d9c1075a2/predibase-api-2024.4.8.tar.gz
+[2024-05-07 02:10:27] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/57/81/d2f1533a2c021c901fa45981d33807f0cda149030b94ba7b2a72fa3428af/predibase-2024.4.8.tar.gz
+[2024-05-07 02:10:27] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-05-07 02:10:28] INFO root fetch - processPackages [predibase-api]: executing diffoscope
+[2024-05-07 02:10:28] INFO root fetch - processPackages [predibase-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-api-2024.4.7.tar.gz tmp/predibase-api-2024.4.8.tar.gz --markdown 20240507/p/predibase-api/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-05-07 02:10:28] INFO root fetch - processPackages [predibase]: executing diffoscope
+[2024-05-07 02:10:28] INFO root fetch - processPackages [predibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-2024.4.7.tar.gz tmp/predibase-2024.4.8.tar.gz --markdown 20240507/p/predibase/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-05-07 02:10:28] INFO root fetch - processPackages [multiconnections]: Downloading https://files.pythonhosted.org/packages/e1/a6/69c0386188b5907e8d3ea6ea0b32fc565c6b4d3fe58d7dc04798c974880b/multiconnections-2.35.1.tar.gz
+[2024-05-07 02:10:28] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/2a/30/fd265ae567053bad73bc7ecb52d487b26a0223bb72047532beec1a6a4503/rubpy-7.0.4.tar.gz
+[2024-05-07 02:10:28] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/03/c8/b22838775c2ad159ca8d26d69c4a186a05a153580a936880c8931d2ff42f/openbb_nightly-4.1.7.dev202405060009.tar.gz
+[2024-05-07 02:10:28] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-05-07 02:10:28] INFO root fetch - processPackages [multiconnections]: executing diffoscope
+[2024-05-07 02:10:28] INFO root fetch - processPackages [multiconnections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiconnections-2.34.23.tar.gz tmp/multiconnections-2.35.1.tar.gz --markdown 20240507/m/multiconnections/2.34.23-2.35.1/README.md --exclude *.pyd
+[2024-05-07 02:10:28] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-05-07 02:10:28] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240507/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-07 02:10:28] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2024-05-07 02:10:28] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-7.0.3.tar.gz tmp/rubpy-7.0.4.tar.gz --markdown 20240507/r/rubpy/7.0.3-7.0.4/README.md --exclude *.pyd
+[2024-05-07 02:10:28] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2024.4.7.tar.gz]
+[2024-05-07 02:10:28] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2024.4.8.tar.gz]
+[2024-05-07 02:10:28] INFO root fetch - main [MainThread]: End processing [predibase-api]: success
+[2024-05-07 02:10:28] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-05-07 02:10:28] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.7.dev202405050010.tar.gz tmp/openbb_nightly-4.1.7.dev202405060009.tar.gz --markdown 20240507/o/openbb-nightly/4.1.7.dev202405050010-4.1.7.dev202405060009/README.md --exclude *.pyd
+[2024-05-07 02:10:28] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2024.4.7.tar.gz]
+[2024-05-07 02:10:28] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2024.4.8.tar.gz]
+[2024-05-07 02:10:28] INFO root fetch - main [MainThread]: End processing [predibase]: success
+[2024-05-07 02:10:29] INFO root fetch - processPackages [multiconnections]: Remove: archive file [/home/abi/fetcher/tmp/multiconnections-2.34.23.tar.gz]
+[2024-05-07 02:10:29] INFO root fetch - processPackages [multiconnections]: Remove: archive file [/home/abi/fetcher/tmp/multiconnections-2.35.1.tar.gz]
+[2024-05-07 02:10:29] INFO root fetch - main [MainThread]: End processing [multiconnections]: success
+[2024-05-07 02:10:29] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-05-07 02:10:29] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-05-07 02:10:29] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-05-07 02:10:29] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.3.tar.gz]
+[2024-05-07 02:10:29] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.4.tar.gz]
+[2024-05-07 02:10:29] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2024-05-07 02:10:31] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405050010.tar.gz]
+[2024-05-07 02:10:31] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405060009.tar.gz]
+[2024-05-07 02:10:31] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-05-07 02:10:31] INFO root fetch - main [MainThread]: Store serial: [23086380]
