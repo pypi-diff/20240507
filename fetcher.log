@@ -22236,3 +22236,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 13:54:37] INFO root fetch - processPackages [togglreports]: Remove: archive file [/home/abi/fetcher/tmp/togglreports-2.5.1.tar.gz]
 [2024-05-07 13:54:37] INFO root fetch - main [MainThread]: End processing [togglreports]: success
 [2024-05-07 13:54:37] INFO root fetch - main [MainThread]: Store serial: [23095017]
+[2024-05-07 13:56:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23095017]
+[2024-05-07 13:56:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 13:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hdl-registers
+[2024-05-07 13:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysgconnect
+[2024-05-07 13:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: T0
+[2024-05-07 13:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: special-agents
+[2024-05-07 13:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: storage-local
+[2024-05-07 13:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qase-python-commons
+[2024-05-07 13:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ptaxfr
+[2024-05-07 13:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kgraphservice
+[2024-05-07 13:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: block-weave
+[2024-05-07 13:56:46] INFO root fetch - processPackages [special-agents]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 13:56:46] WARNING root fetch - processPackages [pysgconnect]: Skipping, unable to determine old version
+[2024-05-07 13:56:46] INFO root fetch - processPackages [qase-python-commons]: New version: [3.0.2b2] Old Version: [3.0.2b1]
+[2024-05-07 13:56:46] INFO root fetch - main [MainThread]: End processing [pysgconnect] error
+[2024-05-07 13:56:46] INFO root fetch - processPackages [ptaxfr]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 13:56:46] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/1f/92/b42cc2662ca68351b8b22def4eea64dcfcb1bb30f3e0bdbc076ebab4126d/qase_python_commons-3.0.2b1.tar.gz
+[2024-05-07 13:56:46] INFO root fetch - processPackages [T0]: New version: [4.0.0] Old Version: [3.1.6]
+[2024-05-07 13:56:46] WARNING root fetch - processPackages [kgraphservice]: Skipping, unable to determine old version
+[2024-05-07 13:56:46] INFO root fetch - main [MainThread]: End processing [kgraphservice] error
+[2024-05-07 13:56:46] INFO root fetch - processPackages [hdl-registers]: New version: [5.2.0] Old Version: [5.1.3]
+[2024-05-07 13:56:46] WARNING root fetch - processPackages [block-weave]: Skipping, unable to determine old version
+[2024-05-07 13:56:46] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/47/59/723622ace28a2136a22b4bac44bc3f5a6852dbbe08e9ce14b18694fa0e27/special_agents-1.0.0.tar.gz
+[2024-05-07 13:56:46] INFO root fetch - main [MainThread]: End processing [block-weave] error
+[2024-05-07 13:56:46] INFO root fetch - processPackages [storage-local]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 13:56:46] INFO root fetch - processPackages [ptaxfr]: Downloading https://files.pythonhosted.org/packages/a3/36/e85033efa4b1d696c89766b61179249281ff4b8df9555eda4c625e5fb899/ptaxfr-1.0.0.tar.gz
+[2024-05-07 13:56:46] INFO root fetch - processPackages [T0]: Downloading https://files.pythonhosted.org/packages/e9/35/65691066b9234be2381dedeabe485566192a3a84cd5cb080fbf4b70964a6/t0-3.1.6.tar.gz
+[2024-05-07 13:56:46] INFO root fetch - processPackages [hdl-registers]: Downloading https://files.pythonhosted.org/packages/9d/40/087044900e4785f3485335f2b83cb58ca8b02ec042b4c47ae4e4ba963895/hdl_registers-5.1.3.tar.gz
+[2024-05-07 13:56:46] INFO root fetch - processPackages [storage-local]: Downloading https://files.pythonhosted.org/packages/b7/63/976ced0597974a94e0db7472bfb4f03e6c82e5276610b0176be638f047e6/storage-local-0.1.8.tar.gz
+[2024-05-07 13:56:46] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/7c/28/dd5fad4f684458269302aba340445e9017cca28690f73b6d51dd8ca89d27/special_agents-1.0.1.tar.gz
+[2024-05-07 13:56:46] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/90/fa/f04f5948edd62cdc6abca5cf2e9e9e27fdbaff69a6366e326279a12f9c73/qase_python_commons-3.0.2b2.tar.gz
+[2024-05-07 13:56:46] INFO root fetch - processPackages [special-agents]: executing diffoscope
+[2024-05-07 13:56:46] INFO root fetch - processPackages [special-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/special_agents-1.0.0.tar.gz tmp/special_agents-1.0.1.tar.gz --markdown 20240507/s/special-agents/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-07 13:56:46] INFO root fetch - processPackages [ptaxfr]: Downloading https://files.pythonhosted.org/packages/02/a8/e6fd3c907b0ca03bd59cd41715206b8ff828f81d4409dbf4ab0b99fc6ffa/ptaxfr-1.0.1.tar.gz
+[2024-05-07 13:56:46] INFO root fetch - processPackages [qase-python-commons]: executing diffoscope
+[2024-05-07 13:56:46] INFO root fetch - processPackages [qase-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qase_python_commons-3.0.2b1.tar.gz tmp/qase_python_commons-3.0.2b2.tar.gz --markdown 20240507/q/qase-python-commons/3.0.2b1-3.0.2b2/README.md --exclude *.pyd
+[2024-05-07 13:56:46] INFO root fetch - processPackages [T0]: Downloading https://files.pythonhosted.org/packages/cc/87/e17e3b8a50d6242ae3c233af1f3465250f1ef15ab14784ec3c94c104558f/t0-4.0.0.tar.gz
+[2024-05-07 13:56:47] INFO root fetch - processPackages [hdl-registers]: Downloading https://files.pythonhosted.org/packages/9e/11/92c0e65e633ac8819e96e23aa431067b27c974bd29699c17d16bf931f1ea/hdl_registers-5.2.0.tar.gz
+[2024-05-07 13:56:47] INFO root fetch - processPackages [T0]: executing diffoscope
+[2024-05-07 13:56:47] INFO root fetch - processPackages [T0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t0-3.1.6.tar.gz tmp/t0-4.0.0.tar.gz --markdown 20240507/T/T0/3.1.6-4.0.0/README.md --exclude *.pyd
+[2024-05-07 13:56:47] INFO root fetch - processPackages [ptaxfr]: executing diffoscope
+[2024-05-07 13:56:47] INFO root fetch - processPackages [ptaxfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptaxfr-1.0.0.tar.gz tmp/ptaxfr-1.0.1.tar.gz --markdown 20240507/p/ptaxfr/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-07 13:56:47] INFO root fetch - processPackages [storage-local]: Downloading https://files.pythonhosted.org/packages/80/92/c5f00ebfa1349b712e17441e635a7037dea493f636ec7cb5309d3f303ed3/storage-local-0.1.9.tar.gz
+[2024-05-07 13:56:47] INFO root fetch - processPackages [hdl-registers]: executing diffoscope
+[2024-05-07 13:56:47] INFO root fetch - processPackages [hdl-registers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdl_registers-5.1.3.tar.gz tmp/hdl_registers-5.2.0.tar.gz --markdown 20240507/h/hdl-registers/5.1.3-5.2.0/README.md --exclude *.pyd
+[2024-05-07 13:56:47] INFO root fetch - processPackages [storage-local]: executing diffoscope
+[2024-05-07 13:56:47] INFO root fetch - processPackages [storage-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storage-local-0.1.8.tar.gz tmp/storage-local-0.1.9.tar.gz --markdown 20240507/s/storage-local/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 13:56:47] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.0.tar.gz]
+[2024-05-07 13:56:47] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.1.tar.gz]
+[2024-05-07 13:56:47] INFO root fetch - main [MainThread]: End processing [special-agents]: success
+[2024-05-07 13:56:47] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase_python_commons-3.0.2b1.tar.gz]
+[2024-05-07 13:56:47] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase_python_commons-3.0.2b2.tar.gz]
+[2024-05-07 13:56:47] INFO root fetch - main [MainThread]: End processing [qase-python-commons]: success
+[2024-05-07 13:56:47] INFO root fetch - processPackages [ptaxfr]: Remove: archive file [/home/abi/fetcher/tmp/ptaxfr-1.0.0.tar.gz]
+[2024-05-07 13:56:47] INFO root fetch - processPackages [ptaxfr]: Remove: archive file [/home/abi/fetcher/tmp/ptaxfr-1.0.1.tar.gz]
+[2024-05-07 13:56:47] INFO root fetch - main [MainThread]: End processing [ptaxfr]: success
+[2024-05-07 13:56:48] INFO root fetch - processPackages [storage-local]: Remove: archive file [/home/abi/fetcher/tmp/storage-local-0.1.8.tar.gz]
+[2024-05-07 13:56:48] INFO root fetch - processPackages [storage-local]: Remove: archive file [/home/abi/fetcher/tmp/storage-local-0.1.9.tar.gz]
+[2024-05-07 13:56:48] INFO root fetch - main [MainThread]: End processing [storage-local]: success
+[2024-05-07 13:56:48] INFO root fetch - processPackages [hdl-registers]: Remove: archive file [/home/abi/fetcher/tmp/hdl_registers-5.1.3.tar.gz]
+[2024-05-07 13:56:48] INFO root fetch - processPackages [hdl-registers]: Remove: archive file [/home/abi/fetcher/tmp/hdl_registers-5.2.0.tar.gz]
+[2024-05-07 13:56:48] INFO root fetch - main [MainThread]: End processing [hdl-registers]: success
+[2024-05-07 13:56:48] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-3.1.6.tar.gz]
+[2024-05-07 13:56:48] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-4.0.0.tar.gz]
+[2024-05-07 13:56:48] INFO root fetch - main [MainThread]: End processing [T0]: success
+[2024-05-07 13:56:48] INFO root fetch - main [MainThread]: Store serial: [23095049]
