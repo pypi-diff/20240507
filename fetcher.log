@@ -19370,3 +19370,42 @@ EOFError: EOF read where object expected
 [2024-05-07 12:14:05] INFO root fetch - processPackages [kserve]: Remove: archive file [/home/abi/fetcher/tmp/kserve-0.9.0rc0.tar.gz]
 [2024-05-07 12:14:05] INFO root fetch - main [MainThread]: End processing [kserve]: success
 [2024-05-07 12:14:05] INFO root fetch - main [MainThread]: Store serial: [23093496]
+[2024-05-07 12:16:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093496]
+[2024-05-07 12:16:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 12:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AutoMLApp
+[2024-05-07 12:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AlekSIS-Core
+[2024-05-07 12:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leadguru-jobs
+[2024-05-07 12:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asynctaskpool
+[2024-05-07 12:16:14] INFO root fetch - processPackages [AutoMLApp]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-07 12:16:14] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-07 12:16:14] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/22/e5/c4828c6da52369eef66b6ccbee6e20b661402822ac1b3d1e09e44e351cee/automlapp-0.1.1.tar.gz
+[2024-05-07 12:16:14] INFO root fetch - processPackages [asynctaskpool]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-07 12:16:14] INFO root fetch - processPackages [AlekSIS-Core]: New version: [4.0.0.dev8] Old Version: [4.0.0.dev7]
+[2024-05-07 12:16:14] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-07 12:16:14] INFO root fetch - processPackages [asynctaskpool]: Downloading https://files.pythonhosted.org/packages/2c/fa/9c6b1db5a81f483dab88509779dfb50c9f70d3a973786f1427f9f4e21195/asynctaskpool-0.1.2.tar.gz
+[2024-05-07 12:16:14] INFO root fetch - processPackages [AlekSIS-Core]: Downloading https://files.pythonhosted.org/packages/e6/8f/27fd1f68a6c102f3cc27b8a918d3a8b8b26dd25ba0de45953bfb54d97d13/aleksis_core-4.0.0.dev7.tar.gz
+[2024-05-07 12:16:14] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-07 12:16:14] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-07 12:16:14] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240507/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-07 12:16:14] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/92/2f/4c9204701d9ab9574bdf81d1547ea88b1a1ef5e05745771efaa272a1fffe/automlapp-0.1.2.tar.gz
+[2024-05-07 12:16:14] INFO root fetch - processPackages [AlekSIS-Core]: Downloading https://files.pythonhosted.org/packages/c4/ca/26b5f3f81cd7c872d1a578d1d62ed66a82d66b9c2c1c8e568a5bb5b72756/aleksis_core-4.0.0.dev8.tar.gz
+[2024-05-07 12:16:14] INFO root fetch - processPackages [asynctaskpool]: Downloading https://files.pythonhosted.org/packages/7c/18/b37db7b6a62bce632fdd0d36981ff8ed12b2ac387f280fdd948928029b9a/asynctaskpool-0.1.3.tar.gz
+[2024-05-07 12:16:14] INFO root fetch - processPackages [AutoMLApp]: executing diffoscope
+[2024-05-07 12:16:14] INFO root fetch - processPackages [AutoMLApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automlapp-0.1.1.tar.gz tmp/automlapp-0.1.2.tar.gz --markdown 20240507/A/AutoMLApp/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-07 12:16:14] INFO root fetch - processPackages [asynctaskpool]: executing diffoscope
+[2024-05-07 12:16:14] INFO root fetch - processPackages [asynctaskpool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asynctaskpool-0.1.2.tar.gz tmp/asynctaskpool-0.1.3.tar.gz --markdown 20240507/a/asynctaskpool/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-07 12:16:15] INFO root fetch - processPackages [AlekSIS-Core]: executing diffoscope
+[2024-05-07 12:16:15] INFO root fetch - processPackages [AlekSIS-Core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_core-4.0.0.dev7.tar.gz tmp/aleksis_core-4.0.0.dev8.tar.gz --markdown 20240507/A/AlekSIS-Core/4.0.0.dev7-4.0.0.dev8/README.md --exclude *.pyd
+[2024-05-07 12:16:15] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-07 12:16:15] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-07 12:16:15] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-07 12:16:15] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.1.tar.gz]
+[2024-05-07 12:16:15] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.2.tar.gz]
+[2024-05-07 12:16:15] INFO root fetch - main [MainThread]: End processing [AutoMLApp]: success
+[2024-05-07 12:16:15] INFO root fetch - processPackages [asynctaskpool]: Remove: archive file [/home/abi/fetcher/tmp/asynctaskpool-0.1.2.tar.gz]
+[2024-05-07 12:16:15] INFO root fetch - processPackages [asynctaskpool]: Remove: archive file [/home/abi/fetcher/tmp/asynctaskpool-0.1.3.tar.gz]
+[2024-05-07 12:16:15] INFO root fetch - main [MainThread]: End processing [asynctaskpool]: success
+[2024-05-07 12:16:17] INFO root fetch - processPackages [AlekSIS-Core]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_core-4.0.0.dev7.tar.gz]
+[2024-05-07 12:16:17] INFO root fetch - processPackages [AlekSIS-Core]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_core-4.0.0.dev8.tar.gz]
+[2024-05-07 12:16:17] INFO root fetch - main [MainThread]: End processing [AlekSIS-Core]: success
+[2024-05-07 12:16:17] INFO root fetch - main [MainThread]: Store serial: [23093509]
