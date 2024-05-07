@@ -11745,3 +11745,67 @@ EOFError: EOF read where object expected
 [2024-05-07 07:25:53] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
 [2024-05-07 07:25:54] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
 [2024-05-07 07:25:54] INFO root fetch - main [MainThread]: Store serial: [23089927]
+[2024-05-07 07:27:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089927]
+[2024-05-07 07:28:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 07:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-initializers
+[2024-05-07 07:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osadl-matrix
+[2024-05-07 07:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: osadl-matrix
+[2024-05-07 07:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Way2DSSAT
+[2024-05-07 07:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MiaoSQL
+[2024-05-07 07:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-archive
+[2024-05-07 07:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pkscreener
+[2024-05-07 07:28:02] INFO root fetch - processPackages [Way2DSSAT]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-07 07:28:02] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240506.350] Old Version: [0.44.20240506.349]
+[2024-05-07 07:28:02] INFO root fetch - processPackages [osadl-matrix]: New version: [2024.5.7.50556] Old Version: [2024.5.7.50545]
+[2024-05-07 07:28:02] INFO root fetch - processPackages [osadl-matrix]: New version: [2024.5.7.50556] Old Version: [2024.5.7.50545]
+[2024-05-07 07:28:02] INFO root fetch - processPackages [MiaoSQL]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-07 07:28:02] INFO root fetch - processPackages [netbox-initializers]: New version: [4.0.0] Old Version: [3.7.2]
+[2024-05-07 07:28:02] INFO root fetch - processPackages [pulumi-archive]: New version: [0.1.0a1715058618] Old Version: [0.1.0a1714561830]
+[2024-05-07 07:28:02] INFO root fetch - processPackages [Way2DSSAT]: Downloading https://files.pythonhosted.org/packages/12/9a/4cd4bf362200ecf0b165466f745bb937bb4e6aabcf246864cd2a7c747b11/way2dssat-0.0.6.tar.gz
+[2024-05-07 07:28:02] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/93/97/8c7f1f164f88c3c5925a0d2fb74eb78f8a6d187101e1489bc188a77aeaf7/pkscreener-0.44.20240506.349.tar.gz
+[2024-05-07 07:28:03] INFO root fetch - processPackages [MiaoSQL]: Downloading https://files.pythonhosted.org/packages/95/d8/441c55a08e49ce0218d52d25e604148957c371ec873bc42a95617a29a1d0/MiaoSQL-0.0.2.tar.gz
+[2024-05-07 07:28:03] INFO root fetch - processPackages [osadl-matrix]: Downloading https://files.pythonhosted.org/packages/ab/fe/f6915843aae209f9f104bae3cd51d78da6bb0b0191bd6d631c57923cb6c3/osadl_matrix-2024.5.7.50545.tar.gz
+[2024-05-07 07:28:03] INFO root fetch - processPackages [osadl-matrix]: Downloading https://files.pythonhosted.org/packages/ab/fe/f6915843aae209f9f104bae3cd51d78da6bb0b0191bd6d631c57923cb6c3/osadl_matrix-2024.5.7.50545.tar.gz
+[2024-05-07 07:28:03] INFO root fetch - processPackages [netbox-initializers]: Downloading https://files.pythonhosted.org/packages/16/78/e5fe9a384a760e0255b0cd8e9e40cd7897acb192c538a6d7b7096aff2f17/netbox_initializers-3.7.2.tar.gz
+[2024-05-07 07:28:03] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/02/ff/ee3054f0573f3a80a9e7251912db001063169b8587f132682a360317d84c/pulumi_archive-0.1.0a1714561830.tar.gz
+[2024-05-07 07:28:03] INFO root fetch - processPackages [Way2DSSAT]: Downloading https://files.pythonhosted.org/packages/a4/d1/ffe2a9dd950ef72342bce1178ae0894375e61ead1b4e9fa178d8b2ed9403/way2dssat-0.0.7.tar.gz
+[2024-05-07 07:28:03] INFO root fetch - processPackages [Way2DSSAT]: executing diffoscope
+[2024-05-07 07:28:03] INFO root fetch - processPackages [Way2DSSAT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/way2dssat-0.0.6.tar.gz tmp/way2dssat-0.0.7.tar.gz --markdown 20240507/W/Way2DSSAT/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-07 07:28:03] INFO root fetch - processPackages [MiaoSQL]: Downloading https://files.pythonhosted.org/packages/ed/11/b8abee913ece6276affcd9b8cd417461c4c75de0e59c3e73d67899a8c42c/MiaoSQL-0.0.3.tar.gz
+[2024-05-07 07:28:03] INFO root fetch - processPackages [osadl-matrix]: Downloading https://files.pythonhosted.org/packages/f0/db/50d6fb03dd8933bad5fa4443c595337149c6457c2868ae2d9e6aa64c227f/osadl_matrix-2024.5.7.50556.tar.gz
+[2024-05-07 07:28:03] INFO root fetch - processPackages [osadl-matrix]: Downloading https://files.pythonhosted.org/packages/f0/db/50d6fb03dd8933bad5fa4443c595337149c6457c2868ae2d9e6aa64c227f/osadl_matrix-2024.5.7.50556.tar.gz
+[2024-05-07 07:28:03] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/6b/6d/028399dac983f956f4f97a48b8bafd0c3f14970f8ee3563499f75c616b6b/pulumi_archive-0.1.0a1715058618.tar.gz
+[2024-05-07 07:28:03] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/96/39/ace21c2b890e6ec933b2481319fad79fb8ad1b0bb35cbbca7b01faff6058/pkscreener-0.44.20240506.350.tar.gz
+[2024-05-07 07:28:03] INFO root fetch - processPackages [netbox-initializers]: Downloading https://files.pythonhosted.org/packages/e2/fb/cdcc31d18ce92334fc83768a9aed403c195ec2fa93ccb5137b9b895ad3f0/netbox_initializers-4.0.0.tar.gz
+[2024-05-07 07:28:03] INFO root fetch - processPackages [MiaoSQL]: executing diffoscope
+[2024-05-07 07:28:03] INFO root fetch - processPackages [MiaoSQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MiaoSQL-0.0.2.tar.gz tmp/MiaoSQL-0.0.3.tar.gz --markdown 20240507/M/MiaoSQL/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-07 07:28:03] INFO root fetch - processPackages [osadl-matrix]: executing diffoscope
+[2024-05-07 07:28:03] INFO root fetch - processPackages [osadl-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osadl_matrix-2024.5.7.50545.tar.gz tmp/osadl_matrix-2024.5.7.50556.tar.gz --markdown 20240507/o/osadl-matrix/2024.5.7.50545-2024.5.7.50556/README.md --exclude *.pyd
+[2024-05-07 07:28:03] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2024-05-07 07:28:03] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.1.0a1714561830.tar.gz tmp/pulumi_archive-0.1.0a1715058618.tar.gz --markdown 20240507/p/pulumi-archive/0.1.0a1714561830-0.1.0a1715058618/README.md --exclude *.pyd
+[2024-05-07 07:28:03] INFO root fetch - processPackages [osadl-matrix]: executing diffoscope
+[2024-05-07 07:28:03] INFO root fetch - processPackages [osadl-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osadl_matrix-2024.5.7.50545.tar.gz tmp/osadl_matrix-2024.5.7.50556.tar.gz --markdown 20240507/o/osadl-matrix/2024.5.7.50545-2024.5.7.50556/README.md --exclude *.pyd
+[2024-05-07 07:28:03] INFO root fetch - processPackages [netbox-initializers]: executing diffoscope
+[2024-05-07 07:28:03] INFO root fetch - processPackages [netbox-initializers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_initializers-3.7.2.tar.gz tmp/netbox_initializers-4.0.0.tar.gz --markdown 20240507/n/netbox-initializers/3.7.2-4.0.0/README.md --exclude *.pyd
+[2024-05-07 07:28:03] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-07 07:28:03] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240506.349.tar.gz tmp/pkscreener-0.44.20240506.350.tar.gz --markdown 20240507/p/pkscreener/0.44.20240506.349-0.44.20240506.350/README.md --exclude *.pyd
+[2024-05-07 07:28:03] INFO root fetch - processPackages [Way2DSSAT]: Remove: archive file [/home/abi/fetcher/tmp/way2dssat-0.0.6.tar.gz]
+[2024-05-07 07:28:03] INFO root fetch - processPackages [Way2DSSAT]: Remove: archive file [/home/abi/fetcher/tmp/way2dssat-0.0.7.tar.gz]
+[2024-05-07 07:28:03] INFO root fetch - main [MainThread]: End processing [Way2DSSAT]: success
+[2024-05-07 07:28:04] INFO root fetch - processPackages [MiaoSQL]: Remove: archive file [/home/abi/fetcher/tmp/MiaoSQL-0.0.2.tar.gz]
+[2024-05-07 07:28:04] INFO root fetch - processPackages [MiaoSQL]: Remove: archive file [/home/abi/fetcher/tmp/MiaoSQL-0.0.3.tar.gz]
+[2024-05-07 07:28:04] INFO root fetch - main [MainThread]: End processing [MiaoSQL]: success
+[2024-05-07 07:28:04] INFO root fetch - processPackages [osadl-matrix]: Remove: archive file [/home/abi/fetcher/tmp/osadl_matrix-2024.5.7.50545.tar.gz]
+[2024-05-07 07:28:04] INFO root fetch - processPackages [osadl-matrix]: Remove: archive file [/home/abi/fetcher/tmp/osadl_matrix-2024.5.7.50556.tar.gz]
+[2024-05-07 07:28:04] INFO root fetch - main [MainThread]: End processing [osadl-matrix]: success
+[2024-05-07 07:28:04] INFO root fetch - main [MainThread]: End processing [osadl-matrix]: success
+[2024-05-07 07:28:04] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1714561830.tar.gz]
+[2024-05-07 07:28:04] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1715058618.tar.gz]
+[2024-05-07 07:28:04] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2024-05-07 07:28:04] INFO root fetch - processPackages [netbox-initializers]: Remove: archive file [/home/abi/fetcher/tmp/netbox_initializers-3.7.2.tar.gz]
+[2024-05-07 07:28:04] INFO root fetch - processPackages [netbox-initializers]: Remove: archive file [/home/abi/fetcher/tmp/netbox_initializers-4.0.0.tar.gz]
+[2024-05-07 07:28:04] INFO root fetch - main [MainThread]: End processing [netbox-initializers]: success
+[2024-05-07 07:28:04] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240506.349.tar.gz]
+[2024-05-07 07:28:04] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240506.350.tar.gz]
+[2024-05-07 07:28:04] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-07 07:28:04] INFO root fetch - main [MainThread]: Store serial: [23089948]
