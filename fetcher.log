@@ -10378,3 +10378,36 @@ EOFError: EOF read where object expected
 [2024-05-07 05:49:26] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.20.3rc2.tar.gz]
 [2024-05-07 05:49:26] INFO root fetch - main [MainThread]: End processing [anylearn]: success
 [2024-05-07 05:49:26] INFO root fetch - main [MainThread]: Store serial: [23089162]
+[2024-05-07 05:51:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089162]
+[2024-05-07 05:51:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 05:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mcextract
+[2024-05-07 05:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyQt6-Fluent-Widgets
+[2024-05-07 05:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pssr
+[2024-05-07 05:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deconcentratez
+[2024-05-07 05:51:35] INFO root fetch - processPackages [mcextract]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-07 05:51:35] WARNING root fetch - processPackages [deconcentratez]: Skipping, unable to determine old version
+[2024-05-07 05:51:35] INFO root fetch - main [MainThread]: End processing [deconcentratez] error
+[2024-05-07 05:51:35] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [1.5.6] Old Version: [1.5.5]
+[2024-05-07 05:51:35] INFO root fetch - processPackages [pssr]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-07 05:51:35] INFO root fetch - processPackages [mcextract]: Downloading https://files.pythonhosted.org/packages/c8/c3/99ac330421a57b11b9cd1b070147aae453839925d727b67763df95caf070/mcextract-1.1.0.tar.gz
+[2024-05-07 05:51:35] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/25/a7/aa133aa824a34c68edfcd40bb5e3e5f431021e43938b12f7b3d3ccc70cd4/PyQt6-Fluent-Widgets-1.5.5.tar.gz
+[2024-05-07 05:51:35] INFO root fetch - processPackages [pssr]: Downloading https://files.pythonhosted.org/packages/9f/00/60cd1aa032204fceb117ff9f65661d39bfdf4cf289565d6bf8212ac9a475/pssr-1.2.1.tar.gz
+[2024-05-07 05:51:35] INFO root fetch - processPackages [mcextract]: Downloading https://files.pythonhosted.org/packages/65/db/631beadfb71a2ac24395423a1a1793aa0b4244ba80c68e75e565ad4c42e5/mcextract-1.2.0.tar.gz
+[2024-05-07 05:51:35] INFO root fetch - processPackages [pssr]: Downloading https://files.pythonhosted.org/packages/2d/17/d6f5c2ce0ced91902cd8691ef13a9238b104c361497ab67175efb3299158/pssr-1.2.2.tar.gz
+[2024-05-07 05:51:36] INFO root fetch - processPackages [mcextract]: executing diffoscope
+[2024-05-07 05:51:36] INFO root fetch - processPackages [mcextract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcextract-1.1.0.tar.gz tmp/mcextract-1.2.0.tar.gz --markdown 20240507/m/mcextract/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-07 05:51:36] INFO root fetch - processPackages [pssr]: executing diffoscope
+[2024-05-07 05:51:36] INFO root fetch - processPackages [pssr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pssr-1.2.1.tar.gz tmp/pssr-1.2.2.tar.gz --markdown 20240507/p/pssr/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-07 05:51:36] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/2a/89/60bfd7d0f88cd2f60f2da0cd8625cb492684c548708200dffbd0b38aeab6/PyQt6-Fluent-Widgets-1.5.6.tar.gz
+[2024-05-07 05:51:36] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2024-05-07 05:51:36] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-1.5.5.tar.gz tmp/PyQt6-Fluent-Widgets-1.5.6.tar.gz --markdown 20240507/P/PyQt6-Fluent-Widgets/1.5.5-1.5.6/README.md --exclude *.pyd
+[2024-05-07 05:51:36] INFO root fetch - processPackages [mcextract]: Remove: archive file [/home/abi/fetcher/tmp/mcextract-1.1.0.tar.gz]
+[2024-05-07 05:51:36] INFO root fetch - processPackages [mcextract]: Remove: archive file [/home/abi/fetcher/tmp/mcextract-1.2.0.tar.gz]
+[2024-05-07 05:51:36] INFO root fetch - main [MainThread]: End processing [mcextract]: success
+[2024-05-07 05:51:36] INFO root fetch - processPackages [pssr]: Remove: archive file [/home/abi/fetcher/tmp/pssr-1.2.1.tar.gz]
+[2024-05-07 05:51:36] INFO root fetch - processPackages [pssr]: Remove: archive file [/home/abi/fetcher/tmp/pssr-1.2.2.tar.gz]
+[2024-05-07 05:51:36] INFO root fetch - main [MainThread]: End processing [pssr]: success
+[2024-05-07 05:51:37] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-1.5.5.tar.gz]
+[2024-05-07 05:51:37] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-1.5.6.tar.gz]
+[2024-05-07 05:51:37] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2024-05-07 05:51:37] INFO root fetch - main [MainThread]: Store serial: [23089177]
