@@ -10461,3 +10461,18 @@ EOFError: EOF read where object expected
 [2024-05-07 05:58:05] INFO root fetch - processPackages [transmission-rpc]: Remove: archive file [/home/abi/fetcher/tmp/transmission_rpc-7.0.5.tar.gz]
 [2024-05-07 05:58:05] INFO root fetch - main [MainThread]: End processing [transmission-rpc]: success
 [2024-05-07 05:58:05] INFO root fetch - main [MainThread]: Store serial: [23089225]
+[2024-05-07 06:00:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089225]
+[2024-05-07 06:00:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 06:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngstoolkits
+[2024-05-07 06:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vessl
+[2024-05-07 06:00:14] WARNING root fetch - processPackages [ngstoolkits]: Skipping, unable to determine old version
+[2024-05-07 06:00:14] INFO root fetch - main [MainThread]: End processing [ngstoolkits] error
+[2024-05-07 06:00:14] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-07 06:00:15] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2024-05-07 06:00:15] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2024-05-07 06:00:15] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2024-05-07 06:00:15] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20240507/v/vessl/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-07 06:00:18] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2024-05-07 06:00:18] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2024-05-07 06:00:18] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2024-05-07 06:00:18] INFO root fetch - main [MainThread]: Store serial: [23089235]
