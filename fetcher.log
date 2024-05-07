@@ -17783,3 +17783,130 @@ EOFError: EOF read where object expected
 [2024-05-07 11:14:05] INFO root fetch - processPackages [syndb-api-client]: Remove: archive file [/home/abi/fetcher/tmp/syndb-api-client-0.1.9.tar.gz]
 [2024-05-07 11:14:05] INFO root fetch - main [MainThread]: End processing [syndb-api-client]: success
 [2024-05-07 11:14:05] INFO root fetch - main [MainThread]: Store serial: [23092783]
+[2024-05-07 11:16:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092783]
+[2024-05-07 11:16:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-07 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasiphon
+[2024-05-07 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2024-05-07 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arena-client
+[2024-05-07 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crawlist
+[2024-05-07 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvfuser-cu121
+[2024-05-07 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: morphdb-utils
+[2024-05-07 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2024-05-07 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: utilmy
+[2024-05-07 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pySigma-backend-opensearch
+[2024-05-07 11:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kumparanian
+[2024-05-07 11:16:14] INFO root fetch - processPackages [morphdb-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 11:16:14] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.3.dev20240506] Old Version: [0.2.3.dev20240505]
+[2024-05-07 11:16:14] INFO root fetch - processPackages [pySigma-backend-opensearch]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-07 11:16:14] INFO root fetch - processPackages [crawlist]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-07 11:16:14] INFO root fetch - processPackages [arena-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 11:16:14] INFO root fetch - processPackages [kumparanian]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-07 11:16:14] INFO root fetch - processPackages [datasiphon]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-07 11:16:14] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/54/25/8d95ead8cfd50b6e1fe6785864945922047766cfb56dfe6604c42b90e68b/nvfuser_cu121-0.2.3.dev20240505.tar.gz
+[2024-05-07 11:16:14] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/c6949258d5647c0aa4d14e61014c6e3a7c9f08086b8ff176bee34576864d/morphdb_utils-0.1.8.tar.gz
+[2024-05-07 11:16:14] INFO root fetch - processPackages [utilmy]: New version: [0.1.17150733] Old Version: [0.1.17149167]
+[2024-05-07 11:16:14] INFO root fetch - processPackages [pySigma-backend-opensearch]: Downloading https://files.pythonhosted.org/packages/cf/fe/3d957b0bc5c30919816ecfd3d05ce1102aaf4b8158de182f93c357fc2fe9/pysigma_backend_opensearch-1.0.1.tar.gz
+[2024-05-07 11:16:14] INFO root fetch - processPackages [crawlist]: Downloading https://files.pythonhosted.org/packages/73/f6/ad4156ce5f3b40177930fb95f8c7ce8961326ca83de6b31b4602feb7b0c3/crawlist-0.0.7.tar.gz
+[2024-05-07 11:16:15] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-07 11:16:15] INFO root fetch - processPackages [arena-client]: Downloading https://files.pythonhosted.org/packages/ac/73/fee236ccc687bdd8f423dbd99de73f17f1a9e7d5d34b2eda1b2725a5e1af/arena_client-0.1.0.tar.gz
+[2024-05-07 11:16:15] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/13/04/ed09330e8faf9e71d10a5f827412ccc387659aac564780f7831627f22d6b/datasiphon-0.2.2.tar.gz
+[2024-05-07 11:16:15] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-07 11:16:15] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/24/55/6929e3bd50135affa9ca0b44dd6d61b933fe09123164e71fdf2e3e875913/utilmy-0.1.17149167.tar.gz
+[2024-05-07 11:16:15] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/bf/82/9213b97761973eee01be2c734847f38454de8eec193a6838b33795f2705e/nvfuser_cu121-0.2.3.dev20240506.tar.gz
+[2024-05-07 11:16:15] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/729494d22abe49b72c25e4b1efa215d54cab59388bae925f40777fce21f3/morphdb_utils-0.1.9.tar.gz
+[2024-05-07 11:16:15] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/e5/27/9008618e76d141818aa5f61345f467387edad0166c3c5566e4aa1b032f22/kumparanian-1.0.3-py2.py3-none-any.whl
+[2024-05-07 11:16:15] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-05-07 11:16:15] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.1.8.tar.gz tmp/morphdb_utils-0.1.9.tar.gz --markdown 20240507/m/morphdb-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 11:16:15] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-07 11:16:15] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.3.dev20240505.tar.gz tmp/nvfuser_cu121-0.2.3.dev20240506.tar.gz --markdown 20240507/n/nvfuser-cu121/0.2.3.dev20240505-0.2.3.dev20240506/README.md --exclude *.pyd
+[2024-05-07 11:16:15] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-07 11:16:15] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-07 11:16:15] INFO root fetch - processPackages [pySigma-backend-opensearch]: Downloading https://files.pythonhosted.org/packages/25/1c/4660267d7a08fbee45d6fa973617e47c67d5d6c7c76f4ea6158b06936a2d/pysigma_backend_opensearch-1.0.2.tar.gz
+[2024-05-07 11:16:15] INFO root fetch - processPackages [crawlist]: Downloading https://files.pythonhosted.org/packages/75/fd/c41f8c892aed1215d3a9b2b5b751df3b09b3a25b66c71b1abea74deb1ac7/crawlist-0.0.8.tar.gz
+[2024-05-07 11:16:15] INFO root fetch - processPackages [arena-client]: Downloading https://files.pythonhosted.org/packages/48/70/8c3df1f451761b8c36eb994c55134f1dcbd1c3cae46b893fd7af30f2a2fc/arena_client-0.1.1-py3-none-any.whl
+[2024-05-07 11:16:15] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/40/07/4bf5adf8fa16d834cd03c2a178f9aad625beac39345c30585d8095436ee7/datasiphon-0.2.3.tar.gz
+[2024-05-07 11:16:15] INFO root fetch - processPackages [pySigma-backend-opensearch]: executing diffoscope
+[2024-05-07 11:16:15] INFO root fetch - processPackages [pySigma-backend-opensearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_opensearch-1.0.1.tar.gz tmp/pysigma_backend_opensearch-1.0.2.tar.gz --markdown 20240507/p/pySigma-backend-opensearch/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-07 11:16:15] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/0d/c8/f424b1462689f7373c33e077ac9de6e4bc7aa96095b5b2781538cccbe5bd/kumparanian-1.0.4.tar.gz
+[2024-05-07 11:16:15] INFO root fetch - processPackages [crawlist]: executing diffoscope
+[2024-05-07 11:16:15] INFO root fetch - processPackages [crawlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlist-0.0.7.tar.gz tmp/crawlist-0.0.8.tar.gz --markdown 20240507/c/crawlist/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-07 11:16:15] INFO root fetch - processPackages [arena-client]: executing diffoscope
+[2024-05-07 11:16:15] INFO root fetch - processPackages [arena-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arena_client-0.1.0.tar.gz tmp/arena_client-0.1.1-py3-none-any.whl.zip --markdown 20240507/a/arena-client/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 11:16:15] INFO root fetch - processPackages [datasiphon]: executing diffoscope
+[2024-05-07 11:16:15] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-07 11:16:15] INFO root fetch - processPackages [datasiphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasiphon-0.2.2.tar.gz tmp/datasiphon-0.2.3.tar.gz --markdown 20240507/d/datasiphon/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-07 11:16:15] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-07 11:16:15] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-07 11:16:15] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240507/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-07 11:16:15] INFO root fetch - processPackages [kumparanian]: executing diffoscope
+[2024-05-07 11:16:15] INFO root fetch - processPackages [kumparanian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kumparanian-1.0.3-py2.py3-none-any.whl.zip tmp/kumparanian-1.0.4.tar.gz --markdown 20240507/k/kumparanian/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-07 11:16:15] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-07 11:16:15] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240507/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-07 11:16:16] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/1e/7f/c443bb7e9e6fd16670cb259b2887bc993a103813d7a1ab94b4006af4a98a/utilmy-0.1.17150733.tar.gz
+[2024-05-07 11:16:16] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240505.tar.gz]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240506.tar.gz]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [nvfuser-cu121]: Start processing: pisahkan-ktp
+[2024-05-07 11:16:16] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-07 11:16:16] INFO root fetch - processPackages [pisahkan-ktp]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.8.tar.gz]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.9.tar.gz]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [morphdb-utils]: Start processing: eurmlsdk
+[2024-05-07 11:16:16] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-05-07 11:16:16] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/ad/9d/ec8253cd778a3cf8877c8b846614e58d7fcdd8475a0362b70e8e364d7b9b/pisahkan_ktp-0.0.4.tar.gz
+[2024-05-07 11:16:16] INFO root fetch - processPackages [pySigma-backend-opensearch]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_opensearch-1.0.1.tar.gz]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [pySigma-backend-opensearch]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_opensearch-1.0.2.tar.gz]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [pySigma-backend-opensearch]: Start processing: AutoMLApp
+[2024-05-07 11:16:16] INFO root fetch - main [MainThread]: End processing [pySigma-backend-opensearch]: success
+[2024-05-07 11:16:16] INFO root fetch - processPackages [utilmy]: executing diffoscope
+[2024-05-07 11:16:16] INFO root fetch - processPackages [utilmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilmy-0.1.17149167.tar.gz tmp/utilmy-0.1.17150733.tar.gz --markdown 20240507/u/utilmy/0.1.17149167-0.1.17150733/README.md --exclude *.pyd
+[2024-05-07 11:16:16] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/be/ff/3ff3ec7f99b482509fcb62cfb232429012c452267a44ce8c324e93942fe3/eurmlsdk-0.0.1.tar.gz
+[2024-05-07 11:16:16] INFO root fetch - processPackages [arena-client]: Remove: archive file [/home/abi/fetcher/tmp/arena_client-0.1.0.tar.gz]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [arena-client]: Remove: archive file [/home/abi/fetcher/tmp/arena_client-0.1.1-py3-none-any.whl.zip]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [arena-client]: Start processing: nvfuser-cu118
+[2024-05-07 11:16:16] INFO root fetch - main [MainThread]: End processing [arena-client]: success
+[2024-05-07 11:16:16] INFO root fetch - processPackages [AutoMLApp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.2.tar.gz]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.3.tar.gz]
+[2024-05-07 11:16:16] INFO root fetch - main [MainThread]: End processing [datasiphon]: success
+[2024-05-07 11:16:16] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.3.dev20240506] Old Version: [0.2.3.dev20240505]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [crawlist]: Remove: archive file [/home/abi/fetcher/tmp/crawlist-0.0.7.tar.gz]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [crawlist]: Remove: archive file [/home/abi/fetcher/tmp/crawlist-0.0.8.tar.gz]
+[2024-05-07 11:16:16] INFO root fetch - main [MainThread]: End processing [crawlist]: success
+[2024-05-07 11:16:16] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/9a/f7/fdc2a869ba8f9213e87992af5df4057dbc7076818076f6f9458299b07fc0/pisahkan_ktp-0.0.5.tar.gz
+[2024-05-07 11:16:16] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/89/09/5df155c0bd0b9f570f36ce12b3a285eb82cc8659e1b049f992095354e16f/nvfuser_cu118-0.2.3.dev20240505.tar.gz
+[2024-05-07 11:16:16] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.0.3-py2.py3-none-any.whl.zip]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.0.4.tar.gz]
+[2024-05-07 11:16:16] INFO root fetch - main [MainThread]: End processing [kumparanian]: success
+[2024-05-07 11:16:16] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/e6/dd/da486f6eb1f49345f14d8312b4e4a30a22831962068feff59d541fe7be68/automlapp-0.1.0.tar.gz
+[2024-05-07 11:16:16] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/ea/da/424d3b1069a1f183e164ad9cf7efc5a5794dc296c7b548519c7031ff3158/eurmlsdk-0.0.2.tar.gz
+[2024-05-07 11:16:16] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-07 11:16:16] INFO root fetch - processPackages [pisahkan-ktp]: executing diffoscope
+[2024-05-07 11:16:16] INFO root fetch - processPackages [pisahkan-ktp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisahkan_ktp-0.0.4.tar.gz tmp/pisahkan_ktp-0.0.5.tar.gz --markdown 20240507/p/pisahkan-ktp/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-07 11:16:16] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-07 11:16:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-07 11:16:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-07 11:16:17] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/58/d1/493a5b8d7de8006fdba176faf705b319ad0f66fa23891e1d13f451930fcf/nvfuser_cu118-0.2.3.dev20240506.tar.gz
+[2024-05-07 11:16:17] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-07 11:16:17] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.1.tar.gz tmp/eurmlsdk-0.0.2.tar.gz --markdown 20240507/e/eurmlsdk/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-07 11:16:17] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-05-07 11:16:17] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.3.dev20240505.tar.gz tmp/nvfuser_cu118-0.2.3.dev20240506.tar.gz --markdown 20240507/n/nvfuser-cu118/0.2.3.dev20240505-0.2.3.dev20240506/README.md --exclude *.pyd
+[2024-05-07 11:16:17] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/22/e5/c4828c6da52369eef66b6ccbee6e20b661402822ac1b3d1e09e44e351cee/automlapp-0.1.1.tar.gz
+[2024-05-07 11:16:17] INFO root fetch - processPackages [AutoMLApp]: executing diffoscope
+[2024-05-07 11:16:17] INFO root fetch - processPackages [AutoMLApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automlapp-0.1.0.tar.gz tmp/automlapp-0.1.1.tar.gz --markdown 20240507/A/AutoMLApp/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 11:16:17] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.0.4.tar.gz]
+[2024-05-07 11:16:17] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.0.5.tar.gz]
+[2024-05-07 11:16:17] INFO root fetch - main [MainThread]: End processing [pisahkan-ktp]: success
+[2024-05-07 11:16:17] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.1.tar.gz]
+[2024-05-07 11:16:17] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.2.tar.gz]
+[2024-05-07 11:16:17] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-07 11:16:17] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240505.tar.gz]
+[2024-05-07 11:16:17] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240506.tar.gz]
+[2024-05-07 11:16:17] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-05-07 11:16:17] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.0.tar.gz]
+[2024-05-07 11:16:17] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.1.tar.gz]
+[2024-05-07 11:16:17] INFO root fetch - main [MainThread]: End processing [AutoMLApp]: success
+[2024-05-07 11:16:24] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17149167.tar.gz]
+[2024-05-07 11:16:24] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17150733.tar.gz]
+[2024-05-07 11:16:24] INFO root fetch - main [MainThread]: End processing [utilmy]: success
+[2024-05-07 11:16:24] INFO root fetch - main [MainThread]: Store serial: [23092828]
