@@ -20091,3 +20091,103 @@ EOFError: EOF read where object expected
 [2024-05-07 12:44:51] INFO root fetch - main [MainThread]: End processing [openctp-ctp]: success
 [2024-05-07 12:44:52] INFO root fetch - main [MainThread]: End processing [openctp-ctp]: success
 [2024-05-07 12:44:52] INFO root fetch - main [MainThread]: Store serial: [23093846]
+[2024-05-07 12:46:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093846]
+[2024-05-07 12:47:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-07 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openctp-ctp
+[2024-05-07 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openctp-ctp
+[2024-05-07 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openctp-ctp
+[2024-05-07 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miautawn-auto-validate-by-history
+[2024-05-07 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openctp-ctp
+[2024-05-07 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openctp-ctp
+[2024-05-07 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JustDataML
+[2024-05-07 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tdrpa.tdworker
+[2024-05-07 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: operational-hours-local
+[2024-05-07 12:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mysql-study-datamaker-CN
+[2024-05-07 12:47:01] INFO root fetch - processPackages [operational-hours-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 12:47:01] WARNING root fetch - processPackages [miautawn-auto-validate-by-history]: Skipping, unable to determine old version
+[2024-05-07 12:47:01] INFO root fetch - main [MainThread]: End processing [miautawn-auto-validate-by-history] error
+[2024-05-07 12:47:01] INFO root fetch - processPackages [tdrpa.tdworker]: New version: [1.1.37] Old Version: [1.1.35]
+[2024-05-07 12:47:01] INFO root fetch - processPackages [openctp-ctp]: New version: [6.7.2.5] Old Version: [6.7.2.4]
+[2024-05-07 12:47:01] INFO root fetch - processPackages [openctp-ctp]: New version: [6.7.2.5] Old Version: [6.7.2.4]
+[2024-05-07 12:47:01] INFO root fetch - processPackages [openctp-ctp]: New version: [6.7.2.5] Old Version: [6.7.2.4]
+[2024-05-07 12:47:01] INFO root fetch - processPackages [openctp-ctp]: New version: [6.7.2.5] Old Version: [6.7.2.4]
+[2024-05-07 12:47:01] INFO root fetch - processPackages [openctp-ctp]: New version: [6.7.2.5] Old Version: [6.7.2.4]
+[2024-05-07 12:47:01] INFO root fetch - processPackages [operational-hours-local]: Downloading https://files.pythonhosted.org/packages/62/d7/8c19cd542af91bf2f7a12c61d5e9ddfe19f4b8e05ce2b8eb15b8b91b7c01/operational-hours-local-0.0.8.tar.gz
+[2024-05-07 12:47:01] INFO root fetch - processPackages [JustDataML]: New version: [0.0.27] Old Version: [0.0.26]
+[2024-05-07 12:47:01] INFO root fetch - processPackages [mysql-study-datamaker-CN]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-05-07 12:47:01] INFO root fetch - processPackages [tdrpa.tdworker]: Downloading https://files.pythonhosted.org/packages/ad/5f/704705442bb28ece5581a8cf13a1fc346a1cecd51227ab8d950d0182c376/tdrpa.tdworker-1.1.35-py3-none-any.whl
+[2024-05-07 12:47:01] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/c6/8d/02c31fa7ddb6ac9071dc961e0234a9b364aa4eba17dc32648f438cec0b78/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl
+[2024-05-07 12:47:01] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/c6/8d/02c31fa7ddb6ac9071dc961e0234a9b364aa4eba17dc32648f438cec0b78/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl
+[2024-05-07 12:47:01] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/c6/8d/02c31fa7ddb6ac9071dc961e0234a9b364aa4eba17dc32648f438cec0b78/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl
+[2024-05-07 12:47:01] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/c6/8d/02c31fa7ddb6ac9071dc961e0234a9b364aa4eba17dc32648f438cec0b78/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl
+[2024-05-07 12:47:01] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/c6/8d/02c31fa7ddb6ac9071dc961e0234a9b364aa4eba17dc32648f438cec0b78/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl
+[2024-05-07 12:47:01] INFO root fetch - processPackages [JustDataML]: Downloading https://files.pythonhosted.org/packages/d5/2b/b571c2f1f6ab2c0a9ae8e4a6f7b626bd4dc8aac23c1510a76fa6e10744a5/JustDataML-0.0.26.tar.gz
+[2024-05-07 12:47:01] INFO root fetch - processPackages [mysql-study-datamaker-CN]: Downloading https://files.pythonhosted.org/packages/60/73/1906d01f1ac542cbaff20f1bb04e7cff165fe21ce7ba2ebeb9293cfc6b4d/mysql_study_datamaker_cn-0.0.6.tar.gz
+[2024-05-07 12:47:01] INFO root fetch - processPackages [operational-hours-local]: Downloading https://files.pythonhosted.org/packages/9f/c6/6ece5cbf9f4733d5c095727160e6c68b2688cd1a0d8a81cbedfc6b20859f/operational-hours-local-0.0.9.tar.gz
+[2024-05-07 12:47:01] INFO root fetch - processPackages [tdrpa.tdworker]: Downloading https://files.pythonhosted.org/packages/34/b4/c19fc7a0f251246aebe4eb1bd8cecef5e3279f11a86add272559c6260f1c/tdrpa.tdworker-1.1.37-py3-none-any.whl
+[2024-05-07 12:47:01] INFO root fetch - processPackages [operational-hours-local]: executing diffoscope
+[2024-05-07 12:47:01] INFO root fetch - processPackages [operational-hours-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/operational-hours-local-0.0.8.tar.gz tmp/operational-hours-local-0.0.9.tar.gz --markdown 20240507/o/operational-hours-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 12:47:01] INFO root fetch - processPackages [tdrpa.tdworker]: executing diffoscope
+[2024-05-07 12:47:01] INFO root fetch - processPackages [tdrpa.tdworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdrpa.tdworker-1.1.35-py3-none-any.whl.zip tmp/tdrpa.tdworker-1.1.37-py3-none-any.whl.zip --markdown 20240507/t/tdrpa.tdworker/1.1.35-1.1.37/README.md --exclude *.pyd
+[2024-05-07 12:47:01] INFO root fetch - processPackages [JustDataML]: Downloading https://files.pythonhosted.org/packages/84/86/74fa93ec854c38445e3b4a10a7fe77ae017ed6fba73ea6546d3435d875c8/JustDataML-0.0.27.tar.gz
+[2024-05-07 12:47:01] INFO root fetch - processPackages [mysql-study-datamaker-CN]: Downloading https://files.pythonhosted.org/packages/1c/8c/0850e1fc8ff8bebe402ebf47bbf9741756ab286d429edeb0048d2fa5a1b1/mysql_study_datamaker_cn-0.1.0.tar.gz
+[2024-05-07 12:47:02] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/b8/5b/55216866b439f1def4957d8af137cb241904d679c85834403f05136a73c9/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl
+[2024-05-07 12:47:02] INFO root fetch - processPackages [JustDataML]: executing diffoscope
+[2024-05-07 12:47:02] INFO root fetch - processPackages [JustDataML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustDataML-0.0.26.tar.gz tmp/JustDataML-0.0.27.tar.gz --markdown 20240507/J/JustDataML/0.0.26-0.0.27/README.md --exclude *.pyd
+[2024-05-07 12:47:02] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/b8/5b/55216866b439f1def4957d8af137cb241904d679c85834403f05136a73c9/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl
+[2024-05-07 12:47:02] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/b8/5b/55216866b439f1def4957d8af137cb241904d679c85834403f05136a73c9/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl
+[2024-05-07 12:47:02] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/b8/5b/55216866b439f1def4957d8af137cb241904d679c85834403f05136a73c9/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl
+[2024-05-07 12:47:02] INFO root fetch - processPackages [openctp-ctp]: Downloading https://files.pythonhosted.org/packages/b8/5b/55216866b439f1def4957d8af137cb241904d679c85834403f05136a73c9/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl
+[2024-05-07 12:47:02] INFO root fetch - processPackages [mysql-study-datamaker-CN]: executing diffoscope
+[2024-05-07 12:47:02] INFO root fetch - processPackages [mysql-study-datamaker-CN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_study_datamaker_cn-0.0.6.tar.gz tmp/mysql_study_datamaker_cn-0.1.0.tar.gz --markdown 20240507/m/mysql-study-datamaker-CN/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-05-07 12:47:02] INFO root fetch - processPackages [operational-hours-local]: Remove: archive file [/home/abi/fetcher/tmp/operational-hours-local-0.0.8.tar.gz]
+[2024-05-07 12:47:02] INFO root fetch - processPackages [operational-hours-local]: Remove: archive file [/home/abi/fetcher/tmp/operational-hours-local-0.0.9.tar.gz]
+[2024-05-07 12:47:02] INFO root fetch - main [MainThread]: End processing [operational-hours-local]: success
+[2024-05-07 12:47:02] INFO root fetch - processPackages [tdrpa.tdworker]: Remove: archive file [/home/abi/fetcher/tmp/tdrpa.tdworker-1.1.35-py3-none-any.whl.zip]
+[2024-05-07 12:47:02] INFO root fetch - processPackages [tdrpa.tdworker]: Remove: archive file [/home/abi/fetcher/tmp/tdrpa.tdworker-1.1.37-py3-none-any.whl.zip]
+[2024-05-07 12:47:02] INFO root fetch - main [MainThread]: End processing [tdrpa.tdworker]: success
+[2024-05-07 12:47:02] INFO root fetch - processPackages [openctp-ctp]: executing diffoscope
+[2024-05-07 12:47:02] INFO root fetch - processPackages [openctp-ctp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl.zip --markdown 20240507/o/openctp-ctp/6.7.2.4-6.7.2.5/README.md --exclude *.pyd
+[2024-05-07 12:47:02] INFO root fetch - processPackages [openctp-ctp]: executing diffoscope
+[2024-05-07 12:47:02] INFO root fetch - processPackages [openctp-ctp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl.zip --markdown 20240507/o/openctp-ctp/6.7.2.4-6.7.2.5/README.md --exclude *.pyd
+[2024-05-07 12:47:02] INFO root fetch - processPackages [openctp-ctp]: executing diffoscope
+[2024-05-07 12:47:02] INFO root fetch - processPackages [openctp-ctp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl.zip --markdown 20240507/o/openctp-ctp/6.7.2.4-6.7.2.5/README.md --exclude *.pyd
+[2024-05-07 12:47:02] INFO root fetch - processPackages [openctp-ctp]: executing diffoscope
+[2024-05-07 12:47:02] INFO root fetch - processPackages [openctp-ctp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl.zip --markdown 20240507/o/openctp-ctp/6.7.2.4-6.7.2.5/README.md --exclude *.pyd
+[2024-05-07 12:47:02] INFO root fetch - processPackages [openctp-ctp]: executing diffoscope
+[2024-05-07 12:47:02] INFO root fetch - processPackages [openctp-ctp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip tmp/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl.zip --markdown 20240507/o/openctp-ctp/6.7.2.4-6.7.2.5/README.md --exclude *.pyd
+[2024-05-07 12:47:02] INFO root fetch - processPackages [JustDataML]: Remove: archive file [/home/abi/fetcher/tmp/JustDataML-0.0.26.tar.gz]
+[2024-05-07 12:47:02] INFO root fetch - processPackages [JustDataML]: Remove: archive file [/home/abi/fetcher/tmp/JustDataML-0.0.27.tar.gz]
+[2024-05-07 12:47:02] INFO root fetch - main [MainThread]: End processing [JustDataML]: success
+[2024-05-07 12:47:02] INFO root fetch - processPackages [mysql-study-datamaker-CN]: Remove: archive file [/home/abi/fetcher/tmp/mysql_study_datamaker_cn-0.0.6.tar.gz]
+[2024-05-07 12:47:02] INFO root fetch - processPackages [mysql-study-datamaker-CN]: Remove: archive file [/home/abi/fetcher/tmp/mysql_study_datamaker_cn-0.1.0.tar.gz]
+[2024-05-07 12:47:02] INFO root fetch - main [MainThread]: End processing [mysql-study-datamaker-CN]: success
+[2024-05-07 12:47:03] INFO root fetch - processPackages [openctp-ctp]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip]
+[2024-05-07 12:47:03] INFO root fetch - processPackages [openctp-ctp]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctp-6.7.2.5-cp39-cp39-win_amd64.whl.zip]
+[2024-05-07 12:47:03] INFO root fetch - main [MainThread]: End processing [openctp-ctp]: success
+[2024-05-07 12:47:03] INFO root fetch - main [MainThread]: End processing [openctp-ctp]: success
+[2024-05-07 12:47:03] INFO root fetch - main [MainThread]: End processing [openctp-ctp]: success
+[2024-05-07 12:47:03] INFO root fetch - main [MainThread]: End processing [openctp-ctp]: success
+[2024-05-07 12:47:03] ERROR root fetch - processPackages [openctp-ctp]: Diffoscope failed: time="2024-05-07T12:47:02+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 75, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 35, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip does not exist
+
+[2024-05-07 12:47:03] INFO root fetch - main [MainThread]: End processing [openctp-ctp] error
+[2024-05-07 12:47:03] INFO root fetch - main [MainThread]: Store serial: [23093894]
