@@ -3659,3 +3659,15 @@ EOFError: EOF read where object expected
 [2024-05-07 02:41:26] INFO root fetch - processPackages [Py-Lav]: Remove: archive file [/home/abi/fetcher/tmp/py_lav-1.9.1.tar.gz]
 [2024-05-07 02:41:26] INFO root fetch - main [MainThread]: End processing [Py-Lav]: success
 [2024-05-07 02:41:26] INFO root fetch - main [MainThread]: Store serial: [23086637]
+[2024-05-07 02:43:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086637]
+[2024-05-07 02:43:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-07 02:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skrutable
+[2024-05-07 02:43:34] INFO root fetch - processPackages [skrutable]: New version: [1.3.0.dev4] Old Version: [1.3.0.dev3]
+[2024-05-07 02:43:34] INFO root fetch - processPackages [skrutable]: Downloading https://files.pythonhosted.org/packages/09/d0/8c14b80158c2c110e50786c434450f380c1ce3d08cd6cc54ec2580f641a1/skrutable-1.3.0.dev3.tar.gz
+[2024-05-07 02:43:35] INFO root fetch - processPackages [skrutable]: Downloading https://files.pythonhosted.org/packages/89/c4/5763791cc2dc23621c12060ee548db10415456b09b9168f7d70ac4f4f23c/skrutable-1.3.0.dev4.tar.gz
+[2024-05-07 02:43:35] INFO root fetch - processPackages [skrutable]: executing diffoscope
+[2024-05-07 02:43:35] INFO root fetch - processPackages [skrutable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skrutable-1.3.0.dev3.tar.gz tmp/skrutable-1.3.0.dev4.tar.gz --markdown 20240507/s/skrutable/1.3.0.dev3-1.3.0.dev4/README.md --exclude *.pyd
+[2024-05-07 02:43:36] INFO root fetch - processPackages [skrutable]: Remove: archive file [/home/abi/fetcher/tmp/skrutable-1.3.0.dev3.tar.gz]
+[2024-05-07 02:43:36] INFO root fetch - processPackages [skrutable]: Remove: archive file [/home/abi/fetcher/tmp/skrutable-1.3.0.dev4.tar.gz]
+[2024-05-07 02:43:36] INFO root fetch - main [MainThread]: End processing [skrutable]: success
+[2024-05-07 02:43:36] INFO root fetch - main [MainThread]: Store serial: [23086641]
