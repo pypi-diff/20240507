@@ -8787,3 +8787,27 @@ EOFError: EOF read where object expected
 [2024-05-07 04:29:28] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240506.tar.gz]
 [2024-05-07 04:29:28] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-05-07 04:29:28] INFO root fetch - main [MainThread]: Store serial: [23088492]
+[2024-05-07 04:31:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088492]
+[2024-05-07 04:31:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 04:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cfn-review-bot
+[2024-05-07 04:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anotify
+[2024-05-07 04:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lo2
+[2024-05-07 04:31:37] INFO root fetch - processPackages [cfn-review-bot]: New version: [1!20240507.22909] Old Version: [1!20240503.124710]
+[2024-05-07 04:31:37] WARNING root fetch - processPackages [lo2]: Skipping, unable to determine old version
+[2024-05-07 04:31:37] INFO root fetch - main [MainThread]: End processing [lo2] error
+[2024-05-07 04:31:37] INFO root fetch - processPackages [anotify]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-07 04:31:37] INFO root fetch - processPackages [cfn-review-bot]: Downloading https://files.pythonhosted.org/packages/12/cd/189c5a13b1855b0568d44a09a206585dcf77a9bf7a751346eb0673e1fbe3/cfn-review-bot-1!20240503.124710.tar.gz
+[2024-05-07 04:31:37] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/c7/13/6634fd324ecc789b3c4f16120766d6228f02a3418b4fd20d97a294473447/anotify-0.0.3.tar.gz
+[2024-05-07 04:31:37] INFO root fetch - processPackages [cfn-review-bot]: Downloading https://files.pythonhosted.org/packages/89/a5/d7e89977d282e23e40063fc37a26852aa11dd6b8e36325593086fff19a36/cfn-review-bot-1!20240507.22909.tar.gz
+[2024-05-07 04:31:37] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/81/38/25beb1197577318effce104b1cab4c474421137489072efa2e240d56dde5/anotify-0.0.4.tar.gz
+[2024-05-07 04:31:37] INFO root fetch - processPackages [cfn-review-bot]: executing diffoscope
+[2024-05-07 04:31:37] INFO root fetch - processPackages [cfn-review-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn-review-bot-1!20240503.124710.tar.gz tmp/cfn-review-bot-1!20240507.22909.tar.gz --markdown 20240507/c/cfn-review-bot/1!20240503.124710-1!20240507.22909/README.md --exclude *.pyd
+[2024-05-07 04:31:37] INFO root fetch - processPackages [anotify]: executing diffoscope
+[2024-05-07 04:31:37] INFO root fetch - processPackages [anotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anotify-0.0.3.tar.gz tmp/anotify-0.0.4.tar.gz --markdown 20240507/a/anotify/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-07 04:31:38] INFO root fetch - processPackages [cfn-review-bot]: Remove: archive file [/home/abi/fetcher/tmp/cfn-review-bot-1!20240503.124710.tar.gz]
+[2024-05-07 04:31:38] INFO root fetch - processPackages [cfn-review-bot]: Remove: archive file [/home/abi/fetcher/tmp/cfn-review-bot-1!20240507.22909.tar.gz]
+[2024-05-07 04:31:38] INFO root fetch - main [MainThread]: End processing [cfn-review-bot]: success
+[2024-05-07 04:31:38] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.0.3.tar.gz]
+[2024-05-07 04:31:38] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.0.4.tar.gz]
+[2024-05-07 04:31:38] INFO root fetch - main [MainThread]: End processing [anotify]: success
+[2024-05-07 04:31:38] INFO root fetch - main [MainThread]: Store serial: [23088505]
