@@ -16861,3 +16861,99 @@ EOFError: EOF read where object expected
 [2024-05-07 10:42:33] INFO root fetch - processPackages [analogic-framework]: Remove: archive file [/home/abi/fetcher/tmp/analogic-framework-4.1.9.tar.gz]
 [2024-05-07 10:42:33] INFO root fetch - main [MainThread]: End processing [analogic-framework]: success
 [2024-05-07 10:42:33] INFO root fetch - main [MainThread]: Store serial: [23092347]
+[2024-05-07 10:44:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092347]
+[2024-05-07 10:44:42] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-07 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-quality-validation-pydeequ
+[2024-05-07 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybiolib
+[2024-05-07 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ce-mkc
+[2024-05-07 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eodc-faas-openeo
+[2024-05-07 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moveFile
+[2024-05-07 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leadguru-jobs
+[2024-05-07 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cira
+[2024-05-07 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ranking-challenge
+[2024-05-07 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sunholo
+[2024-05-07 10:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odbc2deltalake
+[2024-05-07 10:44:42] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2024-05-07 10:44:42] INFO root fetch - processPackages [data-quality-validation-pydeequ]: New version: [0.8] Old Version: [0.7]
+[2024-05-07 10:44:42] INFO root fetch - processPackages [ce-mkc]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-07 10:44:42] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-07 10:44:42] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.5.4] Old Version: [2024.5.3]
+[2024-05-07 10:44:42] INFO root fetch - processPackages [cira]: New version: [3.1.0] Old Version: [3.0.4]
+[2024-05-07 10:44:42] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/5a/77/3848124a3ba70de35c3db95f35a2d7666fdc5276ff6a88350973f39744c1/data-quality-validation-pydeequ-0.7.tar.gz
+[2024-05-07 10:44:42] INFO root fetch - processPackages [moveFile]: New version: [0.3.3.4] Old Version: [0.3.3.3]
+[2024-05-07 10:44:42] WARNING root fetch - processPackages [ranking-challenge]: Skipping, unable to determine old version
+[2024-05-07 10:44:42] INFO root fetch - processPackages [ranking-challenge]: Start processing: quollio-core
+[2024-05-07 10:44:42] INFO root fetch - main [MainThread]: End processing [ranking-challenge] error
+[2024-05-07 10:44:42] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-07 10:44:43] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-07 10:44:43] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/60/8a/62f1a75f4a93a252dbb188a71192d3fa69b90655d827f1a90464c09306d8/odbc2deltalake-0.9.0.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/56/cc/b4afd1695b6e46f16bf00e0a23374f893ceb38a301f5ff309d599700b4cb/eodc_faas_openeo-2024.5.3.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [ce-mkc]: Downloading https://files.pythonhosted.org/packages/db/c8/6a095bf56b476c9ba9e8676fa072f49ddb9d42b052cb39ed07657e684968/ce_mkc-0.0.1.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [quollio-core]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-07 10:44:43] INFO root fetch - processPackages [moveFile]: Downloading https://files.pythonhosted.org/packages/1f/13/0434247f9477033266d7ef36fee60a7f1b93aa221a600e1137aff8529842/moveFile-0.3.3.3.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [cira]: Downloading https://files.pythonhosted.org/packages/d1/95/d7f8ebfc14058e4ebd588c4958b55335675c6b3995d9778b76f36df77887/cira-3.0.4.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/c5/78/1f89a261b7929df384f9ba80767aa8cb2943103f07c2773672f1ebc74e9d/odbc2deltalake-0.9.1.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/5e/c5/dd94e0076d0c027fba69adf9826b2b948713d5faeb26e3a08347d378a764/data-quality-validation-pydeequ-0.8.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/ef/46/bf0d1237e6fc3225344e7e2d47654e41d7daf3ed8f33ee977cd2601789f8/eodc_faas_openeo-2024.5.4.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [quollio-core]: Downloading https://files.pythonhosted.org/packages/77/e5/998e926d4f6b393d592853a36462bdcd7007c725f13f59599b7f17f092d1/quollio_core-0.4.4.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2024-05-07 10:44:43] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20240507/p/pybiolib/1.1.997-1.1.999/README.md --exclude *.pyd
+[2024-05-07 10:44:43] INFO root fetch - processPackages [data-quality-validation-pydeequ]: executing diffoscope
+[2024-05-07 10:44:43] INFO root fetch - processPackages [data-quality-validation-pydeequ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-quality-validation-pydeequ-0.7.tar.gz tmp/data-quality-validation-pydeequ-0.8.tar.gz --markdown 20240507/d/data-quality-validation-pydeequ/0.7-0.8/README.md --exclude *.pyd
+[2024-05-07 10:44:43] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-05-07 10:44:43] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.9.0.tar.gz tmp/odbc2deltalake-0.9.1.tar.gz --markdown 20240507/o/odbc2deltalake/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-07 10:44:43] INFO root fetch - processPackages [ce-mkc]: Downloading https://files.pythonhosted.org/packages/11/ab/9fff11613225db011d59bdc3a97169c34b56709bd7b878dfac2f0203b200/ce_mkc-0.1.0.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-05-07 10:44:43] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.5.3.tar.gz tmp/eodc_faas_openeo-2024.5.4.tar.gz --markdown 20240507/e/eodc-faas-openeo/2024.5.3-2024.5.4/README.md --exclude *.pyd
+[2024-05-07 10:44:43] INFO root fetch - processPackages [moveFile]: Downloading https://files.pythonhosted.org/packages/26/b1/3708fc1a511bc1b541aac0c32098d2fb013a5f228a43f41de0f1cf33e3d4/moveFile-0.3.3.4.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [ce-mkc]: executing diffoscope
+[2024-05-07 10:44:43] INFO root fetch - processPackages [ce-mkc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ce_mkc-0.0.1.tar.gz tmp/ce_mkc-0.1.0.tar.gz --markdown 20240507/c/ce-mkc/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-07 10:44:43] INFO root fetch - processPackages [cira]: Downloading https://files.pythonhosted.org/packages/6f/8d/d29ff3990d40db4503848a94ea9c6c4fc43399cc5406be4349f1dcaabbd2/cira-3.1.0.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-07 10:44:43] INFO root fetch - processPackages [moveFile]: executing diffoscope
+[2024-05-07 10:44:43] INFO root fetch - processPackages [moveFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moveFile-0.3.3.3.tar.gz tmp/moveFile-0.3.3.4.tar.gz --markdown 20240507/m/moveFile/0.3.3.3-0.3.3.4/README.md --exclude *.pyd
+[2024-05-07 10:44:43] INFO root fetch - processPackages [cira]: executing diffoscope
+[2024-05-07 10:44:43] INFO root fetch - processPackages [cira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cira-3.0.4.tar.gz tmp/cira-3.1.0.tar.gz --markdown 20240507/c/cira/3.0.4-3.1.0/README.md --exclude *.pyd
+[2024-05-07 10:44:43] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-07 10:44:43] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240507/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-07 10:44:44] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-07 10:44:44] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240507/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-07 10:44:44] INFO root fetch - processPackages [quollio-core]: Downloading https://files.pythonhosted.org/packages/16/cb/32ddd63e77bf589742dba4bbfb39645d12fe2a1087441217aa823afd6c7b/quollio_core-0.4.5.tar.gz
+[2024-05-07 10:44:44] INFO root fetch - processPackages [quollio-core]: executing diffoscope
+[2024-05-07 10:44:44] INFO root fetch - processPackages [quollio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quollio_core-0.4.4.tar.gz tmp/quollio_core-0.4.5.tar.gz --markdown 20240507/q/quollio-core/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-07 10:44:44] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.0.tar.gz]
+[2024-05-07 10:44:44] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.1.tar.gz]
+[2024-05-07 10:44:44] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-05-07 10:44:44] INFO root fetch - processPackages [ce-mkc]: Remove: archive file [/home/abi/fetcher/tmp/ce_mkc-0.0.1.tar.gz]
+[2024-05-07 10:44:44] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.3.tar.gz]
+[2024-05-07 10:44:44] INFO root fetch - processPackages [ce-mkc]: Remove: archive file [/home/abi/fetcher/tmp/ce_mkc-0.1.0.tar.gz]
+[2024-05-07 10:44:44] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.4.tar.gz]
+[2024-05-07 10:44:44] INFO root fetch - main [MainThread]: End processing [ce-mkc]: success
+[2024-05-07 10:44:44] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-05-07 10:44:44] INFO root fetch - processPackages [moveFile]: Remove: archive file [/home/abi/fetcher/tmp/moveFile-0.3.3.3.tar.gz]
+[2024-05-07 10:44:44] INFO root fetch - processPackages [moveFile]: Remove: archive file [/home/abi/fetcher/tmp/moveFile-0.3.3.4.tar.gz]
+[2024-05-07 10:44:44] INFO root fetch - main [MainThread]: End processing [moveFile]: success
+[2024-05-07 10:44:44] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.7.tar.gz]
+[2024-05-07 10:44:44] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.8.tar.gz]
+[2024-05-07 10:44:44] INFO root fetch - main [MainThread]: End processing [data-quality-validation-pydeequ]: success
+[2024-05-07 10:44:45] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2024-05-07 10:44:45] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2024-05-07 10:44:45] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2024-05-07 10:44:45] INFO root fetch - processPackages [cira]: Remove: archive file [/home/abi/fetcher/tmp/cira-3.0.4.tar.gz]
+[2024-05-07 10:44:45] INFO root fetch - processPackages [cira]: Remove: archive file [/home/abi/fetcher/tmp/cira-3.1.0.tar.gz]
+[2024-05-07 10:44:45] INFO root fetch - main [MainThread]: End processing [cira]: success
+[2024-05-07 10:44:45] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-07 10:44:45] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-07 10:44:45] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-07 10:44:45] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-07 10:44:45] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-07 10:44:45] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-07 10:44:45] INFO root fetch - processPackages [quollio-core]: Remove: archive file [/home/abi/fetcher/tmp/quollio_core-0.4.4.tar.gz]
+[2024-05-07 10:44:45] INFO root fetch - processPackages [quollio-core]: Remove: archive file [/home/abi/fetcher/tmp/quollio_core-0.4.5.tar.gz]
+[2024-05-07 10:44:45] INFO root fetch - main [MainThread]: End processing [quollio-core]: success
+[2024-05-07 10:44:45] INFO root fetch - main [MainThread]: Store serial: [23092412]
