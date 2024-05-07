@@ -8547,3 +8547,33 @@ EOFError: EOF read where object expected
 [2024-05-07 04:15:47] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
 [2024-05-07 04:15:47] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
 [2024-05-07 04:15:47] INFO root fetch - main [MainThread]: Store serial: [23088405]
+[2024-05-07 04:17:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088405]
+[2024-05-07 04:17:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 04:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: profcomff-definitions
+[2024-05-07 04:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cae-cli
+[2024-05-07 04:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbappinator
+[2024-05-07 04:17:56] INFO root fetch - processPackages [cae-cli]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-07 04:17:56] INFO root fetch - processPackages [profcomff-definitions]: New version: [2024.5.7] Old Version: [2024.5.5.2]
+[2024-05-07 04:17:56] INFO root fetch - processPackages [nbappinator]: New version: [0.1.2b1] Old Version: [0.1.1b1]
+[2024-05-07 04:17:56] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/eb/f7/733dff092f04d1daff0118417c41ebca9484bbd4349d12657ce7d7336414/cae_cli-0.1.1.tar.gz
+[2024-05-07 04:17:56] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/fc/fc/7e5cc47c88817d6243b84d4865b659e672a442fc35b7abbb33912443ad5e/nbappinator-0.1.1b1.tar.gz
+[2024-05-07 04:17:56] INFO root fetch - processPackages [profcomff-definitions]: Downloading https://files.pythonhosted.org/packages/a0/0a/146fce674b83733608afaa9975ba8eac3e45d4454cd3e39df64cc331f64e/profcomff_definitions-2024.5.5.2.tar.gz
+[2024-05-07 04:17:56] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/0d/e3/bbe8f1197330c686ba9f9146ff416bb342be82bcb09ca8d7d20ca3572c6b/cae_cli-0.1.2.tar.gz
+[2024-05-07 04:17:56] INFO root fetch - processPackages [profcomff-definitions]: Downloading https://files.pythonhosted.org/packages/3b/ad/cbe50962969fe15e57118da29b0f0fbb0bad97cf741ef20e9b7341dc776d/profcomff_definitions-2024.5.7.tar.gz
+[2024-05-07 04:17:56] INFO root fetch - processPackages [cae-cli]: executing diffoscope
+[2024-05-07 04:17:56] INFO root fetch - processPackages [cae-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cae_cli-0.1.1.tar.gz tmp/cae_cli-0.1.2.tar.gz --markdown 20240507/c/cae-cli/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-07 04:17:56] INFO root fetch - processPackages [profcomff-definitions]: executing diffoscope
+[2024-05-07 04:17:56] INFO root fetch - processPackages [profcomff-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profcomff_definitions-2024.5.5.2.tar.gz tmp/profcomff_definitions-2024.5.7.tar.gz --markdown 20240507/p/profcomff-definitions/2024.5.5.2-2024.5.7/README.md --exclude *.pyd
+[2024-05-07 04:17:57] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/b2/d3/fae7baf24fe96926d945c260b21a8b9dec488e0545177d01c8bb151c46ab/nbappinator-0.1.2b1.tar.gz
+[2024-05-07 04:17:57] INFO root fetch - processPackages [nbappinator]: executing diffoscope
+[2024-05-07 04:17:57] INFO root fetch - processPackages [nbappinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbappinator-0.1.1b1.tar.gz tmp/nbappinator-0.1.2b1.tar.gz --markdown 20240507/n/nbappinator/0.1.1b1-0.1.2b1/README.md --exclude *.pyd
+[2024-05-07 04:17:57] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.1.1.tar.gz]
+[2024-05-07 04:17:57] INFO root fetch - processPackages [profcomff-definitions]: Remove: archive file [/home/abi/fetcher/tmp/profcomff_definitions-2024.5.5.2.tar.gz]
+[2024-05-07 04:17:57] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.1.2.tar.gz]
+[2024-05-07 04:17:57] INFO root fetch - processPackages [profcomff-definitions]: Remove: archive file [/home/abi/fetcher/tmp/profcomff_definitions-2024.5.7.tar.gz]
+[2024-05-07 04:17:57] INFO root fetch - main [MainThread]: End processing [cae-cli]: success
+[2024-05-07 04:17:57] INFO root fetch - main [MainThread]: End processing [profcomff-definitions]: success
+[2024-05-07 04:17:57] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.1.1b1.tar.gz]
+[2024-05-07 04:17:57] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.1.2b1.tar.gz]
+[2024-05-07 04:17:57] INFO root fetch - main [MainThread]: End processing [nbappinator]: success
+[2024-05-07 04:17:57] INFO root fetch - main [MainThread]: Store serial: [23088413]
