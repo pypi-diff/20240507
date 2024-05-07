@@ -3389,3 +3389,51 @@ EOFError: EOF read where object expected
 [2024-05-07 02:21:44] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-07 02:21:44] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-07 02:21:44] INFO root fetch - main [MainThread]: Store serial: [23086509]
+[2024-05-07 02:23:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086509]
+[2024-05-07 02:23:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 02:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenGeode-Inspector
+[2024-05-07 02:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: outerbounds
+[2024-05-07 02:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genie-partner-sdk
+[2024-05-07 02:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyupgrader
+[2024-05-07 02:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chalkpy
+[2024-05-07 02:23:54] INFO root fetch - processPackages [outerbounds]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-07 02:23:54] INFO root fetch - processPackages [genie-partner-sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 02:23:54] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/db/c3/414322f3ea100053ac3662e6bb112f6d3bc83f54c5c0996e89fef5c3d384/outerbounds-0.3.8-py3-none-any.whl
+[2024-05-07 02:23:54] INFO root fetch - processPackages [pyupgrader]: New version: [2.5.16b2] Old Version: [2.5.13b2]
+[2024-05-07 02:23:54] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-07 02:23:54] INFO root fetch - processPackages [OpenGeode-Inspector]: New version: [5.1.4rc1] Old Version: [5.1.4]
+[2024-05-07 02:23:54] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/eb/c8/c87d25484be12f66ee78314f7ebd89ca4200a29e85c757b1d2e469e06c52/outerbounds-0.3.9-py3-none-any.whl
+[2024-05-07 02:23:54] INFO root fetch - processPackages [genie-partner-sdk]: Downloading https://files.pythonhosted.org/packages/17/aa/5fa58a9905d3200e459cb84f4401b770926a0ce99c0f97a6e9051011c894/genie_partner_sdk-1.0.0.tar.gz
+[2024-05-07 02:23:54] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2024-05-07 02:23:54] INFO root fetch - processPackages [pyupgrader]: Downloading https://files.pythonhosted.org/packages/8f/53/50a43678a34f44505240f56c7f993d8dc3861601a15ff92fe912c6920b15/pyupgrader-2.5.13b2.tar.gz
+[2024-05-07 02:23:54] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/f8/01/68b32c5adf234bb2426c3042559f21067efd20cc8d685ab4b098dccb33f6/OpenGeode_Inspector-5.1.4-cp39-cp39-win_amd64.whl
+[2024-05-07 02:23:54] INFO root fetch - processPackages [outerbounds]: executing diffoscope
+[2024-05-07 02:23:54] INFO root fetch - processPackages [outerbounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outerbounds-0.3.8-py3-none-any.whl.zip tmp/outerbounds-0.3.9-py3-none-any.whl.zip --markdown 20240507/o/outerbounds/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-07 02:23:54] INFO root fetch - processPackages [genie-partner-sdk]: Downloading https://files.pythonhosted.org/packages/85/d0/586a068ab2946025269ac65a549899b87d1444ed590459486f2c22adee3b/genie_partner_sdk-1.0.1.tar.gz
+[2024-05-07 02:23:54] INFO root fetch - processPackages [genie-partner-sdk]: executing diffoscope
+[2024-05-07 02:23:54] INFO root fetch - processPackages [genie-partner-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genie_partner_sdk-1.0.0.tar.gz tmp/genie_partner_sdk-1.0.1.tar.gz --markdown 20240507/g/genie-partner-sdk/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-07 02:23:54] INFO root fetch - processPackages [pyupgrader]: Downloading https://files.pythonhosted.org/packages/71/d1/a2daec1d81fa44176c6a87ead5be8edc58193bba7cdb3ac9d0758e74e5bc/pyupgrader-2.5.16b2.tar.gz
+[2024-05-07 02:23:55] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2024-05-07 02:23:55] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/a0/17/c81490525903cf17491406d74739967c5511c4b67cf2afbe6d4854334f2f/OpenGeode_Inspector-5.1.4rc1-cp39-cp39-win_amd64.whl
+[2024-05-07 02:23:55] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.8-py3-none-any.whl.zip]
+[2024-05-07 02:23:55] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.9-py3-none-any.whl.zip]
+[2024-05-07 02:23:55] INFO root fetch - main [MainThread]: End processing [outerbounds]: success
+[2024-05-07 02:23:55] INFO root fetch - processPackages [pyupgrader]: executing diffoscope
+[2024-05-07 02:23:55] INFO root fetch - processPackages [pyupgrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyupgrader-2.5.13b2.tar.gz tmp/pyupgrader-2.5.16b2.tar.gz --markdown 20240507/p/pyupgrader/2.5.13b2-2.5.16b2/README.md --exclude *.pyd
+[2024-05-07 02:23:55] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2024-05-07 02:23:55] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20240507/c/chalkpy/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-07 02:23:55] INFO root fetch - processPackages [genie-partner-sdk]: Remove: archive file [/home/abi/fetcher/tmp/genie_partner_sdk-1.0.0.tar.gz]
+[2024-05-07 02:23:55] INFO root fetch - processPackages [genie-partner-sdk]: Remove: archive file [/home/abi/fetcher/tmp/genie_partner_sdk-1.0.1.tar.gz]
+[2024-05-07 02:23:55] INFO root fetch - main [MainThread]: End processing [genie-partner-sdk]: success
+[2024-05-07 02:23:55] INFO root fetch - processPackages [OpenGeode-Inspector]: executing diffoscope
+[2024-05-07 02:23:55] INFO root fetch - processPackages [OpenGeode-Inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Inspector-5.1.4-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Inspector-5.1.4rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240507/O/OpenGeode-Inspector/5.1.4-5.1.4rc1/README.md --exclude *.pyd
+[2024-05-07 02:23:55] INFO root fetch - processPackages [pyupgrader]: Remove: archive file [/home/abi/fetcher/tmp/pyupgrader-2.5.13b2.tar.gz]
+[2024-05-07 02:23:55] INFO root fetch - processPackages [pyupgrader]: Remove: archive file [/home/abi/fetcher/tmp/pyupgrader-2.5.16b2.tar.gz]
+[2024-05-07 02:23:55] INFO root fetch - main [MainThread]: End processing [pyupgrader]: success
+[2024-05-07 02:23:57] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2024-05-07 02:23:57] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2024-05-07 02:23:57] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2024-05-07 02:23:57] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.1.4-cp39-cp39-win_amd64.whl.zip]
+[2024-05-07 02:23:57] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.1.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-07 02:23:57] INFO root fetch - main [MainThread]: End processing [OpenGeode-Inspector]: success
+[2024-05-07 02:23:57] INFO root fetch - main [MainThread]: Store serial: [23086530]
