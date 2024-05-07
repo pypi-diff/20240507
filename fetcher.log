@@ -9883,3 +9883,60 @@ EOFError: EOF read where object expected
 [2024-05-07 05:27:41] INFO root fetch - processPackages [laktory]: Remove: archive file [/home/abi/fetcher/tmp/laktory-0.2.1.tar.gz]
 [2024-05-07 05:27:41] INFO root fetch - main [MainThread]: End processing [laktory]: success
 [2024-05-07 05:27:41] INFO root fetch - main [MainThread]: Store serial: [23089007]
+[2024-05-07 05:29:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089007]
+[2024-05-07 05:29:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 05:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ChatGPTWeb
+[2024-05-07 05:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-quality-validation-pydeequ
+[2024-05-07 05:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-risingwave
+[2024-05-07 05:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datable-ai
+[2024-05-07 05:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-semantic-release
+[2024-05-07 05:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keras-nlp-nightly
+[2024-05-07 05:29:50] INFO root fetch - processPackages [data-quality-validation-pydeequ]: New version: [0.3] Old Version: [0.2]
+[2024-05-07 05:29:50] INFO root fetch - processPackages [ChatGPTWeb]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-07 05:29:50] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/65/f0/4f35139c519f4e768a9c936d9d02c84be905a6849a2902abc20569d07ad8/data-quality-validation-pydeequ-0.2.tar.gz
+[2024-05-07 05:29:50] INFO root fetch - processPackages [dbt-risingwave]: New version: [1.7.4] Old Version: [1.7.3]
+[2024-05-07 05:29:50] INFO root fetch - processPackages [ChatGPTWeb]: Downloading https://files.pythonhosted.org/packages/82/0b/2f40072238e539ff3dafbd19d986e0824e96f181027997b032d565a7250f/ChatGPTWeb-0.2.8.tar.gz
+[2024-05-07 05:29:50] INFO root fetch - processPackages [datable-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 05:29:50] INFO root fetch - processPackages [python-semantic-release]: New version: [9.7.1] Old Version: [9.7.0]
+[2024-05-07 05:29:50] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-05-07 05:29:50] INFO root fetch - processPackages [ChatGPTWeb]: Downloading https://files.pythonhosted.org/packages/c2/07/48a39963a051837ad1394281b0a7803bd8e57f7bd348e48ace95874fc0bb/ChatGPTWeb-0.2.9.tar.gz
+[2024-05-07 05:29:50] INFO root fetch - processPackages [dbt-risingwave]: Downloading https://files.pythonhosted.org/packages/d1/16/fd814558e519da1070304b993a4bca6045d4ada06355dfdd9a078d10dc69/dbt-risingwave-1.7.3.tar.gz
+[2024-05-07 05:29:50] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/d2/b1/d79ab9bea383f36e0f2da37e211f1d57f0a785ceb2fb75d60c8755cb1806/python_semantic_release-9.7.0.tar.gz
+[2024-05-07 05:29:50] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-05-07 05:29:50] INFO root fetch - processPackages [datable-ai]: Downloading https://files.pythonhosted.org/packages/0d/54/9ede3db0429e8cd3692f7a2bf68cd471f37476f883b9e7be67d36d6fc375/datable_ai-0.0.8.tar.gz
+[2024-05-07 05:29:50] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/f6/13/d12d412ab21ca7a22f62c4103cd5929c7d6ebb2e91e38ccc9d177966b550/data-quality-validation-pydeequ-0.3.tar.gz
+[2024-05-07 05:29:50] INFO root fetch - processPackages [ChatGPTWeb]: executing diffoscope
+[2024-05-07 05:29:50] INFO root fetch - processPackages [ChatGPTWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatGPTWeb-0.2.8.tar.gz tmp/ChatGPTWeb-0.2.9.tar.gz --markdown 20240507/C/ChatGPTWeb/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-07 05:29:50] INFO root fetch - processPackages [data-quality-validation-pydeequ]: executing diffoscope
+[2024-05-07 05:29:50] INFO root fetch - processPackages [data-quality-validation-pydeequ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-quality-validation-pydeequ-0.2.tar.gz tmp/data-quality-validation-pydeequ-0.3.tar.gz --markdown 20240507/d/data-quality-validation-pydeequ/0.2-0.3/README.md --exclude *.pyd
+[2024-05-07 05:29:50] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-05-07 05:29:50] INFO root fetch - processPackages [dbt-risingwave]: Downloading https://files.pythonhosted.org/packages/08/52/4c656ef8d74b38d484bc5ad37c8f0213bcee2b35fcfe5f6f4c8f2ca2e860/dbt_risingwave-1.7.4.tar.gz
+[2024-05-07 05:29:50] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/5a/87/8b19104254af21c2b392afb6d07f6a86d0aaaefa48dd2dd8e1789fc48fa9/python_semantic_release-9.7.1.tar.gz
+[2024-05-07 05:29:50] INFO root fetch - processPackages [datable-ai]: Downloading https://files.pythonhosted.org/packages/33/e2/c47c381e255df97f2ba7c51a0b06c03d78559b35344db1666610ba4682d3/datable_ai-0.0.9.tar.gz
+[2024-05-07 05:29:50] INFO root fetch - processPackages [dbt-risingwave]: executing diffoscope
+[2024-05-07 05:29:50] INFO root fetch - processPackages [dbt-risingwave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-risingwave-1.7.3.tar.gz tmp/dbt_risingwave-1.7.4.tar.gz --markdown 20240507/d/dbt-risingwave/1.7.3-1.7.4/README.md --exclude *.pyd
+[2024-05-07 05:29:51] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-05-07 05:29:51] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240507/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-05-07 05:29:51] INFO root fetch - processPackages [datable-ai]: executing diffoscope
+[2024-05-07 05:29:51] INFO root fetch - processPackages [datable-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datable_ai-0.0.8.tar.gz tmp/datable_ai-0.0.9.tar.gz --markdown 20240507/d/datable-ai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 05:29:51] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2024-05-07 05:29:51] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_semantic_release-9.7.0.tar.gz tmp/python_semantic_release-9.7.1.tar.gz --markdown 20240507/p/python-semantic-release/9.7.0-9.7.1/README.md --exclude *.pyd
+[2024-05-07 05:29:51] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.2.tar.gz]
+[2024-05-07 05:29:51] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.3.tar.gz]
+[2024-05-07 05:29:51] INFO root fetch - main [MainThread]: End processing [data-quality-validation-pydeequ]: success
+[2024-05-07 05:29:51] INFO root fetch - processPackages [ChatGPTWeb]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPTWeb-0.2.8.tar.gz]
+[2024-05-07 05:29:51] INFO root fetch - processPackages [ChatGPTWeb]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPTWeb-0.2.9.tar.gz]
+[2024-05-07 05:29:51] INFO root fetch - main [MainThread]: End processing [ChatGPTWeb]: success
+[2024-05-07 05:29:51] INFO root fetch - processPackages [dbt-risingwave]: Remove: archive file [/home/abi/fetcher/tmp/dbt-risingwave-1.7.3.tar.gz]
+[2024-05-07 05:29:51] INFO root fetch - processPackages [dbt-risingwave]: Remove: archive file [/home/abi/fetcher/tmp/dbt_risingwave-1.7.4.tar.gz]
+[2024-05-07 05:29:51] INFO root fetch - main [MainThread]: End processing [dbt-risingwave]: success
+[2024-05-07 05:29:51] INFO root fetch - processPackages [datable-ai]: Remove: archive file [/home/abi/fetcher/tmp/datable_ai-0.0.8.tar.gz]
+[2024-05-07 05:29:51] INFO root fetch - processPackages [datable-ai]: Remove: archive file [/home/abi/fetcher/tmp/datable_ai-0.0.9.tar.gz]
+[2024-05-07 05:29:51] INFO root fetch - main [MainThread]: End processing [datable-ai]: success
+[2024-05-07 05:29:52] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python_semantic_release-9.7.0.tar.gz]
+[2024-05-07 05:29:52] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python_semantic_release-9.7.1.tar.gz]
+[2024-05-07 05:29:52] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2024-05-07 05:29:52] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-05-07 05:29:52] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-05-07 05:29:52] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-05-07 05:29:52] INFO root fetch - main [MainThread]: Store serial: [23089024]
