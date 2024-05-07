@@ -11058,3 +11058,9 @@ EOFError: EOF read where object expected
 [2024-05-07 06:46:30] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.2.1.tar.gz]
 [2024-05-07 06:46:30] INFO root fetch - main [MainThread]: End processing [mystmd]: success
 [2024-05-07 06:46:30] INFO root fetch - main [MainThread]: Store serial: [23089555]
+[2024-05-07 06:48:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089555]
+[2024-05-07 06:48:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-07 06:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intuitivismz
+[2024-05-07 06:48:44] WARNING root fetch - processPackages [intuitivismz]: Skipping, unable to determine old version
+[2024-05-07 06:48:44] INFO root fetch - main [MainThread]: End processing [intuitivismz] error
+[2024-05-07 06:48:44] INFO root fetch - main [MainThread]: Store serial: [23089560]
