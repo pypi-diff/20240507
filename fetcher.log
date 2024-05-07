@@ -11136,3 +11136,36 @@ EOFError: EOF read where object expected
 [2024-05-07 06:53:06] INFO root fetch - processPackages [pyswipe]: Remove: archive file [/home/abi/fetcher/tmp/pyswipe-0.9.7.tar.gz]
 [2024-05-07 06:53:06] INFO root fetch - main [MainThread]: End processing [pyswipe]: success
 [2024-05-07 06:53:06] INFO root fetch - main [MainThread]: Store serial: [23089583]
+[2024-05-07 06:55:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089583]
+[2024-05-07 06:55:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 06:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unmand
+[2024-05-07 06:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autorunpy
+[2024-05-07 06:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miasz
+[2024-05-07 06:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-it-intrastat
+[2024-05-07 06:55:15] INFO root fetch - processPackages [unmand]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-07 06:55:15] INFO root fetch - processPackages [autorunpy]: New version: [8.1.6] Old Version: [8.1.5]
+[2024-05-07 06:55:15] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/c2/7e/0671cebedad01aca3c51c61ca8143a11c2a05444d861ad1ca0efb62ffdb3/autorunpy-8.1.5.tar.gz
+[2024-05-07 06:55:15] INFO root fetch - processPackages [unmand]: Downloading https://files.pythonhosted.org/packages/a1/ac/410628d0d6e81459a0a12ffa196ed4723c41f5b94f9621bf539af2d4caeb/unmand-2.0.0.tar.gz
+[2024-05-07 06:55:15] WARNING root fetch - processPackages [miasz]: Skipping, unable to determine old version
+[2024-05-07 06:55:15] INFO root fetch - main [MainThread]: End processing [miasz] error
+[2024-05-07 06:55:15] INFO root fetch - processPackages [odoo-addon-l10n-it-intrastat]: New version: [16.0.1.0.3.3] Old Version: [16.0.1.0.3.2]
+[2024-05-07 06:55:15] INFO root fetch - processPackages [odoo-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/94/50/e9da2dabba5f266bedd3ab09a5c6fea2f29f06cb391e57f43d57e9fd69a6/odoo_addon_l10n_it_intrastat-16.0.1.0.3.2-py3-none-any.whl
+[2024-05-07 06:55:15] INFO root fetch - processPackages [unmand]: Downloading https://files.pythonhosted.org/packages/c6/46/585c9e3273e1d49e821e9648b46f879981c32f6ea5975656373fbe868dcc/unmand-2.0.1.tar.gz
+[2024-05-07 06:55:15] INFO root fetch - processPackages [unmand]: executing diffoscope
+[2024-05-07 06:55:15] INFO root fetch - processPackages [unmand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unmand-2.0.0.tar.gz tmp/unmand-2.0.1.tar.gz --markdown 20240507/u/unmand/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-07 06:55:15] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/37/72/dd1d9b9d2df0f82936ce4342f5ace3242b71fc197bfa7f5acb21ffaeefa1/autorunpy-8.1.6.tar.gz
+[2024-05-07 06:55:15] INFO root fetch - processPackages [autorunpy]: executing diffoscope
+[2024-05-07 06:55:15] INFO root fetch - processPackages [autorunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorunpy-8.1.5.tar.gz tmp/autorunpy-8.1.6.tar.gz --markdown 20240507/a/autorunpy/8.1.5-8.1.6/README.md --exclude *.pyd
+[2024-05-07 06:55:16] INFO root fetch - processPackages [odoo-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/45/c5/adaf20f3287d04d923d23bb51b6f2b7335908ffb91439d511b2a8bbd96c0/odoo_addon_l10n_it_intrastat-16.0.1.0.3.3-py3-none-any.whl
+[2024-05-07 06:55:16] INFO root fetch - processPackages [unmand]: Remove: archive file [/home/abi/fetcher/tmp/unmand-2.0.0.tar.gz]
+[2024-05-07 06:55:16] INFO root fetch - processPackages [unmand]: Remove: archive file [/home/abi/fetcher/tmp/unmand-2.0.1.tar.gz]
+[2024-05-07 06:55:16] INFO root fetch - main [MainThread]: End processing [unmand]: success
+[2024-05-07 06:55:16] INFO root fetch - processPackages [odoo-addon-l10n-it-intrastat]: executing diffoscope
+[2024-05-07 06:55:16] INFO root fetch - processPackages [odoo-addon-l10n-it-intrastat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_intrastat-16.0.1.0.3.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_intrastat-16.0.1.0.3.3-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-l10n-it-intrastat/16.0.1.0.3.2-16.0.1.0.3.3/README.md --exclude *.pyd
+[2024-05-07 06:55:16] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.1.5.tar.gz]
+[2024-05-07 06:55:16] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.1.6.tar.gz]
+[2024-05-07 06:55:16] INFO root fetch - main [MainThread]: End processing [autorunpy]: success
+[2024-05-07 06:55:18] INFO root fetch - processPackages [odoo-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_intrastat-16.0.1.0.3.2-py3-none-any.whl.zip]
+[2024-05-07 06:55:18] INFO root fetch - processPackages [odoo-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_intrastat-16.0.1.0.3.3-py3-none-any.whl.zip]
+[2024-05-07 06:55:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-intrastat]: success
+[2024-05-07 06:55:18] INFO root fetch - main [MainThread]: Store serial: [23089595]
