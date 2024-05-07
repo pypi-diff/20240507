@@ -19881,3 +19881,18 @@ EOFError: EOF read where object expected
 [2024-05-07 12:36:06] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-07 12:36:06] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-07 12:36:06] INFO root fetch - main [MainThread]: Store serial: [23093754]
+[2024-05-07 12:38:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093754]
+[2024-05-07 12:38:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 12:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arrow-udf
+[2024-05-07 12:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-standardized-response
+[2024-05-07 12:38:14] WARNING root fetch - processPackages [arrow-udf]: Skipping, unable to determine old version
+[2024-05-07 12:38:14] INFO root fetch - main [MainThread]: End processing [arrow-udf] error
+[2024-05-07 12:38:14] INFO root fetch - processPackages [drf-standardized-response]: New version: [1] Old Version: [0.2]
+[2024-05-07 12:38:15] INFO root fetch - processPackages [drf-standardized-response]: Downloading https://files.pythonhosted.org/packages/da/00/b3bf27eeed7c0563e877e5af2e46f2b6b3b60609056719279cf81428cbdc/drf_standardized_response-0.2.tar.gz
+[2024-05-07 12:38:15] INFO root fetch - processPackages [drf-standardized-response]: Downloading https://files.pythonhosted.org/packages/34/16/eaabdece2ae4e03c2a9728111dd3d9bd1251df5e18e8345c0e8d55effffb/drf_standardized_response-1.tar.gz
+[2024-05-07 12:38:15] INFO root fetch - processPackages [drf-standardized-response]: executing diffoscope
+[2024-05-07 12:38:15] INFO root fetch - processPackages [drf-standardized-response]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_standardized_response-0.2.tar.gz tmp/drf_standardized_response-1.tar.gz --markdown 20240507/d/drf-standardized-response/0.2-1/README.md --exclude *.pyd
+[2024-05-07 12:38:16] INFO root fetch - processPackages [drf-standardized-response]: Remove: archive file [/home/abi/fetcher/tmp/drf_standardized_response-0.2.tar.gz]
+[2024-05-07 12:38:16] INFO root fetch - processPackages [drf-standardized-response]: Remove: archive file [/home/abi/fetcher/tmp/drf_standardized_response-1.tar.gz]
+[2024-05-07 12:38:16] INFO root fetch - main [MainThread]: End processing [drf-standardized-response]: success
+[2024-05-07 12:38:16] INFO root fetch - main [MainThread]: Store serial: [23093768]
