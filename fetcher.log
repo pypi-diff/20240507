@@ -9423,3 +9423,48 @@ EOFError: EOF read where object expected
 [2024-05-07 05:08:40] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21492762>=10485760
 [2024-05-07 05:08:40] INFO root fetch - main [MainThread]: End processing [pycde] error
 [2024-05-07 05:08:40] INFO root fetch - main [MainThread]: Store serial: [23088823]
+[2024-05-07 05:10:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088823]
+[2024-05-07 05:10:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 05:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-statement-import-ofx
+[2024-05-07 05:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-statement-import-qif
+[2024-05-07 05:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monitor-folium
+[2024-05-07 05:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rlanutils
+[2024-05-07 05:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-shapes
+[2024-05-07 05:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-quality-validation-pydeequ
+[2024-05-07 05:10:49] INFO root fetch - processPackages [data-quality-validation-pydeequ]: New version: [0.2] Old Version: [0.1]
+[2024-05-07 05:10:49] WARNING root fetch - processPackages [monitor-folium]: Skipping, unable to determine old version
+[2024-05-07 05:10:49] INFO root fetch - main [MainThread]: End processing [monitor-folium] error
+[2024-05-07 05:10:49] ERROR root fetch - processPackages [abstract-shapes]: Unable to get metadata: No such project 'abstract-shapes'
+[2024-05-07 05:10:49] INFO root fetch - main [MainThread]: End processing [abstract-shapes] error
+[2024-05-07 05:10:49] INFO root fetch - processPackages [rlanutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 05:10:49] INFO root fetch - processPackages [odoo-addon-account-statement-import-ofx]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-05-07 05:10:49] INFO root fetch - processPackages [odoo-addon-account-statement-import-qif]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-05-07 05:10:49] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/7f/2e/ac37677a9a9267cb0322c39c7fbf93fbfd71c4dd7ff82fe0bbb91da372a5/data-quality-validation-pydeequ-0.1.tar.gz
+[2024-05-07 05:10:49] INFO root fetch - processPackages [rlanutils]: Downloading https://files.pythonhosted.org/packages/db/fe/3e23b6e4fe1a1c47beee51706b312873441793a84371114db6ba70c7430b/rlanutils-0.1.8.tar.gz
+[2024-05-07 05:10:50] INFO root fetch - processPackages [odoo-addon-account-statement-import-ofx]: Downloading https://files.pythonhosted.org/packages/48/9d/fb47737db12b71f055b30ac86d1b694883092f3a85119239b73f84f4a3d9/odoo_addon_account_statement_import_ofx-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-07 05:10:50] INFO root fetch - processPackages [odoo-addon-account-statement-import-qif]: Downloading https://files.pythonhosted.org/packages/75/e5/ef5fa0b0287774a6df3f3759c424a03184414e72cb090e5a0dd3dd340a0a/odoo_addon_account_statement_import_qif-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-07 05:10:50] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/65/f0/4f35139c519f4e768a9c936d9d02c84be905a6849a2902abc20569d07ad8/data-quality-validation-pydeequ-0.2.tar.gz
+[2024-05-07 05:10:50] INFO root fetch - processPackages [data-quality-validation-pydeequ]: executing diffoscope
+[2024-05-07 05:10:50] INFO root fetch - processPackages [data-quality-validation-pydeequ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-quality-validation-pydeequ-0.1.tar.gz tmp/data-quality-validation-pydeequ-0.2.tar.gz --markdown 20240507/d/data-quality-validation-pydeequ/0.1-0.2/README.md --exclude *.pyd
+[2024-05-07 05:10:50] INFO root fetch - processPackages [rlanutils]: Downloading https://files.pythonhosted.org/packages/4d/0b/0145c9995a65c1987fece2f34fc48dc2530846bf0748efda0e22531be6eb/rlanutils-0.1.9.tar.gz
+[2024-05-07 05:10:50] INFO root fetch - processPackages [odoo-addon-account-statement-import-qif]: Downloading https://files.pythonhosted.org/packages/e8/66/2b7d269e46d1a768b9251fd55056c26b27bc014ec86cbe17156c2c1b741b/odoo_addon_account_statement_import_qif-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-07 05:10:50] INFO root fetch - processPackages [odoo-addon-account-statement-import-ofx]: Downloading https://files.pythonhosted.org/packages/6e/db/2db035effb6abc15c0e8fc3097437e7c6fb9fad4dcfa4bc5eea8f32deb95/odoo_addon_account_statement_import_ofx-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-07 05:10:50] INFO root fetch - processPackages [rlanutils]: executing diffoscope
+[2024-05-07 05:10:50] INFO root fetch - processPackages [rlanutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlanutils-0.1.8.tar.gz tmp/rlanutils-0.1.9.tar.gz --markdown 20240507/r/rlanutils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 05:10:50] INFO root fetch - processPackages [odoo-addon-account-statement-import-qif]: executing diffoscope
+[2024-05-07 05:10:50] INFO root fetch - processPackages [odoo-addon-account-statement-import-qif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_qif-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_qif-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-account-statement-import-qif/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-07 05:10:50] INFO root fetch - processPackages [odoo-addon-account-statement-import-ofx]: executing diffoscope
+[2024-05-07 05:10:50] INFO root fetch - processPackages [odoo-addon-account-statement-import-ofx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_ofx-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_ofx-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-account-statement-import-ofx/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-07 05:10:50] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.1.tar.gz]
+[2024-05-07 05:10:50] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.2.tar.gz]
+[2024-05-07 05:10:50] INFO root fetch - main [MainThread]: End processing [data-quality-validation-pydeequ]: success
+[2024-05-07 05:10:51] INFO root fetch - processPackages [rlanutils]: Remove: archive file [/home/abi/fetcher/tmp/rlanutils-0.1.8.tar.gz]
+[2024-05-07 05:10:51] INFO root fetch - processPackages [rlanutils]: Remove: archive file [/home/abi/fetcher/tmp/rlanutils-0.1.9.tar.gz]
+[2024-05-07 05:10:51] INFO root fetch - main [MainThread]: End processing [rlanutils]: success
+[2024-05-07 05:10:51] INFO root fetch - processPackages [odoo-addon-account-statement-import-qif]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_qif-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-07 05:10:51] INFO root fetch - processPackages [odoo-addon-account-statement-import-qif]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_qif-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-07 05:10:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-qif]: success
+[2024-05-07 05:10:51] INFO root fetch - processPackages [odoo-addon-account-statement-import-ofx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_ofx-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-07 05:10:51] INFO root fetch - processPackages [odoo-addon-account-statement-import-ofx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_ofx-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-07 05:10:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-ofx]: success
+[2024-05-07 05:10:51] INFO root fetch - main [MainThread]: Store serial: [23088844]
