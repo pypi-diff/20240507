@@ -21585,3 +21585,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 13:33:57] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.935.tar.gz]
 [2024-05-07 13:33:57] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
 [2024-05-07 13:33:57] INFO root fetch - main [MainThread]: Store serial: [23094750]
+[2024-05-07 13:36:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094750]
+[2024-05-07 13:36:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 13:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sommify
+[2024-05-07 13:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AutoMLApp
+[2024-05-07 13:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gitpoll
+[2024-05-07 13:36:06] INFO root fetch - processPackages [AutoMLApp]: New version: [0.1.56] Old Version: [0.1.55]
+[2024-05-07 13:36:06] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/1e/c4/9aa78857f1cc07b5e9599d96f53de24f5ba9f662c64c8a98f0a2fbcb3300/automlapp-0.1.55.tar.gz
+[2024-05-07 13:36:06] INFO root fetch - processPackages [sommify]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-05-07 13:36:06] INFO root fetch - processPackages [gitpoll]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-07 13:36:06] INFO root fetch - processPackages [sommify]: Downloading https://files.pythonhosted.org/packages/5d/ca/ee757d80962e211e58f3b2e5832d6ae82e20cc0e968110994e317419d64c/sommify-0.8.6.tar.gz
+[2024-05-07 13:36:06] INFO root fetch - processPackages [gitpoll]: Downloading https://files.pythonhosted.org/packages/66/4a/2126fd0774bcd2215ec26ae3683c944143c2e75df1205ab3e2106fd7696c/gitpoll-1.8.1-py3-none-any.whl
+[2024-05-07 13:36:06] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/b7/b8/7861d2c29691f71f173bbd1e20133963a37ba1fcf31120bb7c13436dfd37/automlapp-0.1.56.tar.gz
+[2024-05-07 13:36:06] INFO root fetch - processPackages [AutoMLApp]: executing diffoscope
+[2024-05-07 13:36:06] INFO root fetch - processPackages [AutoMLApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automlapp-0.1.55.tar.gz tmp/automlapp-0.1.56.tar.gz --markdown 20240507/A/AutoMLApp/0.1.55-0.1.56/README.md --exclude *.pyd
+[2024-05-07 13:36:07] INFO root fetch - processPackages [gitpoll]: Downloading https://files.pythonhosted.org/packages/b5/3b/781bcbaa4bca96582bb5c402c1ff96ddb7d3c5fb6f2ddfb0276676c8e6b4/gitpoll-1.9.0-py3-none-any.whl
+[2024-05-07 13:36:07] INFO root fetch - processPackages [sommify]: Downloading https://files.pythonhosted.org/packages/72/e3/fd0d2dac436e63a87c34b4436b27c079be8238bcf5d16777565402e15b16/sommify-0.8.7.tar.gz
+[2024-05-07 13:36:07] INFO root fetch - processPackages [gitpoll]: executing diffoscope
+[2024-05-07 13:36:07] INFO root fetch - processPackages [gitpoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitpoll-1.8.1-py3-none-any.whl.zip tmp/gitpoll-1.9.0-py3-none-any.whl.zip --markdown 20240507/g/gitpoll/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-07 13:36:07] INFO root fetch - processPackages [sommify]: executing diffoscope
+[2024-05-07 13:36:07] INFO root fetch - processPackages [sommify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sommify-0.8.6.tar.gz tmp/sommify-0.8.7.tar.gz --markdown 20240507/s/sommify/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-05-07 13:36:07] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.55.tar.gz]
+[2024-05-07 13:36:07] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.56.tar.gz]
+[2024-05-07 13:36:07] INFO root fetch - main [MainThread]: End processing [AutoMLApp]: success
+[2024-05-07 13:36:07] INFO root fetch - processPackages [gitpoll]: Remove: archive file [/home/abi/fetcher/tmp/gitpoll-1.8.1-py3-none-any.whl.zip]
+[2024-05-07 13:36:07] INFO root fetch - processPackages [gitpoll]: Remove: archive file [/home/abi/fetcher/tmp/gitpoll-1.9.0-py3-none-any.whl.zip]
+[2024-05-07 13:36:07] INFO root fetch - main [MainThread]: End processing [gitpoll]: success
+[2024-05-07 13:36:08] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.6.tar.gz]
+[2024-05-07 13:36:08] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.7.tar.gz]
+[2024-05-07 13:36:08] INFO root fetch - main [MainThread]: End processing [sommify]: success
+[2024-05-07 13:36:08] INFO root fetch - main [MainThread]: Store serial: [23094759]
