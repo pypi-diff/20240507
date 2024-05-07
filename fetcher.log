@@ -2685,3 +2685,55 @@
 [2024-05-07 01:57:24] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.9.tar.gz]
 [2024-05-07 01:57:24] INFO root fetch - main [MainThread]: End processing [metaflow]: success
 [2024-05-07 01:57:24] INFO root fetch - main [MainThread]: Store serial: [23086270]
+[2024-05-07 01:59:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086270]
+[2024-05-07 01:59:33] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-07 02:01:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086270]
+[2024-05-07 02:01:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swiki
+[2024-05-07 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lamindb
+[2024-05-07 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Files.com
+[2024-05-07 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bokeh-sampledata
+[2024-05-07 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynamodb-encoder
+[2024-05-07 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langgraph
+[2024-05-07 02:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: starlette-compress
+[2024-05-07 02:01:38] INFO root fetch - processPackages [Files.com]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-07 02:01:38] INFO root fetch - processPackages [bokeh-sampledata]: New version: [2024.2] Old Version: [2024.1]
+[2024-05-07 02:01:38] WARNING root fetch - processPackages [swiki]: Skipping, unable to determine old version
+[2024-05-07 02:01:38] INFO root fetch - main [MainThread]: End processing [swiki] error
+[2024-05-07 02:01:38] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2024-05-07 02:01:38] INFO root fetch - processPackages [pynamodb-encoder]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-07 02:01:38] WARNING root fetch - processPackages [starlette-compress]: Skipping, unable to determine old version
+[2024-05-07 02:01:38] INFO root fetch - main [MainThread]: End processing [starlette-compress] error
+[2024-05-07 02:01:38] INFO root fetch - processPackages [langgraph]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 02:01:38] INFO root fetch - processPackages [bokeh-sampledata]: Downloading https://files.pythonhosted.org/packages/99/3a/d5bf9487d2cfcdf1180bc7c553985c03300eb85e94870f8be8a6934f5c65/bokeh_sampledata-2024.1.tar.gz
+[2024-05-07 02:01:38] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/fe/9f/8654a34abe6ed4232708475bb6c7dd30b128ab68594cd684d58e72375385/Files.com-1.4.8.tar.gz
+[2024-05-07 02:01:38] INFO root fetch - processPackages [pynamodb-encoder]: Downloading https://files.pythonhosted.org/packages/56/24/86bf19b12cc5d5ed804d424c664e734faef1be11177a5fc17eb74bb6859a/pynamodb_encoder-0.1.2.tar.gz
+[2024-05-07 02:01:38] WARNING root fetch - processPackages [bokeh-sampledata]: Skipping package: exceeds size limit 17179574>=10485760
+[2024-05-07 02:01:38] INFO root fetch - main [MainThread]: End processing [bokeh-sampledata] error
+[2024-05-07 02:01:38] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2024-05-07 02:01:38] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/c3/4c/9b4e9602b53407f902478465aed68d9de3c50e5d87e57689b587d47b3da7/langgraph-0.0.8.tar.gz
+[2024-05-07 02:01:39] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/50/2a/081bc12536110f3d42e66312b9c23d07fc87bd3eafaaa4b731c3a21d1660/Files.com-1.4.9.tar.gz
+[2024-05-07 02:01:39] INFO root fetch - processPackages [pynamodb-encoder]: Downloading https://files.pythonhosted.org/packages/df/e3/d3d8f91ce486da2a38995a5e0e6d8551c99ca6ec72673d5f22231da671e5/pynamodb_encoder-0.2.0.tar.gz
+[2024-05-07 02:01:39] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2024-05-07 02:01:39] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.4.8.tar.gz tmp/Files.com-1.4.9.tar.gz --markdown 20240507/F/Files.com/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-07 02:01:39] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2024-05-07 02:01:39] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/f4/a0/daf7cdeb4d1bf5e82dbc320b0a09159087efca3e06f23971c0144e7114f0/langgraph-0.0.9.tar.gz
+[2024-05-07 02:01:39] INFO root fetch - processPackages [pynamodb-encoder]: executing diffoscope
+[2024-05-07 02:01:39] INFO root fetch - processPackages [pynamodb-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamodb_encoder-0.1.2.tar.gz tmp/pynamodb_encoder-0.2.0.tar.gz --markdown 20240507/p/pynamodb-encoder/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-07 02:01:39] INFO root fetch - processPackages [langgraph]: executing diffoscope
+[2024-05-07 02:01:39] INFO root fetch - processPackages [langgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph-0.0.8.tar.gz tmp/langgraph-0.0.9.tar.gz --markdown 20240507/l/langgraph/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 02:01:39] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2024-05-07 02:01:39] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20240507/l/lamindb/0.9.4-0.9.6/README.md --exclude *.pyd
+[2024-05-07 02:01:39] INFO root fetch - processPackages [pynamodb-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pynamodb_encoder-0.1.2.tar.gz]
+[2024-05-07 02:01:39] INFO root fetch - processPackages [pynamodb-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pynamodb_encoder-0.2.0.tar.gz]
+[2024-05-07 02:01:39] INFO root fetch - main [MainThread]: End processing [pynamodb-encoder]: success
+[2024-05-07 02:01:40] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.8.tar.gz]
+[2024-05-07 02:01:40] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.9.tar.gz]
+[2024-05-07 02:01:40] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2024-05-07 02:01:40] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.8.tar.gz]
+[2024-05-07 02:01:40] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.9.tar.gz]
+[2024-05-07 02:01:40] INFO root fetch - main [MainThread]: End processing [langgraph]: success
+[2024-05-07 02:01:40] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2024-05-07 02:01:40] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2024-05-07 02:01:40] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2024-05-07 02:01:40] INFO root fetch - main [MainThread]: Store serial: [23086294]
