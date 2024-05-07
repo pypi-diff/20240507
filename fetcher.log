@@ -22668,3 +22668,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 14:10:05] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.4.2.tar.gz]
 [2024-05-07 14:10:05] INFO root fetch - main [MainThread]: End processing [erlab]: success
 [2024-05-07 14:10:05] INFO root fetch - main [MainThread]: Store serial: [23095271]
+[2024-05-07 14:12:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23095271]
+[2024-05-07 14:12:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 14:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyDEM
+[2024-05-07 14:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robusta-cli
+[2024-05-07 14:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rp
+[2024-05-07 14:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bodosdk
+[2024-05-07 14:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: special-agents
+[2024-05-07 14:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tcsoa
+[2024-05-07 14:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: policyengine-us
+[2024-05-07 14:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: napari-threedee
+[2024-05-07 14:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: HandyLLM
+[2024-05-07 14:12:13] INFO root fetch - processPackages [special-agents]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-07 14:12:14] INFO root fetch - processPackages [HandyLLM]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-05-07 14:12:14] INFO root fetch - processPackages [bodosdk]: New version: [2.0.0rc1] Old Version: [1.5.1]
+[2024-05-07 14:12:14] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-05-07 14:12:14] INFO root fetch - processPackages [pyDEM]: New version: [1.0.0] Old Version: [0.2.0]
+[2024-05-07 14:12:14] INFO root fetch - processPackages [napari-threedee]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 14:12:14] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2024-05-07 14:12:14] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/58/68/257b3ee55ce08daf54c94e8b90c44fb2dbbc459b296ae3f9eb61245d7b16/HandyLLM-0.6.3.tar.gz
+[2024-05-07 14:12:14] INFO root fetch - processPackages [tcsoa]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-07 14:12:14] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/d7/df/aef2ef9486e9fc80d4887cfc64623f42085154be8c5c7aa4c9e723a30839/special_agents-1.0.4.tar.gz
+[2024-05-07 14:12:14] INFO root fetch - processPackages [policyengine-us]: New version: [0.764.0] Old Version: [0.763.0]
+[2024-05-07 14:12:14] INFO root fetch - processPackages [bodosdk]: Downloading https://files.pythonhosted.org/packages/90/8f/243e615d7be24bbefa429c53e661d36adba2d38345e759a9eafbd132a324/bodosdk-1.5.1.tar.gz
+[2024-05-07 14:12:14] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-05-07 14:12:14] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/39/60/df780a4cd33fb6c25e7e6b0c86022d93aaa4490b1a758140e3d98a02996e/robusta-cli-0.9.7.tar.gz
+[2024-05-07 14:12:14] INFO root fetch - processPackages [pyDEM]: Downloading https://files.pythonhosted.org/packages/58/25/6378f77fa89fa8fc12f40642aea05123b1347d4662db926bd3f094a8c7fd/pyDEM-0.2.0.tar.gz
+[2024-05-07 14:12:14] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-05-07 14:12:14] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-05-07 14:12:14] INFO root fetch - processPackages [tcsoa]: Downloading https://files.pythonhosted.org/packages/4d/88/8c230f6d97bca0de2fa5af6d69429e2731b552f0b53af578cce561afaf6b/tcsoa-0.9.0.tar.gz
+[2024-05-07 14:12:14] INFO root fetch - processPackages [napari-threedee]: Downloading https://files.pythonhosted.org/packages/3b/70/4e892251e0c8510fee507d7cbc0832629ed70e29e75ca555e1f782195d87/napari-threedee-0.0.8.tar.gz
+[2024-05-07 14:12:14] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/86/1c/b6382f24afd798dcc336f6e394f6fc06d65829d9368c9644674e1a940ec6/policyengine-us-0.763.0.tar.gz
+[2024-05-07 14:12:14] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/7d/3f/52eedb2565421ccedec7a9d36ca1a7f0c8f6d8498069def2cc07f600301a/handyllm-0.7.0.tar.gz
+[2024-05-07 14:12:14] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/a4/43/14df1082b88c12cf12ec02391794801f3b86b32169af464e9b4c308f640d/special_agents-1.0.5.tar.gz
+[2024-05-07 14:12:14] INFO root fetch - processPackages [HandyLLM]: executing diffoscope
+[2024-05-07 14:12:14] INFO root fetch - processPackages [HandyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HandyLLM-0.6.3.tar.gz tmp/handyllm-0.7.0.tar.gz --markdown 20240507/H/HandyLLM/0.6.3-0.7.0/README.md --exclude *.pyd
+[2024-05-07 14:12:14] INFO root fetch - processPackages [bodosdk]: Downloading https://files.pythonhosted.org/packages/2c/ae/9c7729b0db464fdef72588f2b462b7205215665d0b8db3f506b4565b2a8c/bodosdk-2.0.0rc1.tar.gz
+[2024-05-07 14:12:14] INFO root fetch - processPackages [special-agents]: executing diffoscope
+[2024-05-07 14:12:14] INFO root fetch - processPackages [special-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/special_agents-1.0.4.tar.gz tmp/special_agents-1.0.5.tar.gz --markdown 20240507/s/special-agents/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-07 14:12:14] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/9f/ff/a70074935ded21551e9900241be83e06dcddd697498c8fa3eeab30d0105c/robusta-cli-0.9.9.tar.gz
+[2024-05-07 14:12:14] INFO root fetch - processPackages [napari-threedee]: Downloading https://files.pythonhosted.org/packages/81/1f/82e3d9c32140273bc57be3c479e8e5ee885204a3dca7be7d2476b777ac72/napari-threedee-0.0.9.tar.gz
+[2024-05-07 14:12:14] INFO root fetch - processPackages [bodosdk]: executing diffoscope
+[2024-05-07 14:12:14] INFO root fetch - processPackages [bodosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bodosdk-1.5.1.tar.gz tmp/bodosdk-2.0.0rc1.tar.gz --markdown 20240507/b/bodosdk/1.5.1-2.0.0rc1/README.md --exclude *.pyd
+[2024-05-07 14:12:14] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2024-05-07 14:12:14] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20240507/r/robusta-cli/0.9.7-0.9.9/README.md --exclude *.pyd
+[2024-05-07 14:12:14] INFO root fetch - processPackages [napari-threedee]: executing diffoscope
+[2024-05-07 14:12:14] INFO root fetch - processPackages [napari-threedee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-threedee-0.0.8.tar.gz tmp/napari-threedee-0.0.9.tar.gz --markdown 20240507/n/napari-threedee/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 14:12:15] INFO root fetch - processPackages [pyDEM]: Downloading https://files.pythonhosted.org/packages/6a/41/ee2522d8e1114efea3f5a8e5e54f71e5f81784c704ede9e0588434c6b2db/pyDEM-1.0.0.tar.gz
+[2024-05-07 14:12:15] INFO root fetch - processPackages [tcsoa]: Downloading https://files.pythonhosted.org/packages/24/79/96f9bfc019a0a7e5ab8b8745d9cfee940d4e4028237b1ee20caf3d4c38d6/tcsoa-0.9.1.tar.gz
+[2024-05-07 14:12:15] INFO root fetch - processPackages [pyDEM]: executing diffoscope
+[2024-05-07 14:12:15] INFO root fetch - processPackages [pyDEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDEM-0.2.0.tar.gz tmp/pyDEM-1.0.0.tar.gz --markdown 20240507/p/pyDEM/0.2.0-1.0.0/README.md --exclude *.pyd
+[2024-05-07 14:12:15] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/87/65/6618a430957d7fe61d178a5eb71cda453c1cd4ff436ac467887e7359b6ee/policyengine-us-0.764.0.tar.gz
+[2024-05-07 14:12:15] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-05-07 14:12:15] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.763.0.tar.gz tmp/policyengine-us-0.764.0.tar.gz --markdown 20240507/p/policyengine-us/0.763.0-0.764.0/README.md --exclude *.pyd
+[2024-05-07 14:12:15] INFO root fetch - processPackages [tcsoa]: executing diffoscope
+[2024-05-07 14:12:15] INFO root fetch - processPackages [tcsoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcsoa-0.9.0.tar.gz tmp/tcsoa-0.9.1.tar.gz --markdown 20240507/t/tcsoa/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-07 14:12:15] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/HandyLLM-0.6.3.tar.gz]
+[2024-05-07 14:12:15] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/handyllm-0.7.0.tar.gz]
+[2024-05-07 14:12:15] INFO root fetch - main [MainThread]: End processing [HandyLLM]: success
+[2024-05-07 14:12:15] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.4.tar.gz]
+[2024-05-07 14:12:15] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.5.tar.gz]
+[2024-05-07 14:12:15] INFO root fetch - main [MainThread]: End processing [special-agents]: success
+[2024-05-07 14:12:16] INFO root fetch - processPackages [bodosdk]: Remove: archive file [/home/abi/fetcher/tmp/bodosdk-1.5.1.tar.gz]
+[2024-05-07 14:12:16] INFO root fetch - processPackages [bodosdk]: Remove: archive file [/home/abi/fetcher/tmp/bodosdk-2.0.0rc1.tar.gz]
+[2024-05-07 14:12:16] INFO root fetch - main [MainThread]: End processing [bodosdk]: success
+[2024-05-07 14:12:16] INFO root fetch - processPackages [napari-threedee]: Remove: archive file [/home/abi/fetcher/tmp/napari-threedee-0.0.8.tar.gz]
+[2024-05-07 14:12:16] INFO root fetch - processPackages [napari-threedee]: Remove: archive file [/home/abi/fetcher/tmp/napari-threedee-0.0.9.tar.gz]
+[2024-05-07 14:12:16] INFO root fetch - main [MainThread]: End processing [napari-threedee]: success
+[2024-05-07 14:12:16] INFO root fetch - processPackages [pyDEM]: Remove: archive file [/home/abi/fetcher/tmp/pyDEM-0.2.0.tar.gz]
+[2024-05-07 14:12:16] INFO root fetch - processPackages [pyDEM]: Remove: archive file [/home/abi/fetcher/tmp/pyDEM-1.0.0.tar.gz]
+[2024-05-07 14:12:16] INFO root fetch - main [MainThread]: End processing [pyDEM]: success
+[2024-05-07 14:12:16] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.7.tar.gz]
+[2024-05-07 14:12:16] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.9.tar.gz]
+[2024-05-07 14:12:16] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2024-05-07 14:12:24] INFO root fetch - processPackages [tcsoa]: Remove: archive file [/home/abi/fetcher/tmp/tcsoa-0.9.0.tar.gz]
+[2024-05-07 14:12:24] INFO root fetch - processPackages [tcsoa]: Remove: archive file [/home/abi/fetcher/tmp/tcsoa-0.9.1.tar.gz]
+[2024-05-07 14:12:24] INFO root fetch - main [MainThread]: End processing [tcsoa]: success
+[2024-05-07 14:12:57] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.763.0.tar.gz]
+[2024-05-07 14:12:57] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.764.0.tar.gz]
+[2024-05-07 14:12:57] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-05-07 14:12:57] INFO root fetch - main [MainThread]: Store serial: [23095298]
