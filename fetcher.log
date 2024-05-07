@@ -17010,3 +17010,87 @@ EOFError: EOF read where object expected
 [2024-05-07 10:46:56] INFO root fetch - processPackages [pydmt]: Remove: archive file [/home/abi/fetcher/tmp/pydmt-0.3.9.tar.gz]
 [2024-05-07 10:46:56] INFO root fetch - main [MainThread]: End processing [pydmt]: success
 [2024-05-07 10:46:56] INFO root fetch - main [MainThread]: Store serial: [23092433]
+[2024-05-07 10:49:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092433]
+[2024-05-07 10:49:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-07 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swiki
+[2024-05-07 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-cpu
+[2024-05-07 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydmt
+[2024-05-07 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: justai
+[2024-05-07 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytsa-ais
+[2024-05-07 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tllab-common
+[2024-05-07 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tenacity
+[2024-05-07 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cjops
+[2024-05-07 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: snowpat
+[2024-05-07 10:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: doku-python-library
+[2024-05-07 10:49:05] WARNING root fetch - processPackages [doku-python-library]: Skipping, unable to determine old version
+[2024-05-07 10:49:05] INFO root fetch - processPackages [doku-python-library]: Start processing: md2tgmd
+[2024-05-07 10:49:05] INFO root fetch - main [MainThread]: End processing [doku-python-library] error
+[2024-05-07 10:49:05] INFO root fetch - processPackages [tenacity]: New version: [8.3.0] Old Version: [8.2.3]
+[2024-05-07 10:49:05] INFO root fetch - processPackages [pydmt]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-07 10:49:05] WARNING root fetch - processPackages [swiki]: Skipping, unable to determine old version
+[2024-05-07 10:49:05] INFO root fetch - main [MainThread]: End processing [swiki] error
+[2024-05-07 10:49:05] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240507] Old Version: [2.17.0.dev20240506]
+[2024-05-07 10:49:05] INFO root fetch - processPackages [md2tgmd]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-07 10:49:05] INFO root fetch - processPackages [pytsa-ais]: New version: [2.3.4] Old Version: [2.3.3]
+[2024-05-07 10:49:05] INFO root fetch - processPackages [snowpat]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-05-07 10:49:05] INFO root fetch - processPackages [justai]: New version: [3.4.0] Old Version: [3.3.2]
+[2024-05-07 10:49:05] ERROR root fetch - processPackages [cjops]: Unable to get metadata: No such project 'cjops'
+[2024-05-07 10:49:05] INFO root fetch - main [MainThread]: End processing [cjops] error
+[2024-05-07 10:49:05] INFO root fetch - processPackages [pydmt]: Downloading https://files.pythonhosted.org/packages/90/d0/4a9b7c76e70b0b2ed97f243e5439c1246e88995dbf72126376727a1b8f55/pydmt-0.3.8.tar.gz
+[2024-05-07 10:49:05] INFO root fetch - processPackages [tllab-common]: New version: [2024.5.0] Old Version: [2024.4.3]
+[2024-05-07 10:49:05] INFO root fetch - processPackages [tenacity]: Downloading https://files.pythonhosted.org/packages/89/3c/253e1627262373784bf9355db9d6f20d2d8831d79f91e9cca48050cddcc2/tenacity-8.2.3.tar.gz
+[2024-05-07 10:49:05] INFO root fetch - processPackages [md2tgmd]: Downloading https://files.pythonhosted.org/packages/c0/c9/3392c34f10d7b698b6c18917549a787fec454e27840a267e9300638bfade/md2tgmd-0.1.4.tar.gz
+[2024-05-07 10:49:05] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/7c/91/d6bef0b0522a69dd54cebffb40b55a69309fade6b509952b6e9d1004b07e/tf_nightly_cpu-2.17.0.dev20240506-cp39-cp39-win_amd64.whl
+[2024-05-07 10:49:05] INFO root fetch - processPackages [pytsa-ais]: Downloading https://files.pythonhosted.org/packages/6e/cb/bb17101feedec92409afbb17da02a42350046c6e12df7e295507eb21e1c5/pytsa_ais-2.3.3.tar.gz
+[2024-05-07 10:49:05] INFO root fetch - processPackages [pydmt]: Downloading https://files.pythonhosted.org/packages/de/12/29caefaa8dd66e68e2a1419873d4e3b8ea2960a4b4ee1c70730da957ca00/pydmt-0.3.9.tar.gz
+[2024-05-07 10:49:05] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/13/1a/b512ec29fdec449553354c99fc872f431222483de14ce038e975e7053973/justai-3.3.2.tar.gz
+[2024-05-07 10:49:05] INFO root fetch - processPackages [tllab-common]: Downloading https://files.pythonhosted.org/packages/a8/a5/dfe5ce80ed1371f42d3d0058796aec6b81388742a551932639b01c9373eb/tllab_common-2024.4.3.tar.gz
+[2024-05-07 10:49:05] INFO root fetch - processPackages [snowpat]: Downloading https://files.pythonhosted.org/packages/5c/8b/fd3c985dd012ec0451587646cc789562dd9b999c0c270d3c766d6dbad106/snowpat-0.3.2.tar.gz
+[2024-05-07 10:49:05] INFO root fetch - processPackages [tenacity]: Downloading https://files.pythonhosted.org/packages/32/6c/57df6196ce52c464cf8556e8f697fec5d3469bb8cd319c1685c0a090e0b4/tenacity-8.3.0.tar.gz
+[2024-05-07 10:49:05] INFO root fetch - processPackages [pydmt]: executing diffoscope
+[2024-05-07 10:49:05] INFO root fetch - processPackages [pydmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmt-0.3.8.tar.gz tmp/pydmt-0.3.9.tar.gz --markdown 20240507/p/pydmt/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-07 10:49:05] INFO root fetch - processPackages [md2tgmd]: Downloading https://files.pythonhosted.org/packages/32/21/2bc114a3678c8a6b65ed9226979df6b573f0208744307e9b9feb879c3d37/md2tgmd-0.1.5.tar.gz
+[2024-05-07 10:49:06] INFO root fetch - processPackages [tenacity]: executing diffoscope
+[2024-05-07 10:49:06] INFO root fetch - processPackages [tenacity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenacity-8.2.3.tar.gz tmp/tenacity-8.3.0.tar.gz --markdown 20240507/t/tenacity/8.2.3-8.3.0/README.md --exclude *.pyd
+[2024-05-07 10:49:06] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/65/b7/41289a8c8d5150dd04a40d25a632ebbd8f98df4f45b07064685b64a7e94a/tf_nightly_cpu-2.17.0.dev20240507-cp39-cp39-win_amd64.whl
+[2024-05-07 10:49:06] INFO root fetch - processPackages [tllab-common]: Downloading https://files.pythonhosted.org/packages/f0/c5/899087da5426e29dd0e7b8326a300bc27243b01f406d3aad7bfa5df2cd57/tllab_common-2024.5.0.tar.gz
+[2024-05-07 10:49:06] INFO root fetch - processPackages [md2tgmd]: executing diffoscope
+[2024-05-07 10:49:06] INFO root fetch - processPackages [md2tgmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2tgmd-0.1.4.tar.gz tmp/md2tgmd-0.1.5.tar.gz --markdown 20240507/m/md2tgmd/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-07 10:49:06] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/d1/8f/be46d53edaf16eb015e651480ec580b26c053fe92a2792d224ca09a7d950/justai-3.4.0.tar.gz
+[2024-05-07 10:49:06] INFO root fetch - processPackages [tllab-common]: executing diffoscope
+[2024-05-07 10:49:06] INFO root fetch - processPackages [tllab-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tllab_common-2024.4.3.tar.gz tmp/tllab_common-2024.5.0.tar.gz --markdown 20240507/t/tllab-common/2024.4.3-2024.5.0/README.md --exclude *.pyd
+[2024-05-07 10:49:06] INFO root fetch - processPackages [snowpat]: Downloading https://files.pythonhosted.org/packages/65/8b/8063dcb1159fd1445ef11c0858d4dba594aa123456ab7c64f4b863a5204b/snowpat-0.4.0.tar.gz
+[2024-05-07 10:49:06] INFO root fetch - processPackages [pytsa-ais]: Downloading https://files.pythonhosted.org/packages/4a/62/1f89e7eaca88924315a0df8571bfd101bc0ef997966ef15bd01a2cdb159b/pytsa_ais-2.3.4.tar.gz
+[2024-05-07 10:49:06] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-07 10:49:06] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240506-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240507-cp39-cp39-win_amd64.whl.zip --markdown 20240507/t/tf-nightly-cpu/2.17.0.dev20240506-2.17.0.dev20240507/README.md --exclude *.pyd
+[2024-05-07 10:49:06] INFO root fetch - processPackages [justai]: executing diffoscope
+[2024-05-07 10:49:06] INFO root fetch - processPackages [justai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justai-3.3.2.tar.gz tmp/justai-3.4.0.tar.gz --markdown 20240507/j/justai/3.3.2-3.4.0/README.md --exclude *.pyd
+[2024-05-07 10:49:06] INFO root fetch - processPackages [snowpat]: executing diffoscope
+[2024-05-07 10:49:06] INFO root fetch - processPackages [snowpat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowpat-0.3.2.tar.gz tmp/snowpat-0.4.0.tar.gz --markdown 20240507/s/snowpat/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-05-07 10:49:06] INFO root fetch - processPackages [pytsa-ais]: executing diffoscope
+[2024-05-07 10:49:06] INFO root fetch - processPackages [pytsa-ais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytsa_ais-2.3.3.tar.gz tmp/pytsa_ais-2.3.4.tar.gz --markdown 20240507/p/pytsa-ais/2.3.3-2.3.4/README.md --exclude *.pyd
+[2024-05-07 10:49:07] INFO root fetch - processPackages [md2tgmd]: Remove: archive file [/home/abi/fetcher/tmp/md2tgmd-0.1.4.tar.gz]
+[2024-05-07 10:49:07] INFO root fetch - processPackages [md2tgmd]: Remove: archive file [/home/abi/fetcher/tmp/md2tgmd-0.1.5.tar.gz]
+[2024-05-07 10:49:07] INFO root fetch - main [MainThread]: End processing [md2tgmd]: success
+[2024-05-07 10:49:07] INFO root fetch - processPackages [pydmt]: Remove: archive file [/home/abi/fetcher/tmp/pydmt-0.3.8.tar.gz]
+[2024-05-07 10:49:07] INFO root fetch - processPackages [pydmt]: Remove: archive file [/home/abi/fetcher/tmp/pydmt-0.3.9.tar.gz]
+[2024-05-07 10:49:07] INFO root fetch - main [MainThread]: End processing [pydmt]: success
+[2024-05-07 10:49:07] INFO root fetch - processPackages [tllab-common]: Remove: archive file [/home/abi/fetcher/tmp/tllab_common-2024.4.3.tar.gz]
+[2024-05-07 10:49:07] INFO root fetch - processPackages [tllab-common]: Remove: archive file [/home/abi/fetcher/tmp/tllab_common-2024.5.0.tar.gz]
+[2024-05-07 10:49:07] INFO root fetch - main [MainThread]: End processing [tllab-common]: success
+[2024-05-07 10:49:07] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240506-cp39-cp39-win_amd64.whl.zip]
+[2024-05-07 10:49:07] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240507-cp39-cp39-win_amd64.whl.zip]
+[2024-05-07 10:49:07] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-07 10:49:07] INFO root fetch - processPackages [tenacity]: Remove: archive file [/home/abi/fetcher/tmp/tenacity-8.2.3.tar.gz]
+[2024-05-07 10:49:07] INFO root fetch - processPackages [tenacity]: Remove: archive file [/home/abi/fetcher/tmp/tenacity-8.3.0.tar.gz]
+[2024-05-07 10:49:07] INFO root fetch - main [MainThread]: End processing [tenacity]: success
+[2024-05-07 10:49:07] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.3.2.tar.gz]
+[2024-05-07 10:49:07] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.4.0.tar.gz]
+[2024-05-07 10:49:07] INFO root fetch - main [MainThread]: End processing [justai]: success
+[2024-05-07 10:49:07] INFO root fetch - processPackages [snowpat]: Remove: archive file [/home/abi/fetcher/tmp/snowpat-0.3.2.tar.gz]
+[2024-05-07 10:49:07] INFO root fetch - processPackages [snowpat]: Remove: archive file [/home/abi/fetcher/tmp/snowpat-0.4.0.tar.gz]
+[2024-05-07 10:49:07] INFO root fetch - main [MainThread]: End processing [snowpat]: success
+[2024-05-07 10:49:08] INFO root fetch - processPackages [pytsa-ais]: Remove: archive file [/home/abi/fetcher/tmp/pytsa_ais-2.3.3.tar.gz]
+[2024-05-07 10:49:08] INFO root fetch - processPackages [pytsa-ais]: Remove: archive file [/home/abi/fetcher/tmp/pytsa_ais-2.3.4.tar.gz]
+[2024-05-07 10:49:08] INFO root fetch - main [MainThread]: End processing [pytsa-ais]: success
+[2024-05-07 10:49:08] INFO root fetch - main [MainThread]: Store serial: [23092471]
