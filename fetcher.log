@@ -10812,3 +10812,39 @@ EOFError: EOF read where object expected
 [2024-05-07 06:26:51] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-3.1.6.tar.gz]
 [2024-05-07 06:26:51] INFO root fetch - main [MainThread]: End processing [T0]: success
 [2024-05-07 06:26:51] INFO root fetch - main [MainThread]: Store serial: [23089407]
+[2024-05-07 06:28:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089407]
+[2024-05-07 06:28:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 06:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtlib
+[2024-05-07 06:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hdforce
+[2024-05-07 06:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: summonersz
+[2024-05-07 06:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PREN-flawas
+[2024-05-07 06:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fms-robot-plugin
+[2024-05-07 06:28:59] WARNING root fetch - processPackages [summonersz]: Skipping, unable to determine old version
+[2024-05-07 06:28:59] INFO root fetch - main [MainThread]: End processing [summonersz] error
+[2024-05-07 06:28:59] WARNING root fetch - processPackages [hdforce]: Skipping, unable to determine old version
+[2024-05-07 06:28:59] INFO root fetch - main [MainThread]: End processing [hdforce] error
+[2024-05-07 06:28:59] INFO root fetch - processPackages [xtlib]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-05-07 06:28:59] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 06:28:59] INFO root fetch - processPackages [fms-robot-plugin]: New version: [0.2.2rc0] Old Version: [0.2.1rc1]
+[2024-05-07 06:28:59] INFO root fetch - processPackages [xtlib]: Downloading https://files.pythonhosted.org/packages/ef/88/6f35605035024352f94de86919c8fb01a5172145653a1f3dd1f7638fe591/xtlib-1.0.0rc1.tar.gz
+[2024-05-07 06:29:00] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/8d/11/62d761972bb1c32634aae2003e3b399db22068897bd622a0c5c56d06712e/fms_robot_plugin-0.2.1rc1.tar.gz
+[2024-05-07 06:29:00] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-07 06:29:00] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/99/e1/d6459b9950703fd32fadc77194ac1e3fc78428b2e4dd0b2bc908b8591ae0/fms_robot_plugin-0.2.2rc0.tar.gz
+[2024-05-07 06:29:00] INFO root fetch - processPackages [fms-robot-plugin]: executing diffoscope
+[2024-05-07 06:29:00] INFO root fetch - processPackages [fms-robot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fms_robot_plugin-0.2.1rc1.tar.gz tmp/fms_robot_plugin-0.2.2rc0.tar.gz --markdown 20240507/f/fms-robot-plugin/0.2.1rc1-0.2.2rc0/README.md --exclude *.pyd
+[2024-05-07 06:29:00] INFO root fetch - processPackages [xtlib]: Downloading https://files.pythonhosted.org/packages/a0/01/df0f30261ee9fe10bb00ddc29344ae6aa0d8582eb47a23769c06bc782080/xtlib-1.0.0rc2.tar.gz
+[2024-05-07 06:29:00] INFO root fetch - processPackages [xtlib]: executing diffoscope
+[2024-05-07 06:29:00] INFO root fetch - processPackages [xtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtlib-1.0.0rc1.tar.gz tmp/xtlib-1.0.0rc2.tar.gz --markdown 20240507/x/xtlib/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-05-07 06:29:00] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-07 06:29:00] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.2.1rc1.tar.gz]
+[2024-05-07 06:29:00] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.2.2rc0.tar.gz]
+[2024-05-07 06:29:00] INFO root fetch - main [MainThread]: End processing [fms-robot-plugin]: success
+[2024-05-07 06:29:01] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-07 06:29:01] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240507/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 06:29:01] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-07 06:29:01] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-07 06:29:01] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-07 06:29:01] INFO root fetch - processPackages [xtlib]: Remove: archive file [/home/abi/fetcher/tmp/xtlib-1.0.0rc1.tar.gz]
+[2024-05-07 06:29:01] INFO root fetch - processPackages [xtlib]: Remove: archive file [/home/abi/fetcher/tmp/xtlib-1.0.0rc2.tar.gz]
+[2024-05-07 06:29:01] INFO root fetch - main [MainThread]: End processing [xtlib]: success
+[2024-05-07 06:29:01] INFO root fetch - main [MainThread]: Store serial: [23089426]
