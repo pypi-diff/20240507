@@ -22479,3 +22479,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 14:03:27] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
 [2024-05-07 14:03:27] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
 [2024-05-07 14:03:27] INFO root fetch - main [MainThread]: Store serial: [23095191]
+[2024-05-07 14:05:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23095191]
+[2024-05-07 14:05:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-07 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elia-chat
+[2024-05-07 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nexus-scraper
+[2024-05-07 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heartbeat-library
+[2024-05-07 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: menpowidgets
+[2024-05-07 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pptx-renderer
+[2024-05-07 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlalchemy-multilingual
+[2024-05-07 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: planetmapper
+[2024-05-07 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wrabbit
+[2024-05-07 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: appmesh
+[2024-05-07 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-l10n-br-stock-account
+[2024-05-07 14:05:36] INFO root fetch - processPackages [menpowidgets]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-07 14:05:36] INFO root fetch - processPackages [sqlalchemy-multilingual]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 14:05:36] INFO root fetch - processPackages [nexus-scraper]: New version: [0.1.8] Old Version: [0.1.0]
+[2024-05-07 14:05:36] INFO root fetch - processPackages [elia-chat]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-07 14:05:36] INFO root fetch - processPackages [heartbeat-library]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 14:05:36] INFO root fetch - processPackages [pptx-renderer]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-07 14:05:36] INFO root fetch - processPackages [appmesh]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-07 14:05:36] WARNING root fetch - processPackages [wrabbit]: Skipping, unable to determine old version
+[2024-05-07 14:05:36] INFO root fetch - main [MainThread]: End processing [wrabbit] error
+[2024-05-07 14:05:36] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: New version: [14.0.3.6.3.dev7] Old Version: [14.0.3.6.3.dev6]
+[2024-05-07 14:05:36] INFO root fetch - processPackages [menpowidgets]: Downloading https://files.pythonhosted.org/packages/ba/76/289f58498ed61e8f63ba9cff4c4375769a7e32734a4d46e28962164c5dc4/menpowidgets-0.4.1.tar.gz
+[2024-05-07 14:05:36] INFO root fetch - processPackages [planetmapper]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-07 14:05:36] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/8e/31/a2eccb1781ac437879021cc38e0b6755729b6230cf3eff32f3b5450be1fb/sqlalchemy_multilingual-0.0.8.tar.gz
+[2024-05-07 14:05:37] INFO root fetch - processPackages [nexus-scraper]: Downloading https://files.pythonhosted.org/packages/1d/c1/8876304c3a11c248cd5a7dea3ad9b9e067d1b3bb14d32762f1a514018bec/nexus_scraper-0.1.0.tar.gz
+[2024-05-07 14:05:37] INFO root fetch - processPackages [elia-chat]: Downloading https://files.pythonhosted.org/packages/87/94/3196e0959974c852d4f9002c5d5b5f77a0397d8400c6d2bb99bc7e14b3dc/elia_chat-1.0.1.tar.gz
+[2024-05-07 14:05:37] INFO root fetch - processPackages [planetmapper]: Downloading https://files.pythonhosted.org/packages/2a/07/8c2ee81b723d1c796f7c0b392d33111c0eb7b729c25b6dd217a5d6da26b0/planetmapper-1.9.0.tar.gz
+[2024-05-07 14:05:37] INFO root fetch - processPackages [heartbeat-library]: Downloading https://files.pythonhosted.org/packages/e5/c5/b04d84a748dd944bfe99e6ca1efddf39da528cd4593a121f01376666960e/heartbeat_library-0.0.8.tar.gz
+[2024-05-07 14:05:37] INFO root fetch - processPackages [pptx-renderer]: Downloading https://files.pythonhosted.org/packages/a1/61/2f18fd59de61df911602cfbb02342a7a5daeccac94b59fec42c755ce8592/pptx_renderer-0.3.0.tar.gz
+[2024-05-07 14:05:37] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/dc/7d/be6c16a550c5939096799423b2de572214c24e8be021356c9f3eeafaa4f3/sqlalchemy_multilingual-0.0.9.tar.gz
+[2024-05-07 14:05:37] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/0e/e6/d45a6bf4f2f4cbbde523b4934c3c5bc96a7bf91f1c71545bdac670fdecb4/appmesh-0.9.4-py3-none-any.whl
+[2024-05-07 14:05:37] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Downloading https://files.pythonhosted.org/packages/e5/4b/9de02e5c595e6be66506fd47999546c391653b65ea8a111451ceaede16d2/odoo14_addon_l10n_br_stock_account-14.0.3.6.3.dev6-py3-none-any.whl
+[2024-05-07 14:05:37] INFO root fetch - processPackages [menpowidgets]: Downloading https://files.pythonhosted.org/packages/d0/e6/28478c82b8ff82d194c58269c66e8d67eee74306e05abdc44a6ad9d491ba/menpowidgets-0.4.2.tar.gz
+[2024-05-07 14:05:37] INFO root fetch - processPackages [sqlalchemy-multilingual]: executing diffoscope
+[2024-05-07 14:05:37] INFO root fetch - processPackages [sqlalchemy-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_multilingual-0.0.8.tar.gz tmp/sqlalchemy_multilingual-0.0.9.tar.gz --markdown 20240507/s/sqlalchemy-multilingual/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 14:05:37] INFO root fetch - processPackages [menpowidgets]: executing diffoscope
+[2024-05-07 14:05:37] INFO root fetch - processPackages [menpowidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/menpowidgets-0.4.1.tar.gz tmp/menpowidgets-0.4.2.tar.gz --markdown 20240507/m/menpowidgets/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-07 14:05:37] INFO root fetch - processPackages [nexus-scraper]: Downloading https://files.pythonhosted.org/packages/24/7e/d0dfc49d9cc73d5ad5585a76984bc04cf97b31de0bdf3acfa6d7b0ea484b/nexus_scraper-0.1.8.tar.gz
+[2024-05-07 14:05:37] INFO root fetch - processPackages [elia-chat]: Downloading https://files.pythonhosted.org/packages/0f/8f/39891ffc8cd1136ba83042a483392828960620b5d1d06b1cd5bc2ba23b9b/elia_chat-1.0.2.tar.gz
+[2024-05-07 14:05:37] INFO root fetch - processPackages [heartbeat-library]: Downloading https://files.pythonhosted.org/packages/96/ed/ca0d09ca2d9f1c938f46816c69d50d86d9f2a39b8e5127555c132658a923/heartbeat_library-0.0.9.tar.gz
+[2024-05-07 14:05:37] INFO root fetch - processPackages [planetmapper]: Downloading https://files.pythonhosted.org/packages/3f/0f/d2a5473bf1fcda097678711179a0680acb8fe1802979eb648218cfa2a4b9/planetmapper-1.9.1.tar.gz
+[2024-05-07 14:05:37] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/27/76/e284953ab022c937daeff829453ba8803dfc25fe197ea2f324a8c8069154/appmesh-0.9.5-py3-none-any.whl
+[2024-05-07 14:05:37] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Downloading https://files.pythonhosted.org/packages/28/f1/d50b60fc56e685725c910869fc2e564d9b2063911cd3bcfe6c3d4853d8dc/odoo14_addon_l10n_br_stock_account-14.0.3.6.3.dev7-py3-none-any.whl
+[2024-05-07 14:05:37] INFO root fetch - processPackages [nexus-scraper]: executing diffoscope
+[2024-05-07 14:05:37] INFO root fetch - processPackages [nexus-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus_scraper-0.1.0.tar.gz tmp/nexus_scraper-0.1.8.tar.gz --markdown 20240507/n/nexus-scraper/0.1.0-0.1.8/README.md --exclude *.pyd
+[2024-05-07 14:05:37] INFO root fetch - processPackages [pptx-renderer]: Downloading https://files.pythonhosted.org/packages/7d/d8/3a4949dcb23c16428f3056a66e121436ceee6fc1dc5650708bce53c68ce3/pptx_renderer-0.4.0.tar.gz
+[2024-05-07 14:05:37] INFO root fetch - processPackages [elia-chat]: executing diffoscope
+[2024-05-07 14:05:37] INFO root fetch - processPackages [elia-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elia_chat-1.0.1.tar.gz tmp/elia_chat-1.0.2.tar.gz --markdown 20240507/e/elia-chat/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-07 14:05:37] INFO root fetch - processPackages [heartbeat-library]: executing diffoscope
+[2024-05-07 14:05:37] INFO root fetch - processPackages [heartbeat-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heartbeat_library-0.0.8.tar.gz tmp/heartbeat_library-0.0.9.tar.gz --markdown 20240507/h/heartbeat-library/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 14:05:37] INFO root fetch - processPackages [planetmapper]: executing diffoscope
+[2024-05-07 14:05:37] INFO root fetch - processPackages [planetmapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmapper-1.9.0.tar.gz tmp/planetmapper-1.9.1.tar.gz --markdown 20240507/p/planetmapper/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-07 14:05:37] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: executing diffoscope
+[2024-05-07 14:05:37] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_stock_account-14.0.3.6.3.dev6-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_stock_account-14.0.3.6.3.dev7-py3-none-any.whl.zip --markdown 20240507/o/odoo14-addon-l10n-br-stock-account/14.0.3.6.3.dev6-14.0.3.6.3.dev7/README.md --exclude *.pyd
+[2024-05-07 14:05:37] INFO root fetch - processPackages [pptx-renderer]: executing diffoscope
+[2024-05-07 14:05:37] INFO root fetch - processPackages [pptx-renderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pptx_renderer-0.3.0.tar.gz tmp/pptx_renderer-0.4.0.tar.gz --markdown 20240507/p/pptx-renderer/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-07 14:05:37] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2024-05-07 14:05:37] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-0.9.4-py3-none-any.whl.zip tmp/appmesh-0.9.5-py3-none-any.whl.zip --markdown 20240507/a/appmesh/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-07 14:05:38] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.8.tar.gz]
+[2024-05-07 14:05:38] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.9.tar.gz]
+[2024-05-07 14:05:38] INFO root fetch - main [MainThread]: End processing [sqlalchemy-multilingual]: success
+[2024-05-07 14:05:38] INFO root fetch - processPackages [nexus-scraper]: Remove: archive file [/home/abi/fetcher/tmp/nexus_scraper-0.1.0.tar.gz]
+[2024-05-07 14:05:38] INFO root fetch - processPackages [nexus-scraper]: Remove: archive file [/home/abi/fetcher/tmp/nexus_scraper-0.1.8.tar.gz]
+[2024-05-07 14:05:38] INFO root fetch - main [MainThread]: End processing [nexus-scraper]: success
+[2024-05-07 14:05:38] INFO root fetch - processPackages [menpowidgets]: Remove: archive file [/home/abi/fetcher/tmp/menpowidgets-0.4.1.tar.gz]
+[2024-05-07 14:05:38] INFO root fetch - processPackages [menpowidgets]: Remove: archive file [/home/abi/fetcher/tmp/menpowidgets-0.4.2.tar.gz]
+[2024-05-07 14:05:38] INFO root fetch - main [MainThread]: End processing [menpowidgets]: success
+[2024-05-07 14:05:39] INFO root fetch - processPackages [pptx-renderer]: Remove: archive file [/home/abi/fetcher/tmp/pptx_renderer-0.3.0.tar.gz]
+[2024-05-07 14:05:39] INFO root fetch - processPackages [pptx-renderer]: Remove: archive file [/home/abi/fetcher/tmp/pptx_renderer-0.4.0.tar.gz]
+[2024-05-07 14:05:39] INFO root fetch - main [MainThread]: End processing [pptx-renderer]: success
+[2024-05-07 14:05:39] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.9.4-py3-none-any.whl.zip]
+[2024-05-07 14:05:39] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.9.5-py3-none-any.whl.zip]
+[2024-05-07 14:05:39] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2024-05-07 14:05:39] INFO root fetch - processPackages [elia-chat]: Remove: archive file [/home/abi/fetcher/tmp/elia_chat-1.0.1.tar.gz]
+[2024-05-07 14:05:39] INFO root fetch - processPackages [elia-chat]: Remove: archive file [/home/abi/fetcher/tmp/elia_chat-1.0.2.tar.gz]
+[2024-05-07 14:05:39] INFO root fetch - main [MainThread]: End processing [elia-chat]: success
+[2024-05-07 14:05:39] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_stock_account-14.0.3.6.3.dev6-py3-none-any.whl.zip]
+[2024-05-07 14:05:39] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_stock_account-14.0.3.6.3.dev7-py3-none-any.whl.zip]
+[2024-05-07 14:05:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-stock-account]: success
+[2024-05-07 14:05:39] INFO root fetch - processPackages [heartbeat-library]: Remove: archive file [/home/abi/fetcher/tmp/heartbeat_library-0.0.8.tar.gz]
+[2024-05-07 14:05:39] INFO root fetch - processPackages [heartbeat-library]: Remove: archive file [/home/abi/fetcher/tmp/heartbeat_library-0.0.9.tar.gz]
+[2024-05-07 14:05:39] INFO root fetch - main [MainThread]: End processing [heartbeat-library]: success
+[2024-05-07 14:05:39] INFO root fetch - processPackages [planetmapper]: Remove: archive file [/home/abi/fetcher/tmp/planetmapper-1.9.0.tar.gz]
+[2024-05-07 14:05:39] INFO root fetch - processPackages [planetmapper]: Remove: archive file [/home/abi/fetcher/tmp/planetmapper-1.9.1.tar.gz]
+[2024-05-07 14:05:39] INFO root fetch - main [MainThread]: End processing [planetmapper]: success
+[2024-05-07 14:05:39] INFO root fetch - main [MainThread]: Store serial: [23095221]
