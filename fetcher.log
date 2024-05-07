@@ -7995,3 +7995,33 @@ EOFError: EOF read where object expected
 [2024-05-07 03:39:19] INFO root fetch - processPackages [abstract-logs]: Remove: archive file [/home/abi/fetcher/tmp/abstract_logs-0.0.0.3.tar.gz]
 [2024-05-07 03:39:19] INFO root fetch - main [MainThread]: End processing [abstract-logs]: success
 [2024-05-07 03:39:19] INFO root fetch - main [MainThread]: Store serial: [23088144]
+[2024-05-07 03:41:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088144]
+[2024-05-07 03:41:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 03:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multilearn
+[2024-05-07 03:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-dbchat
+[2024-05-07 03:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbappinator
+[2024-05-07 03:41:28] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-05-07 03:41:28] INFO root fetch - processPackages [nbappinator]: New version: [0.1.1b1] Old Version: [0.1.0]
+[2024-05-07 03:41:28] INFO root fetch - processPackages [multilearn]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-07 03:41:28] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/f6/18/1775d2217b34cf20972da457954b07826f8eee83addaf30cb9f9e56acda7/py_dbchat-0.0.2rc98.post1.tar.gz
+[2024-05-07 03:41:28] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/46/2a/bdbad3da9546a731a479643b745cd8c260f68bef690505c558e479fd4cf3/nbappinator-0.1.0.tar.gz
+[2024-05-07 03:41:28] INFO root fetch - processPackages [multilearn]: Downloading https://files.pythonhosted.org/packages/f6/26/85497bba4dd8022980d7ed7cf5e1b29be16c01cf56d331500f6f59f91a9a/multilearn-0.0.3.tar.gz
+[2024-05-07 03:41:28] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/73/d9/44b1e50b7a7349a8172af36226caa9ddf526c5c91c863ce32643ae416507/py_dbchat-0.0.2rc99.post1.tar.gz
+[2024-05-07 03:41:28] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/fc/fc/7e5cc47c88817d6243b84d4865b659e672a442fc35b7abbb33912443ad5e/nbappinator-0.1.1b1.tar.gz
+[2024-05-07 03:41:28] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-05-07 03:41:28] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc98.post1.tar.gz tmp/py_dbchat-0.0.2rc99.post1.tar.gz --markdown 20240507/p/py-dbchat/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-05-07 03:41:28] INFO root fetch - processPackages [nbappinator]: executing diffoscope
+[2024-05-07 03:41:28] INFO root fetch - processPackages [nbappinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbappinator-0.1.0.tar.gz tmp/nbappinator-0.1.1b1.tar.gz --markdown 20240507/n/nbappinator/0.1.0-0.1.1b1/README.md --exclude *.pyd
+[2024-05-07 03:41:29] INFO root fetch - processPackages [multilearn]: Downloading https://files.pythonhosted.org/packages/0d/cf/c81d56d04ea68de6c1cd6fee56407ba2f756484ffb72327ee71354b31dc3/multilearn-0.0.4.tar.gz
+[2024-05-07 03:41:29] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.1.0.tar.gz]
+[2024-05-07 03:41:29] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.1.1b1.tar.gz]
+[2024-05-07 03:41:29] INFO root fetch - main [MainThread]: End processing [nbappinator]: success
+[2024-05-07 03:41:29] INFO root fetch - processPackages [multilearn]: executing diffoscope
+[2024-05-07 03:41:29] INFO root fetch - processPackages [multilearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multilearn-0.0.3.tar.gz tmp/multilearn-0.0.4.tar.gz --markdown 20240507/m/multilearn/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-07 03:41:29] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc98.post1.tar.gz]
+[2024-05-07 03:41:29] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
+[2024-05-07 03:41:29] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-05-07 03:41:30] INFO root fetch - processPackages [multilearn]: Remove: archive file [/home/abi/fetcher/tmp/multilearn-0.0.3.tar.gz]
+[2024-05-07 03:41:30] INFO root fetch - processPackages [multilearn]: Remove: archive file [/home/abi/fetcher/tmp/multilearn-0.0.4.tar.gz]
+[2024-05-07 03:41:30] INFO root fetch - main [MainThread]: End processing [multilearn]: success
+[2024-05-07 03:41:30] INFO root fetch - main [MainThread]: Store serial: [23088153]
