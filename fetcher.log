@@ -10985,3 +10985,32 @@ EOFError: EOF read where object expected
 [2024-05-07 06:42:01] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.5.7.tar.gz]
 [2024-05-07 06:42:01] INFO root fetch - main [MainThread]: End processing [iac-init]: success
 [2024-05-07 06:42:01] INFO root fetch - main [MainThread]: Store serial: [23089486]
+[2024-05-07 06:44:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089486]
+[2024-05-07 06:44:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 06:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oversorrowz
+[2024-05-07 06:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphae
+[2024-05-07 06:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dashscope
+[2024-05-07 06:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sycamore-ai
+[2024-05-07 06:44:10] WARNING root fetch - processPackages [oversorrowz]: Skipping, unable to determine old version
+[2024-05-07 06:44:10] INFO root fetch - main [MainThread]: End processing [oversorrowz] error
+[2024-05-07 06:44:10] INFO root fetch - processPackages [dashscope]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-07 06:44:10] INFO root fetch - processPackages [sphae]: New version: [1.4] Old Version: [1.31]
+[2024-05-07 06:44:10] INFO root fetch - processPackages [sycamore-ai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 06:44:10] INFO root fetch - processPackages [sphae]: Downloading https://files.pythonhosted.org/packages/ca/dd/f0d196e089c83062bf0a32f068a52555a263a275489aa2079492b831071e/sphae-1.31.tar.gz
+[2024-05-07 06:44:10] INFO root fetch - processPackages [dashscope]: Downloading https://files.pythonhosted.org/packages/df/bf/2fefadaa9f3629197c4d63a4814a28a316fa7789ce1e5e576b1bf5c07794/dashscope-1.9.0-py3-none-any.whl
+[2024-05-07 06:44:10] INFO root fetch - processPackages [sycamore-ai]: Downloading https://files.pythonhosted.org/packages/b4/83/9b1a454882b103a1354a7814a4ff4a99688b00c68d3f0b96ceba74ac89e0/sycamore_ai-0.1.8.tar.gz
+[2024-05-07 06:44:10] WARNING root fetch - processPackages [sycamore-ai]: Skipping package: exceeds size limit 11015854>=10485760
+[2024-05-07 06:44:10] INFO root fetch - main [MainThread]: End processing [sycamore-ai] error
+[2024-05-07 06:44:10] INFO root fetch - processPackages [sphae]: Downloading https://files.pythonhosted.org/packages/2e/3b/d3cfd2e78947debaccb1ad921e4229589adc95d583f03fe4b00af009bcab/sphae-1.4.tar.gz
+[2024-05-07 06:44:10] INFO root fetch - processPackages [dashscope]: Downloading https://files.pythonhosted.org/packages/5b/f6/9ba6c964f2ce73e6de9988848b2dcde7c1b66b9badb52886f66728c9c3f1/dashscope-1.9.1-py3-none-any.whl
+[2024-05-07 06:44:10] INFO root fetch - processPackages [sphae]: executing diffoscope
+[2024-05-07 06:44:10] INFO root fetch - processPackages [sphae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphae-1.31.tar.gz tmp/sphae-1.4.tar.gz --markdown 20240507/s/sphae/1.31-1.4/README.md --exclude *.pyd
+[2024-05-07 06:44:11] INFO root fetch - processPackages [dashscope]: executing diffoscope
+[2024-05-07 06:44:11] INFO root fetch - processPackages [dashscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashscope-1.9.0-py3-none-any.whl.zip tmp/dashscope-1.9.1-py3-none-any.whl.zip --markdown 20240507/d/dashscope/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-07 06:44:11] INFO root fetch - processPackages [sphae]: Remove: archive file [/home/abi/fetcher/tmp/sphae-1.31.tar.gz]
+[2024-05-07 06:44:11] INFO root fetch - processPackages [sphae]: Remove: archive file [/home/abi/fetcher/tmp/sphae-1.4.tar.gz]
+[2024-05-07 06:44:11] INFO root fetch - main [MainThread]: End processing [sphae]: success
+[2024-05-07 06:44:11] INFO root fetch - processPackages [dashscope]: Remove: archive file [/home/abi/fetcher/tmp/dashscope-1.9.0-py3-none-any.whl.zip]
+[2024-05-07 06:44:11] INFO root fetch - processPackages [dashscope]: Remove: archive file [/home/abi/fetcher/tmp/dashscope-1.9.1-py3-none-any.whl.zip]
+[2024-05-07 06:44:11] INFO root fetch - main [MainThread]: End processing [dashscope]: success
+[2024-05-07 06:44:11] INFO root fetch - main [MainThread]: Store serial: [23089495]
