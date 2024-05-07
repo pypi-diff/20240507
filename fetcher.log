@@ -11169,3 +11169,47 @@ EOFError: EOF read where object expected
 [2024-05-07 06:55:18] INFO root fetch - processPackages [odoo-addon-l10n-it-intrastat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_intrastat-16.0.1.0.3.3-py3-none-any.whl.zip]
 [2024-05-07 06:55:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-intrastat]: success
 [2024-05-07 06:55:18] INFO root fetch - main [MainThread]: Store serial: [23089595]
+[2024-05-07 06:57:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089595]
+[2024-05-07 06:57:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 06:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: markcli
+[2024-05-07 06:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multicloud-diagrams
+[2024-05-07 06:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robin-api
+[2024-05-07 06:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fennel-ai
+[2024-05-07 06:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sng4onnx
+[2024-05-07 06:57:26] INFO root fetch - processPackages [robin-api]: New version: [1.3] Old Version: [1.2]
+[2024-05-07 06:57:26] INFO root fetch - processPackages [robin-api]: Downloading https://files.pythonhosted.org/packages/60/ef/501741e49eef7473c597104b053b43090355e25945f69ce3b80aba3a887c/robin_api-1.2.tar.gz
+[2024-05-07 06:57:26] INFO root fetch - processPackages [markcli]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-07 06:57:26] INFO root fetch - processPackages [multicloud-diagrams]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-07 06:57:26] INFO root fetch - processPackages [sng4onnx]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-07 06:57:26] INFO root fetch - processPackages [fennel-ai]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-07 06:57:26] INFO root fetch - processPackages [markcli]: Downloading https://files.pythonhosted.org/packages/71/b8/5cf419ef6b32e15ce49d771eb18062d30983502386533d778e90b2850c4a/markcli-0.1.1.tar.gz
+[2024-05-07 06:57:26] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/23/bc/bd2d8d9768ef5002081e14784a5bf8fe6327a7960ea4f62c9a3c46862ba3/multicloud_diagrams-0.3.8.tar.gz
+[2024-05-07 06:57:26] INFO root fetch - processPackages [robin-api]: Downloading https://files.pythonhosted.org/packages/a3/82/77129af2d08a91369d7e318bacbb3a1c592599a89e57bcfac5332cab4b13/robin_api-1.3.tar.gz
+[2024-05-07 06:57:26] INFO root fetch - processPackages [sng4onnx]: Downloading https://files.pythonhosted.org/packages/20/e9/7225bd287fbab08e7557562518e93a3bc0377eaa3251ab67541306657d44/sng4onnx-1.0.2.tar.gz
+[2024-05-07 06:57:26] INFO root fetch - processPackages [robin-api]: executing diffoscope
+[2024-05-07 06:57:26] INFO root fetch - processPackages [robin-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robin_api-1.2.tar.gz tmp/robin_api-1.3.tar.gz --markdown 20240507/r/robin-api/1.2-1.3/README.md --exclude *.pyd
+[2024-05-07 06:57:26] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/13/fc/b983c3866db8e395e151f61be46ec3c0e79820466c478c4f605f47775c57/fennel_ai-1.3.3.tar.gz
+[2024-05-07 06:57:27] WARNING root fetch - processPackages [fennel-ai]: Skipping package: exceeds size limit 40202842>=10485760
+[2024-05-07 06:57:27] INFO root fetch - main [MainThread]: End processing [fennel-ai] error
+[2024-05-07 06:57:27] INFO root fetch - processPackages [markcli]: Downloading https://files.pythonhosted.org/packages/62/ab/1ae1fdbff3617095ba6033a51a25426f791d9e77e541a60e271212aa310b/markcli-0.1.2.tar.gz
+[2024-05-07 06:57:27] INFO root fetch - processPackages [markcli]: executing diffoscope
+[2024-05-07 06:57:27] INFO root fetch - processPackages [markcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markcli-0.1.1.tar.gz tmp/markcli-0.1.2.tar.gz --markdown 20240507/m/markcli/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-07 06:57:27] INFO root fetch - processPackages [sng4onnx]: Downloading https://files.pythonhosted.org/packages/d3/b0/d3ba956b36cfc2ea7490c5541aacad3f3b21030270ecf684ba73795d1cbb/sng4onnx-1.0.3.tar.gz
+[2024-05-07 06:57:27] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/93/bd/2df888c482aa053bc871a7c784ffb1bb0e5e29cd0be64f95d889af5db7b4/multicloud_diagrams-0.3.9.tar.gz
+[2024-05-07 06:57:27] INFO root fetch - processPackages [sng4onnx]: executing diffoscope
+[2024-05-07 06:57:27] INFO root fetch - processPackages [sng4onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sng4onnx-1.0.2.tar.gz tmp/sng4onnx-1.0.3.tar.gz --markdown 20240507/s/sng4onnx/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-07 06:57:27] INFO root fetch - processPackages [multicloud-diagrams]: executing diffoscope
+[2024-05-07 06:57:27] INFO root fetch - processPackages [multicloud-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicloud_diagrams-0.3.8.tar.gz tmp/multicloud_diagrams-0.3.9.tar.gz --markdown 20240507/m/multicloud-diagrams/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-07 06:57:27] INFO root fetch - processPackages [robin-api]: Remove: archive file [/home/abi/fetcher/tmp/robin_api-1.2.tar.gz]
+[2024-05-07 06:57:27] INFO root fetch - processPackages [robin-api]: Remove: archive file [/home/abi/fetcher/tmp/robin_api-1.3.tar.gz]
+[2024-05-07 06:57:27] INFO root fetch - main [MainThread]: End processing [robin-api]: success
+[2024-05-07 06:57:27] INFO root fetch - processPackages [markcli]: Remove: archive file [/home/abi/fetcher/tmp/markcli-0.1.1.tar.gz]
+[2024-05-07 06:57:27] INFO root fetch - processPackages [markcli]: Remove: archive file [/home/abi/fetcher/tmp/markcli-0.1.2.tar.gz]
+[2024-05-07 06:57:27] INFO root fetch - main [MainThread]: End processing [markcli]: success
+[2024-05-07 06:57:28] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.8.tar.gz]
+[2024-05-07 06:57:28] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.9.tar.gz]
+[2024-05-07 06:57:28] INFO root fetch - main [MainThread]: End processing [multicloud-diagrams]: success
+[2024-05-07 06:57:28] INFO root fetch - processPackages [sng4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sng4onnx-1.0.2.tar.gz]
+[2024-05-07 06:57:28] INFO root fetch - processPackages [sng4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sng4onnx-1.0.3.tar.gz]
+[2024-05-07 06:57:28] INFO root fetch - main [MainThread]: End processing [sng4onnx]: success
+[2024-05-07 06:57:28] INFO root fetch - main [MainThread]: Store serial: [23089608]
