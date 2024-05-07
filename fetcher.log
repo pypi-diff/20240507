@@ -17094,3 +17094,63 @@ EOFError: EOF read where object expected
 [2024-05-07 10:49:08] INFO root fetch - processPackages [pytsa-ais]: Remove: archive file [/home/abi/fetcher/tmp/pytsa_ais-2.3.4.tar.gz]
 [2024-05-07 10:49:08] INFO root fetch - main [MainThread]: End processing [pytsa-ais]: success
 [2024-05-07 10:49:08] INFO root fetch - main [MainThread]: Store serial: [23092471]
+[2024-05-07 10:51:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092471]
+[2024-05-07 10:51:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 10:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: veg2hab
+[2024-05-07 10:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jxlpy
+[2024-05-07 10:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: desalination-and-brine-treatment
+[2024-05-07 10:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poetry-plugin-dotenv
+[2024-05-07 10:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ragstack-ai-langflow
+[2024-05-07 10:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: duwi-smart-sdk
+[2024-05-07 10:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PepperPepper
+[2024-05-07 10:51:17] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-07 10:51:17] INFO root fetch - processPackages [poetry-plugin-dotenv]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-07 10:51:17] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-07 10:51:17] INFO root fetch - processPackages [veg2hab]: New version: [0.2.1] Old Version: [0.1.1]
+[2024-05-07 10:51:17] INFO root fetch - processPackages [desalination-and-brine-treatment]: New version: [0.2] Old Version: [0.1]
+[2024-05-07 10:51:17] WARNING root fetch - processPackages [ragstack-ai-langflow]: Skipping, unable to determine old version
+[2024-05-07 10:51:17] INFO root fetch - main [MainThread]: End processing [ragstack-ai-langflow] error
+[2024-05-07 10:51:17] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/a2/6a/fc1e17ed8249aa662d736747b383ab6c49c7144dc000f01a9057721c3218/pepperpepper-0.0.7.8.tar.gz
+[2024-05-07 10:51:17] INFO root fetch - processPackages [jxlpy]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-07 10:51:17] INFO root fetch - processPackages [poetry-plugin-dotenv]: Downloading https://files.pythonhosted.org/packages/6b/e8/89fe75afb2dc1ab644cc98f57a69d8275409f6eb70195c12808c94d7abef/poetry_plugin_dotenv-2.0.0.tar.gz
+[2024-05-07 10:51:17] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/8a/af/a4842cdeb988ce898ce88533ad3f39b00b2cac1fa1fee165ca3603d539bf/duwi_smart_sdk-0.1.3.tar.gz
+[2024-05-07 10:51:17] INFO root fetch - processPackages [veg2hab]: Downloading https://files.pythonhosted.org/packages/1a/4e/b19c178b08f808b7dc5c844424af0a831d366e16088f359ca85108a647b4/veg2hab-0.1.1.tar.gz
+[2024-05-07 10:51:17] INFO root fetch - processPackages [desalination-and-brine-treatment]: Downloading https://files.pythonhosted.org/packages/12/9c/b32698dbaf5d510e4e81960231b58013ec9d8834ecbb4fec7d2ff98096f2/desalination_and_brine_treatment-0.1.tar.gz
+[2024-05-07 10:51:17] INFO root fetch - processPackages [jxlpy]: Downloading https://files.pythonhosted.org/packages/84/3b/f31dab3a7b8e396c6dbf844b2676389c1b3d87e9bac517606b63f1fcdc90/jxlpy-0.9.4.tar.gz
+[2024-05-07 10:51:17] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/bd/bd/74c69c2a57615281d2dab96af6ddca9210d7c0be7e2ab04c6f559e1aea99/pepperpepper-0.0.7.9.tar.gz
+[2024-05-07 10:51:17] INFO root fetch - processPackages [poetry-plugin-dotenv]: Downloading https://files.pythonhosted.org/packages/ac/7b/d1fc5c06fe887ad9e9061d5bfd906f100404a2c990aa00adc3e38c600fcf/poetry_plugin_dotenv-2.1.0.tar.gz
+[2024-05-07 10:51:17] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-07 10:51:17] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.8.tar.gz tmp/pepperpepper-0.0.7.9.tar.gz --markdown 20240507/P/PepperPepper/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-07 10:51:17] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/26/bd/88f5f03e7950cbf94249e94c2ba152f0b359a9fa9eb488329620d3cafef8/duwi_smart_sdk-0.1.4.tar.gz
+[2024-05-07 10:51:17] INFO root fetch - processPackages [poetry-plugin-dotenv]: executing diffoscope
+[2024-05-07 10:51:17] INFO root fetch - processPackages [poetry-plugin-dotenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_dotenv-2.0.0.tar.gz tmp/poetry_plugin_dotenv-2.1.0.tar.gz --markdown 20240507/p/poetry-plugin-dotenv/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-07 10:51:17] INFO root fetch - processPackages [jxlpy]: Downloading https://files.pythonhosted.org/packages/4d/67/1f55dfb205d8a4063881618fb7c58ec64f9cc93a83ee4769d7083985cd6c/jxlpy-0.9.5.tar.gz
+[2024-05-07 10:51:18] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-07 10:51:18] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.1.3.tar.gz tmp/duwi_smart_sdk-0.1.4.tar.gz --markdown 20240507/d/duwi-smart-sdk/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-07 10:51:18] INFO root fetch - processPackages [desalination-and-brine-treatment]: Downloading https://files.pythonhosted.org/packages/e5/e2/6c2bfc1907e4a0eca5804db4589ca3ef56118afd4fbcb44fb4b32a62ba48/desalination_and_brine_treatment-0.2-py3-none-any.whl
+[2024-05-07 10:51:18] INFO root fetch - processPackages [jxlpy]: executing diffoscope
+[2024-05-07 10:51:18] INFO root fetch - processPackages [jxlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jxlpy-0.9.4.tar.gz tmp/jxlpy-0.9.5.tar.gz --markdown 20240507/j/jxlpy/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-07 10:51:18] INFO root fetch - processPackages [desalination-and-brine-treatment]: executing diffoscope
+[2024-05-07 10:51:18] INFO root fetch - processPackages [desalination-and-brine-treatment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desalination_and_brine_treatment-0.1.tar.gz tmp/desalination_and_brine_treatment-0.2-py3-none-any.whl.zip --markdown 20240507/d/desalination-and-brine-treatment/0.1-0.2/README.md --exclude *.pyd
+[2024-05-07 10:51:18] INFO root fetch - processPackages [veg2hab]: Downloading https://files.pythonhosted.org/packages/a3/c6/883f64aecafe98570562adbc4f991c8b2a76282f9135e1040544804eb989/veg2hab-0.2.1.tar.gz
+[2024-05-07 10:51:18] INFO root fetch - processPackages [veg2hab]: executing diffoscope
+[2024-05-07 10:51:18] INFO root fetch - processPackages [veg2hab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veg2hab-0.1.1.tar.gz tmp/veg2hab-0.2.1.tar.gz --markdown 20240507/v/veg2hab/0.1.1-0.2.1/README.md --exclude *.pyd
+[2024-05-07 10:51:18] INFO root fetch - processPackages [poetry-plugin-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_dotenv-2.0.0.tar.gz]
+[2024-05-07 10:51:18] INFO root fetch - processPackages [poetry-plugin-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_dotenv-2.1.0.tar.gz]
+[2024-05-07 10:51:18] INFO root fetch - main [MainThread]: End processing [poetry-plugin-dotenv]: success
+[2024-05-07 10:51:18] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.8.tar.gz]
+[2024-05-07 10:51:18] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
+[2024-05-07 10:51:18] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-07 10:51:18] INFO root fetch - processPackages [desalination-and-brine-treatment]: Remove: archive file [/home/abi/fetcher/tmp/desalination_and_brine_treatment-0.1.tar.gz]
+[2024-05-07 10:51:18] INFO root fetch - processPackages [desalination-and-brine-treatment]: Remove: archive file [/home/abi/fetcher/tmp/desalination_and_brine_treatment-0.2-py3-none-any.whl.zip]
+[2024-05-07 10:51:18] INFO root fetch - main [MainThread]: End processing [desalination-and-brine-treatment]: success
+[2024-05-07 10:51:19] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.3.tar.gz]
+[2024-05-07 10:51:19] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.4.tar.gz]
+[2024-05-07 10:51:19] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-07 10:51:19] INFO root fetch - processPackages [jxlpy]: Remove: archive file [/home/abi/fetcher/tmp/jxlpy-0.9.4.tar.gz]
+[2024-05-07 10:51:19] INFO root fetch - processPackages [jxlpy]: Remove: archive file [/home/abi/fetcher/tmp/jxlpy-0.9.5.tar.gz]
+[2024-05-07 10:51:19] INFO root fetch - main [MainThread]: End processing [jxlpy]: success
+[2024-05-07 10:51:20] INFO root fetch - processPackages [veg2hab]: Remove: archive file [/home/abi/fetcher/tmp/veg2hab-0.1.1.tar.gz]
+[2024-05-07 10:51:20] INFO root fetch - processPackages [veg2hab]: Remove: archive file [/home/abi/fetcher/tmp/veg2hab-0.2.1.tar.gz]
+[2024-05-07 10:51:20] INFO root fetch - main [MainThread]: End processing [veg2hab]: success
+[2024-05-07 10:51:20] INFO root fetch - main [MainThread]: Store serial: [23092488]
