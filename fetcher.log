@@ -3602,3 +3602,39 @@ EOFError: EOF read where object expected
 [2024-05-07 02:36:58] INFO root fetch - processPackages [biblelib]: Remove: archive file [/home/abi/fetcher/tmp/biblelib-0.3.5.tar.gz]
 [2024-05-07 02:36:58] INFO root fetch - main [MainThread]: End processing [biblelib]: success
 [2024-05-07 02:36:58] INFO root fetch - main [MainThread]: Store serial: [23086615]
+[2024-05-07 02:39:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086615]
+[2024-05-07 02:39:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 02:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databend-py
+[2024-05-07 02:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lasertools-pulsepropagate
+[2024-05-07 02:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skrutable
+[2024-05-07 02:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stock-transaction-analyzer
+[2024-05-07 02:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xcai
+[2024-05-07 02:39:06] INFO root fetch - processPackages [skrutable]: New version: [1.3.0.dev2] Old Version: [1.3.0.dev1]
+[2024-05-07 02:39:06] WARNING root fetch - processPackages [stock-transaction-analyzer]: Skipping, unable to determine old version
+[2024-05-07 02:39:06] INFO root fetch - main [MainThread]: End processing [stock-transaction-analyzer] error
+[2024-05-07 02:39:06] WARNING root fetch - processPackages [lasertools-pulsepropagate]: Skipping, unable to determine old version
+[2024-05-07 02:39:06] INFO root fetch - main [MainThread]: End processing [lasertools-pulsepropagate] error
+[2024-05-07 02:39:06] INFO root fetch - processPackages [skrutable]: Downloading https://files.pythonhosted.org/packages/e7/df/6c52db12756a4defdbea6a8f0e31eabec1050141dadba06445d30534977a/skrutable-1.3.0.dev1.tar.gz
+[2024-05-07 02:39:06] INFO root fetch - processPackages [xcai]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-07 02:39:06] INFO root fetch - processPackages [databend-py]: New version: [0.6.0] Old Version: [0.5.9]
+[2024-05-07 02:39:06] INFO root fetch - processPackages [xcai]: Downloading https://files.pythonhosted.org/packages/4f/7a/0028a9f36c10e892f2a00d8fcf089b2b35171cec21c7f90568b78319c77d/xcai-0.1.7.tar.gz
+[2024-05-07 02:39:06] INFO root fetch - processPackages [databend-py]: Downloading https://files.pythonhosted.org/packages/83/e2/1550845b83aa069ca6c0766446055c5d85a394a0071902443f1cb83c405f/databend-py-0.5.9.tar.gz
+[2024-05-07 02:39:06] INFO root fetch - processPackages [skrutable]: Downloading https://files.pythonhosted.org/packages/82/ef/4d03f7e0c44a3f6b66578492f36d8438500c9c3143edec25523e72895030/skrutable-1.3.0.dev2.tar.gz
+[2024-05-07 02:39:07] INFO root fetch - processPackages [skrutable]: executing diffoscope
+[2024-05-07 02:39:07] INFO root fetch - processPackages [skrutable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skrutable-1.3.0.dev1.tar.gz tmp/skrutable-1.3.0.dev2.tar.gz --markdown 20240507/s/skrutable/1.3.0.dev1-1.3.0.dev2/README.md --exclude *.pyd
+[2024-05-07 02:39:07] INFO root fetch - processPackages [databend-py]: Downloading https://files.pythonhosted.org/packages/f1/54/f6b390c3f76d6e6e5e4286552246671a0b2a622d7317beea338bf75456b4/databend-py-0.6.0.tar.gz
+[2024-05-07 02:39:07] INFO root fetch - processPackages [xcai]: Downloading https://files.pythonhosted.org/packages/c3/38/45cde25c609b452e93506c7659695c14881189eaeed7191ccd1d7e0a3dba/xcai-0.1.8.tar.gz
+[2024-05-07 02:39:07] INFO root fetch - processPackages [databend-py]: executing diffoscope
+[2024-05-07 02:39:07] INFO root fetch - processPackages [databend-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend-py-0.5.9.tar.gz tmp/databend-py-0.6.0.tar.gz --markdown 20240507/d/databend-py/0.5.9-0.6.0/README.md --exclude *.pyd
+[2024-05-07 02:39:07] INFO root fetch - processPackages [xcai]: executing diffoscope
+[2024-05-07 02:39:07] INFO root fetch - processPackages [xcai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcai-0.1.7.tar.gz tmp/xcai-0.1.8.tar.gz --markdown 20240507/x/xcai/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-07 02:39:07] INFO root fetch - processPackages [skrutable]: Remove: archive file [/home/abi/fetcher/tmp/skrutable-1.3.0.dev1.tar.gz]
+[2024-05-07 02:39:07] INFO root fetch - processPackages [skrutable]: Remove: archive file [/home/abi/fetcher/tmp/skrutable-1.3.0.dev2.tar.gz]
+[2024-05-07 02:39:07] INFO root fetch - main [MainThread]: End processing [skrutable]: success
+[2024-05-07 02:39:07] INFO root fetch - processPackages [databend-py]: Remove: archive file [/home/abi/fetcher/tmp/databend-py-0.5.9.tar.gz]
+[2024-05-07 02:39:07] INFO root fetch - processPackages [databend-py]: Remove: archive file [/home/abi/fetcher/tmp/databend-py-0.6.0.tar.gz]
+[2024-05-07 02:39:07] INFO root fetch - main [MainThread]: End processing [databend-py]: success
+[2024-05-07 02:39:08] INFO root fetch - processPackages [xcai]: Remove: archive file [/home/abi/fetcher/tmp/xcai-0.1.7.tar.gz]
+[2024-05-07 02:39:08] INFO root fetch - processPackages [xcai]: Remove: archive file [/home/abi/fetcher/tmp/xcai-0.1.8.tar.gz]
+[2024-05-07 02:39:08] INFO root fetch - main [MainThread]: End processing [xcai]: success
+[2024-05-07 02:39:08] INFO root fetch - main [MainThread]: Store serial: [23086630]
