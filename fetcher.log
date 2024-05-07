@@ -3858,3 +3858,51 @@ EOFError: EOF read where object expected
 [2024-05-07 02:54:57] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-05-07 02:54:57] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-05-07 02:54:57] INFO root fetch - main [MainThread]: Store serial: [23086711]
+[2024-05-07 02:57:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086711]
+[2024-05-07 02:57:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 02:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medicafe
+[2024-05-07 02:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: espy-contact
+[2024-05-07 02:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bauplan
+[2024-05-07 02:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchdriveenv
+[2024-05-07 02:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oceanum
+[2024-05-07 02:57:06] INFO root fetch - processPackages [medicafe]: New version: [0.240506.1] Old Version: [0.240501.5]
+[2024-05-07 02:57:06] INFO root fetch - processPackages [espy-contact]: New version: [0.9] Old Version: [0.8]
+[2024-05-07 02:57:06] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/a4/ab/4b5c15dc4ef7ad0d367f4d58070d8649309791b81d7aa833981b9e8d8921/medicafe-0.240501.5.tar.gz
+[2024-05-07 02:57:06] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/07/4c/6d6ed1c239b72208f165ce670dcdc6ffc30e2eb8f70f1f7e5b6106e832a0/espy_contact-0.8.tar.gz
+[2024-05-07 02:57:06] INFO root fetch - processPackages [bauplan]: New version: [0.0.3a99] Old Version: [0.0.3a98]
+[2024-05-07 02:57:06] INFO root fetch - processPackages [torchdriveenv]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 02:57:06] INFO root fetch - processPackages [oceanum]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-07 02:57:06] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/1f/a2/722fe00e34c488a1e91c9eb0ebe6b27115da9bc5c6d0311da983b6ab22d9/espy_contact-0.9.tar.gz
+[2024-05-07 02:57:06] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/b7/52/ad6e8f9069360e371dae7a5ba50e5370618c7dbaac9242b44631e4a53141/medicafe-0.240506.1-py3-none-any.whl
+[2024-05-07 02:57:06] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/85/15/20d89c1bcd5e00733e248397ee4046f32827c24be330deed927e9fc323ad/bauplan-0.0.3a98-py3-none-win_amd64.whl
+[2024-05-07 02:57:06] INFO root fetch - processPackages [torchdriveenv]: Downloading https://files.pythonhosted.org/packages/4c/2f/86fae58bfea975d29f2481999c4bd613cbb520089f83704fd6de9500db09/torchdriveenv-0.1.0.tar.gz
+[2024-05-07 02:57:06] INFO root fetch - processPackages [espy-contact]: executing diffoscope
+[2024-05-07 02:57:06] INFO root fetch - processPackages [espy-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espy_contact-0.8.tar.gz tmp/espy_contact-0.9.tar.gz --markdown 20240507/e/espy-contact/0.8-0.9/README.md --exclude *.pyd
+[2024-05-07 02:57:06] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/57/ed/935840882fb2e119b107f69f3f9b67b25107aa1acd866accb4eb44166804/oceanum-0.9.7.tar.gz
+[2024-05-07 02:57:06] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-07 02:57:06] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240501.5.tar.gz tmp/medicafe-0.240506.1-py3-none-any.whl.zip --markdown 20240507/m/medicafe/0.240501.5-0.240506.1/README.md --exclude *.pyd
+[2024-05-07 02:57:07] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240501.5.tar.gz]
+[2024-05-07 02:57:07] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240506.1-py3-none-any.whl.zip]
+[2024-05-07 02:57:07] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-07 02:57:07] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.8.tar.gz]
+[2024-05-07 02:57:07] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.9.tar.gz]
+[2024-05-07 02:57:07] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
+[2024-05-07 02:57:07] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/23/8b/70ca9196e9ab95cc954089482ad31add486cddb9566cd3de6f70ff677781/bauplan-0.0.3a99-py3-none-win_amd64.whl
+[2024-05-07 02:57:07] INFO root fetch - processPackages [torchdriveenv]: Downloading https://files.pythonhosted.org/packages/18/14/30a006da240b3d7c1df1f349de2665d1d0ae39534ada7979dcc4a9430911/torchdriveenv-0.1.1.tar.gz
+[2024-05-07 02:57:07] INFO root fetch - processPackages [torchdriveenv]: executing diffoscope
+[2024-05-07 02:57:07] INFO root fetch - processPackages [torchdriveenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdriveenv-0.1.0.tar.gz tmp/torchdriveenv-0.1.1.tar.gz --markdown 20240507/t/torchdriveenv/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 02:57:07] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/d6/84/c1ff2f83b55b69b2f4e65d205b4e2a9f88f1070aa1310d7fd5b4a1df7df1/oceanum-0.9.8.tar.gz
+[2024-05-07 02:57:07] INFO root fetch - processPackages [oceanum]: executing diffoscope
+[2024-05-07 02:57:07] INFO root fetch - processPackages [oceanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanum-0.9.7.tar.gz tmp/oceanum-0.9.8.tar.gz --markdown 20240507/o/oceanum/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-07 02:57:08] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.7.tar.gz]
+[2024-05-07 02:57:08] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.8.tar.gz]
+[2024-05-07 02:57:08] INFO root fetch - main [MainThread]: End processing [oceanum]: success
+[2024-05-07 02:57:08] INFO root fetch - processPackages [bauplan]: executing diffoscope
+[2024-05-07 02:57:08] INFO root fetch - processPackages [bauplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bauplan-0.0.3a98-py3-none-win_amd64.whl.zip tmp/bauplan-0.0.3a99-py3-none-win_amd64.whl.zip --markdown 20240507/b/bauplan/0.0.3a98-0.0.3a99/README.md --exclude *.pyd
+[2024-05-07 02:57:09] INFO root fetch - processPackages [torchdriveenv]: Remove: archive file [/home/abi/fetcher/tmp/torchdriveenv-0.1.0.tar.gz]
+[2024-05-07 02:57:09] INFO root fetch - processPackages [torchdriveenv]: Remove: archive file [/home/abi/fetcher/tmp/torchdriveenv-0.1.1.tar.gz]
+[2024-05-07 02:57:09] INFO root fetch - main [MainThread]: End processing [torchdriveenv]: success
+[2024-05-07 02:58:00] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a98-py3-none-win_amd64.whl.zip]
+[2024-05-07 02:58:00] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a99-py3-none-win_amd64.whl.zip]
+[2024-05-07 02:58:00] INFO root fetch - main [MainThread]: End processing [bauplan]: success
+[2024-05-07 02:58:00] INFO root fetch - main [MainThread]: Store serial: [23086726]
