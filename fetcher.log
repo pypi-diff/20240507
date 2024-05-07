@@ -9018,3 +9018,38 @@ EOFError: EOF read where object expected
 [2024-05-07 04:46:56] INFO root fetch - processPackages [tejapi]: Remove: archive file [/home/abi/fetcher/tmp/tejapi-0.1.9.tar.gz]
 [2024-05-07 04:46:56] INFO root fetch - main [MainThread]: End processing [tejapi]: success
 [2024-05-07 04:46:56] INFO root fetch - main [MainThread]: Store serial: [23088612]
+[2024-05-07 04:49:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088612]
+[2024-05-07 04:49:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 04:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: overdazedz
+[2024-05-07 04:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-osubot
+[2024-05-07 04:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: osc-llm
+[2024-05-07 04:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spetrans
+[2024-05-07 04:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rhabdophoranz
+[2024-05-07 04:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: starlette-compress
+[2024-05-07 04:49:04] WARNING root fetch - processPackages [spetrans]: Skipping, unable to determine old version
+[2024-05-07 04:49:04] INFO root fetch - main [MainThread]: End processing [spetrans] error
+[2024-05-07 04:49:04] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [5.8.3] Old Version: [5.8.2]
+[2024-05-07 04:49:04] WARNING root fetch - processPackages [overdazedz]: Skipping, unable to determine old version
+[2024-05-07 04:49:04] INFO root fetch - main [MainThread]: End processing [overdazedz] error
+[2024-05-07 04:49:04] INFO root fetch - processPackages [osc-llm]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-07 04:49:05] WARNING root fetch - processPackages [rhabdophoranz]: Skipping, unable to determine old version
+[2024-05-07 04:49:05] INFO root fetch - main [MainThread]: End processing [rhabdophoranz] error
+[2024-05-07 04:49:05] INFO root fetch - processPackages [starlette-compress]: New version: [0.1.5.4] Old Version: [0.1.4]
+[2024-05-07 04:49:05] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/ba/98/71836d5771aed3fb4f7c6fc9939749b426dc8ac15289642b7bfd3f653f70/nonebot-plugin-osubot-5.8.2.tar.gz
+[2024-05-07 04:49:05] INFO root fetch - processPackages [osc-llm]: Downloading https://files.pythonhosted.org/packages/59/cf/8d5b236f091e6539721375e8840ac4b809697355d78fd52c8d4c5bd5c0f8/osc_llm-0.1.1.tar.gz
+[2024-05-07 04:49:05] INFO root fetch - processPackages [starlette-compress]: Downloading https://files.pythonhosted.org/packages/58/30/c19b43a1d630d632044c114f3fe37c9f0ee299d80be4d51f7035d90b1d9d/starlette_compress-0.1.4.tar.gz
+[2024-05-07 04:49:05] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29382715>=10485760
+[2024-05-07 04:49:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-07 04:49:05] INFO root fetch - processPackages [osc-llm]: Downloading https://files.pythonhosted.org/packages/b3/4c/31295ffc98bab243ebb6a2fb9f32ed831103dcae6777354878c8881eb54f/osc_llm-0.1.2.tar.gz
+[2024-05-07 04:49:05] INFO root fetch - processPackages [starlette-compress]: Downloading https://files.pythonhosted.org/packages/6b/0d/70876a4dd44bea97bd83225aecd8923f173f755cc96ea6027fcf0b8ee715/starlette_compress-0.1.5.4.tar.gz
+[2024-05-07 04:49:05] INFO root fetch - processPackages [osc-llm]: executing diffoscope
+[2024-05-07 04:49:05] INFO root fetch - processPackages [osc-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osc_llm-0.1.1.tar.gz tmp/osc_llm-0.1.2.tar.gz --markdown 20240507/o/osc-llm/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-07 04:49:05] INFO root fetch - processPackages [starlette-compress]: executing diffoscope
+[2024-05-07 04:49:05] INFO root fetch - processPackages [starlette-compress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_compress-0.1.4.tar.gz tmp/starlette_compress-0.1.5.4.tar.gz --markdown 20240507/s/starlette-compress/0.1.4-0.1.5.4/README.md --exclude *.pyd
+[2024-05-07 04:49:06] INFO root fetch - processPackages [starlette-compress]: Remove: archive file [/home/abi/fetcher/tmp/starlette_compress-0.1.4.tar.gz]
+[2024-05-07 04:49:06] INFO root fetch - processPackages [starlette-compress]: Remove: archive file [/home/abi/fetcher/tmp/starlette_compress-0.1.5.4.tar.gz]
+[2024-05-07 04:49:06] INFO root fetch - main [MainThread]: End processing [starlette-compress]: success
+[2024-05-07 04:49:06] INFO root fetch - processPackages [osc-llm]: Remove: archive file [/home/abi/fetcher/tmp/osc_llm-0.1.1.tar.gz]
+[2024-05-07 04:49:06] INFO root fetch - processPackages [osc-llm]: Remove: archive file [/home/abi/fetcher/tmp/osc_llm-0.1.2.tar.gz]
+[2024-05-07 04:49:06] INFO root fetch - main [MainThread]: End processing [osc-llm]: success
+[2024-05-07 04:49:06] INFO root fetch - main [MainThread]: Store serial: [23088632]
