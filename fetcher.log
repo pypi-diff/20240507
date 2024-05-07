@@ -11097,3 +11097,42 @@ EOFError: EOF read where object expected
 [2024-05-07 06:50:54] INFO root fetch - processPackages [amino.light.py]: Remove: archive file [/home/abi/fetcher/tmp/amino.light.py-0.2.0.tar.gz]
 [2024-05-07 06:50:54] INFO root fetch - main [MainThread]: End processing [amino.light.py]: success
 [2024-05-07 06:50:54] INFO root fetch - main [MainThread]: Store serial: [23089571]
+[2024-05-07 06:52:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089571]
+[2024-05-07 06:53:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 06:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pySigma-validators-sigmahq
+[2024-05-07 06:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-sdk-remote
+[2024-05-07 06:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyswipe
+[2024-05-07 06:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unmand
+[2024-05-07 06:53:03] INFO root fetch - processPackages [pyswipe]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-07 06:53:03] INFO root fetch - processPackages [unmand]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-07 06:53:03] INFO root fetch - processPackages [pySigma-validators-sigmahq]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-07 06:53:03] INFO root fetch - processPackages [python-sdk-remote]: New version: [0.0.93] Old Version: [0.0.92]
+[2024-05-07 06:53:03] INFO root fetch - processPackages [pyswipe]: Downloading https://files.pythonhosted.org/packages/cf/1f/57f8bac94ed9f376c2857b9d64559ae2bf28127b73072f546ad97e08e3bf/pyswipe-0.9.6.tar.gz
+[2024-05-07 06:53:03] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/10/35/c481b89f4e194c1d74f6f7b8f10628380f49a09bca087f0a6c7ea59419f9/python_sdk_remote-0.0.92.tar.gz
+[2024-05-07 06:53:03] INFO root fetch - processPackages [pySigma-validators-sigmahq]: Downloading https://files.pythonhosted.org/packages/56/82/fb9ce64c394381d115a1436de30d1cf591e1aac54ed0f29e9d8961828c23/pysigma_validators_sigmahq-0.5.1.tar.gz
+[2024-05-07 06:53:03] INFO root fetch - processPackages [unmand]: Downloading https://files.pythonhosted.org/packages/a1/ac/410628d0d6e81459a0a12ffa196ed4723c41f5b94f9621bf539af2d4caeb/unmand-2.0.0.tar.gz
+[2024-05-07 06:53:04] INFO root fetch - processPackages [pySigma-validators-sigmahq]: Downloading https://files.pythonhosted.org/packages/24/70/c759c0f3ca8faa7cc884f5fcc8bd3478e04906cb0064e6d04aef319e7829/pysigma_validators_sigmahq-0.5.2.tar.gz
+[2024-05-07 06:53:04] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/01/d8/48b7a718478d1f602f4dc7abb4ce6ae1ceebb10ca1fdce9737297ddf47fc/python_sdk_remote-0.0.93.tar.gz
+[2024-05-07 06:53:04] INFO root fetch - processPackages [unmand]: Downloading https://files.pythonhosted.org/packages/c6/46/585c9e3273e1d49e821e9648b46f879981c32f6ea5975656373fbe868dcc/unmand-2.0.1.tar.gz
+[2024-05-07 06:53:04] INFO root fetch - processPackages [pySigma-validators-sigmahq]: executing diffoscope
+[2024-05-07 06:53:04] INFO root fetch - processPackages [pySigma-validators-sigmahq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_validators_sigmahq-0.5.1.tar.gz tmp/pysigma_validators_sigmahq-0.5.2.tar.gz --markdown 20240507/p/pySigma-validators-sigmahq/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-07 06:53:04] INFO root fetch - processPackages [unmand]: executing diffoscope
+[2024-05-07 06:53:04] INFO root fetch - processPackages [unmand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unmand-2.0.0.tar.gz tmp/unmand-2.0.1.tar.gz --markdown 20240507/u/unmand/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-07 06:53:04] INFO root fetch - processPackages [python-sdk-remote]: executing diffoscope
+[2024-05-07 06:53:04] INFO root fetch - processPackages [python-sdk-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sdk_remote-0.0.92.tar.gz tmp/python_sdk_remote-0.0.93.tar.gz --markdown 20240507/p/python-sdk-remote/0.0.92-0.0.93/README.md --exclude *.pyd
+[2024-05-07 06:53:04] INFO root fetch - processPackages [pyswipe]: Downloading https://files.pythonhosted.org/packages/88/dc/bcadf3a8b87c89bcdc6df8d3195ab45a859afa32811394d0c15818d4f410/pyswipe-0.9.7.tar.gz
+[2024-05-07 06:53:04] INFO root fetch - processPackages [unmand]: Remove: archive file [/home/abi/fetcher/tmp/unmand-2.0.0.tar.gz]
+[2024-05-07 06:53:04] INFO root fetch - processPackages [unmand]: Remove: archive file [/home/abi/fetcher/tmp/unmand-2.0.1.tar.gz]
+[2024-05-07 06:53:04] INFO root fetch - main [MainThread]: End processing [unmand]: success
+[2024-05-07 06:53:05] INFO root fetch - processPackages [pySigma-validators-sigmahq]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_validators_sigmahq-0.5.1.tar.gz]
+[2024-05-07 06:53:05] INFO root fetch - processPackages [pySigma-validators-sigmahq]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_validators_sigmahq-0.5.2.tar.gz]
+[2024-05-07 06:53:05] INFO root fetch - main [MainThread]: End processing [pySigma-validators-sigmahq]: success
+[2024-05-07 06:53:05] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.92.tar.gz]
+[2024-05-07 06:53:05] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.93.tar.gz]
+[2024-05-07 06:53:05] INFO root fetch - main [MainThread]: End processing [python-sdk-remote]: success
+[2024-05-07 06:53:05] INFO root fetch - processPackages [pyswipe]: executing diffoscope
+[2024-05-07 06:53:05] INFO root fetch - processPackages [pyswipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswipe-0.9.6.tar.gz tmp/pyswipe-0.9.7.tar.gz --markdown 20240507/p/pyswipe/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-07 06:53:06] INFO root fetch - processPackages [pyswipe]: Remove: archive file [/home/abi/fetcher/tmp/pyswipe-0.9.6.tar.gz]
+[2024-05-07 06:53:06] INFO root fetch - processPackages [pyswipe]: Remove: archive file [/home/abi/fetcher/tmp/pyswipe-0.9.7.tar.gz]
+[2024-05-07 06:53:06] INFO root fetch - main [MainThread]: End processing [pyswipe]: success
+[2024-05-07 06:53:06] INFO root fetch - main [MainThread]: Store serial: [23089583]
