@@ -19751,3 +19751,67 @@ EOFError: EOF read where object expected
 [2024-05-07 12:31:44] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.8.tar.gz]
 [2024-05-07 12:31:44] INFO root fetch - main [MainThread]: End processing [oceanum]: success
 [2024-05-07 12:31:44] INFO root fetch - main [MainThread]: Store serial: [23093633]
+[2024-05-07 12:33:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093633]
+[2024-05-07 12:33:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 12:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: naas-models
+[2024-05-07 12:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-fastapi
+[2024-05-07 12:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: garpix-order
+[2024-05-07 12:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: playsound3
+[2024-05-07 12:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-fastapi
+[2024-05-07 12:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: corvic-engine
+[2024-05-07 12:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: carnotpy
+[2024-05-07 12:33:52] INFO root fetch - processPackages [auto-fastapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 12:33:52] INFO root fetch - processPackages [auto-fastapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 12:33:52] INFO root fetch - processPackages [naas-models]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-07 12:33:52] INFO root fetch - processPackages [playsound3]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-07 12:33:53] INFO root fetch - processPackages [garpix-order]: New version: [1.0.0rc4] Old Version: [1.0.0rc3]
+[2024-05-07 12:33:53] INFO root fetch - processPackages [carnotpy]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-07 12:33:53] INFO root fetch - processPackages [auto-fastapi]: Downloading https://files.pythonhosted.org/packages/e4/cc/8037277a6f0ee62fa85cfbe92c01bbd3ea39ca6f29db9da110e00f6a08d1/auto-fastapi-0.1.0.tar.gz
+[2024-05-07 12:33:53] INFO root fetch - processPackages [auto-fastapi]: Downloading https://files.pythonhosted.org/packages/e4/cc/8037277a6f0ee62fa85cfbe92c01bbd3ea39ca6f29db9da110e00f6a08d1/auto-fastapi-0.1.0.tar.gz
+[2024-05-07 12:33:53] INFO root fetch - processPackages [playsound3]: Downloading https://files.pythonhosted.org/packages/11/4f/c56dfe1f1d6f8d81146c39cef005aac90b14a2938f237647d581ed113966/playsound3-2.1.0.tar.gz
+[2024-05-07 12:33:53] INFO root fetch - processPackages [corvic-engine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 12:33:53] INFO root fetch - processPackages [naas-models]: Downloading https://files.pythonhosted.org/packages/73/62/46ceb1ecf9fc4b1125b9222d91bd37235b1fa9be3cc047e322b14cf1fc95/naas_models-1.8.0.tar.gz
+[2024-05-07 12:33:53] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/28/81/73d66a8b87408209ecb35a7c2bc6678eed7152cd47281836f38fe9d103aa/corvic_engine-0.1.8.tar.gz
+[2024-05-07 12:33:53] INFO root fetch - processPackages [garpix-order]: Downloading https://files.pythonhosted.org/packages/d6/f6/3ac792e15f008404f8443418391c95f73e8f0139374f4d96a9784bd35584/garpix_order-1.0.0rc3.tar.gz
+[2024-05-07 12:33:53] INFO root fetch - processPackages [carnotpy]: Downloading https://files.pythonhosted.org/packages/ee/7f/6d879a8e2d4e50d4850ae62947f10daf4e3f529eb3f3dc42baed0dacd0a9/carnotpy-0.1.1.tar.gz
+[2024-05-07 12:33:53] INFO root fetch - processPackages [naas-models]: Downloading https://files.pythonhosted.org/packages/74/7d/68867962369ecf3c2ccc7aaa1d77332921f642b0f4b12889a39fd04a02e8/naas_models-1.9.0.tar.gz
+[2024-05-07 12:33:53] INFO root fetch - processPackages [auto-fastapi]: Downloading https://files.pythonhosted.org/packages/31/42/0028f295628cfdd3c29f328dd5876fb94a898ae646bed7c0f898ba31e254/auto-fastapi-0.1.1.tar.gz
+[2024-05-07 12:33:53] INFO root fetch - processPackages [auto-fastapi]: Downloading https://files.pythonhosted.org/packages/31/42/0028f295628cfdd3c29f328dd5876fb94a898ae646bed7c0f898ba31e254/auto-fastapi-0.1.1.tar.gz
+[2024-05-07 12:33:53] INFO root fetch - processPackages [playsound3]: Downloading https://files.pythonhosted.org/packages/1e/d7/ce33a542a1039f6201b3123ff5059498c6d3b8b242b70e217795871210db/playsound3-2.1.1.tar.gz
+[2024-05-07 12:33:53] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/09/86/d913022f7e6621ce441c8b834aa1f7c0a01a99f249b2e74671b9da6c2acc/corvic_engine-0.1.9.tar.gz
+[2024-05-07 12:33:53] INFO root fetch - processPackages [naas-models]: executing diffoscope
+[2024-05-07 12:33:53] INFO root fetch - processPackages [naas-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naas_models-1.8.0.tar.gz tmp/naas_models-1.9.0.tar.gz --markdown 20240507/n/naas-models/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-07 12:33:53] INFO root fetch - processPackages [auto-fastapi]: executing diffoscope
+[2024-05-07 12:33:53] INFO root fetch - processPackages [auto-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-fastapi-0.1.0.tar.gz tmp/auto-fastapi-0.1.1.tar.gz --markdown 20240507/a/auto-fastapi/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 12:33:53] INFO root fetch - processPackages [auto-fastapi]: executing diffoscope
+[2024-05-07 12:33:53] INFO root fetch - processPackages [auto-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-fastapi-0.1.0.tar.gz tmp/auto-fastapi-0.1.1.tar.gz --markdown 20240507/a/auto-fastapi/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 12:33:53] INFO root fetch - processPackages [playsound3]: executing diffoscope
+[2024-05-07 12:33:53] INFO root fetch - processPackages [playsound3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playsound3-2.1.0.tar.gz tmp/playsound3-2.1.1.tar.gz --markdown 20240507/p/playsound3/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-07 12:33:53] INFO root fetch - processPackages [corvic-engine]: executing diffoscope
+[2024-05-07 12:33:53] INFO root fetch - processPackages [corvic-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corvic_engine-0.1.8.tar.gz tmp/corvic_engine-0.1.9.tar.gz --markdown 20240507/c/corvic-engine/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 12:33:53] INFO root fetch - processPackages [carnotpy]: Downloading https://files.pythonhosted.org/packages/6a/9a/3f6588abb158c7c31a113b51b26805452b345eceabdd1e5dcc3f31642939/carnotpy-0.2.0.tar.gz
+[2024-05-07 12:33:53] INFO root fetch - processPackages [garpix-order]: Downloading https://files.pythonhosted.org/packages/04/9a/9d192d0b5d9ebc745ade28ebe8308f5456687c2b4f70a553447f8d18b685/garpix_order-1.0.0rc4.tar.gz
+[2024-05-07 12:33:53] INFO root fetch - processPackages [garpix-order]: executing diffoscope
+[2024-05-07 12:33:53] INFO root fetch - processPackages [garpix-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_order-1.0.0rc3.tar.gz tmp/garpix_order-1.0.0rc4.tar.gz --markdown 20240507/g/garpix-order/1.0.0rc3-1.0.0rc4/README.md --exclude *.pyd
+[2024-05-07 12:33:54] INFO root fetch - processPackages [carnotpy]: executing diffoscope
+[2024-05-07 12:33:54] INFO root fetch - processPackages [carnotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carnotpy-0.1.1.tar.gz tmp/carnotpy-0.2.0.tar.gz --markdown 20240507/c/carnotpy/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-07 12:33:54] INFO root fetch - processPackages [naas-models]: Remove: archive file [/home/abi/fetcher/tmp/naas_models-1.8.0.tar.gz]
+[2024-05-07 12:33:54] INFO root fetch - processPackages [naas-models]: Remove: archive file [/home/abi/fetcher/tmp/naas_models-1.9.0.tar.gz]
+[2024-05-07 12:33:54] INFO root fetch - main [MainThread]: End processing [naas-models]: success
+[2024-05-07 12:33:54] INFO root fetch - processPackages [auto-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/auto-fastapi-0.1.0.tar.gz]
+[2024-05-07 12:33:54] INFO root fetch - processPackages [auto-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/auto-fastapi-0.1.1.tar.gz]
+[2024-05-07 12:33:54] INFO root fetch - main [MainThread]: End processing [auto-fastapi]: success
+[2024-05-07 12:33:54] INFO root fetch - main [MainThread]: End processing [auto-fastapi]: success
+[2024-05-07 12:33:54] INFO root fetch - processPackages [playsound3]: Remove: archive file [/home/abi/fetcher/tmp/playsound3-2.1.0.tar.gz]
+[2024-05-07 12:33:54] INFO root fetch - processPackages [playsound3]: Remove: archive file [/home/abi/fetcher/tmp/playsound3-2.1.1.tar.gz]
+[2024-05-07 12:33:54] INFO root fetch - main [MainThread]: End processing [playsound3]: success
+[2024-05-07 12:33:54] INFO root fetch - processPackages [carnotpy]: Remove: archive file [/home/abi/fetcher/tmp/carnotpy-0.1.1.tar.gz]
+[2024-05-07 12:33:54] INFO root fetch - processPackages [carnotpy]: Remove: archive file [/home/abi/fetcher/tmp/carnotpy-0.2.0.tar.gz]
+[2024-05-07 12:33:54] INFO root fetch - main [MainThread]: End processing [carnotpy]: success
+[2024-05-07 12:33:54] INFO root fetch - processPackages [garpix-order]: Remove: archive file [/home/abi/fetcher/tmp/garpix_order-1.0.0rc3.tar.gz]
+[2024-05-07 12:33:54] INFO root fetch - processPackages [garpix-order]: Remove: archive file [/home/abi/fetcher/tmp/garpix_order-1.0.0rc4.tar.gz]
+[2024-05-07 12:33:54] INFO root fetch - main [MainThread]: End processing [garpix-order]: success
+[2024-05-07 12:33:54] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.8.tar.gz]
+[2024-05-07 12:33:54] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.9.tar.gz]
+[2024-05-07 12:33:54] INFO root fetch - main [MainThread]: End processing [corvic-engine]: success
+[2024-05-07 12:33:54] INFO root fetch - main [MainThread]: Store serial: [23093659]
