@@ -22353,3 +22353,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 13:59:02] INFO root fetch - processPackages [hyperon]: Remove: archive file [/home/abi/fetcher/tmp/hyperon-0.1.9-pp39-pypy39_pp73-manylinux_2_17_i686.manylinux2014_i686.whl.zip]
 [2024-05-07 13:59:02] INFO root fetch - main [MainThread]: End processing [hyperon]: success
 [2024-05-07 13:59:02] INFO root fetch - main [MainThread]: Store serial: [23095100]
+[2024-05-07 14:01:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23095100]
+[2024-05-07 14:01:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 14:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snakemake-executor-plugin-googlebatch
+[2024-05-07 14:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe-esimd
+[2024-05-07 14:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeedu-cli
+[2024-05-07 14:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sae-lens
+[2024-05-07 14:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparseml-nightly
+[2024-05-07 14:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: new-dt-algorithm
+[2024-05-07 14:01:11] INFO root fetch - processPackages [new-dt-algorithm]: New version: [0.4] Old Version: [0.3]
+[2024-05-07 14:01:11] INFO root fetch - processPackages [new-dt-algorithm]: Downloading https://files.pythonhosted.org/packages/83/92/71f1dbaeacc4e98ef2e63f89005671a2215a768bd547044e4791d4bec239/new_dt_algorithm-0.3.tar.gz
+[2024-05-07 14:01:11] INFO root fetch - processPackages [yeedu-cli]: New version: [4.5.4] Old Version: [1.0.0rc5]
+[2024-05-07 14:01:11] INFO root fetch - processPackages [snakemake-executor-plugin-googlebatch]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-05-07 14:01:11] INFO root fetch - processPackages [sae-lens]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-07 14:01:11] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240507] Old Version: [2.5.0b20240506]
+[2024-05-07 14:01:11] INFO root fetch - processPackages [sparseml-nightly]: New version: [1.8.0.20240507] Old Version: [1.8.0.20240404]
+[2024-05-07 14:01:12] INFO root fetch - processPackages [new-dt-algorithm]: Downloading https://files.pythonhosted.org/packages/c8/61/9acca546ba549593a027fde43a4afcea77294a9a395761659b899baadcc3/new_dt_algorithm-0.4.tar.gz
+[2024-05-07 14:01:12] INFO root fetch - processPackages [sae-lens]: Downloading https://files.pythonhosted.org/packages/01/fe/0adf703e5cea930cbc287d405a33096732a1ec4f6a0d98088dfce444be84/sae_lens-1.4.0.tar.gz
+[2024-05-07 14:01:12] INFO root fetch - processPackages [snakemake-executor-plugin-googlebatch]: Downloading https://files.pythonhosted.org/packages/ac/ac/37eef761d921851568d18245f2afbec3b13853f4e36dd175914c73fbfe70/snakemake_executor_plugin_googlebatch-0.3.3.tar.gz
+[2024-05-07 14:01:12] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/56/03/f7d4c000609a762069fca078cd90d565b74a8f96a9bdb0ad0bc383f5c608/bigdl_core_xe_esimd-2.5.0b20240506-cp39-cp39-manylinux2010_x86_64.whl
+[2024-05-07 14:01:12] INFO root fetch - processPackages [sparseml-nightly]: Downloading https://files.pythonhosted.org/packages/49/ea/3d7a41e68165c59e794fd0a905e47de037b38eb97922b495af49c1058ee3/sparseml_nightly-1.8.0.20240404-py3-none-any.whl
+[2024-05-07 14:01:12] INFO root fetch - processPackages [yeedu-cli]: Downloading https://files.pythonhosted.org/packages/90/69/2cf88e17d39a95554e1b8f87e72a2eb365f2fdfc14ad6730d429623785ee/yeedu_cli-1.0.0rc5-py3-none-any.whl
+[2024-05-07 14:01:12] INFO root fetch - processPackages [new-dt-algorithm]: executing diffoscope
+[2024-05-07 14:01:12] INFO root fetch - processPackages [new-dt-algorithm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/new_dt_algorithm-0.3.tar.gz tmp/new_dt_algorithm-0.4.tar.gz --markdown 20240507/n/new-dt-algorithm/0.3-0.4/README.md --exclude *.pyd
+[2024-05-07 14:01:12] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61871659>=10485760
+[2024-05-07 14:01:12] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-05-07 14:01:12] INFO root fetch - processPackages [sae-lens]: Downloading https://files.pythonhosted.org/packages/39/52/75a473a9be1d96667a930ed103f4eddd47f244ee70a6cceb237909f5ceaa/sae_lens-1.5.0.tar.gz
+[2024-05-07 14:01:12] INFO root fetch - processPackages [snakemake-executor-plugin-googlebatch]: Downloading https://files.pythonhosted.org/packages/2e/c8/429d71af895f07154caff7bae7f2f65dc9bc29a69f188e1e2c6326530141/snakemake_executor_plugin_googlebatch-0.4.0.tar.gz
+[2024-05-07 14:01:12] INFO root fetch - processPackages [yeedu-cli]: Downloading https://files.pythonhosted.org/packages/e3/aa/da4fe5c54aac3b3bd31767f2ae4ee10c22271b46e1941af4c15bdc4bd8eb/yeedu_cli-4.5.4-py3-none-any.whl
+[2024-05-07 14:01:12] INFO root fetch - processPackages [snakemake-executor-plugin-googlebatch]: executing diffoscope
+[2024-05-07 14:01:12] INFO root fetch - processPackages [snakemake-executor-plugin-googlebatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake_executor_plugin_googlebatch-0.3.3.tar.gz tmp/snakemake_executor_plugin_googlebatch-0.4.0.tar.gz --markdown 20240507/s/snakemake-executor-plugin-googlebatch/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-05-07 14:01:12] INFO root fetch - processPackages [sparseml-nightly]: Downloading https://files.pythonhosted.org/packages/0b/55/55109f8bf02855f6d05b50bc9026aff0bc8567842dce9d1cf2949557f3d9/sparseml_nightly-1.8.0.20240507-py3-none-any.whl
+[2024-05-07 14:01:12] INFO root fetch - processPackages [sae-lens]: executing diffoscope
+[2024-05-07 14:01:12] INFO root fetch - processPackages [sae-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sae_lens-1.4.0.tar.gz tmp/sae_lens-1.5.0.tar.gz --markdown 20240507/s/sae-lens/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-07 14:01:12] INFO root fetch - processPackages [yeedu-cli]: executing diffoscope
+[2024-05-07 14:01:12] INFO root fetch - processPackages [yeedu-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeedu_cli-1.0.0rc5-py3-none-any.whl.zip tmp/yeedu_cli-4.5.4-py3-none-any.whl.zip --markdown 20240507/y/yeedu-cli/1.0.0rc5-4.5.4/README.md --exclude *.pyd
+[2024-05-07 14:01:13] INFO root fetch - processPackages [new-dt-algorithm]: Remove: archive file [/home/abi/fetcher/tmp/new_dt_algorithm-0.3.tar.gz]
+[2024-05-07 14:01:13] INFO root fetch - processPackages [new-dt-algorithm]: Remove: archive file [/home/abi/fetcher/tmp/new_dt_algorithm-0.4.tar.gz]
+[2024-05-07 14:01:13] INFO root fetch - main [MainThread]: End processing [new-dt-algorithm]: success
+[2024-05-07 14:01:13] INFO root fetch - processPackages [sparseml-nightly]: executing diffoscope
+[2024-05-07 14:01:13] INFO root fetch - processPackages [sparseml-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparseml_nightly-1.8.0.20240404-py3-none-any.whl.zip tmp/sparseml_nightly-1.8.0.20240507-py3-none-any.whl.zip --markdown 20240507/s/sparseml-nightly/1.8.0.20240404-1.8.0.20240507/README.md --exclude *.pyd
+[2024-05-07 14:01:13] INFO root fetch - processPackages [snakemake-executor-plugin-googlebatch]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_executor_plugin_googlebatch-0.3.3.tar.gz]
+[2024-05-07 14:01:13] INFO root fetch - processPackages [snakemake-executor-plugin-googlebatch]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_executor_plugin_googlebatch-0.4.0.tar.gz]
+[2024-05-07 14:01:13] INFO root fetch - main [MainThread]: End processing [snakemake-executor-plugin-googlebatch]: success
+[2024-05-07 14:01:13] INFO root fetch - processPackages [sae-lens]: Remove: archive file [/home/abi/fetcher/tmp/sae_lens-1.4.0.tar.gz]
+[2024-05-07 14:01:13] INFO root fetch - processPackages [sae-lens]: Remove: archive file [/home/abi/fetcher/tmp/sae_lens-1.5.0.tar.gz]
+[2024-05-07 14:01:13] INFO root fetch - main [MainThread]: End processing [sae-lens]: success
+[2024-05-07 14:01:13] INFO root fetch - processPackages [yeedu-cli]: Remove: archive file [/home/abi/fetcher/tmp/yeedu_cli-1.0.0rc5-py3-none-any.whl.zip]
+[2024-05-07 14:01:13] INFO root fetch - processPackages [yeedu-cli]: Remove: archive file [/home/abi/fetcher/tmp/yeedu_cli-4.5.4-py3-none-any.whl.zip]
+[2024-05-07 14:01:13] INFO root fetch - main [MainThread]: End processing [yeedu-cli]: success
+[2024-05-07 14:01:15] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.8.0.20240404-py3-none-any.whl.zip]
+[2024-05-07 14:01:15] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.8.0.20240507-py3-none-any.whl.zip]
+[2024-05-07 14:01:15] INFO root fetch - main [MainThread]: End processing [sparseml-nightly]: success
+[2024-05-07 14:01:15] INFO root fetch - main [MainThread]: Store serial: [23095123]
