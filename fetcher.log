@@ -13494,3 +13494,90 @@ EOFError: EOF read where object expected
 [2024-05-07 08:41:48] INFO root fetch - processPackages [accelbyte-py-sdk-service-iam]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-iam-0.9.0.tar.gz]
 [2024-05-07 08:41:48] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-iam]: success
 [2024-05-07 08:41:48] INFO root fetch - main [MainThread]: Store serial: [23090799]
+[2024-05-07 08:43:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090799]
+[2024-05-07 08:43:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-07 08:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: convertanything
+[2024-05-07 08:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: accelbyte-py-sdk-service-inventory
+[2024-05-07 08:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotify2youtubemusic
+[2024-05-07 08:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-random
+[2024-05-07 08:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: generics-package-mudit
+[2024-05-07 08:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: accelbyte-py-sdk-service-leaderboard
+[2024-05-07 08:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-telegram-broadcast
+[2024-05-07 08:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: EasyReflectometryLib
+[2024-05-07 08:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: accelbyte-py-sdk-service-legal
+[2024-05-07 08:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lddtestgitforjenkins
+[2024-05-07 08:43:58] INFO root fetch - processPackages [spotify2youtubemusic]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-07 08:43:58] INFO root fetch - processPackages [convertanything]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 08:43:58] INFO root fetch - processPackages [python-telegram-broadcast]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-07 08:43:58] INFO root fetch - processPackages [lddtestgitforjenkins]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-07 08:43:58] INFO root fetch - processPackages [spotify2youtubemusic]: Downloading https://files.pythonhosted.org/packages/ac/76/eaba51ff1a986324aff42bd22d00301adf23d2736cba326e91eb396ed2ea/spotify2youtubemusic-0.1.1.tar.gz
+[2024-05-07 08:43:58] INFO root fetch - processPackages [convertanything]: Downloading https://files.pythonhosted.org/packages/de/06/f2b13a568797130a6d68ee3aa1bac97e1384340a199c1cb219083a15e464/convertanything-0.0.8.tar.gz
+[2024-05-07 08:43:58] INFO root fetch - processPackages [accelbyte-py-sdk-service-leaderboard]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:43:58] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/2e/c6/e0cef1c116cc5949bb20e99f2168fc023a63e4efbda81b0a82625ca9b78d/python_telegram_broadcast-0.9.0.tar.gz
+[2024-05-07 08:43:58] WARNING root fetch - processPackages [generics-package-mudit]: Skipping, unable to determine old version
+[2024-05-07 08:43:58] INFO root fetch - main [MainThread]: End processing [generics-package-mudit] error
+[2024-05-07 08:43:58] INFO root fetch - processPackages [accelbyte-py-sdk-service-inventory]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-07 08:43:58] INFO root fetch - processPackages [lddtestgitforjenkins]: Downloading https://files.pythonhosted.org/packages/31/45/963a3bbd869ab83b170aaa8ce201892d616aba6c445ebc459017e2ba5926/lddtestgitforjenkins-0.1.0-py3-none-any.whl
+[2024-05-07 08:43:58] INFO root fetch - processPackages [EasyReflectometryLib]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-07 08:43:58] INFO root fetch - processPackages [accelbyte-py-sdk-service-legal]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:43:58] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2024-05-07 08:43:58] INFO root fetch - processPackages [accelbyte-py-sdk-service-inventory]: Downloading https://files.pythonhosted.org/packages/e7/1a/b7b9643b544de4ed9c549eae9929af29a8cf38adaf88c9eecb9d07952586/accelbyte-py-sdk-service-inventory-0.4.0.tar.gz
+[2024-05-07 08:43:58] INFO root fetch - processPackages [convertanything]: Downloading https://files.pythonhosted.org/packages/a7/0d/fc834b1decc7fb56460a0ea31067152c8f90a4888766cc837065237a8350/convertanything-0.0.9.tar.gz
+[2024-05-07 08:43:58] INFO root fetch - processPackages [accelbyte-py-sdk-service-leaderboard]: Downloading https://files.pythonhosted.org/packages/e8/de/4be39b4d611d481fd19cc836a227e54ab9e6f3111ffbee4979dbacdf0130/accelbyte-py-sdk-service-leaderboard-0.8.0.tar.gz
+[2024-05-07 08:43:58] INFO root fetch - processPackages [EasyReflectometryLib]: Downloading https://files.pythonhosted.org/packages/c6/64/72609771117fec1515b0b9449084e7f453b8f28b153065c979299ba0f7e9/easyreflectometrylib-0.0.6.tar.gz
+[2024-05-07 08:43:58] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2024-05-07 08:43:58] INFO root fetch - processPackages [accelbyte-py-sdk-service-legal]: Downloading https://files.pythonhosted.org/packages/6e/09/8dce435804a73f8e1e61c0eef0aca335e102c52aebb99706c782a8e67f98/accelbyte-py-sdk-service-legal-0.8.0.tar.gz
+[2024-05-07 08:43:58] INFO root fetch - processPackages [spotify2youtubemusic]: Downloading https://files.pythonhosted.org/packages/93/d7/43167492e3f63599dc9eecfed5e922f6d457e3bfce4581a3dde6146a67de/spotify2youtubemusic-0.1.2.tar.gz
+[2024-05-07 08:43:58] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/ad/a8/be20209c6074e543ef01f3e0c78088a55991e44287406cafa1d80d9605bc/python_telegram_broadcast-0.9.1.tar.gz
+[2024-05-07 08:43:58] INFO root fetch - processPackages [lddtestgitforjenkins]: Downloading https://files.pythonhosted.org/packages/30/17/ca18a31bcbaa18374872ff1cca5585e99a067a9cb0128f5ecce84bae5f2a/lddtestgitforjenkins-1.0.0-py3-none-any.whl
+[2024-05-07 08:43:58] INFO root fetch - processPackages [convertanything]: executing diffoscope
+[2024-05-07 08:43:58] INFO root fetch - processPackages [convertanything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convertanything-0.0.8.tar.gz tmp/convertanything-0.0.9.tar.gz --markdown 20240507/c/convertanything/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 08:43:58] INFO root fetch - processPackages [spotify2youtubemusic]: executing diffoscope
+[2024-05-07 08:43:58] INFO root fetch - processPackages [spotify2youtubemusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify2youtubemusic-0.1.1.tar.gz tmp/spotify2youtubemusic-0.1.2.tar.gz --markdown 20240507/s/spotify2youtubemusic/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-07 08:43:58] INFO root fetch - processPackages [python-telegram-broadcast]: executing diffoscope
+[2024-05-07 08:43:58] INFO root fetch - processPackages [python-telegram-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_telegram_broadcast-0.9.0.tar.gz tmp/python_telegram_broadcast-0.9.1.tar.gz --markdown 20240507/p/python-telegram-broadcast/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-07 08:43:58] INFO root fetch - processPackages [lddtestgitforjenkins]: executing diffoscope
+[2024-05-07 08:43:58] INFO root fetch - processPackages [lddtestgitforjenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lddtestgitforjenkins-0.1.0-py3-none-any.whl.zip tmp/lddtestgitforjenkins-1.0.0-py3-none-any.whl.zip --markdown 20240507/l/lddtestgitforjenkins/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-07 08:43:58] INFO root fetch - processPackages [accelbyte-py-sdk-service-inventory]: Downloading https://files.pythonhosted.org/packages/4c/dc/1a1d3ff965f2cdb65879cb07593bdf23a48a9a559c5345af0d4231253286/accelbyte_py_sdk_service_inventory-0.5.0.tar.gz
+[2024-05-07 08:43:58] INFO root fetch - processPackages [accelbyte-py-sdk-service-leaderboard]: Downloading https://files.pythonhosted.org/packages/34/80/05d53ff48ae8430e0bafe4eada9a09168dfed2970ccd50cef80ae0f058d5/accelbyte-py-sdk-service-leaderboard-0.9.0.tar.gz
+[2024-05-07 08:43:58] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2024-05-07 08:43:58] INFO root fetch - processPackages [EasyReflectometryLib]: Downloading https://files.pythonhosted.org/packages/3e/5a/21e2ca8ad0019efaae0129213f6ca87cfc69774bc23e2dde6276ab81fb54/easyreflectometrylib-0.0.7.tar.gz
+[2024-05-07 08:43:59] INFO root fetch - processPackages [accelbyte-py-sdk-service-legal]: Downloading https://files.pythonhosted.org/packages/cf/8e/edd9b760222972d945282cbbe8f64e534d4094343d46e0d723bd6ab06228/accelbyte_py_sdk_service_legal-0.9.0.tar.gz
+[2024-05-07 08:43:59] INFO root fetch - processPackages [accelbyte-py-sdk-service-inventory]: executing diffoscope
+[2024-05-07 08:43:59] INFO root fetch - processPackages [accelbyte-py-sdk-service-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-inventory-0.4.0.tar.gz tmp/accelbyte_py_sdk_service_inventory-0.5.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-inventory/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-07 08:43:59] INFO root fetch - processPackages [accelbyte-py-sdk-service-leaderboard]: executing diffoscope
+[2024-05-07 08:43:59] INFO root fetch - processPackages [accelbyte-py-sdk-service-leaderboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-leaderboard-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-leaderboard-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-leaderboard/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:43:59] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2024-05-07 08:43:59] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20240507/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/README.md --exclude *.pyd
+[2024-05-07 08:43:59] INFO root fetch - processPackages [EasyReflectometryLib]: executing diffoscope
+[2024-05-07 08:43:59] INFO root fetch - processPackages [EasyReflectometryLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyreflectometrylib-0.0.6.tar.gz tmp/easyreflectometrylib-0.0.7.tar.gz --markdown 20240507/E/EasyReflectometryLib/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-07 08:43:59] INFO root fetch - processPackages [accelbyte-py-sdk-service-legal]: executing diffoscope
+[2024-05-07 08:43:59] INFO root fetch - processPackages [accelbyte-py-sdk-service-legal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-legal-0.8.0.tar.gz tmp/accelbyte_py_sdk_service_legal-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-legal/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:43:59] INFO root fetch - processPackages [spotify2youtubemusic]: Remove: archive file [/home/abi/fetcher/tmp/spotify2youtubemusic-0.1.1.tar.gz]
+[2024-05-07 08:43:59] INFO root fetch - processPackages [spotify2youtubemusic]: Remove: archive file [/home/abi/fetcher/tmp/spotify2youtubemusic-0.1.2.tar.gz]
+[2024-05-07 08:43:59] INFO root fetch - main [MainThread]: End processing [spotify2youtubemusic]: success
+[2024-05-07 08:43:59] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python_telegram_broadcast-0.9.0.tar.gz]
+[2024-05-07 08:43:59] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python_telegram_broadcast-0.9.1.tar.gz]
+[2024-05-07 08:43:59] INFO root fetch - main [MainThread]: End processing [python-telegram-broadcast]: success
+[2024-05-07 08:43:59] INFO root fetch - processPackages [convertanything]: Remove: archive file [/home/abi/fetcher/tmp/convertanything-0.0.8.tar.gz]
+[2024-05-07 08:43:59] INFO root fetch - processPackages [convertanything]: Remove: archive file [/home/abi/fetcher/tmp/convertanything-0.0.9.tar.gz]
+[2024-05-07 08:43:59] INFO root fetch - main [MainThread]: End processing [convertanything]: success
+[2024-05-07 08:43:59] INFO root fetch - processPackages [lddtestgitforjenkins]: Remove: archive file [/home/abi/fetcher/tmp/lddtestgitforjenkins-0.1.0-py3-none-any.whl.zip]
+[2024-05-07 08:43:59] INFO root fetch - processPackages [lddtestgitforjenkins]: Remove: archive file [/home/abi/fetcher/tmp/lddtestgitforjenkins-1.0.0-py3-none-any.whl.zip]
+[2024-05-07 08:43:59] INFO root fetch - main [MainThread]: End processing [lddtestgitforjenkins]: success
+[2024-05-07 08:43:59] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2024-05-07 08:43:59] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2024-05-07 08:43:59] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2024-05-07 08:44:00] INFO root fetch - processPackages [accelbyte-py-sdk-service-inventory]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-inventory-0.4.0.tar.gz]
+[2024-05-07 08:44:00] INFO root fetch - processPackages [accelbyte-py-sdk-service-inventory]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_inventory-0.5.0.tar.gz]
+[2024-05-07 08:44:00] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-inventory]: success
+[2024-05-07 08:44:00] INFO root fetch - processPackages [accelbyte-py-sdk-service-leaderboard]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-leaderboard-0.8.0.tar.gz]
+[2024-05-07 08:44:00] INFO root fetch - processPackages [accelbyte-py-sdk-service-leaderboard]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-leaderboard-0.9.0.tar.gz]
+[2024-05-07 08:44:00] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-leaderboard]: success
+[2024-05-07 08:44:00] INFO root fetch - processPackages [EasyReflectometryLib]: Remove: archive file [/home/abi/fetcher/tmp/easyreflectometrylib-0.0.6.tar.gz]
+[2024-05-07 08:44:00] INFO root fetch - processPackages [EasyReflectometryLib]: Remove: archive file [/home/abi/fetcher/tmp/easyreflectometrylib-0.0.7.tar.gz]
+[2024-05-07 08:44:00] INFO root fetch - main [MainThread]: End processing [EasyReflectometryLib]: success
+[2024-05-07 08:44:01] INFO root fetch - processPackages [accelbyte-py-sdk-service-legal]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-legal-0.8.0.tar.gz]
+[2024-05-07 08:44:01] INFO root fetch - processPackages [accelbyte-py-sdk-service-legal]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_legal-0.9.0.tar.gz]
+[2024-05-07 08:44:01] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-legal]: success
+[2024-05-07 08:44:01] INFO root fetch - main [MainThread]: Store serial: [23090830]
