@@ -18889,3 +18889,39 @@ EOFError: EOF read where object expected
 [2024-05-07 11:53:33] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1259.tar.gz]
 [2024-05-07 11:53:33] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
 [2024-05-07 11:53:33] INFO root fetch - main [MainThread]: Store serial: [23093291]
+[2024-05-07 11:55:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093291]
+[2024-05-07 11:55:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 11:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: picklepie-base
+[2024-05-07 11:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autotrain-advanced
+[2024-05-07 11:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clappform-integrations
+[2024-05-07 11:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pop-autocar
+[2024-05-07 11:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clusterfun
+[2024-05-07 11:55:41] WARNING root fetch - processPackages [picklepie-base]: Skipping, unable to determine old version
+[2024-05-07 11:55:41] INFO root fetch - main [MainThread]: End processing [picklepie-base] error
+[2024-05-07 11:55:41] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-07 11:55:42] INFO root fetch - processPackages [clappform-integrations]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 11:55:42] WARNING root fetch - processPackages [pop-autocar]: Skipping, unable to determine old version
+[2024-05-07 11:55:42] INFO root fetch - main [MainThread]: End processing [pop-autocar] error
+[2024-05-07 11:55:42] INFO root fetch - processPackages [clusterfun]: New version: [0.3.0a7] Old Version: [0.2.3a7]
+[2024-05-07 11:55:42] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/f7/32/d4134f2d2283aafd5d82db1b47031a6025f7f458bf7dc07ef8389a35fab9/autotrain-advanced-0.7.8.tar.gz
+[2024-05-07 11:55:42] INFO root fetch - processPackages [clappform-integrations]: Downloading https://files.pythonhosted.org/packages/20/77/57c7ebb9ba32b318b442c9f31f596182611f8b9949b9a0800a0f3abecdb5/clappform-integrations-1.0.8.tar.gz
+[2024-05-07 11:55:42] INFO root fetch - processPackages [clusterfun]: Downloading https://files.pythonhosted.org/packages/81/9f/c974b6186fbb3c8970655f77addf28d084f2785e09cedd98914268c96a8a/clusterfun-0.2.3a7.tar.gz
+[2024-05-07 11:55:42] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-05-07 11:55:42] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-05-07 11:55:42] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.8.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240507/a/autotrain-advanced/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-07 11:55:42] INFO root fetch - processPackages [clappform-integrations]: Downloading https://files.pythonhosted.org/packages/1b/87/d1bd22e550a438c726df88f986c9ca34f15cf630f0c0d3587eb3081d4339/clappform-integrations-1.0.9.tar.gz
+[2024-05-07 11:55:42] INFO root fetch - processPackages [clappform-integrations]: executing diffoscope
+[2024-05-07 11:55:42] INFO root fetch - processPackages [clappform-integrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clappform-integrations-1.0.8.tar.gz tmp/clappform-integrations-1.0.9.tar.gz --markdown 20240507/c/clappform-integrations/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 11:55:42] INFO root fetch - processPackages [clusterfun]: Downloading https://files.pythonhosted.org/packages/e5/84/b4405485f2aa300c455519eac1ced37374cdb5d625afce58acf9e46ac23f/clusterfun-0.3.0a7.tar.gz
+[2024-05-07 11:55:43] INFO root fetch - processPackages [clappform-integrations]: Remove: archive file [/home/abi/fetcher/tmp/clappform-integrations-1.0.8.tar.gz]
+[2024-05-07 11:55:43] INFO root fetch - processPackages [clappform-integrations]: Remove: archive file [/home/abi/fetcher/tmp/clappform-integrations-1.0.9.tar.gz]
+[2024-05-07 11:55:43] INFO root fetch - main [MainThread]: End processing [clappform-integrations]: success
+[2024-05-07 11:55:43] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.8.tar.gz]
+[2024-05-07 11:55:43] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-05-07 11:55:43] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-05-07 11:55:43] INFO root fetch - processPackages [clusterfun]: executing diffoscope
+[2024-05-07 11:55:43] INFO root fetch - processPackages [clusterfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clusterfun-0.2.3a7.tar.gz tmp/clusterfun-0.3.0a7.tar.gz --markdown 20240507/c/clusterfun/0.2.3a7-0.3.0a7/README.md --exclude *.pyd
+[2024-05-07 11:55:44] INFO root fetch - processPackages [clusterfun]: Remove: archive file [/home/abi/fetcher/tmp/clusterfun-0.2.3a7.tar.gz]
+[2024-05-07 11:55:44] INFO root fetch - processPackages [clusterfun]: Remove: archive file [/home/abi/fetcher/tmp/clusterfun-0.3.0a7.tar.gz]
+[2024-05-07 11:55:44] INFO root fetch - main [MainThread]: End processing [clusterfun]: success
+[2024-05-07 11:55:44] INFO root fetch - main [MainThread]: Store serial: [23093316]
