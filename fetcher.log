@@ -18769,3 +18769,51 @@ EOFError: EOF read where object expected
 [2024-05-07 11:49:10] INFO root fetch - processPackages [playsound3]: Remove: archive file [/home/abi/fetcher/tmp/playsound3-2.1.0.tar.gz]
 [2024-05-07 11:49:10] INFO root fetch - main [MainThread]: End processing [playsound3]: success
 [2024-05-07 11:49:10] INFO root fetch - main [MainThread]: Store serial: [23093232]
+[2024-05-07 11:51:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093232]
+[2024-05-07 11:51:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 11:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloud-governance
+[2024-05-07 11:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: afeng-py-tools
+[2024-05-07 11:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-telegram-broadcast
+[2024-05-07 11:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotframework-xlibrary
+[2024-05-07 11:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AutoMLApp
+[2024-05-07 11:51:19] INFO root fetch - processPackages [python-telegram-broadcast]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-07 11:51:19] INFO root fetch - processPackages [AutoMLApp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 11:51:19] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-07 11:51:19] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/2a/27/a24a43fe7cf3b524ba0eb77522c18e39f21898b5055adf1749d8decf9367/python_telegram_broadcast-0.9.2.tar.gz
+[2024-05-07 11:51:19] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/e6/dd/da486f6eb1f49345f14d8312b4e4a30a22831962068feff59d541fe7be68/automlapp-0.1.0.tar.gz
+[2024-05-07 11:51:19] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [11.0.7] Old Version: [11.0.6]
+[2024-05-07 11:51:19] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-07 11:51:19] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-05-07 11:51:19] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/41/5f/412ee8bfef09c72bd5600d301f3acafef146773d7e985523296460c61817/robotframework-xlibrary-11.0.6.tar.gz
+[2024-05-07 11:51:19] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-07 11:51:19] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/22/e5/c4828c6da52369eef66b6ccbee6e20b661402822ac1b3d1e09e44e351cee/automlapp-0.1.1.tar.gz
+[2024-05-07 11:51:19] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/f6/1d/7c900e6dd57ceda52e53c45db994f28709dca05fc7a4003ae49de6911697/python_telegram_broadcast-0.9.3.tar.gz
+[2024-05-07 11:51:19] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-05-07 11:51:19] INFO root fetch - processPackages [AutoMLApp]: executing diffoscope
+[2024-05-07 11:51:19] INFO root fetch - processPackages [AutoMLApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automlapp-0.1.0.tar.gz tmp/automlapp-0.1.1.tar.gz --markdown 20240507/A/AutoMLApp/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 11:51:19] INFO root fetch - processPackages [python-telegram-broadcast]: executing diffoscope
+[2024-05-07 11:51:19] INFO root fetch - processPackages [python-telegram-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_telegram_broadcast-0.9.2.tar.gz tmp/python_telegram_broadcast-0.9.3.tar.gz --markdown 20240507/p/python-telegram-broadcast/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-07 11:51:19] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-05-07 11:51:19] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240507/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-07 11:51:19] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/87/7b/8cb94a1d6acd8f7d2ce3c9772cc80c343bfbb87b9bb6f968c1d41df6b5d7/robotframework-xlibrary-11.0.7.tar.gz
+[2024-05-07 11:51:20] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-07 11:51:20] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-05-07 11:51:20] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-11.0.6.tar.gz tmp/robotframework-xlibrary-11.0.7.tar.gz --markdown 20240507/r/robotframework-xlibrary/11.0.6-11.0.7/README.md --exclude *.pyd
+[2024-05-07 11:51:20] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-07 11:51:20] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240507/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-07 11:51:20] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python_telegram_broadcast-0.9.2.tar.gz]
+[2024-05-07 11:51:20] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python_telegram_broadcast-0.9.3.tar.gz]
+[2024-05-07 11:51:20] INFO root fetch - main [MainThread]: End processing [python-telegram-broadcast]: success
+[2024-05-07 11:51:20] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.0.tar.gz]
+[2024-05-07 11:51:20] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.1.tar.gz]
+[2024-05-07 11:51:20] INFO root fetch - main [MainThread]: End processing [AutoMLApp]: success
+[2024-05-07 11:51:20] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.6.tar.gz]
+[2024-05-07 11:51:20] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.7.tar.gz]
+[2024-05-07 11:51:20] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-05-07 11:51:20] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-05-07 11:51:20] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-05-07 11:51:20] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-05-07 11:51:21] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-07 11:51:21] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-07 11:51:21] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-07 11:51:21] INFO root fetch - main [MainThread]: Store serial: [23093259]
