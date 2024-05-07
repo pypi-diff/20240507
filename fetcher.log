@@ -10426,3 +10426,18 @@ EOFError: EOF read where object expected
 [2024-05-07 05:53:46] WARNING root fetch - processPackages [overminutelyz]: Skipping, unable to determine old version
 [2024-05-07 05:53:46] INFO root fetch - main [MainThread]: End processing [overminutelyz] error
 [2024-05-07 05:53:46] INFO root fetch - main [MainThread]: Store serial: [23089207]
+[2024-05-07 05:55:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089207]
+[2024-05-07 05:55:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 05:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: experiment-helpers
+[2024-05-07 05:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tenutiz
+[2024-05-07 05:55:55] INFO root fetch - processPackages [experiment-helpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 05:55:55] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/d8/b8/4d2059d553d489beb944d46490e92a1c756a53a2151fe5a13ac31f8c7e2d/experiment_helpers-0.0.8.tar.gz
+[2024-05-07 05:55:55] WARNING root fetch - processPackages [tenutiz]: Skipping, unable to determine old version
+[2024-05-07 05:55:55] INFO root fetch - main [MainThread]: End processing [tenutiz] error
+[2024-05-07 05:55:55] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/91/85/d55140197c7fbdcf545e299dfef55310447c595a8fc02678c5384bed232b/experiment_helpers-0.0.9.tar.gz
+[2024-05-07 05:55:55] INFO root fetch - processPackages [experiment-helpers]: executing diffoscope
+[2024-05-07 05:55:55] INFO root fetch - processPackages [experiment-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment_helpers-0.0.8.tar.gz tmp/experiment_helpers-0.0.9.tar.gz --markdown 20240507/e/experiment-helpers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 05:55:56] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.8.tar.gz]
+[2024-05-07 05:55:56] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.9.tar.gz]
+[2024-05-07 05:55:56] INFO root fetch - main [MainThread]: End processing [experiment-helpers]: success
+[2024-05-07 05:55:56] INFO root fetch - main [MainThread]: Store serial: [23089214]
