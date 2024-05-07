@@ -16591,3 +16591,81 @@ EOFError: EOF read where object expected
 [2024-05-07 10:33:39] INFO root fetch - processPackages [REFPROP-connector]: Remove: archive file [/home/abi/fetcher/tmp/REFPROP_connector-0.3.9.tar.gz]
 [2024-05-07 10:33:39] INFO root fetch - main [MainThread]: End processing [REFPROP-connector]: success
 [2024-05-07 10:33:39] INFO root fetch - main [MainThread]: Store serial: [23092257]
+[2024-05-07 10:35:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092257]
+[2024-05-07 10:35:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 10:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gennet-forked
+[2024-05-07 10:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phenomApis
+[2024-05-07 10:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: doku-python-library
+[2024-05-07 10:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bambooai
+[2024-05-07 10:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-gpt
+[2024-05-07 10:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: user-external-local
+[2024-05-07 10:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trailblazer
+[2024-05-07 10:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: test-nvf-builds
+[2024-05-07 10:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data-quality-validation-pydeequ
+[2024-05-07 10:35:48] INFO root fetch - processPackages [gennet-forked]: New version: [2.0.0.2] Old Version: [2.0.0.1]
+[2024-05-07 10:35:48] INFO root fetch - processPackages [test-nvf-builds]: New version: [0.0.3.3] Old Version: [0.0.3.2]
+[2024-05-07 10:35:48] INFO root fetch - processPackages [nonebot-plugin-gpt]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 10:35:48] INFO root fetch - processPackages [data-quality-validation-pydeequ]: New version: [0.7] Old Version: [0.6]
+[2024-05-07 10:35:48] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2024-05-07 10:35:49] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 10:35:49] INFO root fetch - processPackages [user-external-local]: New version: [0.0.39] Old Version: [0.0.38]
+[2024-05-07 10:35:49] WARNING root fetch - processPackages [doku-python-library]: Skipping, unable to determine old version
+[2024-05-07 10:35:49] INFO root fetch - main [MainThread]: End processing [doku-python-library] error
+[2024-05-07 10:35:49] INFO root fetch - processPackages [nonebot-plugin-gpt]: Downloading https://files.pythonhosted.org/packages/d3/b8/e98732cabdc5211650e901088c2fde40acd5a0131b175d00468129132813/nonebot-plugin-gpt-0.0.8.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [gennet-forked]: Downloading https://files.pythonhosted.org/packages/7c/47/9942491e4b906488e5e61172430f8ab120eb3a773ec7dc316c53b31a5272/gennet_forked-2.0.0.1.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [test-nvf-builds]: Downloading https://files.pythonhosted.org/packages/03/50/a57c3b5c959f2c32119b2243ebfd251ed7497f8edb26a244291282e1a9ac/test_nvf_builds-0.0.3.2.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/79/51/bfa020832e1466d448beb240aa8e0bf8980a6ac0f860fa00ef820d10084b/data-quality-validation-pydeequ-0.6.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-07 10:35:49] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [user-external-local]: Downloading https://files.pythonhosted.org/packages/1c/25/2b9f7670c4600205f4cc233fd07ca05abe24a54b767f552e5d4bc01d1697/user-external-local-0.0.38.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [nonebot-plugin-gpt]: Downloading https://files.pythonhosted.org/packages/3d/9f/81d150090fcea62c65939c289c40f03dc27e061ec4bc33f5dafeb79fc785/nonebot-plugin-gpt-0.0.9.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [test-nvf-builds]: Downloading https://files.pythonhosted.org/packages/03/43/f7b49b760318f3f5b6987c4191bbffbc385a27110897a11eb7067bdf177c/test_nvf_builds-0.0.3.3.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/5a/77/3848124a3ba70de35c3db95f35a2d7666fdc5276ff6a88350973f39744c1/data-quality-validation-pydeequ-0.7.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [gennet-forked]: Downloading https://files.pythonhosted.org/packages/c2/21/4d115411789faecd5cbfb8bc4aee36a6c58a762d2ec1217714262be0034c/gennet_forked-2.0.0.2.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2024-05-07 10:35:49] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20240507/t/trailblazer/9.2.1-9.2.2/README.md --exclude *.pyd
+[2024-05-07 10:35:49] INFO root fetch - processPackages [nonebot-plugin-gpt]: executing diffoscope
+[2024-05-07 10:35:49] INFO root fetch - processPackages [nonebot-plugin-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-gpt-0.0.8.tar.gz tmp/nonebot-plugin-gpt-0.0.9.tar.gz --markdown 20240507/n/nonebot-plugin-gpt/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 10:35:49] INFO root fetch - processPackages [user-external-local]: Downloading https://files.pythonhosted.org/packages/5e/ed/7ebac192e9dd0130ceaa36f02cecc99e4897e32d3b8b56bc0bc3296f051a/user_external_local-0.0.39.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [test-nvf-builds]: executing diffoscope
+[2024-05-07 10:35:49] INFO root fetch - processPackages [test-nvf-builds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_nvf_builds-0.0.3.2.tar.gz tmp/test_nvf_builds-0.0.3.3.tar.gz --markdown 20240507/t/test-nvf-builds/0.0.3.2-0.0.3.3/README.md --exclude *.pyd
+[2024-05-07 10:35:49] INFO root fetch - processPackages [data-quality-validation-pydeequ]: executing diffoscope
+[2024-05-07 10:35:49] INFO root fetch - processPackages [data-quality-validation-pydeequ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-quality-validation-pydeequ-0.6.tar.gz tmp/data-quality-validation-pydeequ-0.7.tar.gz --markdown 20240507/d/data-quality-validation-pydeequ/0.6-0.7/README.md --exclude *.pyd
+[2024-05-07 10:35:49] INFO root fetch - processPackages [gennet-forked]: executing diffoscope
+[2024-05-07 10:35:49] INFO root fetch - processPackages [gennet-forked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gennet_forked-2.0.0.1.tar.gz tmp/gennet_forked-2.0.0.2.tar.gz --markdown 20240507/g/gennet-forked/2.0.0.1-2.0.0.2/README.md --exclude *.pyd
+[2024-05-07 10:35:49] INFO root fetch - processPackages [user-external-local]: executing diffoscope
+[2024-05-07 10:35:49] INFO root fetch - processPackages [user-external-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user-external-local-0.0.38.tar.gz tmp/user_external_local-0.0.39.tar.gz --markdown 20240507/u/user-external-local/0.0.38-0.0.39/README.md --exclude *.pyd
+[2024-05-07 10:35:49] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-05-07 10:35:49] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-05-07 10:35:49] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240507/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-07 10:35:50] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-07 10:35:50] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240507/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 10:35:50] INFO root fetch - processPackages [user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/user-external-local-0.0.38.tar.gz]
+[2024-05-07 10:35:50] INFO root fetch - processPackages [user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/user_external_local-0.0.39.tar.gz]
+[2024-05-07 10:35:50] INFO root fetch - main [MainThread]: End processing [user-external-local]: success
+[2024-05-07 10:35:50] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.6.tar.gz]
+[2024-05-07 10:35:50] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.7.tar.gz]
+[2024-05-07 10:35:50] INFO root fetch - main [MainThread]: End processing [data-quality-validation-pydeequ]: success
+[2024-05-07 10:35:50] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2024-05-07 10:35:50] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2024-05-07 10:35:50] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2024-05-07 10:35:50] INFO root fetch - processPackages [gennet-forked]: Remove: archive file [/home/abi/fetcher/tmp/gennet_forked-2.0.0.1.tar.gz]
+[2024-05-07 10:35:50] INFO root fetch - processPackages [gennet-forked]: Remove: archive file [/home/abi/fetcher/tmp/gennet_forked-2.0.0.2.tar.gz]
+[2024-05-07 10:35:50] INFO root fetch - main [MainThread]: End processing [gennet-forked]: success
+[2024-05-07 10:35:50] INFO root fetch - processPackages [test-nvf-builds]: Remove: archive file [/home/abi/fetcher/tmp/test_nvf_builds-0.0.3.2.tar.gz]
+[2024-05-07 10:35:50] INFO root fetch - processPackages [test-nvf-builds]: Remove: archive file [/home/abi/fetcher/tmp/test_nvf_builds-0.0.3.3.tar.gz]
+[2024-05-07 10:35:50] INFO root fetch - main [MainThread]: End processing [test-nvf-builds]: success
+[2024-05-07 10:35:51] INFO root fetch - processPackages [nonebot-plugin-gpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-gpt-0.0.8.tar.gz]
+[2024-05-07 10:35:51] INFO root fetch - processPackages [nonebot-plugin-gpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-gpt-0.0.9.tar.gz]
+[2024-05-07 10:35:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gpt]: success
+[2024-05-07 10:35:51] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-05-07 10:35:51] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-05-07 10:35:51] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-05-07 10:35:51] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-07 10:35:51] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-07 10:35:51] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-07 10:35:51] INFO root fetch - main [MainThread]: Store serial: [23092286]
