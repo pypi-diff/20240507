@@ -2791,3 +2791,87 @@
 [2024-05-07 02:03:55] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
 [2024-05-07 02:03:55] INFO root fetch - main [MainThread]: End processing [kayalab]: success
 [2024-05-07 02:03:55] INFO root fetch - main [MainThread]: Store serial: [23086317]
+[2024-05-07 02:05:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086317]
+[2024-05-07 02:06:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 02:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solidwrap
+[2024-05-07 02:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-cfdi
+[2024-05-07 02:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-nightly
+[2024-05-07 02:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cvprocessor
+[2024-05-07 02:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnxscript
+[2024-05-07 02:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxkern-nightly
+[2024-05-07 02:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dragonfly-energy
+[2024-05-07 02:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ob-metaflow-stubs
+[2024-05-07 02:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dragonfly-radiance
+[2024-05-07 02:06:03] INFO root fetch - processPackages [cvprocessor]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-05-07 02:06:03] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240506.443] Old Version: [2.0.0.20240505.435]
+[2024-05-07 02:06:03] INFO root fetch - processPackages [ob-metaflow-stubs]: New version: [3.1] Old Version: [2.11.9.1]
+[2024-05-07 02:06:03] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-05-07 02:06:03] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240506] Old Version: [0.1.0.dev20240505]
+[2024-05-07 02:06:03] INFO root fetch - processPackages [solidwrap]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-07 02:06:03] INFO root fetch - processPackages [django-cfdi]: New version: [2.99] Old Version: [2.98]
+[2024-05-07 02:06:03] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/98/a2/7648ca2c5daba236d146d15354b7bd32ec962b2cab36a9688b1859760d6b/cvprocessor-0.0.12.tar.gz
+[2024-05-07 02:06:03] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/d5/20/f3b306329e15ef86602df546b9f0c756ea230757231489bb84be23b52937/mct-nightly-2.0.0.20240505.435.tar.gz
+[2024-05-07 02:06:03] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-07 02:06:03] INFO root fetch - processPackages [ob-metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/5d/0e/ca20bb5889ed222ea58214a857d429c9fe201357f80e1858b76140ab30db/ob-metaflow-stubs-2.11.9.1.tar.gz
+[2024-05-07 02:06:03] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-05-07 02:06:03] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/15/cf/c9c091db765dfa0301733b97d1819762304d81d0074cc7e3fdf0851f4313/onnxscript-0.1.0.dev20240505.tar.gz
+[2024-05-07 02:06:03] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-07 02:06:03] INFO root fetch - processPackages [solidwrap]: Downloading https://files.pythonhosted.org/packages/06/97/0e829a4102a3faac3d9047ee758ab07da4b04c674f88b20baf099a1a0c30/solidwrap-2.1.1.tar.gz
+[2024-05-07 02:06:03] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/d8/7d/d99ae3e7add96c4909780286d44633880055d97463ac4470484411b34ba8/django_cfdi-2.98-py3-none-any.whl
+[2024-05-07 02:06:03] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-05-07 02:06:03] INFO root fetch - processPackages [ob-metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/77/bc/2017ebc31bd2574b42a5b95cb3ba0e5772a7011b966c8be1dd1c221e019f/ob-metaflow-stubs-3.1.tar.gz
+[2024-05-07 02:06:03] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/a0/9e/6f673fa7272a56c1d1e002ba2df7630dcc5a0281e969842f4688e76d372a/onnxscript-0.1.0.dev20240506.tar.gz
+[2024-05-07 02:06:03] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a2/41/805cddd3de27bfc114d3b54bbf0a558b1d450bb0bc346c8bbfc9f9e1ca04/dragonfly-radiance-0.3.8.tar.gz
+[2024-05-07 02:06:03] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-05-07 02:06:03] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240507/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-05-07 02:06:04] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/98/6c/5263c190e9b0f7d9b69f418be5b93fe33ec2293172fcdadea885582fd239/cvprocessor-0.0.13.tar.gz
+[2024-05-07 02:06:04] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2024-05-07 02:06:04] INFO root fetch - processPackages [ob-metaflow-stubs]: executing diffoscope
+[2024-05-07 02:06:04] INFO root fetch - processPackages [ob-metaflow-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-stubs-2.11.9.1.tar.gz tmp/ob-metaflow-stubs-3.1.tar.gz --markdown 20240507/o/ob-metaflow-stubs/2.11.9.1-3.1/README.md --exclude *.pyd
+[2024-05-07 02:06:04] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/d8/2e/3c8a2f7b22a4486a0b6ed8750f890a70f3ee1ebefa66a1f99bed7490c9e3/mct-nightly-2.0.0.20240506.443.tar.gz
+[2024-05-07 02:06:04] INFO root fetch - processPackages [solidwrap]: Downloading https://files.pythonhosted.org/packages/e0/fb/c1d215a4844572e7c28107a6ffe07f58b052a89bae4e324a7ec731a4709a/solidwrap-2.1.2.tar.gz
+[2024-05-07 02:06:04] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-07 02:06:04] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.12.tar.gz tmp/cvprocessor-0.0.13.tar.gz --markdown 20240507/c/cvprocessor/0.0.12-0.0.13/README.md --exclude *.pyd
+[2024-05-07 02:06:04] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-07 02:06:04] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240505.tar.gz tmp/onnxscript-0.1.0.dev20240506.tar.gz --markdown 20240507/o/onnxscript/0.1.0.dev20240505-0.1.0.dev20240506/README.md --exclude *.pyd
+[2024-05-07 02:06:04] INFO root fetch - processPackages [solidwrap]: executing diffoscope
+[2024-05-07 02:06:04] INFO root fetch - processPackages [solidwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solidwrap-2.1.1.tar.gz tmp/solidwrap-2.1.2.tar.gz --markdown 20240507/s/solidwrap/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-07 02:06:04] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-07 02:06:04] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240505.435.tar.gz tmp/mct-nightly-2.0.0.20240506.443.tar.gz --markdown 20240507/m/mct-nightly/2.0.0.20240505.435-2.0.0.20240506.443/README.md --exclude *.pyd
+[2024-05-07 02:06:04] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a9/93/8933c5c67b8d336f624b3e7f9cb128678c38867dac08b6bb30a824b7cb3d/dragonfly-radiance-0.3.9.tar.gz
+[2024-05-07 02:06:04] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/68/29/ce9ebc4855819720b4e8fb4fee0d3d7ed2dd66bd0e56db087e971e65b112/django_cfdi-2.99-py3-none-any.whl
+[2024-05-07 02:06:04] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2024-05-07 02:06:04] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2024-05-07 02:06:04] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.3.8.tar.gz tmp/dragonfly-radiance-0.3.9.tar.gz --markdown 20240507/d/dragonfly-radiance/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-07 02:06:04] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2024-05-07 02:06:04] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20240507/d/dragonfly-energy/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-07 02:06:04] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-05-07 02:06:04] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-05-07 02:06:04] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-05-07 02:06:04] INFO root fetch - processPackages [django-cfdi]: executing diffoscope
+[2024-05-07 02:06:04] INFO root fetch - processPackages [django-cfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cfdi-2.98-py3-none-any.whl.zip tmp/django_cfdi-2.99-py3-none-any.whl.zip --markdown 20240507/d/django-cfdi/2.98-2.99/README.md --exclude *.pyd
+[2024-05-07 02:06:04] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.12.tar.gz]
+[2024-05-07 02:06:04] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.13.tar.gz]
+[2024-05-07 02:06:04] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-07 02:06:05] INFO root fetch - processPackages [solidwrap]: Remove: archive file [/home/abi/fetcher/tmp/solidwrap-2.1.1.tar.gz]
+[2024-05-07 02:06:05] INFO root fetch - processPackages [solidwrap]: Remove: archive file [/home/abi/fetcher/tmp/solidwrap-2.1.2.tar.gz]
+[2024-05-07 02:06:05] INFO root fetch - main [MainThread]: End processing [solidwrap]: success
+[2024-05-07 02:06:05] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.8.tar.gz]
+[2024-05-07 02:06:05] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.9.tar.gz]
+[2024-05-07 02:06:05] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2024-05-07 02:06:05] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240505.tar.gz]
+[2024-05-07 02:06:05] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240506.tar.gz]
+[2024-05-07 02:06:05] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-07 02:06:05] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2024-05-07 02:06:05] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2024-05-07 02:06:05] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2024-05-07 02:06:05] INFO root fetch - processPackages [ob-metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-stubs-2.11.9.1.tar.gz]
+[2024-05-07 02:06:05] INFO root fetch - processPackages [ob-metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-stubs-3.1.tar.gz]
+[2024-05-07 02:06:05] INFO root fetch - main [MainThread]: End processing [ob-metaflow-stubs]: success
+[2024-05-07 02:06:06] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240505.435.tar.gz]
+[2024-05-07 02:06:06] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240506.443.tar.gz]
+[2024-05-07 02:06:06] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-07 02:06:07] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.98-py3-none-any.whl.zip]
+[2024-05-07 02:06:07] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.99-py3-none-any.whl.zip]
+[2024-05-07 02:06:07] INFO root fetch - main [MainThread]: End processing [django-cfdi]: success
+[2024-05-07 02:06:07] INFO root fetch - main [MainThread]: Store serial: [23086340]
