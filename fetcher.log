@@ -3578,3 +3578,27 @@ EOFError: EOF read where object expected
 [2024-05-07 02:34:47] INFO root fetch - processPackages [dbt-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/dbt_snowflake-1.8.0b4.tar.gz]
 [2024-05-07 02:34:47] INFO root fetch - main [MainThread]: End processing [dbt-snowflake]: success
 [2024-05-07 02:34:47] INFO root fetch - main [MainThread]: Store serial: [23086604]
+[2024-05-07 02:36:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086604]
+[2024-05-07 02:36:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 02:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lasertools-pulsepropagate
+[2024-05-07 02:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kelp-o-matic
+[2024-05-07 02:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biblelib
+[2024-05-07 02:36:56] WARNING root fetch - processPackages [lasertools-pulsepropagate]: Skipping, unable to determine old version
+[2024-05-07 02:36:56] INFO root fetch - main [MainThread]: End processing [lasertools-pulsepropagate] error
+[2024-05-07 02:36:56] INFO root fetch - processPackages [kelp-o-matic]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-07 02:36:56] INFO root fetch - processPackages [biblelib]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-07 02:36:56] INFO root fetch - processPackages [kelp-o-matic]: Downloading https://files.pythonhosted.org/packages/94/e8/bd57390f011997b810e6e4389ca4951952caf3085f3b7e138dcdf1fc58e9/kelp_o_matic-0.9.1.tar.gz
+[2024-05-07 02:36:56] INFO root fetch - processPackages [biblelib]: Downloading https://files.pythonhosted.org/packages/e7/7c/21c49ed2dc208eb3d25d215cc13b52eb56fe0372fd5a25f8a2d844769457/biblelib-0.3.4.tar.gz
+[2024-05-07 02:36:57] INFO root fetch - processPackages [kelp-o-matic]: Downloading https://files.pythonhosted.org/packages/1d/76/2f80bb1434ae6fe6767e3c9291ce0940a1690ad80bcc036f7d69f5f3edb5/kelp_o_matic-0.9.2.tar.gz
+[2024-05-07 02:36:57] INFO root fetch - processPackages [kelp-o-matic]: executing diffoscope
+[2024-05-07 02:36:57] INFO root fetch - processPackages [kelp-o-matic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kelp_o_matic-0.9.1.tar.gz tmp/kelp_o_matic-0.9.2.tar.gz --markdown 20240507/k/kelp-o-matic/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-07 02:36:57] INFO root fetch - processPackages [biblelib]: Downloading https://files.pythonhosted.org/packages/1a/ff/4370e69a37876a2e4e913df1018151834d79f988edc888f202c4578978c3/biblelib-0.3.5.tar.gz
+[2024-05-07 02:36:57] INFO root fetch - processPackages [biblelib]: executing diffoscope
+[2024-05-07 02:36:57] INFO root fetch - processPackages [biblelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biblelib-0.3.4.tar.gz tmp/biblelib-0.3.5.tar.gz --markdown 20240507/b/biblelib/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-07 02:36:57] INFO root fetch - processPackages [kelp-o-matic]: Remove: archive file [/home/abi/fetcher/tmp/kelp_o_matic-0.9.1.tar.gz]
+[2024-05-07 02:36:57] INFO root fetch - processPackages [kelp-o-matic]: Remove: archive file [/home/abi/fetcher/tmp/kelp_o_matic-0.9.2.tar.gz]
+[2024-05-07 02:36:57] INFO root fetch - main [MainThread]: End processing [kelp-o-matic]: success
+[2024-05-07 02:36:58] INFO root fetch - processPackages [biblelib]: Remove: archive file [/home/abi/fetcher/tmp/biblelib-0.3.4.tar.gz]
+[2024-05-07 02:36:58] INFO root fetch - processPackages [biblelib]: Remove: archive file [/home/abi/fetcher/tmp/biblelib-0.3.5.tar.gz]
+[2024-05-07 02:36:58] INFO root fetch - main [MainThread]: End processing [biblelib]: success
+[2024-05-07 02:36:58] INFO root fetch - main [MainThread]: Store serial: [23086615]
