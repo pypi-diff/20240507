@@ -3688,3 +3688,33 @@ EOFError: EOF read where object expected
 [2024-05-07 02:45:54] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405060044.tar.gz]
 [2024-05-07 02:45:54] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-07 02:45:54] INFO root fetch - main [MainThread]: Store serial: [23086647]
+[2024-05-07 02:47:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086647]
+[2024-05-07 02:48:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 02:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crfm-helm
+[2024-05-07 02:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2024-05-07 02:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tja2fumen
+[2024-05-07 02:48:03] INFO root fetch - processPackages [tja2fumen]: New version: [0.8.0.dev0] Old Version: [0.8.0]
+[2024-05-07 02:48:03] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-07 02:48:03] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/a0/8f/46cdb1585fd996265385f62adb4efda125b37bf96a4517ec875fb02a3474/tja2fumen-0.8.0.tar.gz
+[2024-05-07 02:48:03] INFO root fetch - processPackages [crfm-helm]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-07 02:48:03] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-07 02:48:03] INFO root fetch - processPackages [crfm-helm]: Downloading https://files.pythonhosted.org/packages/45/d4/292e2258f26309dcd93f66fadf1639cd7c96a3f918d2c1ea4310cda6e977/crfm_helm-0.5.0.tar.gz
+[2024-05-07 02:48:03] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/99/c7/c4e3e405528e0eb912ec768cdba5a613b4ab5f564ddf3fed96d77f624fe8/tja2fumen-0.8.0.dev0.tar.gz
+[2024-05-07 02:48:03] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-07 02:48:03] INFO root fetch - processPackages [tja2fumen]: executing diffoscope
+[2024-05-07 02:48:03] INFO root fetch - processPackages [tja2fumen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tja2fumen-0.8.0.tar.gz tmp/tja2fumen-0.8.0.dev0.tar.gz --markdown 20240507/t/tja2fumen/0.8.0-0.8.0.dev0/README.md --exclude *.pyd
+[2024-05-07 02:48:03] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-07 02:48:03] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240507/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-07 02:48:04] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.8.0.tar.gz]
+[2024-05-07 02:48:04] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.8.0.dev0.tar.gz]
+[2024-05-07 02:48:04] INFO root fetch - main [MainThread]: End processing [tja2fumen]: success
+[2024-05-07 02:48:04] INFO root fetch - processPackages [crfm-helm]: Downloading https://files.pythonhosted.org/packages/1e/31/86e88995949a6c46c00c99933492be5441efd4a0e0b4a4c37ae4533f97e8/crfm_helm-0.5.1.tar.gz
+[2024-05-07 02:48:04] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-07 02:48:04] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-07 02:48:04] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-07 02:48:04] INFO root fetch - processPackages [crfm-helm]: executing diffoscope
+[2024-05-07 02:48:04] INFO root fetch - processPackages [crfm-helm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crfm_helm-0.5.0.tar.gz tmp/crfm_helm-0.5.1.tar.gz --markdown 20240507/c/crfm-helm/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-07 02:48:08] INFO root fetch - processPackages [crfm-helm]: Remove: archive file [/home/abi/fetcher/tmp/crfm_helm-0.5.0.tar.gz]
+[2024-05-07 02:48:08] INFO root fetch - processPackages [crfm-helm]: Remove: archive file [/home/abi/fetcher/tmp/crfm_helm-0.5.1.tar.gz]
+[2024-05-07 02:48:08] INFO root fetch - main [MainThread]: End processing [crfm-helm]: success
+[2024-05-07 02:48:08] INFO root fetch - main [MainThread]: Store serial: [23086658]
