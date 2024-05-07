@@ -15670,3 +15670,45 @@ EOFError: EOF read where object expected
 [2024-05-07 09:57:41] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.94.2.tar.gz]
 [2024-05-07 09:57:41] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
 [2024-05-07 09:57:41] INFO root fetch - main [MainThread]: Store serial: [23091848]
+[2024-05-07 09:59:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091848]
+[2024-05-07 09:59:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 09:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymodaq-plugins-bnc
+[2024-05-07 09:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spinn
+[2024-05-07 09:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-nvf-builds
+[2024-05-07 09:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cj-package
+[2024-05-07 09:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pmonitor
+[2024-05-07 09:59:50] INFO root fetch - processPackages [pymodaq-plugins-bnc]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-07 09:59:50] INFO root fetch - processPackages [test-nvf-builds]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-07 09:59:50] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 09:59:50] INFO root fetch - processPackages [pmonitor]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-07 09:59:50] INFO root fetch - processPackages [pymodaq-plugins-bnc]: Downloading https://files.pythonhosted.org/packages/f4/92/46c2bf04b234e7679730df319c87d56b4d1dde63140c9a0aafae45b25e82/pymodaq_plugins_bnc-0.0.4.tar.gz
+[2024-05-07 09:59:50] WARNING root fetch - processPackages [spinn]: Skipping, unable to determine old version
+[2024-05-07 09:59:50] INFO root fetch - main [MainThread]: End processing [spinn] error
+[2024-05-07 09:59:50] INFO root fetch - processPackages [pmonitor]: Downloading https://files.pythonhosted.org/packages/97/f8/faf2fee78183a33be1bf5ad6c6a36e7b1a97574d576bbbc5ad769f1b9e39/pmonitor-1.1.0.tar.gz
+[2024-05-07 09:59:50] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-05-07 09:59:50] INFO root fetch - processPackages [test-nvf-builds]: Downloading https://files.pythonhosted.org/packages/69/bd/dd32045c1d473911a9d3829957f7997120656d689318701a27ad77c493c7/test_nvf_builds-0.0.2.tar.gz
+[2024-05-07 09:59:51] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-05-07 09:59:51] INFO root fetch - processPackages [pymodaq-plugins-bnc]: Downloading https://files.pythonhosted.org/packages/c5/84/f7fb4c564fdb9655d0f724662d89d38f890df70ea38e2f875a9913f67139/pymodaq_plugins_bnc-0.0.5.tar.gz
+[2024-05-07 09:59:51] INFO root fetch - processPackages [pmonitor]: Downloading https://files.pythonhosted.org/packages/5e/1d/7aacceeeb0d26b2002424a79842b48a08b4f803e994ae42043dffecc2afc/pmonitor-1.1.1.tar.gz
+[2024-05-07 09:59:51] INFO root fetch - processPackages [test-nvf-builds]: Downloading https://files.pythonhosted.org/packages/af/f0/1ab4a33982ac3c59c2630e0042c8ba61f03918ab3793678dee0ffd591847/test_nvf_builds-0.0.3.tar.gz
+[2024-05-07 09:59:51] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-05-07 09:59:51] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240507/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 09:59:51] INFO root fetch - processPackages [pymodaq-plugins-bnc]: executing diffoscope
+[2024-05-07 09:59:51] INFO root fetch - processPackages [pymodaq-plugins-bnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq_plugins_bnc-0.0.4.tar.gz tmp/pymodaq_plugins_bnc-0.0.5.tar.gz --markdown 20240507/p/pymodaq-plugins-bnc/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-07 09:59:51] INFO root fetch - processPackages [pmonitor]: executing diffoscope
+[2024-05-07 09:59:51] INFO root fetch - processPackages [pmonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmonitor-1.1.0.tar.gz tmp/pmonitor-1.1.1.tar.gz --markdown 20240507/p/pmonitor/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-07 09:59:51] INFO root fetch - processPackages [test-nvf-builds]: executing diffoscope
+[2024-05-07 09:59:51] INFO root fetch - processPackages [test-nvf-builds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_nvf_builds-0.0.2.tar.gz tmp/test_nvf_builds-0.0.3.tar.gz --markdown 20240507/t/test-nvf-builds/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-07 09:59:52] INFO root fetch - processPackages [pmonitor]: Remove: archive file [/home/abi/fetcher/tmp/pmonitor-1.1.0.tar.gz]
+[2024-05-07 09:59:52] INFO root fetch - processPackages [pmonitor]: Remove: archive file [/home/abi/fetcher/tmp/pmonitor-1.1.1.tar.gz]
+[2024-05-07 09:59:52] INFO root fetch - main [MainThread]: End processing [pmonitor]: success
+[2024-05-07 09:59:52] INFO root fetch - processPackages [pymodaq-plugins-bnc]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_bnc-0.0.4.tar.gz]
+[2024-05-07 09:59:52] INFO root fetch - processPackages [pymodaq-plugins-bnc]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq_plugins_bnc-0.0.5.tar.gz]
+[2024-05-07 09:59:52] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-bnc]: success
+[2024-05-07 09:59:52] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-05-07 09:59:52] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-05-07 09:59:52] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-05-07 09:59:52] INFO root fetch - processPackages [test-nvf-builds]: Remove: archive file [/home/abi/fetcher/tmp/test_nvf_builds-0.0.2.tar.gz]
+[2024-05-07 09:59:52] INFO root fetch - processPackages [test-nvf-builds]: Remove: archive file [/home/abi/fetcher/tmp/test_nvf_builds-0.0.3.tar.gz]
+[2024-05-07 09:59:52] INFO root fetch - main [MainThread]: End processing [test-nvf-builds]: success
+[2024-05-07 09:59:52] INFO root fetch - main [MainThread]: Store serial: [23091866]
