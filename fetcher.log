@@ -15712,3 +15712,55 @@ EOFError: EOF read where object expected
 [2024-05-07 09:59:52] INFO root fetch - processPackages [test-nvf-builds]: Remove: archive file [/home/abi/fetcher/tmp/test_nvf_builds-0.0.3.tar.gz]
 [2024-05-07 09:59:52] INFO root fetch - main [MainThread]: End processing [test-nvf-builds]: success
 [2024-05-07 09:59:52] INFO root fetch - main [MainThread]: Store serial: [23091866]
+[2024-05-07 10:01:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091866]
+[2024-05-07 10:02:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 10:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morphdb-utils
+[2024-05-07 10:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dyvenia-dbt-sqlserver
+[2024-05-07 10:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: breaklistz
+[2024-05-07 10:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-environment-config
+[2024-05-07 10:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pmonitor
+[2024-05-07 10:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: naneos-devices
+[2024-05-07 10:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pmonitor
+[2024-05-07 10:02:01] INFO root fetch - processPackages [morphdb-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 10:02:01] INFO root fetch - processPackages [django-environment-config]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-07 10:02:01] INFO root fetch - processPackages [pmonitor]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-07 10:02:01] INFO root fetch - processPackages [pmonitor]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-07 10:02:01] INFO root fetch - processPackages [pmonitor]: Downloading https://files.pythonhosted.org/packages/5e/1d/7aacceeeb0d26b2002424a79842b48a08b4f803e994ae42043dffecc2afc/pmonitor-1.1.1.tar.gz
+[2024-05-07 10:02:01] INFO root fetch - processPackages [django-environment-config]: Downloading https://files.pythonhosted.org/packages/99/8a/f36202c92b4763ffc14c156e8dba7dc51245f9d284c4ee3b1f240ae01675/django_environment_config-0.1.1.tar.gz
+[2024-05-07 10:02:01] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/c6949258d5647c0aa4d14e61014c6e3a7c9f08086b8ff176bee34576864d/morphdb_utils-0.1.8.tar.gz
+[2024-05-07 10:02:01] WARNING root fetch - processPackages [breaklistz]: Skipping, unable to determine old version
+[2024-05-07 10:02:01] INFO root fetch - main [MainThread]: End processing [breaklistz] error
+[2024-05-07 10:02:01] WARNING root fetch - processPackages [dyvenia-dbt-sqlserver]: Skipping, unable to determine old version
+[2024-05-07 10:02:01] INFO root fetch - main [MainThread]: End processing [dyvenia-dbt-sqlserver] error
+[2024-05-07 10:02:01] INFO root fetch - processPackages [naneos-devices]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 10:02:01] INFO root fetch - processPackages [pmonitor]: Downloading https://files.pythonhosted.org/packages/5e/1d/7aacceeeb0d26b2002424a79842b48a08b4f803e994ae42043dffecc2afc/pmonitor-1.1.1.tar.gz
+[2024-05-07 10:02:01] INFO root fetch - processPackages [naneos-devices]: Downloading https://files.pythonhosted.org/packages/08/35/e27ffaada065cf297981eb7367c0d87743327ddbe5f9a4a4a58adb0eec09/naneos_devices-1.0.8.tar.gz
+[2024-05-07 10:02:01] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/729494d22abe49b72c25e4b1efa215d54cab59388bae925f40777fce21f3/morphdb_utils-0.1.9.tar.gz
+[2024-05-07 10:02:01] INFO root fetch - processPackages [django-environment-config]: Downloading https://files.pythonhosted.org/packages/f2/69/0003d5d1c4c58a8a6a664739ad7945ccea48183649c8d0f81cc38a304ff7/django_environment_config-0.1.2.tar.gz
+[2024-05-07 10:02:01] INFO root fetch - processPackages [django-environment-config]: executing diffoscope
+[2024-05-07 10:02:01] INFO root fetch - processPackages [django-environment-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_environment_config-0.1.1.tar.gz tmp/django_environment_config-0.1.2.tar.gz --markdown 20240507/d/django-environment-config/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-07 10:02:01] INFO root fetch - processPackages [pmonitor]: Downloading https://files.pythonhosted.org/packages/6b/50/815687dee085a1dd8b66875bb105ef9e6d417c8b0ef022d817f002b7b422/pmonitor-1.1.2.tar.gz
+[2024-05-07 10:02:01] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-05-07 10:02:01] INFO root fetch - processPackages [pmonitor]: Downloading https://files.pythonhosted.org/packages/6b/50/815687dee085a1dd8b66875bb105ef9e6d417c8b0ef022d817f002b7b422/pmonitor-1.1.2.tar.gz
+[2024-05-07 10:02:01] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.1.8.tar.gz tmp/morphdb_utils-0.1.9.tar.gz --markdown 20240507/m/morphdb-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 10:02:01] INFO root fetch - processPackages [pmonitor]: executing diffoscope
+[2024-05-07 10:02:01] INFO root fetch - processPackages [pmonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmonitor-1.1.1.tar.gz tmp/pmonitor-1.1.2.tar.gz --markdown 20240507/p/pmonitor/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-07 10:02:01] INFO root fetch - processPackages [pmonitor]: executing diffoscope
+[2024-05-07 10:02:01] INFO root fetch - processPackages [pmonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmonitor-1.1.1.tar.gz tmp/pmonitor-1.1.2.tar.gz --markdown 20240507/p/pmonitor/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-07 10:02:02] INFO root fetch - processPackages [naneos-devices]: Downloading https://files.pythonhosted.org/packages/2e/11/a6e2ba14a2561fd9b9d966675ce7ce4104efe2145491b765d0c3b8ce139b/naneos_devices-1.0.9.tar.gz
+[2024-05-07 10:02:02] INFO root fetch - processPackages [naneos-devices]: executing diffoscope
+[2024-05-07 10:02:02] INFO root fetch - processPackages [naneos-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naneos_devices-1.0.8.tar.gz tmp/naneos_devices-1.0.9.tar.gz --markdown 20240507/n/naneos-devices/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 10:02:02] INFO root fetch - processPackages [django-environment-config]: Remove: archive file [/home/abi/fetcher/tmp/django_environment_config-0.1.1.tar.gz]
+[2024-05-07 10:02:02] INFO root fetch - processPackages [django-environment-config]: Remove: archive file [/home/abi/fetcher/tmp/django_environment_config-0.1.2.tar.gz]
+[2024-05-07 10:02:02] INFO root fetch - main [MainThread]: End processing [django-environment-config]: success
+[2024-05-07 10:02:02] INFO root fetch - processPackages [pmonitor]: Remove: archive file [/home/abi/fetcher/tmp/pmonitor-1.1.1.tar.gz]
+[2024-05-07 10:02:02] INFO root fetch - processPackages [pmonitor]: Remove: archive file [/home/abi/fetcher/tmp/pmonitor-1.1.2.tar.gz]
+[2024-05-07 10:02:02] INFO root fetch - main [MainThread]: End processing [pmonitor]: success
+[2024-05-07 10:02:02] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.8.tar.gz]
+[2024-05-07 10:02:02] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.9.tar.gz]
+[2024-05-07 10:02:02] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-05-07 10:02:02] INFO root fetch - main [MainThread]: End processing [pmonitor]: success
+[2024-05-07 10:02:03] INFO root fetch - processPackages [naneos-devices]: Remove: archive file [/home/abi/fetcher/tmp/naneos_devices-1.0.8.tar.gz]
+[2024-05-07 10:02:03] INFO root fetch - processPackages [naneos-devices]: Remove: archive file [/home/abi/fetcher/tmp/naneos_devices-1.0.9.tar.gz]
+[2024-05-07 10:02:03] INFO root fetch - main [MainThread]: End processing [naneos-devices]: success
+[2024-05-07 10:02:03] INFO root fetch - main [MainThread]: Store serial: [23091888]
