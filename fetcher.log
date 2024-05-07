@@ -15471,3 +15471,36 @@ EOFError: EOF read where object expected
 [2024-05-07 09:48:48] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-17.0.1.4.0-py3-none-any.whl.zip]
 [2024-05-07 09:48:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
 [2024-05-07 09:48:48] INFO root fetch - main [MainThread]: Store serial: [23091760]
+[2024-05-07 09:50:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091760]
+[2024-05-07 09:50:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 09:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rj2y
+[2024-05-07 09:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-data-services
+[2024-05-07 09:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: photosensitivez
+[2024-05-07 09:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: newrelic-lambda-cli
+[2024-05-07 09:50:57] INFO root fetch - processPackages [rj2y]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-07 09:50:57] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev8969866469] Old Version: [2.0.0.dev8964414125]
+[2024-05-07 09:50:57] WARNING root fetch - processPackages [photosensitivez]: Skipping, unable to determine old version
+[2024-05-07 09:50:57] INFO root fetch - main [MainThread]: End processing [photosensitivez] error
+[2024-05-07 09:50:57] INFO root fetch - processPackages [rj2y]: Downloading https://files.pythonhosted.org/packages/20/ea/68c4f942d9a64654a8263c753319ed74901a0512260c9132fd85294919b1/rj2y-0.1.2.tar.gz
+[2024-05-07 09:50:57] INFO root fetch - processPackages [newrelic-lambda-cli]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-07 09:50:57] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/83/68/b86f965cfce49930ed2b711f50d3fedbfcbac30f0cb01368d261f044fd7f/th2_data_services-2.0.0.dev8964414125.tar.gz
+[2024-05-07 09:50:57] INFO root fetch - processPackages [newrelic-lambda-cli]: Downloading https://files.pythonhosted.org/packages/91/99/799d31da64fbcdbc88ceed980573478f846954a39f9739095b06c50eb3f3/newrelic-lambda-cli-0.9.0.tar.gz
+[2024-05-07 09:50:57] INFO root fetch - processPackages [rj2y]: Downloading https://files.pythonhosted.org/packages/61/23/aff4fdfba47edb15d40503cc5a5d3cb0bfda7a932b0c28a1da0ae7176347/rj2y-0.1.3.tar.gz
+[2024-05-07 09:50:57] INFO root fetch - processPackages [rj2y]: executing diffoscope
+[2024-05-07 09:50:57] INFO root fetch - processPackages [rj2y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rj2y-0.1.2.tar.gz tmp/rj2y-0.1.3.tar.gz --markdown 20240507/r/rj2y/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-07 09:50:57] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/5f/8b/2a6d80a33286a5bdd7eb14dab90652b8daec92a4b5c216e8f70e1ac65002/th2_data_services-2.0.0.dev8969866469.tar.gz
+[2024-05-07 09:50:57] INFO root fetch - processPackages [newrelic-lambda-cli]: Downloading https://files.pythonhosted.org/packages/10/20/a53e8725f5ed72ed499cf7431f08326492ba5f24d3d51b2736e8b0a5658f/newrelic_lambda_cli-0.9.1.tar.gz
+[2024-05-07 09:50:57] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2024-05-07 09:50:57] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev8964414125.tar.gz tmp/th2_data_services-2.0.0.dev8969866469.tar.gz --markdown 20240507/t/th2-data-services/2.0.0.dev8964414125-2.0.0.dev8969866469/README.md --exclude *.pyd
+[2024-05-07 09:50:58] INFO root fetch - processPackages [newrelic-lambda-cli]: executing diffoscope
+[2024-05-07 09:50:58] INFO root fetch - processPackages [newrelic-lambda-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newrelic-lambda-cli-0.9.0.tar.gz tmp/newrelic_lambda_cli-0.9.1.tar.gz --markdown 20240507/n/newrelic-lambda-cli/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-07 09:50:58] INFO root fetch - processPackages [rj2y]: Remove: archive file [/home/abi/fetcher/tmp/rj2y-0.1.2.tar.gz]
+[2024-05-07 09:50:58] INFO root fetch - processPackages [rj2y]: Remove: archive file [/home/abi/fetcher/tmp/rj2y-0.1.3.tar.gz]
+[2024-05-07 09:50:58] INFO root fetch - main [MainThread]: End processing [rj2y]: success
+[2024-05-07 09:50:59] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8964414125.tar.gz]
+[2024-05-07 09:50:59] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8969866469.tar.gz]
+[2024-05-07 09:50:59] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2024-05-07 09:50:59] INFO root fetch - processPackages [newrelic-lambda-cli]: Remove: archive file [/home/abi/fetcher/tmp/newrelic-lambda-cli-0.9.0.tar.gz]
+[2024-05-07 09:50:59] INFO root fetch - processPackages [newrelic-lambda-cli]: Remove: archive file [/home/abi/fetcher/tmp/newrelic_lambda_cli-0.9.1.tar.gz]
+[2024-05-07 09:50:59] INFO root fetch - main [MainThread]: End processing [newrelic-lambda-cli]: success
+[2024-05-07 09:50:59] INFO root fetch - main [MainThread]: Store serial: [23091772]
