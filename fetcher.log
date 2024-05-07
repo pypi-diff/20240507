@@ -12679,3 +12679,90 @@ EOFError: EOF read where object expected
 [2024-05-07 08:12:04] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240506.tar.gz]
 [2024-05-07 08:12:04] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-05-07 08:12:04] INFO root fetch - main [MainThread]: Store serial: [23090476]
+[2024-05-07 08:14:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090476]
+[2024-05-07 08:14:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-07 08:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-05-07 08:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atsdk
+[2024-05-07 08:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-libvirt
+[2024-05-07 08:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-kong
+[2024-05-07 08:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: queue-app-provider
+[2024-05-07 08:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: miautawn-auto-validate-by-history
+[2024-05-07 08:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mikrotik-bt5
+[2024-05-07 08:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2024-05-07 08:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PREN-flawas
+[2024-05-07 08:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pkscreener
+[2024-05-07 08:14:13] INFO root fetch - processPackages [queue-app-provider]: New version: [0.2] Old Version: [0.1]
+[2024-05-07 08:14:13] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-07 08:14:13] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 08:14:13] INFO root fetch - processPackages [mikrotik-bt5]: New version: [1.0.0] Old Version: [0.0.2b4]
+[2024-05-07 08:14:13] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240507.351] Old Version: [0.44.20240506.350]
+[2024-05-07 08:14:13] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240506192318] Old Version: [3.4.1.dev20240506143203]
+[2024-05-07 08:14:13] WARNING root fetch - processPackages [miautawn-auto-validate-by-history]: Skipping, unable to determine old version
+[2024-05-07 08:14:13] INFO root fetch - main [MainThread]: End processing [miautawn-auto-validate-by-history] error
+[2024-05-07 08:14:13] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.5.0a1715060803] Old Version: [0.5.0a1714563945]
+[2024-05-07 08:14:13] INFO root fetch - processPackages [queue-app-provider]: Downloading https://files.pythonhosted.org/packages/b0/5d/8fbc83cd80ee7990a3bd2e9e9f07f75a7e082b7da6ce2dfb83dd2dc19af4/queue_app_provider-0.1.tar.gz
+[2024-05-07 08:14:13] INFO root fetch - processPackages [atsdk]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-07 08:14:13] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1715060800] Old Version: [4.6.0a1714563855]
+[2024-05-07 08:14:13] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-07 08:14:13] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-07 08:14:13] INFO root fetch - processPackages [mikrotik-bt5]: Downloading https://files.pythonhosted.org/packages/bd/c6/3f4fb5d34e8bec5eb711db502ac589f6129c0b84bd36eddb1461d7900306/mikrotik-bt5-0.0.2b4.tar.gz
+[2024-05-07 08:14:13] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/12/2e/5277f0dd8cda3713885d061d61481c2ab1b9201cc9c8b54c9c63b3aaf371/localstack_core-3.4.1.dev20240506143203.tar.gz
+[2024-05-07 08:14:13] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/96/39/ace21c2b890e6ec933b2481319fad79fb8ad1b0bb35cbbca7b01faff6058/pkscreener-0.44.20240506.350.tar.gz
+[2024-05-07 08:14:14] INFO root fetch - processPackages [atsdk]: Downloading https://files.pythonhosted.org/packages/3a/94/52e4043c02706c5469ddde7c41ba9bac0b2f5ed6f6a215011e17bea94539/atsdk-0.2.7.tar.gz
+[2024-05-07 08:14:14] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/28/63/8bb10e82583d249ec1e680f748db6ea9c76072b06abff5e7b639e2436ec9/pulumi_libvirt-0.5.0a1714563945.tar.gz
+[2024-05-07 08:14:14] INFO root fetch - processPackages [queue-app-provider]: Downloading https://files.pythonhosted.org/packages/97/bd/933c75974cb84fb611711512935ded254a971a8b7f6a56d7809c80d75596/queue_app_provider-0.2.tar.gz
+[2024-05-07 08:14:14] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/ff/8b/604a73dfc746a98aa259627a5c44567009bc04fee7b344f69d771c47dea9/pulumi_kong-4.6.0a1714563855.tar.gz
+[2024-05-07 08:14:14] INFO root fetch - processPackages [mikrotik-bt5]: Downloading https://files.pythonhosted.org/packages/bc/fb/38f394a43b1bf2460d1564c822eb6230524b07511eff14d0069bd579630b/mikrotik-bt5-1.0.0.tar.gz
+[2024-05-07 08:14:14] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-07 08:14:14] INFO root fetch - processPackages [queue-app-provider]: executing diffoscope
+[2024-05-07 08:14:14] INFO root fetch - processPackages [queue-app-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queue_app_provider-0.1.tar.gz tmp/queue_app_provider-0.2.tar.gz --markdown 20240507/q/queue-app-provider/0.1-0.2/README.md --exclude *.pyd
+[2024-05-07 08:14:14] INFO root fetch - processPackages [mikrotik-bt5]: executing diffoscope
+[2024-05-07 08:14:14] INFO root fetch - processPackages [mikrotik-bt5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikrotik-bt5-0.0.2b4.tar.gz tmp/mikrotik-bt5-1.0.0.tar.gz --markdown 20240507/m/mikrotik-bt5/0.0.2b4-1.0.0/README.md --exclude *.pyd
+[2024-05-07 08:14:14] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-07 08:14:14] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-07 08:14:14] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240507/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-07 08:14:14] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/59/d2/bd8ad7e6c4c774da49f8778f736967bec63dfac75fab6825cc9c459e7e59/pkscreener-0.44.20240507.351.tar.gz
+[2024-05-07 08:14:14] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/14/8e/50b23ced2aaabd4b5b62f02189af63571c9017109621841f8a8f5715d824/pulumi_libvirt-0.5.0a1715060803.tar.gz
+[2024-05-07 08:14:14] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/28/22/76749c81b1dc8b268a66fb3d4b9a73e7d7d0cd54657f707e393852e2ba23/pulumi_kong-4.6.0a1715060800.tar.gz
+[2024-05-07 08:14:14] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/7b/59/65c814d0d914b77d1bdd30542712f8c54de1ba3f0f36686e7f8d73095570/localstack_core-3.4.1.dev20240506192318.tar.gz
+[2024-05-07 08:14:14] INFO root fetch - processPackages [atsdk]: Downloading https://files.pythonhosted.org/packages/71/a3/c2134f04675a35de720047245d2cd68d236e1789325393f6163f0c772ed0/atsdk-0.2.8.tar.gz
+[2024-05-07 08:14:14] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-07 08:14:14] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240506.350.tar.gz tmp/pkscreener-0.44.20240507.351.tar.gz --markdown 20240507/p/pkscreener/0.44.20240506.350-0.44.20240507.351/README.md --exclude *.pyd
+[2024-05-07 08:14:14] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-05-07 08:14:14] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.5.0a1714563945.tar.gz tmp/pulumi_libvirt-0.5.0a1715060803.tar.gz --markdown 20240507/p/pulumi-libvirt/0.5.0a1714563945-0.5.0a1715060803/README.md --exclude *.pyd
+[2024-05-07 08:14:14] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-07 08:14:14] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240507/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 08:14:14] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2024-05-07 08:14:14] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1714563855.tar.gz tmp/pulumi_kong-4.6.0a1715060800.tar.gz --markdown 20240507/p/pulumi-kong/4.6.0a1714563855-4.6.0a1715060800/README.md --exclude *.pyd
+[2024-05-07 08:14:14] INFO root fetch - processPackages [atsdk]: executing diffoscope
+[2024-05-07 08:14:14] INFO root fetch - processPackages [atsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atsdk-0.2.7.tar.gz tmp/atsdk-0.2.8.tar.gz --markdown 20240507/a/atsdk/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-07 08:14:14] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-07 08:14:14] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240506143203.tar.gz tmp/localstack_core-3.4.1.dev20240506192318.tar.gz --markdown 20240507/l/localstack-core/3.4.1.dev20240506143203-3.4.1.dev20240506192318/README.md --exclude *.pyd
+[2024-05-07 08:14:15] INFO root fetch - processPackages [queue-app-provider]: Remove: archive file [/home/abi/fetcher/tmp/queue_app_provider-0.1.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - processPackages [queue-app-provider]: Remove: archive file [/home/abi/fetcher/tmp/queue_app_provider-0.2.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - main [MainThread]: End processing [queue-app-provider]: success
+[2024-05-07 08:14:15] INFO root fetch - processPackages [mikrotik-bt5]: Remove: archive file [/home/abi/fetcher/tmp/mikrotik-bt5-0.0.2b4.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - processPackages [mikrotik-bt5]: Remove: archive file [/home/abi/fetcher/tmp/mikrotik-bt5-1.0.0.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - main [MainThread]: End processing [mikrotik-bt5]: success
+[2024-05-07 08:14:15] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1714563855.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1715060800.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2024-05-07 08:14:15] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1714563945.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1715060803.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-05-07 08:14:15] INFO root fetch - processPackages [atsdk]: Remove: archive file [/home/abi/fetcher/tmp/atsdk-0.2.7.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - processPackages [atsdk]: Remove: archive file [/home/abi/fetcher/tmp/atsdk-0.2.8.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - main [MainThread]: End processing [atsdk]: success
+[2024-05-07 08:14:15] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240506.350.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240507.351.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-07 08:14:15] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-07 08:14:15] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-07 08:14:15] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-07 08:14:18] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240506143203.tar.gz]
+[2024-05-07 08:14:18] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240506192318.tar.gz]
+[2024-05-07 08:14:18] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-07 08:14:18] INFO root fetch - main [MainThread]: Store serial: [23090508]
