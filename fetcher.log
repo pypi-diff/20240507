@@ -8829,3 +8829,24 @@ EOFError: EOF read where object expected
 [2024-05-07 04:33:48] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.3.0.tar.gz]
 [2024-05-07 04:33:48] INFO root fetch - main [MainThread]: End processing [ytmusic-deleter]: success
 [2024-05-07 04:33:48] INFO root fetch - main [MainThread]: Store serial: [23088517]
+[2024-05-07 04:35:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088517]
+[2024-05-07 04:35:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 04:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solidwrap
+[2024-05-07 04:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opentelemetry_wrapper
+[2024-05-07 04:35:56] INFO root fetch - processPackages [solidwrap]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-07 04:35:56] INFO root fetch - processPackages [solidwrap]: Downloading https://files.pythonhosted.org/packages/06/97/0e829a4102a3faac3d9047ee758ab07da4b04c674f88b20baf099a1a0c30/solidwrap-2.1.1.tar.gz
+[2024-05-07 04:35:56] INFO root fetch - processPackages [opentelemetry_wrapper]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 04:35:57] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/67/47/b25363c3514656a1f2a3e2d8c2cfa5afcf6bfa4deb213d3d91e82021d38a/opentelemetry_wrapper-0.1.8.tar.gz
+[2024-05-07 04:35:57] INFO root fetch - processPackages [solidwrap]: Downloading https://files.pythonhosted.org/packages/e0/fb/c1d215a4844572e7c28107a6ffe07f58b052a89bae4e324a7ec731a4709a/solidwrap-2.1.2.tar.gz
+[2024-05-07 04:35:57] INFO root fetch - processPackages [solidwrap]: executing diffoscope
+[2024-05-07 04:35:57] INFO root fetch - processPackages [solidwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solidwrap-2.1.1.tar.gz tmp/solidwrap-2.1.2.tar.gz --markdown 20240507/s/solidwrap/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-07 04:35:57] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/44/2d/d79416f9137147e37a623eac99872df22539e5421c40885476bb41ae2d3f/opentelemetry_wrapper-0.1.9.tar.gz
+[2024-05-07 04:35:57] INFO root fetch - processPackages [opentelemetry_wrapper]: executing diffoscope
+[2024-05-07 04:35:57] INFO root fetch - processPackages [opentelemetry_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_wrapper-0.1.8.tar.gz tmp/opentelemetry_wrapper-0.1.9.tar.gz --markdown 20240507/o/opentelemetry_wrapper/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 04:35:57] INFO root fetch - processPackages [solidwrap]: Remove: archive file [/home/abi/fetcher/tmp/solidwrap-2.1.1.tar.gz]
+[2024-05-07 04:35:57] INFO root fetch - processPackages [solidwrap]: Remove: archive file [/home/abi/fetcher/tmp/solidwrap-2.1.2.tar.gz]
+[2024-05-07 04:35:57] INFO root fetch - main [MainThread]: End processing [solidwrap]: success
+[2024-05-07 04:35:58] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.1.8.tar.gz]
+[2024-05-07 04:35:58] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.1.9.tar.gz]
+[2024-05-07 04:35:58] INFO root fetch - main [MainThread]: End processing [opentelemetry_wrapper]: success
+[2024-05-07 04:35:58] INFO root fetch - main [MainThread]: Store serial: [23088524]
