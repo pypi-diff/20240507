@@ -16669,3 +16669,60 @@ EOFError: EOF read where object expected
 [2024-05-07 10:35:51] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
 [2024-05-07 10:35:51] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
 [2024-05-07 10:35:51] INFO root fetch - main [MainThread]: Store serial: [23092286]
+[2024-05-07 10:37:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092286]
+[2024-05-07 10:38:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 10:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PepperPepper
+[2024-05-07 10:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swiki
+[2024-05-07 10:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lumigo-opentelemetry
+[2024-05-07 10:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: riverwm-utils
+[2024-05-07 10:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ersilia
+[2024-05-07 10:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sparrowEncryptionDecryption
+[2024-05-07 10:38:00] INFO root fetch - processPackages [sparrowEncryptionDecryption]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-07 10:38:00] INFO root fetch - processPackages [swiki]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-07 10:38:00] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-07 10:38:00] INFO root fetch - processPackages [sparrowEncryptionDecryption]: Downloading https://files.pythonhosted.org/packages/d2/a2/934606bcf1862b5eaaee06fb9405225523b9f5b6bdc7f998a13dac73f3b1/sparrowEncryptionDecryption-0.1.tar.gz
+[2024-05-07 10:38:00] INFO root fetch - processPackages [ersilia]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 10:38:00] INFO root fetch - processPackages [swiki]: Downloading https://files.pythonhosted.org/packages/e7/0c/4ad6d9d8262c69930962df15e7b796e8ef39a50c3f72b6812b88f7c36b44/swiki-2.0.1.tar.gz
+[2024-05-07 10:38:00] INFO root fetch - processPackages [riverwm-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 10:38:00] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/a2/6a/fc1e17ed8249aa662d736747b383ab6c49c7144dc000f01a9057721c3218/pepperpepper-0.0.7.8.tar.gz
+[2024-05-07 10:38:00] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-07 10:38:00] INFO root fetch - processPackages [riverwm-utils]: Downloading https://files.pythonhosted.org/packages/ec/12/da06942dbe9fa062e9e5fafc8d17a98d97b1eb488b9eac282a3eb98a8f8a/riverwm-utils-0.0.8.tar.gz
+[2024-05-07 10:38:00] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/d6/f7/4d404aba2c81f5f17ef164935134d0a320abb3883cb0988b13817b6f5ef8/lumigo_opentelemetry-1.0.98-py3-none-any.whl
+[2024-05-07 10:38:00] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/bd/bd/74c69c2a57615281d2dab96af6ddca9210d7c0be7e2ab04c6f559e1aea99/pepperpepper-0.0.7.9.tar.gz
+[2024-05-07 10:38:00] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/df/17/bcc5e49ed055c8a30ec17207724be19de78561c458a32cc19a8a7dcfda5f/ersilia-0.1.8.tar.gz
+[2024-05-07 10:38:01] INFO root fetch - processPackages [sparrowEncryptionDecryption]: Downloading https://files.pythonhosted.org/packages/28/b8/3b7590ef640c3f2d7061b5119dabda650933dd935f9d2092f04db1514350/sparrowEncryptionDecryption-0.1.1.tar.gz
+[2024-05-07 10:38:01] INFO root fetch - processPackages [swiki]: Downloading https://files.pythonhosted.org/packages/ec/8a/c4fd91c875eaf2b5399ce48b187aebe7cefd235f77c780bffe3cb4d7786f/swiki-2.0.2.tar.gz
+[2024-05-07 10:38:01] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-07 10:38:01] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.8.tar.gz tmp/pepperpepper-0.0.7.9.tar.gz --markdown 20240507/P/PepperPepper/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-07 10:38:01] INFO root fetch - processPackages [sparrowEncryptionDecryption]: executing diffoscope
+[2024-05-07 10:38:01] INFO root fetch - processPackages [sparrowEncryptionDecryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrowEncryptionDecryption-0.1.tar.gz tmp/sparrowEncryptionDecryption-0.1.1.tar.gz --markdown 20240507/s/sparrowEncryptionDecryption/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-07 10:38:01] INFO root fetch - processPackages [swiki]: executing diffoscope
+[2024-05-07 10:38:01] INFO root fetch - processPackages [swiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiki-2.0.1.tar.gz tmp/swiki-2.0.2.tar.gz --markdown 20240507/s/swiki/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-07 10:38:01] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/62/a4/cac64bbe0c42b5677faf416663c0a260ea318fb22187375b03e022dd1879/lumigo_opentelemetry-1.0.99-py3-none-any.whl
+[2024-05-07 10:38:01] INFO root fetch - processPackages [riverwm-utils]: Downloading https://files.pythonhosted.org/packages/e1/f0/ba26cb282817715de223baa4964cadd9a04ffccdcd2670c57f7e250009de/riverwm-utils-0.0.9.tar.gz
+[2024-05-07 10:38:01] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2024-05-07 10:38:01] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.98-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.99-py3-none-any.whl.zip --markdown 20240507/l/lumigo-opentelemetry/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-07 10:38:01] INFO root fetch - processPackages [riverwm-utils]: executing diffoscope
+[2024-05-07 10:38:01] INFO root fetch - processPackages [riverwm-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riverwm-utils-0.0.8.tar.gz tmp/riverwm-utils-0.0.9.tar.gz --markdown 20240507/r/riverwm-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 10:38:02] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.8.tar.gz]
+[2024-05-07 10:38:02] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
+[2024-05-07 10:38:02] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-07 10:38:02] INFO root fetch - processPackages [swiki]: Remove: archive file [/home/abi/fetcher/tmp/swiki-2.0.1.tar.gz]
+[2024-05-07 10:38:02] INFO root fetch - processPackages [swiki]: Remove: archive file [/home/abi/fetcher/tmp/swiki-2.0.2.tar.gz]
+[2024-05-07 10:38:02] INFO root fetch - main [MainThread]: End processing [swiki]: success
+[2024-05-07 10:38:02] INFO root fetch - processPackages [sparrowEncryptionDecryption]: Remove: archive file [/home/abi/fetcher/tmp/sparrowEncryptionDecryption-0.1.tar.gz]
+[2024-05-07 10:38:02] INFO root fetch - processPackages [sparrowEncryptionDecryption]: Remove: archive file [/home/abi/fetcher/tmp/sparrowEncryptionDecryption-0.1.1.tar.gz]
+[2024-05-07 10:38:02] INFO root fetch - main [MainThread]: End processing [sparrowEncryptionDecryption]: success
+[2024-05-07 10:38:02] INFO root fetch - processPackages [riverwm-utils]: Remove: archive file [/home/abi/fetcher/tmp/riverwm-utils-0.0.8.tar.gz]
+[2024-05-07 10:38:02] INFO root fetch - processPackages [riverwm-utils]: Remove: archive file [/home/abi/fetcher/tmp/riverwm-utils-0.0.9.tar.gz]
+[2024-05-07 10:38:02] INFO root fetch - main [MainThread]: End processing [riverwm-utils]: success
+[2024-05-07 10:38:02] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.98-py3-none-any.whl.zip]
+[2024-05-07 10:38:02] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.99-py3-none-any.whl.zip]
+[2024-05-07 10:38:02] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2024-05-07 10:38:03] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/e5/c8/bbe25f319721547bf0de64521c3e4e208423692183d8713cbe692d35db62/ersilia-0.1.9.tar.gz
+[2024-05-07 10:38:05] INFO root fetch - processPackages [ersilia]: executing diffoscope
+[2024-05-07 10:38:05] INFO root fetch - processPackages [ersilia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersilia-0.1.8.tar.gz tmp/ersilia-0.1.9.tar.gz --markdown 20240507/e/ersilia/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 10:38:06] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.8.tar.gz]
+[2024-05-07 10:38:06] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.9.tar.gz]
+[2024-05-07 10:38:06] INFO root fetch - main [MainThread]: End processing [ersilia]: success
+[2024-05-07 10:38:06] INFO root fetch - main [MainThread]: Store serial: [23092302]
