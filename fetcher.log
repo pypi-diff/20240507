@@ -7803,3 +7803,47 @@ EOFError: EOF read where object expected
 [2024-05-07 03:28:06] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
 [2024-05-07 03:28:06] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
 [2024-05-07 03:28:06] INFO root fetch - main [MainThread]: Store serial: [23087887]
+[2024-05-07 03:30:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23087887]
+[2024-05-07 03:30:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 03:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbappinator
+[2024-05-07 03:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duwi-smart-sdk
+[2024-05-07 03:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: techgram
+[2024-05-07 03:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-together
+[2024-05-07 03:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-logs
+[2024-05-07 03:30:14] INFO root fetch - processPackages [nbappinator]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-05-07 03:30:14] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-07 03:30:14] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/21/d2/dd3b5c3cc25a8abc1ce29c300aab73e4f637d8f8375d79731224a5bdffcb/nbappinator-0.0.6.tar.gz
+[2024-05-07 03:30:14] INFO root fetch - processPackages [abstract-logs]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2024-05-07 03:30:14] INFO root fetch - processPackages [techgram]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-07 03:30:14] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/38/0e/e9d1338c9acded8b7d37950755486c3a7b274f080a250162518a02a20b9e/duwi_smart_sdk-0.0.2.tar.gz
+[2024-05-07 03:30:14] INFO root fetch - processPackages [langchain-together]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 03:30:14] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/46/2a/bdbad3da9546a731a479643b745cd8c260f68bef690505c558e479fd4cf3/nbappinator-0.1.0.tar.gz
+[2024-05-07 03:30:15] INFO root fetch - processPackages [abstract-logs]: Downloading https://files.pythonhosted.org/packages/9b/03/b948687b5385f2b09066f9bf21fe26cd95ccd12ab09406753fb58ed072f2/abstract_logs-0.0.0.2.tar.gz
+[2024-05-07 03:30:15] INFO root fetch - processPackages [langchain-together]: Downloading https://files.pythonhosted.org/packages/d7/34/3bd05b3b21c7841449432bfd2ecb38a05ecb8d335a947a8ca917890a754d/langchain_together-0.1.0.tar.gz
+[2024-05-07 03:30:15] INFO root fetch - processPackages [techgram]: Downloading https://files.pythonhosted.org/packages/d1/a2/4239db9ad7281a1c41b683fb1edee3d4c5dbcb673ab347b0de7761dec15f/techgram-1.0.7-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-07 03:30:15] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/f1/d3/8c9517b3bbc850a45fb2b34309dacb46adef0d454ba16de46447d15bdea8/duwi_smart_sdk-0.0.3.tar.gz
+[2024-05-07 03:30:15] INFO root fetch - processPackages [nbappinator]: executing diffoscope
+[2024-05-07 03:30:15] INFO root fetch - processPackages [nbappinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbappinator-0.0.6.tar.gz tmp/nbappinator-0.1.0.tar.gz --markdown 20240507/n/nbappinator/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-05-07 03:30:15] WARNING root fetch - processPackages [techgram]: Skipping package: exceeds size limit 11235602>=10485760
+[2024-05-07 03:30:15] INFO root fetch - main [MainThread]: End processing [techgram] error
+[2024-05-07 03:30:15] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-07 03:30:15] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.0.2.tar.gz tmp/duwi_smart_sdk-0.0.3.tar.gz --markdown 20240507/d/duwi-smart-sdk/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-07 03:30:15] INFO root fetch - processPackages [abstract-logs]: Downloading https://files.pythonhosted.org/packages/cd/50/075dc365f6ed34356ddc6fb375785174940eb12d4ddaab241130638af3c2/abstract_logs-0.0.0.3.tar.gz
+[2024-05-07 03:30:15] INFO root fetch - processPackages [langchain-together]: Downloading https://files.pythonhosted.org/packages/62/e8/8156337e275bea70302e48f9425e0626bffba2eedf6fa28f744c04f3ee5a/langchain_together-0.1.1.tar.gz
+[2024-05-07 03:30:15] INFO root fetch - processPackages [abstract-logs]: executing diffoscope
+[2024-05-07 03:30:15] INFO root fetch - processPackages [abstract-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_logs-0.0.0.2.tar.gz tmp/abstract_logs-0.0.0.3.tar.gz --markdown 20240507/a/abstract-logs/0.0.0.2-0.0.0.3/README.md --exclude *.pyd
+[2024-05-07 03:30:15] INFO root fetch - processPackages [langchain-together]: executing diffoscope
+[2024-05-07 03:30:15] INFO root fetch - processPackages [langchain-together]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_together-0.1.0.tar.gz tmp/langchain_together-0.1.1.tar.gz --markdown 20240507/l/langchain-together/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 03:30:15] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.0.6.tar.gz]
+[2024-05-07 03:30:15] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.1.0.tar.gz]
+[2024-05-07 03:30:15] INFO root fetch - main [MainThread]: End processing [nbappinator]: success
+[2024-05-07 03:30:15] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.0.2.tar.gz]
+[2024-05-07 03:30:15] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.0.3.tar.gz]
+[2024-05-07 03:30:15] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-07 03:30:15] INFO root fetch - processPackages [abstract-logs]: Remove: archive file [/home/abi/fetcher/tmp/abstract_logs-0.0.0.2.tar.gz]
+[2024-05-07 03:30:15] INFO root fetch - processPackages [abstract-logs]: Remove: archive file [/home/abi/fetcher/tmp/abstract_logs-0.0.0.3.tar.gz]
+[2024-05-07 03:30:15] INFO root fetch - main [MainThread]: End processing [abstract-logs]: success
+[2024-05-07 03:30:16] INFO root fetch - processPackages [langchain-together]: Remove: archive file [/home/abi/fetcher/tmp/langchain_together-0.1.0.tar.gz]
+[2024-05-07 03:30:16] INFO root fetch - processPackages [langchain-together]: Remove: archive file [/home/abi/fetcher/tmp/langchain_together-0.1.1.tar.gz]
+[2024-05-07 03:30:16] INFO root fetch - main [MainThread]: End processing [langchain-together]: success
+[2024-05-07 03:30:16] INFO root fetch - main [MainThread]: Store serial: [23087961]
