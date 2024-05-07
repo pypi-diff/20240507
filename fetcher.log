@@ -13265,3 +13265,69 @@ EOFError: EOF read where object expected
 [2024-05-07 08:35:08] INFO root fetch - processPackages [accelbyte-py-sdk-service-ams]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_ams-0.8.0.tar.gz]
 [2024-05-07 08:35:08] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-ams]: success
 [2024-05-07 08:35:08] INFO root fetch - main [MainThread]: Store serial: [23090725]
+[2024-05-07 08:37:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090725]
+[2024-05-07 08:37:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 08:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accelbyte-py-sdk-service-chat
+[2024-05-07 08:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: accelbyte-py-sdk-service-cloudsave
+[2024-05-07 08:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: accelbyte-py-sdk-service-dsartifact
+[2024-05-07 08:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-openstack
+[2024-05-07 08:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloud-governance
+[2024-05-07 08:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-pagerduty
+[2024-05-07 08:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: accelbyte-py-sdk-service-dslogmanager
+[2024-05-07 08:37:17] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-07 08:37:17] INFO root fetch - processPackages [accelbyte-py-sdk-service-dsartifact]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-07 08:37:17] INFO root fetch - processPackages [accelbyte-py-sdk-service-chat]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:37:17] INFO root fetch - processPackages [accelbyte-py-sdk-service-cloudsave]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:37:17] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-05-07 08:37:17] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2024-05-07 08:37:17] INFO root fetch - processPackages [accelbyte-py-sdk-service-dslogmanager]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-07 08:37:17] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-05-07 08:37:17] INFO root fetch - processPackages [accelbyte-py-sdk-service-dsartifact]: Downloading https://files.pythonhosted.org/packages/f0/13/bbd15ac346df6a9e572c2998a6eb67efa5be3953a811fc97484f9f0c4b88/accelbyte-py-sdk-service-dsartifact-0.4.0.tar.gz
+[2024-05-07 08:37:17] INFO root fetch - processPackages [accelbyte-py-sdk-service-chat]: Downloading https://files.pythonhosted.org/packages/b9/1a/ff2d848f4cb3f20fb3e79f178f97226812fd0b28ec9ec173a8691ac8a024/accelbyte-py-sdk-service-chat-0.8.0.tar.gz
+[2024-05-07 08:37:17] INFO root fetch - processPackages [accelbyte-py-sdk-service-cloudsave]: Downloading https://files.pythonhosted.org/packages/34/86/ad45a5d784f0034f299d1748cc4d056f4e5a3a7bb977cc3df522b93e3836/accelbyte-py-sdk-service-cloudsave-0.8.0.tar.gz
+[2024-05-07 08:37:18] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-05-07 08:37:18] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-05-07 08:37:18] INFO root fetch - processPackages [accelbyte-py-sdk-service-dslogmanager]: Downloading https://files.pythonhosted.org/packages/3f/6f/57013d3e5321a543a43784aebb0426018aaf5a18b87a775ffb8ca2eb9041/accelbyte-py-sdk-service-dslogmanager-0.3.0.tar.gz
+[2024-05-07 08:37:18] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/bb/93/e4acd0fd6ccecb8338145c7929b4f11bbbcda13bd5c5523254ce8f946bd2/pulumi_openstack-3.9.0a1654086724.tar.gz
+[2024-05-07 08:37:18] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-05-07 08:37:18] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240507/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-07 08:37:18] INFO root fetch - processPackages [accelbyte-py-sdk-service-dsartifact]: Downloading https://files.pythonhosted.org/packages/fe/b0/bd9d4c2e5e1b75049077d904c6147616aef5b2b40c72d32b090cd2b42821/accelbyte_py_sdk_service_dsartifact-0.5.0.tar.gz
+[2024-05-07 08:37:18] INFO root fetch - processPackages [accelbyte-py-sdk-service-chat]: Downloading https://files.pythonhosted.org/packages/cb/56/2d2ce0b89dbff2f330c0a0db1551ea2324deaf18f91e4191e21b05448774/accelbyte-py-sdk-service-chat-0.9.0.tar.gz
+[2024-05-07 08:37:18] INFO root fetch - processPackages [accelbyte-py-sdk-service-cloudsave]: Downloading https://files.pythonhosted.org/packages/d1/30/52f79024f82d49c7f5cfba4f52bb339c676f6c22650c3bc0d80872fde23c/accelbyte-py-sdk-service-cloudsave-0.9.0.tar.gz
+[2024-05-07 08:37:18] INFO root fetch - processPackages [accelbyte-py-sdk-service-chat]: executing diffoscope
+[2024-05-07 08:37:18] INFO root fetch - processPackages [accelbyte-py-sdk-service-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-chat-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-chat-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-chat/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:37:18] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-05-07 08:37:18] INFO root fetch - processPackages [accelbyte-py-sdk-service-dsartifact]: executing diffoscope
+[2024-05-07 08:37:18] INFO root fetch - processPackages [accelbyte-py-sdk-service-dsartifact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-dsartifact-0.4.0.tar.gz tmp/accelbyte_py_sdk_service_dsartifact-0.5.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-dsartifact/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-07 08:37:18] INFO root fetch - processPackages [accelbyte-py-sdk-service-cloudsave]: executing diffoscope
+[2024-05-07 08:37:18] INFO root fetch - processPackages [accelbyte-py-sdk-service-cloudsave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-cloudsave-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-cloudsave-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-cloudsave/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:37:18] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/cf/b9/1f6195a962138e9e532ea6da486cd8eab11855d8b0284a83af9bb290e254/pulumi_openstack-3.9.0a1659603007.tar.gz
+[2024-05-07 08:37:18] INFO root fetch - processPackages [accelbyte-py-sdk-service-dslogmanager]: Downloading https://files.pythonhosted.org/packages/a6/83/d1b82ddb4336b42817a6308aca17aca660d8bc238fabef9d700007026533/accelbyte_py_sdk_service_dslogmanager-0.4.0.tar.gz
+[2024-05-07 08:37:18] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-05-07 08:37:18] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240507/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-05-07 08:37:18] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2024-05-07 08:37:18] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20240507/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/README.md --exclude *.pyd
+[2024-05-07 08:37:19] INFO root fetch - processPackages [accelbyte-py-sdk-service-dslogmanager]: executing diffoscope
+[2024-05-07 08:37:19] INFO root fetch - processPackages [accelbyte-py-sdk-service-dslogmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-dslogmanager-0.3.0.tar.gz tmp/accelbyte_py_sdk_service_dslogmanager-0.4.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-dslogmanager/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-07 08:37:19] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-05-07 08:37:19] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-05-07 08:37:19] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-05-07 08:37:19] INFO root fetch - processPackages [accelbyte-py-sdk-service-dsartifact]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-dsartifact-0.4.0.tar.gz]
+[2024-05-07 08:37:19] INFO root fetch - processPackages [accelbyte-py-sdk-service-dsartifact]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_dsartifact-0.5.0.tar.gz]
+[2024-05-07 08:37:19] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-dsartifact]: success
+[2024-05-07 08:37:19] INFO root fetch - processPackages [accelbyte-py-sdk-service-chat]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-chat-0.8.0.tar.gz]
+[2024-05-07 08:37:19] INFO root fetch - processPackages [accelbyte-py-sdk-service-chat]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-chat-0.9.0.tar.gz]
+[2024-05-07 08:37:19] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-chat]: success
+[2024-05-07 08:37:19] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-05-07 08:37:19] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-05-07 08:37:19] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-05-07 08:37:20] INFO root fetch - processPackages [accelbyte-py-sdk-service-dslogmanager]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-dslogmanager-0.3.0.tar.gz]
+[2024-05-07 08:37:20] INFO root fetch - processPackages [accelbyte-py-sdk-service-dslogmanager]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_dslogmanager-0.4.0.tar.gz]
+[2024-05-07 08:37:20] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-dslogmanager]: success
+[2024-05-07 08:37:20] INFO root fetch - processPackages [accelbyte-py-sdk-service-cloudsave]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-cloudsave-0.8.0.tar.gz]
+[2024-05-07 08:37:20] INFO root fetch - processPackages [accelbyte-py-sdk-service-cloudsave]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-cloudsave-0.9.0.tar.gz]
+[2024-05-07 08:37:20] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-cloudsave]: success
+[2024-05-07 08:37:21] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1654086724.tar.gz]
+[2024-05-07 08:37:21] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
+[2024-05-07 08:37:21] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2024-05-07 08:37:21] INFO root fetch - main [MainThread]: Store serial: [23090743]
