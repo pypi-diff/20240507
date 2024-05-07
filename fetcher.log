@@ -18817,3 +18817,75 @@ EOFError: EOF read where object expected
 [2024-05-07 11:51:21] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-05-07 11:51:21] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-05-07 11:51:21] INFO root fetch - main [MainThread]: Store serial: [23093259]
+[2024-05-07 11:53:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093259]
+[2024-05-07 11:53:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 11:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ATH
+[2024-05-07 11:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prediction-market-agent-tooling
+[2024-05-07 11:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: viur-cli
+[2024-05-07 11:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autotrain-advanced
+[2024-05-07 11:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ilds
+[2024-05-07 11:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-node-binding
+[2024-05-07 11:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: varvamp
+[2024-05-07 11:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phenomApis
+[2024-05-07 11:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: picklepie-base
+[2024-05-07 11:53:30] WARNING root fetch - processPackages [ATH]: Skipping, unable to determine old version
+[2024-05-07 11:53:30] INFO root fetch - main [MainThread]: End processing [ATH] error
+[2024-05-07 11:53:30] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1259] Old Version: [3.0.3.post1257]
+[2024-05-07 11:53:30] INFO root fetch - processPackages [prediction-market-agent-tooling]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-05-07 11:53:30] INFO root fetch - processPackages [viur-cli]: New version: [2.0.1.dev1] Old Version: [2.0.0rc6]
+[2024-05-07 11:53:30] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-07 11:53:30] INFO root fetch - processPackages [varvamp]: New version: [1.2.0] Old Version: [1.1.3]
+[2024-05-07 11:53:30] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 11:53:30] INFO root fetch - processPackages [ilds]: New version: [2024.5.7] Old Version: [2024.5.6]
+[2024-05-07 11:53:30] WARNING root fetch - processPackages [picklepie-base]: Skipping, unable to determine old version
+[2024-05-07 11:53:30] INFO root fetch - main [MainThread]: End processing [picklepie-base] error
+[2024-05-07 11:53:30] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/40/cc/d5bea290bbf870b8c32f51179b33743c8bd2603c836bdadb915d8182e2dd/prediction_market_agent_tooling-0.9.1.tar.gz
+[2024-05-07 11:53:30] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/dc/70/0020f3336a3abbc1236094cd7e27aa72cb01f427d1d4875867160f802751/viur_cli-2.0.0rc6.tar.gz
+[2024-05-07 11:53:30] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/32/6e/f4af7615f7409d7fe4215a2afdf721de5c345e505dc4addfc57cc8f37bb3/nucliadb_node_binding-3.0.3.post1257.tar.gz
+[2024-05-07 11:53:30] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/f7/32/d4134f2d2283aafd5d82db1b47031a6025f7f458bf7dc07ef8389a35fab9/autotrain-advanced-0.7.8.tar.gz
+[2024-05-07 11:53:30] INFO root fetch - processPackages [varvamp]: Downloading https://files.pythonhosted.org/packages/9e/37/8818d05b3fb578ac6b590beddac638479a01d04c69bd62c5af646c44ead2/varvamp-1.1.3.tar.gz
+[2024-05-07 11:53:30] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-07 11:53:31] INFO root fetch - processPackages [ilds]: Downloading https://files.pythonhosted.org/packages/49/0f/25659f22b1d5d6f5851aaca57b8ec8400bf56cfa9794de10e416fd0bd753/ilds-2024.5.6.tar.gz
+[2024-05-07 11:53:31] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/cb/6d/c1c6030e744d901e75da5667f92863c415a674cb5b660788ff3ffaf77741/viur_cli-2.0.1.dev1.tar.gz
+[2024-05-07 11:53:31] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/2c/17/6b9526b52dfcdaf571b3cd941b0a0b14db378f0c8b89a1c361109cb73c26/prediction_market_agent_tooling-0.9.3.tar.gz
+[2024-05-07 11:53:31] INFO root fetch - processPackages [viur-cli]: executing diffoscope
+[2024-05-07 11:53:31] INFO root fetch - processPackages [viur-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_cli-2.0.0rc6.tar.gz tmp/viur_cli-2.0.1.dev1.tar.gz --markdown 20240507/v/viur-cli/2.0.0rc6-2.0.1.dev1/README.md --exclude *.pyd
+[2024-05-07 11:53:31] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/1f/74/2305dbe2acdb865b1f77f9d39a9211c302e8334713e0dd72a470ce297a83/nucliadb_node_binding-3.0.3.post1259.tar.gz
+[2024-05-07 11:53:31] INFO root fetch - processPackages [prediction-market-agent-tooling]: executing diffoscope
+[2024-05-07 11:53:31] INFO root fetch - processPackages [prediction-market-agent-tooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prediction_market_agent_tooling-0.9.1.tar.gz tmp/prediction_market_agent_tooling-0.9.3.tar.gz --markdown 20240507/p/prediction-market-agent-tooling/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-05-07 11:53:31] INFO root fetch - processPackages [varvamp]: Downloading https://files.pythonhosted.org/packages/f9/fe/69914596d6c21885d56ee11ea17c33f82608f0ab3dc9adff0b88903433b5/varvamp-1.2.0.tar.gz
+[2024-05-07 11:53:31] INFO root fetch - processPackages [ilds]: Downloading https://files.pythonhosted.org/packages/c7/c6/dd6f0a5dada3ebc9781e925bfff947fe72d102461e39054bc5aaf120d318/ilds-2024.5.7.tar.gz
+[2024-05-07 11:53:31] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-05-07 11:53:31] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-07 11:53:31] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-07 11:53:31] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.3.post1257.tar.gz tmp/nucliadb_node_binding-3.0.3.post1259.tar.gz --markdown 20240507/n/nucliadb-node-binding/3.0.3.post1257-3.0.3.post1259/README.md --exclude *.pyd
+[2024-05-07 11:53:31] INFO root fetch - processPackages [varvamp]: executing diffoscope
+[2024-05-07 11:53:31] INFO root fetch - processPackages [varvamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varvamp-1.1.3.tar.gz tmp/varvamp-1.2.0.tar.gz --markdown 20240507/v/varvamp/1.1.3-1.2.0/README.md --exclude *.pyd
+[2024-05-07 11:53:31] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-07 11:53:31] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240507/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 11:53:31] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-05-07 11:53:31] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.8.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240507/a/autotrain-advanced/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-07 11:53:31] INFO root fetch - processPackages [ilds]: executing diffoscope
+[2024-05-07 11:53:31] INFO root fetch - processPackages [ilds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilds-2024.5.6.tar.gz tmp/ilds-2024.5.7.tar.gz --markdown 20240507/i/ilds/2024.5.6-2024.5.7/README.md --exclude *.pyd
+[2024-05-07 11:53:32] INFO root fetch - processPackages [viur-cli]: Remove: archive file [/home/abi/fetcher/tmp/viur_cli-2.0.0rc6.tar.gz]
+[2024-05-07 11:53:32] INFO root fetch - processPackages [viur-cli]: Remove: archive file [/home/abi/fetcher/tmp/viur_cli-2.0.1.dev1.tar.gz]
+[2024-05-07 11:53:32] INFO root fetch - main [MainThread]: End processing [viur-cli]: success
+[2024-05-07 11:53:32] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.1.tar.gz]
+[2024-05-07 11:53:32] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.3.tar.gz]
+[2024-05-07 11:53:32] INFO root fetch - main [MainThread]: End processing [prediction-market-agent-tooling]: success
+[2024-05-07 11:53:32] INFO root fetch - processPackages [varvamp]: Remove: archive file [/home/abi/fetcher/tmp/varvamp-1.1.3.tar.gz]
+[2024-05-07 11:53:32] INFO root fetch - processPackages [varvamp]: Remove: archive file [/home/abi/fetcher/tmp/varvamp-1.2.0.tar.gz]
+[2024-05-07 11:53:32] INFO root fetch - main [MainThread]: End processing [varvamp]: success
+[2024-05-07 11:53:32] INFO root fetch - processPackages [ilds]: Remove: archive file [/home/abi/fetcher/tmp/ilds-2024.5.6.tar.gz]
+[2024-05-07 11:53:32] INFO root fetch - processPackages [ilds]: Remove: archive file [/home/abi/fetcher/tmp/ilds-2024.5.7.tar.gz]
+[2024-05-07 11:53:32] INFO root fetch - main [MainThread]: End processing [ilds]: success
+[2024-05-07 11:53:32] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.8.tar.gz]
+[2024-05-07 11:53:32] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-05-07 11:53:32] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-05-07 11:53:32] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-07 11:53:32] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-07 11:53:32] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-07 11:53:33] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1257.tar.gz]
+[2024-05-07 11:53:33] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1259.tar.gz]
+[2024-05-07 11:53:33] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-07 11:53:33] INFO root fetch - main [MainThread]: Store serial: [23093291]
