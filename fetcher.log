@@ -14996,3 +14996,39 @@ EOFError: EOF read where object expected
 [2024-05-07 09:26:50] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.5.tar.gz]
 [2024-05-07 09:26:50] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
 [2024-05-07 09:26:50] INFO root fetch - main [MainThread]: Store serial: [23091481]
+[2024-05-07 09:28:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091481]
+[2024-05-07 09:28:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 09:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duwi-smart-sdk
+[2024-05-07 09:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: epyseg
+[2024-05-07 09:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiZero
+[2024-05-07 09:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: doku-python-library
+[2024-05-07 09:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HA-cfg-cleaner-DiosWolf
+[2024-05-07 09:28:59] WARNING root fetch - processPackages [doku-python-library]: Skipping, unable to determine old version
+[2024-05-07 09:28:59] INFO root fetch - main [MainThread]: End processing [doku-python-library] error
+[2024-05-07 09:28:59] WARNING root fetch - processPackages [aiZero]: Skipping, unable to determine old version
+[2024-05-07 09:28:59] INFO root fetch - main [MainThread]: End processing [aiZero] error
+[2024-05-07 09:28:59] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-07 09:28:59] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: New version: [0.0.39] Old Version: [0.0.38]
+[2024-05-07 09:28:59] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/10/77/0bb2b47c358269e6ac055e43bdb7ae8dafdfef3c579c72cb192bccd48e18/duwi_smart_sdk-0.1.1.tar.gz
+[2024-05-07 09:28:59] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: Downloading https://files.pythonhosted.org/packages/59/53/907cec1039241c6b7f0db08dcf4c8e6f2cffe8fb4a4b6788e4a262e5a4a7/HA_cfg_cleaner_DiosWolf-0.0.38.tar.gz
+[2024-05-07 09:28:59] INFO root fetch - processPackages [epyseg]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 09:28:59] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: Downloading https://files.pythonhosted.org/packages/40/4a/72eb360b19961f511a800e56b28abb82151ca283829a2c654e3d6669cc2c/ha_cfg_cleaner_dioswolf-0.0.39.tar.gz
+[2024-05-07 09:28:59] INFO root fetch - processPackages [epyseg]: Downloading https://files.pythonhosted.org/packages/89/c9/fa83811d10a4e149ee721bd00986d7a9e6c080675361fe734474a2fbbd3e/epyseg-0.1.8.tar.gz
+[2024-05-07 09:28:59] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/0e/b2/7b6e0b27a65f41cc222ff53cb15c17a332f4ab7e2e7f4785ae174be6f55d/duwi_smart_sdk-0.1.2.tar.gz
+[2024-05-07 09:29:00] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: executing diffoscope
+[2024-05-07 09:29:00] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HA_cfg_cleaner_DiosWolf-0.0.38.tar.gz tmp/ha_cfg_cleaner_dioswolf-0.0.39.tar.gz --markdown 20240507/H/HA-cfg-cleaner-DiosWolf/0.0.38-0.0.39/README.md --exclude *.pyd
+[2024-05-07 09:29:00] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-07 09:29:00] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.1.1.tar.gz tmp/duwi_smart_sdk-0.1.2.tar.gz --markdown 20240507/d/duwi-smart-sdk/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-07 09:29:00] INFO root fetch - processPackages [epyseg]: Downloading https://files.pythonhosted.org/packages/f2/7c/52b2d1d1dfaf672e6ba35bdfad0e3cfd6abbf34e65a172dc7c4adfafe3ab/epyseg-0.1.9.tar.gz
+[2024-05-07 09:29:00] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: Remove: archive file [/home/abi/fetcher/tmp/HA_cfg_cleaner_DiosWolf-0.0.38.tar.gz]
+[2024-05-07 09:29:00] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: Remove: archive file [/home/abi/fetcher/tmp/ha_cfg_cleaner_dioswolf-0.0.39.tar.gz]
+[2024-05-07 09:29:00] INFO root fetch - main [MainThread]: End processing [HA-cfg-cleaner-DiosWolf]: success
+[2024-05-07 09:29:00] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.1.tar.gz]
+[2024-05-07 09:29:00] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.2.tar.gz]
+[2024-05-07 09:29:00] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-07 09:29:00] INFO root fetch - processPackages [epyseg]: executing diffoscope
+[2024-05-07 09:29:00] INFO root fetch - processPackages [epyseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyseg-0.1.8.tar.gz tmp/epyseg-0.1.9.tar.gz --markdown 20240507/e/epyseg/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 09:29:01] INFO root fetch - processPackages [epyseg]: Remove: archive file [/home/abi/fetcher/tmp/epyseg-0.1.8.tar.gz]
+[2024-05-07 09:29:01] INFO root fetch - processPackages [epyseg]: Remove: archive file [/home/abi/fetcher/tmp/epyseg-0.1.9.tar.gz]
+[2024-05-07 09:29:01] INFO root fetch - main [MainThread]: End processing [epyseg]: success
+[2024-05-07 09:29:01] INFO root fetch - main [MainThread]: Store serial: [23091497]
