@@ -12586,3 +12586,96 @@ EOFError: EOF read where object expected
 [2024-05-07 08:09:52] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz]
 [2024-05-07 08:09:52] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
 [2024-05-07 08:09:52] INFO root fetch - main [MainThread]: Store serial: [23090439]
+[2024-05-07 08:11:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090439]
+[2024-05-07 08:12:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-07 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyg-nightly
+[2024-05-07 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: n0struct
+[2024-05-07 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-purchase-workflow
+[2024-05-07 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erp-apis
+[2024-05-07 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bpgtask
+[2024-05-07 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-queue-job
+[2024-05-07 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uiautodev
+[2024-05-07 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spotify2youtubemusic
+[2024-05-07 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: devine
+[2024-05-07 08:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qualang-tools
+[2024-05-07 08:12:01] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240506] Old Version: [2.6.0.dev20240505]
+[2024-05-07 08:12:01] INFO root fetch - processPackages [erp-apis]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-07 08:12:01] INFO root fetch - processPackages [bpgtask]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-07 08:12:01] INFO root fetch - processPackages [devine]: New version: [3.3.3] Old Version: [3.3.2]
+[2024-05-07 08:12:01] INFO root fetch - processPackages [qualang-tools]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:12:01] WARNING root fetch - processPackages [spotify2youtubemusic]: Skipping, unable to determine old version
+[2024-05-07 08:12:01] INFO root fetch - processPackages [spotify2youtubemusic]: Start processing: prewarnedz
+[2024-05-07 08:12:01] INFO root fetch - main [MainThread]: End processing [spotify2youtubemusic] error
+[2024-05-07 08:12:01] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20240506.0] Old Version: [16.0.20240423.0]
+[2024-05-07 08:12:01] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/a7/b7/f0f8c92fc80f1bbd246062918b9bb4ef1b35afe073d209391c5e70e2aaea/pyg_nightly-2.6.0.dev20240505.tar.gz
+[2024-05-07 08:12:01] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/66/60/b580005fae8fa8cae5d1ffa987aedc6c8ac7ff0e89f47ec2eb6eab1f0c80/erp_apis-1.0.5-py3-none-any.whl
+[2024-05-07 08:12:01] INFO root fetch - processPackages [bpgtask]: Downloading https://files.pythonhosted.org/packages/ad/42/278d39719204364ea0025a4c80674a675116f2992dbb5fb2a4ffc0e25a32/bpgtask-0.1.2.tar.gz
+[2024-05-07 08:12:01] INFO root fetch - processPackages [odoo14-addon-queue-job]: New version: [14.0.3.5.5.dev7] Old Version: [14.0.3.5.5.dev6]
+[2024-05-07 08:12:01] INFO root fetch - processPackages [n0struct]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-05-07 08:12:01] WARNING root fetch - processPackages [uiautodev]: Skipping, unable to determine old version
+[2024-05-07 08:12:01] INFO root fetch - processPackages [uiautodev]: Start processing: pulumi-mysql
+[2024-05-07 08:12:01] INFO root fetch - main [MainThread]: End processing [uiautodev] error
+[2024-05-07 08:12:01] WARNING root fetch - processPackages [prewarnedz]: Skipping, unable to determine old version
+[2024-05-07 08:12:01] INFO root fetch - main [MainThread]: End processing [prewarnedz] error
+[2024-05-07 08:12:01] INFO root fetch - processPackages [devine]: Downloading https://files.pythonhosted.org/packages/db/10/b54edfaf0693677b850725ed2dca5aa18a824d8fd2fdc7a4fc5ea8cf837e/devine-3.3.2.tar.gz
+[2024-05-07 08:12:01] INFO root fetch - processPackages [qualang-tools]: Downloading https://files.pythonhosted.org/packages/ef/85/8d494d0e2ea0ffc591fc6c1be844fbc93c4c91aed7f51e1334ddfde69386/qualang-tools-0.8.0.tar.gz
+[2024-05-07 08:12:01] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/79/0c/2a29adda5a01dc18d84456fc46a43393abdfc98735a0dc02a1d983925e81/odoo_addons_oca_purchase_workflow-16.0.20240423.0-py3-none-any.whl
+[2024-05-07 08:12:01] INFO root fetch - processPackages [n0struct]: Downloading https://files.pythonhosted.org/packages/3a/1d/81eb18aeb0c82af0370b69b157b03aba0efdeefebf6715db99ff775641db/n0struct-0.2.98.tar.gz
+[2024-05-07 08:12:01] INFO root fetch - processPackages [odoo14-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/e2/8d/901970aedc425bb9b9206f7df653831438fc6cf1108407dc69b7f1afb7c5/odoo14_addon_queue_job-14.0.3.5.5.dev6-py3-none-any.whl
+[2024-05-07 08:12:01] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.3.0a1715060865] Old Version: [3.3.0a1714564278]
+[2024-05-07 08:12:01] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/49/9f/319c3ac39008dec24bbd0d7d89dfda0a8b00d02a0d89dd69f4128092481b/pyg_nightly-2.6.0.dev20240506.tar.gz
+[2024-05-07 08:12:01] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/a3/6d/496c98479dec4cc7789df6d8bf48aa8fd1d6ee5338d12ff5410d93d491e5/erp_apis-1.0.6-py3-none-any.whl
+[2024-05-07 08:12:01] INFO root fetch - processPackages [bpgtask]: Downloading https://files.pythonhosted.org/packages/b7/38/18df3ae2870704e30b7707700a080843f6ad22eeb001567c8de0422aba16/bpgtask-0.1.3.tar.gz
+[2024-05-07 08:12:01] INFO root fetch - processPackages [erp-apis]: executing diffoscope
+[2024-05-07 08:12:01] INFO root fetch - processPackages [erp-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erp_apis-1.0.5-py3-none-any.whl.zip tmp/erp_apis-1.0.6-py3-none-any.whl.zip --markdown 20240507/e/erp-apis/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-07 08:12:01] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/24/97/9b643aa524dcb4bcd1981cde46b2d2156207ea7e680efecd738df10a1a53/pulumi_mysql-3.3.0a1714564278.tar.gz
+[2024-05-07 08:12:01] INFO root fetch - processPackages [bpgtask]: executing diffoscope
+[2024-05-07 08:12:01] INFO root fetch - processPackages [bpgtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpgtask-0.1.2.tar.gz tmp/bpgtask-0.1.3.tar.gz --markdown 20240507/b/bpgtask/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-07 08:12:01] INFO root fetch - processPackages [devine]: Downloading https://files.pythonhosted.org/packages/81/fa/1ff8e24d7f79bfe9c131e0e4e874cf68895574a4f347ec65dda446fdf57d/devine-3.3.3.tar.gz
+[2024-05-07 08:12:01] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-07 08:12:01] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240505.tar.gz tmp/pyg_nightly-2.6.0.dev20240506.tar.gz --markdown 20240507/p/pyg-nightly/2.6.0.dev20240505-2.6.0.dev20240506/README.md --exclude *.pyd
+[2024-05-07 08:12:01] INFO root fetch - processPackages [odoo14-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/13/06/ccb1789f936720fb9abfbfc3866a2dc24555d9156be3db84537b85c5be19/odoo14_addon_queue_job-14.0.3.5.5.dev7-py3-none-any.whl
+[2024-05-07 08:12:01] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/c3/b0/b9ceed2dcaefd0ab7fdf2115b9a07fdb84feb80ddd47cd8823c3de1eccd4/odoo_addons_oca_purchase_workflow-16.0.20240506.0-py3-none-any.whl
+[2024-05-07 08:12:01] INFO root fetch - processPackages [qualang-tools]: Downloading https://files.pythonhosted.org/packages/24/78/6133ba41e03538685cdd1e8771bc5a06d0e30e481118850873d5a16f45eb/qualang-tools-0.9.0.tar.gz
+[2024-05-07 08:12:01] INFO root fetch - processPackages [n0struct]: Downloading https://files.pythonhosted.org/packages/93/08/d578b3c0abbb7bdf83eed0207432602a511a80eaded61c24f720c5bad99e/n0struct-0.2.99.tar.gz
+[2024-05-07 08:12:01] INFO root fetch - processPackages [devine]: executing diffoscope
+[2024-05-07 08:12:01] INFO root fetch - processPackages [devine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devine-3.3.2.tar.gz tmp/devine-3.3.3.tar.gz --markdown 20240507/d/devine/3.3.2-3.3.3/README.md --exclude *.pyd
+[2024-05-07 08:12:02] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2024-05-07 08:12:02] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20240423.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20240506.0-py3-none-any.whl.zip --markdown 20240507/o/odoo-addons-oca-purchase-workflow/16.0.20240423.0-16.0.20240506.0/README.md --exclude *.pyd
+[2024-05-07 08:12:02] INFO root fetch - processPackages [odoo14-addon-queue-job]: executing diffoscope
+[2024-05-07 08:12:02] INFO root fetch - processPackages [odoo14-addon-queue-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_queue_job-14.0.3.5.5.dev6-py3-none-any.whl.zip tmp/odoo14_addon_queue_job-14.0.3.5.5.dev7-py3-none-any.whl.zip --markdown 20240507/o/odoo14-addon-queue-job/14.0.3.5.5.dev6-14.0.3.5.5.dev7/README.md --exclude *.pyd
+[2024-05-07 08:12:02] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/78/63/6460cffedb58bd9910bbeb8de5f3b6edbb35936794f56e8c015e1e0e5958/pulumi_mysql-3.3.0a1715060865.tar.gz
+[2024-05-07 08:12:02] INFO root fetch - processPackages [n0struct]: executing diffoscope
+[2024-05-07 08:12:02] INFO root fetch - processPackages [n0struct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/n0struct-0.2.98.tar.gz tmp/n0struct-0.2.99.tar.gz --markdown 20240507/n/n0struct/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-05-07 08:12:02] INFO root fetch - processPackages [qualang-tools]: executing diffoscope
+[2024-05-07 08:12:02] INFO root fetch - processPackages [qualang-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualang-tools-0.8.0.tar.gz tmp/qualang-tools-0.9.0.tar.gz --markdown 20240507/q/qualang-tools/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:12:02] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2024-05-07 08:12:02] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.3.0a1714564278.tar.gz tmp/pulumi_mysql-3.3.0a1715060865.tar.gz --markdown 20240507/p/pulumi-mysql/3.3.0a1714564278-3.3.0a1715060865/README.md --exclude *.pyd
+[2024-05-07 08:12:02] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.5-py3-none-any.whl.zip]
+[2024-05-07 08:12:02] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.6-py3-none-any.whl.zip]
+[2024-05-07 08:12:02] INFO root fetch - main [MainThread]: End processing [erp-apis]: success
+[2024-05-07 08:12:02] INFO root fetch - processPackages [bpgtask]: Remove: archive file [/home/abi/fetcher/tmp/bpgtask-0.1.2.tar.gz]
+[2024-05-07 08:12:02] INFO root fetch - processPackages [bpgtask]: Remove: archive file [/home/abi/fetcher/tmp/bpgtask-0.1.3.tar.gz]
+[2024-05-07 08:12:02] INFO root fetch - main [MainThread]: End processing [bpgtask]: success
+[2024-05-07 08:12:02] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_workflow-16.0.20240423.0-py3-none-any.whl.zip]
+[2024-05-07 08:12:02] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_workflow-16.0.20240506.0-py3-none-any.whl.zip]
+[2024-05-07 08:12:02] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2024-05-07 08:12:03] INFO root fetch - processPackages [odoo14-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_queue_job-14.0.3.5.5.dev6-py3-none-any.whl.zip]
+[2024-05-07 08:12:03] INFO root fetch - processPackages [odoo14-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_queue_job-14.0.3.5.5.dev7-py3-none-any.whl.zip]
+[2024-05-07 08:12:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-queue-job]: success
+[2024-05-07 08:12:03] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1714564278.tar.gz]
+[2024-05-07 08:12:03] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1715060865.tar.gz]
+[2024-05-07 08:12:03] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2024-05-07 08:12:03] INFO root fetch - processPackages [n0struct]: Remove: archive file [/home/abi/fetcher/tmp/n0struct-0.2.98.tar.gz]
+[2024-05-07 08:12:03] INFO root fetch - processPackages [n0struct]: Remove: archive file [/home/abi/fetcher/tmp/n0struct-0.2.99.tar.gz]
+[2024-05-07 08:12:03] INFO root fetch - main [MainThread]: End processing [n0struct]: success
+[2024-05-07 08:12:03] INFO root fetch - processPackages [devine]: Remove: archive file [/home/abi/fetcher/tmp/devine-3.3.2.tar.gz]
+[2024-05-07 08:12:03] INFO root fetch - processPackages [devine]: Remove: archive file [/home/abi/fetcher/tmp/devine-3.3.3.tar.gz]
+[2024-05-07 08:12:03] INFO root fetch - main [MainThread]: End processing [devine]: success
+[2024-05-07 08:12:03] INFO root fetch - processPackages [qualang-tools]: Remove: archive file [/home/abi/fetcher/tmp/qualang-tools-0.8.0.tar.gz]
+[2024-05-07 08:12:03] INFO root fetch - processPackages [qualang-tools]: Remove: archive file [/home/abi/fetcher/tmp/qualang-tools-0.9.0.tar.gz]
+[2024-05-07 08:12:03] INFO root fetch - main [MainThread]: End processing [qualang-tools]: success
+[2024-05-07 08:12:04] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240505.tar.gz]
+[2024-05-07 08:12:04] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240506.tar.gz]
+[2024-05-07 08:12:04] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-07 08:12:04] INFO root fetch - main [MainThread]: Store serial: [23090476]
