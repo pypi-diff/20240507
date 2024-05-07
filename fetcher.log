@@ -8718,3 +8718,39 @@ EOFError: EOF read where object expected
 [2024-05-07 04:25:07] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.5.0.dev3.tar.gz]
 [2024-05-07 04:25:07] INFO root fetch - main [MainThread]: End processing [mountaineer]: success
 [2024-05-07 04:25:07] INFO root fetch - main [MainThread]: Store serial: [23088458]
+[2024-05-07 04:27:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088458]
+[2024-05-07 04:27:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 04:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-docker
+[2024-05-07 04:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shopee-llm-admin
+[2024-05-07 04:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ufile
+[2024-05-07 04:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: niwatoko
+[2024-05-07 04:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swarmauri
+[2024-05-07 04:27:15] WARNING root fetch - processPackages [niwatoko]: Skipping, unable to determine old version
+[2024-05-07 04:27:15] INFO root fetch - main [MainThread]: End processing [niwatoko] error
+[2024-05-07 04:27:15] INFO root fetch - processPackages [types-docker]: New version: [7.0.0.20240506] Old Version: [7.0.0.20240503]
+[2024-05-07 04:27:16] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-07 04:27:16] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/a0/7b/31317b76f4c4057698bb7267a13729cd168dbf3e5bbad6bd9e4ab3abed8c/types-docker-7.0.0.20240503.tar.gz
+[2024-05-07 04:27:16] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-07 04:27:16] INFO root fetch - processPackages [ufile]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-07 04:27:16] WARNING root fetch - processPackages [shopee-llm-admin]: Skipping, unable to determine old version
+[2024-05-07 04:27:16] INFO root fetch - main [MainThread]: End processing [shopee-llm-admin] error
+[2024-05-07 04:27:16] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/b8/1d/280cfe9e49271443e30a2792c62cabe03fb32d608e56e5eef5c673ccab3d/types-docker-7.0.0.20240506.tar.gz
+[2024-05-07 04:27:16] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-07 04:27:16] INFO root fetch - processPackages [ufile]: Downloading https://files.pythonhosted.org/packages/d5/b2/d45bb99f8e1e08c7f34c2b240278f7e7abc737cfdd9b2f9a463061bade60/ufile-3.2.8.tar.gz
+[2024-05-07 04:27:16] INFO root fetch - processPackages [types-docker]: executing diffoscope
+[2024-05-07 04:27:16] INFO root fetch - processPackages [types-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-docker-7.0.0.20240503.tar.gz tmp/types-docker-7.0.0.20240506.tar.gz --markdown 20240507/t/types-docker/7.0.0.20240503-7.0.0.20240506/README.md --exclude *.pyd
+[2024-05-07 04:27:16] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-07 04:27:16] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240507/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-07 04:27:16] INFO root fetch - processPackages [ufile]: Downloading https://files.pythonhosted.org/packages/b9/4a/a23fc27fc2412007d5392ecbf363fc8a2f97aeb7000ae24528a165513e24/ufile-3.2.9.tar.gz
+[2024-05-07 04:27:16] INFO root fetch - processPackages [ufile]: executing diffoscope
+[2024-05-07 04:27:16] INFO root fetch - processPackages [ufile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufile-3.2.8.tar.gz tmp/ufile-3.2.9.tar.gz --markdown 20240507/u/ufile/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-07 04:27:16] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240503.tar.gz]
+[2024-05-07 04:27:16] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240506.tar.gz]
+[2024-05-07 04:27:16] INFO root fetch - main [MainThread]: End processing [types-docker]: success
+[2024-05-07 04:27:17] INFO root fetch - processPackages [ufile]: Remove: archive file [/home/abi/fetcher/tmp/ufile-3.2.8.tar.gz]
+[2024-05-07 04:27:17] INFO root fetch - processPackages [ufile]: Remove: archive file [/home/abi/fetcher/tmp/ufile-3.2.9.tar.gz]
+[2024-05-07 04:27:17] INFO root fetch - main [MainThread]: End processing [ufile]: success
+[2024-05-07 04:27:17] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-07 04:27:17] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-07 04:27:17] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-07 04:27:17] INFO root fetch - main [MainThread]: Store serial: [23088477]
