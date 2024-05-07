@@ -2737,3 +2737,57 @@
 [2024-05-07 02:01:40] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
 [2024-05-07 02:01:40] INFO root fetch - main [MainThread]: End processing [lamindb]: success
 [2024-05-07 02:01:40] INFO root fetch - main [MainThread]: Store serial: [23086294]
+[2024-05-07 02:03:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086294]
+[2024-05-07 02:03:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kayalab
+[2024-05-07 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genie-partner-sdk
+[2024-05-07 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecopipeline
+[2024-05-07 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ob-metaflow-extensions
+[2024-05-07 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lasertools-traceretrieve
+[2024-05-07 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: predibase-api
+[2024-05-07 02:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: predibase
+[2024-05-07 02:03:49] INFO root fetch - processPackages [ob-metaflow-extensions]: New version: [1.1.9rc1] Old Version: [1.1.9rc0]
+[2024-05-07 02:03:49] INFO root fetch - processPackages [predibase-api]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-05-07 02:03:49] WARNING root fetch - processPackages [lasertools-traceretrieve]: Skipping, unable to determine old version
+[2024-05-07 02:03:49] INFO root fetch - main [MainThread]: End processing [lasertools-traceretrieve] error
+[2024-05-07 02:03:49] INFO root fetch - processPackages [predibase]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-05-07 02:03:49] INFO root fetch - processPackages [ob-metaflow-extensions]: Downloading https://files.pythonhosted.org/packages/f6/24/4fdd704647ebdded38ac1efc2b8dba106c9ab672518ddbb9b1dd783862e9/ob-metaflow-extensions-1.1.9rc0.tar.gz
+[2024-05-07 02:03:49] WARNING root fetch - processPackages [genie-partner-sdk]: Skipping, unable to determine old version
+[2024-05-07 02:03:49] INFO root fetch - main [MainThread]: End processing [genie-partner-sdk] error
+[2024-05-07 02:03:49] INFO root fetch - processPackages [kayalab]: New version: [0.7.9] Old Version: [0.7.7]
+[2024-05-07 02:03:49] INFO root fetch - processPackages [ecopipeline]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-07 02:03:49] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/12/73/1e8ca9686d6fdbd41b63304d8a69affc8a09b91134e599f0ab3a73fdfc20/predibase-api-2024.4.7.tar.gz
+[2024-05-07 02:03:49] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/aa/c9/397c7ccd97273320d2617aab083c03247a5a554b344cabb4fd5ca9fd873d/predibase-2024.4.7.tar.gz
+[2024-05-07 02:03:49] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/f7/3f/506605bf2d8c3c5e75b2003d292d334e29280e87883d5e46322cbb59f81f/ecopipeline-0.2.8.tar.gz
+[2024-05-07 02:03:49] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/68/63/0a29e7525b1f3462acb2531260d984867651bdccb876b75329d58bfa520d/kayalab-0.7.7.tar.gz
+[2024-05-07 02:03:49] INFO root fetch - processPackages [ob-metaflow-extensions]: Downloading https://files.pythonhosted.org/packages/13/fa/f6774ac8df2d55f441049045a0ed08e5ff1eef840d3cc15235e8a9411f42/ob-metaflow-extensions-1.1.9rc1.tar.gz
+[2024-05-07 02:03:49] INFO root fetch - processPackages [ob-metaflow-extensions]: executing diffoscope
+[2024-05-07 02:03:49] INFO root fetch - processPackages [ob-metaflow-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-extensions-1.1.9rc0.tar.gz tmp/ob-metaflow-extensions-1.1.9rc1.tar.gz --markdown 20240507/o/ob-metaflow-extensions/1.1.9rc0-1.1.9rc1/README.md --exclude *.pyd
+[2024-05-07 02:03:49] INFO root fetch - processPackages [predibase-api]: Downloading https://files.pythonhosted.org/packages/50/0a/2bbc4d934413ba88af00e4955f22d28e77237cdb9ae1ed22a04d9c1075a2/predibase-api-2024.4.8.tar.gz
+[2024-05-07 02:03:49] INFO root fetch - processPackages [predibase]: Downloading https://files.pythonhosted.org/packages/57/81/d2f1533a2c021c901fa45981d33807f0cda149030b94ba7b2a72fa3428af/predibase-2024.4.8.tar.gz
+[2024-05-07 02:03:49] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/ec/19/08549131c0969471cfcfabfae13b56f5b6c3af0ba094806fc6aaf25ed5d3/ecopipeline-0.2.9.tar.gz
+[2024-05-07 02:03:49] INFO root fetch - processPackages [predibase-api]: executing diffoscope
+[2024-05-07 02:03:49] INFO root fetch - processPackages [predibase-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-api-2024.4.7.tar.gz tmp/predibase-api-2024.4.8.tar.gz --markdown 20240507/p/predibase-api/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-05-07 02:03:49] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2024-05-07 02:03:49] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.2.8.tar.gz tmp/ecopipeline-0.2.9.tar.gz --markdown 20240507/e/ecopipeline/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-07 02:03:49] INFO root fetch - processPackages [predibase]: executing diffoscope
+[2024-05-07 02:03:49] INFO root fetch - processPackages [predibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predibase-2024.4.7.tar.gz tmp/predibase-2024.4.8.tar.gz --markdown 20240507/p/predibase/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-05-07 02:03:50] INFO root fetch - processPackages [ob-metaflow-extensions]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-extensions-1.1.9rc0.tar.gz]
+[2024-05-07 02:03:50] INFO root fetch - processPackages [ob-metaflow-extensions]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-extensions-1.1.9rc1.tar.gz]
+[2024-05-07 02:03:50] INFO root fetch - main [MainThread]: End processing [ob-metaflow-extensions]: success
+[2024-05-07 02:03:50] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2024.4.7.tar.gz]
+[2024-05-07 02:03:50] INFO root fetch - processPackages [predibase-api]: Remove: archive file [/home/abi/fetcher/tmp/predibase-api-2024.4.8.tar.gz]
+[2024-05-07 02:03:50] INFO root fetch - main [MainThread]: End processing [predibase-api]: success
+[2024-05-07 02:03:50] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.2.8.tar.gz]
+[2024-05-07 02:03:50] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.2.9.tar.gz]
+[2024-05-07 02:03:50] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2024-05-07 02:03:50] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2024.4.7.tar.gz]
+[2024-05-07 02:03:50] INFO root fetch - processPackages [predibase]: Remove: archive file [/home/abi/fetcher/tmp/predibase-2024.4.8.tar.gz]
+[2024-05-07 02:03:50] INFO root fetch - main [MainThread]: End processing [predibase]: success
+[2024-05-07 02:03:51] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/48/39/39e758163c554700194cf72c42f0290287f1336d791be5766d519f7b266c/kayalab-0.7.9.tar.gz
+[2024-05-07 02:03:51] INFO root fetch - processPackages [kayalab]: executing diffoscope
+[2024-05-07 02:03:51] INFO root fetch - processPackages [kayalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayalab-0.7.7.tar.gz tmp/kayalab-0.7.9.tar.gz --markdown 20240507/k/kayalab/0.7.7-0.7.9/README.md --exclude *.pyd
+[2024-05-07 02:03:55] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.7.tar.gz]
+[2024-05-07 02:03:55] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
+[2024-05-07 02:03:55] INFO root fetch - main [MainThread]: End processing [kayalab]: success
+[2024-05-07 02:03:55] INFO root fetch - main [MainThread]: Store serial: [23086317]
