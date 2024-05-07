@@ -3247,3 +3247,69 @@ EOFError: EOF read where object expected
 [2024-05-07 02:17:06] INFO root fetch - processPackages [psygnal]: Remove: archive file [/home/abi/fetcher/tmp/psygnal-0.9.5.tar.gz]
 [2024-05-07 02:17:06] INFO root fetch - main [MainThread]: End processing [psygnal]: success
 [2024-05-07 02:17:06] INFO root fetch - main [MainThread]: Store serial: [23086452]
+[2024-05-07 02:19:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086452]
+[2024-05-07 02:19:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 02:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psygnal
+[2024-05-07 02:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flyteidl
+[2024-05-07 02:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.appsync-utils
+[2024-05-07 02:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-gitlab-runner
+[2024-05-07 02:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyiron-workflow
+[2024-05-07 02:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: model-checker
+[2024-05-07 02:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-budibase
+[2024-05-07 02:19:15] INFO root fetch - processPackages [psygnal]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-07 02:19:15] INFO root fetch - processPackages [model-checker]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-07 02:19:15] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-07 02:19:15] INFO root fetch - processPackages [pyiron-workflow]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-07 02:19:15] INFO root fetch - processPackages [flyteidl]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-07 02:19:15] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-07 02:19:15] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/af/30/4ed3932e6601fb2157b1867c447d2527ce33319207b9569a92999c51897d/model_checker-0.2.8.tar.gz
+[2024-05-07 02:19:15] INFO root fetch - processPackages [psygnal]: Downloading https://files.pythonhosted.org/packages/83/36/e86937d4c60107c5e5a0e01369965b5455d37eaf3efad854be7411d2e58b/psygnal-0.9.4.tar.gz
+[2024-05-07 02:19:15] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-07 02:19:15] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-07 02:19:15] INFO root fetch - processPackages [psygnal]: Downloading https://files.pythonhosted.org/packages/09/f9/6113b6f7277ddf7e05bf282f8defc60c48b7deb6978b55f374edbc253491/psygnal-0.9.5.tar.gz
+[2024-05-07 02:19:15] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-05-07 02:19:15] INFO root fetch - processPackages [flyteidl]: Downloading https://files.pythonhosted.org/packages/30/75/40650c36dbb4ef8cc1004e8f2165f0e1e0bb2845ddfa4bf608056d4f5e43/flyteidl-1.5.8.tar.gz
+[2024-05-07 02:19:15] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-05-07 02:19:15] INFO root fetch - processPackages [model-checker]: Downloading https://files.pythonhosted.org/packages/b0/5d/2fd0841d97c92fe2c2e0aad9e80136575bc38e7eef167fe4380eda54a596/model_checker-0.2.9.tar.gz
+[2024-05-07 02:19:15] INFO root fetch - processPackages [pyiron-workflow]: Downloading https://files.pythonhosted.org/packages/98/49/2449b4552a4412bd84a1b9dda9667e2cf3b2f0a5ec4e6faf079ac98cd25e/pyiron_workflow-0.6.0.tar.gz
+[2024-05-07 02:19:16] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-07 02:19:16] INFO root fetch - processPackages [psygnal]: executing diffoscope
+[2024-05-07 02:19:16] INFO root fetch - processPackages [psygnal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psygnal-0.9.4.tar.gz tmp/psygnal-0.9.5.tar.gz --markdown 20240507/p/psygnal/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-07 02:19:16] INFO root fetch - processPackages [model-checker]: executing diffoscope
+[2024-05-07 02:19:16] INFO root fetch - processPackages [model-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_checker-0.2.8.tar.gz tmp/model_checker-0.2.9.tar.gz --markdown 20240507/m/model-checker/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-07 02:19:16] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-07 02:19:16] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240507/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-07 02:19:16] INFO root fetch - processPackages [pyiron-workflow]: Downloading https://files.pythonhosted.org/packages/3d/73/58faca344779e7b7588b17e4b155da4c1cb09b4932e5119206bd09799d2c/pyiron_workflow-0.7.0.tar.gz
+[2024-05-07 02:19:16] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-05-07 02:19:16] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-05-07 02:19:16] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-05-07 02:19:16] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240507/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-07 02:19:16] INFO root fetch - processPackages [pyiron-workflow]: executing diffoscope
+[2024-05-07 02:19:16] INFO root fetch - processPackages [pyiron-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_workflow-0.6.0.tar.gz tmp/pyiron_workflow-0.7.0.tar.gz --markdown 20240507/p/pyiron-workflow/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-07 02:19:16] INFO root fetch - processPackages [flyteidl]: Downloading https://files.pythonhosted.org/packages/19/01/bd5a3ada5dbd449e8c95df9c3101ff352c4cc765c8f1f41fe9e3d5c1eed1/flyteidl-1.5.9.tar.gz
+[2024-05-07 02:19:16] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-05-07 02:19:16] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240507/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-07 02:19:16] INFO root fetch - processPackages [flyteidl]: executing diffoscope
+[2024-05-07 02:19:16] INFO root fetch - processPackages [flyteidl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyteidl-1.5.8.tar.gz tmp/flyteidl-1.5.9.tar.gz --markdown 20240507/f/flyteidl/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-07 02:19:16] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.2.8.tar.gz]
+[2024-05-07 02:19:16] INFO root fetch - processPackages [model-checker]: Remove: archive file [/home/abi/fetcher/tmp/model_checker-0.2.9.tar.gz]
+[2024-05-07 02:19:16] INFO root fetch - main [MainThread]: End processing [model-checker]: success
+[2024-05-07 02:19:16] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-07 02:19:16] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-07 02:19:16] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-07 02:19:17] INFO root fetch - processPackages [psygnal]: Remove: archive file [/home/abi/fetcher/tmp/psygnal-0.9.4.tar.gz]
+[2024-05-07 02:19:17] INFO root fetch - processPackages [psygnal]: Remove: archive file [/home/abi/fetcher/tmp/psygnal-0.9.5.tar.gz]
+[2024-05-07 02:19:17] INFO root fetch - main [MainThread]: End processing [psygnal]: success
+[2024-05-07 02:19:17] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-05-07 02:19:17] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-05-07 02:19:17] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-05-07 02:19:17] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-05-07 02:19:17] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-05-07 02:19:17] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-05-07 02:19:17] INFO root fetch - processPackages [pyiron-workflow]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_workflow-0.6.0.tar.gz]
+[2024-05-07 02:19:17] INFO root fetch - processPackages [pyiron-workflow]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_workflow-0.7.0.tar.gz]
+[2024-05-07 02:19:17] INFO root fetch - main [MainThread]: End processing [pyiron-workflow]: success
+[2024-05-07 02:19:17] INFO root fetch - processPackages [flyteidl]: Remove: archive file [/home/abi/fetcher/tmp/flyteidl-1.5.8.tar.gz]
+[2024-05-07 02:19:17] INFO root fetch - processPackages [flyteidl]: Remove: archive file [/home/abi/fetcher/tmp/flyteidl-1.5.9.tar.gz]
+[2024-05-07 02:19:17] INFO root fetch - main [MainThread]: End processing [flyteidl]: success
+[2024-05-07 02:19:17] INFO root fetch - main [MainThread]: Store serial: [23086473]
