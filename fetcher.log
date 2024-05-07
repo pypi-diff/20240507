@@ -8175,3 +8175,33 @@ EOFError: EOF read where object expected
 [2024-05-07 03:54:32] INFO root fetch - processPackages [akhdefo-functions]: Remove: archive file [/home/abi/fetcher/tmp/akhdefo_functions-2.5.6.tar.gz]
 [2024-05-07 03:54:32] INFO root fetch - main [MainThread]: End processing [akhdefo-functions]: success
 [2024-05-07 03:54:32] INFO root fetch - main [MainThread]: Store serial: [23088239]
+[2024-05-07 03:56:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088239]
+[2024-05-07 03:56:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 03:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: InternEvo
+[2024-05-07 03:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rotary-emb
+[2024-05-07 03:56:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bugprint
+[2024-05-07 03:56:41] INFO root fetch - processPackages [bugprint]: New version: [0.3.1] Old Version: [0.2]
+[2024-05-07 03:56:41] INFO root fetch - processPackages [InternEvo]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-07 03:56:41] INFO root fetch - processPackages [rotary-emb]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-07 03:56:41] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/d6/38/199e27467a2d35554351964a081a02b67a2827ef5fc32209016cafbab4f9/rotary_emb-0.4.4.tar.gz
+[2024-05-07 03:56:41] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/a3/68/7d36f2607aec5023e183552bbb6d592829451f0529ae50bc0ae0c1f13865/InternEvo-0.4.5.tar.gz
+[2024-05-07 03:56:41] INFO root fetch - processPackages [bugprint]: Downloading https://files.pythonhosted.org/packages/60/6f/7bb2eef42d61e0069924c67797d9853e0c0f89eaa7fe79c5aa747802fdfa/bugprint-0.2.tar.gz
+[2024-05-07 03:56:41] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/ed/ed/5379fee0776f116bac2d010694a8e92fea50be9d59a92fabbe52b25468f3/rotary_emb-0.4.5.tar.gz
+[2024-05-07 03:56:41] INFO root fetch - processPackages [rotary-emb]: executing diffoscope
+[2024-05-07 03:56:41] INFO root fetch - processPackages [rotary-emb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotary_emb-0.4.4.tar.gz tmp/rotary_emb-0.4.5.tar.gz --markdown 20240507/r/rotary-emb/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-07 03:56:41] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/78/49/a626a12e9569256054f423de2f9d979955bf383eb0a87161a2e41f32d7ce/InternEvo-0.4.6.tar.gz
+[2024-05-07 03:56:41] INFO root fetch - processPackages [bugprint]: Downloading https://files.pythonhosted.org/packages/6d/ef/3783c3bc43b15e0437920f42ffb12412d8535486a5ee09acf95b531de493/bugprint-0.3.1.tar.gz
+[2024-05-07 03:56:41] INFO root fetch - processPackages [InternEvo]: executing diffoscope
+[2024-05-07 03:56:41] INFO root fetch - processPackages [InternEvo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InternEvo-0.4.5.tar.gz tmp/InternEvo-0.4.6.tar.gz --markdown 20240507/I/InternEvo/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-07 03:56:41] INFO root fetch - processPackages [bugprint]: executing diffoscope
+[2024-05-07 03:56:41] INFO root fetch - processPackages [bugprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugprint-0.2.tar.gz tmp/bugprint-0.3.1.tar.gz --markdown 20240507/b/bugprint/0.2-0.3.1/README.md --exclude *.pyd
+[2024-05-07 03:56:42] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.4.4.tar.gz]
+[2024-05-07 03:56:42] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.4.5.tar.gz]
+[2024-05-07 03:56:42] INFO root fetch - main [MainThread]: End processing [rotary-emb]: success
+[2024-05-07 03:56:42] INFO root fetch - processPackages [bugprint]: Remove: archive file [/home/abi/fetcher/tmp/bugprint-0.2.tar.gz]
+[2024-05-07 03:56:42] INFO root fetch - processPackages [bugprint]: Remove: archive file [/home/abi/fetcher/tmp/bugprint-0.3.1.tar.gz]
+[2024-05-07 03:56:42] INFO root fetch - main [MainThread]: End processing [bugprint]: success
+[2024-05-07 03:56:42] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.5.tar.gz]
+[2024-05-07 03:56:42] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.6.tar.gz]
+[2024-05-07 03:56:42] INFO root fetch - main [MainThread]: End processing [InternEvo]: success
+[2024-05-07 03:56:42] INFO root fetch - main [MainThread]: Store serial: [23088248]
