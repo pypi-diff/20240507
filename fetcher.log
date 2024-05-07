@@ -21627,3 +21627,109 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 13:38:18] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.5.tar.gz]
 [2024-05-07 13:38:18] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
 [2024-05-07 13:38:18] INFO root fetch - main [MainThread]: Store serial: [23094763]
+[2024-05-07 13:40:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094763]
+[2024-05-07 13:40:27] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-07 13:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlalchemy-multilingual
+[2024-05-07 13:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biobb-pytorch
+[2024-05-07 13:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchserve-nightly
+[2024-05-07 13:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-archiver-nightly
+[2024-05-07 13:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-workflow-archiver-nightly
+[2024-05-07 13:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AutoMLApp
+[2024-05-07 13:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: guicalculator
+[2024-05-07 13:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sommify
+[2024-05-07 13:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prefref
+[2024-05-07 13:40:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airbyte-source-amazon-ads
+[2024-05-07 13:40:27] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.5.6] Old Version: [2024.5.5]
+[2024-05-07 13:40:27] INFO root fetch - processPackages [AutoMLApp]: New version: [0.1.6] Old Version: [0.1.56]
+[2024-05-07 13:40:27] INFO root fetch - processPackages [prefref]: New version: [24.5.700] Old Version: [24.5.300]
+[2024-05-07 13:40:27] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.5.6] Old Version: [2024.5.5]
+[2024-05-07 13:40:27] INFO root fetch - processPackages [sommify]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-05-07 13:40:27] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.5.7] Old Version: [2024.5.6]
+[2024-05-07 13:40:27] INFO root fetch - processPackages [sqlalchemy-multilingual]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 13:40:27] INFO root fetch - processPackages [biobb-pytorch]: New version: [4.1.2] Old Version: [4.1.1]
+[2024-05-07 13:40:27] INFO root fetch - processPackages [guicalculator]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-07 13:40:27] INFO root fetch - processPackages [airbyte-source-amazon-ads]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-05-07 13:40:27] INFO root fetch - processPackages [sommify]: Downloading https://files.pythonhosted.org/packages/5d/ca/ee757d80962e211e58f3b2e5832d6ae82e20cc0e968110994e317419d64c/sommify-0.8.6.tar.gz
+[2024-05-07 13:40:27] INFO root fetch - processPackages [prefref]: Downloading https://files.pythonhosted.org/packages/cc/6f/efe140e017860d8ef346aa7207280b558670955e815d08f855271c00d124/prefref-24.5.300.tar.gz
+[2024-05-07 13:40:27] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/7c/07/155b8d4f1bf9ecde067f06063922978564c025d8bb37681d08793498d268/torch_workflow_archiver_nightly-2024.5.5-py3-none-any.whl
+[2024-05-07 13:40:27] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/b7/b8/7861d2c29691f71f173bbd1e20133963a37ba1fcf31120bb7c13436dfd37/automlapp-0.1.56.tar.gz
+[2024-05-07 13:40:27] INFO root fetch - processPackages [biobb-pytorch]: Downloading https://files.pythonhosted.org/packages/ef/54/93e9f491c174fee70f4696e1435c15505c45c2a976d0c196ab91fd42b537/biobb_pytorch-4.1.1.tar.gz
+[2024-05-07 13:40:27] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/d9/5c/98b4d997e272f7e674dc5ba21db3d01b97af498ecd48eae118bef4adadf5/torch_model_archiver_nightly-2024.5.5-py3-none-any.whl
+[2024-05-07 13:40:27] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/8e/31/a2eccb1781ac437879021cc38e0b6755729b6230cf3eff32f3b5450be1fb/sqlalchemy_multilingual-0.0.8.tar.gz
+[2024-05-07 13:40:27] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d9/8c/725a0ffb05f0ee977f3b0d5a92da8421d55b091782469b4bfdda79458a6e/torchserve_nightly-2024.5.6-py3-none-any.whl
+[2024-05-07 13:40:27] INFO root fetch - processPackages [guicalculator]: Downloading https://files.pythonhosted.org/packages/a2/20/2a2f2f3c9a50b2c760c69cd10d78f1b3bb93164eca82efa4dc1dc7b543ef/guicalculator-0.1.2.tar.gz
+[2024-05-07 13:40:27] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24332942>=10485760
+[2024-05-07 13:40:27] INFO root fetch - processPackages [torchserve-nightly]: Start processing: ocx_common
+[2024-05-07 13:40:27] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-05-07 13:40:27] INFO root fetch - processPackages [airbyte-source-amazon-ads]: Downloading https://files.pythonhosted.org/packages/ca/b6/7324b3f6c8231ef0880e7ecfcd42a2c7d16df377402d90c0bfe74e0d01a9/airbyte_source_amazon_ads-5.0.0.tar.gz
+[2024-05-07 13:40:28] INFO root fetch - processPackages [prefref]: Downloading https://files.pythonhosted.org/packages/04/19/1147d8aff49265b009132c870cc00635632480eb182c23cb369cdcd11b74/prefref-24.5.700.tar.gz
+[2024-05-07 13:40:28] WARNING root fetch - processPackages [ocx_common]: Skipping, unable to determine old version
+[2024-05-07 13:40:28] INFO root fetch - processPackages [ocx_common]: Start processing: autoviml
+[2024-05-07 13:40:28] INFO root fetch - main [MainThread]: End processing [ocx_common] error
+[2024-05-07 13:40:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/47/80/9ead9b82da26709f4054db1b5bbca223c6fb27c51a13db3bcebbc6c1bded/torch_model_archiver_nightly-2024.5.6-py3-none-any.whl
+[2024-05-07 13:40:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/dc/ed/dd1137e0d721fe7aad0d7d3bbdd0f81faba6bdb5bc0e033b8aee227f9733/torch_workflow_archiver_nightly-2024.5.6-py3-none-any.whl
+[2024-05-07 13:40:28] INFO root fetch - processPackages [biobb-pytorch]: Downloading https://files.pythonhosted.org/packages/04/b7/b85c15b5f5a06bbde47f9f916c7677d69a4506644c3d6817d83483c4209f/biobb_pytorch-4.1.2.tar.gz
+[2024-05-07 13:40:28] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/fe/7c/4c1abe55691415cf12d23a6bc9e331b06987c04be1b3aad796faf343a0db/automlapp-0.1.6.tar.gz
+[2024-05-07 13:40:28] ERROR root fetch - processPackages [airbyte-source-amazon-ads]: Unable to fetch info: No such project/version 'airbyte-source-amazon-ads' 5.0.1
+[2024-05-07 13:40:28] INFO root fetch - processPackages [airbyte-source-amazon-ads]: Start processing: odooghost
+[2024-05-07 13:40:28] INFO root fetch - processPackages [prefref]: executing diffoscope
+[2024-05-07 13:40:28] INFO root fetch - main [MainThread]: End processing [airbyte-source-amazon-ads] error
+[2024-05-07 13:40:28] INFO root fetch - processPackages [prefref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefref-24.5.300.tar.gz tmp/prefref-24.5.700.tar.gz --markdown 20240507/p/prefref/24.5.300-24.5.700/README.md --exclude *.pyd
+[2024-05-07 13:40:28] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/dc/7d/be6c16a550c5939096799423b2de572214c24e8be021356c9f3eeafaa4f3/sqlalchemy_multilingual-0.0.9.tar.gz
+[2024-05-07 13:40:28] INFO root fetch - processPackages [sommify]: Downloading https://files.pythonhosted.org/packages/72/e3/fd0d2dac436e63a87c34b4436b27c079be8238bcf5d16777565402e15b16/sommify-0.8.7.tar.gz
+[2024-05-07 13:40:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-05-07 13:40:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.5.5-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.5.6-py3-none-any.whl.zip --markdown 20240507/t/torch-workflow-archiver-nightly/2024.5.5-2024.5.6/README.md --exclude *.pyd
+[2024-05-07 13:40:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-05-07 13:40:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.5.5-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.5.6-py3-none-any.whl.zip --markdown 20240507/t/torch-model-archiver-nightly/2024.5.5-2024.5.6/README.md --exclude *.pyd
+[2024-05-07 13:40:28] INFO root fetch - processPackages [guicalculator]: Downloading https://files.pythonhosted.org/packages/03/25/5d7a7b83125e9ee9daec3181e07b0c21ec6e1c9ca842df2101cb6a81bc72/guicalculator-0.1.3.tar.gz
+[2024-05-07 13:40:28] INFO root fetch - processPackages [biobb-pytorch]: executing diffoscope
+[2024-05-07 13:40:28] INFO root fetch - processPackages [biobb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_pytorch-4.1.1.tar.gz tmp/biobb_pytorch-4.1.2.tar.gz --markdown 20240507/b/biobb-pytorch/4.1.1-4.1.2/README.md --exclude *.pyd
+[2024-05-07 13:40:28] INFO root fetch - processPackages [AutoMLApp]: executing diffoscope
+[2024-05-07 13:40:28] INFO root fetch - processPackages [AutoMLApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automlapp-0.1.56.tar.gz tmp/automlapp-0.1.6.tar.gz --markdown 20240507/A/AutoMLApp/0.1.56-0.1.6/README.md --exclude *.pyd
+[2024-05-07 13:40:28] INFO root fetch - processPackages [sqlalchemy-multilingual]: executing diffoscope
+[2024-05-07 13:40:28] INFO root fetch - processPackages [sqlalchemy-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_multilingual-0.0.8.tar.gz tmp/sqlalchemy_multilingual-0.0.9.tar.gz --markdown 20240507/s/sqlalchemy-multilingual/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 13:40:28] INFO root fetch - processPackages [autoviml]: New version: [0.1.720] Old Version: [0.1.716]
+[2024-05-07 13:40:28] INFO root fetch - processPackages [odooghost]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-07 13:40:28] INFO root fetch - processPackages [guicalculator]: executing diffoscope
+[2024-05-07 13:40:28] INFO root fetch - processPackages [guicalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guicalculator-0.1.2.tar.gz tmp/guicalculator-0.1.3.tar.gz --markdown 20240507/g/guicalculator/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-07 13:40:28] INFO root fetch - processPackages [sommify]: executing diffoscope
+[2024-05-07 13:40:28] INFO root fetch - processPackages [sommify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sommify-0.8.6.tar.gz tmp/sommify-0.8.7.tar.gz --markdown 20240507/s/sommify/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-05-07 13:40:28] INFO root fetch - processPackages [odooghost]: Downloading https://files.pythonhosted.org/packages/d8/15/97f23378a01c382a97ae07305e6465cb28ea1e8126ba99c50fa9dd56bee9/odooghost-0.8.2.tar.gz
+[2024-05-07 13:40:28] INFO root fetch - processPackages [autoviml]: Downloading https://files.pythonhosted.org/packages/ce/8f/257a97adcf67c3862392b22a94a7671dd394d9af275a4fb7aac081e60b4c/autoviml-0.1.716.tar.gz
+[2024-05-07 13:40:29] INFO root fetch - processPackages [odooghost]: Downloading https://files.pythonhosted.org/packages/ab/54/40b8e775493f75ee703e2e527390bf564a3997e8dd7281343d129351d08d/odooghost-0.8.3.tar.gz
+[2024-05-07 13:40:29] INFO root fetch - processPackages [autoviml]: Downloading https://files.pythonhosted.org/packages/cc/34/977a7d2299cdbdacab69d2c636943241ef2b8fe1ca82c2af8253610227cf/autoviml-0.1.720.tar.gz
+[2024-05-07 13:40:29] INFO root fetch - processPackages [odooghost]: executing diffoscope
+[2024-05-07 13:40:29] INFO root fetch - processPackages [odooghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odooghost-0.8.2.tar.gz tmp/odooghost-0.8.3.tar.gz --markdown 20240507/o/odooghost/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-07 13:40:29] INFO root fetch - processPackages [prefref]: Remove: archive file [/home/abi/fetcher/tmp/prefref-24.5.300.tar.gz]
+[2024-05-07 13:40:29] INFO root fetch - processPackages [prefref]: Remove: archive file [/home/abi/fetcher/tmp/prefref-24.5.700.tar.gz]
+[2024-05-07 13:40:29] INFO root fetch - main [MainThread]: End processing [prefref]: success
+[2024-05-07 13:40:29] INFO root fetch - processPackages [autoviml]: executing diffoscope
+[2024-05-07 13:40:29] INFO root fetch - processPackages [autoviml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoviml-0.1.716.tar.gz tmp/autoviml-0.1.720.tar.gz --markdown 20240507/a/autoviml/0.1.716-0.1.720/README.md --exclude *.pyd
+[2024-05-07 13:40:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.5-py3-none-any.whl.zip]
+[2024-05-07 13:40:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.6-py3-none-any.whl.zip]
+[2024-05-07 13:40:29] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-05-07 13:40:29] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.8.tar.gz]
+[2024-05-07 13:40:29] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.9.tar.gz]
+[2024-05-07 13:40:29] INFO root fetch - main [MainThread]: End processing [sqlalchemy-multilingual]: success
+[2024-05-07 13:40:29] INFO root fetch - processPackages [biobb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/biobb_pytorch-4.1.1.tar.gz]
+[2024-05-07 13:40:29] INFO root fetch - processPackages [biobb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/biobb_pytorch-4.1.2.tar.gz]
+[2024-05-07 13:40:29] INFO root fetch - main [MainThread]: End processing [biobb-pytorch]: success
+[2024-05-07 13:40:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.5-py3-none-any.whl.zip]
+[2024-05-07 13:40:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.6-py3-none-any.whl.zip]
+[2024-05-07 13:40:29] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-05-07 13:40:29] INFO root fetch - processPackages [guicalculator]: Remove: archive file [/home/abi/fetcher/tmp/guicalculator-0.1.2.tar.gz]
+[2024-05-07 13:40:29] INFO root fetch - processPackages [guicalculator]: Remove: archive file [/home/abi/fetcher/tmp/guicalculator-0.1.3.tar.gz]
+[2024-05-07 13:40:29] INFO root fetch - main [MainThread]: End processing [guicalculator]: success
+[2024-05-07 13:40:30] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.56.tar.gz]
+[2024-05-07 13:40:30] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.6.tar.gz]
+[2024-05-07 13:40:30] INFO root fetch - main [MainThread]: End processing [AutoMLApp]: success
+[2024-05-07 13:40:30] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.6.tar.gz]
+[2024-05-07 13:40:30] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.7.tar.gz]
+[2024-05-07 13:40:30] INFO root fetch - main [MainThread]: End processing [sommify]: success
+[2024-05-07 13:40:30] INFO root fetch - processPackages [autoviml]: Remove: archive file [/home/abi/fetcher/tmp/autoviml-0.1.716.tar.gz]
+[2024-05-07 13:40:30] INFO root fetch - processPackages [autoviml]: Remove: archive file [/home/abi/fetcher/tmp/autoviml-0.1.720.tar.gz]
+[2024-05-07 13:40:30] INFO root fetch - main [MainThread]: End processing [autoviml]: success
+[2024-05-07 13:40:35] INFO root fetch - processPackages [odooghost]: Remove: archive file [/home/abi/fetcher/tmp/odooghost-0.8.2.tar.gz]
+[2024-05-07 13:40:35] INFO root fetch - processPackages [odooghost]: Remove: archive file [/home/abi/fetcher/tmp/odooghost-0.8.3.tar.gz]
+[2024-05-07 13:40:35] INFO root fetch - main [MainThread]: End processing [odooghost]: success
+[2024-05-07 13:40:35] INFO root fetch - main [MainThread]: Store serial: [23094802]
