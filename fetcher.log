@@ -13749,3 +13749,126 @@ EOFError: EOF read where object expected
 [2024-05-07 08:48:28] INFO root fetch - processPackages [accelbyte-py-sdk-service-platform]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-platform-0.9.0.tar.gz]
 [2024-05-07 08:48:28] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-platform]: success
 [2024-05-07 08:48:28] INFO root fetch - main [MainThread]: Store serial: [23090919]
+[2024-05-07 08:50:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090919]
+[2024-05-07 08:50:37] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-07 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duwi-smart-sdk
+[2024-05-07 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: half-orm
+[2024-05-07 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: copy-to
+[2024-05-07 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: accelbyte-py-sdk-service-seasonpass
+[2024-05-07 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansible-risk-insight
+[2024-05-07 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: conditionablez
+[2024-05-07 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: accelbyte-py-sdk-service-session
+[2024-05-07 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigframes
+[2024-05-07 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rats-pipelines
+[2024-05-07 08:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rats-apps
+[2024-05-07 08:50:38] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-07 08:50:38] INFO root fetch - processPackages [copy-to]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-07 08:50:38] INFO root fetch - processPackages [accelbyte-py-sdk-service-seasonpass]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:50:38] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/bb/77/dae5bdac719ecbecd8bf41f2b16da91a7f0050259def4978dddfccde611e/duwi_smart_sdk-0.0.7.tar.gz
+[2024-05-07 08:50:38] INFO root fetch - processPackages [bigframes]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-07 08:50:38] INFO root fetch - processPackages [accelbyte-py-sdk-service-session]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:50:38] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-05-07 08:50:38] INFO root fetch - processPackages [half-orm]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-07 08:50:38] WARNING root fetch - processPackages [conditionablez]: Skipping, unable to determine old version
+[2024-05-07 08:50:38] INFO root fetch - processPackages [conditionablez]: Start processing: vkdispatch
+[2024-05-07 08:50:38] INFO root fetch - main [MainThread]: End processing [conditionablez] error
+[2024-05-07 08:50:38] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-05-07 08:50:38] INFO root fetch - processPackages [ansible-risk-insight]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-07 08:50:38] INFO root fetch - processPackages [copy-to]: Downloading https://files.pythonhosted.org/packages/3f/bd/552ffe4c7bf8dac05eee1ff1cfa399e95179c832a683082191c1bbc84635/copy-to-1.3.8.tar.gz
+[2024-05-07 08:50:38] INFO root fetch - processPackages [accelbyte-py-sdk-service-seasonpass]: Downloading https://files.pythonhosted.org/packages/bd/6d/f35cd891e8531852f4cda1d399e72b884a97ca5aeb6f61f244537bf0c2e8/accelbyte-py-sdk-service-seasonpass-0.8.0.tar.gz
+[2024-05-07 08:50:38] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-05-07 08:50:38] INFO root fetch - processPackages [vkdispatch]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-07 08:50:38] INFO root fetch - processPackages [accelbyte-py-sdk-service-session]: Downloading https://files.pythonhosted.org/packages/24/fd/e6f2b4d7d9b3376726d123051fe633eb9a6047c56c641587e03e211be591/accelbyte-py-sdk-service-session-0.8.0.tar.gz
+[2024-05-07 08:50:38] INFO root fetch - processPackages [half-orm]: Downloading https://files.pythonhosted.org/packages/03/5b/7ad7adf499f569d057fff1e0e6bc40a51103c154388596eab2c850d378f4/half_orm-0.9.8.tar.gz
+[2024-05-07 08:50:38] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/a9/af/8815747b5d62ec7a9d299c14c57b2684aace8532dfa51c9fac98ffaabd23/ansible-risk-insight-0.2.5.tar.gz
+[2024-05-07 08:50:38] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-05-07 08:50:38] INFO root fetch - processPackages [bigframes]: Downloading https://files.pythonhosted.org/packages/8b/03/09a88af6c80e0714bdb36ddbb3cc642193552534ea7c83d43d025acee8fc/bigframes-1.4.0.tar.gz
+[2024-05-07 08:50:38] INFO root fetch - processPackages [copy-to]: Downloading https://files.pythonhosted.org/packages/d5/9a/e1cf706621904d886141bebf3c24390caf4c9135cae97c5a2df84d95731c/copy-to-1.3.9.tar.gz
+[2024-05-07 08:50:38] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/7e/9d/6950809034e2c7e1b5fe8ed96b929a1b9770729b83badf9c03d9590560b5/duwi_smart_sdk-0.0.8.tar.gz
+[2024-05-07 08:50:38] INFO root fetch - processPackages [vkdispatch]: Downloading https://files.pythonhosted.org/packages/48/8f/c1950dc4fb0322f3abdd8ecfcfc3bff967d8ef835212342589ce84df8b6b/vkdispatch-0.0.5.tar.gz
+[2024-05-07 08:50:38] INFO root fetch - processPackages [copy-to]: executing diffoscope
+[2024-05-07 08:50:38] INFO root fetch - processPackages [copy-to]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copy-to-1.3.8.tar.gz tmp/copy-to-1.3.9.tar.gz --markdown 20240507/c/copy-to/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-07 08:50:38] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-07 08:50:38] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.0.7.tar.gz tmp/duwi_smart_sdk-0.0.8.tar.gz --markdown 20240507/d/duwi-smart-sdk/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-07 08:50:38] INFO root fetch - processPackages [accelbyte-py-sdk-service-seasonpass]: Downloading https://files.pythonhosted.org/packages/fc/60/fb01c1034b457ab54bb515213f9a036cdc77f9fce62a2fc86bacee27f72f/accelbyte-py-sdk-service-seasonpass-0.9.0.tar.gz
+[2024-05-07 08:50:38] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-05-07 08:50:38] INFO root fetch - processPackages [half-orm]: Downloading https://files.pythonhosted.org/packages/9b/56/df1f5dae72d6953a2f5458c12c0689212adb79ad73442b5934bc404993bd/half_orm-0.9.9.tar.gz
+[2024-05-07 08:50:38] INFO root fetch - processPackages [accelbyte-py-sdk-service-session]: Downloading https://files.pythonhosted.org/packages/a9/45/42fd84b953ae01744ce13911e6fa1d48971cc08c60e52bd80c47831c0a89/accelbyte-py-sdk-service-session-0.9.0.tar.gz
+[2024-05-07 08:50:38] INFO root fetch - processPackages [accelbyte-py-sdk-service-seasonpass]: executing diffoscope
+[2024-05-07 08:50:38] INFO root fetch - processPackages [accelbyte-py-sdk-service-seasonpass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-seasonpass-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-seasonpass-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-seasonpass/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:50:39] INFO root fetch - processPackages [bigframes]: Downloading https://files.pythonhosted.org/packages/55/2c/ba2efefebddaec1256c3c68f9c2011610340ed24384bdc84ca0bdf8c36a7/bigframes-1.5.0.tar.gz
+[2024-05-07 08:50:39] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/53/71/aeba87c455be986436eb14054ec8eb2ab38c1bdfc875fa68df2abe6f58f8/ansible-risk-insight-0.2.6.tar.gz
+[2024-05-07 08:50:39] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-05-07 08:50:39] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240507/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-05-07 08:50:39] INFO root fetch - processPackages [accelbyte-py-sdk-service-session]: executing diffoscope
+[2024-05-07 08:50:39] INFO root fetch - processPackages [accelbyte-py-sdk-service-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-session-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-session-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-session/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:50:39] INFO root fetch - processPackages [half-orm]: executing diffoscope
+[2024-05-07 08:50:39] INFO root fetch - processPackages [half-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/half_orm-0.9.8.tar.gz tmp/half_orm-0.9.9.tar.gz --markdown 20240507/h/half-orm/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-07 08:50:39] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-05-07 08:50:39] INFO root fetch - processPackages [bigframes]: executing diffoscope
+[2024-05-07 08:50:39] INFO root fetch - processPackages [bigframes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigframes-1.4.0.tar.gz tmp/bigframes-1.5.0.tar.gz --markdown 20240507/b/bigframes/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-07 08:50:39] INFO root fetch - processPackages [vkdispatch]: Downloading https://files.pythonhosted.org/packages/fb/63/65d1b404707fb1654c53542e576a05022b7622d7b6acb0a11fb85ccebe95/vkdispatch-0.0.6.tar.gz
+[2024-05-07 08:50:39] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-05-07 08:50:39] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240507/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-05-07 08:50:39] INFO root fetch - processPackages [ansible-risk-insight]: executing diffoscope
+[2024-05-07 08:50:39] INFO root fetch - processPackages [ansible-risk-insight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-risk-insight-0.2.5.tar.gz tmp/ansible-risk-insight-0.2.6.tar.gz --markdown 20240507/a/ansible-risk-insight/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-07 08:50:39] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.0.7.tar.gz]
+[2024-05-07 08:50:39] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.0.8.tar.gz]
+[2024-05-07 08:50:39] INFO root fetch - processPackages [duwi-smart-sdk]: Start processing: rats-processors
+[2024-05-07 08:50:39] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-07 08:50:39] INFO root fetch - processPackages [copy-to]: Remove: archive file [/home/abi/fetcher/tmp/copy-to-1.3.8.tar.gz]
+[2024-05-07 08:50:39] INFO root fetch - processPackages [copy-to]: Remove: archive file [/home/abi/fetcher/tmp/copy-to-1.3.9.tar.gz]
+[2024-05-07 08:50:39] INFO root fetch - processPackages [copy-to]: Start processing: accelbyte-py-sdk-service-sessionbrowser
+[2024-05-07 08:50:39] INFO root fetch - main [MainThread]: End processing [copy-to]: success
+[2024-05-07 08:50:39] INFO root fetch - processPackages [vkdispatch]: executing diffoscope
+[2024-05-07 08:50:39] INFO root fetch - processPackages [vkdispatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vkdispatch-0.0.5.tar.gz tmp/vkdispatch-0.0.6.tar.gz --markdown 20240507/v/vkdispatch/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-07 08:50:39] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-05-07 08:50:39] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionbrowser]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-07 08:50:40] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-05-07 08:50:40] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionbrowser]: Downloading https://files.pythonhosted.org/packages/41/6b/fd2a960440c01d9011bd5b15c2f850117efb965e714a7f98c4ecaafb4688/accelbyte-py-sdk-service-sessionbrowser-0.8.0.tar.gz
+[2024-05-07 08:50:40] INFO root fetch - processPackages [half-orm]: Remove: archive file [/home/abi/fetcher/tmp/half_orm-0.9.8.tar.gz]
+[2024-05-07 08:50:40] INFO root fetch - processPackages [half-orm]: Remove: archive file [/home/abi/fetcher/tmp/half_orm-0.9.9.tar.gz]
+[2024-05-07 08:50:40] INFO root fetch - processPackages [half-orm]: Start processing: yplib
+[2024-05-07 08:50:40] INFO root fetch - main [MainThread]: End processing [half-orm]: success
+[2024-05-07 08:50:40] INFO root fetch - processPackages [yplib]: New version: [5.6.6] Old Version: [5.6.5]
+[2024-05-07 08:50:40] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-05-07 08:50:40] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-05-07 08:50:40] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-05-07 08:50:40] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-05-07 08:50:40] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-05-07 08:50:40] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-05-07 08:50:40] INFO root fetch - processPackages [accelbyte-py-sdk-service-seasonpass]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-seasonpass-0.8.0.tar.gz]
+[2024-05-07 08:50:40] INFO root fetch - processPackages [accelbyte-py-sdk-service-seasonpass]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-seasonpass-0.9.0.tar.gz]
+[2024-05-07 08:50:40] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-seasonpass]: success
+[2024-05-07 08:50:40] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/13/52/6c3468aeafba0ec30ded473fa26b8b443c6353bf9b04921e6ce5578d1b51/yplib-5.6.5.tar.gz
+[2024-05-07 08:50:40] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-05-07 08:50:40] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionbrowser]: Downloading https://files.pythonhosted.org/packages/5c/ee/6fcef1d94b3b1776c4774ddcaefb7286b74dfc6ce18498ddff4412ea6ba6/accelbyte-py-sdk-service-sessionbrowser-0.9.0.tar.gz
+[2024-05-07 08:50:40] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-05-07 08:50:40] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240507/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-05-07 08:50:40] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/b0/3c/e98ddb0b63dedd996fa79293016b21cc3d2f84d5dcc915fd97bbcb5bf67b/yplib-5.6.6.tar.gz
+[2024-05-07 08:50:40] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionbrowser]: executing diffoscope
+[2024-05-07 08:50:40] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionbrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-sessionbrowser-0.8.0.tar.gz tmp/accelbyte-py-sdk-service-sessionbrowser-0.9.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-sessionbrowser/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 08:50:40] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-05-07 08:50:40] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.6.5.tar.gz tmp/yplib-5.6.6.tar.gz --markdown 20240507/y/yplib/5.6.5-5.6.6/README.md --exclude *.pyd
+[2024-05-07 08:50:40] INFO root fetch - processPackages [accelbyte-py-sdk-service-session]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-session-0.8.0.tar.gz]
+[2024-05-07 08:50:40] INFO root fetch - processPackages [accelbyte-py-sdk-service-session]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-session-0.9.0.tar.gz]
+[2024-05-07 08:50:40] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-session]: success
+[2024-05-07 08:50:41] INFO root fetch - processPackages [ansible-risk-insight]: Remove: archive file [/home/abi/fetcher/tmp/ansible-risk-insight-0.2.5.tar.gz]
+[2024-05-07 08:50:41] INFO root fetch - processPackages [ansible-risk-insight]: Remove: archive file [/home/abi/fetcher/tmp/ansible-risk-insight-0.2.6.tar.gz]
+[2024-05-07 08:50:41] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
+[2024-05-07 08:50:41] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.5.tar.gz]
+[2024-05-07 08:50:41] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.6.tar.gz]
+[2024-05-07 08:50:41] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-05-07 08:50:41] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-05-07 08:50:41] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-05-07 08:50:41] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-05-07 08:50:41] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionbrowser]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-sessionbrowser-0.8.0.tar.gz]
+[2024-05-07 08:50:41] INFO root fetch - processPackages [accelbyte-py-sdk-service-sessionbrowser]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-sessionbrowser-0.9.0.tar.gz]
+[2024-05-07 08:50:41] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-sessionbrowser]: success
+[2024-05-07 08:50:41] INFO root fetch - processPackages [bigframes]: Remove: archive file [/home/abi/fetcher/tmp/bigframes-1.4.0.tar.gz]
+[2024-05-07 08:50:41] INFO root fetch - processPackages [bigframes]: Remove: archive file [/home/abi/fetcher/tmp/bigframes-1.5.0.tar.gz]
+[2024-05-07 08:50:41] INFO root fetch - main [MainThread]: End processing [bigframes]: success
+[2024-05-07 08:50:42] INFO root fetch - processPackages [vkdispatch]: Remove: archive file [/home/abi/fetcher/tmp/vkdispatch-0.0.5.tar.gz]
+[2024-05-07 08:50:42] INFO root fetch - processPackages [vkdispatch]: Remove: archive file [/home/abi/fetcher/tmp/vkdispatch-0.0.6.tar.gz]
+[2024-05-07 08:50:42] INFO root fetch - main [MainThread]: End processing [vkdispatch]: success
+[2024-05-07 08:50:42] INFO root fetch - main [MainThread]: Store serial: [23090964]
