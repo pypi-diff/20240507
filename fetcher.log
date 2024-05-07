@@ -14548,3 +14548,100 @@ EOFError: EOF read where object expected
 [2024-05-07 09:12:55] INFO root fetch - processPackages [com.precisely.apis]: Remove: archive file [/home/abi/fetcher/tmp/com_precisely_apis-18.1.0.tar.gz]
 [2024-05-07 09:12:55] INFO root fetch - main [MainThread]: End processing [com.precisely.apis]: success
 [2024-05-07 09:12:55] INFO root fetch - main [MainThread]: Store serial: [23091282]
+[2024-05-07 09:14:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091282]
+[2024-05-07 09:15:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-07 09:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsw-models
+[2024-05-07 09:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsw-config
+[2024-05-07 09:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsw-storage
+[2024-05-07 09:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsw-database
+[2024-05-07 09:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsw-tdk
+[2024-05-07 09:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-rke
+[2024-05-07 09:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dsw-command-queue
+[2024-05-07 09:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fennel-ai
+[2024-05-07 09:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: peutils
+[2024-05-07 09:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TDCRPy
+[2024-05-07 09:15:04] INFO root fetch - processPackages [TDCRPy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-07 09:15:04] INFO root fetch - processPackages [peutils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-07 09:15:04] INFO root fetch - processPackages [dsw-config]: New version: [4.6.0] Old Version: [4.5.0]
+[2024-05-07 09:15:04] INFO root fetch - processPackages [dsw-storage]: New version: [4.6.0] Old Version: [4.5.0]
+[2024-05-07 09:15:04] INFO root fetch - processPackages [dsw-models]: New version: [4.6.0] Old Version: [4.5.0]
+[2024-05-07 09:15:04] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/86/56/fc38c0e7cb317b1857f035c575fbf769b42801fd4ebbac8e63455b682efc/peutils-0.0.98.tar.gz
+[2024-05-07 09:15:04] INFO root fetch - processPackages [dsw-tdk]: New version: [4.6.0] Old Version: [4.5.0]
+[2024-05-07 09:15:04] INFO root fetch - processPackages [dsw-command-queue]: New version: [4.6.0] Old Version: [4.5.0]
+[2024-05-07 09:15:04] INFO root fetch - processPackages [pulumi-rke]: New version: [3.5.0a1715063666] Old Version: [3.5.0a1714566421]
+[2024-05-07 09:15:04] INFO root fetch - processPackages [dsw-database]: New version: [4.6.0] Old Version: [4.5.0]
+[2024-05-07 09:15:04] INFO root fetch - processPackages [fennel-ai]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-05-07 09:15:04] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/2a/05/9f53182c6afcf83dd8f16ab7eb8f2891ba9a70122290cf2241d20387d780/tdcrpy-1.9.8.tar.gz
+[2024-05-07 09:15:04] INFO root fetch - processPackages [dsw-config]: Downloading https://files.pythonhosted.org/packages/cb/74/fb9b6dc92b0c3b45736917163b07f323b6fc71c8ddbff5f6c0d32bfa8ef8/dsw-config-4.5.0.tar.gz
+[2024-05-07 09:15:04] INFO root fetch - processPackages [dsw-database]: Downloading https://files.pythonhosted.org/packages/ae/42/5556363a67d010edaad49a9f55c80dd6587e480c674ba4c3618f5739fcc4/dsw-database-4.5.0.tar.gz
+[2024-05-07 09:15:04] INFO root fetch - processPackages [dsw-storage]: Downloading https://files.pythonhosted.org/packages/47/b6/de0e35f89a32e160c1199cf5ec32e128e7d4a891ed4fe16440bff2c73d6d/dsw-storage-4.5.0.tar.gz
+[2024-05-07 09:15:04] WARNING root fetch - processPackages [TDCRPy]: Skipping package: exceeds size limit 22715362>=10485760
+[2024-05-07 09:15:04] INFO root fetch - processPackages [TDCRPy]: Start processing: priscianistz
+[2024-05-07 09:15:04] INFO root fetch - main [MainThread]: End processing [TDCRPy] error
+[2024-05-07 09:15:04] INFO root fetch - processPackages [dsw-models]: Downloading https://files.pythonhosted.org/packages/c5/2f/02c1c3319fc6a3934570f0a0fd05e0fbc19b9cbc102f134ebadeadc2fc1b/dsw-models-4.5.0.tar.gz
+[2024-05-07 09:15:04] INFO root fetch - processPackages [dsw-tdk]: Downloading https://files.pythonhosted.org/packages/b0/fa/2cf6cc723eb34783163d8479f05eef462bb62c46860472491299e41ffb51/dsw-tdk-4.5.0.tar.gz
+[2024-05-07 09:15:04] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/ef/cc/5b300b437d4d763d10593761da7b1948d854decc2886862c444b358900f1/pulumi_rke-3.5.0a1714566421.tar.gz
+[2024-05-07 09:15:04] INFO root fetch - processPackages [dsw-command-queue]: Downloading https://files.pythonhosted.org/packages/23/1b/08117f965db8487830591765f461a45cdcfb19b55c01393ba31fc07d1b83/dsw-command-queue-4.5.0.tar.gz
+[2024-05-07 09:15:04] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/9b/47/0b84df0cb1432d8479cad941dffd7fa40baf3d76bb55e06d4266f8352f07/fennel_ai-1.3.4.tar.gz
+[2024-05-07 09:15:04] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/ba/fe/8c48c448fd9667ae84b126cee4f1683e818dc74524c954a888b5bc50330a/peutils-0.0.99.tar.gz
+[2024-05-07 09:15:04] WARNING root fetch - processPackages [priscianistz]: Skipping, unable to determine old version
+[2024-05-07 09:15:04] INFO root fetch - processPackages [priscianistz]: Start processing: moviesampler
+[2024-05-07 09:15:04] INFO root fetch - main [MainThread]: End processing [priscianistz] error
+[2024-05-07 09:15:04] WARNING root fetch - processPackages [fennel-ai]: Skipping package: exceeds size limit 40203067>=10485760
+[2024-05-07 09:15:04] INFO root fetch - main [MainThread]: End processing [fennel-ai] error
+[2024-05-07 09:15:04] INFO root fetch - processPackages [moviesampler]: New version: [1.2] Old Version: [1.1]
+[2024-05-07 09:15:05] INFO root fetch - processPackages [peutils]: executing diffoscope
+[2024-05-07 09:15:05] INFO root fetch - processPackages [peutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peutils-0.0.98.tar.gz tmp/peutils-0.0.99.tar.gz --markdown 20240507/p/peutils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-config]: Downloading https://files.pythonhosted.org/packages/5a/da/b6b7f47ce88ead23d020ddcefbe5a45d3cc358f4d4fd287c0076f29ab28f/dsw_config-4.6.0.tar.gz
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-database]: Downloading https://files.pythonhosted.org/packages/6d/f5/aeb1b798c89e373e143297b0d3e3ffe537754f5d0808bfb9241b51bdb762/dsw_database-4.6.0.tar.gz
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-storage]: Downloading https://files.pythonhosted.org/packages/82/49/fe7ace0668bccefbb351a338a4767e626c973ae006a1bb777318213feb12/dsw_storage-4.6.0.tar.gz
+[2024-05-07 09:15:05] INFO root fetch - processPackages [pulumi-rke]: Downloading https://files.pythonhosted.org/packages/1c/be/51af860eef2692203e266aca5a4f3a601b648255313b17fd1dae5d4af18c/pulumi_rke-3.5.0a1715063666.tar.gz
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-models]: Downloading https://files.pythonhosted.org/packages/af/18/7c379a05da12d85f494cee648e1e5602b134f0bf3f7d210557be29f3f115/dsw_models-4.6.0.tar.gz
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-config]: executing diffoscope
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-config-4.5.0.tar.gz tmp/dsw_config-4.6.0.tar.gz --markdown 20240507/d/dsw-config/4.5.0-4.6.0/README.md --exclude *.pyd
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-tdk]: Downloading https://files.pythonhosted.org/packages/ef/10/7d89505ffe6e23774056b33ca4c52d811d1f0490aeb697ea08bf861b6eed/dsw_tdk-4.6.0.tar.gz
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-command-queue]: Downloading https://files.pythonhosted.org/packages/31/88/e43ba3a1b5669034d703512de21c9387c4ff5ce4a86d717ef53353ae7d9b/dsw_command_queue-4.6.0.tar.gz
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-database]: executing diffoscope
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-database-4.5.0.tar.gz tmp/dsw_database-4.6.0.tar.gz --markdown 20240507/d/dsw-database/4.5.0-4.6.0/README.md --exclude *.pyd
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-storage]: executing diffoscope
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-storage-4.5.0.tar.gz tmp/dsw_storage-4.6.0.tar.gz --markdown 20240507/d/dsw-storage/4.5.0-4.6.0/README.md --exclude *.pyd
+[2024-05-07 09:15:05] INFO root fetch - processPackages [moviesampler]: Downloading https://files.pythonhosted.org/packages/0f/e0/6afd13c38f88111a7f5fb79ad73b11db5449d6938f17bf8792ae245ef2f8/moviesampler-1.1.tar.gz
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-models]: executing diffoscope
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-models-4.5.0.tar.gz tmp/dsw_models-4.6.0.tar.gz --markdown 20240507/d/dsw-models/4.5.0-4.6.0/README.md --exclude *.pyd
+[2024-05-07 09:15:05] INFO root fetch - processPackages [pulumi-rke]: executing diffoscope
+[2024-05-07 09:15:05] INFO root fetch - processPackages [pulumi-rke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rke-3.5.0a1714566421.tar.gz tmp/pulumi_rke-3.5.0a1715063666.tar.gz --markdown 20240507/p/pulumi-rke/3.5.0a1714566421-3.5.0a1715063666/README.md --exclude *.pyd
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-tdk]: executing diffoscope
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-tdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-tdk-4.5.0.tar.gz tmp/dsw_tdk-4.6.0.tar.gz --markdown 20240507/d/dsw-tdk/4.5.0-4.6.0/README.md --exclude *.pyd
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-command-queue]: executing diffoscope
+[2024-05-07 09:15:05] INFO root fetch - processPackages [dsw-command-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-command-queue-4.5.0.tar.gz tmp/dsw_command_queue-4.6.0.tar.gz --markdown 20240507/d/dsw-command-queue/4.5.0-4.6.0/README.md --exclude *.pyd
+[2024-05-07 09:15:05] INFO root fetch - processPackages [moviesampler]: Downloading https://files.pythonhosted.org/packages/3e/62/55da54bd7240dbd7aee22c51efcc242407c75e97cce71b99dd7fe9aef5b8/moviesampler-1.2.tar.gz
+[2024-05-07 09:15:05] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.98.tar.gz]
+[2024-05-07 09:15:05] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.99.tar.gz]
+[2024-05-07 09:15:05] INFO root fetch - main [MainThread]: End processing [peutils]: success
+[2024-05-07 09:15:06] INFO root fetch - processPackages [moviesampler]: executing diffoscope
+[2024-05-07 09:15:06] INFO root fetch - processPackages [moviesampler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moviesampler-1.1.tar.gz tmp/moviesampler-1.2.tar.gz --markdown 20240507/m/moviesampler/1.1-1.2/README.md --exclude *.pyd
+[2024-05-07 09:15:06] INFO root fetch - processPackages [dsw-database]: Remove: archive file [/home/abi/fetcher/tmp/dsw-database-4.5.0.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - processPackages [dsw-database]: Remove: archive file [/home/abi/fetcher/tmp/dsw_database-4.6.0.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - main [MainThread]: End processing [dsw-database]: success
+[2024-05-07 09:15:06] INFO root fetch - processPackages [dsw-config]: Remove: archive file [/home/abi/fetcher/tmp/dsw-config-4.5.0.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - processPackages [dsw-config]: Remove: archive file [/home/abi/fetcher/tmp/dsw_config-4.6.0.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - main [MainThread]: End processing [dsw-config]: success
+[2024-05-07 09:15:06] INFO root fetch - processPackages [dsw-storage]: Remove: archive file [/home/abi/fetcher/tmp/dsw-storage-4.5.0.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - processPackages [dsw-storage]: Remove: archive file [/home/abi/fetcher/tmp/dsw_storage-4.6.0.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - main [MainThread]: End processing [dsw-storage]: success
+[2024-05-07 09:15:06] INFO root fetch - processPackages [dsw-command-queue]: Remove: archive file [/home/abi/fetcher/tmp/dsw-command-queue-4.5.0.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - processPackages [dsw-command-queue]: Remove: archive file [/home/abi/fetcher/tmp/dsw_command_queue-4.6.0.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - main [MainThread]: End processing [dsw-command-queue]: success
+[2024-05-07 09:15:06] INFO root fetch - processPackages [dsw-tdk]: Remove: archive file [/home/abi/fetcher/tmp/dsw-tdk-4.5.0.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - processPackages [dsw-tdk]: Remove: archive file [/home/abi/fetcher/tmp/dsw_tdk-4.6.0.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - main [MainThread]: End processing [dsw-tdk]: success
+[2024-05-07 09:15:06] INFO root fetch - processPackages [dsw-models]: Remove: archive file [/home/abi/fetcher/tmp/dsw-models-4.5.0.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - processPackages [dsw-models]: Remove: archive file [/home/abi/fetcher/tmp/dsw_models-4.6.0.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - main [MainThread]: End processing [dsw-models]: success
+[2024-05-07 09:15:06] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1714566421.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - processPackages [pulumi-rke]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rke-3.5.0a1715063666.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - main [MainThread]: End processing [pulumi-rke]: success
+[2024-05-07 09:15:06] INFO root fetch - processPackages [moviesampler]: Remove: archive file [/home/abi/fetcher/tmp/moviesampler-1.1.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - processPackages [moviesampler]: Remove: archive file [/home/abi/fetcher/tmp/moviesampler-1.2.tar.gz]
+[2024-05-07 09:15:06] INFO root fetch - main [MainThread]: End processing [moviesampler]: success
+[2024-05-07 09:15:06] INFO root fetch - main [MainThread]: Store serial: [23091320]
