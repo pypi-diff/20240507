@@ -11530,3 +11530,42 @@ EOFError: EOF read where object expected
 [2024-05-07 07:12:41] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
 [2024-05-07 07:12:41] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
 [2024-05-07 07:12:41] INFO root fetch - main [MainThread]: Store serial: [23089773]
+[2024-05-07 07:14:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089773]
+[2024-05-07 07:14:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autorunpy
+[2024-05-07 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ColabGeek
+[2024-05-07 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suql
+[2024-05-07 07:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proksee-batch
+[2024-05-07 07:14:50] INFO root fetch - processPackages [autorunpy]: New version: [8.1.8] Old Version: [8.1.7]
+[2024-05-07 07:14:50] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/a9/96/3f37f3712c2ced6c46cee71229d080dae639975ade331607b2a5202c829b/autorunpy-8.1.7.tar.gz
+[2024-05-07 07:14:50] INFO root fetch - processPackages [proksee-batch]: New version: [0.6.0] Old Version: [0.5.9]
+[2024-05-07 07:14:50] INFO root fetch - processPackages [suql]: New version: [1.1.7a2] Old Version: [1.1.7a1]
+[2024-05-07 07:14:50] INFO root fetch - processPackages [ColabGeek]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-05-07 07:14:50] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/cd/e5/77ba32d35c45add0f725e323bf178c710319e608ffdec0b1828dafeeda4f/proksee_batch-0.5.9.tar.gz
+[2024-05-07 07:14:50] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/ee/0e/700a47cb14f497e673ab9875a362272657cdd9ae0d257f57b8c3005d3851/suql-1.1.7a1.tar.gz
+[2024-05-07 07:14:50] INFO root fetch - processPackages [ColabGeek]: Downloading https://files.pythonhosted.org/packages/16/74/603bb9b6f86b89b23926a9f98c7d613823987ef2f01a37ed2523cbaf2349/colabgeek-1.3.5.tar.gz
+[2024-05-07 07:14:51] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/78/26/79dece636032c00611a4546dfdd997ac9c67c8b202706dc055a1c45cc809/autorunpy-8.1.8.tar.gz
+[2024-05-07 07:14:51] INFO root fetch - processPackages [autorunpy]: executing diffoscope
+[2024-05-07 07:14:51] INFO root fetch - processPackages [autorunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorunpy-8.1.7.tar.gz tmp/autorunpy-8.1.8.tar.gz --markdown 20240507/a/autorunpy/8.1.7-8.1.8/README.md --exclude *.pyd
+[2024-05-07 07:14:51] INFO root fetch - processPackages [ColabGeek]: Downloading https://files.pythonhosted.org/packages/9c/3d/ea64411600bb671be90be27938da2ee35972c30d83f357748f21b915143e/colabgeek-1.3.6.tar.gz
+[2024-05-07 07:14:51] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/c2/0f/b57a0afccd560ea9a75efcf081bae28f420ce98ee75e9164f38a703ed56b/suql-1.1.7a2.tar.gz
+[2024-05-07 07:14:51] INFO root fetch - processPackages [ColabGeek]: executing diffoscope
+[2024-05-07 07:14:51] INFO root fetch - processPackages [ColabGeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colabgeek-1.3.5.tar.gz tmp/colabgeek-1.3.6.tar.gz --markdown 20240507/C/ColabGeek/1.3.5-1.3.6/README.md --exclude *.pyd
+[2024-05-07 07:14:51] INFO root fetch - processPackages [suql]: executing diffoscope
+[2024-05-07 07:14:51] INFO root fetch - processPackages [suql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suql-1.1.7a1.tar.gz tmp/suql-1.1.7a2.tar.gz --markdown 20240507/s/suql/1.1.7a1-1.1.7a2/README.md --exclude *.pyd
+[2024-05-07 07:14:51] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.1.7.tar.gz]
+[2024-05-07 07:14:51] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.1.8.tar.gz]
+[2024-05-07 07:14:51] INFO root fetch - main [MainThread]: End processing [autorunpy]: success
+[2024-05-07 07:14:51] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/5a/18/3bd99d0f739ce7b8f5f646db6678f21c7c623ebc24c3f70d5e9efeee257f/proksee_batch-0.6.0.tar.gz
+[2024-05-07 07:14:51] INFO root fetch - processPackages [ColabGeek]: Remove: archive file [/home/abi/fetcher/tmp/colabgeek-1.3.5.tar.gz]
+[2024-05-07 07:14:51] INFO root fetch - processPackages [ColabGeek]: Remove: archive file [/home/abi/fetcher/tmp/colabgeek-1.3.6.tar.gz]
+[2024-05-07 07:14:51] INFO root fetch - main [MainThread]: End processing [ColabGeek]: success
+[2024-05-07 07:14:52] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.7a1.tar.gz]
+[2024-05-07 07:14:52] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.7a2.tar.gz]
+[2024-05-07 07:14:52] INFO root fetch - main [MainThread]: End processing [suql]: success
+[2024-05-07 07:14:52] INFO root fetch - processPackages [proksee-batch]: executing diffoscope
+[2024-05-07 07:14:52] INFO root fetch - processPackages [proksee-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proksee_batch-0.5.9.tar.gz tmp/proksee_batch-0.6.0.tar.gz --markdown 20240507/p/proksee-batch/0.5.9-0.6.0/README.md --exclude *.pyd
+[2024-05-07 07:14:56] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.5.9.tar.gz]
+[2024-05-07 07:14:56] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.6.0.tar.gz]
+[2024-05-07 07:14:56] INFO root fetch - main [MainThread]: End processing [proksee-batch]: success
+[2024-05-07 07:14:56] INFO root fetch - main [MainThread]: Store serial: [23089785]
