@@ -8683,3 +8683,38 @@ EOFError: EOF read where object expected
 [2024-05-07 04:20:48] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.2.3.tar.gz]
 [2024-05-07 04:20:48] INFO root fetch - main [MainThread]: End processing [draggable-charts]: success
 [2024-05-07 04:20:48] INFO root fetch - main [MainThread]: Store serial: [23088431]
+[2024-05-07 04:22:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088431]
+[2024-05-07 04:22:57] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-07 04:24:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088431]
+[2024-05-07 04:25:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 04:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sz-utils
+[2024-05-07 04:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mountaineer
+[2024-05-07 04:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: niwatoko
+[2024-05-07 04:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weaviate-client
+[2024-05-07 04:25:03] INFO root fetch - processPackages [sz-utils]: New version: [0.3] Old Version: [0.2]
+[2024-05-07 04:25:03] INFO root fetch - processPackages [sz-utils]: Downloading https://files.pythonhosted.org/packages/3f/50/f415939155c629e12347286b99060c6d34fd22af0c629b1227c403e33e40/sz_utils-0.2.tar.gz
+[2024-05-07 04:25:03] WARNING root fetch - processPackages [niwatoko]: Skipping, unable to determine old version
+[2024-05-07 04:25:03] INFO root fetch - main [MainThread]: End processing [niwatoko] error
+[2024-05-07 04:25:03] INFO root fetch - processPackages [weaviate-client]: New version: [4.6.0b0] Old Version: [4.5rc0]
+[2024-05-07 04:25:03] INFO root fetch - processPackages [mountaineer]: New version: [0.5.0.dev3] Old Version: [0.5.0.dev2]
+[2024-05-07 04:25:03] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/7b/d5/fd11d5c4a81b94b52ee77af630b211b53b9e7e8a52d16765fabfea007b0e/weaviate-client-4.5rc0.tar.gz
+[2024-05-07 04:25:03] INFO root fetch - processPackages [sz-utils]: Downloading https://files.pythonhosted.org/packages/b8/c4/96550086923018d74f179777dba3d4121eb25844bd196525cd09151279cf/sz_utils-0.3.tar.gz
+[2024-05-07 04:25:03] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/2b/41/5f8b578650e9c21d4beb750074291f394772d4c46072d538c0353059d795/mountaineer-0.5.0.dev2.tar.gz
+[2024-05-07 04:25:03] INFO root fetch - processPackages [sz-utils]: executing diffoscope
+[2024-05-07 04:25:03] INFO root fetch - processPackages [sz-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sz_utils-0.2.tar.gz tmp/sz_utils-0.3.tar.gz --markdown 20240507/s/sz-utils/0.2-0.3/README.md --exclude *.pyd
+[2024-05-07 04:25:04] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/86/6b/39eae6f90ff58924dcf76b63a394df1d6a19b05c0cbdcfeef76d91083b84/weaviate_client-4.6.0b0.tar.gz
+[2024-05-07 04:25:04] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/23/cb/da100b31a8c6f511c601ba759000aa2c5cf075aea9a51179efa35fd6a2c6/mountaineer-0.5.0.dev3.tar.gz
+[2024-05-07 04:25:04] INFO root fetch - processPackages [weaviate-client]: executing diffoscope
+[2024-05-07 04:25:04] INFO root fetch - processPackages [weaviate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaviate-client-4.5rc0.tar.gz tmp/weaviate_client-4.6.0b0.tar.gz --markdown 20240507/w/weaviate-client/4.5rc0-4.6.0b0/README.md --exclude *.pyd
+[2024-05-07 04:25:04] INFO root fetch - processPackages [sz-utils]: Remove: archive file [/home/abi/fetcher/tmp/sz_utils-0.2.tar.gz]
+[2024-05-07 04:25:04] INFO root fetch - processPackages [sz-utils]: Remove: archive file [/home/abi/fetcher/tmp/sz_utils-0.3.tar.gz]
+[2024-05-07 04:25:04] INFO root fetch - main [MainThread]: End processing [sz-utils]: success
+[2024-05-07 04:25:05] INFO root fetch - processPackages [mountaineer]: executing diffoscope
+[2024-05-07 04:25:05] INFO root fetch - processPackages [mountaineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mountaineer-0.5.0.dev2.tar.gz tmp/mountaineer-0.5.0.dev3.tar.gz --markdown 20240507/m/mountaineer/0.5.0.dev2-0.5.0.dev3/README.md --exclude *.pyd
+[2024-05-07 04:25:06] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-4.5rc0.tar.gz]
+[2024-05-07 04:25:06] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate_client-4.6.0b0.tar.gz]
+[2024-05-07 04:25:06] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
+[2024-05-07 04:25:07] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.5.0.dev2.tar.gz]
+[2024-05-07 04:25:07] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.5.0.dev3.tar.gz]
+[2024-05-07 04:25:07] INFO root fetch - main [MainThread]: End processing [mountaineer]: success
+[2024-05-07 04:25:07] INFO root fetch - main [MainThread]: Store serial: [23088458]
