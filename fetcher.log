@@ -23295,3 +23295,113 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 14:29:51] INFO root fetch - processPackages [jupyterlab-new-launcher]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_new_launcher-0.2.0.tar.gz]
 [2024-05-07 14:29:51] INFO root fetch - main [MainThread]: End processing [jupyterlab-new-launcher]: success
 [2024-05-07 14:29:51] INFO root fetch - main [MainThread]: Store serial: [23095571]
+[2024-05-07 14:31:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23095571]
+[2024-05-07 14:31:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-07 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netclop
+[2024-05-07 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb
+[2024-05-07 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prophecy-libs
+[2024-05-07 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-dataset
+[2024-05-07 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-models
+[2024-05-07 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airbyte-source-mailchimp
+[2024-05-07 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-protos
+[2024-05-07 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-sdk
+[2024-05-07 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-telemetry
+[2024-05-07 14:31:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-utils
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb]: New version: [3.0.3.post478] Old Version: [3.0.3.post460]
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.0.3.post478] Old Version: [3.0.3.post460]
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-models]: New version: [3.0.3.post478] Old Version: [3.0.3.post460]
+[2024-05-07 14:32:00] INFO root fetch - processPackages [netclop]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.0.3.post478] Old Version: [3.0.3.post460]
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.0.3.post478] Old Version: [3.0.3.post460]
+[2024-05-07 14:32:00] INFO root fetch - processPackages [prophecy-libs]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/cb/df/52140c70621c6cb28ca720d67ffe6dd9ae19df205374e320a8702e7365bb/nucliadb_models-3.0.3.post460-py3-none-any.whl
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.0.3.post478] Old Version: [3.0.3.post460]
+[2024-05-07 14:32:00] INFO root fetch - processPackages [airbyte-source-mailchimp]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.0.3.post478] Old Version: [3.0.3.post460]
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/e7/51/c165754b0541fc9bf3d09fd8e95f81a81744294ab69d9b8a95fc8229ddd2/nucliadb_dataset-3.0.3.post460-py3-none-any.whl
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/8b/59/93ca29f09669f42499a22031b30e72202371cee9622b8fe434af1226f840/nucliadb-3.0.3.post460-py3-none-any.whl
+[2024-05-07 14:32:00] INFO root fetch - processPackages [netclop]: Downloading https://files.pythonhosted.org/packages/7b/ec/07b2d7397a59f4b6becaa4801eb6dd0ff374bf912361882d9e80e3db7ce9/netclop-0.9.0.tar.gz
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/bf/50/8e94999865319e8dacdd80e63e237a84bbf8533891e1aef8be350102efb8/nucliadb_utils-3.0.3.post460-py3-none-any.whl
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/aa/77/02fad39f4bfa9b6f2c5c26cfcbc958438371ee6cd763aec0a76034dc1271/nucliadb_sdk-3.0.3.post460-py3-none-any.whl
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/34/34/226bf756b28f89eb3073b1d7a66838d0c500bbf7aab76c7fc4ffa7b15c86/nucliadb_telemetry-3.0.3.post460-py3-none-any.whl
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/d7/af/01fc50e0e2ba641cc68c1b9c5cd39247502e9ad22d5f2a5889176af66f79/nucliadb_protos-3.0.3.post460-py3-none-any.whl
+[2024-05-07 14:32:00] INFO root fetch - processPackages [airbyte-source-mailchimp]: Downloading https://files.pythonhosted.org/packages/65/db/7886b8386940ec17ffd6440ac78db8f48d713f48f4015dd16e394627ce75/airbyte_source_mailchimp-2.0.2.tar.gz
+[2024-05-07 14:32:00] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/55/0a/90561ca774443a2a8fc7836ec65bd203b9a55822454194896bfcda5affbb/prophecy-libs-1.8.8.tar.gz
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/be/1c/d6daf8897bb4360906bf7f9b9072dbd8bfbfedc76c03d69238a6f4ed96b2/nucliadb_dataset-3.0.3.post478-py3-none-any.whl
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/15/38/42599695716d6c7f98402844d3c179598662943b843486205f899caf5e4e/nucliadb_models-3.0.3.post478-py3-none-any.whl
+[2024-05-07 14:32:00] INFO root fetch - processPackages [netclop]: Downloading https://files.pythonhosted.org/packages/3b/fe/41e73a17fd29eeb19e10e52e4257fdfdf5f4e2f8c3003313ee05695247dd/netclop-0.9.1.tar.gz
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/33/cf/553b061c73ee113368a185806fc089dcb168ec0bd3e9b8250ecbb00c99bf/nucliadb-3.0.3.post478-py3-none-any.whl
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/c4/db/f7239473044c73335c887ca5ed03fc3bd078d6811e184f5c9bdc5ede3d17/nucliadb_telemetry-3.0.3.post478-py3-none-any.whl
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.0.3.post460-py3-none-any.whl.zip tmp/nucliadb_dataset-3.0.3.post478-py3-none-any.whl.zip --markdown 20240507/n/nucliadb-dataset/3.0.3.post460-3.0.3.post478/README.md --exclude *.pyd
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/23/5f/f0450fbd326894daf50444f3f31172d2cba686f86d0842178824540f6aed/nucliadb_protos-3.0.3.post478-py3-none-any.whl
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/5c/2e/4621e9e9baf7eaa20994da6d36026f8ba10dcc9b4b3719148ad254b01af9/nucliadb_sdk-3.0.3.post478-py3-none-any.whl
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/14/fb/b7385b87091a5c2c70f212b4cabd1850a5a43e3d4da293b3927a8117c6eb/nucliadb_utils-3.0.3.post478-py3-none-any.whl
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-07 14:32:00] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.0.3.post460-py3-none-any.whl.zip tmp/nucliadb_models-3.0.3.post478-py3-none-any.whl.zip --markdown 20240507/n/nucliadb-models/3.0.3.post460-3.0.3.post478/README.md --exclude *.pyd
+[2024-05-07 14:32:01] INFO root fetch - processPackages [airbyte-source-mailchimp]: Downloading https://files.pythonhosted.org/packages/60/2f/3f73243e57e755955d4a5602bcbeb274b60c20038c8d385b089d6079302c/airbyte_source_mailchimp-2.0.3.tar.gz
+[2024-05-07 14:32:01] INFO root fetch - processPackages [netclop]: executing diffoscope
+[2024-05-07 14:32:01] INFO root fetch - processPackages [netclop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netclop-0.9.0.tar.gz tmp/netclop-0.9.1.tar.gz --markdown 20240507/n/netclop/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-07 14:32:01] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-07 14:32:01] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.0.3.post460-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.0.3.post478-py3-none-any.whl.zip --markdown 20240507/n/nucliadb-telemetry/3.0.3.post460-3.0.3.post478/README.md --exclude *.pyd
+[2024-05-07 14:32:01] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-07 14:32:01] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.0.3.post460-py3-none-any.whl.zip tmp/nucliadb_sdk-3.0.3.post478-py3-none-any.whl.zip --markdown 20240507/n/nucliadb-sdk/3.0.3.post460-3.0.3.post478/README.md --exclude *.pyd
+[2024-05-07 14:32:01] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-07 14:32:01] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.0.3.post460-py3-none-any.whl.zip tmp/nucliadb-3.0.3.post478-py3-none-any.whl.zip --markdown 20240507/n/nucliadb/3.0.3.post460-3.0.3.post478/README.md --exclude *.pyd
+[2024-05-07 14:32:01] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/4d/26/13eca2b0b22483c0bcc9a426ef208809d6e938fda5d639cd2122eaf7bd06/prophecy-libs-1.8.9.tar.gz
+[2024-05-07 14:32:01] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-07 14:32:01] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.0.3.post460-py3-none-any.whl.zip tmp/nucliadb_utils-3.0.3.post478-py3-none-any.whl.zip --markdown 20240507/n/nucliadb-utils/3.0.3.post460-3.0.3.post478/README.md --exclude *.pyd
+[2024-05-07 14:32:01] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-07 14:32:01] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.0.3.post460-py3-none-any.whl.zip tmp/nucliadb_protos-3.0.3.post478-py3-none-any.whl.zip --markdown 20240507/n/nucliadb-protos/3.0.3.post460-3.0.3.post478/README.md --exclude *.pyd
+[2024-05-07 14:32:01] INFO root fetch - processPackages [airbyte-source-mailchimp]: executing diffoscope
+[2024-05-07 14:32:01] INFO root fetch - processPackages [airbyte-source-mailchimp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_mailchimp-2.0.2.tar.gz tmp/airbyte_source_mailchimp-2.0.3.tar.gz --markdown 20240507/a/airbyte-source-mailchimp/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-07 14:32:01] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2024-05-07 14:32:01] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.8.8.tar.gz tmp/prophecy-libs-1.8.9.tar.gz --markdown 20240507/p/prophecy-libs/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-07 14:32:03] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.3.post460-py3-none-any.whl.zip]
+[2024-05-07 14:32:03] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.3.post478-py3-none-any.whl.zip]
+[2024-05-07 14:32:03] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: finml-utils
+[2024-05-07 14:32:03] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-07 14:32:03] INFO root fetch - processPackages [finml-utils]: New version: [2.2.0] Old Version: [2.1.9]
+[2024-05-07 14:32:03] INFO root fetch - processPackages [netclop]: Remove: archive file [/home/abi/fetcher/tmp/netclop-0.9.0.tar.gz]
+[2024-05-07 14:32:03] INFO root fetch - processPackages [netclop]: Remove: archive file [/home/abi/fetcher/tmp/netclop-0.9.1.tar.gz]
+[2024-05-07 14:32:03] INFO root fetch - processPackages [netclop]: Start processing: contextplus
+[2024-05-07 14:32:03] INFO root fetch - main [MainThread]: End processing [netclop]: success
+[2024-05-07 14:32:03] INFO root fetch - processPackages [finml-utils]: Downloading https://files.pythonhosted.org/packages/68/aa/83ae6c47201f4f6a5e26c388262a575d6b0ba34c2b0f44ca805847c70a03/finml_utils-2.1.9.tar.gz
+[2024-05-07 14:32:03] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post460-py3-none-any.whl.zip]
+[2024-05-07 14:32:03] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post478-py3-none-any.whl.zip]
+[2024-05-07 14:32:03] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.3.post460-py3-none-any.whl.zip]
+[2024-05-07 14:32:03] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.3.post478-py3-none-any.whl.zip]
+[2024-05-07 14:32:03] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: airbyte-source-slack
+[2024-05-07 14:32:03] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-07 14:32:03] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-07 14:32:03] WARNING root fetch - processPackages [contextplus]: Skipping, unable to determine old version
+[2024-05-07 14:32:03] INFO root fetch - main [MainThread]: End processing [contextplus] error
+[2024-05-07 14:32:03] INFO root fetch - processPackages [airbyte-source-slack]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-07 14:32:03] INFO root fetch - processPackages [airbyte-source-mailchimp]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_mailchimp-2.0.2.tar.gz]
+[2024-05-07 14:32:03] INFO root fetch - processPackages [airbyte-source-mailchimp]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_mailchimp-2.0.3.tar.gz]
+[2024-05-07 14:32:03] INFO root fetch - main [MainThread]: End processing [airbyte-source-mailchimp]: success
+[2024-05-07 14:32:03] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post460-py3-none-any.whl.zip]
+[2024-05-07 14:32:03] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post478-py3-none-any.whl.zip]
+[2024-05-07 14:32:03] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-07 14:32:03] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post460-py3-none-any.whl.zip]
+[2024-05-07 14:32:03] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post478-py3-none-any.whl.zip]
+[2024-05-07 14:32:03] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-07 14:32:04] INFO root fetch - processPackages [finml-utils]: Downloading https://files.pythonhosted.org/packages/6b/c8/50e2c3ba0418d85df1876db8568961da2f8c3cc03f455e14990e0bdca3d5/finml_utils-2.2.0.tar.gz
+[2024-05-07 14:32:04] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.3.post460-py3-none-any.whl.zip]
+[2024-05-07 14:32:04] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.3.post478-py3-none-any.whl.zip]
+[2024-05-07 14:32:04] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-07 14:32:04] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.8.tar.gz]
+[2024-05-07 14:32:04] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.9.tar.gz]
+[2024-05-07 14:32:04] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2024-05-07 14:32:04] INFO root fetch - processPackages [airbyte-source-slack]: Downloading https://files.pythonhosted.org/packages/89/ef/72115cc60d0f758efc17e4f482840f12cd5673da03a92b9345b549f60347/airbyte_source_slack-1.1.0.tar.gz
+[2024-05-07 14:32:04] INFO root fetch - processPackages [finml-utils]: executing diffoscope
+[2024-05-07 14:32:04] INFO root fetch - processPackages [finml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finml_utils-2.1.9.tar.gz tmp/finml_utils-2.2.0.tar.gz --markdown 20240507/f/finml-utils/2.1.9-2.2.0/README.md --exclude *.pyd
+[2024-05-07 14:32:04] ERROR root fetch - processPackages [airbyte-source-slack]: Unable to fetch info: No such project/version 'airbyte-source-slack' 1.1.1
+[2024-05-07 14:32:04] INFO root fetch - main [MainThread]: End processing [airbyte-source-slack] error
+[2024-05-07 14:32:04] INFO root fetch - processPackages [finml-utils]: Remove: archive file [/home/abi/fetcher/tmp/finml_utils-2.1.9.tar.gz]
+[2024-05-07 14:32:04] INFO root fetch - processPackages [finml-utils]: Remove: archive file [/home/abi/fetcher/tmp/finml_utils-2.2.0.tar.gz]
+[2024-05-07 14:32:04] INFO root fetch - main [MainThread]: End processing [finml-utils]: success
+[2024-05-07 14:32:05] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post460-py3-none-any.whl.zip]
+[2024-05-07 14:32:05] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post478-py3-none-any.whl.zip]
+[2024-05-07 14:32:05] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-07 14:32:05] INFO root fetch - main [MainThread]: Store serial: [23095611]
