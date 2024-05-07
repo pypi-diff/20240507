@@ -19592,3 +19592,54 @@ EOFError: EOF read where object expected
 [2024-05-07 12:22:57] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
 [2024-05-07 12:22:57] INFO root fetch - main [MainThread]: End processing [kayalab]: success
 [2024-05-07 12:22:57] INFO root fetch - main [MainThread]: Store serial: [23093574]
+[2024-05-07 12:25:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093574]
+[2024-05-07 12:25:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-ddmrp-history
+[2024-05-07 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-sample-argvalues
+[2024-05-07 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msanic
+[2024-05-07 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crud-repository
+[2024-05-07 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plivo
+[2024-05-07 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sphinx-scylladb-theme
+[2024-05-07 12:25:06] INFO root fetch - processPackages [plivo]: New version: [4.9.0] Old Version: [4.8.1]
+[2024-05-07 12:25:06] WARNING root fetch - processPackages [pytest-sample-argvalues]: Skipping, unable to determine old version
+[2024-05-07 12:25:06] INFO root fetch - main [MainThread]: End processing [pytest-sample-argvalues] error
+[2024-05-07 12:25:06] INFO root fetch - processPackages [crud-repository]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-07 12:25:06] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.1]
+[2024-05-07 12:25:06] INFO root fetch - processPackages [msanic]: New version: [1.0.20] Old Version: [1.0.19]
+[2024-05-07 12:25:06] INFO root fetch - processPackages [sphinx-scylladb-theme]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-05-07 12:25:06] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/95/33/d055b5b161cbccd9d8e8a3cb9b605d5e407ebd9b7c2898e8838f20833ff6/odoo_addon_ddmrp_history-16.0.1.1.1-py3-none-any.whl
+[2024-05-07 12:25:06] INFO root fetch - processPackages [crud-repository]: Downloading https://files.pythonhosted.org/packages/be/2b/cdd5d9216c346e3d3267ab62cfeb5e86928b1fad846cbf40f469496f867c/crud_repository-0.1.6.tar.gz
+[2024-05-07 12:25:06] INFO root fetch - processPackages [plivo]: Downloading https://files.pythonhosted.org/packages/0a/98/99826a7c72ddaccf707946547e62379085f668142ac0d12ee8ce5976e8db/plivo-4.8.1.tar.gz
+[2024-05-07 12:25:06] INFO root fetch - processPackages [msanic]: Downloading https://files.pythonhosted.org/packages/f5/aa/c4123b1abb5b91e5bc1c88f79b94e22d32db77d343fdb32a05b5054ef5d4/msanic-1.0.19-py3-none-any.whl
+[2024-05-07 12:25:07] INFO root fetch - processPackages [sphinx-scylladb-theme]: Downloading https://files.pythonhosted.org/packages/f6/a8/1d4470552dbd441b0406eb9fafee9370c3cfea12028aac1407a06b780fa7/sphinx_scylladb_theme-1.7.1.tar.gz
+[2024-05-07 12:25:07] INFO root fetch - processPackages [plivo]: Downloading https://files.pythonhosted.org/packages/44/fb/2b8994c1e34a8038dd5d9053ab3ae690961311ff4ff8296765c93f34d440/plivo-4.9.0.tar.gz
+[2024-05-07 12:25:07] INFO root fetch - processPackages [crud-repository]: Downloading https://files.pythonhosted.org/packages/0d/dc/e322733a67abe784d74698a373a8118faa4e575f3266df2dc98f05d9a71f/crud_repository-0.1.7.tar.gz
+[2024-05-07 12:25:07] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/d0/4b/166c8a6d74a4fb22781dab982b27ce02b469e3ad34a6511097e3c33a51e9/odoo_addon_ddmrp_history-16.0.1.2.0-py3-none-any.whl
+[2024-05-07 12:25:07] INFO root fetch - processPackages [msanic]: Downloading https://files.pythonhosted.org/packages/c3/aa/e76de6d039124a04da69769f937ff38bdd83d5b411a63cb27df688af13db/msanic-1.0.20-py3-none-any.whl
+[2024-05-07 12:25:07] INFO root fetch - processPackages [plivo]: executing diffoscope
+[2024-05-07 12:25:07] INFO root fetch - processPackages [plivo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plivo-4.8.1.tar.gz tmp/plivo-4.9.0.tar.gz --markdown 20240507/p/plivo/4.8.1-4.9.0/README.md --exclude *.pyd
+[2024-05-07 12:25:07] INFO root fetch - processPackages [crud-repository]: executing diffoscope
+[2024-05-07 12:25:07] INFO root fetch - processPackages [crud-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crud_repository-0.1.6.tar.gz tmp/crud_repository-0.1.7.tar.gz --markdown 20240507/c/crud-repository/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-07 12:25:07] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: executing diffoscope
+[2024-05-07 12:25:07] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_history-16.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_history-16.0.1.2.0-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-ddmrp-history/16.0.1.1.1-16.0.1.2.0/README.md --exclude *.pyd
+[2024-05-07 12:25:07] INFO root fetch - processPackages [msanic]: executing diffoscope
+[2024-05-07 12:25:07] INFO root fetch - processPackages [msanic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msanic-1.0.19-py3-none-any.whl.zip tmp/msanic-1.0.20-py3-none-any.whl.zip --markdown 20240507/m/msanic/1.0.19-1.0.20/README.md --exclude *.pyd
+[2024-05-07 12:25:07] INFO root fetch - processPackages [sphinx-scylladb-theme]: Downloading https://files.pythonhosted.org/packages/73/0a/67d0b7d1105e5ecf893ac5efd3b23175ca1764ed6603d80437c56273bef7/sphinx_scylladb_theme-1.7.2.tar.gz
+[2024-05-07 12:25:08] INFO root fetch - processPackages [sphinx-scylladb-theme]: executing diffoscope
+[2024-05-07 12:25:08] INFO root fetch - processPackages [sphinx-scylladb-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_scylladb_theme-1.7.1.tar.gz tmp/sphinx_scylladb_theme-1.7.2.tar.gz --markdown 20240507/s/sphinx-scylladb-theme/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-05-07 12:25:08] INFO root fetch - processPackages [msanic]: Remove: archive file [/home/abi/fetcher/tmp/msanic-1.0.19-py3-none-any.whl.zip]
+[2024-05-07 12:25:08] INFO root fetch - processPackages [msanic]: Remove: archive file [/home/abi/fetcher/tmp/msanic-1.0.20-py3-none-any.whl.zip]
+[2024-05-07 12:25:08] INFO root fetch - main [MainThread]: End processing [msanic]: success
+[2024-05-07 12:25:08] INFO root fetch - processPackages [crud-repository]: Remove: archive file [/home/abi/fetcher/tmp/crud_repository-0.1.6.tar.gz]
+[2024-05-07 12:25:08] INFO root fetch - processPackages [crud-repository]: Remove: archive file [/home/abi/fetcher/tmp/crud_repository-0.1.7.tar.gz]
+[2024-05-07 12:25:08] INFO root fetch - main [MainThread]: End processing [crud-repository]: success
+[2024-05-07 12:25:08] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_history-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-07 12:25:08] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_history-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-07 12:25:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-history]: success
+[2024-05-07 12:25:08] INFO root fetch - processPackages [plivo]: Remove: archive file [/home/abi/fetcher/tmp/plivo-4.8.1.tar.gz]
+[2024-05-07 12:25:08] INFO root fetch - processPackages [plivo]: Remove: archive file [/home/abi/fetcher/tmp/plivo-4.9.0.tar.gz]
+[2024-05-07 12:25:08] INFO root fetch - main [MainThread]: End processing [plivo]: success
+[2024-05-07 12:25:11] INFO root fetch - processPackages [sphinx-scylladb-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_scylladb_theme-1.7.1.tar.gz]
+[2024-05-07 12:25:11] INFO root fetch - processPackages [sphinx-scylladb-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_scylladb_theme-1.7.2.tar.gz]
+[2024-05-07 12:25:11] INFO root fetch - main [MainThread]: End processing [sphinx-scylladb-theme]: success
+[2024-05-07 12:25:11] INFO root fetch - main [MainThread]: Store serial: [23093603]
