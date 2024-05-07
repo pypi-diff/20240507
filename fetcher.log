@@ -21100,3 +21100,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 13:20:12] INFO root fetch - processPackages [bcra-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bcra_api_client-1.2.0.tar.gz]
 [2024-05-07 13:20:12] INFO root fetch - main [MainThread]: End processing [bcra-api-client]: success
 [2024-05-07 13:20:12] INFO root fetch - main [MainThread]: Store serial: [23094458]
+[2024-05-07 13:22:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094458]
+[2024-05-07 13:22:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 13:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bcra-api-client
+[2024-05-07 13:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DesalSim
+[2024-05-07 13:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe
+[2024-05-07 13:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swmmRouting
+[2024-05-07 13:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trajectopy
+[2024-05-07 13:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sap-business-document-processing
+[2024-05-07 13:22:21] INFO root fetch - processPackages [bcra-api-client]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-05-07 13:22:21] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240507] Old Version: [2.5.0b20240506]
+[2024-05-07 13:22:21] WARNING root fetch - processPackages [swmmRouting]: Skipping, unable to determine old version
+[2024-05-07 13:22:21] INFO root fetch - main [MainThread]: End processing [swmmRouting] error
+[2024-05-07 13:22:21] INFO root fetch - processPackages [bcra-api-client]: Downloading https://files.pythonhosted.org/packages/f0/a3/dbdf472fc055e24d96624075d78854bb20af2597463c84742123676cbaf2/bcra_api_client-1.1.9.tar.gz
+[2024-05-07 13:22:21] INFO root fetch - processPackages [sap-business-document-processing]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-07 13:22:21] INFO root fetch - processPackages [DesalSim]: New version: [0.2] Old Version: [0.1]
+[2024-05-07 13:22:21] INFO root fetch - processPackages [trajectopy]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-07 13:22:22] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/e0/2e/cfdc889c2483cd8a07d4c99d5f46fe9f250e6f3a566e7c41842e9069be00/bigdl_core_xe-2.5.0b20240506-cp39-cp39-manylinux2010_x86_64.whl
+[2024-05-07 13:22:22] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/66/54/90582b58e8f72b197cff3396a0019c91e3213ae7934729b15309a3c5c1dd/DesalSim-0.1-py3-none-any.whl
+[2024-05-07 13:22:22] INFO root fetch - processPackages [bcra-api-client]: Downloading https://files.pythonhosted.org/packages/ab/44/8540928c2c35748f3a23644ee0964d736a1d8e272dd467635d65dd66cceb/bcra_api_client-1.2.0.tar.gz
+[2024-05-07 13:22:22] INFO root fetch - processPackages [sap-business-document-processing]: Downloading https://files.pythonhosted.org/packages/f5/f5/d4b57f623a61cc00cb780f8a6a39f016af041f3e5d35b7069c464c82bceb/sap-business-document-processing-0.4.0.tar.gz
+[2024-05-07 13:22:22] INFO root fetch - processPackages [trajectopy]: Downloading https://files.pythonhosted.org/packages/82/d0/23476d8e67eca069fb092ed364aa715aa676a06ddd925465daae8ff4b207/trajectopy-2.0.8.tar.gz
+[2024-05-07 13:22:22] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105668128>=10485760
+[2024-05-07 13:22:22] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-05-07 13:22:22] INFO root fetch - processPackages [bcra-api-client]: executing diffoscope
+[2024-05-07 13:22:22] INFO root fetch - processPackages [bcra-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcra_api_client-1.1.9.tar.gz tmp/bcra_api_client-1.2.0.tar.gz --markdown 20240507/b/bcra-api-client/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-05-07 13:22:22] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/fe/66/22a2e41693c6bd35876a2b4ac0c700ac3d1d962225b54ff66ae9fac6cf62/DesalSim-0.2-py3-none-any.whl
+[2024-05-07 13:22:22] INFO root fetch - processPackages [trajectopy]: Downloading https://files.pythonhosted.org/packages/9a/fb/132130c7befc16a384cd5c50581f59169dfa013047ceec669b5d898d7bd2/trajectopy-2.0.9.tar.gz
+[2024-05-07 13:22:22] INFO root fetch - processPackages [sap-business-document-processing]: Downloading https://files.pythonhosted.org/packages/ef/16/52118abb327551b9b38805ae74a51c08167fb53ea4791dc2df9f40a5a646/sap_business_document_processing-0.4.1.tar.gz
+[2024-05-07 13:22:22] INFO root fetch - processPackages [DesalSim]: executing diffoscope
+[2024-05-07 13:22:22] INFO root fetch - processPackages [DesalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DesalSim-0.1-py3-none-any.whl.zip tmp/DesalSim-0.2-py3-none-any.whl.zip --markdown 20240507/D/DesalSim/0.1-0.2/README.md --exclude *.pyd
+[2024-05-07 13:22:22] INFO root fetch - processPackages [sap-business-document-processing]: executing diffoscope
+[2024-05-07 13:22:22] INFO root fetch - processPackages [sap-business-document-processing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sap-business-document-processing-0.4.0.tar.gz tmp/sap_business_document_processing-0.4.1.tar.gz --markdown 20240507/s/sap-business-document-processing/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-07 13:22:22] INFO root fetch - processPackages [trajectopy]: executing diffoscope
+[2024-05-07 13:22:22] INFO root fetch - processPackages [trajectopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trajectopy-2.0.8.tar.gz tmp/trajectopy-2.0.9.tar.gz --markdown 20240507/t/trajectopy/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-07 13:22:22] INFO root fetch - processPackages [bcra-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bcra_api_client-1.1.9.tar.gz]
+[2024-05-07 13:22:22] INFO root fetch - processPackages [bcra-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bcra_api_client-1.2.0.tar.gz]
+[2024-05-07 13:22:22] INFO root fetch - main [MainThread]: End processing [bcra-api-client]: success
+[2024-05-07 13:22:23] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/DesalSim-0.1-py3-none-any.whl.zip]
+[2024-05-07 13:22:23] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/DesalSim-0.2-py3-none-any.whl.zip]
+[2024-05-07 13:22:23] INFO root fetch - main [MainThread]: End processing [DesalSim]: success
+[2024-05-07 13:22:23] INFO root fetch - processPackages [trajectopy]: Remove: archive file [/home/abi/fetcher/tmp/trajectopy-2.0.8.tar.gz]
+[2024-05-07 13:22:23] INFO root fetch - processPackages [trajectopy]: Remove: archive file [/home/abi/fetcher/tmp/trajectopy-2.0.9.tar.gz]
+[2024-05-07 13:22:23] INFO root fetch - main [MainThread]: End processing [trajectopy]: success
+[2024-05-07 13:22:23] INFO root fetch - processPackages [sap-business-document-processing]: Remove: archive file [/home/abi/fetcher/tmp/sap-business-document-processing-0.4.0.tar.gz]
+[2024-05-07 13:22:23] INFO root fetch - processPackages [sap-business-document-processing]: Remove: archive file [/home/abi/fetcher/tmp/sap_business_document_processing-0.4.1.tar.gz]
+[2024-05-07 13:22:23] INFO root fetch - main [MainThread]: End processing [sap-business-document-processing]: success
+[2024-05-07 13:22:23] INFO root fetch - main [MainThread]: Store serial: [23094479]
