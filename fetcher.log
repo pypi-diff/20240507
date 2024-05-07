@@ -8811,3 +8811,21 @@ EOFError: EOF read where object expected
 [2024-05-07 04:31:38] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.0.4.tar.gz]
 [2024-05-07 04:31:38] INFO root fetch - main [MainThread]: End processing [anotify]: success
 [2024-05-07 04:31:38] INFO root fetch - main [MainThread]: Store serial: [23088505]
+[2024-05-07 04:33:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088505]
+[2024-05-07 04:33:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 04:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ytmusic-deleter
+[2024-05-07 04:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hebill-pypi
+[2024-05-07 04:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: impasturez
+[2024-05-07 04:33:46] INFO root fetch - processPackages [ytmusic-deleter]: New version: [2.3.0] Old Version: [2.2.2]
+[2024-05-07 04:33:46] WARNING root fetch - processPackages [impasturez]: Skipping, unable to determine old version
+[2024-05-07 04:33:46] INFO root fetch - main [MainThread]: End processing [impasturez] error
+[2024-05-07 04:33:46] ERROR root fetch - processPackages [hebill-pypi]: Unable to get metadata: No such project 'hebill-pypi'
+[2024-05-07 04:33:47] INFO root fetch - main [MainThread]: End processing [hebill-pypi] error
+[2024-05-07 04:33:47] INFO root fetch - processPackages [ytmusic-deleter]: Downloading https://files.pythonhosted.org/packages/ba/d7/acfd57fd0e1cf91eb054463edf7315b110abba478cc58b83ca72a40046b7/ytmusic_deleter-2.2.2.tar.gz
+[2024-05-07 04:33:47] INFO root fetch - processPackages [ytmusic-deleter]: Downloading https://files.pythonhosted.org/packages/d2/d1/c8f16b060f55a93368e7918435b4d97dc78c39df8fca96529e925ca93894/ytmusic_deleter-2.3.0.tar.gz
+[2024-05-07 04:33:47] INFO root fetch - processPackages [ytmusic-deleter]: executing diffoscope
+[2024-05-07 04:33:47] INFO root fetch - processPackages [ytmusic-deleter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytmusic_deleter-2.2.2.tar.gz tmp/ytmusic_deleter-2.3.0.tar.gz --markdown 20240507/y/ytmusic-deleter/2.2.2-2.3.0/README.md --exclude *.pyd
+[2024-05-07 04:33:48] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.2.2.tar.gz]
+[2024-05-07 04:33:48] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.3.0.tar.gz]
+[2024-05-07 04:33:48] INFO root fetch - main [MainThread]: End processing [ytmusic-deleter]: success
+[2024-05-07 04:33:48] INFO root fetch - main [MainThread]: Store serial: [23088517]
