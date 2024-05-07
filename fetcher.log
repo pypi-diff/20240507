@@ -15953,3 +15953,54 @@ EOFError: EOF read where object expected
 [2024-05-07 10:08:40] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240507061309.tar.gz]
 [2024-05-07 10:08:40] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-07 10:08:40] INFO root fetch - main [MainThread]: Store serial: [23091962]
+[2024-05-07 10:10:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091962]
+[2024-05-07 10:10:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 10:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zippyform
+[2024-05-07 10:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CTkMenuBar
+[2024-05-07 10:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-node-binding
+[2024-05-07 10:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cluster_tools
+[2024-05-07 10:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webknossos
+[2024-05-07 10:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ragstack-ai-langflow-base
+[2024-05-07 10:10:50] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1254] Old Version: [3.0.3.post1252]
+[2024-05-07 10:10:50] INFO root fetch - processPackages [cluster_tools]: New version: [1.61] Old Version: [1.60]
+[2024-05-07 10:10:50] INFO root fetch - processPackages [CTkMenuBar]: New version: [0.7] Old Version: [0.6]
+[2024-05-07 10:10:50] WARNING root fetch - processPackages [ragstack-ai-langflow-base]: Skipping, unable to determine old version
+[2024-05-07 10:10:50] INFO root fetch - main [MainThread]: End processing [ragstack-ai-langflow-base] error
+[2024-05-07 10:10:50] INFO root fetch - processPackages [webknossos]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-07 10:10:50] INFO root fetch - processPackages [zippyform]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-07 10:10:50] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/b9/f6/67d43759a9e33947bb85e7c711197fe2ad5a14f3ba376c23ad5639dd6d4c/nucliadb_node_binding-3.0.3.post1252.tar.gz
+[2024-05-07 10:10:50] INFO root fetch - processPackages [zippyform]: Downloading https://files.pythonhosted.org/packages/d7/d6/89a6c3a90a6a9ec63ae63d27de4e6b7e1a8b78b640496e3ed291bb36030e/zippyform-1.4.8-py3-none-any.whl
+[2024-05-07 10:10:50] INFO root fetch - processPackages [CTkMenuBar]: Downloading https://files.pythonhosted.org/packages/25/b7/40f20310e57660e6aefa9737965ae25ddb54f373e4c0284eb90bfcf595bc/ctkmenubar-0.6.tar.gz
+[2024-05-07 10:10:50] INFO root fetch - processPackages [cluster_tools]: Downloading https://files.pythonhosted.org/packages/55/95/8e06c87289a9b44d6590288790d348b307858d2b60a00ec30d67e9283c25/cluster_tools-1.60.tar.gz
+[2024-05-07 10:10:50] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/4d/c9/42745013d0db958e84167cf8ba8ddfd89dbae5c1261cbab4f13c519c94d3/webknossos-0.9.8.tar.gz
+[2024-05-07 10:10:50] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/67/cc/e93f2b9d2318acc2b6f94818fa84f40f79f8b0c248952b69bb4a91ac7c00/nucliadb_node_binding-3.0.3.post1254.tar.gz
+[2024-05-07 10:10:50] INFO root fetch - processPackages [zippyform]: Downloading https://files.pythonhosted.org/packages/7d/35/a3dfe5803d393705d1159b1f1a2642bbc1518edd9ce0df79604a1596ea5d/zippyform-1.4.9-py3-none-any.whl
+[2024-05-07 10:10:50] INFO root fetch - processPackages [CTkMenuBar]: Downloading https://files.pythonhosted.org/packages/f8/62/17a6e017a98ca9a25a90c506e09b3e215e45e3b5a384a9a959042edd1118/ctkmenubar-0.7.tar.gz
+[2024-05-07 10:10:50] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-07 10:10:50] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.3.post1252.tar.gz tmp/nucliadb_node_binding-3.0.3.post1254.tar.gz --markdown 20240507/n/nucliadb-node-binding/3.0.3.post1252-3.0.3.post1254/README.md --exclude *.pyd
+[2024-05-07 10:10:50] INFO root fetch - processPackages [zippyform]: executing diffoscope
+[2024-05-07 10:10:50] INFO root fetch - processPackages [zippyform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zippyform-1.4.8-py3-none-any.whl.zip tmp/zippyform-1.4.9-py3-none-any.whl.zip --markdown 20240507/z/zippyform/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-07 10:10:50] INFO root fetch - processPackages [CTkMenuBar]: executing diffoscope
+[2024-05-07 10:10:50] INFO root fetch - processPackages [CTkMenuBar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctkmenubar-0.6.tar.gz tmp/ctkmenubar-0.7.tar.gz --markdown 20240507/C/CTkMenuBar/0.6-0.7/README.md --exclude *.pyd
+[2024-05-07 10:10:51] INFO root fetch - processPackages [cluster_tools]: Downloading https://files.pythonhosted.org/packages/f1/c8/cfa558d3aa9a9e9a7b5d923e1008b8553c75e12df34ecec1666b038ba0d1/cluster_tools-1.61.tar.gz
+[2024-05-07 10:10:51] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/65/2d/254028182afa9bf201aacc282c3cd1026f4b26a37ffc1b5f38836ca32347/webknossos-0.9.9.tar.gz
+[2024-05-07 10:10:51] INFO root fetch - processPackages [cluster_tools]: executing diffoscope
+[2024-05-07 10:10:51] INFO root fetch - processPackages [cluster_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_tools-1.60.tar.gz tmp/cluster_tools-1.61.tar.gz --markdown 20240507/c/cluster_tools/1.60-1.61/README.md --exclude *.pyd
+[2024-05-07 10:10:51] INFO root fetch - processPackages [webknossos]: executing diffoscope
+[2024-05-07 10:10:51] INFO root fetch - processPackages [webknossos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webknossos-0.9.8.tar.gz tmp/webknossos-0.9.9.tar.gz --markdown 20240507/w/webknossos/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-07 10:10:51] INFO root fetch - processPackages [CTkMenuBar]: Remove: archive file [/home/abi/fetcher/tmp/ctkmenubar-0.6.tar.gz]
+[2024-05-07 10:10:51] INFO root fetch - processPackages [CTkMenuBar]: Remove: archive file [/home/abi/fetcher/tmp/ctkmenubar-0.7.tar.gz]
+[2024-05-07 10:10:51] INFO root fetch - main [MainThread]: End processing [CTkMenuBar]: success
+[2024-05-07 10:10:52] INFO root fetch - processPackages [cluster_tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.60.tar.gz]
+[2024-05-07 10:10:52] INFO root fetch - processPackages [cluster_tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.61.tar.gz]
+[2024-05-07 10:10:52] INFO root fetch - main [MainThread]: End processing [cluster_tools]: success
+[2024-05-07 10:10:52] INFO root fetch - processPackages [zippyform]: Remove: archive file [/home/abi/fetcher/tmp/zippyform-1.4.8-py3-none-any.whl.zip]
+[2024-05-07 10:10:52] INFO root fetch - processPackages [zippyform]: Remove: archive file [/home/abi/fetcher/tmp/zippyform-1.4.9-py3-none-any.whl.zip]
+[2024-05-07 10:10:52] INFO root fetch - main [MainThread]: End processing [zippyform]: success
+[2024-05-07 10:10:52] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.8.tar.gz]
+[2024-05-07 10:10:52] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.9.tar.gz]
+[2024-05-07 10:10:52] INFO root fetch - main [MainThread]: End processing [webknossos]: success
+[2024-05-07 10:10:53] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1252.tar.gz]
+[2024-05-07 10:10:53] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1254.tar.gz]
+[2024-05-07 10:10:53] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-07 10:10:53] INFO root fetch - main [MainThread]: Store serial: [23092001]
