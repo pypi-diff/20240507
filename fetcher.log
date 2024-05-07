@@ -16096,3 +16096,59 @@ EOFError: EOF read where object expected
 [2024-05-07 10:13:04] INFO root fetch - processPackages [atorch]: Remove: archive file [/home/abi/fetcher/tmp/atorch-0.1.9-py3-none-any.whl.zip]
 [2024-05-07 10:13:04] INFO root fetch - main [MainThread]: End processing [atorch]: success
 [2024-05-07 10:13:04] INFO root fetch - main [MainThread]: Store serial: [23092038]
+[2024-05-07 10:15:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092038]
+[2024-05-07 10:15:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-nvf-builds
+[2024-05-07 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gmsh
+[2024-05-07 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellium
+[2024-05-07 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kubernetes-stubs-elephant-fork
+[2024-05-07 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cj-package
+[2024-05-07 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eodc-faas-openeo
+[2024-05-07 10:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aissemble-foundation-core-python
+[2024-05-07 10:15:13] INFO root fetch - processPackages [aissemble-foundation-core-python]: New version: [1.7.0.dev1714997504] Old Version: [1.7.0.dev1714983383]
+[2024-05-07 10:15:13] INFO root fetch - processPackages [test-nvf-builds]: New version: [0.0.3.1] Old Version: [0.0.3]
+[2024-05-07 10:15:13] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 10:15:13] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.5.3] Old Version: [2024.5.2]
+[2024-05-07 10:15:13] WARNING root fetch - processPackages [cellium]: Skipping, unable to determine old version
+[2024-05-07 10:15:13] INFO root fetch - main [MainThread]: End processing [cellium] error
+[2024-05-07 10:15:13] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/d4/a1/3bbdae940f95e71df5ce20f53048244e3d254353a1ce1192a5366682faea/aissemble_foundation_core_python-1.7.0.dev1714983383.tar.gz
+[2024-05-07 10:15:13] INFO root fetch - processPackages [gmsh]: New version: [4.9.5] Old Version: [4.9.4]
+[2024-05-07 10:15:13] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-05-07 10:15:13] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/5c/f9/913e4d3b65a2384ff5359c3622b91dd9e05be9f47e9650f62d5f4444d1bd/eodc_faas_openeo-2024.5.2.tar.gz
+[2024-05-07 10:15:13] INFO root fetch - processPackages [test-nvf-builds]: Downloading https://files.pythonhosted.org/packages/af/f0/1ab4a33982ac3c59c2630e0042c8ba61f03918ab3793678dee0ffd591847/test_nvf_builds-0.0.3.tar.gz
+[2024-05-07 10:15:13] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-05-07 10:15:13] INFO root fetch - processPackages [gmsh]: Downloading https://files.pythonhosted.org/packages/c1/13/11641e093ee50cef4d59588da40c7ea685ec2ed07a02775c6f3a6ecb6c4f/gmsh-4.9.4-py2.py3-none-win_amd64.whl
+[2024-05-07 10:15:13] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Downloading https://files.pythonhosted.org/packages/c9/ed/fdd2b74255794abadde373183b25cf072451eae38bb00cc15cad67d74773/kubernetes-stubs-elephant-fork-9.0.0.tar.gz
+[2024-05-07 10:15:13] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-05-07 10:15:14] INFO root fetch - processPackages [test-nvf-builds]: Downloading https://files.pythonhosted.org/packages/33/f5/8a63be06cf42181c8349512dd50b94a4d1368de54cd85700cf6da7d3dcb7/test_nvf_builds-0.0.3.1.tar.gz
+[2024-05-07 10:15:14] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/56/cc/b4afd1695b6e46f16bf00e0a23374f893ceb38a301f5ff309d599700b4cb/eodc_faas_openeo-2024.5.3.tar.gz
+[2024-05-07 10:15:14] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/4c/d3/d2e98164761d877c1cb7650e86d567ae154173cfc0aa7bd0e3799ca491df/aissemble_foundation_core_python-1.7.0.dev1714997504.tar.gz
+[2024-05-07 10:15:14] WARNING root fetch - processPackages [gmsh]: Skipping package: exceeds size limit 38103909>=10485760
+[2024-05-07 10:15:14] INFO root fetch - main [MainThread]: End processing [gmsh] error
+[2024-05-07 10:15:14] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-05-07 10:15:14] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240507/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 10:15:14] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-05-07 10:15:14] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.5.2.tar.gz tmp/eodc_faas_openeo-2024.5.3.tar.gz --markdown 20240507/e/eodc-faas-openeo/2024.5.2-2024.5.3/README.md --exclude *.pyd
+[2024-05-07 10:15:14] INFO root fetch - processPackages [test-nvf-builds]: executing diffoscope
+[2024-05-07 10:15:14] INFO root fetch - processPackages [test-nvf-builds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_nvf_builds-0.0.3.tar.gz tmp/test_nvf_builds-0.0.3.1.tar.gz --markdown 20240507/t/test-nvf-builds/0.0.3-0.0.3.1/README.md --exclude *.pyd
+[2024-05-07 10:15:14] INFO root fetch - processPackages [aissemble-foundation-core-python]: executing diffoscope
+[2024-05-07 10:15:14] INFO root fetch - processPackages [aissemble-foundation-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_core_python-1.7.0.dev1714983383.tar.gz tmp/aissemble_foundation_core_python-1.7.0.dev1714997504.tar.gz --markdown 20240507/a/aissemble-foundation-core-python/1.7.0.dev1714983383-1.7.0.dev1714997504/README.md --exclude *.pyd
+[2024-05-07 10:15:14] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Downloading https://files.pythonhosted.org/packages/2e/d9/386b3b464cc30efb02b70020f066e50c70a783fb030e84116c74108a00f0/kubernetes-stubs-elephant-fork-9.0.1.tar.gz
+[2024-05-07 10:15:14] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: executing diffoscope
+[2024-05-07 10:15:14] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-stubs-elephant-fork-9.0.0.tar.gz tmp/kubernetes-stubs-elephant-fork-9.0.1.tar.gz --markdown 20240507/k/kubernetes-stubs-elephant-fork/9.0.0-9.0.1/README.md --exclude *.pyd
+[2024-05-07 10:15:14] INFO root fetch - processPackages [test-nvf-builds]: Remove: archive file [/home/abi/fetcher/tmp/test_nvf_builds-0.0.3.tar.gz]
+[2024-05-07 10:15:14] INFO root fetch - processPackages [test-nvf-builds]: Remove: archive file [/home/abi/fetcher/tmp/test_nvf_builds-0.0.3.1.tar.gz]
+[2024-05-07 10:15:14] INFO root fetch - main [MainThread]: End processing [test-nvf-builds]: success
+[2024-05-07 10:15:15] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.2.tar.gz]
+[2024-05-07 10:15:15] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.3.tar.gz]
+[2024-05-07 10:15:15] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-05-07 10:15:15] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-05-07 10:15:15] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-05-07 10:15:15] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-05-07 10:15:15] INFO root fetch - processPackages [aissemble-foundation-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_core_python-1.7.0.dev1714983383.tar.gz]
+[2024-05-07 10:15:15] INFO root fetch - processPackages [aissemble-foundation-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_core_python-1.7.0.dev1714997504.tar.gz]
+[2024-05-07 10:15:15] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-core-python]: success
+[2024-05-07 10:15:16] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes-stubs-elephant-fork-9.0.0.tar.gz]
+[2024-05-07 10:15:16] INFO root fetch - processPackages [kubernetes-stubs-elephant-fork]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes-stubs-elephant-fork-9.0.1.tar.gz]
+[2024-05-07 10:15:16] INFO root fetch - main [MainThread]: End processing [kubernetes-stubs-elephant-fork]: success
+[2024-05-07 10:15:16] INFO root fetch - main [MainThread]: Store serial: [23092068]
