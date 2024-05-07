@@ -19189,3 +19189,60 @@ EOFError: EOF read where object expected
 [2024-05-07 12:07:30] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a3.tar.gz]
 [2024-05-07 12:07:30] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
 [2024-05-07 12:07:30] INFO root fetch - main [MainThread]: Store serial: [23093417]
+[2024-05-07 12:09:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093417]
+[2024-05-07 12:09:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-07 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matcha-dl
+[2024-05-07 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prismacloud-cli
+[2024-05-07 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: storey
+[2024-05-07 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: burial-mounds
+[2024-05-07 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tdrpa.tdworker
+[2024-05-07 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-keras-nightly
+[2024-05-07 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ctrip-app-ui
+[2024-05-07 12:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clappform-integrations
+[2024-05-07 12:09:39] INFO root fetch - processPackages [clappform-integrations]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 12:09:39] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024050609] Old Version: [2.17.0.dev2024050509]
+[2024-05-07 12:09:39] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-07 12:09:39] WARNING root fetch - processPackages [matcha-dl]: Skipping, unable to determine old version
+[2024-05-07 12:09:39] INFO root fetch - main [MainThread]: End processing [matcha-dl] error
+[2024-05-07 12:09:39] INFO root fetch - processPackages [clappform-integrations]: Downloading https://files.pythonhosted.org/packages/20/77/57c7ebb9ba32b318b442c9f31f596182611f8b9949b9a0800a0f3abecdb5/clappform-integrations-1.0.8.tar.gz
+[2024-05-07 12:09:40] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/5d/99/e8664bc414b9b6e94e8dcc22c43abf61e51e33e21700080dd11ace5eda78/ctrip-app-ui-0.3.8.tar.gz
+[2024-05-07 12:09:40] WARNING root fetch - processPackages [tdrpa.tdworker]: Skipping, unable to determine old version
+[2024-05-07 12:09:40] INFO root fetch - main [MainThread]: End processing [tdrpa.tdworker] error
+[2024-05-07 12:09:40] WARNING root fetch - processPackages [burial-mounds]: Skipping, unable to determine old version
+[2024-05-07 12:09:40] INFO root fetch - main [MainThread]: End processing [burial-mounds] error
+[2024-05-07 12:09:40] INFO root fetch - processPackages [prismacloud-cli]: New version: [0.8.8] Old Version: [0.8.7]
+[2024-05-07 12:09:40] INFO root fetch - processPackages [storey]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-07 12:09:40] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/f3/25/86f61b551193508902d47d06cf3715ea4e779e756e207797d638bfe8a74b/tf_keras_nightly-2.17.0.dev2024050509.tar.gz
+[2024-05-07 12:09:40] INFO root fetch - processPackages [clappform-integrations]: Downloading https://files.pythonhosted.org/packages/1b/87/d1bd22e550a438c726df88f986c9ca34f15cf630f0c0d3587eb3081d4339/clappform-integrations-1.0.9.tar.gz
+[2024-05-07 12:09:40] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/39/fa/02e78ae42456c969e0180ec619563c793ea5f9306347abbe61b594fc4569/ctrip-app-ui-0.3.9.tar.gz
+[2024-05-07 12:09:40] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/ce/f2/fb725885928d8ccbbb0a7f28c52605a4972284c1100e5cca1a2523767ad3/storey-1.7.8.tar.gz
+[2024-05-07 12:09:40] INFO root fetch - processPackages [prismacloud-cli]: Downloading https://files.pythonhosted.org/packages/ee/b9/f8267ed065d05401cf2f2a8ab7eaaddcc1afac8677c93416c4f8ab1fe55d/prismacloud_cli-0.8.7.tar.gz
+[2024-05-07 12:09:40] INFO root fetch - processPackages [clappform-integrations]: executing diffoscope
+[2024-05-07 12:09:40] INFO root fetch - processPackages [clappform-integrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clappform-integrations-1.0.8.tar.gz tmp/clappform-integrations-1.0.9.tar.gz --markdown 20240507/c/clappform-integrations/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 12:09:40] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-07 12:09:40] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.3.8.tar.gz tmp/ctrip-app-ui-0.3.9.tar.gz --markdown 20240507/c/ctrip-app-ui/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-07 12:09:40] INFO root fetch - processPackages [prismacloud-cli]: Downloading https://files.pythonhosted.org/packages/f8/a5/4ddc3a0708a5d5d454123645bc2072d64f54a5c68b5eb52e43daa1352130/prismacloud_cli-0.8.8.tar.gz
+[2024-05-07 12:09:40] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/e9/cf/a9008ef0f4eb7ed0e0122ba67a031a8e71b48bf4bc01468d4ee1528e271e/tf_keras_nightly-2.17.0.dev2024050609.tar.gz
+[2024-05-07 12:09:40] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/7a/07/b7c06ed930f7729cbabcef2eff7245adf34a98245820a6dc5cc2585c3d31/storey-1.7.9.tar.gz
+[2024-05-07 12:09:40] INFO root fetch - processPackages [prismacloud-cli]: executing diffoscope
+[2024-05-07 12:09:40] INFO root fetch - processPackages [prismacloud-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismacloud_cli-0.8.7.tar.gz tmp/prismacloud_cli-0.8.8.tar.gz --markdown 20240507/p/prismacloud-cli/0.8.7-0.8.8/README.md --exclude *.pyd
+[2024-05-07 12:09:40] INFO root fetch - processPackages [storey]: executing diffoscope
+[2024-05-07 12:09:40] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.7.8.tar.gz tmp/storey-1.7.9.tar.gz --markdown 20240507/s/storey/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-07 12:09:40] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-07 12:09:40] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024050509.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024050609.tar.gz --markdown 20240507/t/tf-keras-nightly/2.17.0.dev2024050509-2.17.0.dev2024050609/README.md --exclude *.pyd
+[2024-05-07 12:09:41] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.8.tar.gz]
+[2024-05-07 12:09:41] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.9.tar.gz]
+[2024-05-07 12:09:41] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-07 12:09:41] INFO root fetch - processPackages [clappform-integrations]: Remove: archive file [/home/abi/fetcher/tmp/clappform-integrations-1.0.8.tar.gz]
+[2024-05-07 12:09:41] INFO root fetch - processPackages [clappform-integrations]: Remove: archive file [/home/abi/fetcher/tmp/clappform-integrations-1.0.9.tar.gz]
+[2024-05-07 12:09:41] INFO root fetch - main [MainThread]: End processing [clappform-integrations]: success
+[2024-05-07 12:09:41] INFO root fetch - processPackages [prismacloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/prismacloud_cli-0.8.7.tar.gz]
+[2024-05-07 12:09:41] INFO root fetch - processPackages [prismacloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/prismacloud_cli-0.8.8.tar.gz]
+[2024-05-07 12:09:41] INFO root fetch - main [MainThread]: End processing [prismacloud-cli]: success
+[2024-05-07 12:09:41] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.8.tar.gz]
+[2024-05-07 12:09:41] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.9.tar.gz]
+[2024-05-07 12:09:41] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2024-05-07 12:09:43] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050509.tar.gz]
+[2024-05-07 12:09:43] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050609.tar.gz]
+[2024-05-07 12:09:43] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-07 12:09:43] INFO root fetch - main [MainThread]: Store serial: [23093443]
