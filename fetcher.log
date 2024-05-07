@@ -18925,3 +18925,24 @@ EOFError: EOF read where object expected
 [2024-05-07 11:55:44] INFO root fetch - processPackages [clusterfun]: Remove: archive file [/home/abi/fetcher/tmp/clusterfun-0.3.0a7.tar.gz]
 [2024-05-07 11:55:44] INFO root fetch - main [MainThread]: End processing [clusterfun]: success
 [2024-05-07 11:55:44] INFO root fetch - main [MainThread]: Store serial: [23093316]
+[2024-05-07 11:57:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093316]
+[2024-05-07 11:57:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 11:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xwl
+[2024-05-07 11:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proboscis-async-events
+[2024-05-07 11:57:53] INFO root fetch - processPackages [proboscis-async-events]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-07 11:57:53] INFO root fetch - processPackages [proboscis-async-events]: Downloading https://files.pythonhosted.org/packages/f6/96/afd4b4deff155fc52f59ba225484446258281d521bb3a6379c27b7f6b299/proboscis_async_events-0.1.6.tar.gz
+[2024-05-07 11:57:53] INFO root fetch - processPackages [xwl]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 11:57:53] INFO root fetch - processPackages [xwl]: Downloading https://files.pythonhosted.org/packages/78/d8/4321961eb49e1c4e9596626e300b49eaf1e9a86b0a02be39320c2f6020f7/xwl-1.0.0.tar.gz
+[2024-05-07 11:57:53] INFO root fetch - processPackages [proboscis-async-events]: Downloading https://files.pythonhosted.org/packages/69/b0/a8f16eb83d839772edb55f6a11b7edeff6260a051f86fc80a08442391b0a/proboscis_async_events-0.1.7.tar.gz
+[2024-05-07 11:57:53] INFO root fetch - processPackages [proboscis-async-events]: executing diffoscope
+[2024-05-07 11:57:53] INFO root fetch - processPackages [proboscis-async-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proboscis_async_events-0.1.6.tar.gz tmp/proboscis_async_events-0.1.7.tar.gz --markdown 20240507/p/proboscis-async-events/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-07 11:57:53] INFO root fetch - processPackages [xwl]: Downloading https://files.pythonhosted.org/packages/df/66/116c956388cae13f62248d3537423d17c09c4f8013c30a106cefc79217a3/xwl-1.0.1.tar.gz
+[2024-05-07 11:57:54] INFO root fetch - processPackages [xwl]: executing diffoscope
+[2024-05-07 11:57:54] INFO root fetch - processPackages [xwl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xwl-1.0.0.tar.gz tmp/xwl-1.0.1.tar.gz --markdown 20240507/x/xwl/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-07 11:57:54] INFO root fetch - processPackages [proboscis-async-events]: Remove: archive file [/home/abi/fetcher/tmp/proboscis_async_events-0.1.6.tar.gz]
+[2024-05-07 11:57:54] INFO root fetch - processPackages [proboscis-async-events]: Remove: archive file [/home/abi/fetcher/tmp/proboscis_async_events-0.1.7.tar.gz]
+[2024-05-07 11:57:54] INFO root fetch - main [MainThread]: End processing [proboscis-async-events]: success
+[2024-05-07 11:57:54] INFO root fetch - processPackages [xwl]: Remove: archive file [/home/abi/fetcher/tmp/xwl-1.0.0.tar.gz]
+[2024-05-07 11:57:54] INFO root fetch - processPackages [xwl]: Remove: archive file [/home/abi/fetcher/tmp/xwl-1.0.1.tar.gz]
+[2024-05-07 11:57:54] INFO root fetch - main [MainThread]: End processing [xwl]: success
+[2024-05-07 11:57:54] INFO root fetch - main [MainThread]: Store serial: [23093329]
