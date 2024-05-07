@@ -8850,3 +8850,42 @@ EOFError: EOF read where object expected
 [2024-05-07 04:35:58] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.1.9.tar.gz]
 [2024-05-07 04:35:58] INFO root fetch - main [MainThread]: End processing [opentelemetry_wrapper]: success
 [2024-05-07 04:35:58] INFO root fetch - main [MainThread]: Store serial: [23088524]
+[2024-05-07 04:38:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088524]
+[2024-05-07 04:38:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 04:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: covdrugsim
+[2024-05-07 04:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: T0
+[2024-05-07 04:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fsrs
+[2024-05-07 04:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fancy-dataclass
+[2024-05-07 04:38:06] INFO root fetch - processPackages [fsrs]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-07 04:38:06] INFO root fetch - processPackages [fancy-dataclass]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-07 04:38:06] INFO root fetch - processPackages [covdrugsim]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-07 04:38:06] INFO root fetch - processPackages [T0]: New version: [3.1.6] Old Version: [3.1.5.7]
+[2024-05-07 04:38:06] INFO root fetch - processPackages [T0]: Downloading https://files.pythonhosted.org/packages/e9/30/091c06d1e064ee8d49c8c52a781f7625c7f61656e743ea455797c5f387da/t0-3.1.5.7.tar.gz
+[2024-05-07 04:38:06] INFO root fetch - processPackages [fancy-dataclass]: Downloading https://files.pythonhosted.org/packages/7b/00/5526945a59b113cd615403686e1a6ad007eaf6c3ea94d5dc23a6b661e483/fancy_dataclass-0.4.3.tar.gz
+[2024-05-07 04:38:06] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/38/55/6a5ab08c5f137cca72fd3d6f5a7b920c92767da68cb325016eaee84d3099/covdrugsim-1.0.7.tar.gz
+[2024-05-07 04:38:06] INFO root fetch - processPackages [fsrs]: Downloading https://files.pythonhosted.org/packages/87/1f/eede6bcbcc47cd539412fc268e08afd13f088e184127018b63734f8edea3/fsrs-2.0.0.tar.gz
+[2024-05-07 04:38:07] INFO root fetch - processPackages [fsrs]: Downloading https://files.pythonhosted.org/packages/ad/a6/4c1e07f1a7b6d38d11abcb025d9768689fa1b162df9ebc565875ab85d033/fsrs-2.1.0.tar.gz
+[2024-05-07 04:38:07] INFO root fetch - processPackages [fancy-dataclass]: Downloading https://files.pythonhosted.org/packages/dc/b4/a40639466790da8b237ef360b2430f52bc1a98f88331542724314a68ff66/fancy_dataclass-0.4.4.tar.gz
+[2024-05-07 04:38:07] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/1d/f8/a6140ef5cbbe2a052db5f706c517173f0ccaa6638cee29b0cc5c37eb525c/covdrugsim-1.0.8.tar.gz
+[2024-05-07 04:38:07] INFO root fetch - processPackages [T0]: Downloading https://files.pythonhosted.org/packages/e9/35/65691066b9234be2381dedeabe485566192a3a84cd5cb080fbf4b70964a6/t0-3.1.6.tar.gz
+[2024-05-07 04:38:07] INFO root fetch - processPackages [fsrs]: executing diffoscope
+[2024-05-07 04:38:07] INFO root fetch - processPackages [fsrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs-2.0.0.tar.gz tmp/fsrs-2.1.0.tar.gz --markdown 20240507/f/fsrs/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-07 04:38:07] INFO root fetch - processPackages [covdrugsim]: executing diffoscope
+[2024-05-07 04:38:07] INFO root fetch - processPackages [covdrugsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covdrugsim-1.0.7.tar.gz tmp/covdrugsim-1.0.8.tar.gz --markdown 20240507/c/covdrugsim/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-07 04:38:07] INFO root fetch - processPackages [T0]: executing diffoscope
+[2024-05-07 04:38:07] INFO root fetch - processPackages [T0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t0-3.1.5.7.tar.gz tmp/t0-3.1.6.tar.gz --markdown 20240507/T/T0/3.1.5.7-3.1.6/README.md --exclude *.pyd
+[2024-05-07 04:38:07] INFO root fetch - processPackages [fancy-dataclass]: executing diffoscope
+[2024-05-07 04:38:07] INFO root fetch - processPackages [fancy-dataclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fancy_dataclass-0.4.3.tar.gz tmp/fancy_dataclass-0.4.4.tar.gz --markdown 20240507/f/fancy-dataclass/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-07 04:38:08] INFO root fetch - processPackages [fsrs]: Remove: archive file [/home/abi/fetcher/tmp/fsrs-2.0.0.tar.gz]
+[2024-05-07 04:38:08] INFO root fetch - processPackages [fsrs]: Remove: archive file [/home/abi/fetcher/tmp/fsrs-2.1.0.tar.gz]
+[2024-05-07 04:38:08] INFO root fetch - main [MainThread]: End processing [fsrs]: success
+[2024-05-07 04:38:08] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-1.0.7.tar.gz]
+[2024-05-07 04:38:08] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-1.0.8.tar.gz]
+[2024-05-07 04:38:08] INFO root fetch - main [MainThread]: End processing [covdrugsim]: success
+[2024-05-07 04:38:08] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-3.1.5.7.tar.gz]
+[2024-05-07 04:38:08] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-3.1.6.tar.gz]
+[2024-05-07 04:38:08] INFO root fetch - main [MainThread]: End processing [T0]: success
+[2024-05-07 04:38:09] INFO root fetch - processPackages [fancy-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/fancy_dataclass-0.4.3.tar.gz]
+[2024-05-07 04:38:09] INFO root fetch - processPackages [fancy-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/fancy_dataclass-0.4.4.tar.gz]
+[2024-05-07 04:38:09] INFO root fetch - main [MainThread]: End processing [fancy-dataclass]: success
+[2024-05-07 04:38:09] INFO root fetch - main [MainThread]: Store serial: [23088540]
