@@ -22838,3 +22838,113 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 14:17:20] INFO root fetch - processPackages [adls-acl]: Remove: archive file [/home/abi/fetcher/tmp/adls_acl-0.1.0.tar.gz]
 [2024-05-07 14:17:20] INFO root fetch - main [MainThread]: End processing [adls-acl]: success
 [2024-05-07 14:17:20] INFO root fetch - main [MainThread]: Store serial: [23095330]
+[2024-05-07 14:19:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23095330]
+[2024-05-07 14:19:29] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-07 14:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heartbeat-library
+[2024-05-07 14:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mrob
+[2024-05-07 14:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geo-skeletons
+[2024-05-07 14:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: numerous
+[2024-05-07 14:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-amazon-seller-partner
+[2024-05-07 14:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: policyengine-core
+[2024-05-07 14:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccxt
+[2024-05-07 14:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openctp-ctp-cp
+[2024-05-07 14:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: airbyte-source-amplitude
+[2024-05-07 14:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airbyte-source-github
+[2024-05-07 14:19:29] INFO root fetch - processPackages [policyengine-core]: New version: [2.9.0] Old Version: [2.8.2]
+[2024-05-07 14:19:29] INFO root fetch - processPackages [numerous]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-07 14:19:29] INFO root fetch - processPackages [ccxt]: New version: [4.3.9] Old Version: [4.3.8]
+[2024-05-07 14:19:29] WARNING root fetch - processPackages [heartbeat-library]: Skipping, unable to determine old version
+[2024-05-07 14:19:29] INFO root fetch - processPackages [heartbeat-library]: Start processing: new-dt-algorithm
+[2024-05-07 14:19:29] INFO root fetch - main [MainThread]: End processing [heartbeat-library] error
+[2024-05-07 14:19:29] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/07/97/2bc82753b761563058e4b2a2d1fdfa98561d4e4c738445057c8cab7cc095/policyengine-core-2.8.2.tar.gz
+[2024-05-07 14:19:29] INFO root fetch - processPackages [airbyte-source-amazon-seller-partner]: New version: [4.2.2] Old Version: [4.2.1]
+[2024-05-07 14:19:29] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/5e/24/27a07b2b8a687d40e67fce5f391929b59517618e05ed7af0de3d636a970b/numerous-0.1.3.tar.gz
+[2024-05-07 14:19:29] INFO root fetch - processPackages [airbyte-source-github]: New version: [1.7.2] Old Version: [1.7.1.dev202404071124]
+[2024-05-07 14:19:29] INFO root fetch - processPackages [airbyte-source-amplitude]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-07 14:19:29] INFO root fetch - processPackages [geo-skeletons]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-07 14:19:29] INFO root fetch - processPackages [mrob]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-07 14:19:29] INFO root fetch - processPackages [new-dt-algorithm]: New version: [0.6] Old Version: [0.5]
+[2024-05-07 14:19:29] INFO root fetch - processPackages [openctp-ctp-cp]: New version: [6.7.2.1] Old Version: [6.7.2]
+[2024-05-07 14:19:29] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 63953355>=10485760
+[2024-05-07 14:19:29] INFO root fetch - processPackages [numerous]: Start processing: openctp-ctp-cp
+[2024-05-07 14:19:29] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-05-07 14:19:29] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/1c/a1/3a1a3f9672e43a2620d2ab195c398183c3594751d3a306bd022e7ceccbb7/ccxt-4.3.8.tar.gz
+[2024-05-07 14:19:29] INFO root fetch - processPackages [openctp-ctp-cp]: New version: [6.7.2.1] Old Version: [6.7.2]
+[2024-05-07 14:19:29] INFO root fetch - processPackages [new-dt-algorithm]: Downloading https://files.pythonhosted.org/packages/02/a9/d6478336aa331232c5f29c6e2a98c73645e5779cce9c7bb6bed531dad22a/new_dt_algorithm-0.5.tar.gz
+[2024-05-07 14:19:29] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/ad/5b/464b09e20e64009ddb6226456859999ec5304ea0f62e9312887c08abf5c2/geo_skeletons-0.9.8.tar.gz
+[2024-05-07 14:19:29] INFO root fetch - processPackages [airbyte-source-amazon-seller-partner]: Downloading https://files.pythonhosted.org/packages/19/60/dcf1694f00d2bf1f51dbfac7d9bc73e85d24c76c16e403e68ce70df2ac3a/airbyte_source_amazon_seller_partner-4.2.1.tar.gz
+[2024-05-07 14:19:29] INFO root fetch - processPackages [mrob]: Downloading https://files.pythonhosted.org/packages/09/21/557f4b17f980d5892522880a8fb6b9110a6c4ba44f9362bedf4860a75d8e/mrob-0.0.7-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2024-05-07 14:19:29] INFO root fetch - processPackages [airbyte-source-amplitude]: Downloading https://files.pythonhosted.org/packages/bb/86/095ebff1cb8b0fce89013d69d7369627a9e0588fc38f7e8260447fab9d0b/airbyte_source_amplitude-0.3.7.tar.gz
+[2024-05-07 14:19:29] INFO root fetch - processPackages [airbyte-source-github]: Downloading https://files.pythonhosted.org/packages/60/53/28e4f0eae94f18e28c839d59f48b3dd3ad7d7ef30967ec9eebf2a189f140/airbyte_source_github-1.7.1.dev202404071124.tar.gz
+[2024-05-07 14:19:29] INFO root fetch - processPackages [openctp-ctp-cp]: Downloading https://files.pythonhosted.org/packages/de/70/9ea7da6b3116e40ecef3fbd5900739b32b78d8bc8654d4e9dfe91fb24ea2/openctp_ctp_cp-6.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-07 14:19:29] INFO root fetch - processPackages [openctp-ctp-cp]: Downloading https://files.pythonhosted.org/packages/de/70/9ea7da6b3116e40ecef3fbd5900739b32b78d8bc8654d4e9dfe91fb24ea2/openctp_ctp_cp-6.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-07 14:19:29] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/26/a2/83d36d4b568d37e6724b68831dc58b4b0c74c437e7537f296c45353a7986/policyengine-core-2.9.0.tar.gz
+[2024-05-07 14:19:30] INFO root fetch - processPackages [policyengine-core]: executing diffoscope
+[2024-05-07 14:19:30] INFO root fetch - processPackages [policyengine-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-core-2.8.2.tar.gz tmp/policyengine-core-2.9.0.tar.gz --markdown 20240507/p/policyengine-core/2.8.2-2.9.0/README.md --exclude *.pyd
+[2024-05-07 14:19:30] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/f0/34/c7c38c5c0bec0a22183d7eed68184bef3efe315a8570460824012267cbac/ccxt-4.3.9.tar.gz
+[2024-05-07 14:19:30] INFO root fetch - processPackages [new-dt-algorithm]: Downloading https://files.pythonhosted.org/packages/8e/01/3a997ab17576f497890f43d26d1bbc34873115f555186665e769dd26a61e/new_dt_algorithm-0.6.tar.gz
+[2024-05-07 14:19:30] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/55/ff/33fdd2d486474894b7e573b7ff7e1c2c8a6cfe7bbc874b599da533e0acc2/geo_skeletons-0.9.9.tar.gz
+[2024-05-07 14:19:30] INFO root fetch - processPackages [airbyte-source-amazon-seller-partner]: Downloading https://files.pythonhosted.org/packages/7c/3c/e48fd0f9ed61069fba870cda6511fb60e1a4f8e95feb4b188ced5686fb27/airbyte_source_amazon_seller_partner-4.2.2.tar.gz
+[2024-05-07 14:19:30] INFO root fetch - processPackages [airbyte-source-amplitude]: Downloading https://files.pythonhosted.org/packages/e2/af/3a232b3e230afe5045632d58223dbd6685b265176b639015c16fca04ccaa/airbyte_source_amplitude-0.3.8.tar.gz
+[2024-05-07 14:19:30] ERROR root fetch - processPackages [airbyte-source-github]: Unable to fetch info: No such project/version 'airbyte-source-github' 1.7.2
+[2024-05-07 14:19:30] INFO root fetch - processPackages [airbyte-source-github]: Start processing: nrpm
+[2024-05-07 14:19:30] INFO root fetch - main [MainThread]: End processing [airbyte-source-github] error
+[2024-05-07 14:19:30] INFO root fetch - processPackages [new-dt-algorithm]: executing diffoscope
+[2024-05-07 14:19:30] INFO root fetch - processPackages [new-dt-algorithm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/new_dt_algorithm-0.5.tar.gz tmp/new_dt_algorithm-0.6.tar.gz --markdown 20240507/n/new-dt-algorithm/0.5-0.6/README.md --exclude *.pyd
+[2024-05-07 14:19:30] INFO root fetch - processPackages [airbyte-source-amazon-seller-partner]: executing diffoscope
+[2024-05-07 14:19:30] INFO root fetch - processPackages [airbyte-source-amazon-seller-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_amazon_seller_partner-4.2.1.tar.gz tmp/airbyte_source_amazon_seller_partner-4.2.2.tar.gz --markdown 20240507/a/airbyte-source-amazon-seller-partner/4.2.1-4.2.2/README.md --exclude *.pyd
+[2024-05-07 14:19:30] INFO root fetch - processPackages [geo-skeletons]: executing diffoscope
+[2024-05-07 14:19:30] WARNING root fetch - processPackages [nrpm]: Skipping, unable to determine old version
+[2024-05-07 14:19:30] INFO root fetch - processPackages [geo-skeletons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_skeletons-0.9.8.tar.gz tmp/geo_skeletons-0.9.9.tar.gz --markdown 20240507/g/geo-skeletons/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-07 14:19:30] INFO root fetch - processPackages [nrpm]: Start processing: openctp-ctp-cp
+[2024-05-07 14:19:30] INFO root fetch - main [MainThread]: End processing [nrpm] error
+[2024-05-07 14:19:30] INFO root fetch - processPackages [openctp-ctp-cp]: New version: [6.7.2.1] Old Version: [6.7.2]
+[2024-05-07 14:19:30] INFO root fetch - processPackages [airbyte-source-amplitude]: executing diffoscope
+[2024-05-07 14:19:30] INFO root fetch - processPackages [airbyte-source-amplitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_amplitude-0.3.7.tar.gz tmp/airbyte_source_amplitude-0.3.8.tar.gz --markdown 20240507/a/airbyte-source-amplitude/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-07 14:19:30] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2024-05-07 14:19:30] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.3.8.tar.gz tmp/ccxt-4.3.9.tar.gz --markdown 20240507/c/ccxt/4.3.8-4.3.9/README.md --exclude *.pyd
+[2024-05-07 14:19:30] INFO root fetch - processPackages [openctp-ctp-cp]: Downloading https://files.pythonhosted.org/packages/0b/9f/4a19d0992ff3beb677d6f9c751386cd2a5e335bdb9fdcd61378148ada275/openctp_ctp_cp-6.7.2.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-07 14:19:30] INFO root fetch - processPackages [openctp-ctp-cp]: Downloading https://files.pythonhosted.org/packages/0b/9f/4a19d0992ff3beb677d6f9c751386cd2a5e335bdb9fdcd61378148ada275/openctp_ctp_cp-6.7.2.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-07 14:19:30] INFO root fetch - processPackages [openctp-ctp-cp]: Downloading https://files.pythonhosted.org/packages/0b/9f/4a19d0992ff3beb677d6f9c751386cd2a5e335bdb9fdcd61378148ada275/openctp_ctp_cp-6.7.2.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-07 14:19:31] INFO root fetch - processPackages [new-dt-algorithm]: Remove: archive file [/home/abi/fetcher/tmp/new_dt_algorithm-0.5.tar.gz]
+[2024-05-07 14:19:31] INFO root fetch - processPackages [new-dt-algorithm]: Remove: archive file [/home/abi/fetcher/tmp/new_dt_algorithm-0.6.tar.gz]
+[2024-05-07 14:19:31] INFO root fetch - processPackages [new-dt-algorithm]: Start processing: openctp-ctp-cp
+[2024-05-07 14:19:31] INFO root fetch - main [MainThread]: End processing [new-dt-algorithm]: success
+[2024-05-07 14:19:31] INFO root fetch - processPackages [openctp-ctp-cp]: New version: [6.7.2.1] Old Version: [6.7.2]
+[2024-05-07 14:19:31] INFO root fetch - processPackages [mrob]: Downloading https://files.pythonhosted.org/packages/2f/df/32022658f3967c87cc34658a8023f63670bccaf7cdd94d96127cc1da4728/mrob-0.0.8-py3-none-win_amd64.whl
+[2024-05-07 14:19:31] INFO root fetch - processPackages [airbyte-source-amplitude]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_amplitude-0.3.7.tar.gz]
+[2024-05-07 14:19:31] INFO root fetch - processPackages [airbyte-source-amplitude]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_amplitude-0.3.8.tar.gz]
+[2024-05-07 14:19:31] INFO root fetch - main [MainThread]: End processing [airbyte-source-amplitude]: success
+[2024-05-07 14:19:31] INFO root fetch - processPackages [openctp-ctp-cp]: Downloading https://files.pythonhosted.org/packages/0b/9f/4a19d0992ff3beb677d6f9c751386cd2a5e335bdb9fdcd61378148ada275/openctp_ctp_cp-6.7.2.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-07 14:19:31] INFO root fetch - processPackages [airbyte-source-amazon-seller-partner]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_amazon_seller_partner-4.2.1.tar.gz]
+[2024-05-07 14:19:31] INFO root fetch - processPackages [airbyte-source-amazon-seller-partner]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_amazon_seller_partner-4.2.2.tar.gz]
+[2024-05-07 14:19:31] INFO root fetch - main [MainThread]: End processing [airbyte-source-amazon-seller-partner]: success
+[2024-05-07 14:19:31] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.8.tar.gz]
+[2024-05-07 14:19:31] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.9.tar.gz]
+[2024-05-07 14:19:31] INFO root fetch - main [MainThread]: End processing [geo-skeletons]: success
+[2024-05-07 14:19:31] INFO root fetch - processPackages [mrob]: executing diffoscope
+[2024-05-07 14:19:31] INFO root fetch - processPackages [mrob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrob-0.0.7-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/mrob-0.0.8-py3-none-win_amd64.whl.zip --markdown 20240507/m/mrob/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-07 14:19:31] INFO root fetch - processPackages [policyengine-core]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-core-2.8.2.tar.gz]
+[2024-05-07 14:19:31] INFO root fetch - processPackages [policyengine-core]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-core-2.9.0.tar.gz]
+[2024-05-07 14:19:31] INFO root fetch - main [MainThread]: End processing [policyengine-core]: success
+[2024-05-07 14:19:32] INFO root fetch - processPackages [mrob]: Remove: archive file [/home/abi/fetcher/tmp/mrob-0.0.7-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2024-05-07 14:19:32] INFO root fetch - processPackages [mrob]: Remove: archive file [/home/abi/fetcher/tmp/mrob-0.0.8-py3-none-win_amd64.whl.zip]
+[2024-05-07 14:19:32] INFO root fetch - main [MainThread]: End processing [mrob]: success
+[2024-05-07 14:19:32] INFO root fetch - processPackages [openctp-ctp-cp]: executing diffoscope
+[2024-05-07 14:19:32] INFO root fetch - processPackages [openctp-ctp-cp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp_cp-6.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/openctp_ctp_cp-6.7.2.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240507/o/openctp-ctp-cp/6.7.2-6.7.2.1/README.md --exclude *.pyd
+[2024-05-07 14:19:32] INFO root fetch - processPackages [openctp-ctp-cp]: executing diffoscope
+[2024-05-07 14:19:32] INFO root fetch - processPackages [openctp-ctp-cp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp_cp-6.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/openctp_ctp_cp-6.7.2.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240507/o/openctp-ctp-cp/6.7.2-6.7.2.1/README.md --exclude *.pyd
+[2024-05-07 14:19:32] INFO root fetch - processPackages [openctp-ctp-cp]: executing diffoscope
+[2024-05-07 14:19:32] INFO root fetch - processPackages [openctp-ctp-cp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp_cp-6.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/openctp_ctp_cp-6.7.2.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240507/o/openctp-ctp-cp/6.7.2-6.7.2.1/README.md --exclude *.pyd
+[2024-05-07 14:19:32] INFO root fetch - processPackages [openctp-ctp-cp]: executing diffoscope
+[2024-05-07 14:19:32] INFO root fetch - processPackages [openctp-ctp-cp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openctp_ctp_cp-6.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/openctp_ctp_cp-6.7.2.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240507/o/openctp-ctp-cp/6.7.2-6.7.2.1/README.md --exclude *.pyd
+[2024-05-07 14:19:37] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.8.tar.gz]
+[2024-05-07 14:19:37] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.9.tar.gz]
+[2024-05-07 14:19:37] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2024-05-07 14:21:07] INFO root fetch - processPackages [openctp-ctp-cp]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctp_cp-6.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-07 14:21:07] INFO root fetch - processPackages [openctp-ctp-cp]: Remove: archive file [/home/abi/fetcher/tmp/openctp_ctp_cp-6.7.2.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-07 14:21:07] INFO root fetch - main [MainThread]: End processing [openctp-ctp-cp]: success
+[2024-05-07 14:21:09] INFO root fetch - main [MainThread]: End processing [openctp-ctp-cp]: success
+[2024-05-07 14:21:09] INFO root fetch - main [MainThread]: End processing [openctp-ctp-cp]: success
+[2024-05-07 14:21:09] INFO root fetch - main [MainThread]: End processing [openctp-ctp-cp]: success
+[2024-05-07 14:21:09] INFO root fetch - main [MainThread]: Store serial: [23095397]
