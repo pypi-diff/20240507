@@ -22302,3 +22302,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 13:56:48] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-4.0.0.tar.gz]
 [2024-05-07 13:56:48] INFO root fetch - main [MainThread]: End processing [T0]: success
 [2024-05-07 13:56:48] INFO root fetch - main [MainThread]: Store serial: [23095049]
+[2024-05-07 13:58:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23095049]
+[2024-05-07 13:58:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: machina-observatrix
+[2024-05-07 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thriftpy2
+[2024-05-07 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyperon
+[2024-05-07 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AutoMLApp
+[2024-05-07 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2024-05-07 13:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: astroid
+[2024-05-07 13:58:58] INFO root fetch - processPackages [AutoMLApp]: New version: [0.1.63] Old Version: [0.1.62]
+[2024-05-07 13:58:58] INFO root fetch - processPackages [astroid]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-05-07 13:58:58] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-07 13:58:58] WARNING root fetch - processPackages [machina-observatrix]: Skipping, unable to determine old version
+[2024-05-07 13:58:58] INFO root fetch - main [MainThread]: End processing [machina-observatrix] error
+[2024-05-07 13:58:58] INFO root fetch - processPackages [astroid]: Downloading https://files.pythonhosted.org/packages/a9/b9/f11533eed9b65606fb02f1b0994d8ed0903358bc55a6b9759e42f1134725/astroid-3.1.0.tar.gz
+[2024-05-07 13:58:58] INFO root fetch - processPackages [thriftpy2]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-05-07 13:58:58] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-07 13:58:58] INFO root fetch - processPackages [hyperon]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 13:58:58] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/bb/08/a2b257a2f004a3d8bb6e2df9649c722c5f66b5a7ae717e8a99344ed0d3c6/automlapp-0.1.62.tar.gz
+[2024-05-07 13:58:58] INFO root fetch - processPackages [thriftpy2]: Downloading https://files.pythonhosted.org/packages/9d/33/8cd7204ce170c82f78bfd327b3029ce94823ac8a784e021bf428a0b04a84/thriftpy2-0.4.9.tar.gz
+[2024-05-07 13:58:58] INFO root fetch - processPackages [hyperon]: Downloading https://files.pythonhosted.org/packages/aa/f2/89987f4d02b6e7e75405226f5ba6333a74f76c73cc05cf000dd30036b931/hyperon-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-07 13:58:58] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/6b/8f/6b788d1ceb171ebf6f45c6b209951cfd1fc1c6f43b67fb454eb70b8bd071/automlapp-0.1.63.tar.gz
+[2024-05-07 13:58:58] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-07 13:58:58] INFO root fetch - processPackages [astroid]: Downloading https://files.pythonhosted.org/packages/b6/e8/f86aa1fd91b7fa5b51ed53c9a06a94dba7cc388b51cb712e8721c41605ef/astroid-3.2.0.tar.gz
+[2024-05-07 13:58:58] INFO root fetch - processPackages [AutoMLApp]: executing diffoscope
+[2024-05-07 13:58:58] INFO root fetch - processPackages [AutoMLApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automlapp-0.1.62.tar.gz tmp/automlapp-0.1.63.tar.gz --markdown 20240507/A/AutoMLApp/0.1.62-0.1.63/README.md --exclude *.pyd
+[2024-05-07 13:58:59] INFO root fetch - processPackages [astroid]: executing diffoscope
+[2024-05-07 13:58:59] INFO root fetch - processPackages [astroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astroid-3.1.0.tar.gz tmp/astroid-3.2.0.tar.gz --markdown 20240507/a/astroid/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-05-07 13:58:59] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-07 13:58:59] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240507/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-07 13:58:59] INFO root fetch - processPackages [thriftpy2]: Downloading https://files.pythonhosted.org/packages/ed/b9/3296ead586c7484e099765fa15734a44586508f5306ba9ea6d4a719decd5/thriftpy2-0.5.0.tar.gz
+[2024-05-07 13:58:59] INFO root fetch - processPackages [thriftpy2]: executing diffoscope
+[2024-05-07 13:58:59] INFO root fetch - processPackages [thriftpy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thriftpy2-0.4.9.tar.gz tmp/thriftpy2-0.5.0.tar.gz --markdown 20240507/t/thriftpy2/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-05-07 13:58:59] INFO root fetch - processPackages [hyperon]: Downloading https://files.pythonhosted.org/packages/af/aa/5258cf1dd7ccf60ed66535ab6be38a3bba67791f7e660d7d038ff8cf3c80/hyperon-0.1.9-pp39-pypy39_pp73-manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-05-07 13:58:59] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.62.tar.gz]
+[2024-05-07 13:58:59] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.63.tar.gz]
+[2024-05-07 13:58:59] INFO root fetch - main [MainThread]: End processing [AutoMLApp]: success
+[2024-05-07 13:59:00] INFO root fetch - processPackages [astroid]: Remove: archive file [/home/abi/fetcher/tmp/astroid-3.1.0.tar.gz]
+[2024-05-07 13:59:00] INFO root fetch - processPackages [astroid]: Remove: archive file [/home/abi/fetcher/tmp/astroid-3.2.0.tar.gz]
+[2024-05-07 13:59:00] INFO root fetch - main [MainThread]: End processing [astroid]: success
+[2024-05-07 13:59:01] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-07 13:59:01] INFO root fetch - processPackages [thriftpy2]: Remove: archive file [/home/abi/fetcher/tmp/thriftpy2-0.4.9.tar.gz]
+[2024-05-07 13:59:01] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-07 13:59:01] INFO root fetch - processPackages [thriftpy2]: Remove: archive file [/home/abi/fetcher/tmp/thriftpy2-0.5.0.tar.gz]
+[2024-05-07 13:59:01] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-07 13:59:01] INFO root fetch - main [MainThread]: End processing [thriftpy2]: success
+[2024-05-07 13:59:01] INFO root fetch - processPackages [hyperon]: executing diffoscope
+[2024-05-07 13:59:01] INFO root fetch - processPackages [hyperon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperon-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/hyperon-0.1.9-pp39-pypy39_pp73-manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20240507/h/hyperon/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 13:59:02] INFO root fetch - processPackages [hyperon]: Remove: archive file [/home/abi/fetcher/tmp/hyperon-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-07 13:59:02] INFO root fetch - processPackages [hyperon]: Remove: archive file [/home/abi/fetcher/tmp/hyperon-0.1.9-pp39-pypy39_pp73-manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-05-07 13:59:02] INFO root fetch - main [MainThread]: End processing [hyperon]: success
+[2024-05-07 13:59:02] INFO root fetch - main [MainThread]: Store serial: [23095100]
