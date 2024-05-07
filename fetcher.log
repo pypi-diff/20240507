@@ -12082,3 +12082,42 @@ EOFError: EOF read where object expected
 [2024-05-07 07:43:28] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715059317.tar.gz]
 [2024-05-07 07:43:28] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
 [2024-05-07 07:43:28] INFO root fetch - main [MainThread]: Store serial: [23090044]
+[2024-05-07 07:45:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090044]
+[2024-05-07 07:45:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 07:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sng4onnx
+[2024-05-07 07:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autorunpy
+[2024-05-07 07:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: srcsrv
+[2024-05-07 07:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: psp-liquids-daq-parser
+[2024-05-07 07:45:37] INFO root fetch - processPackages [sng4onnx]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-07 07:45:37] INFO root fetch - processPackages [autorunpy]: New version: [8.1.9] Old Version: [8.1.8]
+[2024-05-07 07:45:38] INFO root fetch - processPackages [srcsrv]: New version: [1.2.15] Old Version: [1.2.13]
+[2024-05-07 07:45:38] INFO root fetch - processPackages [psp-liquids-daq-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 07:45:38] INFO root fetch - processPackages [sng4onnx]: Downloading https://files.pythonhosted.org/packages/20/e9/7225bd287fbab08e7557562518e93a3bc0377eaa3251ab67541306657d44/sng4onnx-1.0.2.tar.gz
+[2024-05-07 07:45:38] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/78/26/79dece636032c00611a4546dfdd997ac9c67c8b202706dc055a1c45cc809/autorunpy-8.1.8.tar.gz
+[2024-05-07 07:45:38] INFO root fetch - processPackages [srcsrv]: Downloading https://files.pythonhosted.org/packages/e0/08/2355846af4fe9330bc6c3510c8742d32f21c798343759ed9fbe57d80f9e6/srcsrv-1.2.13.tar.gz
+[2024-05-07 07:45:38] INFO root fetch - processPackages [psp-liquids-daq-parser]: Downloading https://files.pythonhosted.org/packages/5a/ac/acb2afa30ac1f5b2b0951c15a15e36c8ff37d2b157a58f13f26d6da72f9d/psp_liquids_daq_parser-0.0.8.tar.gz
+[2024-05-07 07:45:38] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/87/6a/5320449949756b9b4b752886bb89898fac32db3e5ddeee8a74a313f7fd19/autorunpy-8.1.9.tar.gz
+[2024-05-07 07:45:38] INFO root fetch - processPackages [sng4onnx]: Downloading https://files.pythonhosted.org/packages/d3/b0/d3ba956b36cfc2ea7490c5541aacad3f3b21030270ecf684ba73795d1cbb/sng4onnx-1.0.3.tar.gz
+[2024-05-07 07:45:38] INFO root fetch - processPackages [autorunpy]: executing diffoscope
+[2024-05-07 07:45:38] INFO root fetch - processPackages [autorunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorunpy-8.1.8.tar.gz tmp/autorunpy-8.1.9.tar.gz --markdown 20240507/a/autorunpy/8.1.8-8.1.9/README.md --exclude *.pyd
+[2024-05-07 07:45:38] INFO root fetch - processPackages [sng4onnx]: executing diffoscope
+[2024-05-07 07:45:38] INFO root fetch - processPackages [sng4onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sng4onnx-1.0.2.tar.gz tmp/sng4onnx-1.0.3.tar.gz --markdown 20240507/s/sng4onnx/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-07 07:45:38] INFO root fetch - processPackages [srcsrv]: Downloading https://files.pythonhosted.org/packages/21/2a/dc87d41d78592192baae8b0c44951442d83c6c5776672932c4615191854b/srcsrv-1.2.15.tar.gz
+[2024-05-07 07:45:38] INFO root fetch - processPackages [psp-liquids-daq-parser]: Downloading https://files.pythonhosted.org/packages/d4/93/54529293da723ef115445c4b8df210739f8431f36b86101fd0a2925667c2/psp_liquids_daq_parser-0.0.9.tar.gz
+[2024-05-07 07:45:38] INFO root fetch - processPackages [srcsrv]: executing diffoscope
+[2024-05-07 07:45:38] INFO root fetch - processPackages [srcsrv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srcsrv-1.2.13.tar.gz tmp/srcsrv-1.2.15.tar.gz --markdown 20240507/s/srcsrv/1.2.13-1.2.15/README.md --exclude *.pyd
+[2024-05-07 07:45:38] INFO root fetch - processPackages [psp-liquids-daq-parser]: executing diffoscope
+[2024-05-07 07:45:38] INFO root fetch - processPackages [psp-liquids-daq-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psp_liquids_daq_parser-0.0.8.tar.gz tmp/psp_liquids_daq_parser-0.0.9.tar.gz --markdown 20240507/p/psp-liquids-daq-parser/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 07:45:38] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.1.8.tar.gz]
+[2024-05-07 07:45:38] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.1.9.tar.gz]
+[2024-05-07 07:45:38] INFO root fetch - main [MainThread]: End processing [autorunpy]: success
+[2024-05-07 07:45:39] INFO root fetch - processPackages [sng4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sng4onnx-1.0.2.tar.gz]
+[2024-05-07 07:45:39] INFO root fetch - processPackages [sng4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sng4onnx-1.0.3.tar.gz]
+[2024-05-07 07:45:39] INFO root fetch - main [MainThread]: End processing [sng4onnx]: success
+[2024-05-07 07:45:39] INFO root fetch - processPackages [srcsrv]: Remove: archive file [/home/abi/fetcher/tmp/srcsrv-1.2.13.tar.gz]
+[2024-05-07 07:45:39] INFO root fetch - processPackages [srcsrv]: Remove: archive file [/home/abi/fetcher/tmp/srcsrv-1.2.15.tar.gz]
+[2024-05-07 07:45:39] INFO root fetch - main [MainThread]: End processing [srcsrv]: success
+[2024-05-07 07:45:39] INFO root fetch - processPackages [psp-liquids-daq-parser]: Remove: archive file [/home/abi/fetcher/tmp/psp_liquids_daq_parser-0.0.8.tar.gz]
+[2024-05-07 07:45:39] INFO root fetch - processPackages [psp-liquids-daq-parser]: Remove: archive file [/home/abi/fetcher/tmp/psp_liquids_daq_parser-0.0.9.tar.gz]
+[2024-05-07 07:45:39] INFO root fetch - main [MainThread]: End processing [psp-liquids-daq-parser]: success
+[2024-05-07 07:45:39] INFO root fetch - main [MainThread]: Store serial: [23090058]
