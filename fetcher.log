@@ -19409,3 +19409,51 @@ EOFError: EOF read where object expected
 [2024-05-07 12:16:17] INFO root fetch - processPackages [AlekSIS-Core]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_core-4.0.0.dev8.tar.gz]
 [2024-05-07 12:16:17] INFO root fetch - main [MainThread]: End processing [AlekSIS-Core]: success
 [2024-05-07 12:16:17] INFO root fetch - main [MainThread]: Store serial: [23093509]
+[2024-05-07 12:18:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093509]
+[2024-05-07 12:18:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 12:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ce-mkc
+[2024-05-07 12:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqlib
+[2024-05-07 12:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: operational-hours-local
+[2024-05-07 12:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mimllearning
+[2024-05-07 12:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysigma-backend-loki
+[2024-05-07 12:18:26] INFO root fetch - processPackages [ce-mkc]: New version: [0.1.0] Old Version: [0.0.1a0]
+[2024-05-07 12:18:26] INFO root fetch - processPackages [mimllearning]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-07 12:18:26] INFO root fetch - processPackages [operational-hours-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 12:18:26] INFO root fetch - processPackages [pyqlib]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-07 12:18:26] INFO root fetch - processPackages [pysigma-backend-loki]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-07 12:18:26] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/e6/6d/b180717f0acc3225871ffd3f01bed632e0b74bf25b67fd58909a0694780e/mimllearning-0.3.3.tar.gz
+[2024-05-07 12:18:26] INFO root fetch - processPackages [ce-mkc]: Downloading https://files.pythonhosted.org/packages/83/ae/527452bd330875aa6f047156e3c04502de934e6e4532e38de1bc36d9154f/ce_mkc-0.0.1a0.tar.gz
+[2024-05-07 12:18:26] INFO root fetch - processPackages [operational-hours-local]: Downloading https://files.pythonhosted.org/packages/62/d7/8c19cd542af91bf2f7a12c61d5e9ddfe19f4b8e05ce2b8eb15b8b91b7c01/operational-hours-local-0.0.8.tar.gz
+[2024-05-07 12:18:26] INFO root fetch - processPackages [pyqlib]: Downloading https://files.pythonhosted.org/packages/68/84/8ca774dfe5e9d6bc251e049b4fc7283acbc3294af1ac86f494ee9cf9e78a/pyqlib-0.9.3-cp38-cp38-win_amd64.whl
+[2024-05-07 12:18:26] INFO root fetch - processPackages [pysigma-backend-loki]: Downloading https://files.pythonhosted.org/packages/bb/f7/e14e2282ec896beb15cd67b1c316aba9ad27eaedf2edafab2e2cc5527662/pysigma_backend_loki-0.9.0.tar.gz
+[2024-05-07 12:18:26] INFO root fetch - processPackages [ce-mkc]: Downloading https://files.pythonhosted.org/packages/11/ab/9fff11613225db011d59bdc3a97169c34b56709bd7b878dfac2f0203b200/ce_mkc-0.1.0.tar.gz
+[2024-05-07 12:18:27] INFO root fetch - processPackages [operational-hours-local]: Downloading https://files.pythonhosted.org/packages/9f/c6/6ece5cbf9f4733d5c095727160e6c68b2688cd1a0d8a81cbedfc6b20859f/operational-hours-local-0.0.9.tar.gz
+[2024-05-07 12:18:27] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/d6/56/bc98b72a875e532ea20cdef34b73c10a839a2a306f8ea0dd633b0f224df6/mimllearning-0.3.4.tar.gz
+[2024-05-07 12:18:27] INFO root fetch - processPackages [ce-mkc]: executing diffoscope
+[2024-05-07 12:18:27] INFO root fetch - processPackages [ce-mkc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ce_mkc-0.0.1a0.tar.gz tmp/ce_mkc-0.1.0.tar.gz --markdown 20240507/c/ce-mkc/0.0.1a0-0.1.0/README.md --exclude *.pyd
+[2024-05-07 12:18:27] INFO root fetch - processPackages [operational-hours-local]: executing diffoscope
+[2024-05-07 12:18:27] INFO root fetch - processPackages [operational-hours-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/operational-hours-local-0.0.8.tar.gz tmp/operational-hours-local-0.0.9.tar.gz --markdown 20240507/o/operational-hours-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 12:18:27] INFO root fetch - processPackages [pysigma-backend-loki]: Downloading https://files.pythonhosted.org/packages/73/14/dbea29f5e6ffce8a35e714f3610c64f181b86fc776ec32141d71280f45f9/pysigma_backend_loki-0.9.1.tar.gz
+[2024-05-07 12:18:27] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-07 12:18:27] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.3.3.tar.gz tmp/mimllearning-0.3.4.tar.gz --markdown 20240507/m/mimllearning/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-07 12:18:27] INFO root fetch - processPackages [pyqlib]: Downloading https://files.pythonhosted.org/packages/d2/3a/3db73ec26b1b216736ffe322e22513ca566281c494aa0af8d6c959982d91/pyqlib-0.9.4-cp38-cp38-win_amd64.whl
+[2024-05-07 12:18:27] INFO root fetch - processPackages [pysigma-backend-loki]: executing diffoscope
+[2024-05-07 12:18:27] INFO root fetch - processPackages [pysigma-backend-loki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_loki-0.9.0.tar.gz tmp/pysigma_backend_loki-0.9.1.tar.gz --markdown 20240507/p/pysigma-backend-loki/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-07 12:18:27] INFO root fetch - processPackages [pyqlib]: executing diffoscope
+[2024-05-07 12:18:27] INFO root fetch - processPackages [pyqlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqlib-0.9.3-cp38-cp38-win_amd64.whl.zip tmp/pyqlib-0.9.4-cp38-cp38-win_amd64.whl.zip --markdown 20240507/p/pyqlib/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-07 12:18:28] INFO root fetch - processPackages [ce-mkc]: Remove: archive file [/home/abi/fetcher/tmp/ce_mkc-0.0.1a0.tar.gz]
+[2024-05-07 12:18:28] INFO root fetch - processPackages [ce-mkc]: Remove: archive file [/home/abi/fetcher/tmp/ce_mkc-0.1.0.tar.gz]
+[2024-05-07 12:18:28] INFO root fetch - main [MainThread]: End processing [ce-mkc]: success
+[2024-05-07 12:18:28] INFO root fetch - processPackages [operational-hours-local]: Remove: archive file [/home/abi/fetcher/tmp/operational-hours-local-0.0.8.tar.gz]
+[2024-05-07 12:18:28] INFO root fetch - processPackages [operational-hours-local]: Remove: archive file [/home/abi/fetcher/tmp/operational-hours-local-0.0.9.tar.gz]
+[2024-05-07 12:18:28] INFO root fetch - main [MainThread]: End processing [operational-hours-local]: success
+[2024-05-07 12:18:28] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.3.3.tar.gz]
+[2024-05-07 12:18:28] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.3.4.tar.gz]
+[2024-05-07 12:18:28] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-07 12:18:28] INFO root fetch - processPackages [pysigma-backend-loki]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_loki-0.9.0.tar.gz]
+[2024-05-07 12:18:28] INFO root fetch - processPackages [pysigma-backend-loki]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_loki-0.9.1.tar.gz]
+[2024-05-07 12:18:28] INFO root fetch - main [MainThread]: End processing [pysigma-backend-loki]: success
+[2024-05-07 12:18:29] INFO root fetch - processPackages [pyqlib]: Remove: archive file [/home/abi/fetcher/tmp/pyqlib-0.9.3-cp38-cp38-win_amd64.whl.zip]
+[2024-05-07 12:18:29] INFO root fetch - processPackages [pyqlib]: Remove: archive file [/home/abi/fetcher/tmp/pyqlib-0.9.4-cp38-cp38-win_amd64.whl.zip]
+[2024-05-07 12:18:29] INFO root fetch - main [MainThread]: End processing [pyqlib]: success
+[2024-05-07 12:18:29] INFO root fetch - main [MainThread]: Store serial: [23093527]
