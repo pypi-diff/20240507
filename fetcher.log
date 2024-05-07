@@ -11647,3 +11647,53 @@ EOFError: EOF read where object expected
 [2024-05-07 07:21:33] INFO root fetch - processPackages [libmodi-python]: Remove: archive file [/home/abi/fetcher/tmp/libmodi-python-20240507.tar.gz]
 [2024-05-07 07:21:33] INFO root fetch - main [MainThread]: End processing [libmodi-python]: success
 [2024-05-07 07:21:33] INFO root fetch - main [MainThread]: Store serial: [23089817]
+[2024-05-07 07:23:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089817]
+[2024-05-07 07:23:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 07:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mrkutil
+[2024-05-07 07:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shcheck
+[2024-05-07 07:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magentic
+[2024-05-07 07:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloudparing.aws-cdk
+[2024-05-07 07:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airflow-dagfactory
+[2024-05-07 07:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graph-validation-test-runners
+[2024-05-07 07:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xurpas-data-quality
+[2024-05-07 07:23:42] INFO root fetch - processPackages [mrkutil]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-07 07:23:42] INFO root fetch - processPackages [shcheck]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-07 07:23:42] WARNING root fetch - processPackages [airflow-dagfactory]: Skipping, unable to determine old version
+[2024-05-07 07:23:42] INFO root fetch - main [MainThread]: End processing [airflow-dagfactory] error
+[2024-05-07 07:23:42] INFO root fetch - processPackages [mrkutil]: Downloading https://files.pythonhosted.org/packages/ad/9b/2817f8d99d8df9cdbf650584ecd20069d49f27aa4a2802c910e32feb6826/mrkutil-1.3.1.tar.gz
+[2024-05-07 07:23:42] INFO root fetch - processPackages [shcheck]: Downloading https://files.pythonhosted.org/packages/e9/a0/f219ab1b5cb6c77d5e73fcc4a106f2aed51c6a018f1c05fa9056c989e670/shcheck-1.6.2.tar.gz
+[2024-05-07 07:23:42] WARNING root fetch - processPackages [graph-validation-test-runners]: Skipping, unable to determine old version
+[2024-05-07 07:23:42] INFO root fetch - main [MainThread]: End processing [graph-validation-test-runners] error
+[2024-05-07 07:23:42] INFO root fetch - processPackages [xurpas-data-quality]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-07 07:23:42] INFO root fetch - processPackages [cloudparing.aws-cdk]: New version: [0.0.18] Old Version: [0.0.17]
+[2024-05-07 07:23:42] INFO root fetch - processPackages [magentic]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-07 07:23:42] INFO root fetch - processPackages [mrkutil]: Downloading https://files.pythonhosted.org/packages/96/23/18aa8ab6fde97cd5f7752eb503b51e59b3a8559b166f3782863134c1476e/mrkutil-1.3.2.tar.gz
+[2024-05-07 07:23:42] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/e0/af/dcc591044d79a219a1bcae942f28392ffa43165dc185f9e153c73255eff8/xurpas_data_quality-0.0.1-py3-none-any.whl
+[2024-05-07 07:23:42] INFO root fetch - processPackages [cloudparing.aws-cdk]: Downloading https://files.pythonhosted.org/packages/59/7f/ba0fbb408a99f3dfc104cf9e63ceb7b2a081331355a6aaf65194ceeda656/cloudparing.aws-cdk-0.0.17.tar.gz
+[2024-05-07 07:23:42] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/b1/4c/c92b3a38ac6e6e9e2715083d4b0cd75ceb0e3bcbd7f805d25522283b4708/magentic-0.9.0.tar.gz
+[2024-05-07 07:23:42] INFO root fetch - processPackages [shcheck]: Downloading https://files.pythonhosted.org/packages/d8/6b/641750793099195d646ccf04c6985eaed0fa07029d7db992a5297ea70a52/shcheck-1.6.3.tar.gz
+[2024-05-07 07:23:42] INFO root fetch - processPackages [mrkutil]: executing diffoscope
+[2024-05-07 07:23:42] INFO root fetch - processPackages [mrkutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrkutil-1.3.1.tar.gz tmp/mrkutil-1.3.2.tar.gz --markdown 20240507/m/mrkutil/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-07 07:23:42] WARNING root fetch - processPackages [cloudparing.aws-cdk]: Skipping package: exceeds size limit 16629405>=10485760
+[2024-05-07 07:23:42] INFO root fetch - main [MainThread]: End processing [cloudparing.aws-cdk] error
+[2024-05-07 07:23:42] INFO root fetch - processPackages [shcheck]: executing diffoscope
+[2024-05-07 07:23:42] INFO root fetch - processPackages [shcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shcheck-1.6.2.tar.gz tmp/shcheck-1.6.3.tar.gz --markdown 20240507/s/shcheck/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-07 07:23:43] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/66/67/9e13388687fe4f4ac924492b24d4a07dc500ca278ab978f198640613efac/xurpas_data_quality-0.0.2-py3-none-any.whl
+[2024-05-07 07:23:43] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/14/4d/5c6c2464c5abac2cf0a83ac11e48dd90edf9b6d646f6825ce23b0bfe99bf/magentic-0.9.1.tar.gz
+[2024-05-07 07:23:43] INFO root fetch - processPackages [xurpas-data-quality]: executing diffoscope
+[2024-05-07 07:23:43] INFO root fetch - processPackages [xurpas-data-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xurpas_data_quality-0.0.1-py3-none-any.whl.zip tmp/xurpas_data_quality-0.0.2-py3-none-any.whl.zip --markdown 20240507/x/xurpas-data-quality/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-07 07:23:43] INFO root fetch - processPackages [magentic]: executing diffoscope
+[2024-05-07 07:23:43] INFO root fetch - processPackages [magentic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magentic-0.9.0.tar.gz tmp/magentic-0.9.1.tar.gz --markdown 20240507/m/magentic/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-07 07:23:43] INFO root fetch - processPackages [mrkutil]: Remove: archive file [/home/abi/fetcher/tmp/mrkutil-1.3.1.tar.gz]
+[2024-05-07 07:23:43] INFO root fetch - processPackages [mrkutil]: Remove: archive file [/home/abi/fetcher/tmp/mrkutil-1.3.2.tar.gz]
+[2024-05-07 07:23:43] INFO root fetch - main [MainThread]: End processing [mrkutil]: success
+[2024-05-07 07:23:43] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.1-py3-none-any.whl.zip]
+[2024-05-07 07:23:43] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.2-py3-none-any.whl.zip]
+[2024-05-07 07:23:43] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality]: success
+[2024-05-07 07:23:43] INFO root fetch - processPackages [shcheck]: Remove: archive file [/home/abi/fetcher/tmp/shcheck-1.6.2.tar.gz]
+[2024-05-07 07:23:43] INFO root fetch - processPackages [shcheck]: Remove: archive file [/home/abi/fetcher/tmp/shcheck-1.6.3.tar.gz]
+[2024-05-07 07:23:43] INFO root fetch - main [MainThread]: End processing [shcheck]: success
+[2024-05-07 07:23:43] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.9.0.tar.gz]
+[2024-05-07 07:23:43] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.9.1.tar.gz]
+[2024-05-07 07:23:43] INFO root fetch - main [MainThread]: End processing [magentic]: success
+[2024-05-07 07:23:43] INFO root fetch - main [MainThread]: Store serial: [23089900]
