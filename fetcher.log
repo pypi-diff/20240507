@@ -16544,3 +16544,50 @@ EOFError: EOF read where object expected
 [2024-05-07 10:31:27] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.20.9.tar.gz]
 [2024-05-07 10:31:27] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
 [2024-05-07 10:31:27] INFO root fetch - main [MainThread]: Store serial: [23092236]
+[2024-05-07 10:33:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092236]
+[2024-05-07 10:33:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 10:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akshare
+[2024-05-07 10:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2024-05-07 10:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowmapper
+[2024-05-07 10:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: REFPROP-connector
+[2024-05-07 10:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: junifer
+[2024-05-07 10:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-quality-validation-pydeequ
+[2024-05-07 10:33:36] INFO root fetch - processPackages [data-quality-validation-pydeequ]: New version: [0.6] Old Version: [0.5]
+[2024-05-07 10:33:36] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240506.14.19.971516] Old Version: [20240506.10.8.575986]
+[2024-05-07 10:33:36] INFO root fetch - processPackages [junifer]: New version: [0.0.5.dev52] Old Version: [0.0.5.dev48]
+[2024-05-07 10:33:36] INFO root fetch - processPackages [REFPROP-connector]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-07 10:33:36] WARNING root fetch - processPackages [flowmapper]: Skipping, unable to determine old version
+[2024-05-07 10:33:36] INFO root fetch - main [MainThread]: End processing [flowmapper] error
+[2024-05-07 10:33:36] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/21/95/cc1929b58c6631eb103751c5f6ed477cd07a60d1ed56dcf9d45195235c27/data-quality-validation-pydeequ-0.5.tar.gz
+[2024-05-07 10:33:36] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/ff/f5/c699e0d3001db147f583ca895db9f9a358c301c627346ac66423579d6527/junifer-0.0.5.dev48.tar.gz
+[2024-05-07 10:33:36] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-07 10:33:36] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/0e/bf/f4f2aaf2a93eec61f249f131b35de1a75efdec7fad0692505e9652a7c6c8/certora-cli-alpha-master-20240506.10.8.575986.tar.gz
+[2024-05-07 10:33:36] INFO root fetch - processPackages [REFPROP-connector]: Downloading https://files.pythonhosted.org/packages/79/6f/0ef8459fceae8bd882c848e94d9a7f0db29ec5efefe7249ca29f82556cec/REFPROP_connector-0.3.8.tar.gz
+[2024-05-07 10:33:36] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-07 10:33:36] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14532003>=10485760
+[2024-05-07 10:33:36] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-07 10:33:36] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/79/51/bfa020832e1466d448beb240aa8e0bf8980a6ac0f860fa00ef820d10084b/data-quality-validation-pydeequ-0.6.tar.gz
+[2024-05-07 10:33:36] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-07 10:33:36] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/3a/a0/60aeb29327ed119b3f374fcb16d12908ec698be19db294a7285b5a8bac44/junifer-0.0.5.dev52.tar.gz
+[2024-05-07 10:33:36] INFO root fetch - processPackages [data-quality-validation-pydeequ]: executing diffoscope
+[2024-05-07 10:33:36] INFO root fetch - processPackages [data-quality-validation-pydeequ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-quality-validation-pydeequ-0.5.tar.gz tmp/data-quality-validation-pydeequ-0.6.tar.gz --markdown 20240507/d/data-quality-validation-pydeequ/0.5-0.6/README.md --exclude *.pyd
+[2024-05-07 10:33:36] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-07 10:33:36] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240507/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-07 10:33:37] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2024-05-07 10:33:37] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.5.dev48.tar.gz tmp/junifer-0.0.5.dev52.tar.gz --markdown 20240507/j/junifer/0.0.5.dev48-0.0.5.dev52/README.md --exclude *.pyd
+[2024-05-07 10:33:37] INFO root fetch - processPackages [REFPROP-connector]: Downloading https://files.pythonhosted.org/packages/9a/f4/f63ed29e1c47e1088c6baa04954851066bb16c046d9322313d30d635767c/REFPROP_connector-0.3.9.tar.gz
+[2024-05-07 10:33:37] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.5.tar.gz]
+[2024-05-07 10:33:37] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.6.tar.gz]
+[2024-05-07 10:33:37] INFO root fetch - main [MainThread]: End processing [data-quality-validation-pydeequ]: success
+[2024-05-07 10:33:38] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev48.tar.gz]
+[2024-05-07 10:33:38] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev52.tar.gz]
+[2024-05-07 10:33:38] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2024-05-07 10:33:38] INFO root fetch - processPackages [REFPROP-connector]: executing diffoscope
+[2024-05-07 10:33:38] INFO root fetch - processPackages [REFPROP-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/REFPROP_connector-0.3.8.tar.gz tmp/REFPROP_connector-0.3.9.tar.gz --markdown 20240507/R/REFPROP-connector/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-07 10:33:39] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-07 10:33:39] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-07 10:33:39] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-07 10:33:39] INFO root fetch - processPackages [REFPROP-connector]: Remove: archive file [/home/abi/fetcher/tmp/REFPROP_connector-0.3.8.tar.gz]
+[2024-05-07 10:33:39] INFO root fetch - processPackages [REFPROP-connector]: Remove: archive file [/home/abi/fetcher/tmp/REFPROP_connector-0.3.9.tar.gz]
+[2024-05-07 10:33:39] INFO root fetch - main [MainThread]: End processing [REFPROP-connector]: success
+[2024-05-07 10:33:39] INFO root fetch - main [MainThread]: Store serial: [23092257]
