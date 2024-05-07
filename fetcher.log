@@ -8064,3 +8064,36 @@ EOFError: EOF read where object expected
 [2024-05-07 03:43:41] INFO root fetch - processPackages [deflate]: Remove: archive file [/home/abi/fetcher/tmp/deflate-0.6.1-cp39-cp39-musllinux_1_1_i686.whl.zip]
 [2024-05-07 03:43:41] INFO root fetch - main [MainThread]: End processing [deflate]: success
 [2024-05-07 03:43:41] INFO root fetch - main [MainThread]: Store serial: [23088197]
+[2024-05-07 03:45:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088197]
+[2024-05-07 03:45:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 03:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EmpireStateRunUp
+[2024-05-07 03:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vfs-appointment-bot
+[2024-05-07 03:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pawnlib
+[2024-05-07 03:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: m3u8-achiver
+[2024-05-07 03:45:50] WARNING root fetch - processPackages [m3u8-achiver]: Skipping, unable to determine old version
+[2024-05-07 03:45:50] INFO root fetch - main [MainThread]: End processing [m3u8-achiver] error
+[2024-05-07 03:45:50] INFO root fetch - processPackages [vfs-appointment-bot]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-07 03:45:50] INFO root fetch - processPackages [EmpireStateRunUp]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-07 03:45:50] INFO root fetch - processPackages [pawnlib]: New version: [1.1.8] Old Version: [1.1.6]
+[2024-05-07 03:45:50] INFO root fetch - processPackages [EmpireStateRunUp]: Downloading https://files.pythonhosted.org/packages/3b/d5/5dfe0b9484b87042eb8d1e80691ae51dd8228e5d22e742f01aca9361cf77/EmpireStateRunUp-0.0.6.tar.gz
+[2024-05-07 03:45:50] INFO root fetch - processPackages [vfs-appointment-bot]: Downloading https://files.pythonhosted.org/packages/c6/0d/c24ba15a1f38391f5d25491b0338863e7cc9af95e3ff5bba3c6e0c26b5ce/vfs_appointment_bot-1.0.0.tar.gz
+[2024-05-07 03:45:50] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/63/9c/254866062681d545e5cfe491202f3084ca2ab5a5e214f694a72a145ab155/pawnlib-1.1.6.tar.gz
+[2024-05-07 03:45:50] INFO root fetch - processPackages [vfs-appointment-bot]: Downloading https://files.pythonhosted.org/packages/82/38/544f14543918b35a964eaaaf49a3cfc9b4e0c9ee76671f742100c587a30d/vfs_appointment_bot-1.1.0.tar.gz
+[2024-05-07 03:45:51] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/94/46/a3f62337fd73d4349e50160758963fb73b71704119ef6293e3b8e140762a/pawnlib-1.1.8.tar.gz
+[2024-05-07 03:45:51] INFO root fetch - processPackages [vfs-appointment-bot]: executing diffoscope
+[2024-05-07 03:45:51] INFO root fetch - processPackages [vfs-appointment-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vfs_appointment_bot-1.0.0.tar.gz tmp/vfs_appointment_bot-1.1.0.tar.gz --markdown 20240507/v/vfs-appointment-bot/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-07 03:45:51] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2024-05-07 03:45:51] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-1.1.6.tar.gz tmp/pawnlib-1.1.8.tar.gz --markdown 20240507/p/pawnlib/1.1.6-1.1.8/README.md --exclude *.pyd
+[2024-05-07 03:45:51] INFO root fetch - processPackages [EmpireStateRunUp]: Downloading https://files.pythonhosted.org/packages/38/ea/70664bcd7747ae3fcc8d8f56f46eb3ba4cdaf79a55f5b86c1b4127d07571/EmpireStateRunUp-0.0.7.tar.gz
+[2024-05-07 03:45:51] INFO root fetch - processPackages [EmpireStateRunUp]: executing diffoscope
+[2024-05-07 03:45:51] INFO root fetch - processPackages [EmpireStateRunUp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EmpireStateRunUp-0.0.6.tar.gz tmp/EmpireStateRunUp-0.0.7.tar.gz --markdown 20240507/E/EmpireStateRunUp/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-07 03:45:51] INFO root fetch - processPackages [vfs-appointment-bot]: Remove: archive file [/home/abi/fetcher/tmp/vfs_appointment_bot-1.0.0.tar.gz]
+[2024-05-07 03:45:51] INFO root fetch - processPackages [vfs-appointment-bot]: Remove: archive file [/home/abi/fetcher/tmp/vfs_appointment_bot-1.1.0.tar.gz]
+[2024-05-07 03:45:51] INFO root fetch - main [MainThread]: End processing [vfs-appointment-bot]: success
+[2024-05-07 03:45:51] INFO root fetch - processPackages [pawnlib]: Remove: archive file [/home/abi/fetcher/tmp/pawnlib-1.1.6.tar.gz]
+[2024-05-07 03:45:51] INFO root fetch - processPackages [pawnlib]: Remove: archive file [/home/abi/fetcher/tmp/pawnlib-1.1.8.tar.gz]
+[2024-05-07 03:45:51] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2024-05-07 03:45:52] INFO root fetch - processPackages [EmpireStateRunUp]: Remove: archive file [/home/abi/fetcher/tmp/EmpireStateRunUp-0.0.6.tar.gz]
+[2024-05-07 03:45:52] INFO root fetch - processPackages [EmpireStateRunUp]: Remove: archive file [/home/abi/fetcher/tmp/EmpireStateRunUp-0.0.7.tar.gz]
+[2024-05-07 03:45:52] INFO root fetch - main [MainThread]: End processing [EmpireStateRunUp]: success
+[2024-05-07 03:45:52] INFO root fetch - main [MainThread]: Store serial: [23088217]
