@@ -13331,3 +13331,86 @@ EOFError: EOF read where object expected
 [2024-05-07 08:37:21] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
 [2024-05-07 08:37:21] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2024-05-07 08:37:21] INFO root fetch - main [MainThread]: Store serial: [23090743]
+[2024-05-07 08:39:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090743]
+[2024-05-07 08:39:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-07 08:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accelbyte-py-sdk-service-dslogmanager
+[2024-05-07 08:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: generics-package-mudit1234
+[2024-05-07 08:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: accelbyte-py-sdk-service-dsmc
+[2024-05-07 08:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-postgresql
+[2024-05-07 08:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: h5ui
+[2024-05-07 08:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: accelbyte-py-sdk-service-eventlog
+[2024-05-07 08:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-okta
+[2024-05-07 08:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-server-backend
+[2024-05-07 08:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rj2y
+[2024-05-07 08:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: accelbyte-py-sdk-service-gametelemetry
+[2024-05-07 08:39:31] INFO root fetch - processPackages [accelbyte-py-sdk-service-dslogmanager]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-07 08:39:31] INFO root fetch - processPackages [h5ui]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-07 08:39:31] INFO root fetch - processPackages [accelbyte-py-sdk-service-dsmc]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-07 08:39:31] WARNING root fetch - processPackages [generics-package-mudit1234]: Skipping, unable to determine old version
+[2024-05-07 08:39:31] INFO root fetch - main [MainThread]: End processing [generics-package-mudit1234] error
+[2024-05-07 08:39:31] INFO root fetch - processPackages [accelbyte-py-sdk-service-dslogmanager]: Downloading https://files.pythonhosted.org/packages/3f/6f/57013d3e5321a543a43784aebb0426018aaf5a18b87a775ffb8ca2eb9041/accelbyte-py-sdk-service-dslogmanager-0.3.0.tar.gz
+[2024-05-07 08:39:31] INFO root fetch - processPackages [accelbyte-py-sdk-service-gametelemetry]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-07 08:39:31] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: New version: [16.0.20240415.0] Old Version: [16.0.20240309.1]
+[2024-05-07 08:39:31] INFO root fetch - processPackages [accelbyte-py-sdk-service-eventlog]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-07 08:39:31] INFO root fetch - processPackages [rj2y]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-07 08:39:31] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1715061690] Old Version: [4.9.0a1714564883]
+[2024-05-07 08:39:31] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-05-07 08:39:31] INFO root fetch - processPackages [h5ui]: Downloading https://files.pythonhosted.org/packages/3c/29/02f2c96745daaf89eee8005716c793090935842e4aff5ad67f0a283bc9e5/h5ui-0.1.4.tar.gz
+[2024-05-07 08:39:31] INFO root fetch - processPackages [accelbyte-py-sdk-service-dsmc]: Downloading https://files.pythonhosted.org/packages/45/ca/ca271fb3eb8dfd3b53bd17d36c57f888a71ff848fa3b5ec0d21c7b00be51/accelbyte-py-sdk-service-dsmc-0.7.0.tar.gz
+[2024-05-07 08:39:31] INFO root fetch - processPackages [accelbyte-py-sdk-service-dslogmanager]: Downloading https://files.pythonhosted.org/packages/a6/83/d1b82ddb4336b42817a6308aca17aca660d8bc238fabef9d700007026533/accelbyte_py_sdk_service_dslogmanager-0.4.0.tar.gz
+[2024-05-07 08:39:31] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Downloading https://files.pythonhosted.org/packages/d3/40/89db5cb51e9202fc229b9265a5d1327228e31b095c70a26776fab4c8dce9/odoo_addons_oca_server_backend-16.0.20240309.1-py3-none-any.whl
+[2024-05-07 08:39:31] INFO root fetch - processPackages [accelbyte-py-sdk-service-gametelemetry]: Downloading https://files.pythonhosted.org/packages/3b/f7/aa8743c14b8e9ac865b7dc16b2fb812a501191aaae2aea86636667aa755c/accelbyte-py-sdk-service-gametelemetry-0.6.0.tar.gz
+[2024-05-07 08:39:31] WARNING root fetch - processPackages [h5ui]: Skipping package: exceeds size limit 12183763>=10485760
+[2024-05-07 08:39:31] INFO root fetch - main [MainThread]: End processing [h5ui] error
+[2024-05-07 08:39:31] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-05-07 08:39:31] INFO root fetch - processPackages [accelbyte-py-sdk-service-eventlog]: Downloading https://files.pythonhosted.org/packages/a2/e5/41c758755c59e01009793b5cf420dd6e8603a5b42c777856d4981f7675d5/accelbyte-py-sdk-service-eventlog-0.4.0.tar.gz
+[2024-05-07 08:39:31] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/87/15/a5fe36aba0c1d72d6057a7f2afa27c4306d048b3540eeba112b05d2dd2d1/pulumi_okta-4.9.0a1714564883.tar.gz
+[2024-05-07 08:39:31] INFO root fetch - processPackages [rj2y]: Downloading https://files.pythonhosted.org/packages/20/ea/68c4f942d9a64654a8263c753319ed74901a0512260c9132fd85294919b1/rj2y-0.1.2.tar.gz
+[2024-05-07 08:39:31] INFO root fetch - processPackages [accelbyte-py-sdk-service-dslogmanager]: executing diffoscope
+[2024-05-07 08:39:31] INFO root fetch - processPackages [accelbyte-py-sdk-service-dslogmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-dslogmanager-0.3.0.tar.gz tmp/accelbyte_py_sdk_service_dslogmanager-0.4.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-dslogmanager/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-07 08:39:32] INFO root fetch - processPackages [accelbyte-py-sdk-service-dsmc]: Downloading https://files.pythonhosted.org/packages/c1/d0/88bd7c15c2b2e24035db910ae3042c9389f5452aa441cb74086986db7c6c/accelbyte_py_sdk_service_dsmc-0.8.0.tar.gz
+[2024-05-07 08:39:32] INFO root fetch - processPackages [accelbyte-py-sdk-service-eventlog]: Downloading https://files.pythonhosted.org/packages/37/a9/85a287e55776a9f9e4352bcf8f74f3728bc7a4ca33543bd8265f8aec0b80/accelbyte_py_sdk_service_eventlog-0.5.0.tar.gz
+[2024-05-07 08:39:32] INFO root fetch - processPackages [rj2y]: Downloading https://files.pythonhosted.org/packages/61/23/aff4fdfba47edb15d40503cc5a5d3cb0bfda7a932b0c28a1da0ae7176347/rj2y-0.1.3.tar.gz
+[2024-05-07 08:39:32] INFO root fetch - processPackages [accelbyte-py-sdk-service-gametelemetry]: Downloading https://files.pythonhosted.org/packages/e8/ba/a513119eb32690183e93f97d64f2939181fe22b7eaf385128b39ebb1a5d8/accelbyte_py_sdk_service_gametelemetry-0.7.0.tar.gz
+[2024-05-07 08:39:32] INFO root fetch - processPackages [accelbyte-py-sdk-service-dsmc]: executing diffoscope
+[2024-05-07 08:39:32] INFO root fetch - processPackages [accelbyte-py-sdk-service-dsmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-dsmc-0.7.0.tar.gz tmp/accelbyte_py_sdk_service_dsmc-0.8.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-dsmc/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-07 08:39:32] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/79/b1/5fcce32768c030690d3a498a807de0a7245ae0b9e32cc98b084bde096921/pulumi_okta-4.9.0a1715061690.tar.gz
+[2024-05-07 08:39:32] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-05-07 08:39:32] INFO root fetch - processPackages [rj2y]: executing diffoscope
+[2024-05-07 08:39:32] INFO root fetch - processPackages [rj2y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rj2y-0.1.2.tar.gz tmp/rj2y-0.1.3.tar.gz --markdown 20240507/r/rj2y/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-07 08:39:32] INFO root fetch - processPackages [accelbyte-py-sdk-service-eventlog]: executing diffoscope
+[2024-05-07 08:39:32] INFO root fetch - processPackages [accelbyte-py-sdk-service-eventlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-eventlog-0.4.0.tar.gz tmp/accelbyte_py_sdk_service_eventlog-0.5.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-eventlog/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-07 08:39:32] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-05-07 08:39:32] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1714564883.tar.gz tmp/pulumi_okta-4.9.0a1715061690.tar.gz --markdown 20240507/p/pulumi-okta/4.9.0a1714564883-4.9.0a1715061690/README.md --exclude *.pyd
+[2024-05-07 08:39:32] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Downloading https://files.pythonhosted.org/packages/d4/94/14b1c15d6045b3372f3f2f46705d72e1fd50a593a9eba6e140e7530f5442/odoo_addons_oca_server_backend-16.0.20240415.0-py3-none-any.whl
+[2024-05-07 08:39:32] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-05-07 08:39:32] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240507/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/README.md --exclude *.pyd
+[2024-05-07 08:39:32] INFO root fetch - processPackages [accelbyte-py-sdk-service-gametelemetry]: executing diffoscope
+[2024-05-07 08:39:32] INFO root fetch - processPackages [accelbyte-py-sdk-service-gametelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte-py-sdk-service-gametelemetry-0.6.0.tar.gz tmp/accelbyte_py_sdk_service_gametelemetry-0.7.0.tar.gz --markdown 20240507/a/accelbyte-py-sdk-service-gametelemetry/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-07 08:39:32] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: executing diffoscope
+[2024-05-07 08:39:32] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_backend-16.0.20240309.1-py3-none-any.whl.zip tmp/odoo_addons_oca_server_backend-16.0.20240415.0-py3-none-any.whl.zip --markdown 20240507/o/odoo-addons-oca-server-backend/16.0.20240309.1-16.0.20240415.0/README.md --exclude *.pyd
+[2024-05-07 08:39:32] INFO root fetch - processPackages [accelbyte-py-sdk-service-dslogmanager]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-dslogmanager-0.3.0.tar.gz]
+[2024-05-07 08:39:32] INFO root fetch - processPackages [accelbyte-py-sdk-service-dslogmanager]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_dslogmanager-0.4.0.tar.gz]
+[2024-05-07 08:39:32] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-dslogmanager]: success
+[2024-05-07 08:39:32] INFO root fetch - processPackages [rj2y]: Remove: archive file [/home/abi/fetcher/tmp/rj2y-0.1.2.tar.gz]
+[2024-05-07 08:39:32] INFO root fetch - processPackages [rj2y]: Remove: archive file [/home/abi/fetcher/tmp/rj2y-0.1.3.tar.gz]
+[2024-05-07 08:39:32] INFO root fetch - main [MainThread]: End processing [rj2y]: success
+[2024-05-07 08:39:33] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_backend-16.0.20240309.1-py3-none-any.whl.zip]
+[2024-05-07 08:39:33] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_backend-16.0.20240415.0-py3-none-any.whl.zip]
+[2024-05-07 08:39:33] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-backend]: success
+[2024-05-07 08:39:33] INFO root fetch - processPackages [accelbyte-py-sdk-service-gametelemetry]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-gametelemetry-0.6.0.tar.gz]
+[2024-05-07 08:39:33] INFO root fetch - processPackages [accelbyte-py-sdk-service-gametelemetry]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_gametelemetry-0.7.0.tar.gz]
+[2024-05-07 08:39:33] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-gametelemetry]: success
+[2024-05-07 08:39:33] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-05-07 08:39:33] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-05-07 08:39:33] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-05-07 08:39:33] INFO root fetch - processPackages [accelbyte-py-sdk-service-eventlog]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-eventlog-0.4.0.tar.gz]
+[2024-05-07 08:39:33] INFO root fetch - processPackages [accelbyte-py-sdk-service-eventlog]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_eventlog-0.5.0.tar.gz]
+[2024-05-07 08:39:33] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-eventlog]: success
+[2024-05-07 08:39:33] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1714564883.tar.gz]
+[2024-05-07 08:39:33] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1715061690.tar.gz]
+[2024-05-07 08:39:33] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-05-07 08:39:34] INFO root fetch - processPackages [accelbyte-py-sdk-service-dsmc]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte-py-sdk-service-dsmc-0.7.0.tar.gz]
+[2024-05-07 08:39:34] INFO root fetch - processPackages [accelbyte-py-sdk-service-dsmc]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk_service_dsmc-0.8.0.tar.gz]
+[2024-05-07 08:39:34] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk-service-dsmc]: success
+[2024-05-07 08:39:34] INFO root fetch - main [MainThread]: Store serial: [23090774]
