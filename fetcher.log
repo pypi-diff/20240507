@@ -8478,3 +8478,33 @@ EOFError: EOF read where object expected
 [2024-05-07 04:11:27] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
 [2024-05-07 04:11:27] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-07 04:11:27] INFO root fetch - main [MainThread]: Store serial: [23088383]
+[2024-05-07 04:13:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088383]
+[2024-05-07 04:13:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 04:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beets-autogenre
+[2024-05-07 04:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medicafe
+[2024-05-07 04:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: np-aind-metadata
+[2024-05-07 04:13:35] INFO root fetch - processPackages [medicafe]: New version: [0.240506.1] Old Version: [0.240501.5]
+[2024-05-07 04:13:35] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/a4/ab/4b5c15dc4ef7ad0d367f4d58070d8649309791b81d7aa833981b9e8d8921/medicafe-0.240501.5.tar.gz
+[2024-05-07 04:13:35] INFO root fetch - processPackages [beets-autogenre]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-07 04:13:35] INFO root fetch - processPackages [np-aind-metadata]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 04:13:36] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/78/e4/d4312dd3e8f974b0919b360a028ea608297655fe4e07d2dde816b8f157b6/medicafe-0.240506.1.tar.gz
+[2024-05-07 04:13:36] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/8a/8a/63058eaaa488166b71d6c5b799acb55930eda0500738316a33e579ab6dc6/np_aind_metadata-0.1.8.tar.gz
+[2024-05-07 04:13:36] INFO root fetch - processPackages [beets-autogenre]: Downloading https://files.pythonhosted.org/packages/45/f0/8966452efb907884c4923ed0e86f0c40bee821184adb8df29890be08cfb1/beets_autogenre-0.3.0-py3-none-any.whl
+[2024-05-07 04:13:36] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-07 04:13:36] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240501.5.tar.gz tmp/medicafe-0.240506.1.tar.gz --markdown 20240507/m/medicafe/0.240501.5-0.240506.1/README.md --exclude *.pyd
+[2024-05-07 04:13:36] INFO root fetch - processPackages [beets-autogenre]: Downloading https://files.pythonhosted.org/packages/12/c9/4d5be32efa734f9d1016c52f4d4a20ebfc66d3c778613379b20aa9ffb474/beets_autogenre-0.4.0-py3-none-any.whl
+[2024-05-07 04:13:36] INFO root fetch - processPackages [np-aind-metadata]: Downloading https://files.pythonhosted.org/packages/14/6b/7f5a6a3b3c759871cab21389d38d1e5ef28b9bb1da0f3ce7a7da44d8df60/np_aind_metadata-0.1.9.tar.gz
+[2024-05-07 04:13:36] INFO root fetch - processPackages [beets-autogenre]: executing diffoscope
+[2024-05-07 04:13:36] INFO root fetch - processPackages [beets-autogenre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beets_autogenre-0.3.0-py3-none-any.whl.zip tmp/beets_autogenre-0.4.0-py3-none-any.whl.zip --markdown 20240507/b/beets-autogenre/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-07 04:13:36] INFO root fetch - processPackages [np-aind-metadata]: executing diffoscope
+[2024-05-07 04:13:36] INFO root fetch - processPackages [np-aind-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_aind_metadata-0.1.8.tar.gz tmp/np_aind_metadata-0.1.9.tar.gz --markdown 20240507/n/np-aind-metadata/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 04:13:36] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240501.5.tar.gz]
+[2024-05-07 04:13:36] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240506.1.tar.gz]
+[2024-05-07 04:13:36] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-07 04:13:37] INFO root fetch - processPackages [beets-autogenre]: Remove: archive file [/home/abi/fetcher/tmp/beets_autogenre-0.3.0-py3-none-any.whl.zip]
+[2024-05-07 04:13:37] INFO root fetch - processPackages [beets-autogenre]: Remove: archive file [/home/abi/fetcher/tmp/beets_autogenre-0.4.0-py3-none-any.whl.zip]
+[2024-05-07 04:13:37] INFO root fetch - main [MainThread]: End processing [beets-autogenre]: success
+[2024-05-07 04:13:37] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.8.tar.gz]
+[2024-05-07 04:13:37] INFO root fetch - processPackages [np-aind-metadata]: Remove: archive file [/home/abi/fetcher/tmp/np_aind_metadata-0.1.9.tar.gz]
+[2024-05-07 04:13:37] INFO root fetch - main [MainThread]: End processing [np-aind-metadata]: success
+[2024-05-07 04:13:37] INFO root fetch - main [MainThread]: Store serial: [23088394]
