@@ -18286,3 +18286,94 @@ EOFError: EOF read where object expected
 [2024-05-07 11:27:23] INFO root fetch - processPackages [django-versionlog]: Remove: archive file [/home/abi/fetcher/tmp/django-versionlog-1.8.1.tar.gz]
 [2024-05-07 11:27:23] INFO root fetch - main [MainThread]: End processing [django-versionlog]: success
 [2024-05-07 11:27:23] INFO root fetch - main [MainThread]: Store serial: [23093008]
+[2024-05-07 11:29:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093008]
+[2024-05-07 11:29:31] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-07 11:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NJFU
+[2024-05-07 11:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: setbot-pop
+[2024-05-07 11:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-financial-report
+[2024-05-07 11:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EasyScience
+[2024-05-07 11:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assisted-service-client
+[2024-05-07 11:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycutest
+[2024-05-07 11:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pigeonX
+[2024-05-07 11:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mavin-pop
+[2024-05-07 11:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: typedmongo
+[2024-05-07 11:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyOpenTTDAdmin
+[2024-05-07 11:29:31] INFO root fetch - processPackages [typedmongo]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-07 11:29:31] WARNING root fetch - processPackages [pigeonX]: Skipping, unable to determine old version
+[2024-05-07 11:29:31] INFO root fetch - processPackages [pigeonX]: Start processing: fosforio
+[2024-05-07 11:29:31] INFO root fetch - main [MainThread]: End processing [pigeonX] error
+[2024-05-07 11:29:31] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-07 11:29:31] WARNING root fetch - processPackages [NJFU]: Skipping, unable to determine old version
+[2024-05-07 11:29:31] INFO root fetch - processPackages [NJFU]: Start processing: superlinked
+[2024-05-07 11:29:31] INFO root fetch - processPackages [EasyScience]: New version: [0.6.0] Old Version: [0.0.1a0]
+[2024-05-07 11:29:31] INFO root fetch - main [MainThread]: End processing [NJFU] error
+[2024-05-07 11:29:31] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/6a/c6/fc30210d79963f46c83de281fa7ba30d8c5e1a0c61d0c956b3f4cda7ff70/typedmongo-1.2.0.tar.gz
+[2024-05-07 11:29:31] WARNING root fetch - processPackages [setbot-pop]: Skipping, unable to determine old version
+[2024-05-07 11:29:31] INFO root fetch - processPackages [setbot-pop]: Start processing: PKCS11-cryptography-keys
+[2024-05-07 11:29:31] INFO root fetch - main [MainThread]: End processing [setbot-pop] error
+[2024-05-07 11:29:31] WARNING root fetch - processPackages [pyOpenTTDAdmin]: Skipping, unable to determine old version
+[2024-05-07 11:29:31] INFO root fetch - processPackages [pyOpenTTDAdmin]: Start processing: odoo-addon-account-financial-report
+[2024-05-07 11:29:31] INFO root fetch - main [MainThread]: End processing [pyOpenTTDAdmin] error
+[2024-05-07 11:29:31] WARNING root fetch - processPackages [mavin-pop]: Skipping, unable to determine old version
+[2024-05-07 11:29:31] INFO root fetch - main [MainThread]: End processing [mavin-pop] error
+[2024-05-07 11:29:31] INFO root fetch - processPackages [pycutest]: New version: [1.7.0] Old Version: [1.6.2]
+[2024-05-07 11:29:31] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.2] Old Version: [17.0.1.1.1]
+[2024-05-07 11:29:31] INFO root fetch - processPackages [fosforio]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 11:29:31] INFO root fetch - processPackages [superlinked]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-07 11:29:31] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.2] Old Version: [17.0.1.1.1]
+[2024-05-07 11:29:31] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-07 11:29:32] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/f7/5e/84d09e0e05b737b135f953e725a7a56acf875659f3a729403902dc51bddf/superlinked-3.9.0.tar.gz
+[2024-05-07 11:29:32] ERROR root fetch - processPackages [PKCS11-cryptography-keys]: Unable to get metadata: No such project 'PKCS11-cryptography-keys'
+[2024-05-07 11:29:32] INFO root fetch - main [MainThread]: End processing [PKCS11-cryptography-keys] error
+[2024-05-07 11:29:32] INFO root fetch - processPackages [EasyScience]: Downloading https://files.pythonhosted.org/packages/8b/97/977292fd295c20c73fe7ef33b21f1472988c8fee5ecdc17e07ebe3b57e68/easyscience-0.0.1a0.tar.gz
+[2024-05-07 11:29:32] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/45/ea/e9bbe4361e6e9f4b4bb48f4d100a160bb8e1de5a147ab2fd1ee65f06b509/odoo_addon_account_financial_report-17.0.1.1.1-py3-none-any.whl
+[2024-05-07 11:29:32] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/39/19/f04fa8d3a0c077cbdebbc53aef21720df03700e83620d02f9e36aa0f6424/typedmongo-1.3.0.tar.gz
+[2024-05-07 11:29:32] INFO root fetch - processPackages [fosforio]: Downloading https://files.pythonhosted.org/packages/69/bc/439b68ffa1ba5b8a5ce697537e0f656cbd0c750896c48b3cf1b6508efe7f/fosforio-1.0.0.tar.gz
+[2024-05-07 11:29:32] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/45/ea/e9bbe4361e6e9f4b4bb48f4d100a160bb8e1de5a147ab2fd1ee65f06b509/odoo_addon_account_financial_report-17.0.1.1.1-py3-none-any.whl
+[2024-05-07 11:29:32] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-07 11:29:32] INFO root fetch - processPackages [typedmongo]: executing diffoscope
+[2024-05-07 11:29:32] INFO root fetch - processPackages [typedmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedmongo-1.2.0.tar.gz tmp/typedmongo-1.3.0.tar.gz --markdown 20240507/t/typedmongo/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-07 11:29:32] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-05-07 11:29:32] INFO root fetch - processPackages [EasyScience]: Downloading https://files.pythonhosted.org/packages/f4/09/d29da6a17b19ab2db96bd3a46895edb71519226e0f84d983954ff9e1b9a2/easyscience-0.6.0.tar.gz
+[2024-05-07 11:29:32] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-07 11:29:32] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240507/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-07 11:29:32] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-05-07 11:29:32] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.0.tar.gz tmp/superlinked-3.9.1.tar.gz --markdown 20240507/s/superlinked/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-07 11:29:32] INFO root fetch - processPackages [pycutest]: Downloading https://files.pythonhosted.org/packages/9b/b4/de4f147801676240c5240ebaa8c15e7318eeacfe1eee21bc5735867dcbc4/pycutest-1.6.2.tar.gz
+[2024-05-07 11:29:32] INFO root fetch - processPackages [fosforio]: Downloading https://files.pythonhosted.org/packages/44/7f/50b93c3e94f352e3ad77113f4abc3995901cfa12efa1933a6ef27ad42f35/fosforio-1.0.1.tar.gz
+[2024-05-07 11:29:32] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/81/4f/d8b81d3e54d6db919ee371e3664f509b8e698355f38665e245c16d5b88c6/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl
+[2024-05-07 11:29:32] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/81/4f/d8b81d3e54d6db919ee371e3664f509b8e698355f38665e245c16d5b88c6/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl
+[2024-05-07 11:29:32] INFO root fetch - processPackages [EasyScience]: executing diffoscope
+[2024-05-07 11:29:32] INFO root fetch - processPackages [EasyScience]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyscience-0.0.1a0.tar.gz tmp/easyscience-0.6.0.tar.gz --markdown 20240507/E/EasyScience/0.0.1a0-0.6.0/README.md --exclude *.pyd
+[2024-05-07 11:29:32] INFO root fetch - processPackages [fosforio]: executing diffoscope
+[2024-05-07 11:29:32] INFO root fetch - processPackages [fosforio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosforio-1.0.0.tar.gz tmp/fosforio-1.0.1.tar.gz --markdown 20240507/f/fosforio/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-07 11:29:32] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-05-07 11:29:32] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-account-financial-report/17.0.1.1.1-17.0.1.1.2/README.md --exclude *.pyd
+[2024-05-07 11:29:32] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-05-07 11:29:32] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-account-financial-report/17.0.1.1.1-17.0.1.1.2/README.md --exclude *.pyd
+[2024-05-07 11:29:32] INFO root fetch - processPackages [pycutest]: Downloading https://files.pythonhosted.org/packages/82/bb/f5c18663004370001102bbcb9dabffa158dfe10c62747eab7f81e3f3a3b0/pycutest-1.7.0.tar.gz
+[2024-05-07 11:29:33] INFO root fetch - processPackages [pycutest]: executing diffoscope
+[2024-05-07 11:29:33] INFO root fetch - processPackages [pycutest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycutest-1.6.2.tar.gz tmp/pycutest-1.7.0.tar.gz --markdown 20240507/p/pycutest/1.6.2-1.7.0/README.md --exclude *.pyd
+[2024-05-07 11:29:33] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.2.0.tar.gz]
+[2024-05-07 11:29:33] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.3.0.tar.gz]
+[2024-05-07 11:29:33] INFO root fetch - main [MainThread]: End processing [typedmongo]: success
+[2024-05-07 11:29:33] INFO root fetch - processPackages [EasyScience]: Remove: archive file [/home/abi/fetcher/tmp/easyscience-0.0.1a0.tar.gz]
+[2024-05-07 11:29:33] INFO root fetch - processPackages [EasyScience]: Remove: archive file [/home/abi/fetcher/tmp/easyscience-0.6.0.tar.gz]
+[2024-05-07 11:29:33] INFO root fetch - main [MainThread]: End processing [EasyScience]: success
+[2024-05-07 11:29:33] INFO root fetch - processPackages [fosforio]: Remove: archive file [/home/abi/fetcher/tmp/fosforio-1.0.0.tar.gz]
+[2024-05-07 11:29:33] INFO root fetch - processPackages [fosforio]: Remove: archive file [/home/abi/fetcher/tmp/fosforio-1.0.1.tar.gz]
+[2024-05-07 11:29:33] INFO root fetch - main [MainThread]: End processing [fosforio]: success
+[2024-05-07 11:29:33] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.0.tar.gz]
+[2024-05-07 11:29:33] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-05-07 11:29:33] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-05-07 11:29:33] INFO root fetch - processPackages [pycutest]: Remove: archive file [/home/abi/fetcher/tmp/pycutest-1.6.2.tar.gz]
+[2024-05-07 11:29:33] INFO root fetch - processPackages [pycutest]: Remove: archive file [/home/abi/fetcher/tmp/pycutest-1.7.0.tar.gz]
+[2024-05-07 11:29:33] INFO root fetch - main [MainThread]: End processing [pycutest]: success
+[2024-05-07 11:29:33] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-07 11:29:33] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-07 11:29:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-05-07 11:29:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-05-07 11:29:34] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-07 11:29:34] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-07 11:29:34] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-07 11:29:34] INFO root fetch - main [MainThread]: Store serial: [23093060]
