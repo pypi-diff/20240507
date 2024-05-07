@@ -10217,3 +10217,15 @@ EOFError: EOF read where object expected
 [2024-05-07 05:38:38] INFO root fetch - processPackages [lbg]: Remove: archive file [/home/abi/fetcher/tmp/lbg-1.2.9.tar.gz]
 [2024-05-07 05:38:38] INFO root fetch - main [MainThread]: End processing [lbg]: success
 [2024-05-07 05:38:38] INFO root fetch - main [MainThread]: Store serial: [23089122]
+[2024-05-07 05:40:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089122]
+[2024-05-07 05:40:46] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-07 05:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contact-local
+[2024-05-07 05:40:46] INFO root fetch - processPackages [contact-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 05:40:46] INFO root fetch - processPackages [contact-local]: Downloading https://files.pythonhosted.org/packages/75/64/f3f752681a48297a9101e7de65d41056da1800a0fbd5a27df6e29dd07b37/contact-local-0.0.8.tar.gz
+[2024-05-07 05:40:46] INFO root fetch - processPackages [contact-local]: Downloading https://files.pythonhosted.org/packages/ac/77/272714857d28dc1134b82bfb3d430920fe69a296e6c0ff88f036b594474b/contact-local-0.0.9.tar.gz
+[2024-05-07 05:40:47] INFO root fetch - processPackages [contact-local]: executing diffoscope
+[2024-05-07 05:40:47] INFO root fetch - processPackages [contact-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-local-0.0.8.tar.gz tmp/contact-local-0.0.9.tar.gz --markdown 20240507/c/contact-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 05:40:47] INFO root fetch - processPackages [contact-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-local-0.0.8.tar.gz]
+[2024-05-07 05:40:47] INFO root fetch - processPackages [contact-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-local-0.0.9.tar.gz]
+[2024-05-07 05:40:47] INFO root fetch - main [MainThread]: End processing [contact-local]: success
+[2024-05-07 05:40:47] INFO root fetch - main [MainThread]: Store serial: [23089122]
