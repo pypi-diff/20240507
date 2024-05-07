@@ -8979,3 +8979,24 @@ EOFError: EOF read where object expected
 [2024-05-07 04:42:36] INFO root fetch - processPackages [mrx-link-git]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_git-1.1.0.dev2-cp39-cp39-win_amd64.whl.zip]
 [2024-05-07 04:42:36] INFO root fetch - main [MainThread]: End processing [mrx-link-git]: success
 [2024-05-07 04:42:36] INFO root fetch - main [MainThread]: Store serial: [23088585]
+[2024-05-07 04:44:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088585]
+[2024-05-07 04:44:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 04:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: create-mountaineer-app
+[2024-05-07 04:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: npdtools-fx
+[2024-05-07 04:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heterophilez
+[2024-05-07 04:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dendrometerz
+[2024-05-07 04:44:45] WARNING root fetch - processPackages [dendrometerz]: Skipping, unable to determine old version
+[2024-05-07 04:44:45] INFO root fetch - main [MainThread]: End processing [dendrometerz] error
+[2024-05-07 04:44:45] WARNING root fetch - processPackages [npdtools-fx]: Skipping, unable to determine old version
+[2024-05-07 04:44:45] INFO root fetch - main [MainThread]: End processing [npdtools-fx] error
+[2024-05-07 04:44:45] INFO root fetch - processPackages [create-mountaineer-app]: New version: [0.5.0.dev3] Old Version: [0.5.0.dev2]
+[2024-05-07 04:44:45] WARNING root fetch - processPackages [heterophilez]: Skipping, unable to determine old version
+[2024-05-07 04:44:45] INFO root fetch - main [MainThread]: End processing [heterophilez] error
+[2024-05-07 04:44:45] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/37/c1/02cce258a6e456a3f7aad9114d2e35504d9c99c70a4c6b3a6aeaf920769b/create_mountaineer_app-0.5.0.dev2.tar.gz
+[2024-05-07 04:44:45] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/5a/ca/4d8b5a7cc5fe6e5ec97fe610f1db7060314dfb9c14f44094c22ed83f655e/create_mountaineer_app-0.5.0.dev3.tar.gz
+[2024-05-07 04:44:45] INFO root fetch - processPackages [create-mountaineer-app]: executing diffoscope
+[2024-05-07 04:44:45] INFO root fetch - processPackages [create-mountaineer-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_mountaineer_app-0.5.0.dev2.tar.gz tmp/create_mountaineer_app-0.5.0.dev3.tar.gz --markdown 20240507/c/create-mountaineer-app/0.5.0.dev2-0.5.0.dev3/README.md --exclude *.pyd
+[2024-05-07 04:44:46] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev2.tar.gz]
+[2024-05-07 04:44:46] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev3.tar.gz]
+[2024-05-07 04:44:46] INFO root fetch - main [MainThread]: End processing [create-mountaineer-app]: success
+[2024-05-07 04:44:46] INFO root fetch - main [MainThread]: Store serial: [23088600]
