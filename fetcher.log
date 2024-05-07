@@ -11935,3 +11935,24 @@ EOFError: EOF read where object expected
 [2024-05-07 07:36:54] INFO root fetch - processPackages [aanalyticsact-1]: Remove: archive file [/home/abi/fetcher/tmp/aanalyticsact_1-0.0.1.52.tar.gz]
 [2024-05-07 07:36:54] INFO root fetch - main [MainThread]: End processing [aanalyticsact-1]: success
 [2024-05-07 07:36:54] INFO root fetch - main [MainThread]: Store serial: [23089997]
+[2024-05-07 07:38:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089997]
+[2024-05-07 07:39:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 07:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-civo
+[2024-05-07 07:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-mdn-layer
+[2024-05-07 07:39:03] INFO root fetch - processPackages [keras-mdn-layer]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-07 07:39:03] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1715059220] Old Version: [2.4.0a1714562423]
+[2024-05-07 07:39:03] INFO root fetch - processPackages [keras-mdn-layer]: Downloading https://files.pythonhosted.org/packages/f3/90/7c9233a1b334bf91bc7f9ec2534eb40f7bb418900f35cbd201864c600cf6/keras-mdn-layer-0.3.0.tar.gz
+[2024-05-07 07:39:03] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/94/ac/b0a071b8dcc3747c7a76dc767d56be8c3a6b322ce0f74f9d9645c6329664/pulumi_civo-2.4.0a1714562423.tar.gz
+[2024-05-07 07:39:04] INFO root fetch - processPackages [keras-mdn-layer]: Downloading https://files.pythonhosted.org/packages/3d/c4/ba674f6dd407ae47f2a823ed7b1e8a7601f4b9b9c5f6b0822259f3b524fd/keras_mdn_layer-0.4.0.tar.gz
+[2024-05-07 07:39:04] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/b4/7c/6552e84e15427d6dffecabf6d69c33a1614e90c44a3086349c04a65a39f5/pulumi_civo-2.4.0a1715059220.tar.gz
+[2024-05-07 07:39:04] INFO root fetch - processPackages [keras-mdn-layer]: executing diffoscope
+[2024-05-07 07:39:04] INFO root fetch - processPackages [keras-mdn-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-mdn-layer-0.3.0.tar.gz tmp/keras_mdn_layer-0.4.0.tar.gz --markdown 20240507/k/keras-mdn-layer/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-07 07:39:04] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-05-07 07:39:04] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1714562423.tar.gz tmp/pulumi_civo-2.4.0a1715059220.tar.gz --markdown 20240507/p/pulumi-civo/2.4.0a1714562423-2.4.0a1715059220/README.md --exclude *.pyd
+[2024-05-07 07:39:04] INFO root fetch - processPackages [keras-mdn-layer]: Remove: archive file [/home/abi/fetcher/tmp/keras-mdn-layer-0.3.0.tar.gz]
+[2024-05-07 07:39:04] INFO root fetch - processPackages [keras-mdn-layer]: Remove: archive file [/home/abi/fetcher/tmp/keras_mdn_layer-0.4.0.tar.gz]
+[2024-05-07 07:39:04] INFO root fetch - main [MainThread]: End processing [keras-mdn-layer]: success
+[2024-05-07 07:39:05] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1714562423.tar.gz]
+[2024-05-07 07:39:05] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715059220.tar.gz]
+[2024-05-07 07:39:05] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-05-07 07:39:05] INFO root fetch - main [MainThread]: Store serial: [23090003]
