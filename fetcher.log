@@ -15399,3 +15399,15 @@ EOFError: EOF read where object expected
 [2024-05-07 09:42:16] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.2.9-py3-none-any.whl.zip]
 [2024-05-07 09:42:16] INFO root fetch - main [MainThread]: End processing [JayttleProcess]: success
 [2024-05-07 09:42:16] INFO root fetch - main [MainThread]: Store serial: [23091721]
+[2024-05-07 09:44:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091721]
+[2024-05-07 09:44:25] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-07 09:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slpkg
+[2024-05-07 09:44:25] INFO root fetch - processPackages [slpkg]: New version: [5.0.7] Old Version: [5.0.6]
+[2024-05-07 09:44:25] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/e1/84/64bacad10852b139bdb2c6692de84a2be9e03ac1b4a8d19c935419705e08/slpkg-5.0.6.tar.gz
+[2024-05-07 09:44:26] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/c5/ac/d8ad11aa22f677ae16299598c0b656b38090a98f3c64c0cdc2487b343949/slpkg-5.0.7.tar.gz
+[2024-05-07 09:44:26] INFO root fetch - processPackages [slpkg]: executing diffoscope
+[2024-05-07 09:44:26] INFO root fetch - processPackages [slpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slpkg-5.0.6.tar.gz tmp/slpkg-5.0.7.tar.gz --markdown 20240507/s/slpkg/5.0.6-5.0.7/README.md --exclude *.pyd
+[2024-05-07 09:44:27] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-5.0.6.tar.gz]
+[2024-05-07 09:44:27] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-5.0.7.tar.gz]
+[2024-05-07 09:44:27] INFO root fetch - main [MainThread]: End processing [slpkg]: success
+[2024-05-07 09:44:27] INFO root fetch - main [MainThread]: Store serial: [23091729]
