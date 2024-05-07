@@ -16004,3 +16004,95 @@ EOFError: EOF read where object expected
 [2024-05-07 10:10:53] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1254.tar.gz]
 [2024-05-07 10:10:53] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
 [2024-05-07 10:10:53] INFO root fetch - main [MainThread]: Store serial: [23092001]
+[2024-05-07 10:12:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092001]
+[2024-05-07 10:13:01] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-07 10:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cj-package
+[2024-05-07 10:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ionogenicz
+[2024-05-07 10:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itemadapter
+[2024-05-07 10:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ATH
+[2024-05-07 10:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gennet-forked
+[2024-05-07 10:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atorch
+[2024-05-07 10:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zfx
+[2024-05-07 10:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cellacdc
+[2024-05-07 10:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: calibr8
+[2024-05-07 10:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: doku-python-library-beta
+[2024-05-07 10:13:01] INFO root fetch - processPackages [itemadapter]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-07 10:13:01] WARNING root fetch - processPackages [doku-python-library-beta]: Skipping, unable to determine old version
+[2024-05-07 10:13:01] INFO root fetch - processPackages [doku-python-library-beta]: Start processing: odoo-addon-web-remember-tree-column-width
+[2024-05-07 10:13:01] INFO root fetch - main [MainThread]: End processing [doku-python-library-beta] error
+[2024-05-07 10:13:01] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 10:13:01] INFO root fetch - processPackages [gennet-forked]: New version: [2.0.0.1] Old Version: [2.0.0]
+[2024-05-07 10:13:01] WARNING root fetch - processPackages [ionogenicz]: Skipping, unable to determine old version
+[2024-05-07 10:13:01] INFO root fetch - processPackages [ionogenicz]: Start processing: py2docfx
+[2024-05-07 10:13:01] INFO root fetch - main [MainThread]: End processing [ionogenicz] error
+[2024-05-07 10:13:01] INFO root fetch - processPackages [atorch]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 10:13:01] INFO root fetch - processPackages [calibr8]: New version: [7.1.2] Old Version: [7.1.1]
+[2024-05-07 10:13:01] WARNING root fetch - processPackages [ATH]: Skipping, unable to determine old version
+[2024-05-07 10:13:01] INFO root fetch - processPackages [ATH]: Start processing: eurmlsdk
+[2024-05-07 10:13:01] INFO root fetch - main [MainThread]: End processing [ATH] error
+[2024-05-07 10:13:01] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 10:13:01] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-05-07 10:13:01] INFO root fetch - processPackages [cellacdc]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-07 10:13:01] INFO root fetch - processPackages [py2docfx]: New version: [0.1.6rc1710622] Old Version: [0.1.6.dev1717829]
+[2024-05-07 10:13:02] INFO root fetch - processPackages [odoo-addon-web-remember-tree-column-width]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1.1]
+[2024-05-07 10:13:02] INFO root fetch - processPackages [itemadapter]: Downloading https://files.pythonhosted.org/packages/05/d0/3327cc8d442ebcac88801c2002f9c843d4de142420bad7f70882e6c57afe/itemadapter-0.7.0.tar.gz
+[2024-05-07 10:13:02] WARNING root fetch - processPackages [eurmlsdk]: Skipping, unable to determine old version
+[2024-05-07 10:13:02] INFO root fetch - main [MainThread]: End processing [eurmlsdk] error
+[2024-05-07 10:13:02] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/30/25/34d21f2bc40956672228fed2ee1be7ccea64cf61fbf1a533b224fdaf8bba/py2docfx-0.1.6.dev1717829-py3-none-any.whl
+[2024-05-07 10:13:02] INFO root fetch - processPackages [gennet-forked]: Downloading https://files.pythonhosted.org/packages/14/33/589bc825937565624ed87045d62a68939618d9d2bb5ef6a90426f76f83d2/gennet_forked-2.0.0.tar.gz
+[2024-05-07 10:13:02] INFO root fetch - processPackages [atorch]: Downloading https://files.pythonhosted.org/packages/98/80/508151070cfaad1a140f6dbf2c7954b46d3d550dd7dc45fce0426fd51d41/atorch-0.1.8-py3-none-any.whl
+[2024-05-07 10:13:02] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-07 10:13:02] INFO root fetch - processPackages [calibr8]: Downloading https://files.pythonhosted.org/packages/3e/7a/2c90c68e573d899320ffde73f4ea3a96d1c0f14cce4ec4a81a85d8a0425e/calibr8-7.1.1.tar.gz
+[2024-05-07 10:13:02] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-05-07 10:13:02] INFO root fetch - processPackages [odoo-addon-web-remember-tree-column-width]: Downloading https://files.pythonhosted.org/packages/b6/ab/caded8bce967edfdcec9343e468ebff9e86f02c6369cdb7f1dcd68cdc04e/odoo_addon_web_remember_tree_column_width-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-07 10:13:02] INFO root fetch - processPackages [cellacdc]: Downloading https://files.pythonhosted.org/packages/9f/f9/53cf5f4b263bc4670e6685b9e769fd819e8049591853c87ccc30c12bf35e/cellacdc-1.4.8.tar.gz
+[2024-05-07 10:13:02] INFO root fetch - processPackages [itemadapter]: Downloading https://files.pythonhosted.org/packages/a1/1e/c09a9ceec55880fa8801fec1492c922ef1d7d84e7c4768c1cc12e0b950c4/itemadapter-0.8.0.tar.gz
+[2024-05-07 10:13:02] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-05-07 10:13:02] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240507/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 10:13:02] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/5a/98/517fcf83a8e65749efb3a1c0c986ae87389a5eb90810b7bb511342e2c4d3/py2docfx-0.1.6rc1710622-py3-none-any.whl
+[2024-05-07 10:13:02] INFO root fetch - processPackages [gennet-forked]: Downloading https://files.pythonhosted.org/packages/7c/47/9942491e4b906488e5e61172430f8ab120eb3a773ec7dc316c53b31a5272/gennet_forked-2.0.0.1.tar.gz
+[2024-05-07 10:13:02] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-05-07 10:13:02] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.6.dev1717829-py3-none-any.whl.zip tmp/py2docfx-0.1.6rc1710622-py3-none-any.whl.zip --markdown 20240507/p/py2docfx/0.1.6.dev1717829-0.1.6rc1710622/README.md --exclude *.pyd
+[2024-05-07 10:13:02] INFO root fetch - processPackages [itemadapter]: executing diffoscope
+[2024-05-07 10:13:02] INFO root fetch - processPackages [itemadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itemadapter-0.7.0.tar.gz tmp/itemadapter-0.8.0.tar.gz --markdown 20240507/i/itemadapter/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-07 10:13:02] INFO root fetch - processPackages [odoo-addon-web-remember-tree-column-width]: Downloading https://files.pythonhosted.org/packages/6c/b9/bd25c442befa01ea89a0e8e52e923f8b0d558ca7b79a0ebc20571de21108/odoo_addon_web_remember_tree_column_width-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-07 10:13:02] INFO root fetch - processPackages [atorch]: Downloading https://files.pythonhosted.org/packages/77/49/e3c09fb15f1f0d5ed41e79927b0166acd0778ba1bfe2bed1e0c9e93e1c5e/atorch-0.1.9-py3-none-any.whl
+[2024-05-07 10:13:02] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-07 10:13:02] INFO root fetch - processPackages [gennet-forked]: executing diffoscope
+[2024-05-07 10:13:02] INFO root fetch - processPackages [gennet-forked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gennet_forked-2.0.0.tar.gz tmp/gennet_forked-2.0.0.1.tar.gz --markdown 20240507/g/gennet-forked/2.0.0-2.0.0.1/README.md --exclude *.pyd
+[2024-05-07 10:13:02] WARNING root fetch - processPackages [cellacdc]: Skipping package: exceeds size limit 63086409>=10485760
+[2024-05-07 10:13:02] INFO root fetch - processPackages [calibr8]: Downloading https://files.pythonhosted.org/packages/bd/26/aaad98eda01a6b22bc8b6b66295d50c57d8dfbe50242adc38c5b2634fa6c/calibr8-7.1.2.tar.gz
+[2024-05-07 10:13:02] INFO root fetch - main [MainThread]: End processing [cellacdc] error
+[2024-05-07 10:13:02] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-07 10:13:02] INFO root fetch - processPackages [odoo-addon-web-remember-tree-column-width]: executing diffoscope
+[2024-05-07 10:13:02] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240507/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 10:13:02] INFO root fetch - processPackages [odoo-addon-web-remember-tree-column-width]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_remember_tree_column_width-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_web_remember_tree_column_width-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-web-remember-tree-column-width/16.0.1.0.1.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-07 10:13:02] INFO root fetch - processPackages [calibr8]: executing diffoscope
+[2024-05-07 10:13:02] INFO root fetch - processPackages [calibr8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calibr8-7.1.1.tar.gz tmp/calibr8-7.1.2.tar.gz --markdown 20240507/c/calibr8/7.1.1-7.1.2/README.md --exclude *.pyd
+[2024-05-07 10:13:02] INFO root fetch - processPackages [atorch]: executing diffoscope
+[2024-05-07 10:13:02] INFO root fetch - processPackages [atorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atorch-0.1.8-py3-none-any.whl.zip tmp/atorch-0.1.9-py3-none-any.whl.zip --markdown 20240507/a/atorch/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 10:13:03] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-05-07 10:13:03] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-05-07 10:13:03] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-05-07 10:13:03] INFO root fetch - processPackages [itemadapter]: Remove: archive file [/home/abi/fetcher/tmp/itemadapter-0.7.0.tar.gz]
+[2024-05-07 10:13:03] INFO root fetch - processPackages [itemadapter]: Remove: archive file [/home/abi/fetcher/tmp/itemadapter-0.8.0.tar.gz]
+[2024-05-07 10:13:03] INFO root fetch - main [MainThread]: End processing [itemadapter]: success
+[2024-05-07 10:13:03] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-07 10:13:03] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-07 10:13:03] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-07 10:13:03] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.6.dev1717829-py3-none-any.whl.zip]
+[2024-05-07 10:13:03] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.6rc1710622-py3-none-any.whl.zip]
+[2024-05-07 10:13:03] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-05-07 10:13:03] INFO root fetch - processPackages [gennet-forked]: Remove: archive file [/home/abi/fetcher/tmp/gennet_forked-2.0.0.tar.gz]
+[2024-05-07 10:13:03] INFO root fetch - processPackages [gennet-forked]: Remove: archive file [/home/abi/fetcher/tmp/gennet_forked-2.0.0.1.tar.gz]
+[2024-05-07 10:13:03] INFO root fetch - main [MainThread]: End processing [gennet-forked]: success
+[2024-05-07 10:13:03] INFO root fetch - processPackages [odoo-addon-web-remember-tree-column-width]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_remember_tree_column_width-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-07 10:13:03] INFO root fetch - processPackages [odoo-addon-web-remember-tree-column-width]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_remember_tree_column_width-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-07 10:13:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-remember-tree-column-width]: success
+[2024-05-07 10:13:03] INFO root fetch - processPackages [calibr8]: Remove: archive file [/home/abi/fetcher/tmp/calibr8-7.1.1.tar.gz]
+[2024-05-07 10:13:03] INFO root fetch - processPackages [calibr8]: Remove: archive file [/home/abi/fetcher/tmp/calibr8-7.1.2.tar.gz]
+[2024-05-07 10:13:03] INFO root fetch - main [MainThread]: End processing [calibr8]: success
+[2024-05-07 10:13:04] INFO root fetch - processPackages [atorch]: Remove: archive file [/home/abi/fetcher/tmp/atorch-0.1.8-py3-none-any.whl.zip]
+[2024-05-07 10:13:04] INFO root fetch - processPackages [atorch]: Remove: archive file [/home/abi/fetcher/tmp/atorch-0.1.9-py3-none-any.whl.zip]
+[2024-05-07 10:13:04] INFO root fetch - main [MainThread]: End processing [atorch]: success
+[2024-05-07 10:13:04] INFO root fetch - main [MainThread]: Store serial: [23092038]
