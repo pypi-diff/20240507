@@ -20653,3 +20653,33 @@ AssertionError: tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip does not exi
 [2024-05-07 13:07:04] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.1.dev4.tar.gz]
 [2024-05-07 13:07:04] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-05-07 13:07:04] INFO root fetch - main [MainThread]: Store serial: [23094263]
+[2024-05-07 13:09:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094263]
+[2024-05-07 13:09:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 13:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: echion
+[2024-05-07 13:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finch-tensor
+[2024-05-07 13:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-project-base
+[2024-05-07 13:09:14] INFO root fetch - processPackages [echion]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-07 13:09:14] INFO root fetch - processPackages [django-project-base]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-07 13:09:14] INFO root fetch - processPackages [finch-tensor]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 13:09:14] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/82/efef881b97762b0b5e32321a21e64063e76ef0ef1ee2a2b5d8741aa88ac3/finch_tensor-0.1.8.tar.gz
+[2024-05-07 13:09:14] INFO root fetch - processPackages [echion]: Downloading https://files.pythonhosted.org/packages/4a/7a/8e9b0856efbe2d8ec8fb86fe48957902c79b5152a7269078b557f632c01c/echion-0.2.0.tar.gz
+[2024-05-07 13:09:14] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/5e/80/79b654e965ab524a7a7100a2f70a50f2bb4f45f1d1ba3e84e7ae3304382a/django-project-base-0.4.8.tar.gz
+[2024-05-07 13:09:15] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/31/266166b70a1683a8f5cfb91db4b1c2df4edda648ff5e60e26f6a79710cb5/finch_tensor-0.1.9.tar.gz
+[2024-05-07 13:09:15] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/5f/7e/cb65b3d5c1084b92a5dc2d9e611005fede46a3436e8936d6efbbdef55efd/django-project-base-0.4.9.tar.gz
+[2024-05-07 13:09:15] INFO root fetch - processPackages [echion]: Downloading https://files.pythonhosted.org/packages/6e/bd/27c99952215edb2d519bec8d0257a45fff1e5a43c43262965afdc0c8441d/echion-0.3.0.tar.gz
+[2024-05-07 13:09:15] INFO root fetch - processPackages [finch-tensor]: executing diffoscope
+[2024-05-07 13:09:15] INFO root fetch - processPackages [finch-tensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finch_tensor-0.1.8.tar.gz tmp/finch_tensor-0.1.9.tar.gz --markdown 20240507/f/finch-tensor/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 13:09:15] INFO root fetch - processPackages [echion]: executing diffoscope
+[2024-05-07 13:09:15] INFO root fetch - processPackages [echion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echion-0.2.0.tar.gz tmp/echion-0.3.0.tar.gz --markdown 20240507/e/echion/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-07 13:09:15] INFO root fetch - processPackages [django-project-base]: executing diffoscope
+[2024-05-07 13:09:15] INFO root fetch - processPackages [django-project-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-project-base-0.4.8.tar.gz tmp/django-project-base-0.4.9.tar.gz --markdown 20240507/d/django-project-base/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-07 13:09:15] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.8.tar.gz]
+[2024-05-07 13:09:15] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.9.tar.gz]
+[2024-05-07 13:09:15] INFO root fetch - main [MainThread]: End processing [finch-tensor]: success
+[2024-05-07 13:09:16] INFO root fetch - processPackages [echion]: Remove: archive file [/home/abi/fetcher/tmp/echion-0.2.0.tar.gz]
+[2024-05-07 13:09:16] INFO root fetch - processPackages [echion]: Remove: archive file [/home/abi/fetcher/tmp/echion-0.3.0.tar.gz]
+[2024-05-07 13:09:16] INFO root fetch - main [MainThread]: End processing [echion]: success
+[2024-05-07 13:09:16] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.4.8.tar.gz]
+[2024-05-07 13:09:16] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.4.9.tar.gz]
+[2024-05-07 13:09:16] INFO root fetch - main [MainThread]: End processing [django-project-base]: success
+[2024-05-07 13:09:16] INFO root fetch - main [MainThread]: Store serial: [23094305]
