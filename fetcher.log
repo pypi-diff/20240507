@@ -21049,3 +21049,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 13:18:01] INFO root fetch - processPackages [pddl-plus-parser]: Remove: archive file [/home/abi/fetcher/tmp/pddl-plus-parser-3.5.9.tar.gz]
 [2024-05-07 13:18:01] INFO root fetch - main [MainThread]: End processing [pddl-plus-parser]: success
 [2024-05-07 13:18:01] INFO root fetch - main [MainThread]: Store serial: [23094444]
+[2024-05-07 13:20:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094444]
+[2024-05-07 13:20:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 13:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ETH-GTD-cli
+[2024-05-07 13:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iaptoolkit
+[2024-05-07 13:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AutoMLApp
+[2024-05-07 13:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-ai-timetable
+[2024-05-07 13:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stonefish-license-manager
+[2024-05-07 13:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bcra-api-client
+[2024-05-07 13:20:10] INFO root fetch - processPackages [AutoMLApp]: New version: [0.1.51] Old Version: [0.1.5]
+[2024-05-07 13:20:10] WARNING root fetch - processPackages [ETH-GTD-cli]: Skipping, unable to determine old version
+[2024-05-07 13:20:10] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli] error
+[2024-05-07 13:20:10] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/80/a2/8f826c8f1274a0cddf23b1d36b3e4c317206673cca2a8e22fe07c441f6f9/automlapp-0.1.5.tar.gz
+[2024-05-07 13:20:10] INFO root fetch - processPackages [stonefish-license-manager]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-07 13:20:10] INFO root fetch - processPackages [nonebot-plugin-ai-timetable]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-07 13:20:11] INFO root fetch - processPackages [iaptoolkit]: New version: [0.0.5] Old Version: [0.0.4.3]
+[2024-05-07 13:20:11] INFO root fetch - processPackages [bcra-api-client]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-05-07 13:20:11] INFO root fetch - processPackages [iaptoolkit]: Downloading https://files.pythonhosted.org/packages/c4/c2/ff32f8db8156eb424efd7e81c98526a3dd1475c8a9a6b8afcdf4a865516e/iaptoolkit-0.0.4.3.tar.gz
+[2024-05-07 13:20:11] INFO root fetch - processPackages [stonefish-license-manager]: Downloading https://files.pythonhosted.org/packages/f0/ad/d3b5caaabd5ba7980f74302ca088a8e3bd1014597f27058b0440408ca15f/stonefish_license_manager-0.4.5-py3-none-any.whl
+[2024-05-07 13:20:11] INFO root fetch - processPackages [nonebot-plugin-ai-timetable]: Downloading https://files.pythonhosted.org/packages/46/91/9a167173171cbc084b13cdaa755b823130eae4570bd688e7a2eba9cb7268/nonebot_plugin_ai_timetable-0.4.0.tar.gz
+[2024-05-07 13:20:11] INFO root fetch - processPackages [bcra-api-client]: Downloading https://files.pythonhosted.org/packages/f0/a3/dbdf472fc055e24d96624075d78854bb20af2597463c84742123676cbaf2/bcra_api_client-1.1.9.tar.gz
+[2024-05-07 13:20:11] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/91/05/7198babcda8cefad1dd19b3bf73dc26ccf5010921ddd10e569373e9b5711/automlapp-0.1.51.tar.gz
+[2024-05-07 13:20:11] INFO root fetch - processPackages [AutoMLApp]: executing diffoscope
+[2024-05-07 13:20:11] INFO root fetch - processPackages [AutoMLApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automlapp-0.1.5.tar.gz tmp/automlapp-0.1.51.tar.gz --markdown 20240507/A/AutoMLApp/0.1.5-0.1.51/README.md --exclude *.pyd
+[2024-05-07 13:20:11] INFO root fetch - processPackages [iaptoolkit]: Downloading https://files.pythonhosted.org/packages/fa/b7/39bf6aec6e8023f6b3f42296d0d933420f9cc880702ea1555d0c660de60f/iaptoolkit-0.0.5.tar.gz
+[2024-05-07 13:20:11] INFO root fetch - processPackages [nonebot-plugin-ai-timetable]: Downloading https://files.pythonhosted.org/packages/30/ef/27b5a8bb4a8d23de210f889830f3671ed41c4661304d50412d659404c9cd/nonebot_plugin_ai_timetable-0.4.1.tar.gz
+[2024-05-07 13:20:11] INFO root fetch - processPackages [iaptoolkit]: executing diffoscope
+[2024-05-07 13:20:11] INFO root fetch - processPackages [iaptoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iaptoolkit-0.0.4.3.tar.gz tmp/iaptoolkit-0.0.5.tar.gz --markdown 20240507/i/iaptoolkit/0.0.4.3-0.0.5/README.md --exclude *.pyd
+[2024-05-07 13:20:11] INFO root fetch - processPackages [stonefish-license-manager]: Downloading https://files.pythonhosted.org/packages/52/60/120a8b9413c34abb8beb2874a6015624a5ca8ff2fb1d01ba40834d1bc780/stonefish_license_manager-0.4.6-py3-none-any.whl
+[2024-05-07 13:20:11] INFO root fetch - processPackages [bcra-api-client]: Downloading https://files.pythonhosted.org/packages/ab/44/8540928c2c35748f3a23644ee0964d736a1d8e272dd467635d65dd66cceb/bcra_api_client-1.2.0.tar.gz
+[2024-05-07 13:20:11] INFO root fetch - processPackages [nonebot-plugin-ai-timetable]: executing diffoscope
+[2024-05-07 13:20:11] INFO root fetch - processPackages [nonebot-plugin-ai-timetable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_ai_timetable-0.4.0.tar.gz tmp/nonebot_plugin_ai_timetable-0.4.1.tar.gz --markdown 20240507/n/nonebot-plugin-ai-timetable/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-07 13:20:11] INFO root fetch - processPackages [stonefish-license-manager]: executing diffoscope
+[2024-05-07 13:20:11] INFO root fetch - processPackages [stonefish-license-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stonefish_license_manager-0.4.5-py3-none-any.whl.zip tmp/stonefish_license_manager-0.4.6-py3-none-any.whl.zip --markdown 20240507/s/stonefish-license-manager/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-07 13:20:12] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.5.tar.gz]
+[2024-05-07 13:20:12] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.51.tar.gz]
+[2024-05-07 13:20:12] INFO root fetch - main [MainThread]: End processing [AutoMLApp]: success
+[2024-05-07 13:20:12] INFO root fetch - processPackages [bcra-api-client]: executing diffoscope
+[2024-05-07 13:20:12] INFO root fetch - processPackages [bcra-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcra_api_client-1.1.9.tar.gz tmp/bcra_api_client-1.2.0.tar.gz --markdown 20240507/b/bcra-api-client/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-05-07 13:20:12] INFO root fetch - processPackages [iaptoolkit]: Remove: archive file [/home/abi/fetcher/tmp/iaptoolkit-0.0.4.3.tar.gz]
+[2024-05-07 13:20:12] INFO root fetch - processPackages [iaptoolkit]: Remove: archive file [/home/abi/fetcher/tmp/iaptoolkit-0.0.5.tar.gz]
+[2024-05-07 13:20:12] INFO root fetch - main [MainThread]: End processing [iaptoolkit]: success
+[2024-05-07 13:20:12] INFO root fetch - processPackages [nonebot-plugin-ai-timetable]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_ai_timetable-0.4.0.tar.gz]
+[2024-05-07 13:20:12] INFO root fetch - processPackages [nonebot-plugin-ai-timetable]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_ai_timetable-0.4.1.tar.gz]
+[2024-05-07 13:20:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ai-timetable]: success
+[2024-05-07 13:20:12] INFO root fetch - processPackages [stonefish-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/stonefish_license_manager-0.4.5-py3-none-any.whl.zip]
+[2024-05-07 13:20:12] INFO root fetch - processPackages [stonefish-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/stonefish_license_manager-0.4.6-py3-none-any.whl.zip]
+[2024-05-07 13:20:12] INFO root fetch - main [MainThread]: End processing [stonefish-license-manager]: success
+[2024-05-07 13:20:12] INFO root fetch - processPackages [bcra-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bcra_api_client-1.1.9.tar.gz]
+[2024-05-07 13:20:12] INFO root fetch - processPackages [bcra-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bcra_api_client-1.2.0.tar.gz]
+[2024-05-07 13:20:12] INFO root fetch - main [MainThread]: End processing [bcra-api-client]: success
+[2024-05-07 13:20:12] INFO root fetch - main [MainThread]: Store serial: [23094458]
