@@ -8118,3 +8118,15 @@ EOFError: EOF read where object expected
 [2024-05-07 03:48:03] INFO root fetch - processPackages [alibabacloud-pairecservice20221213]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_pairecservice20221213-1.4.0.tar.gz]
 [2024-05-07 03:48:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-pairecservice20221213]: success
 [2024-05-07 03:48:03] INFO root fetch - main [MainThread]: Store serial: [23088222]
+[2024-05-07 03:50:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088222]
+[2024-05-07 03:50:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-07 03:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-telegram-broadcast
+[2024-05-07 03:50:11] INFO root fetch - processPackages [python-telegram-broadcast]: New version: [0.5] Old Version: [0.4]
+[2024-05-07 03:50:11] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/0c/3b/86c5a5e15517e8ac91bf186070dd1881da2c65a69b786ff48246c849028c/python-telegram-broadcast-0.4.tar.gz
+[2024-05-07 03:50:12] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/c3/9f/9a64b8809613f9d258f528799cd03d6a3213f466f4fa1d7b90cc6a78606c/python-telegram-broadcast-0.5.tar.gz
+[2024-05-07 03:50:12] INFO root fetch - processPackages [python-telegram-broadcast]: executing diffoscope
+[2024-05-07 03:50:12] INFO root fetch - processPackages [python-telegram-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-telegram-broadcast-0.4.tar.gz tmp/python-telegram-broadcast-0.5.tar.gz --markdown 20240507/p/python-telegram-broadcast/0.4-0.5/README.md --exclude *.pyd
+[2024-05-07 03:50:12] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-broadcast-0.4.tar.gz]
+[2024-05-07 03:50:12] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-broadcast-0.5.tar.gz]
+[2024-05-07 03:50:12] INFO root fetch - main [MainThread]: End processing [python-telegram-broadcast]: success
+[2024-05-07 03:50:12] INFO root fetch - main [MainThread]: Store serial: [23088223]
