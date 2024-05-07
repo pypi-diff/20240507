@@ -20740,3 +20740,75 @@ AssertionError: tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip does not exi
 [2024-05-07 13:11:27] INFO root fetch - processPackages [riptide-lib]: Remove: archive file [/home/abi/fetcher/tmp/riptide_lib-0.8.2-py3-none-any.whl.zip]
 [2024-05-07 13:11:27] INFO root fetch - main [MainThread]: End processing [riptide-lib]: success
 [2024-05-07 13:11:27] INFO root fetch - main [MainThread]: Store serial: [23094322]
+[2024-05-07 13:13:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094322]
+[2024-05-07 13:13:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 13:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EasyDeL
+[2024-05-07 13:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-configuration-sdk-preview
+[2024-05-07 13:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudquery-plugin-sdk
+[2024-05-07 13:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: supervisely
+[2024-05-07 13:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vaultdb
+[2024-05-07 13:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: questioning-machine
+[2024-05-07 13:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: activitypub.py
+[2024-05-07 13:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tb-nightly
+[2024-05-07 13:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbappinator
+[2024-05-07 13:13:35] INFO root fetch - processPackages [activitypub.py]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-07 13:13:35] INFO root fetch - processPackages [cloudquery-plugin-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 13:13:35] INFO root fetch - processPackages [nbappinator]: New version: [0.1.3] Old Version: [0.1.2b2]
+[2024-05-07 13:13:35] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-05-07 13:13:35] ERROR root fetch - processPackages [vaultdb]: Unable to get metadata: No such project 'vaultdb'
+[2024-05-07 13:13:35] INFO root fetch - main [MainThread]: End processing [vaultdb] error
+[2024-05-07 13:13:36] WARNING root fetch - processPackages [questioning-machine]: Skipping, unable to determine old version
+[2024-05-07 13:13:36] INFO root fetch - main [MainThread]: End processing [questioning-machine] error
+[2024-05-07 13:13:36] INFO root fetch - processPackages [EasyDeL]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 13:13:36] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: New version: [0.1.528] Old Version: [0.1.527]
+[2024-05-07 13:13:36] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/8d/fb/733720cbd77f5285dbf2d5e27b1c0aaaa06ff7792bcb8073c0ee5339ca57/cloudquery-plugin-sdk-0.1.8.tar.gz
+[2024-05-07 13:13:36] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-05-07 13:13:36] INFO root fetch - processPackages [activitypub.py]: Downloading https://files.pythonhosted.org/packages/ce/91/01d1f523fcf3f04eb6cb58e7cf2eb3cade6da04ef0c7e79012f27cf5bd04/activitypub_py-0.0.1.tar.gz
+[2024-05-07 13:13:36] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/7c/5a/a1c904a44a11c23d11c33a1ee895bdd2dcfc0307807fa48231a3f8c99172/nbappinator-0.1.2b2.tar.gz
+[2024-05-07 13:13:36] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-05-07 13:13:36] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/0b/01/765632e4f48f400658c26b4a653df55e20dc326b64fd0991020f7fb5c16b/EasyDeL-0.0.8.tar.gz
+[2024-05-07 13:13:36] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/09/6a/d4614ae9a5e76af1c10ea0c809c1564c43edf25d7de41071bb1a63530929/lusid-configuration-sdk-preview-0.1.527.tar.gz
+[2024-05-07 13:13:36] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2024-05-07 13:13:36] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/05/dd/0462f062ce579c3d91af881cc72873b51b63a963fc6e8cfc436135ef582a/cloudquery-plugin-sdk-0.1.9.tar.gz
+[2024-05-07 13:13:36] INFO root fetch - processPackages [activitypub.py]: Downloading https://files.pythonhosted.org/packages/fe/00/de285e8b329770fcb7e25d4dea9b89b944748963fce23e682973352ff7d2/activitypub_py-0.1.0.tar.gz
+[2024-05-07 13:13:36] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/25/3c/80f32cceaa82c4adbe3a4aa660371b01aa9581b3c15ac2f49a455dc0bcea/nbappinator-0.1.3.tar.gz
+[2024-05-07 13:13:36] INFO root fetch - processPackages [activitypub.py]: executing diffoscope
+[2024-05-07 13:13:36] INFO root fetch - processPackages [activitypub.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activitypub_py-0.0.1.tar.gz tmp/activitypub_py-0.1.0.tar.gz --markdown 20240507/a/activitypub.py/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-07 13:13:36] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-05-07 13:13:36] INFO root fetch - processPackages [cloudquery-plugin-sdk]: executing diffoscope
+[2024-05-07 13:13:36] INFO root fetch - processPackages [cloudquery-plugin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudquery-plugin-sdk-0.1.8.tar.gz tmp/cloudquery-plugin-sdk-0.1.9.tar.gz --markdown 20240507/c/cloudquery-plugin-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 13:13:36] INFO root fetch - processPackages [nbappinator]: executing diffoscope
+[2024-05-07 13:13:36] INFO root fetch - processPackages [nbappinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbappinator-0.1.2b2.tar.gz tmp/nbappinator-0.1.3.tar.gz --markdown 20240507/n/nbappinator/0.1.2b2-0.1.3/README.md --exclude *.pyd
+[2024-05-07 13:13:36] INFO root fetch - processPackages [EasyDeL]: Downloading https://files.pythonhosted.org/packages/8a/e3/914fc5ccc4d98c608c3f2bac8f8e325f940afda206011c7e1425cf00d471/EasyDeL-0.0.9.tar.gz
+[2024-05-07 13:13:36] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/2d/16/6978aa4d8358d03cef06eb61d88a4873065b0fbd0042fa4561c818bff2b9/lusid-configuration-sdk-preview-0.1.528.tar.gz
+[2024-05-07 13:13:36] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: executing diffoscope
+[2024-05-07 13:13:36] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-configuration-sdk-preview-0.1.527.tar.gz tmp/lusid-configuration-sdk-preview-0.1.528.tar.gz --markdown 20240507/l/lusid-configuration-sdk-preview/0.1.527-0.1.528/README.md --exclude *.pyd
+[2024-05-07 13:13:36] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2024-05-07 13:13:36] INFO root fetch - processPackages [EasyDeL]: executing diffoscope
+[2024-05-07 13:13:36] INFO root fetch - processPackages [EasyDeL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyDeL-0.0.8.tar.gz tmp/EasyDeL-0.0.9.tar.gz --markdown 20240507/E/EasyDeL/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 13:13:37] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-05-07 13:13:37] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240507/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-05-07 13:13:37] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2024-05-07 13:13:37] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20240507/s/supervisely/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-05-07 13:13:37] INFO root fetch - processPackages [activitypub.py]: Remove: archive file [/home/abi/fetcher/tmp/activitypub_py-0.0.1.tar.gz]
+[2024-05-07 13:13:37] INFO root fetch - processPackages [activitypub.py]: Remove: archive file [/home/abi/fetcher/tmp/activitypub_py-0.1.0.tar.gz]
+[2024-05-07 13:13:37] INFO root fetch - main [MainThread]: End processing [activitypub.py]: success
+[2024-05-07 13:13:37] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.1.2b2.tar.gz]
+[2024-05-07 13:13:37] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.1.3.tar.gz]
+[2024-05-07 13:13:37] INFO root fetch - main [MainThread]: End processing [nbappinator]: success
+[2024-05-07 13:13:37] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.8.tar.gz]
+[2024-05-07 13:13:37] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.9.tar.gz]
+[2024-05-07 13:13:37] INFO root fetch - main [MainThread]: End processing [cloudquery-plugin-sdk]: success
+[2024-05-07 13:13:37] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.8.tar.gz]
+[2024-05-07 13:13:37] INFO root fetch - processPackages [EasyDeL]: Remove: archive file [/home/abi/fetcher/tmp/EasyDeL-0.0.9.tar.gz]
+[2024-05-07 13:13:37] INFO root fetch - main [MainThread]: End processing [EasyDeL]: success
+[2024-05-07 13:13:38] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-configuration-sdk-preview-0.1.527.tar.gz]
+[2024-05-07 13:13:38] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-configuration-sdk-preview-0.1.528.tar.gz]
+[2024-05-07 13:13:38] INFO root fetch - main [MainThread]: End processing [lusid-configuration-sdk-preview]: success
+[2024-05-07 13:13:38] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2024-05-07 13:13:38] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2024-05-07 13:13:38] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2024-05-07 13:13:38] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-05-07 13:13:38] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-05-07 13:13:38] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-05-07 13:13:38] INFO root fetch - main [MainThread]: Store serial: [23094362]
