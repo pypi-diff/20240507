@@ -12471,3 +12471,42 @@ EOFError: EOF read where object expected
 [2024-05-07 08:03:09] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.5-py3-none-any.whl.zip]
 [2024-05-07 08:03:09] INFO root fetch - main [MainThread]: End processing [erp-apis]: success
 [2024-05-07 08:03:09] INFO root fetch - main [MainThread]: Store serial: [23090267]
+[2024-05-07 08:05:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090267]
+[2024-05-07 08:05:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 08:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-keycloak
+[2024-05-07 08:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssb-jordbruk-fagfunksjoner
+[2024-05-07 08:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-hcloud
+[2024-05-07 08:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-github
+[2024-05-07 08:05:18] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-07 08:05:18] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-05-07 08:05:18] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/11/8e/f1627678b31c180bcb87d3ccc9cfcf9dafc7c62fc46954b79376582261a3/ssb_jordbruk_fagfunksjoner-0.1.1.tar.gz
+[2024-05-07 08:05:18] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-05-07 08:05:18] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1715060567] Old Version: [5.4.0a1714563738]
+[2024-05-07 08:05:18] INFO root fetch - processPackages [pulumi-github]: New version: [6.3.0a1715060373] Old Version: [6.3.0a1714566557]
+[2024-05-07 08:05:18] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/70/f9/1c8478b07f5e7233f52098b6f11d174dce7550bf9977a790349a97e7bac5/ssb_jordbruk_fagfunksjoner-0.2.0.tar.gz
+[2024-05-07 08:05:18] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-05-07 08:05:18] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/30/36/dbe70958ade9b22c227d619e9d720356318a19872927840f6a774e0b99fb/pulumi_keycloak-5.4.0a1714563738.tar.gz
+[2024-05-07 08:05:18] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/3f/08/6842f7839b114aa6277ca4a7e9da3cb8e4df8134bab5b468b991353588f9/pulumi_github-6.3.0a1714566557.tar.gz
+[2024-05-07 08:05:18] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: executing diffoscope
+[2024-05-07 08:05:18] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_jordbruk_fagfunksjoner-0.1.1.tar.gz tmp/ssb_jordbruk_fagfunksjoner-0.2.0.tar.gz --markdown 20240507/s/ssb-jordbruk-fagfunksjoner/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-07 08:05:18] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-05-07 08:05:18] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240507/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-05-07 08:05:19] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/5e/3c/9997dd1e47b550b7ac2f4004a160078d9461a8df9e7865943e105ada1db0/pulumi_keycloak-5.4.0a1715060567.tar.gz
+[2024-05-07 08:05:19] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/7b/91/edef34d5bbdc8274bf2da4234d8f617071b8c5770ef06dd9f75dd945898f/pulumi_github-6.3.0a1715060373.tar.gz
+[2024-05-07 08:05:19] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-05-07 08:05:19] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1714563738.tar.gz tmp/pulumi_keycloak-5.4.0a1715060567.tar.gz --markdown 20240507/p/pulumi-keycloak/5.4.0a1714563738-5.4.0a1715060567/README.md --exclude *.pyd
+[2024-05-07 08:05:19] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_jordbruk_fagfunksjoner-0.1.1.tar.gz]
+[2024-05-07 08:05:19] INFO root fetch - processPackages [ssb-jordbruk-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_jordbruk_fagfunksjoner-0.2.0.tar.gz]
+[2024-05-07 08:05:19] INFO root fetch - main [MainThread]: End processing [ssb-jordbruk-fagfunksjoner]: success
+[2024-05-07 08:05:19] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2024-05-07 08:05:19] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-6.3.0a1714566557.tar.gz tmp/pulumi_github-6.3.0a1715060373.tar.gz --markdown 20240507/p/pulumi-github/6.3.0a1714566557-6.3.0a1715060373/README.md --exclude *.pyd
+[2024-05-07 08:05:19] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-05-07 08:05:19] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-05-07 08:05:19] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-05-07 08:05:20] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1714563738.tar.gz]
+[2024-05-07 08:05:20] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1715060567.tar.gz]
+[2024-05-07 08:05:20] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-05-07 08:05:20] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1714566557.tar.gz]
+[2024-05-07 08:05:20] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1715060373.tar.gz]
+[2024-05-07 08:05:20] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2024-05-07 08:05:20] INFO root fetch - main [MainThread]: Store serial: [23090340]
