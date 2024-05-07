@@ -16804,3 +16804,60 @@ EOFError: EOF read where object expected
 [2024-05-07 10:40:18] INFO root fetch - processPackages [lakefs-spec]: Remove: archive file [/home/abi/fetcher/tmp/lakefs_spec-0.9.0.tar.gz]
 [2024-05-07 10:40:18] INFO root fetch - main [MainThread]: End processing [lakefs-spec]: success
 [2024-05-07 10:40:18] INFO root fetch - main [MainThread]: Store serial: [23092329]
+[2024-05-07 10:42:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092329]
+[2024-05-07 10:42:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 10:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: analogic-framework
+[2024-05-07 10:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: package-obfuscator
+[2024-05-07 10:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py_template_creator
+[2024-05-07 10:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akasha-terminal
+[2024-05-07 10:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlx-vlm
+[2024-05-07 10:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kuzu
+[2024-05-07 10:42:27] INFO root fetch - processPackages [py_template_creator]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-07 10:42:27] INFO root fetch - processPackages [mlx-vlm]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-07 10:42:27] INFO root fetch - processPackages [analogic-framework]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-05-07 10:42:27] INFO root fetch - processPackages [package-obfuscator]: New version: [1.0.0] Old Version: [0.0.2]
+[2024-05-07 10:42:27] INFO root fetch - processPackages [akasha-terminal]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-07 10:42:27] INFO root fetch - processPackages [analogic-framework]: Downloading https://files.pythonhosted.org/packages/98/74/501ef05cf43d57823ed10935b7cca46ed0b00274c9375535a799a8c48fd0/analogic-framework-4.1.8.tar.gz
+[2024-05-07 10:42:27] INFO root fetch - processPackages [py_template_creator]: Downloading https://files.pythonhosted.org/packages/37/a3/b46972075fc1b67ecb09c8666665846ee238bf2615d4d0ea129542fda764/py_template_creator-1.3.2.tar.gz
+[2024-05-07 10:42:27] INFO root fetch - processPackages [kuzu]: New version: [0.4.1.dev4] Old Version: [0.4.1.dev3]
+[2024-05-07 10:42:27] INFO root fetch - processPackages [package-obfuscator]: Downloading https://files.pythonhosted.org/packages/56/d0/572c6c637d96cc2216097bd4990149a8f2fc877fbab0c858574969321aa8/package_obfuscator-0.0.2-py3-none-any.whl
+[2024-05-07 10:42:27] INFO root fetch - processPackages [mlx-vlm]: Downloading https://files.pythonhosted.org/packages/48/2e/9c59f08656cd91acc09611ba5106808792291cbcab01c3a5dc0d748767ee/mlx_vlm-0.0.4.tar.gz
+[2024-05-07 10:42:27] INFO root fetch - processPackages [akasha-terminal]: Downloading https://files.pythonhosted.org/packages/44/ba/ad1af60540b73410a76351edea1ffacfe2c1e951eed2d58a4031be3ad8fc/akasha-terminal-0.8.8.tar.gz
+[2024-05-07 10:42:27] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/68/7c/79c344d6b58d8ba8d0068cc6ba6a08a882f240acb9e805a557b52f9fa728/kuzu-0.4.1.dev3.tar.gz
+[2024-05-07 10:42:27] INFO root fetch - processPackages [py_template_creator]: Downloading https://files.pythonhosted.org/packages/42/ab/6223c8c425e00323008ccb695261c13e538c1e8e8d09a498ddb2197e7fba/py_template_creator-1.3.3.tar.gz
+[2024-05-07 10:42:27] INFO root fetch - processPackages [package-obfuscator]: Downloading https://files.pythonhosted.org/packages/d3/81/d286b8f3a1adefc4e200fbb6813b985d7161475a68244de3fe5a05b62a88/package_obfuscator-1.0.0.tar.gz
+[2024-05-07 10:42:27] INFO root fetch - processPackages [mlx-vlm]: Downloading https://files.pythonhosted.org/packages/a8/77/33fe27dafca6cafcd39023819135212b332581b269344803df69dfd544cb/mlx_vlm-0.0.5.tar.gz
+[2024-05-07 10:42:28] INFO root fetch - processPackages [py_template_creator]: executing diffoscope
+[2024-05-07 10:42:28] INFO root fetch - processPackages [py_template_creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_template_creator-1.3.2.tar.gz tmp/py_template_creator-1.3.3.tar.gz --markdown 20240507/p/py_template_creator/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-07 10:42:28] INFO root fetch - processPackages [package-obfuscator]: executing diffoscope
+[2024-05-07 10:42:28] INFO root fetch - processPackages [package-obfuscator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/package_obfuscator-0.0.2-py3-none-any.whl.zip tmp/package_obfuscator-1.0.0.tar.gz --markdown 20240507/p/package-obfuscator/0.0.2-1.0.0/README.md --exclude *.pyd
+[2024-05-07 10:42:28] INFO root fetch - processPackages [akasha-terminal]: Downloading https://files.pythonhosted.org/packages/22/cd/bc4da2cd3d8a9b0bdd6542c2a920f376fc7abf8fa3d60f48b60bd6f3f13e/akasha-terminal-0.8.9.tar.gz
+[2024-05-07 10:42:28] INFO root fetch - processPackages [mlx-vlm]: executing diffoscope
+[2024-05-07 10:42:28] INFO root fetch - processPackages [mlx-vlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlx_vlm-0.0.4.tar.gz tmp/mlx_vlm-0.0.5.tar.gz --markdown 20240507/m/mlx-vlm/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-07 10:42:28] INFO root fetch - processPackages [analogic-framework]: Downloading https://files.pythonhosted.org/packages/cd/ce/09017b84d3dbd60dd976cda67cd198bf77de7a26939328c92e42de6003e2/analogic-framework-4.1.9.tar.gz
+[2024-05-07 10:42:28] INFO root fetch - processPackages [akasha-terminal]: executing diffoscope
+[2024-05-07 10:42:28] INFO root fetch - processPackages [akasha-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akasha-terminal-0.8.8.tar.gz tmp/akasha-terminal-0.8.9.tar.gz --markdown 20240507/a/akasha-terminal/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-07 10:42:28] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/0f/4e/88e0f17d6a773a831fbd3dfbaa454ff6d2e324d29cfcedf3a4c59c9340c6/kuzu-0.4.1.dev4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-07 10:42:28] INFO root fetch - processPackages [package-obfuscator]: Remove: archive file [/home/abi/fetcher/tmp/package_obfuscator-0.0.2-py3-none-any.whl.zip]
+[2024-05-07 10:42:28] INFO root fetch - processPackages [package-obfuscator]: Remove: archive file [/home/abi/fetcher/tmp/package_obfuscator-1.0.0.tar.gz]
+[2024-05-07 10:42:28] INFO root fetch - main [MainThread]: End processing [package-obfuscator]: success
+[2024-05-07 10:42:29] INFO root fetch - processPackages [py_template_creator]: Remove: archive file [/home/abi/fetcher/tmp/py_template_creator-1.3.2.tar.gz]
+[2024-05-07 10:42:29] INFO root fetch - processPackages [py_template_creator]: Remove: archive file [/home/abi/fetcher/tmp/py_template_creator-1.3.3.tar.gz]
+[2024-05-07 10:42:29] INFO root fetch - main [MainThread]: End processing [py_template_creator]: success
+[2024-05-07 10:42:29] INFO root fetch - processPackages [mlx-vlm]: Remove: archive file [/home/abi/fetcher/tmp/mlx_vlm-0.0.4.tar.gz]
+[2024-05-07 10:42:29] INFO root fetch - processPackages [mlx-vlm]: Remove: archive file [/home/abi/fetcher/tmp/mlx_vlm-0.0.5.tar.gz]
+[2024-05-07 10:42:29] INFO root fetch - main [MainThread]: End processing [mlx-vlm]: success
+[2024-05-07 10:42:29] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.8.tar.gz]
+[2024-05-07 10:42:29] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.9.tar.gz]
+[2024-05-07 10:42:29] INFO root fetch - main [MainThread]: End processing [akasha-terminal]: success
+[2024-05-07 10:42:29] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-07 10:42:29] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.1.dev3.tar.gz tmp/kuzu-0.4.1.dev4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240507/k/kuzu/0.4.1.dev3-0.4.1.dev4/README.md --exclude *.pyd
+[2024-05-07 10:42:29] INFO root fetch - processPackages [analogic-framework]: executing diffoscope
+[2024-05-07 10:42:29] INFO root fetch - processPackages [analogic-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analogic-framework-4.1.8.tar.gz tmp/analogic-framework-4.1.9.tar.gz --markdown 20240507/a/analogic-framework/4.1.8-4.1.9/README.md --exclude *.pyd
+[2024-05-07 10:42:30] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.1.dev3.tar.gz]
+[2024-05-07 10:42:30] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.1.dev4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-07 10:42:30] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-07 10:42:33] INFO root fetch - processPackages [analogic-framework]: Remove: archive file [/home/abi/fetcher/tmp/analogic-framework-4.1.8.tar.gz]
+[2024-05-07 10:42:33] INFO root fetch - processPackages [analogic-framework]: Remove: archive file [/home/abi/fetcher/tmp/analogic-framework-4.1.9.tar.gz]
+[2024-05-07 10:42:33] INFO root fetch - main [MainThread]: End processing [analogic-framework]: success
+[2024-05-07 10:42:33] INFO root fetch - main [MainThread]: Store serial: [23092347]
