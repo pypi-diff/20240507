@@ -8418,3 +8418,63 @@ EOFError: EOF read where object expected
 [2024-05-07 04:09:10] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a99-py3-none-win_amd64.whl.zip]
 [2024-05-07 04:09:10] INFO root fetch - main [MainThread]: End processing [bauplan]: success
 [2024-05-07 04:09:10] INFO root fetch - main [MainThread]: Store serial: [23088324]
+[2024-05-07 04:11:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088324]
+[2024-05-07 04:11:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 04:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kube-agent
+[2024-05-07 04:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinympc
+[2024-05-07 04:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bugprint
+[2024-05-07 04:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Hebill-Pypi
+[2024-05-07 04:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sz-utils
+[2024-05-07 04:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pstk
+[2024-05-07 04:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: duwi-smart-sdk
+[2024-05-07 04:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linknlink
+[2024-05-07 04:11:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swarmauri
+[2024-05-07 04:11:25] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-07 04:11:25] INFO root fetch - processPackages [bugprint]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-07 04:11:25] WARNING root fetch - processPackages [Hebill-Pypi]: Skipping, unable to determine old version
+[2024-05-07 04:11:25] WARNING root fetch - processPackages [kube-agent]: Skipping, unable to determine old version
+[2024-05-07 04:11:25] INFO root fetch - main [MainThread]: End processing [Hebill-Pypi] error
+[2024-05-07 04:11:25] INFO root fetch - main [MainThread]: End processing [kube-agent] error
+[2024-05-07 04:11:25] WARNING root fetch - processPackages [sz-utils]: Skipping, unable to determine old version
+[2024-05-07 04:11:25] INFO root fetch - main [MainThread]: End processing [sz-utils] error
+[2024-05-07 04:11:25] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-07 04:11:25] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-07 04:11:25] INFO root fetch - processPackages [bugprint]: Downloading https://files.pythonhosted.org/packages/6d/ef/3783c3bc43b15e0437920f42ffb12412d8535486a5ee09acf95b531de493/bugprint-0.3.1.tar.gz
+[2024-05-07 04:11:25] WARNING root fetch - processPackages [tinympc]: Skipping, unable to determine old version
+[2024-05-07 04:11:25] INFO root fetch - processPackages [linknlink]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-07 04:11:25] INFO root fetch - main [MainThread]: End processing [tinympc] error
+[2024-05-07 04:11:25] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/d0/9a/c96bdbad375b10ad2935c47e153e34ce5ab1fca8e485fdecaa0dc44ea22e/duwi_smart_sdk-0.0.5.tar.gz
+[2024-05-07 04:11:25] INFO root fetch - processPackages [pstk]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-07 04:11:26] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-07 04:11:26] INFO root fetch - processPackages [linknlink]: Downloading https://files.pythonhosted.org/packages/cb/18/c034afe89888684ce874f9447f1d80a8f0606b6bf26230e5f875e8b9af6b/linknlink-0.2.2.tar.gz
+[2024-05-07 04:11:26] INFO root fetch - processPackages [pstk]: Downloading https://files.pythonhosted.org/packages/3f/24/9bae17037ceaaa3787809cdb4632ad90ecc535a00f62777e0d6b8643ffd1/pstk-0.0.1.tar.gz
+[2024-05-07 04:11:26] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-07 04:11:26] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240507/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-07 04:11:26] INFO root fetch - processPackages [bugprint]: Downloading https://files.pythonhosted.org/packages/2c/5f/ff52f1013681f0917f8bdad6071694ff9fd1d0ad5b507912cfc22aaafc38/bugprint-0.3.2.tar.gz
+[2024-05-07 04:11:26] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/5b/6e/f1ef4c3122f591c3a80bbb9a78fda0f5ecdc7bdf7fcad18d866cf8da9c8a/duwi_smart_sdk-0.0.6.tar.gz
+[2024-05-07 04:11:26] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-07 04:11:26] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.0.5.tar.gz tmp/duwi_smart_sdk-0.0.6.tar.gz --markdown 20240507/d/duwi-smart-sdk/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-07 04:11:26] INFO root fetch - processPackages [bugprint]: executing diffoscope
+[2024-05-07 04:11:26] INFO root fetch - processPackages [bugprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugprint-0.3.1.tar.gz tmp/bugprint-0.3.2.tar.gz --markdown 20240507/b/bugprint/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-07 04:11:26] INFO root fetch - processPackages [pstk]: Downloading https://files.pythonhosted.org/packages/8b/6a/27029eb1b82dc5634c23e459c80f1b45eb84dac4ab9a15459452b5de4dc2/pstk-0.0.2.tar.gz
+[2024-05-07 04:11:26] INFO root fetch - processPackages [linknlink]: Downloading https://files.pythonhosted.org/packages/78/cd/11134af3599691a65491cd31c0585b24ab5f7ed46841d6c1b39391def4b9/linknlink-0.2.3.tar.gz
+[2024-05-07 04:11:26] INFO root fetch - processPackages [pstk]: executing diffoscope
+[2024-05-07 04:11:26] INFO root fetch - processPackages [pstk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pstk-0.0.1.tar.gz tmp/pstk-0.0.2.tar.gz --markdown 20240507/p/pstk/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-07 04:11:26] INFO root fetch - processPackages [linknlink]: executing diffoscope
+[2024-05-07 04:11:26] INFO root fetch - processPackages [linknlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linknlink-0.2.2.tar.gz tmp/linknlink-0.2.3.tar.gz --markdown 20240507/l/linknlink/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-07 04:11:26] INFO root fetch - processPackages [bugprint]: Remove: archive file [/home/abi/fetcher/tmp/bugprint-0.3.1.tar.gz]
+[2024-05-07 04:11:26] INFO root fetch - processPackages [bugprint]: Remove: archive file [/home/abi/fetcher/tmp/bugprint-0.3.2.tar.gz]
+[2024-05-07 04:11:26] INFO root fetch - main [MainThread]: End processing [bugprint]: success
+[2024-05-07 04:11:27] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.0.5.tar.gz]
+[2024-05-07 04:11:27] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.0.6.tar.gz]
+[2024-05-07 04:11:27] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-07 04:11:27] INFO root fetch - processPackages [linknlink]: Remove: archive file [/home/abi/fetcher/tmp/linknlink-0.2.2.tar.gz]
+[2024-05-07 04:11:27] INFO root fetch - processPackages [linknlink]: Remove: archive file [/home/abi/fetcher/tmp/linknlink-0.2.3.tar.gz]
+[2024-05-07 04:11:27] INFO root fetch - main [MainThread]: End processing [linknlink]: success
+[2024-05-07 04:11:27] INFO root fetch - processPackages [pstk]: Remove: archive file [/home/abi/fetcher/tmp/pstk-0.0.1.tar.gz]
+[2024-05-07 04:11:27] INFO root fetch - processPackages [pstk]: Remove: archive file [/home/abi/fetcher/tmp/pstk-0.0.2.tar.gz]
+[2024-05-07 04:11:27] INFO root fetch - main [MainThread]: End processing [pstk]: success
+[2024-05-07 04:11:27] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-07 04:11:27] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-07 04:11:27] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-07 04:11:27] INFO root fetch - main [MainThread]: Store serial: [23088383]
