@@ -9147,3 +9147,39 @@ EOFError: EOF read where object expected
 [2024-05-07 04:53:27] INFO root fetch - main [MainThread]: End processing [werag]: success
 [2024-05-07 04:53:27] INFO root fetch - main [MainThread]: End processing [bert4keras3]: success
 [2024-05-07 04:53:27] INFO root fetch - main [MainThread]: Store serial: [23088703]
+[2024-05-07 04:55:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088703]
+[2024-05-07 04:55:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 04:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: expectoratorz
+[2024-05-07 04:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyaedt
+[2024-05-07 04:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-partner-invoicing-mode
+[2024-05-07 04:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datalibro-backend
+[2024-05-07 04:55:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ureterographz
+[2024-05-07 04:55:35] INFO root fetch - processPackages [datalibro-backend]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-07 04:55:35] INFO root fetch - processPackages [pyaedt]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-07 04:55:35] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/32/2d/b655bf79847a0117dc356918234839f34cfa9832d12b2b72f99f99410a0d/datalibro_backend-1.1.2.tar.gz
+[2024-05-07 04:55:35] WARNING root fetch - processPackages [expectoratorz]: Skipping, unable to determine old version
+[2024-05-07 04:55:35] INFO root fetch - main [MainThread]: End processing [expectoratorz] error
+[2024-05-07 04:55:35] WARNING root fetch - processPackages [ureterographz]: Skipping, unable to determine old version
+[2024-05-07 04:55:35] INFO root fetch - main [MainThread]: End processing [ureterographz] error
+[2024-05-07 04:55:35] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode]: New version: [16.0.2.0.0.4] Old Version: [16.0.2.0.0.3]
+[2024-05-07 04:55:35] INFO root fetch - processPackages [pyaedt]: Downloading https://files.pythonhosted.org/packages/75/3f/15a50e190310b2db829889f2b91e01659d1ea9c5500f25de8fae490da0d9/pyaedt-0.8.8.tar.gz
+[2024-05-07 04:55:36] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/35/bf/92a0a5743cdb47350ab1340519bb06127ea1471052965ca395d06e71c4c4/datalibro_backend-1.1.3.tar.gz
+[2024-05-07 04:55:36] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode]: Downloading https://files.pythonhosted.org/packages/33/ce/166b48469837daf4a4dea7582b189a877150ac010010ee6233780048e154/odoo_addon_partner_invoicing_mode-16.0.2.0.0.3-py3-none-any.whl
+[2024-05-07 04:55:36] INFO root fetch - processPackages [datalibro-backend]: executing diffoscope
+[2024-05-07 04:55:36] INFO root fetch - processPackages [datalibro-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalibro_backend-1.1.2.tar.gz tmp/datalibro_backend-1.1.3.tar.gz --markdown 20240507/d/datalibro-backend/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-07 04:55:36] INFO root fetch - processPackages [pyaedt]: Downloading https://files.pythonhosted.org/packages/c7/b5/f76e679d20dfe9c4add80f46740605b48e363c7691f0b901158659a606c7/pyaedt-0.8.9.tar.gz
+[2024-05-07 04:55:36] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode]: Downloading https://files.pythonhosted.org/packages/c9/9f/2a56a63702b32fff50ffb697ed4f59cbaa8ae48b7c7381cc356ad61f0349/odoo_addon_partner_invoicing_mode-16.0.2.0.0.4-py3-none-any.whl
+[2024-05-07 04:55:36] INFO root fetch - processPackages [pyaedt]: executing diffoscope
+[2024-05-07 04:55:36] INFO root fetch - processPackages [pyaedt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaedt-0.8.8.tar.gz tmp/pyaedt-0.8.9.tar.gz --markdown 20240507/p/pyaedt/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-07 04:55:36] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode]: executing diffoscope
+[2024-05-07 04:55:36] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_invoicing_mode-16.0.2.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_partner_invoicing_mode-16.0.2.0.0.4-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-partner-invoicing-mode/16.0.2.0.0.3-16.0.2.0.0.4/README.md --exclude *.pyd
+[2024-05-07 04:55:36] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.2.tar.gz]
+[2024-05-07 04:55:36] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.3.tar.gz]
+[2024-05-07 04:55:36] INFO root fetch - main [MainThread]: End processing [datalibro-backend]: success
+[2024-05-07 04:55:37] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_invoicing_mode-16.0.2.0.0.3-py3-none-any.whl.zip]
+[2024-05-07 04:55:37] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_invoicing_mode-16.0.2.0.0.4-py3-none-any.whl.zip]
+[2024-05-07 04:55:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-invoicing-mode]: success
+[2024-05-07 04:55:39] INFO root fetch - processPackages [pyaedt]: Remove: archive file [/home/abi/fetcher/tmp/pyaedt-0.8.8.tar.gz]
+[2024-05-07 04:55:39] INFO root fetch - processPackages [pyaedt]: Remove: archive file [/home/abi/fetcher/tmp/pyaedt-0.8.9.tar.gz]
+[2024-05-07 04:55:39] INFO root fetch - main [MainThread]: End processing [pyaedt]: success
+[2024-05-07 04:55:39] INFO root fetch - main [MainThread]: Store serial: [23088723]
