@@ -16726,3 +16726,81 @@ EOFError: EOF read where object expected
 [2024-05-07 10:38:06] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.9.tar.gz]
 [2024-05-07 10:38:06] INFO root fetch - main [MainThread]: End processing [ersilia]: success
 [2024-05-07 10:38:06] INFO root fetch - main [MainThread]: Store serial: [23092302]
+[2024-05-07 10:40:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092302]
+[2024-05-07 10:40:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-07 10:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-kraken
+[2024-05-07 10:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nlhappy
+[2024-05-07 10:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: md2tgmd
+[2024-05-07 10:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bokeh-joystick-widget
+[2024-05-07 10:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lakefs-spec
+[2024-05-07 10:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: niwatoko
+[2024-05-07 10:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rlanutils
+[2024-05-07 10:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-chain-secrets
+[2024-05-07 10:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: new-dt-algorithm
+[2024-05-07 10:40:15] INFO root fetch - processPackages [md2tgmd]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-07 10:40:15] INFO root fetch - processPackages [rlanutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 10:40:15] INFO root fetch - processPackages [bokeh-joystick-widget]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-07 10:40:15] INFO root fetch - processPackages [niwatoko]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-07 10:40:15] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.7.0]
+[2024-05-07 10:40:15] INFO root fetch - processPackages [lakefs-spec]: New version: [0.9.0] Old Version: [0.8.0.post0]
+[2024-05-07 10:40:15] INFO root fetch - processPackages [aws-chain-secrets]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-07 10:40:15] ERROR root fetch - processPackages [new-dt-algorithm]: Unable to get metadata: No such project 'new-dt-algorithm'
+[2024-05-07 10:40:15] INFO root fetch - main [MainThread]: End processing [new-dt-algorithm] error
+[2024-05-07 10:40:15] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/cb/06/8ae70afb14c2307fb716d0fe36aad66a90c9e2598f47879c1277c5f23318/music_kraken-1.7.0.tar.gz
+[2024-05-07 10:40:15] INFO root fetch - processPackages [nlhappy]: New version: [2024.5.7] Old Version: [2023.1.31]
+[2024-05-07 10:40:15] INFO root fetch - processPackages [bokeh-joystick-widget]: Downloading https://files.pythonhosted.org/packages/ab/6b/008062489446edfbfb73dc900face267026b66a6b4e36d18fe98eb4fda7e/bokeh_joystick_widget-0.3.0.tar.gz
+[2024-05-07 10:40:16] INFO root fetch - processPackages [md2tgmd]: Downloading https://files.pythonhosted.org/packages/d8/2f/7be6cbe149f505e4be1a39b3889865bd2c88034d6a7c022a1f7b21af99d3/md2tgmd-0.1.2.tar.gz
+[2024-05-07 10:40:16] INFO root fetch - processPackages [rlanutils]: Downloading https://files.pythonhosted.org/packages/db/fe/3e23b6e4fe1a1c47beee51706b312873441793a84371114db6ba70c7430b/rlanutils-0.1.8.tar.gz
+[2024-05-07 10:40:16] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/df/8b/4535077613b522144a90e833e96e27dadddb83886984182a3d2dac7f664b/niwatoko-1.0.5.tar.gz
+[2024-05-07 10:40:16] INFO root fetch - processPackages [nlhappy]: Downloading https://files.pythonhosted.org/packages/ef/66/0a3714c2dacab98df0abeafdc7652b09cd58b67e45c1fc369c43ecfcfd98/nlhappy-2023.1.31.tar.gz
+[2024-05-07 10:40:16] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-05-07 10:40:16] INFO root fetch - processPackages [aws-chain-secrets]: Downloading https://files.pythonhosted.org/packages/b6/ee/737ea11095442fc82db5d4ec863977ba7ad7c5bee6085283e3b9f0b3cecc/aws_chain_secrets-1.0.1.tar.gz
+[2024-05-07 10:40:16] INFO root fetch - processPackages [lakefs-spec]: Downloading https://files.pythonhosted.org/packages/b1/34/8e13f1215d86ebf371f1b749195c23fe7fe6e3b645c25075604b5cb3bcb8/lakefs-spec-0.8.0.post0.tar.gz
+[2024-05-07 10:40:16] INFO root fetch - processPackages [md2tgmd]: Downloading https://files.pythonhosted.org/packages/c0/c9/3392c34f10d7b698b6c18917549a787fec454e27840a267e9300638bfade/md2tgmd-0.1.4.tar.gz
+[2024-05-07 10:40:16] INFO root fetch - processPackages [rlanutils]: Downloading https://files.pythonhosted.org/packages/4d/0b/0145c9995a65c1987fece2f34fc48dc2530846bf0748efda0e22531be6eb/rlanutils-0.1.9.tar.gz
+[2024-05-07 10:40:16] INFO root fetch - processPackages [bokeh-joystick-widget]: Downloading https://files.pythonhosted.org/packages/b6/0b/60dfb6592598e30d44cd5f68adaca7a88f23445f8dd3c26131e2344bc009/bokeh_joystick_widget-0.3.1.tar.gz
+[2024-05-07 10:40:16] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-05-07 10:40:16] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.7.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240507/m/music-kraken/1.7.0-1.9.0/README.md --exclude *.pyd
+[2024-05-07 10:40:16] INFO root fetch - processPackages [rlanutils]: executing diffoscope
+[2024-05-07 10:40:16] INFO root fetch - processPackages [rlanutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlanutils-0.1.8.tar.gz tmp/rlanutils-0.1.9.tar.gz --markdown 20240507/r/rlanutils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 10:40:16] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/f5/18/fb5d2bdc3e6f91f999737c66cdd1b7baddbeb3b6b37fe8b2c18bfd294ec0/niwatoko-1.0.6.tar.gz
+[2024-05-07 10:40:16] INFO root fetch - processPackages [md2tgmd]: executing diffoscope
+[2024-05-07 10:40:16] INFO root fetch - processPackages [md2tgmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2tgmd-0.1.2.tar.gz tmp/md2tgmd-0.1.4.tar.gz --markdown 20240507/m/md2tgmd/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-07 10:40:16] INFO root fetch - processPackages [nlhappy]: Downloading https://files.pythonhosted.org/packages/9b/d0/d007cff6ecc55ef6ea057162cb8e47636481e8c2d365fe5d33f2a2e98b48/nlhappy-2024.5.7.tar.gz
+[2024-05-07 10:40:16] INFO root fetch - processPackages [bokeh-joystick-widget]: executing diffoscope
+[2024-05-07 10:40:16] INFO root fetch - processPackages [bokeh-joystick-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bokeh_joystick_widget-0.3.0.tar.gz tmp/bokeh_joystick_widget-0.3.1.tar.gz --markdown 20240507/b/bokeh-joystick-widget/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-07 10:40:16] INFO root fetch - processPackages [niwatoko]: executing diffoscope
+[2024-05-07 10:40:16] INFO root fetch - processPackages [niwatoko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niwatoko-1.0.5.tar.gz tmp/niwatoko-1.0.6.tar.gz --markdown 20240507/n/niwatoko/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-07 10:40:16] INFO root fetch - processPackages [nlhappy]: executing diffoscope
+[2024-05-07 10:40:16] INFO root fetch - processPackages [nlhappy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlhappy-2023.1.31.tar.gz tmp/nlhappy-2024.5.7.tar.gz --markdown 20240507/n/nlhappy/2023.1.31-2024.5.7/README.md --exclude *.pyd
+[2024-05-07 10:40:16] INFO root fetch - processPackages [lakefs-spec]: Downloading https://files.pythonhosted.org/packages/9c/18/666158f31a081dd477c4d63073e239fe55bed74c097d755654c81eed1029/lakefs_spec-0.9.0.tar.gz
+[2024-05-07 10:40:16] INFO root fetch - processPackages [aws-chain-secrets]: Downloading https://files.pythonhosted.org/packages/05/04/3fe5e86d2c34bc90d941bb9365186e96f72dafc7141fba95ae9fc96d2b3a/aws_chain_secrets-1.0.2.tar.gz
+[2024-05-07 10:40:16] INFO root fetch - processPackages [aws-chain-secrets]: executing diffoscope
+[2024-05-07 10:40:16] INFO root fetch - processPackages [aws-chain-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_chain_secrets-1.0.1.tar.gz tmp/aws_chain_secrets-1.0.2.tar.gz --markdown 20240507/a/aws-chain-secrets/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-07 10:40:16] INFO root fetch - processPackages [lakefs-spec]: executing diffoscope
+[2024-05-07 10:40:16] INFO root fetch - processPackages [lakefs-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-spec-0.8.0.post0.tar.gz tmp/lakefs_spec-0.9.0.tar.gz --markdown 20240507/l/lakefs-spec/0.8.0.post0-0.9.0/README.md --exclude *.pyd
+[2024-05-07 10:40:17] INFO root fetch - processPackages [rlanutils]: Remove: archive file [/home/abi/fetcher/tmp/rlanutils-0.1.8.tar.gz]
+[2024-05-07 10:40:17] INFO root fetch - processPackages [rlanutils]: Remove: archive file [/home/abi/fetcher/tmp/rlanutils-0.1.9.tar.gz]
+[2024-05-07 10:40:17] INFO root fetch - main [MainThread]: End processing [rlanutils]: success
+[2024-05-07 10:40:17] INFO root fetch - processPackages [md2tgmd]: Remove: archive file [/home/abi/fetcher/tmp/md2tgmd-0.1.2.tar.gz]
+[2024-05-07 10:40:17] INFO root fetch - processPackages [md2tgmd]: Remove: archive file [/home/abi/fetcher/tmp/md2tgmd-0.1.4.tar.gz]
+[2024-05-07 10:40:17] INFO root fetch - main [MainThread]: End processing [md2tgmd]: success
+[2024-05-07 10:40:17] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.0.5.tar.gz]
+[2024-05-07 10:40:17] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.0.6.tar.gz]
+[2024-05-07 10:40:17] INFO root fetch - main [MainThread]: End processing [niwatoko]: success
+[2024-05-07 10:40:17] INFO root fetch - processPackages [bokeh-joystick-widget]: Remove: archive file [/home/abi/fetcher/tmp/bokeh_joystick_widget-0.3.0.tar.gz]
+[2024-05-07 10:40:17] INFO root fetch - processPackages [bokeh-joystick-widget]: Remove: archive file [/home/abi/fetcher/tmp/bokeh_joystick_widget-0.3.1.tar.gz]
+[2024-05-07 10:40:17] INFO root fetch - main [MainThread]: End processing [bokeh-joystick-widget]: success
+[2024-05-07 10:40:17] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.7.0.tar.gz]
+[2024-05-07 10:40:17] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-05-07 10:40:17] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-05-07 10:40:17] INFO root fetch - processPackages [aws-chain-secrets]: Remove: archive file [/home/abi/fetcher/tmp/aws_chain_secrets-1.0.1.tar.gz]
+[2024-05-07 10:40:17] INFO root fetch - processPackages [aws-chain-secrets]: Remove: archive file [/home/abi/fetcher/tmp/aws_chain_secrets-1.0.2.tar.gz]
+[2024-05-07 10:40:17] INFO root fetch - main [MainThread]: End processing [aws-chain-secrets]: success
+[2024-05-07 10:40:18] INFO root fetch - processPackages [nlhappy]: Remove: archive file [/home/abi/fetcher/tmp/nlhappy-2023.1.31.tar.gz]
+[2024-05-07 10:40:18] INFO root fetch - processPackages [nlhappy]: Remove: archive file [/home/abi/fetcher/tmp/nlhappy-2024.5.7.tar.gz]
+[2024-05-07 10:40:18] INFO root fetch - main [MainThread]: End processing [nlhappy]: success
+[2024-05-07 10:40:18] INFO root fetch - processPackages [lakefs-spec]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-spec-0.8.0.post0.tar.gz]
+[2024-05-07 10:40:18] INFO root fetch - processPackages [lakefs-spec]: Remove: archive file [/home/abi/fetcher/tmp/lakefs_spec-0.9.0.tar.gz]
+[2024-05-07 10:40:18] INFO root fetch - main [MainThread]: End processing [lakefs-spec]: success
+[2024-05-07 10:40:18] INFO root fetch - main [MainThread]: Store serial: [23092329]
