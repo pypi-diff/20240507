@@ -7886,3 +7886,38 @@ EOFError: EOF read where object expected
 [2024-05-07 03:32:30] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-05-07 03:32:30] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-05-07 03:32:30] INFO root fetch - main [MainThread]: Store serial: [23088038]
+[2024-05-07 03:34:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088038]
+[2024-05-07 03:34:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 03:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: livedc
+[2024-05-07 03:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docassemble
+[2024-05-07 03:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docassemble.base
+[2024-05-07 03:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docassemble.demo
+[2024-05-07 03:34:39] INFO root fetch - processPackages [livedc]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-07 03:34:39] INFO root fetch - processPackages [livedc]: Downloading https://files.pythonhosted.org/packages/e7/10/5338ade1a8cdd088cfba02852e72c2bb364e84282273943f1222669d7b14/livedc-0.0.3.tar.gz
+[2024-05-07 03:34:39] INFO root fetch - processPackages [docassemble]: New version: [1.4.99] Old Version: [1.4.98]
+[2024-05-07 03:34:39] INFO root fetch - processPackages [docassemble.base]: New version: [1.4.99] Old Version: [1.4.98]
+[2024-05-07 03:34:40] INFO root fetch - processPackages [livedc]: Downloading https://files.pythonhosted.org/packages/e4/37/2988fea32dbfe3b2abcbf37802cf98a4b1f9647bac67661d7756a296598c/livedc-0.0.4.tar.gz
+[2024-05-07 03:34:40] INFO root fetch - processPackages [docassemble.demo]: New version: [1.4.99] Old Version: [1.4.98]
+[2024-05-07 03:34:40] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/f2/79/70f99e0f2d7ac441ba6078f72c2defa6de83c4996b43a1605d58db6cee9e/docassemble-1.4.98.tar.gz
+[2024-05-07 03:34:40] INFO root fetch - processPackages [docassemble.base]: Downloading https://files.pythonhosted.org/packages/c6/97/6e8362248c76002539b0015c395a996f1a752b7e942e6e1d8c58bd011bde/docassemble.base-1.4.98.tar.gz
+[2024-05-07 03:34:40] INFO root fetch - processPackages [livedc]: executing diffoscope
+[2024-05-07 03:34:40] INFO root fetch - processPackages [livedc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livedc-0.0.3.tar.gz tmp/livedc-0.0.4.tar.gz --markdown 20240507/l/livedc/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-07 03:34:40] WARNING root fetch - processPackages [docassemble.base]: Skipping package: exceeds size limit 11016774>=10485760
+[2024-05-07 03:34:40] INFO root fetch - main [MainThread]: End processing [docassemble.base] error
+[2024-05-07 03:34:40] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/a3/c1/1f280a60b99d515b42335d1f026d71124bf1f77a53c6fb418d16355bad3f/docassemble.demo-1.4.98.tar.gz
+[2024-05-07 03:34:40] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/ab/f8/10651b6a66fb81041c9e56e6e5488e9df680f343eee09c7dce1d7d278d44/docassemble-1.4.99.tar.gz
+[2024-05-07 03:34:40] INFO root fetch - processPackages [docassemble]: executing diffoscope
+[2024-05-07 03:34:40] INFO root fetch - processPackages [docassemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble-1.4.98.tar.gz tmp/docassemble-1.4.99.tar.gz --markdown 20240507/d/docassemble/1.4.98-1.4.99/README.md --exclude *.pyd
+[2024-05-07 03:34:40] INFO root fetch - processPackages [livedc]: Remove: archive file [/home/abi/fetcher/tmp/livedc-0.0.3.tar.gz]
+[2024-05-07 03:34:40] INFO root fetch - processPackages [livedc]: Remove: archive file [/home/abi/fetcher/tmp/livedc-0.0.4.tar.gz]
+[2024-05-07 03:34:40] INFO root fetch - main [MainThread]: End processing [livedc]: success
+[2024-05-07 03:34:41] INFO root fetch - processPackages [docassemble]: Remove: archive file [/home/abi/fetcher/tmp/docassemble-1.4.98.tar.gz]
+[2024-05-07 03:34:41] INFO root fetch - processPackages [docassemble]: Remove: archive file [/home/abi/fetcher/tmp/docassemble-1.4.99.tar.gz]
+[2024-05-07 03:34:41] INFO root fetch - main [MainThread]: End processing [docassemble]: success
+[2024-05-07 03:34:42] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/dd/f7/ccb6bf3663735bc68039754460782028e93db06c0d6add926bb0c1729889/docassemble.demo-1.4.99.tar.gz
+[2024-05-07 03:34:45] INFO root fetch - processPackages [docassemble.demo]: executing diffoscope
+[2024-05-07 03:34:45] INFO root fetch - processPackages [docassemble.demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.demo-1.4.98.tar.gz tmp/docassemble.demo-1.4.99.tar.gz --markdown 20240507/d/docassemble.demo/1.4.98-1.4.99/README.md --exclude *.pyd
+[2024-05-07 03:34:47] INFO root fetch - processPackages [docassemble.demo]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.demo-1.4.98.tar.gz]
+[2024-05-07 03:34:47] INFO root fetch - processPackages [docassemble.demo]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.demo-1.4.99.tar.gz]
+[2024-05-07 03:34:47] INFO root fetch - main [MainThread]: End processing [docassemble.demo]: success
+[2024-05-07 03:34:47] INFO root fetch - main [MainThread]: Store serial: [23088118]
