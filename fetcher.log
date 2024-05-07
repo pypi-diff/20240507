@@ -20464,3 +20464,63 @@ AssertionError: tmp/openctp_ctp-6.7.2.4-cp39-cp39-win_amd64.whl.zip does not exi
 [2024-05-07 13:00:23] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.44-py3-none-any.whl.zip]
 [2024-05-07 13:00:23] INFO root fetch - main [MainThread]: End processing [everai]: success
 [2024-05-07 13:00:23] INFO root fetch - main [MainThread]: Store serial: [23094157]
+[2024-05-07 13:02:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23094157]
+[2024-05-07 13:02:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-07 13:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blockkit
+[2024-05-07 13:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: json-repair
+[2024-05-07 13:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naas
+[2024-05-07 13:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dekdjtools
+[2024-05-07 13:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: picklepie-base
+[2024-05-07 13:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: operational-hours-local
+[2024-05-07 13:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: activitypub.py
+[2024-05-07 13:02:32] INFO root fetch - processPackages [operational-hours-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 13:02:32] INFO root fetch - processPackages [naas]: New version: [2.9.3] Old Version: [2.9.1]
+[2024-05-07 13:02:32] INFO root fetch - processPackages [blockkit]: New version: [1.8.4] Old Version: [1.8.3]
+[2024-05-07 13:02:32] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 13:02:32] INFO root fetch - processPackages [json-repair]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-07 13:02:32] WARNING root fetch - processPackages [picklepie-base]: Skipping, unable to determine old version
+[2024-05-07 13:02:32] INFO root fetch - main [MainThread]: End processing [picklepie-base] error
+[2024-05-07 13:02:32] INFO root fetch - processPackages [operational-hours-local]: Downloading https://files.pythonhosted.org/packages/62/d7/8c19cd542af91bf2f7a12c61d5e9ddfe19f4b8e05ce2b8eb15b8b91b7c01/operational-hours-local-0.0.8.tar.gz
+[2024-05-07 13:02:32] INFO root fetch - processPackages [activitypub.py]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-07 13:02:32] INFO root fetch - processPackages [naas]: Downloading https://files.pythonhosted.org/packages/0e/4c/dbdc0bf7e2eaee174b740c551b20d67cb0506f434d93cbe45ca0d19b1a97/naas-2.9.1.tar.gz
+[2024-05-07 13:02:32] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/30/98/8e5e70109f1541aeeeccf67fa2876d53b95f4dbf67deb476eaa6931ff9b5/json_repair-0.8.1.tar.gz
+[2024-05-07 13:02:32] INFO root fetch - processPackages [blockkit]: Downloading https://files.pythonhosted.org/packages/f5/24/c0ea602f041914618b5c91659f3ecd01e954783595676c016940c24caf4f/blockkit-1.8.3.tar.gz
+[2024-05-07 13:02:32] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-05-07 13:02:32] INFO root fetch - processPackages [operational-hours-local]: Downloading https://files.pythonhosted.org/packages/9f/c6/6ece5cbf9f4733d5c095727160e6c68b2688cd1a0d8a81cbedfc6b20859f/operational-hours-local-0.0.9.tar.gz
+[2024-05-07 13:02:32] INFO root fetch - processPackages [activitypub.py]: Downloading https://files.pythonhosted.org/packages/ce/91/01d1f523fcf3f04eb6cb58e7cf2eb3cade6da04ef0c7e79012f27cf5bd04/activitypub_py-0.0.1.tar.gz
+[2024-05-07 13:02:32] INFO root fetch - processPackages [naas]: Downloading https://files.pythonhosted.org/packages/a7/8d/3b9c38a078b48b7c43694d4a7dc0cd1554c6c937a82ac7e3a2980ca8fed7/naas-2.9.3.tar.gz
+[2024-05-07 13:02:32] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/a3/6d/f3cff9a4b72bae984511e3b5e198dc886ea044b979e7d59ebd53d0583a10/json_repair-0.9.0.tar.gz
+[2024-05-07 13:02:32] INFO root fetch - processPackages [operational-hours-local]: executing diffoscope
+[2024-05-07 13:02:32] INFO root fetch - processPackages [operational-hours-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/operational-hours-local-0.0.8.tar.gz tmp/operational-hours-local-0.0.9.tar.gz --markdown 20240507/o/operational-hours-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 13:02:32] INFO root fetch - processPackages [json-repair]: executing diffoscope
+[2024-05-07 13:02:32] INFO root fetch - processPackages [json-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_repair-0.8.1.tar.gz tmp/json_repair-0.9.0.tar.gz --markdown 20240507/j/json-repair/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-07 13:02:32] INFO root fetch - processPackages [naas]: executing diffoscope
+[2024-05-07 13:02:32] INFO root fetch - processPackages [naas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naas-2.9.1.tar.gz tmp/naas-2.9.3.tar.gz --markdown 20240507/n/naas/2.9.1-2.9.3/README.md --exclude *.pyd
+[2024-05-07 13:02:32] INFO root fetch - processPackages [blockkit]: Downloading https://files.pythonhosted.org/packages/aa/1d/2c9f5532ac6898109d84668b55a6670ff653d155fe92194c581fba7a6922/blockkit-1.8.4.tar.gz
+[2024-05-07 13:02:33] INFO root fetch - processPackages [activitypub.py]: Downloading https://files.pythonhosted.org/packages/fe/00/de285e8b329770fcb7e25d4dea9b89b944748963fce23e682973352ff7d2/activitypub_py-0.1.0.tar.gz
+[2024-05-07 13:02:33] INFO root fetch - processPackages [blockkit]: executing diffoscope
+[2024-05-07 13:02:33] INFO root fetch - processPackages [blockkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockkit-1.8.3.tar.gz tmp/blockkit-1.8.4.tar.gz --markdown 20240507/b/blockkit/1.8.3-1.8.4/README.md --exclude *.pyd
+[2024-05-07 13:02:33] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/38/d3/1ea767a7367db4793980cd61bc83abf62a6c7e853f2c1d75e2e4e7070d71/dekdjtools-0.1.9.tar.gz
+[2024-05-07 13:02:33] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-05-07 13:02:33] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.8.tar.gz tmp/dekdjtools-0.1.9.tar.gz --markdown 20240507/d/dekdjtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-07 13:02:33] INFO root fetch - processPackages [activitypub.py]: executing diffoscope
+[2024-05-07 13:02:33] INFO root fetch - processPackages [activitypub.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activitypub_py-0.0.1.tar.gz tmp/activitypub_py-0.1.0.tar.gz --markdown 20240507/a/activitypub.py/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-07 13:02:33] INFO root fetch - processPackages [operational-hours-local]: Remove: archive file [/home/abi/fetcher/tmp/operational-hours-local-0.0.8.tar.gz]
+[2024-05-07 13:02:33] INFO root fetch - processPackages [operational-hours-local]: Remove: archive file [/home/abi/fetcher/tmp/operational-hours-local-0.0.9.tar.gz]
+[2024-05-07 13:02:33] INFO root fetch - main [MainThread]: End processing [operational-hours-local]: success
+[2024-05-07 13:02:33] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.8.1.tar.gz]
+[2024-05-07 13:02:33] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.9.0.tar.gz]
+[2024-05-07 13:02:33] INFO root fetch - main [MainThread]: End processing [json-repair]: success
+[2024-05-07 13:02:33] INFO root fetch - processPackages [naas]: Remove: archive file [/home/abi/fetcher/tmp/naas-2.9.1.tar.gz]
+[2024-05-07 13:02:33] INFO root fetch - processPackages [naas]: Remove: archive file [/home/abi/fetcher/tmp/naas-2.9.3.tar.gz]
+[2024-05-07 13:02:33] INFO root fetch - main [MainThread]: End processing [naas]: success
+[2024-05-07 13:02:34] INFO root fetch - processPackages [blockkit]: Remove: archive file [/home/abi/fetcher/tmp/blockkit-1.8.3.tar.gz]
+[2024-05-07 13:02:34] INFO root fetch - processPackages [blockkit]: Remove: archive file [/home/abi/fetcher/tmp/blockkit-1.8.4.tar.gz]
+[2024-05-07 13:02:34] INFO root fetch - main [MainThread]: End processing [blockkit]: success
+[2024-05-07 13:02:34] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-05-07 13:02:34] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.9.tar.gz]
+[2024-05-07 13:02:34] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-05-07 13:02:34] INFO root fetch - processPackages [activitypub.py]: Remove: archive file [/home/abi/fetcher/tmp/activitypub_py-0.0.1.tar.gz]
+[2024-05-07 13:02:34] INFO root fetch - processPackages [activitypub.py]: Remove: archive file [/home/abi/fetcher/tmp/activitypub_py-0.1.0.tar.gz]
+[2024-05-07 13:02:34] INFO root fetch - main [MainThread]: End processing [activitypub.py]: success
+[2024-05-07 13:02:34] INFO root fetch - main [MainThread]: Store serial: [23094188]
