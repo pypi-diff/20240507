@@ -3945,3 +3945,36 @@ EOFError: EOF read where object expected
 [2024-05-07 03:00:26] INFO root fetch - processPackages [Py-Lav]: Remove: archive file [/home/abi/fetcher/tmp/py_lav-1.9.1.tar.gz]
 [2024-05-07 03:00:26] INFO root fetch - main [MainThread]: End processing [Py-Lav]: success
 [2024-05-07 03:00:26] INFO root fetch - main [MainThread]: Store serial: [23086753]
+[2024-05-07 03:02:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086753]
+[2024-05-07 03:02:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 03:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydra-fastsurfer
+[2024-05-07 03:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdm-conda
+[2024-05-07 03:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: teelebot
+[2024-05-07 03:02:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: livedc
+[2024-05-07 03:02:35] WARNING root fetch - processPackages [pydra-fastsurfer]: Skipping, unable to determine old version
+[2024-05-07 03:02:35] INFO root fetch - main [MainThread]: End processing [pydra-fastsurfer] error
+[2024-05-07 03:02:35] INFO root fetch - processPackages [teelebot]: New version: [2.5.2] Old Version: [2.5.1]
+[2024-05-07 03:02:35] INFO root fetch - processPackages [livedc]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-07 03:02:35] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.3b1] Old Version: [0.9.3b0]
+[2024-05-07 03:02:36] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/5d/1b/dc1cb149f079d3d41db755870a003994c36588d5a196747c0b7e42194938/pdm_conda-0.9.3b0.tar.gz
+[2024-05-07 03:02:36] INFO root fetch - processPackages [teelebot]: Downloading https://files.pythonhosted.org/packages/3e/28/be35314eae72766be109fe409a86c2ea7b5e33b410fda9268e7815f2af83/teelebot-2.5.1-py3-none-any.whl
+[2024-05-07 03:02:36] INFO root fetch - processPackages [livedc]: Downloading https://files.pythonhosted.org/packages/e7/10/5338ade1a8cdd088cfba02852e72c2bb364e84282273943f1222669d7b14/livedc-0.0.3.tar.gz
+[2024-05-07 03:02:36] INFO root fetch - processPackages [livedc]: Downloading https://files.pythonhosted.org/packages/e4/37/2988fea32dbfe3b2abcbf37802cf98a4b1f9647bac67661d7756a296598c/livedc-0.0.4.tar.gz
+[2024-05-07 03:02:36] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/23/ae/9ae2762f3341650d36462bc006fcb4de1bea93e1cf224fb94dc45f376d38/pdm_conda-0.9.3b1.tar.gz
+[2024-05-07 03:02:36] INFO root fetch - processPackages [teelebot]: Downloading https://files.pythonhosted.org/packages/86/e8/12246cc496d2fa64a54bed15f5812614db2ff7038cc549d3d60813706ab4/teelebot-2.5.2-py3-none-any.whl
+[2024-05-07 03:02:36] INFO root fetch - processPackages [livedc]: executing diffoscope
+[2024-05-07 03:02:36] INFO root fetch - processPackages [livedc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livedc-0.0.3.tar.gz tmp/livedc-0.0.4.tar.gz --markdown 20240507/l/livedc/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-07 03:02:36] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2024-05-07 03:02:36] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.9.3b0.tar.gz tmp/pdm_conda-0.9.3b1.tar.gz --markdown 20240507/p/pdm-conda/0.9.3b0-0.9.3b1/README.md --exclude *.pyd
+[2024-05-07 03:02:36] INFO root fetch - processPackages [teelebot]: executing diffoscope
+[2024-05-07 03:02:36] INFO root fetch - processPackages [teelebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teelebot-2.5.1-py3-none-any.whl.zip tmp/teelebot-2.5.2-py3-none-any.whl.zip --markdown 20240507/t/teelebot/2.5.1-2.5.2/README.md --exclude *.pyd
+[2024-05-07 03:02:37] INFO root fetch - processPackages [livedc]: Remove: archive file [/home/abi/fetcher/tmp/livedc-0.0.3.tar.gz]
+[2024-05-07 03:02:37] INFO root fetch - processPackages [livedc]: Remove: archive file [/home/abi/fetcher/tmp/livedc-0.0.4.tar.gz]
+[2024-05-07 03:02:37] INFO root fetch - main [MainThread]: End processing [livedc]: success
+[2024-05-07 03:02:37] INFO root fetch - processPackages [pdm-conda]: Remove: archive file [/home/abi/fetcher/tmp/pdm_conda-0.9.3b0.tar.gz]
+[2024-05-07 03:02:37] INFO root fetch - processPackages [pdm-conda]: Remove: archive file [/home/abi/fetcher/tmp/pdm_conda-0.9.3b1.tar.gz]
+[2024-05-07 03:02:37] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2024-05-07 03:02:37] INFO root fetch - processPackages [teelebot]: Remove: archive file [/home/abi/fetcher/tmp/teelebot-2.5.1-py3-none-any.whl.zip]
+[2024-05-07 03:02:37] INFO root fetch - processPackages [teelebot]: Remove: archive file [/home/abi/fetcher/tmp/teelebot-2.5.2-py3-none-any.whl.zip]
+[2024-05-07 03:02:37] INFO root fetch - main [MainThread]: End processing [teelebot]: success
+[2024-05-07 03:02:37] INFO root fetch - main [MainThread]: Store serial: [23086766]
