@@ -9838,3 +9838,48 @@ EOFError: EOF read where object expected
 [2024-05-07 05:25:27] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.2.4.tar.gz]
 [2024-05-07 05:25:27] INFO root fetch - main [MainThread]: End processing [draggable-charts]: success
 [2024-05-07 05:25:27] INFO root fetch - main [MainThread]: Store serial: [23088989]
+[2024-05-07 05:27:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088989]
+[2024-05-07 05:27:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 05:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whatsapp-chat-analyze
+[2024-05-07 05:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xurpas-data-quality-report
+[2024-05-07 05:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: laktory
+[2024-05-07 05:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: embtechx
+[2024-05-07 05:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: devinci-pybuilder
+[2024-05-07 05:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yplib
+[2024-05-07 05:27:37] INFO root fetch - processPackages [whatsapp-chat-analyze]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-07 05:27:38] WARNING root fetch - processPackages [xurpas-data-quality-report]: Skipping, unable to determine old version
+[2024-05-07 05:27:38] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality-report] error
+[2024-05-07 05:27:38] INFO root fetch - processPackages [whatsapp-chat-analyze]: Downloading https://files.pythonhosted.org/packages/31/1b/1246f5b453908caee3efefb27f08c8b837a01808223c62ae1145ad462e2b/whatsapp_chat_analyze-0.1.4.tar.gz
+[2024-05-07 05:27:38] INFO root fetch - processPackages [embtechx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 05:27:38] INFO root fetch - processPackages [laktory]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-07 05:27:38] WARNING root fetch - processPackages [devinci-pybuilder]: Skipping, unable to determine old version
+[2024-05-07 05:27:38] INFO root fetch - main [MainThread]: End processing [devinci-pybuilder] error
+[2024-05-07 05:27:38] INFO root fetch - processPackages [yplib]: New version: [5.6.6] Old Version: [5.6.5]
+[2024-05-07 05:27:38] INFO root fetch - processPackages [embtechx]: Downloading https://files.pythonhosted.org/packages/7f/62/5f7024466534b6a6e8c62559ac0ab87a5eed7231ff93e8c33df927ee421a/embtechx-1.0.8.tar.gz
+[2024-05-07 05:27:38] INFO root fetch - processPackages [laktory]: Downloading https://files.pythonhosted.org/packages/b0/5e/d368c5c2645cdd9125a8316a39422efae71182178032861b330ac0c214f7/laktory-0.2.0.tar.gz
+[2024-05-07 05:27:38] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/13/52/6c3468aeafba0ec30ded473fa26b8b443c6353bf9b04921e6ce5578d1b51/yplib-5.6.5.tar.gz
+[2024-05-07 05:27:38] INFO root fetch - processPackages [whatsapp-chat-analyze]: Downloading https://files.pythonhosted.org/packages/95/6e/33a3231949029534c000921a481229c5b7479721b52b0f905e56cad17df0/whatsapp_chat_analyze-0.1.5.tar.gz
+[2024-05-07 05:27:38] INFO root fetch - processPackages [whatsapp-chat-analyze]: executing diffoscope
+[2024-05-07 05:27:38] INFO root fetch - processPackages [whatsapp-chat-analyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp_chat_analyze-0.1.4.tar.gz tmp/whatsapp_chat_analyze-0.1.5.tar.gz --markdown 20240507/w/whatsapp-chat-analyze/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-07 05:27:38] INFO root fetch - processPackages [embtechx]: Downloading https://files.pythonhosted.org/packages/1e/82/804dd0264d88fec6b96720e10925d23bd4959b37b13731267f948dd90c5f/embtechx-1.0.9.tar.gz
+[2024-05-07 05:27:38] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/b0/3c/e98ddb0b63dedd996fa79293016b21cc3d2f84d5dcc915fd97bbcb5bf67b/yplib-5.6.6.tar.gz
+[2024-05-07 05:27:38] INFO root fetch - processPackages [embtechx]: executing diffoscope
+[2024-05-07 05:27:38] INFO root fetch - processPackages [embtechx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embtechx-1.0.8.tar.gz tmp/embtechx-1.0.9.tar.gz --markdown 20240507/e/embtechx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 05:27:38] INFO root fetch - processPackages [laktory]: Downloading https://files.pythonhosted.org/packages/db/70/6ac91c397a5c57a1e9227f3194f51bfe83a64df6ba2de6ae34fea30dd6ac/laktory-0.2.1.tar.gz
+[2024-05-07 05:27:38] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-05-07 05:27:38] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.6.5.tar.gz tmp/yplib-5.6.6.tar.gz --markdown 20240507/y/yplib/5.6.5-5.6.6/README.md --exclude *.pyd
+[2024-05-07 05:27:39] INFO root fetch - processPackages [whatsapp-chat-analyze]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp_chat_analyze-0.1.4.tar.gz]
+[2024-05-07 05:27:39] INFO root fetch - processPackages [whatsapp-chat-analyze]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp_chat_analyze-0.1.5.tar.gz]
+[2024-05-07 05:27:39] INFO root fetch - main [MainThread]: End processing [whatsapp-chat-analyze]: success
+[2024-05-07 05:27:39] INFO root fetch - processPackages [embtechx]: Remove: archive file [/home/abi/fetcher/tmp/embtechx-1.0.8.tar.gz]
+[2024-05-07 05:27:39] INFO root fetch - processPackages [embtechx]: Remove: archive file [/home/abi/fetcher/tmp/embtechx-1.0.9.tar.gz]
+[2024-05-07 05:27:39] INFO root fetch - main [MainThread]: End processing [embtechx]: success
+[2024-05-07 05:27:39] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.5.tar.gz]
+[2024-05-07 05:27:39] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.6.tar.gz]
+[2024-05-07 05:27:39] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-05-07 05:27:40] INFO root fetch - processPackages [laktory]: executing diffoscope
+[2024-05-07 05:27:40] INFO root fetch - processPackages [laktory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laktory-0.2.0.tar.gz tmp/laktory-0.2.1.tar.gz --markdown 20240507/l/laktory/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-07 05:27:41] INFO root fetch - processPackages [laktory]: Remove: archive file [/home/abi/fetcher/tmp/laktory-0.2.0.tar.gz]
+[2024-05-07 05:27:41] INFO root fetch - processPackages [laktory]: Remove: archive file [/home/abi/fetcher/tmp/laktory-0.2.1.tar.gz]
+[2024-05-07 05:27:41] INFO root fetch - main [MainThread]: End processing [laktory]: success
+[2024-05-07 05:27:41] INFO root fetch - main [MainThread]: Store serial: [23089007]
