@@ -19496,3 +19496,99 @@ EOFError: EOF read where object expected
 [2024-05-07 12:20:41] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.3.5.tar.gz]
 [2024-05-07 12:20:41] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
 [2024-05-07 12:20:41] INFO root fetch - main [MainThread]: Store serial: [23093540]
+[2024-05-07 12:22:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093540]
+[2024-05-07 12:22:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-07 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fractal-server
+[2024-05-07 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mimllearning
+[2024-05-07 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naas-python
+[2024-05-07 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenFisca-Core
+[2024-05-07 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: microfreshener-core
+[2024-05-07 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bin-package-manager
+[2024-05-07 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: murfey
+[2024-05-07 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kayalab
+[2024-05-07 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ctrip-app-ui
+[2024-05-07 12:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eidospy
+[2024-05-07 12:22:50] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-07 12:22:50] INFO root fetch - processPackages [fractal-server]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-07 12:22:50] INFO root fetch - processPackages [mimllearning]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-07 12:22:50] WARNING root fetch - processPackages [eidospy]: Skipping, unable to determine old version
+[2024-05-07 12:22:50] INFO root fetch - processPackages [eidospy]: Start processing: aiohttp-s3-client
+[2024-05-07 12:22:50] INFO root fetch - main [MainThread]: End processing [eidospy] error
+[2024-05-07 12:22:50] INFO root fetch - processPackages [kayalab]: New version: [0.7.9] Old Version: [0.7.7]
+[2024-05-07 12:22:50] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/9c/15/513fcfb3926593d160679586564e7a3340625dbcf5c359f82a3916efe823/mimllearning-0.3.5.tar.gz
+[2024-05-07 12:22:50] INFO root fetch - processPackages [bin-package-manager]: New version: [2.2.7] Old Version: [2.2.6]
+[2024-05-07 12:22:50] INFO root fetch - processPackages [microfreshener-core]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-07 12:22:50] INFO root fetch - processPackages [naas-python]: New version: [1.4.0.dev1] Old Version: [1.3.2]
+[2024-05-07 12:22:50] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/5d/99/e8664bc414b9b6e94e8dcc22c43abf61e51e33e21700080dd11ace5eda78/ctrip-app-ui-0.3.8.tar.gz
+[2024-05-07 12:22:50] INFO root fetch - processPackages [OpenFisca-Core]: New version: [9.1.0] Old Version: [9.0.2]
+[2024-05-07 12:22:50] INFO root fetch - processPackages [murfey]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-07 12:22:50] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/bb/28/1150b4402b5ba75960d272e4ad0cc776b9323bf8eb15a81319a1c46b54ef/fractal_server-2.0.3.tar.gz
+[2024-05-07 12:22:50] INFO root fetch - processPackages [aiohttp-s3-client]: New version: [0.9.8] Old Version: [0.9.5]
+[2024-05-07 12:22:51] INFO root fetch - processPackages [OpenFisca-Core]: Downloading https://files.pythonhosted.org/packages/e6/0b/a63085e3a4ecf0c1e5bd24630551ce0e0843787457ffac478fa371957b59/OpenFisca_Core-9.0.2-py2-none-any.whl
+[2024-05-07 12:22:51] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/68/63/0a29e7525b1f3462acb2531260d984867651bdccb876b75329d58bfa520d/kayalab-0.7.7.tar.gz
+[2024-05-07 12:22:51] INFO root fetch - processPackages [aiohttp-s3-client]: Downloading https://files.pythonhosted.org/packages/29/cb/0d6a5598b242c90a51c4a37c2ecb826a55008ea210566c72df6aba0a98ee/aiohttp_s3_client-0.9.5.tar.gz
+[2024-05-07 12:22:51] INFO root fetch - processPackages [naas-python]: Downloading https://files.pythonhosted.org/packages/87/49/617721f869d249f2d98c558c6341bc721968a572bccf9a80fe8c40540030/naas_python-1.3.2.tar.gz
+[2024-05-07 12:22:51] INFO root fetch - processPackages [bin-package-manager]: Downloading https://files.pythonhosted.org/packages/00/91/d2c27827ac1ba06a674fb616f9ddeaff4facb2fcdead29b409fca4e075b4/bin_package_manager-2.2.6.tar.gz
+[2024-05-07 12:22:51] INFO root fetch - processPackages [microfreshener-core]: Downloading https://files.pythonhosted.org/packages/5b/a2/3df41a96221b5575949d2bb4512a8f9828c22b555ef7c053acfc18470bd2/microfreshener-core-1.4.0.tar.gz
+[2024-05-07 12:22:51] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/80/b3/2a63cf17e883ec2bfb25a7e07bb4b569260172bd03d466bebbbd1c1b2545/murfey-0.9.8.tar.gz
+[2024-05-07 12:22:51] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/39/fa/02e78ae42456c969e0180ec619563c793ea5f9306347abbe61b594fc4569/ctrip-app-ui-0.3.9.tar.gz
+[2024-05-07 12:22:51] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/8a/31/dc0992ecb106f8d6efefcf9a2eb6f9817525e1d3515e2e0faa0e1c03c2ba/fractal_server-2.0.4.tar.gz
+[2024-05-07 12:22:51] INFO root fetch - processPackages [aiohttp-s3-client]: Downloading https://files.pythonhosted.org/packages/a0/dd/9b216e9977efbc2625c19be75402a976691245f539266b268689236f7a48/aiohttp_s3_client-0.9.8.tar.gz
+[2024-05-07 12:22:51] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-07 12:22:51] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.3.8.tar.gz tmp/ctrip-app-ui-0.3.9.tar.gz --markdown 20240507/c/ctrip-app-ui/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-07 12:22:51] INFO root fetch - processPackages [OpenFisca-Core]: Downloading https://files.pythonhosted.org/packages/9a/1e/ea587e6227625ec43769d66eba77da071548d6687b8309ab71a77e62974a/OpenFisca_Core-9.1.0-py2-none-any.whl
+[2024-05-07 12:22:51] INFO root fetch - processPackages [aiohttp-s3-client]: executing diffoscope
+[2024-05-07 12:22:51] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2024-05-07 12:22:51] INFO root fetch - processPackages [aiohttp-s3-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_s3_client-0.9.5.tar.gz tmp/aiohttp_s3_client-0.9.8.tar.gz --markdown 20240507/a/aiohttp-s3-client/0.9.5-0.9.8/README.md --exclude *.pyd
+[2024-05-07 12:22:51] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-2.0.3.tar.gz tmp/fractal_server-2.0.4.tar.gz --markdown 20240507/f/fractal-server/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-07 12:22:51] INFO root fetch - processPackages [naas-python]: Downloading https://files.pythonhosted.org/packages/69/e6/70ae8611eb3afd5a79ff8ff692afa0bf0b73d08f53d716ca76bb2572401e/naas_python-1.4.0.dev1.tar.gz
+[2024-05-07 12:22:51] INFO root fetch - processPackages [microfreshener-core]: Downloading https://files.pythonhosted.org/packages/20/9a/5e72a2bfc8ec6be11fe021c0ee40b1f70bc18fb6e6dd077cc715d9e4fb85/microfreshener-core-1.5.0.tar.gz
+[2024-05-07 12:22:51] INFO root fetch - processPackages [bin-package-manager]: Downloading https://files.pythonhosted.org/packages/83/4e/a4f63d3e4ac97871c0934f42eed904482aebdfba07e803ca18bcacacdf40/bin_package_manager-2.2.7.tar.gz
+[2024-05-07 12:22:51] INFO root fetch - processPackages [OpenFisca-Core]: executing diffoscope
+[2024-05-07 12:22:51] INFO root fetch - processPackages [OpenFisca-Core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_Core-9.0.2-py2-none-any.whl.zip tmp/OpenFisca_Core-9.1.0-py2-none-any.whl.zip --markdown 20240507/O/OpenFisca-Core/9.0.2-9.1.0/README.md --exclude *.pyd
+[2024-05-07 12:22:51] INFO root fetch - processPackages [naas-python]: executing diffoscope
+[2024-05-07 12:22:51] INFO root fetch - processPackages [naas-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naas_python-1.3.2.tar.gz tmp/naas_python-1.4.0.dev1.tar.gz --markdown 20240507/n/naas-python/1.3.2-1.4.0.dev1/README.md --exclude *.pyd
+[2024-05-07 12:22:51] INFO root fetch - processPackages [microfreshener-core]: executing diffoscope
+[2024-05-07 12:22:51] INFO root fetch - processPackages [microfreshener-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microfreshener-core-1.4.0.tar.gz tmp/microfreshener-core-1.5.0.tar.gz --markdown 20240507/m/microfreshener-core/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-07 12:22:51] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/41/36/17b8c3b4dd1ba8e5f1dccd6d6eaa0ccf95a84030a1a9869912aada70795e/murfey-0.9.9.tar.gz
+[2024-05-07 12:22:51] INFO root fetch - processPackages [bin-package-manager]: executing diffoscope
+[2024-05-07 12:22:51] INFO root fetch - processPackages [bin-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bin_package_manager-2.2.6.tar.gz tmp/bin_package_manager-2.2.7.tar.gz --markdown 20240507/b/bin-package-manager/2.2.6-2.2.7/README.md --exclude *.pyd
+[2024-05-07 12:22:51] INFO root fetch - processPackages [murfey]: executing diffoscope
+[2024-05-07 12:22:51] INFO root fetch - processPackages [murfey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murfey-0.9.8.tar.gz tmp/murfey-0.9.9.tar.gz --markdown 20240507/m/murfey/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-07 12:22:52] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/7c/77/22d67fad500605f66b801e752331ce234a45f83090ba6ee41a44a6325c68/mimllearning-0.3.6.tar.gz
+[2024-05-07 12:22:52] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-07 12:22:52] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.3.5.tar.gz tmp/mimllearning-0.3.6.tar.gz --markdown 20240507/m/mimllearning/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-07 12:22:52] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.8.tar.gz]
+[2024-05-07 12:22:52] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.9.tar.gz]
+[2024-05-07 12:22:52] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-07 12:22:52] INFO root fetch - processPackages [aiohttp-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_s3_client-0.9.5.tar.gz]
+[2024-05-07 12:22:52] INFO root fetch - processPackages [aiohttp-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_s3_client-0.9.8.tar.gz]
+[2024-05-07 12:22:52] INFO root fetch - main [MainThread]: End processing [aiohttp-s3-client]: success
+[2024-05-07 12:22:52] INFO root fetch - processPackages [naas-python]: Remove: archive file [/home/abi/fetcher/tmp/naas_python-1.3.2.tar.gz]
+[2024-05-07 12:22:52] INFO root fetch - processPackages [naas-python]: Remove: archive file [/home/abi/fetcher/tmp/naas_python-1.4.0.dev1.tar.gz]
+[2024-05-07 12:22:52] INFO root fetch - main [MainThread]: End processing [naas-python]: success
+[2024-05-07 12:22:52] INFO root fetch - processPackages [microfreshener-core]: Remove: archive file [/home/abi/fetcher/tmp/microfreshener-core-1.4.0.tar.gz]
+[2024-05-07 12:22:52] INFO root fetch - processPackages [microfreshener-core]: Remove: archive file [/home/abi/fetcher/tmp/microfreshener-core-1.5.0.tar.gz]
+[2024-05-07 12:22:52] INFO root fetch - main [MainThread]: End processing [microfreshener-core]: success
+[2024-05-07 12:22:52] INFO root fetch - processPackages [OpenFisca-Core]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_Core-9.0.2-py2-none-any.whl.zip]
+[2024-05-07 12:22:52] INFO root fetch - processPackages [OpenFisca-Core]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_Core-9.1.0-py2-none-any.whl.zip]
+[2024-05-07 12:22:52] INFO root fetch - main [MainThread]: End processing [OpenFisca-Core]: success
+[2024-05-07 12:22:53] INFO root fetch - processPackages [bin-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/bin_package_manager-2.2.6.tar.gz]
+[2024-05-07 12:22:53] INFO root fetch - processPackages [bin-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/bin_package_manager-2.2.7.tar.gz]
+[2024-05-07 12:22:53] INFO root fetch - main [MainThread]: End processing [bin-package-manager]: success
+[2024-05-07 12:22:53] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.3.tar.gz]
+[2024-05-07 12:22:53] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.4.tar.gz]
+[2024-05-07 12:22:53] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2024-05-07 12:22:53] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.9.8.tar.gz]
+[2024-05-07 12:22:53] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.9.9.tar.gz]
+[2024-05-07 12:22:53] INFO root fetch - main [MainThread]: End processing [murfey]: success
+[2024-05-07 12:22:53] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.3.5.tar.gz]
+[2024-05-07 12:22:53] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.3.6.tar.gz]
+[2024-05-07 12:22:53] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-07 12:22:53] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/48/39/39e758163c554700194cf72c42f0290287f1336d791be5766d519f7b266c/kayalab-0.7.9.tar.gz
+[2024-05-07 12:22:54] INFO root fetch - processPackages [kayalab]: executing diffoscope
+[2024-05-07 12:22:54] INFO root fetch - processPackages [kayalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayalab-0.7.7.tar.gz tmp/kayalab-0.7.9.tar.gz --markdown 20240507/k/kayalab/0.7.7-0.7.9/README.md --exclude *.pyd
+[2024-05-07 12:22:57] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.7.tar.gz]
+[2024-05-07 12:22:57] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
+[2024-05-07 12:22:57] INFO root fetch - main [MainThread]: End processing [kayalab]: success
+[2024-05-07 12:22:57] INFO root fetch - main [MainThread]: Store serial: [23093574]
