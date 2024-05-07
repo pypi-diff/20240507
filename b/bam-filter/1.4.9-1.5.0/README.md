@@ -1,4 +1,4 @@
-# Comparing `tmp/bam-filter-1.4.9.tar.gz` & `tmp/bam_filter-1.5.0-py2.py3-none-any.whl.zip`
+# Comparing `tmp/bam-filter-1.4.9.tar.gz` & `tmp/bam-filter-1.5.0.tar.gz`
 
 ## filetype from file(1)
 
