@@ -10196,3 +10196,24 @@ EOFError: EOF read where object expected
 [2024-05-07 05:36:27] INFO root fetch - processPackages [odoo-addon-cooperator-website]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_cooperator_website-16.0.1.0.0.4-py3-none-any.whl.zip]
 [2024-05-07 05:36:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-cooperator-website]: success
 [2024-05-07 05:36:27] INFO root fetch - main [MainThread]: Store serial: [23089113]
+[2024-05-07 05:38:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089113]
+[2024-05-07 05:38:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 05:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbg
+[2024-05-07 05:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Way2DSSAT
+[2024-05-07 05:38:36] INFO root fetch - processPackages [lbg]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-07 05:38:36] INFO root fetch - processPackages [Way2DSSAT]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-07 05:38:37] INFO root fetch - processPackages [Way2DSSAT]: Downloading https://files.pythonhosted.org/packages/38/3d/226769d119c3f820e3e884c71a1884a3efa4c98e53d8bf72dc5632efb829/way2dssat-0.0.5.tar.gz
+[2024-05-07 05:38:37] INFO root fetch - processPackages [lbg]: Downloading https://files.pythonhosted.org/packages/9d/3c/314382cd0ef994ee29897c113dcfb3c589bdc2bd4194ec611f6d2ab3da30/lbg-1.2.8.tar.gz
+[2024-05-07 05:38:37] INFO root fetch - processPackages [Way2DSSAT]: Downloading https://files.pythonhosted.org/packages/12/9a/4cd4bf362200ecf0b165466f745bb937bb4e6aabcf246864cd2a7c747b11/way2dssat-0.0.6.tar.gz
+[2024-05-07 05:38:37] INFO root fetch - processPackages [lbg]: Downloading https://files.pythonhosted.org/packages/39/7e/4d8dad55cbd2c34150d4814798ef30a684f2a9cc1e3981d27b6523b13453/lbg-1.2.9.tar.gz
+[2024-05-07 05:38:37] INFO root fetch - processPackages [Way2DSSAT]: executing diffoscope
+[2024-05-07 05:38:37] INFO root fetch - processPackages [Way2DSSAT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/way2dssat-0.0.5.tar.gz tmp/way2dssat-0.0.6.tar.gz --markdown 20240507/W/Way2DSSAT/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-07 05:38:37] INFO root fetch - processPackages [lbg]: executing diffoscope
+[2024-05-07 05:38:37] INFO root fetch - processPackages [lbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbg-1.2.8.tar.gz tmp/lbg-1.2.9.tar.gz --markdown 20240507/l/lbg/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-07 05:38:38] INFO root fetch - processPackages [Way2DSSAT]: Remove: archive file [/home/abi/fetcher/tmp/way2dssat-0.0.5.tar.gz]
+[2024-05-07 05:38:38] INFO root fetch - processPackages [Way2DSSAT]: Remove: archive file [/home/abi/fetcher/tmp/way2dssat-0.0.6.tar.gz]
+[2024-05-07 05:38:38] INFO root fetch - main [MainThread]: End processing [Way2DSSAT]: success
+[2024-05-07 05:38:38] INFO root fetch - processPackages [lbg]: Remove: archive file [/home/abi/fetcher/tmp/lbg-1.2.8.tar.gz]
+[2024-05-07 05:38:38] INFO root fetch - processPackages [lbg]: Remove: archive file [/home/abi/fetcher/tmp/lbg-1.2.9.tar.gz]
+[2024-05-07 05:38:38] INFO root fetch - main [MainThread]: End processing [lbg]: success
+[2024-05-07 05:38:38] INFO root fetch - main [MainThread]: Store serial: [23089122]
