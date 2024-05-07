@@ -22406,3 +22406,76 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-07 14:01:15] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.8.0.20240507-py3-none-any.whl.zip]
 [2024-05-07 14:01:15] INFO root fetch - main [MainThread]: End processing [sparseml-nightly]: success
 [2024-05-07 14:01:15] INFO root fetch - main [MainThread]: Store serial: [23095123]
+[2024-05-07 14:03:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23095123]
+[2024-05-07 14:03:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-07 14:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: special-agents
+[2024-05-07 14:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-identity-sdk
+[2024-05-07 14:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-identity-sdk
+[2024-05-07 14:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: puan-db-python
+[2024-05-07 14:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rpze
+[2024-05-07 14:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fakeredis
+[2024-05-07 14:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AutoMLApp
+[2024-05-07 14:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: french-cities
+[2024-05-07 14:03:25] INFO root fetch - processPackages [special-agents]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-07 14:03:25] INFO root fetch - processPackages [puan-db-python]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 14:03:25] INFO root fetch - processPackages [AutoMLApp]: New version: [0.1.64] Old Version: [0.1.63]
+[2024-05-07 14:03:25] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/7c/28/dd5fad4f684458269302aba340445e9017cca28690f73b6d51dd8ca89d27/special_agents-1.0.1.tar.gz
+[2024-05-07 14:03:25] INFO root fetch - processPackages [puan-db-python]: Downloading https://files.pythonhosted.org/packages/8c/d0/d7884e9161e652d4f30b8e6b7aa8612e3e0d9ae72a3ad9b6c6878e4990f4/puan_db_python-0.1.0.tar.gz
+[2024-05-07 14:03:25] INFO root fetch - processPackages [french-cities]: New version: [0.2.2] Old Version: [0.1.1a5]
+[2024-05-07 14:03:25] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-07 14:03:25] INFO root fetch - processPackages [rpze]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-07 14:03:25] INFO root fetch - processPackages [fakeredis]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-07 14:03:25] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/6b/8f/6b788d1ceb171ebf6f45c6b209951cfd1fc1c6f43b67fb454eb70b8bd071/automlapp-0.1.63.tar.gz
+[2024-05-07 14:03:25] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-07 14:03:25] INFO root fetch - processPackages [fakeredis]: Downloading https://files.pythonhosted.org/packages/27/c5/a8bb6a94bad96b40a7e760bbbac99c73a6868017ab58c54a66bf62d6041d/fakeredis-2.9.1.tar.gz
+[2024-05-07 14:03:25] INFO root fetch - processPackages [puan-db-python]: Downloading https://files.pythonhosted.org/packages/cd/07/a8b489104355fa11e045ada017f235fbe7404da8e1873f50bbe74b87eb50/puan_db_python-0.1.1.tar.gz
+[2024-05-07 14:03:25] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-07 14:03:25] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-07 14:03:25] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/d6/60/7f1f95b4e868baaebe976ed6e81a24a396fecf73139409993baaa1bcc1eb/french_cities-0.1.1a5.tar.gz
+[2024-05-07 14:03:25] INFO root fetch - processPackages [rpze]: Downloading https://files.pythonhosted.org/packages/49/b3/feea9b55d2f84e57dbe76b1d2e97e48e3e483af16c8215cdf2ccb25c2960/rpze-0.1.2.tar.gz
+[2024-05-07 14:03:25] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/30/28/3c5434f309fb0d21d26260e0477e3ece9d8e0e6dd78e5c5be5d99d528b44/special_agents-1.0.2.tar.gz
+[2024-05-07 14:03:25] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/0f/d6/591b1a9760cda4be2db48b5c67a9c7049e1836b7b989e22493f7f333c1e6/automlapp-0.1.64.tar.gz
+[2024-05-07 14:03:25] INFO root fetch - processPackages [puan-db-python]: executing diffoscope
+[2024-05-07 14:03:25] INFO root fetch - processPackages [puan-db-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puan_db_python-0.1.0.tar.gz tmp/puan_db_python-0.1.1.tar.gz --markdown 20240507/p/puan-db-python/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 14:03:25] INFO root fetch - processPackages [special-agents]: executing diffoscope
+[2024-05-07 14:03:25] INFO root fetch - processPackages [special-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/special_agents-1.0.1.tar.gz tmp/special_agents-1.0.2.tar.gz --markdown 20240507/s/special-agents/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-07 14:03:25] INFO root fetch - processPackages [AutoMLApp]: executing diffoscope
+[2024-05-07 14:03:25] INFO root fetch - processPackages [AutoMLApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automlapp-0.1.63.tar.gz tmp/automlapp-0.1.64.tar.gz --markdown 20240507/A/AutoMLApp/0.1.63-0.1.64/README.md --exclude *.pyd
+[2024-05-07 14:03:25] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/49/88/867bd47d7d2846c06858384c98dc708bf8747e39a18f001c15f423d05700/french_cities-0.2.2.tar.gz
+[2024-05-07 14:03:25] INFO root fetch - processPackages [rpze]: Downloading https://files.pythonhosted.org/packages/df/5a/2351c99b50a4a83bc131486e74932fa996356d3aac718fa34c6242fb9265/rpze-0.2.0.tar.gz
+[2024-05-07 14:03:25] INFO root fetch - processPackages [fakeredis]: Downloading https://files.pythonhosted.org/packages/c9/d0/063259876691b0c48dfa578a01777c92875d9f234e1ac49900f305c4a9aa/fakeredis-2.9.2.tar.gz
+[2024-05-07 14:03:25] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-07 14:03:26] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-07 14:03:26] INFO root fetch - processPackages [rpze]: executing diffoscope
+[2024-05-07 14:03:26] INFO root fetch - processPackages [rpze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpze-0.1.2.tar.gz tmp/rpze-0.2.0.tar.gz --markdown 20240507/r/rpze/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-07 14:03:26] INFO root fetch - processPackages [french-cities]: executing diffoscope
+[2024-05-07 14:03:26] INFO root fetch - processPackages [french-cities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/french_cities-0.1.1a5.tar.gz tmp/french_cities-0.2.2.tar.gz --markdown 20240507/f/french-cities/0.1.1a5-0.2.2/README.md --exclude *.pyd
+[2024-05-07 14:03:26] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-07 14:03:26] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240507/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-07 14:03:26] INFO root fetch - processPackages [fakeredis]: executing diffoscope
+[2024-05-07 14:03:26] INFO root fetch - processPackages [fakeredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakeredis-2.9.1.tar.gz tmp/fakeredis-2.9.2.tar.gz --markdown 20240507/f/fakeredis/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-07 14:03:26] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-07 14:03:26] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240507/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-07 14:03:26] INFO root fetch - processPackages [puan-db-python]: Remove: archive file [/home/abi/fetcher/tmp/puan_db_python-0.1.0.tar.gz]
+[2024-05-07 14:03:26] INFO root fetch - processPackages [puan-db-python]: Remove: archive file [/home/abi/fetcher/tmp/puan_db_python-0.1.1.tar.gz]
+[2024-05-07 14:03:26] INFO root fetch - main [MainThread]: End processing [puan-db-python]: success
+[2024-05-07 14:03:26] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.1.tar.gz]
+[2024-05-07 14:03:26] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.2.tar.gz]
+[2024-05-07 14:03:26] INFO root fetch - main [MainThread]: End processing [special-agents]: success
+[2024-05-07 14:03:26] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.63.tar.gz]
+[2024-05-07 14:03:26] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.64.tar.gz]
+[2024-05-07 14:03:26] INFO root fetch - main [MainThread]: End processing [AutoMLApp]: success
+[2024-05-07 14:03:27] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.1.1a5.tar.gz]
+[2024-05-07 14:03:27] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.2.2.tar.gz]
+[2024-05-07 14:03:27] INFO root fetch - main [MainThread]: End processing [french-cities]: success
+[2024-05-07 14:03:27] INFO root fetch - processPackages [fakeredis]: Remove: archive file [/home/abi/fetcher/tmp/fakeredis-2.9.1.tar.gz]
+[2024-05-07 14:03:27] INFO root fetch - processPackages [fakeredis]: Remove: archive file [/home/abi/fetcher/tmp/fakeredis-2.9.2.tar.gz]
+[2024-05-07 14:03:27] INFO root fetch - main [MainThread]: End processing [fakeredis]: success
+[2024-05-07 14:03:27] INFO root fetch - processPackages [rpze]: Remove: archive file [/home/abi/fetcher/tmp/rpze-0.1.2.tar.gz]
+[2024-05-07 14:03:27] INFO root fetch - processPackages [rpze]: Remove: archive file [/home/abi/fetcher/tmp/rpze-0.2.0.tar.gz]
+[2024-05-07 14:03:27] INFO root fetch - main [MainThread]: End processing [rpze]: success
+[2024-05-07 14:03:27] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-07 14:03:27] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-07 14:03:27] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-07 14:03:27] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-07 14:03:27] INFO root fetch - main [MainThread]: Store serial: [23095191]
