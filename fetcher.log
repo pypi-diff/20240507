@@ -19246,3 +19246,50 @@ EOFError: EOF read where object expected
 [2024-05-07 12:09:43] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050609.tar.gz]
 [2024-05-07 12:09:43] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-05-07 12:09:43] INFO root fetch - main [MainThread]: Store serial: [23093443]
+[2024-05-07 12:11:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093443]
+[2024-05-07 12:11:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 12:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chaostoolkit-lib
+[2024-05-07 12:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leadguru-jobs
+[2024-05-07 12:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dockumentor
+[2024-05-07 12:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mptradelib
+[2024-05-07 12:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xtdb
+[2024-05-07 12:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySimultan
+[2024-05-07 12:11:52] INFO root fetch - processPackages [chaostoolkit-lib]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-07 12:11:52] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-07 12:11:52] INFO root fetch - processPackages [mptradelib]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-07 12:11:52] INFO root fetch - processPackages [chaostoolkit-lib]: Downloading https://files.pythonhosted.org/packages/2a/b2/27ef91763ac611976a29729d92af54212c349b1f24fd343a2ab0429a6004/chaostoolkit-lib-1.8.1.tar.gz
+[2024-05-07 12:11:52] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/37/55/0cb27249e5e9f0c9c6452ffc4e619caf1632fa550960bad273dbb2f082ab/mptradelib-0.3.8.tar.gz
+[2024-05-07 12:11:52] WARNING root fetch - processPackages [dockumentor]: Skipping, unable to determine old version
+[2024-05-07 12:11:52] INFO root fetch - main [MainThread]: End processing [dockumentor] error
+[2024-05-07 12:11:52] INFO root fetch - processPackages [xtdb]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-07 12:11:52] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-07 12:11:52] INFO root fetch - processPackages [PySimultan]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-07 12:11:52] INFO root fetch - processPackages [chaostoolkit-lib]: Downloading https://files.pythonhosted.org/packages/ce/ed/18f1241fe016fd9143c099b74f06962ddab60503251292c27a44324ac201/chaostoolkit-lib-1.9.0.tar.gz
+[2024-05-07 12:11:52] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-07 12:11:52] INFO root fetch - processPackages [PySimultan]: Downloading https://files.pythonhosted.org/packages/39/c8/e57b58dd925d34a01a2919ec5b425648133f2b31258763ec68886d6f08c6/pysimultan-0.2.1.tar.gz
+[2024-05-07 12:11:52] INFO root fetch - processPackages [xtdb]: Downloading https://files.pythonhosted.org/packages/96/4c/7f1c1511eed79e05556a9834ad0752438f73e05435ad709d603d24e6520f/xtdb-0.6.1.tar.gz
+[2024-05-07 12:11:52] INFO root fetch - processPackages [mptradelib]: Downloading https://files.pythonhosted.org/packages/da/69/3594d7db0bf3d7a94ef33b67bc8d85af3676671cb507430a3ef88c30214f/mptradelib-0.3.9.tar.gz
+[2024-05-07 12:11:52] WARNING root fetch - processPackages [PySimultan]: Skipping package: exceeds size limit 12483557>=10485760
+[2024-05-07 12:11:52] INFO root fetch - main [MainThread]: End processing [PySimultan] error
+[2024-05-07 12:11:52] INFO root fetch - processPackages [chaostoolkit-lib]: executing diffoscope
+[2024-05-07 12:11:52] INFO root fetch - processPackages [chaostoolkit-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-lib-1.8.1.tar.gz tmp/chaostoolkit-lib-1.9.0.tar.gz --markdown 20240507/c/chaostoolkit-lib/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-07 12:11:52] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-07 12:11:52] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240507/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-07 12:11:52] INFO root fetch - processPackages [mptradelib]: executing diffoscope
+[2024-05-07 12:11:52] INFO root fetch - processPackages [mptradelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mptradelib-0.3.8.tar.gz tmp/mptradelib-0.3.9.tar.gz --markdown 20240507/m/mptradelib/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-07 12:11:53] INFO root fetch - processPackages [xtdb]: Downloading https://files.pythonhosted.org/packages/db/e0/93743e36a6003ebadb5366040c29b4a61dafb1253d22412ee78fa59d2f26/xtdb-0.6.2.tar.gz
+[2024-05-07 12:11:53] INFO root fetch - processPackages [xtdb]: executing diffoscope
+[2024-05-07 12:11:53] INFO root fetch - processPackages [xtdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtdb-0.6.1.tar.gz tmp/xtdb-0.6.2.tar.gz --markdown 20240507/x/xtdb/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-07 12:11:53] INFO root fetch - processPackages [chaostoolkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-lib-1.8.1.tar.gz]
+[2024-05-07 12:11:53] INFO root fetch - processPackages [chaostoolkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-lib-1.9.0.tar.gz]
+[2024-05-07 12:11:53] INFO root fetch - main [MainThread]: End processing [chaostoolkit-lib]: success
+[2024-05-07 12:11:53] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.3.8.tar.gz]
+[2024-05-07 12:11:53] INFO root fetch - processPackages [mptradelib]: Remove: archive file [/home/abi/fetcher/tmp/mptradelib-0.3.9.tar.gz]
+[2024-05-07 12:11:53] INFO root fetch - main [MainThread]: End processing [mptradelib]: success
+[2024-05-07 12:11:53] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-07 12:11:53] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-07 12:11:53] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-07 12:11:53] INFO root fetch - processPackages [xtdb]: Remove: archive file [/home/abi/fetcher/tmp/xtdb-0.6.1.tar.gz]
+[2024-05-07 12:11:53] INFO root fetch - processPackages [xtdb]: Remove: archive file [/home/abi/fetcher/tmp/xtdb-0.6.2.tar.gz]
+[2024-05-07 12:11:53] INFO root fetch - main [MainThread]: End processing [xtdb]: success
+[2024-05-07 12:11:53] INFO root fetch - main [MainThread]: Store serial: [23093465]
