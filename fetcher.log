@@ -12357,3 +12357,45 @@ EOFError: EOF read where object expected
 [2024-05-07 07:54:23] INFO root fetch - processPackages [jupyter-viewer]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_viewer-0.0.7-py3-none-any.whl.zip]
 [2024-05-07 07:54:23] INFO root fetch - main [MainThread]: End processing [jupyter-viewer]: success
 [2024-05-07 07:54:23] INFO root fetch - main [MainThread]: Store serial: [23090146]
+[2024-05-07 07:56:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090146]
+[2024-05-07 07:56:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 07:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aimhub-client
+[2024-05-07 07:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PREN-flawas
+[2024-05-07 07:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-product-lot-sequence
+[2024-05-07 07:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2024-05-07 07:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: probituminousz
+[2024-05-07 07:56:32] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.7]
+[2024-05-07 07:56:32] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 07:56:32] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-07 07:56:32] INFO root fetch - processPackages [aimhub-client]: New version: [0.5.0] Old Version: [0.4.6]
+[2024-05-07 07:56:32] WARNING root fetch - processPackages [probituminousz]: Skipping, unable to determine old version
+[2024-05-07 07:56:32] INFO root fetch - main [MainThread]: End processing [probituminousz] error
+[2024-05-07 07:56:32] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: Downloading https://files.pythonhosted.org/packages/6f/58/e09834b3064cbfb9fd5bc3e4db8669cf1421fcae97e34bea335a12862760/odoo_addon_product_lot_sequence-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-07 07:56:32] INFO root fetch - processPackages [aimhub-client]: Downloading https://files.pythonhosted.org/packages/10/e8/9bcd58250ede74c2b049b30ab60173d1184590ef40b120a309bb707d2c96/aimhub_client-0.4.6.tar.gz
+[2024-05-07 07:56:32] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: Downloading https://files.pythonhosted.org/packages/68/79/11f83e8bde3b43bd38aecf46f319245082eaea73eb9ab6d77c1a5b38698c/odoo_addon_product_lot_sequence-16.0.1.0.1-py3-none-any.whl
+[2024-05-07 07:56:33] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-07 07:56:33] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: executing diffoscope
+[2024-05-07 07:56:33] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_lot_sequence-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_product_lot_sequence-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-product-lot-sequence/16.0.1.0.0.7-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-07 07:56:33] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-07 07:56:33] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240507/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 07:56:33] INFO root fetch - processPackages [kcli]: New version: [99.0.202405070556] Old Version: [99.0.202405051639]
+[2024-05-07 07:56:33] INFO root fetch - processPackages [aimhub-client]: Downloading https://files.pythonhosted.org/packages/4c/91/d402d34832c7ec9d9d7cab0a95dd22c8a373ae9e8c696e41bbd094d928e9/aimhub_client-0.5.0.tar.gz
+[2024-05-07 07:56:33] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_lot_sequence-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-07 07:56:33] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_lot_sequence-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-07 07:56:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-lot-sequence]: success
+[2024-05-07 07:56:33] INFO root fetch - processPackages [aimhub-client]: executing diffoscope
+[2024-05-07 07:56:33] INFO root fetch - processPackages [aimhub-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimhub_client-0.4.6.tar.gz tmp/aimhub_client-0.5.0.tar.gz --markdown 20240507/a/aimhub-client/0.4.6-0.5.0/README.md --exclude *.pyd
+[2024-05-07 07:56:33] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/dd/e6/4dd2bcf037f5b015627a40816fd0f8c60a3f950320cba0e76d9bcc18ca7f/kcli-99.0.202405051639.tar.gz
+[2024-05-07 07:56:34] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-07 07:56:34] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-07 07:56:34] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-07 07:56:34] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/9d/1c/66394cf5681272582745671e19dd4341eee421a2ed0cba1cd16a6e500401/kcli-99.0.202405070556-py3-none-any.whl
+[2024-05-07 07:56:34] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-07 07:56:34] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405051639.tar.gz tmp/kcli-99.0.202405070556-py3-none-any.whl.zip --markdown 20240507/k/kcli/99.0.202405051639-99.0.202405070556/README.md --exclude *.pyd
+[2024-05-07 07:56:35] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405051639.tar.gz]
+[2024-05-07 07:56:35] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405070556-py3-none-any.whl.zip]
+[2024-05-07 07:56:35] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-07 07:56:36] INFO root fetch - processPackages [aimhub-client]: Remove: archive file [/home/abi/fetcher/tmp/aimhub_client-0.4.6.tar.gz]
+[2024-05-07 07:56:36] INFO root fetch - processPackages [aimhub-client]: Remove: archive file [/home/abi/fetcher/tmp/aimhub_client-0.5.0.tar.gz]
+[2024-05-07 07:56:36] INFO root fetch - main [MainThread]: End processing [aimhub-client]: success
+[2024-05-07 07:56:36] INFO root fetch - main [MainThread]: Store serial: [23090165]
