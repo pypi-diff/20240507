@@ -12906,3 +12906,93 @@ EOFError: EOF read where object expected
 [2024-05-07 08:21:14] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz]
 [2024-05-07 08:21:14] INFO root fetch - main [MainThread]: End processing [pulumi-f5bigip]: success
 [2024-05-07 08:21:14] INFO root fetch - main [MainThread]: Store serial: [23090564]
+[2024-05-07 08:23:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090564]
+[2024-05-07 08:23:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-07 08:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-minio
+[2024-05-07 08:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-newrelic
+[2024-05-07 08:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cliquingz
+[2024-05-07 08:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-linode
+[2024-05-07 08:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-mongodbatlas
+[2024-05-07 08:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finter
+[2024-05-07 08:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: APacheDEX
+[2024-05-07 08:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data-source-local
+[2024-05-07 08:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flagright
+[2024-05-07 08:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PREN-flawas
+[2024-05-07 08:23:23] WARNING root fetch - processPackages [data-source-local]: Skipping, unable to determine old version
+[2024-05-07 08:23:23] INFO root fetch - processPackages [data-source-local]: Start processing: emunium
+[2024-05-07 08:23:23] INFO root fetch - main [MainThread]: End processing [data-source-local] error
+[2024-05-07 08:23:23] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 08:23:23] INFO root fetch - processPackages [finter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-07 08:23:23] WARNING root fetch - processPackages [cliquingz]: Skipping, unable to determine old version
+[2024-05-07 08:23:23] INFO root fetch - main [MainThread]: End processing [cliquingz] error
+[2024-05-07 08:23:23] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2024-05-07 08:23:23] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-07 08:23:23] INFO root fetch - processPackages [flagright]: New version: [1.5.7] Old Version: [1.5.6]
+[2024-05-07 08:23:23] INFO root fetch - processPackages [APacheDEX]: New version: [2.1] Old Version: [2.0]
+[2024-05-07 08:23:23] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-05-07 08:23:23] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-07 08:23:23] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-05-07 08:23:23] INFO root fetch - processPackages [emunium]: New version: [2.0.0] Old Version: [1.5.0]
+[2024-05-07 08:23:23] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2024-05-07 08:23:23] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/a5/42/62839a9d04ec1ea057f46ba770914804c9ca13fe76705b86c9503ceb5efd/finter-0.2.8-py3-none-any.whl
+[2024-05-07 08:23:23] INFO root fetch - processPackages [flagright]: Downloading https://files.pythonhosted.org/packages/6f/09/c8dd4f323855ef592a9870cc23609ba049f39f41518ed4c51109db68082c/flagright-1.5.6.tar.gz
+[2024-05-07 08:23:23] INFO root fetch - processPackages [APacheDEX]: Downloading https://files.pythonhosted.org/packages/9f/47/c9825ee72a46ec1f958671eb9577ee19037f6ebb8f218cd774ed0215fcb3/APacheDEX-2.0.tar.gz
+[2024-05-07 08:23:23] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2024-05-07 08:23:23] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-05-07 08:23:23] INFO root fetch - processPackages [emunium]: Downloading https://files.pythonhosted.org/packages/f3/fc/924256c6d9fa61892342de0284bc3ab1138f7df679dc6d5b28ece3acbe25/emunium-1.5.0.tar.gz
+[2024-05-07 08:23:23] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-05-07 08:23:23] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-07 08:23:24] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2024-05-07 08:23:24] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/4f/d0/2e1ef5832dd6cbc5f4d24de1b60ad8f90066391220d8d6ebdc279ae3fffd/finter-0.2.9-py3-none-any.whl
+[2024-05-07 08:23:24] INFO root fetch - processPackages [flagright]: Downloading https://files.pythonhosted.org/packages/b3/d9/f81f9aea24b4ba344daf6e2bdc11be2efa2e6c904ecb5f90458034267771/flagright-1.5.7.tar.gz
+[2024-05-07 08:23:24] INFO root fetch - processPackages [APacheDEX]: Downloading https://files.pythonhosted.org/packages/1b/03/77152347c135893359b1ff28549b7cb0a7e27a384900c77497e749152edb/APacheDEX-2.1.tar.gz
+[2024-05-07 08:23:24] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2024-05-07 08:23:24] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20240507/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/README.md --exclude *.pyd
+[2024-05-07 08:23:24] INFO root fetch - processPackages [emunium]: Downloading https://files.pythonhosted.org/packages/21/61/ba9464dd03bab0755a862e83ab12864b2c9cb1ab9ce205956291d2543f85/emunium-2.0.0.tar.gz
+[2024-05-07 08:23:24] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-05-07 08:23:24] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-07 08:23:24] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240507/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 08:23:24] INFO root fetch - processPackages [flagright]: executing diffoscope
+[2024-05-07 08:23:24] INFO root fetch - processPackages [flagright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flagright-1.5.6.tar.gz tmp/flagright-1.5.7.tar.gz --markdown 20240507/f/flagright/1.5.6-1.5.7/README.md --exclude *.pyd
+[2024-05-07 08:23:24] INFO root fetch - processPackages [APacheDEX]: executing diffoscope
+[2024-05-07 08:23:24] INFO root fetch - processPackages [APacheDEX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/APacheDEX-2.0.tar.gz tmp/APacheDEX-2.1.tar.gz --markdown 20240507/A/APacheDEX/2.0-2.1/README.md --exclude *.pyd
+[2024-05-07 08:23:24] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-05-07 08:23:24] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/0b/f7/b68fff12e66ad24a69216aac73a3afff2830a71e879426010edff57e057a/pulumi_mongodbatlas-3.9.2.tar.gz
+[2024-05-07 08:23:24] INFO root fetch - processPackages [emunium]: executing diffoscope
+[2024-05-07 08:23:24] INFO root fetch - processPackages [emunium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emunium-1.5.0.tar.gz tmp/emunium-2.0.0.tar.gz --markdown 20240507/e/emunium/1.5.0-2.0.0/README.md --exclude *.pyd
+[2024-05-07 08:23:24] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-05-07 08:23:24] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.2.8-py3-none-any.whl.zip tmp/finter-0.2.9-py3-none-any.whl.zip --markdown 20240507/f/finter/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-07 08:23:24] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-05-07 08:23:24] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240507/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-05-07 08:23:24] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2024-05-07 08:23:24] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.1.tar.gz tmp/pulumi_mongodbatlas-3.9.2.tar.gz --markdown 20240507/p/pulumi-mongodbatlas/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-07 08:23:24] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-05-07 08:23:24] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240507/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-05-07 08:23:25] INFO root fetch - processPackages [emunium]: Remove: archive file [/home/abi/fetcher/tmp/emunium-1.5.0.tar.gz]
+[2024-05-07 08:23:25] INFO root fetch - processPackages [emunium]: Remove: archive file [/home/abi/fetcher/tmp/emunium-2.0.0.tar.gz]
+[2024-05-07 08:23:25] INFO root fetch - main [MainThread]: End processing [emunium]: success
+[2024-05-07 08:23:25] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2024-05-07 08:23:25] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2024-05-07 08:23:25] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2024-05-07 08:23:25] INFO root fetch - processPackages [APacheDEX]: Remove: archive file [/home/abi/fetcher/tmp/APacheDEX-2.0.tar.gz]
+[2024-05-07 08:23:25] INFO root fetch - processPackages [APacheDEX]: Remove: archive file [/home/abi/fetcher/tmp/APacheDEX-2.1.tar.gz]
+[2024-05-07 08:23:25] INFO root fetch - main [MainThread]: End processing [APacheDEX]: success
+[2024-05-07 08:23:25] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-07 08:23:25] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-07 08:23:25] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-07 08:23:25] INFO root fetch - processPackages [flagright]: Remove: archive file [/home/abi/fetcher/tmp/flagright-1.5.6.tar.gz]
+[2024-05-07 08:23:25] INFO root fetch - processPackages [flagright]: Remove: archive file [/home/abi/fetcher/tmp/flagright-1.5.7.tar.gz]
+[2024-05-07 08:23:25] INFO root fetch - main [MainThread]: End processing [flagright]: success
+[2024-05-07 08:23:25] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-05-07 08:23:25] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-05-07 08:23:25] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-05-07 08:23:25] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.8-py3-none-any.whl.zip]
+[2024-05-07 08:23:25] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.9-py3-none-any.whl.zip]
+[2024-05-07 08:23:25] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-05-07 08:23:25] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-05-07 08:23:25] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-05-07 08:23:25] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-05-07 08:23:26] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2024-05-07 08:23:26] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
+[2024-05-07 08:23:26] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2024-05-07 08:23:26] INFO root fetch - main [MainThread]: Store serial: [23090600]
