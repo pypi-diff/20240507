@@ -18617,3 +18617,45 @@ EOFError: EOF read where object expected
 [2024-05-07 11:40:27] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.2.tar.gz]
 [2024-05-07 11:40:27] INFO root fetch - main [MainThread]: End processing [langfuse]: success
 [2024-05-07 11:40:27] INFO root fetch - main [MainThread]: Store serial: [23093158]
+[2024-05-07 11:42:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093158]
+[2024-05-07 11:42:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 11:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: niwatoko
+[2024-05-07 11:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pixelyai-core
+[2024-05-07 11:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threed-optix
+[2024-05-07 11:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seamoney-spp-drconfig
+[2024-05-07 11:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pharaoh-report
+[2024-05-07 11:42:36] INFO root fetch - processPackages [pharaoh-report]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-05-07 11:42:36] INFO root fetch - processPackages [threed-optix]: New version: [5.0.5] Old Version: [5.0.4]
+[2024-05-07 11:42:36] INFO root fetch - processPackages [niwatoko]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 11:42:36] WARNING root fetch - processPackages [seamoney-spp-drconfig]: Skipping, unable to determine old version
+[2024-05-07 11:42:36] INFO root fetch - main [MainThread]: End processing [seamoney-spp-drconfig] error
+[2024-05-07 11:42:36] INFO root fetch - processPackages [pixelyai-core]: New version: [0.0.5] Old Version: [0.0.40]
+[2024-05-07 11:42:36] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/67/b5/464c8836a78e96dd73f470abf22fa16672d5b747d72372254f2bfdd71d52/threed_optix-5.0.4.tar.gz
+[2024-05-07 11:42:36] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/49/12/687b4c2070048758441061f16f3467c53e23aba3dce86cdfd7ad5b2fb5ba/niwatoko-1.0.8.tar.gz
+[2024-05-07 11:42:36] INFO root fetch - processPackages [pharaoh-report]: Downloading https://files.pythonhosted.org/packages/35/77/191cc8eb2669844306fd141832bdb44155a3351f619eb34e80ab5c15530d/pharaoh_report-0.6.2.tar.gz
+[2024-05-07 11:42:36] INFO root fetch - processPackages [pixelyai-core]: Downloading https://files.pythonhosted.org/packages/4f/15/333801be3e0aef5a12449dfbbd1941d0cc108450fdef2b2574e5a072f532/pixelyai_core-0.0.40.tar.gz
+[2024-05-07 11:42:36] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/8e/93/3eeafb779740e96100416ac65dd95a5142544f66dc40bbe3af5393d45d5b/niwatoko-1.0.9.tar.gz
+[2024-05-07 11:42:36] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/5a/25/95c9e17837efb7c31c08137a5261ce5b245d35c6974708f4843567b88316/threed_optix-5.0.5.tar.gz
+[2024-05-07 11:42:36] INFO root fetch - processPackages [pharaoh-report]: Downloading https://files.pythonhosted.org/packages/16/b7/e5f499ffa06ba7e6f16980154b86095b99ec02d4d921ac10913a541e7f93/pharaoh_report-0.7.0.tar.gz
+[2024-05-07 11:42:36] INFO root fetch - processPackages [pixelyai-core]: Downloading https://files.pythonhosted.org/packages/0d/1c/41f1e0fae55a8336787f31ad894d2c223ecc58acc49e50555d8d1f988a05/pixelyai_core-0.0.5.tar.gz
+[2024-05-07 11:42:36] INFO root fetch - processPackages [niwatoko]: executing diffoscope
+[2024-05-07 11:42:36] INFO root fetch - processPackages [niwatoko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niwatoko-1.0.8.tar.gz tmp/niwatoko-1.0.9.tar.gz --markdown 20240507/n/niwatoko/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 11:42:36] INFO root fetch - processPackages [threed-optix]: executing diffoscope
+[2024-05-07 11:42:36] INFO root fetch - processPackages [threed-optix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threed_optix-5.0.4.tar.gz tmp/threed_optix-5.0.5.tar.gz --markdown 20240507/t/threed-optix/5.0.4-5.0.5/README.md --exclude *.pyd
+[2024-05-07 11:42:36] INFO root fetch - processPackages [pharaoh-report]: executing diffoscope
+[2024-05-07 11:42:36] INFO root fetch - processPackages [pharaoh-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharaoh_report-0.6.2.tar.gz tmp/pharaoh_report-0.7.0.tar.gz --markdown 20240507/p/pharaoh-report/0.6.2-0.7.0/README.md --exclude *.pyd
+[2024-05-07 11:42:37] INFO root fetch - processPackages [pixelyai-core]: executing diffoscope
+[2024-05-07 11:42:37] INFO root fetch - processPackages [pixelyai-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelyai_core-0.0.40.tar.gz tmp/pixelyai_core-0.0.5.tar.gz --markdown 20240507/p/pixelyai-core/0.0.40-0.0.5/README.md --exclude *.pyd
+[2024-05-07 11:42:37] INFO root fetch - processPackages [pixelyai-core]: Remove: archive file [/home/abi/fetcher/tmp/pixelyai_core-0.0.40.tar.gz]
+[2024-05-07 11:42:37] INFO root fetch - processPackages [pixelyai-core]: Remove: archive file [/home/abi/fetcher/tmp/pixelyai_core-0.0.5.tar.gz]
+[2024-05-07 11:42:37] INFO root fetch - main [MainThread]: End processing [pixelyai-core]: success
+[2024-05-07 11:42:37] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.0.8.tar.gz]
+[2024-05-07 11:42:37] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.0.9.tar.gz]
+[2024-05-07 11:42:37] INFO root fetch - main [MainThread]: End processing [niwatoko]: success
+[2024-05-07 11:42:37] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-5.0.4.tar.gz]
+[2024-05-07 11:42:37] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-5.0.5.tar.gz]
+[2024-05-07 11:42:37] INFO root fetch - main [MainThread]: End processing [threed-optix]: success
+[2024-05-07 11:42:37] INFO root fetch - processPackages [pharaoh-report]: Remove: archive file [/home/abi/fetcher/tmp/pharaoh_report-0.6.2.tar.gz]
+[2024-05-07 11:42:37] INFO root fetch - processPackages [pharaoh-report]: Remove: archive file [/home/abi/fetcher/tmp/pharaoh_report-0.7.0.tar.gz]
+[2024-05-07 11:42:37] INFO root fetch - main [MainThread]: End processing [pharaoh-report]: success
+[2024-05-07 11:42:37] INFO root fetch - main [MainThread]: Store serial: [23093181]
