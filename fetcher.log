@@ -9597,3 +9597,148 @@ EOFError: EOF read where object expected
 [2024-05-07 05:18:11] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-3.1.6.tar.gz]
 [2024-05-07 05:18:11] INFO root fetch - main [MainThread]: End processing [T0]: success
 [2024-05-07 05:18:11] INFO root fetch - main [MainThread]: Store serial: [23088902]
+[2024-05-07 05:20:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088902]
+[2024-05-07 05:20:20] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-07 05:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-cv-nightly
+[2024-05-07 05:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: algotom
+[2024-05-07 05:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twitch-archiver
+[2024-05-07 05:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-currency-iso-4217
+[2024-05-07 05:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iterfzf
+[2024-05-07 05:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-uom-unece
+[2024-05-07 05:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-company-sanitary-registry
+[2024-05-07 05:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-uom-unece
+[2024-05-07 05:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-base-iso3166
+[2024-05-07 05:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: erp-apis
+[2024-05-07 05:20:20] INFO root fetch - processPackages [erp-apis]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-07 05:20:20] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-07 05:20:20] INFO root fetch - processPackages [odoo-addon-base-iso3166]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-07 05:20:20] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-05-07 05:20:20] INFO root fetch - processPackages [odoo-addon-uom-unece]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-05-07 05:20:20] INFO root fetch - processPackages [algotom]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-05-07 05:20:20] INFO root fetch - processPackages [odoo-addon-uom-unece]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-05-07 05:20:20] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/b8/28/a32d0b817b5adcffa1c0739e11372aaaae3249a3e3adfda1695162ec5904/erp_apis-1.0.3-py3-none-any.whl
+[2024-05-07 05:20:20] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-05-07 05:20:20] INFO root fetch - processPackages [twitch-archiver]: New version: [4.0.7] Old Version: [4.0.6]
+[2024-05-07 05:20:20] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-07 05:20:20] INFO root fetch - processPackages [iterfzf]: New version: [1.4.0.51.0] Old Version: [1.3.0.51.0]
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: Downloading https://files.pythonhosted.org/packages/af/ae/d5c821e4758673129b9365df22245bb60c8181f674dd686bc19cf407145e/odoo_addon_company_sanitary_registry-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-base-iso3166]: Downloading https://files.pythonhosted.org/packages/dd/00/b2b48392b1614c9e5ec8a250a0cb7164dc0d357c3d0d1c3bfe7e2217b235/odoo_addon_base_iso3166-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: Downloading https://files.pythonhosted.org/packages/f1/fe/b56e81311755fbfae98f10142e05539eba75798135ee774c32eee0d054d4/odoo_addon_base_currency_iso_4217-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-uom-unece]: Downloading https://files.pythonhosted.org/packages/7a/f5/bcd3ead0173aed483df4bf33a83d5e608e66cb7b33a317a8fe81aac1d19c/odoo_addon_uom_unece-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-uom-unece]: Downloading https://files.pythonhosted.org/packages/7a/f5/bcd3ead0173aed483df4bf33a83d5e608e66cb7b33a317a8fe81aac1d19c/odoo_addon_uom_unece-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-07 05:20:21] INFO root fetch - processPackages [algotom]: Downloading https://files.pythonhosted.org/packages/cc/df/bbe52c2815388c21560978cbaae216c77d4f80fa751bbcab43670e7ade6f/algotom-1.5.0.tar.gz
+[2024-05-07 05:20:21] INFO root fetch - processPackages [iterfzf]: Downloading https://files.pythonhosted.org/packages/be/f8/e5662e8630fc7c5ed30be9b5769dfdd7b8a764ca464b8657b5de8b66a757/iterfzf-1.3.0.51.0.tar.gz
+[2024-05-07 05:20:21] INFO root fetch - processPackages [twitch-archiver]: Downloading https://files.pythonhosted.org/packages/57/34/9ce65d7f2c185a77d2618f8d5681b8d79f7469fe97a88f29c9780bd7f016/twitch-archiver-4.0.6.tar.gz
+[2024-05-07 05:20:21] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-07 05:20:21] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/77/87/ff8bf986523202dc45ce3624d3162ff5f4bbfa24a08c605dd6af7934557e/erp_apis-1.0.4-py3-none-any.whl
+[2024-05-07 05:20:21] INFO root fetch - processPackages [erp-apis]: executing diffoscope
+[2024-05-07 05:20:21] INFO root fetch - processPackages [erp-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erp_apis-1.0.3-py3-none-any.whl.zip tmp/erp_apis-1.0.4-py3-none-any.whl.zip --markdown 20240507/e/erp-apis/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: Downloading https://files.pythonhosted.org/packages/95/6b/f3754733719a672fd00f1d1ca0c8c46aa8cd130bc7c2477d2688395c315f/odoo_addon_company_sanitary_registry-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-07 05:20:21] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-07 05:20:21] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240507/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-base-iso3166]: Downloading https://files.pythonhosted.org/packages/b9/8f/71ad2cb997fdbe7dff094303fb5cfac2c97cf22614158966037e76a2517b/odoo_addon_base_iso3166-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-uom-unece]: Downloading https://files.pythonhosted.org/packages/33/7a/7e6cf1090d130095623b97ef8909e373accfc0c53a1aeea8e551b025ec9b/odoo_addon_uom_unece-17.0.1.0.0.6-py3-none-any.whl
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-uom-unece]: Downloading https://files.pythonhosted.org/packages/33/7a/7e6cf1090d130095623b97ef8909e373accfc0c53a1aeea8e551b025ec9b/odoo_addon_uom_unece-17.0.1.0.0.6-py3-none-any.whl
+[2024-05-07 05:20:21] INFO root fetch - processPackages [twitch-archiver]: Downloading https://files.pythonhosted.org/packages/66/bd/a4cfff42349c7571e42432b5626a33caa32c31af83576c31ffe9968f8ba2/twitch_archiver-4.0.7.tar.gz
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: Downloading https://files.pythonhosted.org/packages/af/cb/71bddc001b186df827297caa63912d4dffe40e3248e3a8fdc853c7ebff12/odoo_addon_base_currency_iso_4217-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-07 05:20:21] INFO root fetch - processPackages [algotom]: Downloading https://files.pythonhosted.org/packages/26/f2/ac34ac24f30ca5977f18e27efaf53076015f507ffe89a847d8cf64f81329/algotom-1.6.0.tar.gz
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: executing diffoscope
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_company_sanitary_registry-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_company_sanitary_registry-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-company-sanitary-registry/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-base-iso3166]: executing diffoscope
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-base-iso3166]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_iso3166-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_base_iso3166-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-base-iso3166/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-uom-unece]: executing diffoscope
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-uom-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_uom_unece-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_uom_unece-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-uom-unece/17.0.1.0.0.5-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-uom-unece]: executing diffoscope
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-uom-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_uom_unece-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_uom_unece-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-uom-unece/17.0.1.0.0.5-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: executing diffoscope
+[2024-05-07 05:20:21] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_currency_iso_4217-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_currency_iso_4217-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-base-currency-iso-4217/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-07 05:20:21] INFO root fetch - processPackages [iterfzf]: Downloading https://files.pythonhosted.org/packages/8b/b3/4238dff147dc78b768577d477cfa3e99c8182b7753487e43da033610e56d/iterfzf-1.4.0.51.0.tar.gz
+[2024-05-07 05:20:21] INFO root fetch - processPackages [twitch-archiver]: executing diffoscope
+[2024-05-07 05:20:21] INFO root fetch - processPackages [twitch-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitch-archiver-4.0.6.tar.gz tmp/twitch_archiver-4.0.7.tar.gz --markdown 20240507/t/twitch-archiver/4.0.6-4.0.7/README.md --exclude *.pyd
+[2024-05-07 05:20:21] INFO root fetch - processPackages [algotom]: executing diffoscope
+[2024-05-07 05:20:21] INFO root fetch - processPackages [algotom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algotom-1.5.0.tar.gz tmp/algotom-1.6.0.tar.gz --markdown 20240507/a/algotom/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-05-07 05:20:22] INFO root fetch - processPackages [iterfzf]: executing diffoscope
+[2024-05-07 05:20:22] INFO root fetch - processPackages [iterfzf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterfzf-1.3.0.51.0.tar.gz tmp/iterfzf-1.4.0.51.0.tar.gz --markdown 20240507/i/iterfzf/1.3.0.51.0-1.4.0.51.0/README.md --exclude *.pyd
+[2024-05-07 05:20:22] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.3-py3-none-any.whl.zip]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.4-py3-none-any.whl.zip]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [erp-apis]: Start processing: odoo-addon-account-tax-unece
+[2024-05-07 05:20:22] INFO root fetch - main [MainThread]: End processing [erp-apis]: success
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.3]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-uom-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_uom_unece-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-uom-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_uom_unece-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-uom-unece]: Start processing: odoo-addon-l10n-eu-nace
+[2024-05-07 05:20:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-uom-unece]: success
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Downloading https://files.pythonhosted.org/packages/25/c3/f408685c85b4af2482975bb9dabc1aa4bb9fe23488898165658af9b80d0a/odoo_addon_account_tax_unece-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_currency_iso_4217-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_currency_iso_4217-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: Start processing: odoo-addon-base-bank-from-iban
+[2024-05-07 05:20:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-currency-iso-4217]: success
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_company_sanitary_registry-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_company_sanitary_registry-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: Start processing: odoo-addon-base-iso3166
+[2024-05-07 05:20:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-company-sanitary-registry]: success
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-base-iso3166]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-uom-unece]: Start processing: odoo-addon-account-payment-unece
+[2024-05-07 05:20:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-uom-unece]: success
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: New version: [16.0.1.0.1.3] Old Version: [16.0.1.0.1.1]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-base-iso3166]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_iso3166-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-base-iso3166]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_iso3166-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-base-iso3166]: Start processing: MainShortcuts
+[2024-05-07 05:20:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-iso3166]: success
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [twitch-archiver]: Remove: archive file [/home/abi/fetcher/tmp/twitch-archiver-4.0.6.tar.gz]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [twitch-archiver]: Remove: archive file [/home/abi/fetcher/tmp/twitch_archiver-4.0.7.tar.gz]
+[2024-05-07 05:20:22] INFO root fetch - main [MainThread]: End processing [twitch-archiver]: success
+[2024-05-07 05:20:22] INFO root fetch - processPackages [MainShortcuts]: New version: [1.6.85] Old Version: [1.6.84]
+[2024-05-07 05:20:22] INFO root fetch - processPackages [odoo-addon-base-iso3166]: Downloading https://files.pythonhosted.org/packages/dd/00/b2b48392b1614c9e5ec8a250a0cb7164dc0d357c3d0d1c3bfe7e2217b235/odoo_addon_base_iso3166-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-05-07 05:20:23] INFO root fetch - processPackages [MainShortcuts]: Downloading https://files.pythonhosted.org/packages/8f/75/b94577290e5c923566dd58510d1a564c8b9afb1c7085d7497751ffab5fd6/mainshortcuts-1.6.84.tar.gz
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: Downloading https://files.pythonhosted.org/packages/4c/c8/385698b227cffb6c0a8840792272a1d1adc039d3a4e09ec852a99847e08a/odoo_addon_l10n_eu_nace-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-07 05:20:23] INFO root fetch - processPackages [algotom]: Remove: archive file [/home/abi/fetcher/tmp/algotom-1.5.0.tar.gz]
+[2024-05-07 05:20:23] INFO root fetch - processPackages [algotom]: Remove: archive file [/home/abi/fetcher/tmp/algotom-1.6.0.tar.gz]
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: Downloading https://files.pythonhosted.org/packages/dc/0d/f2c2738c6ab7fd5517f96a540a248005bcc163aaf436563ae1c129795685/odoo_addon_base_bank_from_iban-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-07 05:20:23] INFO root fetch - main [MainThread]: End processing [algotom]: success
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Downloading https://files.pythonhosted.org/packages/be/df/8d12ace210a34f45186004936ae12201d2ae94c35cddb2dd2c44e011f54d/odoo_addon_account_tax_unece-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-base-iso3166]: Downloading https://files.pythonhosted.org/packages/b9/8f/71ad2cb997fdbe7dff094303fb5cfac2c97cf22614158966037e76a2517b/odoo_addon_base_iso3166-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: Downloading https://files.pythonhosted.org/packages/2c/5a/fd52c82d9934dd928c1ad06f3f8c8b679c3d3c1dc6ec4b1c0f89043b1abd/odoo_addon_account_payment_unece-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-07 05:20:23] INFO root fetch - processPackages [MainShortcuts]: Downloading https://files.pythonhosted.org/packages/ad/a8/12174d7a54f2743b59da6495640b01ac9f79e018e245ab02c13935568abc/mainshortcuts-1.6.85.tar.gz
+[2024-05-07 05:20:23] INFO root fetch - processPackages [iterfzf]: Remove: archive file [/home/abi/fetcher/tmp/iterfzf-1.3.0.51.0.tar.gz]
+[2024-05-07 05:20:23] INFO root fetch - processPackages [iterfzf]: Remove: archive file [/home/abi/fetcher/tmp/iterfzf-1.4.0.51.0.tar.gz]
+[2024-05-07 05:20:23] INFO root fetch - main [MainThread]: End processing [iterfzf]: success
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: executing diffoscope
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_tax_unece-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_tax_unece-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-account-tax-unece/17.0.1.0.0.3-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-base-iso3166]: executing diffoscope
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-base-iso3166]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_iso3166-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_base_iso3166-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-base-iso3166/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-07 05:20:23] INFO root fetch - processPackages [MainShortcuts]: executing diffoscope
+[2024-05-07 05:20:23] INFO root fetch - processPackages [MainShortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainshortcuts-1.6.84.tar.gz tmp/mainshortcuts-1.6.85.tar.gz --markdown 20240507/M/MainShortcuts/1.6.84-1.6.85/README.md --exclude *.pyd
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: Downloading https://files.pythonhosted.org/packages/12/a4/086bdc07e2a9407469128ee17fcece895648109841eb50f5659cda5208c0/odoo_addon_l10n_eu_nace-16.0.1.0.1.3-py3-none-any.whl
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: executing diffoscope
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_eu_nace-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_eu_nace-16.0.1.0.1.3-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-l10n-eu-nace/16.0.1.0.1.1-16.0.1.0.1.3/README.md --exclude *.pyd
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: Downloading https://files.pythonhosted.org/packages/14/ad/ce133a36a23f1c1036ce52cb949b895924206f7d696874ddf18936abdd0e/odoo_addon_base_bank_from_iban-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: Downloading https://files.pythonhosted.org/packages/e4/ef/14edc33661f7197f616573cfcf2fc377a1f71e456d9f13961561f4ad1782/odoo_addon_account_payment_unece-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: executing diffoscope
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_unece-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_payment_unece-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-account-payment-unece/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: executing diffoscope
+[2024-05-07 05:20:23] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_bank_from_iban-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_bank_from_iban-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240507/o/odoo-addon-base-bank-from-iban/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-07 05:20:23] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-07 05:20:23] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-07 05:20:23] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-07 05:20:24] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_unece-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-07 05:20:24] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_unece-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-07 05:20:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-tax-unece]: success
+[2024-05-07 05:20:24] INFO root fetch - processPackages [odoo-addon-base-iso3166]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_iso3166-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-07 05:20:24] INFO root fetch - processPackages [odoo-addon-base-iso3166]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_iso3166-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-07 05:20:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-iso3166]: success
+[2024-05-07 05:20:24] INFO root fetch - processPackages [MainShortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.84.tar.gz]
+[2024-05-07 05:20:24] INFO root fetch - processPackages [MainShortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.85.tar.gz]
+[2024-05-07 05:20:24] INFO root fetch - main [MainThread]: End processing [MainShortcuts]: success
+[2024-05-07 05:20:24] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_eu_nace-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-07 05:20:24] INFO root fetch - processPackages [odoo-addon-l10n-eu-nace]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_eu_nace-16.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-05-07 05:20:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-eu-nace]: success
+[2024-05-07 05:20:24] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_bank_from_iban-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-07 05:20:24] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_bank_from_iban-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-07 05:20:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-bank-from-iban]: success
+[2024-05-07 05:20:24] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_unece-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-07 05:20:24] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_unece-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-07 05:20:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-unece]: success
+[2024-05-07 05:20:24] INFO root fetch - main [MainThread]: Store serial: [23088951]
