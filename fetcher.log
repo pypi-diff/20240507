@@ -18997,3 +18997,66 @@ EOFError: EOF read where object expected
 [2024-05-07 12:00:21] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-07 12:00:21] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-07 12:00:21] INFO root fetch - main [MainThread]: Store serial: [23093347]
+[2024-05-07 12:02:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093347]
+[2024-05-07 12:02:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-07 12:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DesalSim
+[2024-05-07 12:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: copious
+[2024-05-07 12:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mteb
+[2024-05-07 12:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gym-pusht
+[2024-05-07 12:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-mse20190531
+[2024-05-07 12:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zelas
+[2024-05-07 12:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AkitaCode
+[2024-05-07 12:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gym-xarm
+[2024-05-07 12:02:30] WARNING root fetch - processPackages [DesalSim]: Skipping, unable to determine old version
+[2024-05-07 12:02:30] INFO root fetch - main [MainThread]: End processing [DesalSim] error
+[2024-05-07 12:02:30] INFO root fetch - processPackages [AkitaCode]: New version: [2.1] Old Version: [2.0.6]
+[2024-05-07 12:02:30] WARNING root fetch - processPackages [copious]: Skipping, unable to determine old version
+[2024-05-07 12:02:30] INFO root fetch - main [MainThread]: End processing [copious] error
+[2024-05-07 12:02:30] INFO root fetch - processPackages [gym-pusht]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-07 12:02:30] INFO root fetch - processPackages [gym-xarm]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 12:02:30] INFO root fetch - processPackages [zelas]: New version: [1.3.240507] Old Version: [1.3.240505]
+[2024-05-07 12:02:30] INFO root fetch - processPackages [alibabacloud-mse20190531]: New version: [6.6.1] Old Version: [6.6.0]
+[2024-05-07 12:02:30] INFO root fetch - processPackages [mteb]: New version: [1.8.3] Old Version: [1.8.2]
+[2024-05-07 12:02:30] INFO root fetch - processPackages [AkitaCode]: Downloading https://files.pythonhosted.org/packages/09/25/c586ab0a9a5ad11329ae692b18342a3a63822ef7dbe19d17e7d43ea70aa7/AkitaCode-2.0.6.tar.gz
+[2024-05-07 12:02:30] INFO root fetch - processPackages [alibabacloud-mse20190531]: Downloading https://files.pythonhosted.org/packages/66/2c/c3757e1bb83448709f13739b578d93dfed297cb8e190a6362b6f20eec5e8/alibabacloud_mse20190531-6.6.0.tar.gz
+[2024-05-07 12:02:30] INFO root fetch - processPackages [gym-pusht]: Downloading https://files.pythonhosted.org/packages/00/95/646d26a0e272ea2e7b538488763af353b6d75f87150f0909cb95e867f092/gym_pusht-0.1.1.tar.gz
+[2024-05-07 12:02:30] INFO root fetch - processPackages [zelas]: Downloading https://files.pythonhosted.org/packages/d9/88/c7221639cb505a6f049b5e3e360bd0e39702f057b3ed2b43f545b40a1641/zelas-1.3.240505.tar.gz
+[2024-05-07 12:02:30] INFO root fetch - processPackages [gym-xarm]: Downloading https://files.pythonhosted.org/packages/1a/14/c7ea1ce2b11ee4c15f065cb86bb0a6bf7737aa40996e81c60c6ea470e7c7/gym_xarm-0.1.0.tar.gz
+[2024-05-07 12:02:30] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/26/15/68f4c8c791534ba8e1ec9d9e917076d6604fcb779dbd1302c6f3a6461398/mteb-1.8.2.tar.gz
+[2024-05-07 12:02:30] INFO root fetch - processPackages [alibabacloud-mse20190531]: Downloading https://files.pythonhosted.org/packages/b3/b6/c7e393bc463f666d00d814889fbceb8433b5249c4e1a06691db3772452cc/alibabacloud_mse20190531-6.6.1.tar.gz
+[2024-05-07 12:02:30] INFO root fetch - processPackages [gym-pusht]: Downloading https://files.pythonhosted.org/packages/c7/e0/864a7bcfd0361e6de1725d3cba7b34d7359e71e5f8652008526dc37dd732/gym_pusht-0.1.2.tar.gz
+[2024-05-07 12:02:30] INFO root fetch - processPackages [zelas]: Downloading https://files.pythonhosted.org/packages/ad/a9/13edcc3244cbf29d6a83ed4dc903a50b28475c62376f3601398b613491c5/zelas-1.3.240507.tar.gz
+[2024-05-07 12:02:30] INFO root fetch - processPackages [AkitaCode]: Downloading https://files.pythonhosted.org/packages/29/18/163d6a988e80a15bd40158514237b4191556dc712b8a56dce221055218ed/AkitaCode-2.1-py3-none-any.whl
+[2024-05-07 12:02:31] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/dd/c7/26507a3438f5f7cd008e83f9a9523ec1cee62d36dae138b02bc6abf67c15/mteb-1.8.3.tar.gz
+[2024-05-07 12:02:31] INFO root fetch - processPackages [AkitaCode]: executing diffoscope
+[2024-05-07 12:02:31] INFO root fetch - processPackages [AkitaCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AkitaCode-2.0.6.tar.gz tmp/AkitaCode-2.1-py3-none-any.whl.zip --markdown 20240507/A/AkitaCode/2.0.6-2.1/README.md --exclude *.pyd
+[2024-05-07 12:02:31] INFO root fetch - processPackages [gym-pusht]: executing diffoscope
+[2024-05-07 12:02:31] INFO root fetch - processPackages [gym-pusht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_pusht-0.1.1.tar.gz tmp/gym_pusht-0.1.2.tar.gz --markdown 20240507/g/gym-pusht/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-07 12:02:31] INFO root fetch - processPackages [alibabacloud-mse20190531]: executing diffoscope
+[2024-05-07 12:02:31] INFO root fetch - processPackages [alibabacloud-mse20190531]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mse20190531-6.6.0.tar.gz tmp/alibabacloud_mse20190531-6.6.1.tar.gz --markdown 20240507/a/alibabacloud-mse20190531/6.6.0-6.6.1/README.md --exclude *.pyd
+[2024-05-07 12:02:31] INFO root fetch - processPackages [gym-xarm]: Downloading https://files.pythonhosted.org/packages/2a/1c/77aac8cbf50b8f8715f5ebeb68214452e3adf4531c9b9f6fefdff09f7267/gym_xarm-0.1.1.tar.gz
+[2024-05-07 12:02:31] INFO root fetch - processPackages [zelas]: executing diffoscope
+[2024-05-07 12:02:31] INFO root fetch - processPackages [zelas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zelas-1.3.240505.tar.gz tmp/zelas-1.3.240507.tar.gz --markdown 20240507/z/zelas/1.3.240505-1.3.240507/README.md --exclude *.pyd
+[2024-05-07 12:02:31] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-07 12:02:31] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.8.2.tar.gz tmp/mteb-1.8.3.tar.gz --markdown 20240507/m/mteb/1.8.2-1.8.3/README.md --exclude *.pyd
+[2024-05-07 12:02:31] INFO root fetch - processPackages [gym-pusht]: Remove: archive file [/home/abi/fetcher/tmp/gym_pusht-0.1.1.tar.gz]
+[2024-05-07 12:02:31] INFO root fetch - processPackages [gym-pusht]: Remove: archive file [/home/abi/fetcher/tmp/gym_pusht-0.1.2.tar.gz]
+[2024-05-07 12:02:31] INFO root fetch - main [MainThread]: End processing [gym-pusht]: success
+[2024-05-07 12:02:31] INFO root fetch - processPackages [AkitaCode]: Remove: archive file [/home/abi/fetcher/tmp/AkitaCode-2.0.6.tar.gz]
+[2024-05-07 12:02:31] INFO root fetch - processPackages [AkitaCode]: Remove: archive file [/home/abi/fetcher/tmp/AkitaCode-2.1-py3-none-any.whl.zip]
+[2024-05-07 12:02:31] INFO root fetch - main [MainThread]: End processing [AkitaCode]: success
+[2024-05-07 12:02:31] INFO root fetch - processPackages [zelas]: Remove: archive file [/home/abi/fetcher/tmp/zelas-1.3.240505.tar.gz]
+[2024-05-07 12:02:31] INFO root fetch - processPackages [zelas]: Remove: archive file [/home/abi/fetcher/tmp/zelas-1.3.240507.tar.gz]
+[2024-05-07 12:02:31] INFO root fetch - main [MainThread]: End processing [zelas]: success
+[2024-05-07 12:02:31] INFO root fetch - processPackages [gym-xarm]: executing diffoscope
+[2024-05-07 12:02:31] INFO root fetch - processPackages [gym-xarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_xarm-0.1.0.tar.gz tmp/gym_xarm-0.1.1.tar.gz --markdown 20240507/g/gym-xarm/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 12:02:32] INFO root fetch - processPackages [gym-xarm]: Remove: archive file [/home/abi/fetcher/tmp/gym_xarm-0.1.0.tar.gz]
+[2024-05-07 12:02:32] INFO root fetch - processPackages [gym-xarm]: Remove: archive file [/home/abi/fetcher/tmp/gym_xarm-0.1.1.tar.gz]
+[2024-05-07 12:02:32] INFO root fetch - main [MainThread]: End processing [gym-xarm]: success
+[2024-05-07 12:02:33] INFO root fetch - processPackages [alibabacloud-mse20190531]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531-6.6.0.tar.gz]
+[2024-05-07 12:02:33] INFO root fetch - processPackages [alibabacloud-mse20190531]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531-6.6.1.tar.gz]
+[2024-05-07 12:02:33] INFO root fetch - main [MainThread]: End processing [alibabacloud-mse20190531]: success
+[2024-05-07 12:02:33] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.8.2.tar.gz]
+[2024-05-07 12:02:33] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.8.3.tar.gz]
+[2024-05-07 12:02:33] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-07 12:02:33] INFO root fetch - main [MainThread]: Store serial: [23093373]
