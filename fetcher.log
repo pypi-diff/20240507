@@ -15839,3 +15839,117 @@ EOFError: EOF read where object expected
 [2024-05-07 10:06:25] INFO root fetch - processPackages [joker-clients]: Remove: archive file [/home/abi/fetcher/tmp/joker-clients-0.3.0.tar.gz]
 [2024-05-07 10:06:25] INFO root fetch - main [MainThread]: End processing [joker-clients]: success
 [2024-05-07 10:06:25] INFO root fetch - main [MainThread]: Store serial: [23091923]
+[2024-05-07 10:08:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091923]
+[2024-05-07 10:08:34] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-07 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: niwatoko
+[2024-05-07 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipynbname
+[2024-05-07 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: desalination-and-brine-treatment
+[2024-05-07 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2024-05-07 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyglove
+[2024-05-07 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rclip
+[2024-05-07 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: titiler.core
+[2024-05-07 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: titiler.mosaic
+[2024-05-07 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: titiler.application
+[2024-05-07 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: titiler.extensions
+[2024-05-07 10:08:34] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240507061309] Old Version: [3.4.1.dev20240506192318]
+[2024-05-07 10:08:34] INFO root fetch - processPackages [niwatoko]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 10:08:34] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240506] Old Version: [0.4.5.dev20240505]
+[2024-05-07 10:08:34] INFO root fetch - processPackages [ipynbname]: New version: [2024.1.0.0] Old Version: [2023.2.0.0]
+[2024-05-07 10:08:34] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/7b/59/65c814d0d914b77d1bdd30542712f8c54de1ba3f0f36686e7f8d73095570/localstack_core-3.4.1.dev20240506192318.tar.gz
+[2024-05-07 10:08:34] WARNING root fetch - processPackages [desalination-and-brine-treatment]: Skipping, unable to determine old version
+[2024-05-07 10:08:34] INFO root fetch - processPackages [desalination-and-brine-treatment]: Start processing: titiler
+[2024-05-07 10:08:34] INFO root fetch - main [MainThread]: End processing [desalination-and-brine-treatment] error
+[2024-05-07 10:08:34] INFO root fetch - processPackages [titiler.extensions]: New version: [0.18.2] Old Version: [0.18.1]
+[2024-05-07 10:08:34] INFO root fetch - processPackages [titiler.mosaic]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-07 10:08:34] INFO root fetch - processPackages [titiler.core]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-07 10:08:34] INFO root fetch - processPackages [titiler.application]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-07 10:08:34] INFO root fetch - processPackages [rclip]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-07 10:08:34] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/29/c3/64115307d57000391589aaa854612b09a4ba1c788571ebb1b8ca1559588c/pyglove-0.4.5.dev20240505.tar.gz
+[2024-05-07 10:08:34] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/aa/d0/5e97bc3e3e43a0efb1a558209ed4b7b95b2980716fd65fe51f994cbe99cc/niwatoko-1.0.0.tar.gz
+[2024-05-07 10:08:34] INFO root fetch - processPackages [titiler]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-07 10:08:34] INFO root fetch - processPackages [ipynbname]: Downloading https://files.pythonhosted.org/packages/7c/46/73e920d3c1ce8dd155fd934c10773c1add749bb9726c5339658eadd13808/ipynbname-2023.2.0.0.tar.gz
+[2024-05-07 10:08:34] INFO root fetch - processPackages [titiler.core]: Downloading https://files.pythonhosted.org/packages/97/2f/6bc1ef0e1aca51ba470d94f5fa32850308c07b110759c632bdf5926bf833/titiler.core-0.8.1.tar.gz
+[2024-05-07 10:08:34] INFO root fetch - processPackages [titiler.extensions]: Downloading https://files.pythonhosted.org/packages/9b/14/b908c2e3611a585d8ba3a1319886723220a8b53fcdcd04fb6bbdfc88272f/titiler.extensions-0.18.1.tar.gz
+[2024-05-07 10:08:34] INFO root fetch - processPackages [titiler.mosaic]: Downloading https://files.pythonhosted.org/packages/64/df/78d67b0ef785ad61c4ff27da86f52a14a7051e25b7c2ee4bad40a8555cdf/titiler.mosaic-0.8.1.tar.gz
+[2024-05-07 10:08:34] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/80/a3/c2741a607955c25212be0a5784d978dac7d8690e3de9d7f3949cbf106c70/rclip-1.8.8.tar.gz
+[2024-05-07 10:08:34] INFO root fetch - processPackages [titiler.application]: Downloading https://files.pythonhosted.org/packages/a4/45/99b9cf2384c8cef0aafa53f4dd87b1f801b3a9e224de560955bd5d8cc832/titiler.application-0.8.1.tar.gz
+[2024-05-07 10:08:34] INFO root fetch - processPackages [titiler]: Downloading https://files.pythonhosted.org/packages/41/dc/ab9cf7a39b7645d7264863cdbdef3be8ff6b75b35846b2341d6edeb0c0df/titiler-0.8.1.tar.gz
+[2024-05-07 10:08:34] INFO root fetch - processPackages [ipynbname]: Downloading https://files.pythonhosted.org/packages/d8/4b/a84ceea5ff73ec0e466540d54e835414f3e0ecde8389ce008e12fa129709/ipynbname-2024.1.0.0.tar.gz
+[2024-05-07 10:08:34] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/11/e3/dfa3388bcd30abac887f88a19a1cf7520ed5fda61578b13e4877f11bfb33/niwatoko-1.0.1.tar.gz
+[2024-05-07 10:08:34] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/58/b3/f987fa6087e0db049db21df20e4375cf54c3f8e2567528b6044d1c42e946/localstack_core-3.4.1.dev20240507061309.tar.gz
+[2024-05-07 10:08:34] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/ab/ab/09eedc7193b28b89aacf6fe40f61ec8c7a4a3d774315bf79538ca28c5362/pyglove-0.4.5.dev20240506.tar.gz
+[2024-05-07 10:08:35] INFO root fetch - processPackages [ipynbname]: executing diffoscope
+[2024-05-07 10:08:35] INFO root fetch - processPackages [ipynbname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipynbname-2023.2.0.0.tar.gz tmp/ipynbname-2024.1.0.0.tar.gz --markdown 20240507/i/ipynbname/2023.2.0.0-2024.1.0.0/README.md --exclude *.pyd
+[2024-05-07 10:08:35] INFO root fetch - processPackages [niwatoko]: executing diffoscope
+[2024-05-07 10:08:35] INFO root fetch - processPackages [niwatoko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niwatoko-1.0.0.tar.gz tmp/niwatoko-1.0.1.tar.gz --markdown 20240507/n/niwatoko/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-07 10:08:35] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/76/ad/fb0c4a5984bf5f17800a93ea37b1c340d580e769de376e53c72ed2cedfc5/rclip-1.8.9.tar.gz
+[2024-05-07 10:08:35] INFO root fetch - processPackages [titiler.extensions]: Downloading https://files.pythonhosted.org/packages/83/4c/fe058927cf994a56b49ae6d81b4317d5628e4743cec636ca002c54f6f94b/titiler.extensions-0.18.2.tar.gz
+[2024-05-07 10:08:35] INFO root fetch - processPackages [titiler.core]: Downloading https://files.pythonhosted.org/packages/37/09/ee6935b6b91c59a9456045daf3dd1a6225aaa257a1173b717e40411d49af/titiler.core-0.9.0.tar.gz
+[2024-05-07 10:08:35] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2024-05-07 10:08:35] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.8.8.tar.gz tmp/rclip-1.8.9.tar.gz --markdown 20240507/r/rclip/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-07 10:08:35] INFO root fetch - processPackages [titiler.mosaic]: Downloading https://files.pythonhosted.org/packages/60/39/308d945c15924ddd98ef46a95ad34562b1215fe14e9fc145f439e29aa195/titiler.mosaic-0.9.0.tar.gz
+[2024-05-07 10:08:35] INFO root fetch - processPackages [titiler.application]: Downloading https://files.pythonhosted.org/packages/fd/1c/135d8048e6dea392025148fca0d327db1c54246f093d117a48f0dfc45144/titiler.application-0.9.0.tar.gz
+[2024-05-07 10:08:35] INFO root fetch - processPackages [titiler.extensions]: executing diffoscope
+[2024-05-07 10:08:35] INFO root fetch - processPackages [titiler.extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.extensions-0.18.1.tar.gz tmp/titiler.extensions-0.18.2.tar.gz --markdown 20240507/t/titiler.extensions/0.18.1-0.18.2/README.md --exclude *.pyd
+[2024-05-07 10:08:35] INFO root fetch - processPackages [titiler]: Downloading https://files.pythonhosted.org/packages/2d/a8/789412eeaaecf169bd27c5d17249338b6e372505215d3f4b89588fffd4b2/titiler-0.9.0.tar.gz
+[2024-05-07 10:08:35] INFO root fetch - processPackages [titiler.core]: executing diffoscope
+[2024-05-07 10:08:35] INFO root fetch - processPackages [titiler.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.core-0.8.1.tar.gz tmp/titiler.core-0.9.0.tar.gz --markdown 20240507/t/titiler.core/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-07 10:08:35] INFO root fetch - processPackages [titiler.mosaic]: executing diffoscope
+[2024-05-07 10:08:35] INFO root fetch - processPackages [titiler.mosaic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.mosaic-0.8.1.tar.gz tmp/titiler.mosaic-0.9.0.tar.gz --markdown 20240507/t/titiler.mosaic/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-07 10:08:35] INFO root fetch - processPackages [titiler.application]: executing diffoscope
+[2024-05-07 10:08:35] INFO root fetch - processPackages [titiler.application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.application-0.8.1.tar.gz tmp/titiler.application-0.9.0.tar.gz --markdown 20240507/t/titiler.application/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-07 10:08:35] INFO root fetch - processPackages [titiler]: executing diffoscope
+[2024-05-07 10:08:35] INFO root fetch - processPackages [titiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler-0.8.1.tar.gz tmp/titiler-0.9.0.tar.gz --markdown 20240507/t/titiler/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-07 10:08:35] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-07 10:08:35] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240505.tar.gz tmp/pyglove-0.4.5.dev20240506.tar.gz --markdown 20240507/p/pyglove/0.4.5.dev20240505-0.4.5.dev20240506/README.md --exclude *.pyd
+[2024-05-07 10:08:36] INFO root fetch - processPackages [ipynbname]: Remove: archive file [/home/abi/fetcher/tmp/ipynbname-2023.2.0.0.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - processPackages [ipynbname]: Remove: archive file [/home/abi/fetcher/tmp/ipynbname-2024.1.0.0.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - processPackages [ipynbname]: Start processing: infinity-sdk
+[2024-05-07 10:08:36] INFO root fetch - main [MainThread]: End processing [ipynbname]: success
+[2024-05-07 10:08:36] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.0.0.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.0.1.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - processPackages [niwatoko]: Start processing: nonebot-plugin-alconna
+[2024-05-07 10:08:36] INFO root fetch - main [MainThread]: End processing [niwatoko]: success
+[2024-05-07 10:08:36] INFO root fetch - processPackages [titiler.extensions]: Remove: archive file [/home/abi/fetcher/tmp/titiler.extensions-0.18.1.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - processPackages [titiler.extensions]: Remove: archive file [/home/abi/fetcher/tmp/titiler.extensions-0.18.2.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - main [MainThread]: End processing [titiler.extensions]: success
+[2024-05-07 10:08:36] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.8.8.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.8.9.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2024-05-07 10:08:36] INFO root fetch - processPackages [infinity-sdk]: New version: [0.2.0.dev1] Old Version: [0.1.0.dev9]
+[2024-05-07 10:08:36] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.9.3] Old Version: [0.9.0]
+[2024-05-07 10:08:36] INFO root fetch - processPackages [titiler.application]: Remove: archive file [/home/abi/fetcher/tmp/titiler.application-0.8.1.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - processPackages [titiler.application]: Remove: archive file [/home/abi/fetcher/tmp/titiler.application-0.9.0.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - main [MainThread]: End processing [titiler.application]: success
+[2024-05-07 10:08:36] INFO root fetch - processPackages [titiler.core]: Remove: archive file [/home/abi/fetcher/tmp/titiler.core-0.8.1.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - processPackages [titiler.core]: Remove: archive file [/home/abi/fetcher/tmp/titiler.core-0.9.0.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - main [MainThread]: End processing [titiler.core]: success
+[2024-05-07 10:08:36] INFO root fetch - processPackages [titiler]: Remove: archive file [/home/abi/fetcher/tmp/titiler-0.8.1.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - processPackages [titiler]: Remove: archive file [/home/abi/fetcher/tmp/titiler-0.9.0.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - main [MainThread]: End processing [titiler]: success
+[2024-05-07 10:08:36] INFO root fetch - processPackages [titiler.mosaic]: Remove: archive file [/home/abi/fetcher/tmp/titiler.mosaic-0.8.1.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - processPackages [titiler.mosaic]: Remove: archive file [/home/abi/fetcher/tmp/titiler.mosaic-0.9.0.tar.gz]
+[2024-05-07 10:08:36] INFO root fetch - main [MainThread]: End processing [titiler.mosaic]: success
+[2024-05-07 10:08:36] INFO root fetch - processPackages [infinity-sdk]: Downloading https://files.pythonhosted.org/packages/5f/23/609dbf3b9cce37544c49a6f700daf67907a9ddd4838b098e8417fd57597d/infinity_sdk-0.1.0.dev9-py3-none-any.whl
+[2024-05-07 10:08:36] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/c8/67/1065373af14f845f6112a3d2cb8d6187d838b4c0d90d89282ccef9f5133d/nonebot-plugin-alconna-0.9.0.tar.gz
+[2024-05-07 10:08:36] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-07 10:08:36] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240506192318.tar.gz tmp/localstack_core-3.4.1.dev20240507061309.tar.gz --markdown 20240507/l/localstack-core/3.4.1.dev20240506192318-3.4.1.dev20240507061309/README.md --exclude *.pyd
+[2024-05-07 10:08:36] INFO root fetch - processPackages [infinity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/22/89ab633bb7be61b7b9e17562ece2ba8ed4b9d45368be57570ea9dd8218da/infinity_sdk-0.2.0.dev1-py3-none-any.whl
+[2024-05-07 10:08:37] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/f4/fd/830dd6604cd5dc44a467d959ff595e8da0a087d9b75368acaecfc83c3417/nonebot_plugin_alconna-0.9.3.tar.gz
+[2024-05-07 10:08:37] INFO root fetch - processPackages [infinity-sdk]: executing diffoscope
+[2024-05-07 10:08:37] INFO root fetch - processPackages [infinity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infinity_sdk-0.1.0.dev9-py3-none-any.whl.zip tmp/infinity_sdk-0.2.0.dev1-py3-none-any.whl.zip --markdown 20240507/i/infinity-sdk/0.1.0.dev9-0.2.0.dev1/README.md --exclude *.pyd
+[2024-05-07 10:08:37] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2024-05-07 10:08:37] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.9.0.tar.gz tmp/nonebot_plugin_alconna-0.9.3.tar.gz --markdown 20240507/n/nonebot-plugin-alconna/0.9.0-0.9.3/README.md --exclude *.pyd
+[2024-05-07 10:08:37] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240505.tar.gz]
+[2024-05-07 10:08:37] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240506.tar.gz]
+[2024-05-07 10:08:37] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-07 10:08:37] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-alconna-0.9.0.tar.gz]
+[2024-05-07 10:08:37] INFO root fetch - processPackages [nonebot-plugin-alconna]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_alconna-0.9.3.tar.gz]
+[2024-05-07 10:08:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2024-05-07 10:08:38] INFO root fetch - processPackages [infinity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infinity_sdk-0.1.0.dev9-py3-none-any.whl.zip]
+[2024-05-07 10:08:38] INFO root fetch - processPackages [infinity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/infinity_sdk-0.2.0.dev1-py3-none-any.whl.zip]
+[2024-05-07 10:08:38] INFO root fetch - main [MainThread]: End processing [infinity-sdk]: success
+[2024-05-07 10:08:40] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240506192318.tar.gz]
+[2024-05-07 10:08:40] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240507061309.tar.gz]
+[2024-05-07 10:08:40] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-07 10:08:40] INFO root fetch - main [MainThread]: Store serial: [23091962]
