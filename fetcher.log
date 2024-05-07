@@ -11848,3 +11848,33 @@ EOFError: EOF read where object expected
 [2024-05-07 07:30:17] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1715058600.tar.gz]
 [2024-05-07 07:30:17] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
 [2024-05-07 07:30:17] INFO root fetch - main [MainThread]: Store serial: [23089961]
+[2024-05-07 07:32:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089961]
+[2024-05-07 07:32:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-07 07:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2024-05-07 07:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proksee-batch
+[2024-05-07 07:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PREN-flawas
+[2024-05-07 07:32:27] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 07:32:27] INFO root fetch - processPackages [proksee-batch]: New version: [0.6.0] Old Version: [0.5.9]
+[2024-05-07 07:32:27] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.7.0] Old Version: [2024.5.6.1]
+[2024-05-07 07:32:27] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-07 07:32:27] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/cd/e5/77ba32d35c45add0f725e323bf178c710319e608ffdec0b1828dafeeda4f/proksee_batch-0.5.9.tar.gz
+[2024-05-07 07:32:27] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/39/02/6f2f5f6e0c1915d14de509b04df7094f9ea4a7c96614429ef4ad980e230c/crazy_thursday-2024.5.6.1.tar.gz
+[2024-05-07 07:32:27] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/b4/74/940d9db426910e0b456b372201c14f66de688d8aa17c3961f9bc59ee2b73/crazy_thursday-2024.5.7.0.tar.gz
+[2024-05-07 07:32:27] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-07 07:32:27] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-07 07:32:27] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.6.1.tar.gz tmp/crazy_thursday-2024.5.7.0.tar.gz --markdown 20240507/c/crazy-thursday/2024.5.6.1-2024.5.7.0/README.md --exclude *.pyd
+[2024-05-07 07:32:27] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/5a/18/3bd99d0f739ce7b8f5f646db6678f21c7c623ebc24c3f70d5e9efeee257f/proksee_batch-0.6.0.tar.gz
+[2024-05-07 07:32:28] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-07 07:32:28] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240507/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 07:32:28] INFO root fetch - processPackages [proksee-batch]: executing diffoscope
+[2024-05-07 07:32:28] INFO root fetch - processPackages [proksee-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proksee_batch-0.5.9.tar.gz tmp/proksee_batch-0.6.0.tar.gz --markdown 20240507/p/proksee-batch/0.5.9-0.6.0/README.md --exclude *.pyd
+[2024-05-07 07:32:28] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.6.1.tar.gz]
+[2024-05-07 07:32:28] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.7.0.tar.gz]
+[2024-05-07 07:32:28] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-07 07:32:28] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-07 07:32:28] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-07 07:32:28] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-07 07:32:32] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.5.9.tar.gz]
+[2024-05-07 07:32:32] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.6.0.tar.gz]
+[2024-05-07 07:32:32] INFO root fetch - main [MainThread]: End processing [proksee-batch]: success
+[2024-05-07 07:32:32] INFO root fetch - main [MainThread]: Store serial: [23089971]
