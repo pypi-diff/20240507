@@ -17602,3 +17602,68 @@ EOFError: EOF read where object expected
 [2024-05-07 11:08:51] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1257.tar.gz]
 [2024-05-07 11:08:51] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
 [2024-05-07 11:08:51] INFO root fetch - main [MainThread]: Store serial: [23092705]
+[2024-05-07 11:10:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23092705]
+[2024-05-07 11:11:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-07 11:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HdRezkaApi
+[2024-05-07 11:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mayan-edms
+[2024-05-07 11:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dzwl
+[2024-05-07 11:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ministryofjustice-data-platform-catalogue
+[2024-05-07 11:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyastroweatherio
+[2024-05-07 11:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FastTrackML
+[2024-05-07 11:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lhl-python-tools
+[2024-05-07 11:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: duwi-smart-sdk
+[2024-05-07 11:11:00] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-07 11:11:00] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.50.0.dev9] Old Version: [0.50.0.dev8]
+[2024-05-07 11:11:00] INFO root fetch - processPackages [FastTrackML]: New version: [0.6.0rc5] Old Version: [0.6.0rc4]
+[2024-05-07 11:11:00] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/26/bd/88f5f03e7950cbf94249e94c2ba152f0b359a9fa9eb488329620d3cafef8/duwi_smart_sdk-0.1.4.tar.gz
+[2024-05-07 11:11:00] WARNING root fetch - processPackages [lhl-python-tools]: Skipping, unable to determine old version
+[2024-05-07 11:11:00] INFO root fetch - main [MainThread]: End processing [lhl-python-tools] error
+[2024-05-07 11:11:00] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/0f/55/af97c5391d8344ed95963a4a3a22d24ebca9eed71b97caaa9624a20b19b7/pyastroweatherio-0.50.0.dev8.tar.gz
+[2024-05-07 11:11:00] INFO root fetch - processPackages [HdRezkaApi]: New version: [7.1.0] Old Version: [7.0.1]
+[2024-05-07 11:11:00] INFO root fetch - processPackages [dzwl]: New version: [20240507] Old Version: [20240409]
+[2024-05-07 11:11:00] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 11:11:00] INFO root fetch - processPackages [mayan-edms]: New version: [4.7] Old Version: [4.6.4]
+[2024-05-07 11:11:00] INFO root fetch - processPackages [FastTrackML]: Downloading https://files.pythonhosted.org/packages/9f/9a/fd3165bc58be00bb128177c716ff8fc0dad6de6ce51be1921be6a1a36293/FastTrackML-0.6.0rc4-py3-none-win_amd64.whl
+[2024-05-07 11:11:00] INFO root fetch - processPackages [dzwl]: Downloading https://files.pythonhosted.org/packages/1b/8f/2a950a42da2f57f286949672cc63515377985371b6ecc53c1f51f43d0cc8/dzwl-20240409.tar.gz
+[2024-05-07 11:11:00] INFO root fetch - processPackages [HdRezkaApi]: Downloading https://files.pythonhosted.org/packages/42/ac/de341f4080a22fb0b26c4c30f1d2486acccd17eff84747b9fea34d460368/HdRezkaApi-7.0.1.tar.gz
+[2024-05-07 11:11:00] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/b9/a5/6a468b364d1181771e8cad5f5c0a081da4451d5fe6c91549bd88c35ca972/pyastroweatherio-0.50.0.dev9.tar.gz
+[2024-05-07 11:11:00] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Downloading https://files.pythonhosted.org/packages/3a/b1/1fd54d68c6fc526188e473813d8e1008263a0ea71ff76d7d46840cfabaa8/ministryofjustice_data_platform_catalogue-1.0.0.tar.gz
+[2024-05-07 11:11:00] INFO root fetch - processPackages [mayan-edms]: Downloading https://files.pythonhosted.org/packages/0b/e3/e2c1c66b63526a7c9208bab4db36e6cb08984027541746e99f67f380a9ba/mayan-edms-4.6.4.tar.gz
+[2024-05-07 11:11:00] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2024-05-07 11:11:00] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.50.0.dev8.tar.gz tmp/pyastroweatherio-0.50.0.dev9.tar.gz --markdown 20240507/p/pyastroweatherio/0.50.0.dev8-0.50.0.dev9/README.md --exclude *.pyd
+[2024-05-07 11:11:00] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/31/7c/5ef182427ad6f8509c9bd46367fb73d810920cc20e0b335144f15c23f66f/duwi_smart_sdk-0.1.5.tar.gz
+[2024-05-07 11:11:00] WARNING root fetch - processPackages [FastTrackML]: Skipping package: exceeds size limit 23802268>=10485760
+[2024-05-07 11:11:00] INFO root fetch - main [MainThread]: End processing [FastTrackML] error
+[2024-05-07 11:11:01] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-07 11:11:01] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.1.4.tar.gz tmp/duwi_smart_sdk-0.1.5.tar.gz --markdown 20240507/d/duwi-smart-sdk/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-07 11:11:01] INFO root fetch - processPackages [HdRezkaApi]: Downloading https://files.pythonhosted.org/packages/2a/5e/fc01b30308989b7f967aa8396779ec59b46c30f59ef08ae546ecf5655d52/HdRezkaApi-7.1.0.tar.gz
+[2024-05-07 11:11:01] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Downloading https://files.pythonhosted.org/packages/ec/6e/d26ce73a86ce4f77bac2d44eb3217645fcfc748fe8c345fd8f8b5dc6dae3/ministryofjustice_data_platform_catalogue-1.0.1.tar.gz
+[2024-05-07 11:11:01] INFO root fetch - processPackages [dzwl]: Downloading https://files.pythonhosted.org/packages/d6/f8/1c65710ecff724d6cb7ef4fa83e4471a8e722f8007a3da90a5b1399ddbe7/dzwl-20240507.tar.gz
+[2024-05-07 11:11:01] INFO root fetch - processPackages [HdRezkaApi]: executing diffoscope
+[2024-05-07 11:11:01] INFO root fetch - processPackages [HdRezkaApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HdRezkaApi-7.0.1.tar.gz tmp/HdRezkaApi-7.1.0.tar.gz --markdown 20240507/H/HdRezkaApi/7.0.1-7.1.0/README.md --exclude *.pyd
+[2024-05-07 11:11:01] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: executing diffoscope
+[2024-05-07 11:11:01] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ministryofjustice_data_platform_catalogue-1.0.0.tar.gz tmp/ministryofjustice_data_platform_catalogue-1.0.1.tar.gz --markdown 20240507/m/ministryofjustice-data-platform-catalogue/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-07 11:11:01] INFO root fetch - processPackages [dzwl]: executing diffoscope
+[2024-05-07 11:11:01] INFO root fetch - processPackages [dzwl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dzwl-20240409.tar.gz tmp/dzwl-20240507.tar.gz --markdown 20240507/d/dzwl/20240409-20240507/README.md --exclude *.pyd
+[2024-05-07 11:11:01] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.0.dev8.tar.gz]
+[2024-05-07 11:11:01] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.0.dev9.tar.gz]
+[2024-05-07 11:11:01] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2024-05-07 11:11:01] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.4.tar.gz]
+[2024-05-07 11:11:01] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.5.tar.gz]
+[2024-05-07 11:11:01] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-07 11:11:01] INFO root fetch - processPackages [HdRezkaApi]: Remove: archive file [/home/abi/fetcher/tmp/HdRezkaApi-7.0.1.tar.gz]
+[2024-05-07 11:11:01] INFO root fetch - processPackages [HdRezkaApi]: Remove: archive file [/home/abi/fetcher/tmp/HdRezkaApi-7.1.0.tar.gz]
+[2024-05-07 11:11:01] INFO root fetch - main [MainThread]: End processing [HdRezkaApi]: success
+[2024-05-07 11:11:01] INFO root fetch - processPackages [dzwl]: Remove: archive file [/home/abi/fetcher/tmp/dzwl-20240409.tar.gz]
+[2024-05-07 11:11:01] INFO root fetch - processPackages [dzwl]: Remove: archive file [/home/abi/fetcher/tmp/dzwl-20240507.tar.gz]
+[2024-05-07 11:11:01] INFO root fetch - main [MainThread]: End processing [dzwl]: success
+[2024-05-07 11:11:01] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Remove: archive file [/home/abi/fetcher/tmp/ministryofjustice_data_platform_catalogue-1.0.0.tar.gz]
+[2024-05-07 11:11:01] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Remove: archive file [/home/abi/fetcher/tmp/ministryofjustice_data_platform_catalogue-1.0.1.tar.gz]
+[2024-05-07 11:11:01] INFO root fetch - main [MainThread]: End processing [ministryofjustice-data-platform-catalogue]: success
+[2024-05-07 11:11:02] INFO root fetch - processPackages [mayan-edms]: Downloading https://files.pythonhosted.org/packages/55/96/f8edb1514b6a353ae967986b3a07a94d2e58d236b42512906108a87afec6/mayan-edms-4.7.tar.gz
+[2024-05-07 11:11:02] INFO root fetch - processPackages [mayan-edms]: executing diffoscope
+[2024-05-07 11:11:02] INFO root fetch - processPackages [mayan-edms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayan-edms-4.6.4.tar.gz tmp/mayan-edms-4.7.tar.gz --markdown 20240507/m/mayan-edms/4.6.4-4.7/README.md --exclude *.pyd
+[2024-05-07 11:11:51] INFO root fetch - processPackages [mayan-edms]: Remove: archive file [/home/abi/fetcher/tmp/mayan-edms-4.6.4.tar.gz]
+[2024-05-07 11:11:51] INFO root fetch - processPackages [mayan-edms]: Remove: archive file [/home/abi/fetcher/tmp/mayan-edms-4.7.tar.gz]
+[2024-05-07 11:11:51] INFO root fetch - main [MainThread]: End processing [mayan-edms]: success
+[2024-05-07 11:11:51] INFO root fetch - main [MainThread]: Store serial: [23092742]
