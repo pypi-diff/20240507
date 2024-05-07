@@ -15619,3 +15619,54 @@ EOFError: EOF read where object expected
 [2024-05-07 09:55:26] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.1.tar.gz]
 [2024-05-07 09:55:26] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-07 09:55:26] INFO root fetch - main [MainThread]: Store serial: [23091815]
+[2024-05-07 09:57:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091815]
+[2024-05-07 09:57:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 09:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-power-ops
+[2024-05-07 09:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: UQPyL
+[2024-05-07 09:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lamiaez
+[2024-05-07 09:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pkscreener
+[2024-05-07 09:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tb-mqtt-client
+[2024-05-07 09:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly
+[2024-05-07 09:57:35] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240507.352] Old Version: [0.44.20240507.351]
+[2024-05-07 09:57:36] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/59/d2/bd8ad7e6c4c774da49f8778f736967bec63dfac75fab6825cc9c459e7e59/pkscreener-0.44.20240507.351.tar.gz
+[2024-05-07 09:57:36] WARNING root fetch - processPackages [lamiaez]: Skipping, unable to determine old version
+[2024-05-07 09:57:36] INFO root fetch - main [MainThread]: End processing [lamiaez] error
+[2024-05-07 09:57:36] INFO root fetch - processPackages [UQPyL]: New version: [2.0.3] Old Version: [2.0.1]
+[2024-05-07 09:57:36] INFO root fetch - processPackages [tb-mqtt-client]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-07 09:57:36] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.94.2] Old Version: [0.94.1]
+[2024-05-07 09:57:36] INFO root fetch - processPackages [UQPyL]: Downloading https://files.pythonhosted.org/packages/cf/69/a90c351560f14c37d2d45337442e2bd1dd94cd758c10d9097adcddd33ca9/UQPyL-2.0.1.tar.gz
+[2024-05-07 09:57:36] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240507] Old Version: [2.17.0.dev20240506]
+[2024-05-07 09:57:36] INFO root fetch - processPackages [tb-mqtt-client]: Downloading https://files.pythonhosted.org/packages/9a/30/afce506128599936325cda838883701151459ec212327b652e26a9f8f912/tb-mqtt-client-1.9.0.tar.gz
+[2024-05-07 09:57:36] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/47/83/12e166d225eab427eac02ffe93e429a8f558493b02504f7a466bf2cc3198/cognite_power_ops-0.94.1.tar.gz
+[2024-05-07 09:57:36] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/40/aa/d0eca3785f518edd2902dadc4d9f1e80262fda8a3944ba3e7ddd3161ce60/pkscreener-0.44.20240507.352.tar.gz
+[2024-05-07 09:57:36] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/e6/48/905804a3033fa3537e29d8126038ae564531f6c2e4df470fc9d2a3aa841c/tf_nightly-2.17.0.dev20240506-cp39-cp39-win_amd64.whl
+[2024-05-07 09:57:36] INFO root fetch - processPackages [tb-mqtt-client]: Downloading https://files.pythonhosted.org/packages/af/70/92bdf971f5fc7cda0bb618ae958cca11778bab478f6f170a36e49749ba6a/tb-mqtt-client-1.9.1.tar.gz
+[2024-05-07 09:57:36] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-07 09:57:36] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240507.351.tar.gz tmp/pkscreener-0.44.20240507.352.tar.gz --markdown 20240507/p/pkscreener/0.44.20240507.351-0.44.20240507.352/README.md --exclude *.pyd
+[2024-05-07 09:57:36] INFO root fetch - processPackages [UQPyL]: Downloading https://files.pythonhosted.org/packages/2f/91/f3e211a0db2aa58a3270515bbce73f02df77852a8dbe9314214d4ba5d7a8/UQPyL-2.0.3.tar.gz
+[2024-05-07 09:57:36] INFO root fetch - processPackages [tb-mqtt-client]: executing diffoscope
+[2024-05-07 09:57:36] INFO root fetch - processPackages [tb-mqtt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb-mqtt-client-1.9.0.tar.gz tmp/tb-mqtt-client-1.9.1.tar.gz --markdown 20240507/t/tb-mqtt-client/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-07 09:57:36] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/b7/c0/40d220c9daa73359db01ea385db4edccc5e65a93d762c9305278bd1e70c3/cognite_power_ops-0.94.2.tar.gz
+[2024-05-07 09:57:36] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/af/78/363322f263da0b294bec3e8f8dc7809cf3f82359ce686e598207ed38b495/tf_nightly-2.17.0.dev20240507-cp39-cp39-win_amd64.whl
+[2024-05-07 09:57:36] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2024-05-07 09:57:36] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.94.1.tar.gz tmp/cognite_power_ops-0.94.2.tar.gz --markdown 20240507/c/cognite-power-ops/0.94.1-0.94.2/README.md --exclude *.pyd
+[2024-05-07 09:57:37] INFO root fetch - processPackages [UQPyL]: executing diffoscope
+[2024-05-07 09:57:37] INFO root fetch - processPackages [UQPyL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UQPyL-2.0.1.tar.gz tmp/UQPyL-2.0.3.tar.gz --markdown 20240507/U/UQPyL/2.0.1-2.0.3/README.md --exclude *.pyd
+[2024-05-07 09:57:37] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-07 09:57:37] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240506-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240507-cp39-cp39-win_amd64.whl.zip --markdown 20240507/t/tf-nightly/2.17.0.dev20240506-2.17.0.dev20240507/README.md --exclude *.pyd
+[2024-05-07 09:57:37] INFO root fetch - processPackages [tb-mqtt-client]: Remove: archive file [/home/abi/fetcher/tmp/tb-mqtt-client-1.9.0.tar.gz]
+[2024-05-07 09:57:37] INFO root fetch - processPackages [tb-mqtt-client]: Remove: archive file [/home/abi/fetcher/tmp/tb-mqtt-client-1.9.1.tar.gz]
+[2024-05-07 09:57:37] INFO root fetch - main [MainThread]: End processing [tb-mqtt-client]: success
+[2024-05-07 09:57:37] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240507.351.tar.gz]
+[2024-05-07 09:57:37] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240507.352.tar.gz]
+[2024-05-07 09:57:37] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-07 09:57:38] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240506-cp39-cp39-win_amd64.whl.zip]
+[2024-05-07 09:57:38] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240507-cp39-cp39-win_amd64.whl.zip]
+[2024-05-07 09:57:38] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-07 09:57:39] INFO root fetch - processPackages [UQPyL]: Remove: archive file [/home/abi/fetcher/tmp/UQPyL-2.0.1.tar.gz]
+[2024-05-07 09:57:39] INFO root fetch - processPackages [UQPyL]: Remove: archive file [/home/abi/fetcher/tmp/UQPyL-2.0.3.tar.gz]
+[2024-05-07 09:57:39] INFO root fetch - main [MainThread]: End processing [UQPyL]: success
+[2024-05-07 09:57:41] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.94.1.tar.gz]
+[2024-05-07 09:57:41] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.94.2.tar.gz]
+[2024-05-07 09:57:41] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2024-05-07 09:57:41] INFO root fetch - main [MainThread]: Store serial: [23091848]
