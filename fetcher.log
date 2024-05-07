@@ -11473,3 +11473,60 @@ EOFError: EOF read where object expected
 [2024-05-07 07:10:31] INFO root fetch - processPackages [odoo12-addon-l10n-ch-base-bank]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_ch_base_bank-12.0.3.1.2.99.dev2-py3-none-any.whl.zip]
 [2024-05-07 07:10:31] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-ch-base-bank]: success
 [2024-05-07 07:10:31] INFO root fetch - main [MainThread]: Store serial: [23089756]
+[2024-05-07 07:12:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089756]
+[2024-05-07 07:12:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 07:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-l10n-ch-base-bank
+[2024-05-07 07:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-ch-base-bank
+[2024-05-07 07:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PREN-flawas
+[2024-05-07 07:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pramen-py
+[2024-05-07 07:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: behaverse
+[2024-05-07 07:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: app-store-server-library
+[2024-05-07 07:12:39] INFO root fetch - processPackages [behaverse]: New version: [0.0.3.dev5] Old Version: [0.0.2.dev4]
+[2024-05-07 07:12:39] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 07:12:40] INFO root fetch - processPackages [odoo14-addon-l10n-ch-base-bank]: New version: [14.0.1.0.4.dev1] Old Version: [14.0.1.0.3.dev2]
+[2024-05-07 07:12:40] INFO root fetch - processPackages [pramen-py]: New version: [1.8.6] Old Version: [1.8.5]
+[2024-05-07 07:12:40] INFO root fetch - processPackages [app-store-server-library]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-07 07:12:40] INFO root fetch - processPackages [odoo13-addon-l10n-ch-base-bank]: New version: [13.0.1.0.1.dev20] Old Version: [13.0.1.0.1.dev19]
+[2024-05-07 07:12:40] INFO root fetch - processPackages [behaverse]: Downloading https://files.pythonhosted.org/packages/ff/28/5ad944a62c869789ea55041d2b80d548797309c6bc902e5c8ef7cd9665ae/behaverse-0.0.2.dev4.tar.gz
+[2024-05-07 07:12:40] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-07 07:12:40] INFO root fetch - processPackages [odoo14-addon-l10n-ch-base-bank]: Downloading https://files.pythonhosted.org/packages/b7/b2/fd43c1c09efec8c367e920945db947077ebec4cfd44b8b6b071b858bc892/odoo14_addon_l10n_ch_base_bank-14.0.1.0.3.dev2-py3-none-any.whl
+[2024-05-07 07:12:40] INFO root fetch - processPackages [pramen-py]: Downloading https://files.pythonhosted.org/packages/74/92/af0aff78144e87d84065e7e3794073a1e5b4b2fc6403cd15e72e1ab9607d/pramen_py-1.8.5.tar.gz
+[2024-05-07 07:12:40] INFO root fetch - processPackages [odoo13-addon-l10n-ch-base-bank]: Downloading https://files.pythonhosted.org/packages/6c/23/c784953fd1f4363fc0ac992a0f64d7486944749773758643fc5e8082ce1e/odoo13_addon_l10n_ch_base_bank-13.0.1.0.1.dev19-py3-none-any.whl
+[2024-05-07 07:12:40] INFO root fetch - processPackages [app-store-server-library]: Downloading https://files.pythonhosted.org/packages/b6/61/2fc7a8b321d5ffbff123d81facc154659cd795aa08d85b856f29a3422fe6/app-store-server-library-1.1.0.tar.gz
+[2024-05-07 07:12:40] INFO root fetch - processPackages [behaverse]: Downloading https://files.pythonhosted.org/packages/55/10/45e3b3d83e570af0dc2c71f374540034b28f34c1e54252ebef7d1975b277/behaverse-0.0.3.dev5.tar.gz
+[2024-05-07 07:12:40] INFO root fetch - processPackages [odoo13-addon-l10n-ch-base-bank]: Downloading https://files.pythonhosted.org/packages/76/09/3d135592a0e065b8c3df2c087f6156077f590e67b5e543190b56fafdb5ce/odoo13_addon_l10n_ch_base_bank-13.0.1.0.1.dev20-py3-none-any.whl
+[2024-05-07 07:12:40] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-07 07:12:40] INFO root fetch - processPackages [behaverse]: executing diffoscope
+[2024-05-07 07:12:40] INFO root fetch - processPackages [behaverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/behaverse-0.0.2.dev4.tar.gz tmp/behaverse-0.0.3.dev5.tar.gz --markdown 20240507/b/behaverse/0.0.2.dev4-0.0.3.dev5/README.md --exclude *.pyd
+[2024-05-07 07:12:40] INFO root fetch - processPackages [pramen-py]: Downloading https://files.pythonhosted.org/packages/c6/d4/a5a11f5471e510433ac52e2a2a80a1a020c4bda62b632c4c76eeb3f209a5/pramen_py-1.8.6.tar.gz
+[2024-05-07 07:12:40] INFO root fetch - processPackages [app-store-server-library]: Downloading https://files.pythonhosted.org/packages/9e/d9/97a135f6922a68ec5ec74e8b7d7311a2f9a201e0929bc48570cefefbe400/app_store_server_library-1.2.0.tar.gz
+[2024-05-07 07:12:40] INFO root fetch - processPackages [odoo14-addon-l10n-ch-base-bank]: Downloading https://files.pythonhosted.org/packages/ff/f0/9ce76cca05a1916d3df1ff79b234841b20fd9e240f034093542474bb90a9/odoo14_addon_l10n_ch_base_bank-14.0.1.0.4.dev1-py3-none-any.whl
+[2024-05-07 07:12:40] INFO root fetch - processPackages [odoo13-addon-l10n-ch-base-bank]: executing diffoscope
+[2024-05-07 07:12:40] INFO root fetch - processPackages [odoo13-addon-l10n-ch-base-bank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_l10n_ch_base_bank-13.0.1.0.1.dev19-py3-none-any.whl.zip tmp/odoo13_addon_l10n_ch_base_bank-13.0.1.0.1.dev20-py3-none-any.whl.zip --markdown 20240507/o/odoo13-addon-l10n-ch-base-bank/13.0.1.0.1.dev19-13.0.1.0.1.dev20/README.md --exclude *.pyd
+[2024-05-07 07:12:40] INFO root fetch - processPackages [pramen-py]: executing diffoscope
+[2024-05-07 07:12:40] INFO root fetch - processPackages [pramen-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pramen_py-1.8.5.tar.gz tmp/pramen_py-1.8.6.tar.gz --markdown 20240507/p/pramen-py/1.8.5-1.8.6/README.md --exclude *.pyd
+[2024-05-07 07:12:40] INFO root fetch - processPackages [app-store-server-library]: executing diffoscope
+[2024-05-07 07:12:40] INFO root fetch - processPackages [app-store-server-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app-store-server-library-1.1.0.tar.gz tmp/app_store_server_library-1.2.0.tar.gz --markdown 20240507/a/app-store-server-library/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-07 07:12:40] INFO root fetch - processPackages [odoo14-addon-l10n-ch-base-bank]: executing diffoscope
+[2024-05-07 07:12:40] INFO root fetch - processPackages [odoo14-addon-l10n-ch-base-bank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ch_base_bank-14.0.1.0.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ch_base_bank-14.0.1.0.4.dev1-py3-none-any.whl.zip --markdown 20240507/o/odoo14-addon-l10n-ch-base-bank/14.0.1.0.3.dev2-14.0.1.0.4.dev1/README.md --exclude *.pyd
+[2024-05-07 07:12:40] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-07 07:12:40] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240507/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 07:12:41] INFO root fetch - processPackages [behaverse]: Remove: archive file [/home/abi/fetcher/tmp/behaverse-0.0.2.dev4.tar.gz]
+[2024-05-07 07:12:41] INFO root fetch - processPackages [behaverse]: Remove: archive file [/home/abi/fetcher/tmp/behaverse-0.0.3.dev5.tar.gz]
+[2024-05-07 07:12:41] INFO root fetch - main [MainThread]: End processing [behaverse]: success
+[2024-05-07 07:12:41] INFO root fetch - processPackages [odoo13-addon-l10n-ch-base-bank]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_l10n_ch_base_bank-13.0.1.0.1.dev19-py3-none-any.whl.zip]
+[2024-05-07 07:12:41] INFO root fetch - processPackages [odoo13-addon-l10n-ch-base-bank]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_l10n_ch_base_bank-13.0.1.0.1.dev20-py3-none-any.whl.zip]
+[2024-05-07 07:12:41] INFO root fetch - main [MainThread]: End processing [odoo13-addon-l10n-ch-base-bank]: success
+[2024-05-07 07:12:41] INFO root fetch - processPackages [pramen-py]: Remove: archive file [/home/abi/fetcher/tmp/pramen_py-1.8.5.tar.gz]
+[2024-05-07 07:12:41] INFO root fetch - processPackages [pramen-py]: Remove: archive file [/home/abi/fetcher/tmp/pramen_py-1.8.6.tar.gz]
+[2024-05-07 07:12:41] INFO root fetch - main [MainThread]: End processing [pramen-py]: success
+[2024-05-07 07:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-ch-base-bank]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ch_base_bank-14.0.1.0.3.dev2-py3-none-any.whl.zip]
+[2024-05-07 07:12:41] INFO root fetch - processPackages [odoo14-addon-l10n-ch-base-bank]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_ch_base_bank-14.0.1.0.4.dev1-py3-none-any.whl.zip]
+[2024-05-07 07:12:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ch-base-bank]: success
+[2024-05-07 07:12:41] INFO root fetch - processPackages [app-store-server-library]: Remove: archive file [/home/abi/fetcher/tmp/app-store-server-library-1.1.0.tar.gz]
+[2024-05-07 07:12:41] INFO root fetch - processPackages [app-store-server-library]: Remove: archive file [/home/abi/fetcher/tmp/app_store_server_library-1.2.0.tar.gz]
+[2024-05-07 07:12:41] INFO root fetch - main [MainThread]: End processing [app-store-server-library]: success
+[2024-05-07 07:12:41] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-07 07:12:41] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-07 07:12:41] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-07 07:12:41] INFO root fetch - main [MainThread]: Store serial: [23089773]
