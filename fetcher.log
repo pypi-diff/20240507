@@ -3638,3 +3638,24 @@ EOFError: EOF read where object expected
 [2024-05-07 02:39:08] INFO root fetch - processPackages [xcai]: Remove: archive file [/home/abi/fetcher/tmp/xcai-0.1.8.tar.gz]
 [2024-05-07 02:39:08] INFO root fetch - main [MainThread]: End processing [xcai]: success
 [2024-05-07 02:39:08] INFO root fetch - main [MainThread]: Store serial: [23086630]
+[2024-05-07 02:41:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086630]
+[2024-05-07 02:41:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 02:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydefect
+[2024-05-07 02:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Py-Lav
+[2024-05-07 02:41:16] INFO root fetch - processPackages [pydefect]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-07 02:41:16] INFO root fetch - processPackages [Py-Lav]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-07 02:41:16] INFO root fetch - processPackages [pydefect]: Downloading https://files.pythonhosted.org/packages/88/5a/61984679ef7264187200fa8e75788ef7335a3144b512c8c6691fc916c93e/pydefect-0.9.3.tar.gz
+[2024-05-07 02:41:16] INFO root fetch - processPackages [Py-Lav]: Downloading https://files.pythonhosted.org/packages/e9/64/08d96df3ebb41b75149551173aa15872b9c758f4b12d5c36eba8f2dbf30d/py_lav-1.9.0.tar.gz
+[2024-05-07 02:41:17] INFO root fetch - processPackages [pydefect]: Downloading https://files.pythonhosted.org/packages/0b/29/90309682d41a4771a698790a196b8c80e2ef0ac6faf16928e85eb21773ef/pydefect-0.9.4.tar.gz
+[2024-05-07 02:41:17] INFO root fetch - processPackages [pydefect]: executing diffoscope
+[2024-05-07 02:41:17] INFO root fetch - processPackages [pydefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydefect-0.9.3.tar.gz tmp/pydefect-0.9.4.tar.gz --markdown 20240507/p/pydefect/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-07 02:41:17] INFO root fetch - processPackages [Py-Lav]: Downloading https://files.pythonhosted.org/packages/65/96/7b1f7affb973d7ebaa76b7dc9887f38e2967631eb75a6676334cb300c3c5/py_lav-1.9.1.tar.gz
+[2024-05-07 02:41:17] INFO root fetch - processPackages [Py-Lav]: executing diffoscope
+[2024-05-07 02:41:17] INFO root fetch - processPackages [Py-Lav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_lav-1.9.0.tar.gz tmp/py_lav-1.9.1.tar.gz --markdown 20240507/P/Py-Lav/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-07 02:41:18] INFO root fetch - processPackages [pydefect]: Remove: archive file [/home/abi/fetcher/tmp/pydefect-0.9.3.tar.gz]
+[2024-05-07 02:41:18] INFO root fetch - processPackages [pydefect]: Remove: archive file [/home/abi/fetcher/tmp/pydefect-0.9.4.tar.gz]
+[2024-05-07 02:41:18] INFO root fetch - main [MainThread]: End processing [pydefect]: success
+[2024-05-07 02:41:26] INFO root fetch - processPackages [Py-Lav]: Remove: archive file [/home/abi/fetcher/tmp/py_lav-1.9.0.tar.gz]
+[2024-05-07 02:41:26] INFO root fetch - processPackages [Py-Lav]: Remove: archive file [/home/abi/fetcher/tmp/py_lav-1.9.1.tar.gz]
+[2024-05-07 02:41:26] INFO root fetch - main [MainThread]: End processing [Py-Lav]: success
+[2024-05-07 02:41:26] INFO root fetch - main [MainThread]: Store serial: [23086637]
