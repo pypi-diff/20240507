@@ -19730,3 +19730,24 @@ EOFError: EOF read where object expected
 [2024-05-07 12:29:33] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/langchain_nvidia_ai_endpoints-0.0.9.tar.gz]
 [2024-05-07 12:29:33] INFO root fetch - main [MainThread]: End processing [langchain-nvidia-ai-endpoints]: success
 [2024-05-07 12:29:33] INFO root fetch - main [MainThread]: Store serial: [23093626]
+[2024-05-07 12:31:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093626]
+[2024-05-07 12:31:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 12:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oceanum
+[2024-05-07 12:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-fastapi
+[2024-05-07 12:31:42] INFO root fetch - processPackages [oceanum]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-07 12:31:42] INFO root fetch - processPackages [auto-fastapi]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-05-07 12:31:43] INFO root fetch - processPackages [auto-fastapi]: Downloading https://files.pythonhosted.org/packages/6a/5c/36d10aabc055ce4f30bce5fa63f48de2a84718df26cfb5a1a03287e47006/auto-fastapi-0.0.3.tar.gz
+[2024-05-07 12:31:43] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/57/ed/935840882fb2e119b107f69f3f9b67b25107aa1acd866accb4eb44166804/oceanum-0.9.7.tar.gz
+[2024-05-07 12:31:43] INFO root fetch - processPackages [auto-fastapi]: Downloading https://files.pythonhosted.org/packages/e4/cc/8037277a6f0ee62fa85cfbe92c01bbd3ea39ca6f29db9da110e00f6a08d1/auto-fastapi-0.1.0.tar.gz
+[2024-05-07 12:31:43] INFO root fetch - processPackages [auto-fastapi]: executing diffoscope
+[2024-05-07 12:31:43] INFO root fetch - processPackages [auto-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-fastapi-0.0.3.tar.gz tmp/auto-fastapi-0.1.0.tar.gz --markdown 20240507/a/auto-fastapi/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-05-07 12:31:43] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/d6/84/c1ff2f83b55b69b2f4e65d205b4e2a9f88f1070aa1310d7fd5b4a1df7df1/oceanum-0.9.8.tar.gz
+[2024-05-07 12:31:43] INFO root fetch - processPackages [oceanum]: executing diffoscope
+[2024-05-07 12:31:43] INFO root fetch - processPackages [oceanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanum-0.9.7.tar.gz tmp/oceanum-0.9.8.tar.gz --markdown 20240507/o/oceanum/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-07 12:31:44] INFO root fetch - processPackages [auto-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/auto-fastapi-0.0.3.tar.gz]
+[2024-05-07 12:31:44] INFO root fetch - processPackages [auto-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/auto-fastapi-0.1.0.tar.gz]
+[2024-05-07 12:31:44] INFO root fetch - main [MainThread]: End processing [auto-fastapi]: success
+[2024-05-07 12:31:44] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.7.tar.gz]
+[2024-05-07 12:31:44] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.8.tar.gz]
+[2024-05-07 12:31:44] INFO root fetch - main [MainThread]: End processing [oceanum]: success
+[2024-05-07 12:31:44] INFO root fetch - main [MainThread]: Store serial: [23093633]
