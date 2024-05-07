@@ -19060,3 +19060,42 @@ EOFError: EOF read where object expected
 [2024-05-07 12:02:33] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.8.3.tar.gz]
 [2024-05-07 12:02:33] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-07 12:02:33] INFO root fetch - main [MainThread]: Store serial: [23093373]
+[2024-05-07 12:04:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23093373]
+[2024-05-07 12:04:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 12:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gym-aloha
+[2024-05-07 12:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oarepo
+[2024-05-07 12:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiohttp-s3-client
+[2024-05-07 12:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fb-logging
+[2024-05-07 12:04:44] INFO root fetch - processPackages [gym-aloha]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-07 12:04:44] INFO root fetch - processPackages [aiohttp-s3-client]: New version: [0.9.8] Old Version: [0.9.5]
+[2024-05-07 12:04:44] INFO root fetch - processPackages [fb-logging]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-07 12:04:44] INFO root fetch - processPackages [oarepo]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-07 12:04:45] INFO root fetch - processPackages [gym-aloha]: Downloading https://files.pythonhosted.org/packages/f4/aa/16e01eecec3e49b22f0d2bffbde5ffbc3df806ede903ed03e4247ac109df/gym_aloha-0.1.0.tar.gz
+[2024-05-07 12:04:45] INFO root fetch - processPackages [aiohttp-s3-client]: Downloading https://files.pythonhosted.org/packages/29/cb/0d6a5598b242c90a51c4a37c2ecb826a55008ea210566c72df6aba0a98ee/aiohttp_s3_client-0.9.5.tar.gz
+[2024-05-07 12:04:45] INFO root fetch - processPackages [fb-logging]: Downloading https://files.pythonhosted.org/packages/3d/8d/c8244d031cb783500c0a2366b227c4be0b14673ded620cb79b1ca8ab563e/fb_logging-1.0.0.tar.gz
+[2024-05-07 12:04:45] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/38/4c/f399359852cbe9b678586f09c718e6d26467563b540067619f17a7416616/oarepo-9.0.8.tar.gz
+[2024-05-07 12:04:45] INFO root fetch - processPackages [gym-aloha]: Downloading https://files.pythonhosted.org/packages/5b/54/0d386001505d0e64cb52c4ec4f4ac29c2259a6dda7032f2854c8b2bac9c9/gym_aloha-0.1.1.tar.gz
+[2024-05-07 12:04:45] INFO root fetch - processPackages [fb-logging]: Downloading https://files.pythonhosted.org/packages/b3/9f/6a7d805dc7d49559a18d44181f88b4932a1933211fb5b822ac1be54931ca/fb_logging-1.0.1.tar.gz
+[2024-05-07 12:04:45] INFO root fetch - processPackages [aiohttp-s3-client]: Downloading https://files.pythonhosted.org/packages/a0/dd/9b216e9977efbc2625c19be75402a976691245f539266b268689236f7a48/aiohttp_s3_client-0.9.8.tar.gz
+[2024-05-07 12:04:45] INFO root fetch - processPackages [gym-aloha]: executing diffoscope
+[2024-05-07 12:04:45] INFO root fetch - processPackages [gym-aloha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_aloha-0.1.0.tar.gz tmp/gym_aloha-0.1.1.tar.gz --markdown 20240507/g/gym-aloha/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-07 12:04:45] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/47/d6/1ba1ba3d67b43bf65622b8597a86dda0a099313f4c7a307060535f4309b4/oarepo-9.0.9.tar.gz
+[2024-05-07 12:04:45] INFO root fetch - processPackages [oarepo]: executing diffoscope
+[2024-05-07 12:04:45] INFO root fetch - processPackages [oarepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-9.0.8.tar.gz tmp/oarepo-9.0.9.tar.gz --markdown 20240507/o/oarepo/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-07 12:04:46] INFO root fetch - processPackages [aiohttp-s3-client]: executing diffoscope
+[2024-05-07 12:04:46] INFO root fetch - processPackages [aiohttp-s3-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_s3_client-0.9.5.tar.gz tmp/aiohttp_s3_client-0.9.8.tar.gz --markdown 20240507/a/aiohttp-s3-client/0.9.5-0.9.8/README.md --exclude *.pyd
+[2024-05-07 12:04:46] INFO root fetch - processPackages [fb-logging]: executing diffoscope
+[2024-05-07 12:04:46] INFO root fetch - processPackages [fb-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fb_logging-1.0.0.tar.gz tmp/fb_logging-1.0.1.tar.gz --markdown 20240507/f/fb-logging/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-07 12:04:46] INFO root fetch - processPackages [gym-aloha]: Remove: archive file [/home/abi/fetcher/tmp/gym_aloha-0.1.0.tar.gz]
+[2024-05-07 12:04:46] INFO root fetch - processPackages [gym-aloha]: Remove: archive file [/home/abi/fetcher/tmp/gym_aloha-0.1.1.tar.gz]
+[2024-05-07 12:04:46] INFO root fetch - main [MainThread]: End processing [gym-aloha]: success
+[2024-05-07 12:04:46] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.8.tar.gz]
+[2024-05-07 12:04:46] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.9.tar.gz]
+[2024-05-07 12:04:46] INFO root fetch - main [MainThread]: End processing [oarepo]: success
+[2024-05-07 12:04:46] INFO root fetch - processPackages [aiohttp-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_s3_client-0.9.5.tar.gz]
+[2024-05-07 12:04:46] INFO root fetch - processPackages [aiohttp-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_s3_client-0.9.8.tar.gz]
+[2024-05-07 12:04:46] INFO root fetch - main [MainThread]: End processing [aiohttp-s3-client]: success
+[2024-05-07 12:04:46] INFO root fetch - processPackages [fb-logging]: Remove: archive file [/home/abi/fetcher/tmp/fb_logging-1.0.0.tar.gz]
+[2024-05-07 12:04:46] INFO root fetch - processPackages [fb-logging]: Remove: archive file [/home/abi/fetcher/tmp/fb_logging-1.0.1.tar.gz]
+[2024-05-07 12:04:46] INFO root fetch - main [MainThread]: End processing [fb-logging]: success
+[2024-05-07 12:04:46] INFO root fetch - main [MainThread]: Store serial: [23093387]
