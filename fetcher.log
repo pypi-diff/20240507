@@ -8385,3 +8385,36 @@ EOFError: EOF read where object expected
 [2024-05-07 04:06:07] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.2.2.tar.gz]
 [2024-05-07 04:06:07] INFO root fetch - main [MainThread]: End processing [draggable-charts]: success
 [2024-05-07 04:06:07] INFO root fetch - main [MainThread]: Store serial: [23088309]
+[2024-05-07 04:08:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23088309]
+[2024-05-07 04:08:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 04:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duwi-smart-sdk
+[2024-05-07 04:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bauplan
+[2024-05-07 04:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyridge
+[2024-05-07 04:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ait-openapi
+[2024-05-07 04:08:17] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-05-07 04:08:17] INFO root fetch - processPackages [bauplan]: New version: [0.0.3a99] Old Version: [0.0.3a98]
+[2024-05-07 04:08:17] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/f1/d3/8c9517b3bbc850a45fb2b34309dacb46adef0d454ba16de46447d15bdea8/duwi_smart_sdk-0.0.3.tar.gz
+[2024-05-07 04:08:17] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/85/15/20d89c1bcd5e00733e248397ee4046f32827c24be330deed927e9fc323ad/bauplan-0.0.3a98-py3-none-win_amd64.whl
+[2024-05-07 04:08:17] WARNING root fetch - processPackages [pyridge]: Skipping, unable to determine old version
+[2024-05-07 04:08:17] INFO root fetch - main [MainThread]: End processing [pyridge] error
+[2024-05-07 04:08:17] INFO root fetch - processPackages [ait-openapi]: New version: [0.0.1.17] Old Version: [0.0.1.16]
+[2024-05-07 04:08:17] INFO root fetch - processPackages [ait-openapi]: Downloading https://files.pythonhosted.org/packages/b7/ac/c01e1954e5f23f8c86529e3b8b7ef35c103f1929c5a88980221ef5cf41d3/ait_openapi-0.0.1.16-py2.py3-none-any.whl
+[2024-05-07 04:08:17] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/d0/9a/c96bdbad375b10ad2935c47e153e34ce5ab1fca8e485fdecaa0dc44ea22e/duwi_smart_sdk-0.0.5.tar.gz
+[2024-05-07 04:08:17] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-07 04:08:17] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.0.3.tar.gz tmp/duwi_smart_sdk-0.0.5.tar.gz --markdown 20240507/d/duwi-smart-sdk/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-05-07 04:08:17] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/23/8b/70ca9196e9ab95cc954089482ad31add486cddb9566cd3de6f70ff677781/bauplan-0.0.3a99-py3-none-win_amd64.whl
+[2024-05-07 04:08:17] INFO root fetch - processPackages [ait-openapi]: Downloading https://files.pythonhosted.org/packages/6b/2e/9467abb5be3c58dcd71b12130ef368d09af08bf7fd96ab4c5297dea89c29/ait_openapi-0.0.1.17.tar.gz
+[2024-05-07 04:08:17] INFO root fetch - processPackages [ait-openapi]: executing diffoscope
+[2024-05-07 04:08:17] INFO root fetch - processPackages [ait-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ait_openapi-0.0.1.16-py2.py3-none-any.whl.zip tmp/ait_openapi-0.0.1.17.tar.gz --markdown 20240507/a/ait-openapi/0.0.1.16-0.0.1.17/README.md --exclude *.pyd
+[2024-05-07 04:08:18] INFO root fetch - processPackages [bauplan]: executing diffoscope
+[2024-05-07 04:08:18] INFO root fetch - processPackages [bauplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bauplan-0.0.3a98-py3-none-win_amd64.whl.zip tmp/bauplan-0.0.3a99-py3-none-win_amd64.whl.zip --markdown 20240507/b/bauplan/0.0.3a98-0.0.3a99/README.md --exclude *.pyd
+[2024-05-07 04:08:18] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.0.3.tar.gz]
+[2024-05-07 04:08:18] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.0.5.tar.gz]
+[2024-05-07 04:08:18] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-07 04:08:18] INFO root fetch - processPackages [ait-openapi]: Remove: archive file [/home/abi/fetcher/tmp/ait_openapi-0.0.1.16-py2.py3-none-any.whl.zip]
+[2024-05-07 04:08:18] INFO root fetch - processPackages [ait-openapi]: Remove: archive file [/home/abi/fetcher/tmp/ait_openapi-0.0.1.17.tar.gz]
+[2024-05-07 04:08:18] INFO root fetch - main [MainThread]: End processing [ait-openapi]: success
+[2024-05-07 04:09:10] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a98-py3-none-win_amd64.whl.zip]
+[2024-05-07 04:09:10] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a99-py3-none-win_amd64.whl.zip]
+[2024-05-07 04:09:10] INFO root fetch - main [MainThread]: End processing [bauplan]: success
+[2024-05-07 04:09:10] INFO root fetch - main [MainThread]: Store serial: [23088324]
