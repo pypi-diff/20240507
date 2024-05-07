@@ -12766,3 +12766,32 @@ EOFError: EOF read where object expected
 [2024-05-07 08:14:18] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240506192318.tar.gz]
 [2024-05-07 08:14:18] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-07 08:14:18] INFO root fetch - main [MainThread]: Store serial: [23090508]
+[2024-05-07 08:16:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23090508]
+[2024-05-07 08:16:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: byted-jarvis
+[2024-05-07 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2024-05-07 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quimb
+[2024-05-07 08:16:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-mailgun
+[2024-05-07 08:16:28] WARNING root fetch - processPackages [byted-jarvis]: Skipping, unable to determine old version
+[2024-05-07 08:16:28] INFO root fetch - main [MainThread]: End processing [byted-jarvis] error
+[2024-05-07 08:16:28] INFO root fetch - processPackages [quimb]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-05-07 08:16:28] INFO root fetch - processPackages [pretext]: New version: [2.4.1.dev20240507] Old Version: [2.4.1.dev20240504]
+[2024-05-07 08:16:28] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1715060871] Old Version: [3.6.0a1714563977]
+[2024-05-07 08:16:28] INFO root fetch - processPackages [quimb]: Downloading https://files.pythonhosted.org/packages/71/a0/5c9bff14e653f06d4c67472833dd7d709d791403eb9c401edf600e56e363/quimb-1.8.0.tar.gz
+[2024-05-07 08:16:28] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/8a/60/57ca9aab7214bb71a744b6065a707db9b21967fe3fa34daa70e9a2c6f9b5/pretext-2.4.1.dev20240504.tar.gz
+[2024-05-07 08:16:29] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/42/a7/de729a55b1ce7cc5dba69767d985b1b43f90e3e47b4905dc019e2bcd21d4/pulumi_mailgun-3.6.0a1714563977.tar.gz
+[2024-05-07 08:16:29] WARNING root fetch - processPackages [quimb]: Skipping package: exceeds size limit 12152072>=10485760
+[2024-05-07 08:16:29] INFO root fetch - main [MainThread]: End processing [quimb] error
+[2024-05-07 08:16:29] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/e7/8c/bd66889bfed13460c4cd908682f77eb6c37509f5616c78b60fb60de2347f/pulumi_mailgun-3.6.0a1715060871.tar.gz
+[2024-05-07 08:16:29] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/0b/fa/58a2148502af3eb2d1747389b6bcd7a289c66dd3b0234fe378d81e91a515/pretext-2.4.1.dev20240507.tar.gz
+[2024-05-07 08:16:29] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-05-07 08:16:29] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1714563977.tar.gz tmp/pulumi_mailgun-3.6.0a1715060871.tar.gz --markdown 20240507/p/pulumi-mailgun/3.6.0a1714563977-3.6.0a1715060871/README.md --exclude *.pyd
+[2024-05-07 08:16:29] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2024-05-07 08:16:29] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-2.4.1.dev20240504.tar.gz tmp/pretext-2.4.1.dev20240507.tar.gz --markdown 20240507/p/pretext/2.4.1.dev20240504-2.4.1.dev20240507/README.md --exclude *.pyd
+[2024-05-07 08:16:30] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1714563977.tar.gz]
+[2024-05-07 08:16:30] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1715060871.tar.gz]
+[2024-05-07 08:16:30] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-05-07 08:16:32] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.4.1.dev20240504.tar.gz]
+[2024-05-07 08:16:32] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.4.1.dev20240507.tar.gz]
+[2024-05-07 08:16:32] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2024-05-07 08:16:32] INFO root fetch - main [MainThread]: Store serial: [23090522]
