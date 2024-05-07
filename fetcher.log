@@ -2875,3 +2875,60 @@
 [2024-05-07 02:06:07] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.99-py3-none-any.whl.zip]
 [2024-05-07 02:06:07] INFO root fetch - main [MainThread]: End processing [django-cfdi]: success
 [2024-05-07 02:06:07] INFO root fetch - main [MainThread]: Store serial: [23086340]
+[2024-05-07 02:08:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23086340]
+[2024-05-07 02:08:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 02:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-radiance
+[2024-05-07 02:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragonfly-uwg
+[2024-05-07 02:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxutils-nightly
+[2024-05-07 02:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: launchflow
+[2024-05-07 02:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-common
+[2024-05-07 02:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mirascope
+[2024-05-07 02:08:16] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-07 02:08:16] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240506] Old Version: [0.0.8.dev20240505]
+[2024-05-07 02:08:16] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a2/41/805cddd3de27bfc114d3b54bbf0a558b1d450bb0bc346c8bbfc9f9e1ca04/dragonfly-radiance-0.3.8.tar.gz
+[2024-05-07 02:08:16] INFO root fetch - processPackages [mirascope]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-07 02:08:16] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev7]
+[2024-05-07 02:08:16] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-07 02:08:16] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-07 02:08:16] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/79/66/e384e0fc440477aba400a027105d7a0554b9302fa75c2540168367fa3767/jaxutils-nightly-0.0.8.dev20240505.tar.gz
+[2024-05-07 02:08:16] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-07 02:08:16] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a9/93/8933c5c67b8d336f624b3e7f9cb128678c38867dac08b6bb30a824b7cb3d/dragonfly-radiance-0.3.9.tar.gz
+[2024-05-07 02:08:16] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/1e/60/6b94f4a0c0a3442e0030ec4b7912738aea1506f5f2cfbbaab0f9f6c973ee/mirascope-0.9.0.tar.gz
+[2024-05-07 02:08:16] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/48/58/dc4bcb9a1d74952a08d0cfc5e24c45d961d331cb7a4434c9059bab154c72/launchflow-0.3.9.dev7.tar.gz
+[2024-05-07 02:08:16] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2024-05-07 02:08:16] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2024-05-07 02:08:16] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.3.8.tar.gz tmp/dragonfly-radiance-0.3.9.tar.gz --markdown 20240507/d/dragonfly-radiance/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-07 02:08:16] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/5f/55/554c17d285a69af9e163bc733e8c69f848f5f97fd47bd9a6a61e4757a83a/jaxutils-nightly-0.0.8.dev20240506.tar.gz
+[2024-05-07 02:08:16] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-07 02:08:16] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-05-07 02:08:16] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240505.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240506.tar.gz --markdown 20240507/j/jaxutils-nightly/0.0.8.dev20240505-0.0.8.dev20240506/README.md --exclude *.pyd
+[2024-05-07 02:08:16] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/8c/d2/f0544d4c3383370934bcc7b31fa0449e89fcfa2edeeac48bd86ada84b492/launchflow-0.3.9.dev8.tar.gz
+[2024-05-07 02:08:16] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/86/be/fe2b9be44a23959a996ae2f04f7f17cca344b0da85a954965c102e97d624/mirascope-0.9.1.tar.gz
+[2024-05-07 02:08:16] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2024-05-07 02:08:17] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-05-07 02:08:17] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev7.tar.gz tmp/launchflow-0.3.9.dev8.tar.gz --markdown 20240507/l/launchflow/0.3.9.dev7-0.3.9.dev8/README.md --exclude *.pyd
+[2024-05-07 02:08:17] INFO root fetch - processPackages [mirascope]: executing diffoscope
+[2024-05-07 02:08:17] INFO root fetch - processPackages [mirascope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirascope-0.9.0.tar.gz tmp/mirascope-0.9.1.tar.gz --markdown 20240507/m/mirascope/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-07 02:08:17] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2024-05-07 02:08:17] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20240507/d/dragonfly-uwg/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-07 02:08:17] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.8.tar.gz]
+[2024-05-07 02:08:17] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.9.tar.gz]
+[2024-05-07 02:08:17] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2024-05-07 02:08:17] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240505.tar.gz]
+[2024-05-07 02:08:17] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240506.tar.gz]
+[2024-05-07 02:08:17] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-05-07 02:08:17] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.9.0.tar.gz]
+[2024-05-07 02:08:17] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.9.1.tar.gz]
+[2024-05-07 02:08:17] INFO root fetch - main [MainThread]: End processing [mirascope]: success
+[2024-05-07 02:08:17] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev7.tar.gz]
+[2024-05-07 02:08:17] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev8.tar.gz]
+[2024-05-07 02:08:17] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-05-07 02:08:18] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2024-05-07 02:08:18] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2024-05-07 02:08:18] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2024-05-07 02:08:18] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-07 02:08:18] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240507/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-07 02:08:18] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-07 02:08:18] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-07 02:08:18] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-07 02:08:18] INFO root fetch - main [MainThread]: Store serial: [23086358]
