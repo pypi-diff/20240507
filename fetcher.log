@@ -11237,3 +11237,42 @@ EOFError: EOF read where object expected
 [2024-05-07 06:59:38] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
 [2024-05-07 06:59:38] INFO root fetch - main [MainThread]: End processing [agptools]: success
 [2024-05-07 06:59:38] INFO root fetch - main [MainThread]: Store serial: [23089617]
+[2024-05-07 07:01:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089617]
+[2024-05-07 07:01:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-07 07:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autorunpy
+[2024-05-07 07:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PREN-flawas
+[2024-05-07 07:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: behaverse
+[2024-05-07 07:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chetoolbox
+[2024-05-07 07:01:47] INFO root fetch - processPackages [behaverse]: New version: [0.0.2.dev4] Old Version: [0.0.2.dev2]
+[2024-05-07 07:01:47] INFO root fetch - processPackages [autorunpy]: New version: [8.1.7] Old Version: [8.1.6]
+[2024-05-07 07:01:47] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 07:01:47] INFO root fetch - processPackages [behaverse]: Downloading https://files.pythonhosted.org/packages/53/57/69127e27b62b1f6adc0ef11fdd34daa6ef9d123d8b80abdc963cabe65317/behaverse-0.0.2.dev2.tar.gz
+[2024-05-07 07:01:47] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/37/72/dd1d9b9d2df0f82936ce4342f5ace3242b71fc197bfa7f5acb21ffaeefa1/autorunpy-8.1.6.tar.gz
+[2024-05-07 07:01:47] INFO root fetch - processPackages [chetoolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 07:01:47] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-07 07:01:47] INFO root fetch - processPackages [behaverse]: Downloading https://files.pythonhosted.org/packages/ff/28/5ad944a62c869789ea55041d2b80d548797309c6bc902e5c8ef7cd9665ae/behaverse-0.0.2.dev4.tar.gz
+[2024-05-07 07:01:47] INFO root fetch - processPackages [chetoolbox]: Downloading https://files.pythonhosted.org/packages/69/40/47552d5ce227023e16767569742b389b40112ca6817b4bec4b407b868406/chetoolbox-0.0.8.tar.gz
+[2024-05-07 07:01:47] INFO root fetch - processPackages [autorunpy]: Downloading https://files.pythonhosted.org/packages/a9/96/3f37f3712c2ced6c46cee71229d080dae639975ade331607b2a5202c829b/autorunpy-8.1.7.tar.gz
+[2024-05-07 07:01:47] INFO root fetch - processPackages [behaverse]: executing diffoscope
+[2024-05-07 07:01:47] INFO root fetch - processPackages [behaverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/behaverse-0.0.2.dev2.tar.gz tmp/behaverse-0.0.2.dev4.tar.gz --markdown 20240507/b/behaverse/0.0.2.dev2-0.0.2.dev4/README.md --exclude *.pyd
+[2024-05-07 07:01:47] INFO root fetch - processPackages [autorunpy]: executing diffoscope
+[2024-05-07 07:01:47] INFO root fetch - processPackages [autorunpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorunpy-8.1.6.tar.gz tmp/autorunpy-8.1.7.tar.gz --markdown 20240507/a/autorunpy/8.1.6-8.1.7/README.md --exclude *.pyd
+[2024-05-07 07:01:48] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-07 07:01:48] INFO root fetch - processPackages [behaverse]: Remove: archive file [/home/abi/fetcher/tmp/behaverse-0.0.2.dev2.tar.gz]
+[2024-05-07 07:01:48] INFO root fetch - processPackages [behaverse]: Remove: archive file [/home/abi/fetcher/tmp/behaverse-0.0.2.dev4.tar.gz]
+[2024-05-07 07:01:48] INFO root fetch - main [MainThread]: End processing [behaverse]: success
+[2024-05-07 07:01:48] INFO root fetch - processPackages [chetoolbox]: Downloading https://files.pythonhosted.org/packages/bc/56/c92657082327b6b55726bdaf8e7732690a913618828caa48d6680c8da784/chetoolbox-0.0.9.tar.gz
+[2024-05-07 07:01:48] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.1.6.tar.gz]
+[2024-05-07 07:01:48] INFO root fetch - processPackages [autorunpy]: Remove: archive file [/home/abi/fetcher/tmp/autorunpy-8.1.7.tar.gz]
+[2024-05-07 07:01:48] INFO root fetch - main [MainThread]: End processing [autorunpy]: success
+[2024-05-07 07:01:48] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-07 07:01:48] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240507/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 07:01:48] INFO root fetch - processPackages [chetoolbox]: executing diffoscope
+[2024-05-07 07:01:48] INFO root fetch - processPackages [chetoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chetoolbox-0.0.8.tar.gz tmp/chetoolbox-0.0.9.tar.gz --markdown 20240507/c/chetoolbox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 07:01:48] INFO root fetch - processPackages [chetoolbox]: Remove: archive file [/home/abi/fetcher/tmp/chetoolbox-0.0.8.tar.gz]
+[2024-05-07 07:01:48] INFO root fetch - processPackages [chetoolbox]: Remove: archive file [/home/abi/fetcher/tmp/chetoolbox-0.0.9.tar.gz]
+[2024-05-07 07:01:48] INFO root fetch - main [MainThread]: End processing [chetoolbox]: success
+[2024-05-07 07:01:49] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-07 07:01:49] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-07 07:01:49] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-07 07:01:49] INFO root fetch - main [MainThread]: Store serial: [23089638]
