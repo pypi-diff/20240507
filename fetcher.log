@@ -11014,3 +11014,47 @@ EOFError: EOF read where object expected
 [2024-05-07 06:44:11] INFO root fetch - processPackages [dashscope]: Remove: archive file [/home/abi/fetcher/tmp/dashscope-1.9.1-py3-none-any.whl.zip]
 [2024-05-07 06:44:11] INFO root fetch - main [MainThread]: End processing [dashscope]: success
 [2024-05-07 06:44:11] INFO root fetch - main [MainThread]: Store serial: [23089495]
+[2024-05-07 06:46:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089495]
+[2024-05-07 06:46:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-07 06:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sycamore-ai
+[2024-05-07 06:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarmauri
+[2024-05-07 06:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ares-ai
+[2024-05-07 06:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datable-ai
+[2024-05-07 06:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mystmd
+[2024-05-07 06:46:20] INFO root fetch - processPackages [datable-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-07 06:46:20] INFO root fetch - processPackages [sycamore-ai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-07 06:46:20] INFO root fetch - processPackages [swarmauri]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-07 06:46:20] INFO root fetch - processPackages [datable-ai]: Downloading https://files.pythonhosted.org/packages/0d/54/9ede3db0429e8cd3692f7a2bf68cd471f37476f883b9e7be67d36d6fc375/datable_ai-0.0.8.tar.gz
+[2024-05-07 06:46:20] INFO root fetch - processPackages [ares-ai]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-07 06:46:20] INFO root fetch - processPackages [mystmd]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-07 06:46:20] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/03/28/110f5472a92acc538dbc8ee367824d900c87620c5ade8a06de94f77073a9/swarmauri-0.1.97.tar.gz
+[2024-05-07 06:46:20] INFO root fetch - processPackages [sycamore-ai]: Downloading https://files.pythonhosted.org/packages/b4/83/9b1a454882b103a1354a7814a4ff4a99688b00c68d3f0b96ceba74ac89e0/sycamore_ai-0.1.8.tar.gz
+[2024-05-07 06:46:20] WARNING root fetch - processPackages [sycamore-ai]: Skipping package: exceeds size limit 11015854>=10485760
+[2024-05-07 06:46:20] INFO root fetch - main [MainThread]: End processing [sycamore-ai] error
+[2024-05-07 06:46:20] INFO root fetch - processPackages [ares-ai]: Downloading https://files.pythonhosted.org/packages/b2/39/ee73c4bb90f7143d8f96cdf7eb8465ab5592839bba3b19101f1675188f2b/ares_ai-0.5.6.tar.gz
+[2024-05-07 06:46:20] INFO root fetch - processPackages [datable-ai]: Downloading https://files.pythonhosted.org/packages/33/e2/c47c381e255df97f2ba7c51a0b06c03d78559b35344db1666610ba4682d3/datable_ai-0.0.9.tar.gz
+[2024-05-07 06:46:20] INFO root fetch - processPackages [mystmd]: Downloading https://files.pythonhosted.org/packages/50/6b/0a421cd4cd3c8249d2229c95394b37a223c8a190d0a863a35e4774311a62/mystmd-1.2.0.tar.gz
+[2024-05-07 06:46:20] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/42/ed/8993e08954a79efe0b18d91d01140d33cb74a16fe9e5ee223d03a0c251a4/swarmauri-0.1.98.tar.gz
+[2024-05-07 06:46:20] INFO root fetch - processPackages [datable-ai]: executing diffoscope
+[2024-05-07 06:46:20] INFO root fetch - processPackages [datable-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datable_ai-0.0.8.tar.gz tmp/datable_ai-0.0.9.tar.gz --markdown 20240507/d/datable-ai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-07 06:46:20] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-07 06:46:20] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.97.tar.gz tmp/swarmauri-0.1.98.tar.gz --markdown 20240507/s/swarmauri/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-07 06:46:20] INFO root fetch - processPackages [ares-ai]: Downloading https://files.pythonhosted.org/packages/e2/80/4d3ead5f94fc7c052505795520832df643610e99cac438e172768a0d4080/ares_ai-0.5.7.tar.gz
+[2024-05-07 06:46:21] INFO root fetch - processPackages [ares-ai]: executing diffoscope
+[2024-05-07 06:46:21] INFO root fetch - processPackages [ares-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ares_ai-0.5.6.tar.gz tmp/ares_ai-0.5.7.tar.gz --markdown 20240507/a/ares-ai/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-07 06:46:21] INFO root fetch - processPackages [datable-ai]: Remove: archive file [/home/abi/fetcher/tmp/datable_ai-0.0.8.tar.gz]
+[2024-05-07 06:46:21] INFO root fetch - processPackages [datable-ai]: Remove: archive file [/home/abi/fetcher/tmp/datable_ai-0.0.9.tar.gz]
+[2024-05-07 06:46:21] INFO root fetch - main [MainThread]: End processing [datable-ai]: success
+[2024-05-07 06:46:21] INFO root fetch - processPackages [mystmd]: Downloading https://files.pythonhosted.org/packages/a8/17/1f6eb7904a0a24d45c99b2fd020c088225504758c12e439045c7a0eb05fc/mystmd-1.2.1.tar.gz
+[2024-05-07 06:46:21] INFO root fetch - processPackages [mystmd]: executing diffoscope
+[2024-05-07 06:46:21] INFO root fetch - processPackages [mystmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystmd-1.2.0.tar.gz tmp/mystmd-1.2.1.tar.gz --markdown 20240507/m/mystmd/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-07 06:46:21] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.97.tar.gz]
+[2024-05-07 06:46:21] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.98.tar.gz]
+[2024-05-07 06:46:21] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-07 06:46:22] INFO root fetch - processPackages [ares-ai]: Remove: archive file [/home/abi/fetcher/tmp/ares_ai-0.5.6.tar.gz]
+[2024-05-07 06:46:22] INFO root fetch - processPackages [ares-ai]: Remove: archive file [/home/abi/fetcher/tmp/ares_ai-0.5.7.tar.gz]
+[2024-05-07 06:46:22] INFO root fetch - main [MainThread]: End processing [ares-ai]: success
+[2024-05-07 06:46:30] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.2.0.tar.gz]
+[2024-05-07 06:46:30] INFO root fetch - processPackages [mystmd]: Remove: archive file [/home/abi/fetcher/tmp/mystmd-1.2.1.tar.gz]
+[2024-05-07 06:46:30] INFO root fetch - main [MainThread]: End processing [mystmd]: success
+[2024-05-07 06:46:30] INFO root fetch - main [MainThread]: Store serial: [23089555]
