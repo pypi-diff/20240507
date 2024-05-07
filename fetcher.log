@@ -11587,3 +11587,24 @@ EOFError: EOF read where object expected
 [2024-05-07 07:17:06] INFO root fetch - processPackages [dltrain]: Remove: archive file [/home/abi/fetcher/tmp/dltrain-0.1.0.tar.gz]
 [2024-05-07 07:17:06] INFO root fetch - main [MainThread]: End processing [dltrain]: success
 [2024-05-07 07:17:06] INFO root fetch - main [MainThread]: Store serial: [23089799]
+[2024-05-07 07:19:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23089799]
+[2024-05-07 07:19:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-07 07:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2024-05-07 07:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: STAIR-tools
+[2024-05-07 07:19:15] INFO root fetch - processPackages [STAIR-tools]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-07 07:19:15] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-05-07 07:19:15] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/c7/fb/e088cfe79ca58f713c046a4e4fa8e19f1784e3b8d79d83b8ef6dceba6ce6/STAIR-tools-1.2.5.tar.gz
+[2024-05-07 07:19:15] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-05-07 07:19:16] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-05-07 07:19:16] INFO root fetch - processPackages [STAIR-tools]: Downloading https://files.pythonhosted.org/packages/21/d4/6dd3be8183a9259ac250d11f7706242531565e71bee0da5f15eaa7492f2d/STAIR-tools-1.2.6.tar.gz
+[2024-05-07 07:19:16] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-05-07 07:19:16] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240507/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-05-07 07:19:16] INFO root fetch - processPackages [STAIR-tools]: executing diffoscope
+[2024-05-07 07:19:16] INFO root fetch - processPackages [STAIR-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STAIR-tools-1.2.5.tar.gz tmp/STAIR-tools-1.2.6.tar.gz --markdown 20240507/S/STAIR-tools/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-07 07:19:17] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-05-07 07:19:17] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-05-07 07:19:17] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-05-07 07:19:17] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.2.5.tar.gz]
+[2024-05-07 07:19:17] INFO root fetch - processPackages [STAIR-tools]: Remove: archive file [/home/abi/fetcher/tmp/STAIR-tools-1.2.6.tar.gz]
+[2024-05-07 07:19:17] INFO root fetch - main [MainThread]: End processing [STAIR-tools]: success
+[2024-05-07 07:19:17] INFO root fetch - main [MainThread]: Store serial: [23089808]
