@@ -15032,3 +15032,48 @@ EOFError: EOF read where object expected
 [2024-05-07 09:29:01] INFO root fetch - processPackages [epyseg]: Remove: archive file [/home/abi/fetcher/tmp/epyseg-0.1.9.tar.gz]
 [2024-05-07 09:29:01] INFO root fetch - main [MainThread]: End processing [epyseg]: success
 [2024-05-07 09:29:01] INFO root fetch - main [MainThread]: Store serial: [23091497]
+[2024-05-07 09:31:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23091497]
+[2024-05-07 09:31:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-07 09:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doku-python-library
+[2024-05-07 09:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HA-cfg-cleaner-DiosWolf
+[2024-05-07 09:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cj-package
+[2024-05-07 09:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unmurmuredz
+[2024-05-07 09:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SNPmanifold
+[2024-05-07 09:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: md2tgmd
+[2024-05-07 09:31:10] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: New version: [0.0.40] Old Version: [0.0.39]
+[2024-05-07 09:31:10] INFO root fetch - processPackages [doku-python-library]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-07 09:31:10] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-07 09:31:10] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: Downloading https://files.pythonhosted.org/packages/40/4a/72eb360b19961f511a800e56b28abb82151ca283829a2c654e3d6669cc2c/ha_cfg_cleaner_dioswolf-0.0.39.tar.gz
+[2024-05-07 09:31:10] INFO root fetch - processPackages [md2tgmd]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-07 09:31:10] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-05-07 09:31:10] WARNING root fetch - processPackages [unmurmuredz]: Skipping, unable to determine old version
+[2024-05-07 09:31:10] INFO root fetch - main [MainThread]: End processing [unmurmuredz] error
+[2024-05-07 09:31:10] WARNING root fetch - processPackages [SNPmanifold]: Skipping, unable to determine old version
+[2024-05-07 09:31:10] INFO root fetch - main [MainThread]: End processing [SNPmanifold] error
+[2024-05-07 09:31:10] INFO root fetch - processPackages [doku-python-library]: Downloading https://files.pythonhosted.org/packages/9a/34/0a1ffbc95807a5467c58f19f58b78d87aa95ace9cab442ebbb2b872e5c1b/doku_python_library-0.0.1.tar.gz
+[2024-05-07 09:31:10] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-05-07 09:31:10] INFO root fetch - processPackages [md2tgmd]: Downloading https://files.pythonhosted.org/packages/d8/2f/7be6cbe149f505e4be1a39b3889865bd2c88034d6a7c022a1f7b21af99d3/md2tgmd-0.1.2.tar.gz
+[2024-05-07 09:31:10] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: Downloading https://files.pythonhosted.org/packages/5c/d4/54e15ed3787a1784090333cbbb030e25bfc846669ec97ebf08baec7d364c/ha_cfg_cleaner_dioswolf-0.0.40.tar.gz
+[2024-05-07 09:31:10] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-05-07 09:31:10] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240507/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-07 09:31:11] INFO root fetch - processPackages [doku-python-library]: Downloading https://files.pythonhosted.org/packages/bb/8b/1329f9fc69f696590fac9433a5e7f2314998073c669d885e0f6e4945092e/doku-python-library-0.0.2.tar.gz
+[2024-05-07 09:31:11] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: executing diffoscope
+[2024-05-07 09:31:11] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ha_cfg_cleaner_dioswolf-0.0.39.tar.gz tmp/ha_cfg_cleaner_dioswolf-0.0.40.tar.gz --markdown 20240507/H/HA-cfg-cleaner-DiosWolf/0.0.39-0.0.40/README.md --exclude *.pyd
+[2024-05-07 09:31:11] INFO root fetch - processPackages [doku-python-library]: executing diffoscope
+[2024-05-07 09:31:11] INFO root fetch - processPackages [doku-python-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doku_python_library-0.0.1.tar.gz tmp/doku-python-library-0.0.2.tar.gz --markdown 20240507/d/doku-python-library/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-07 09:31:11] INFO root fetch - processPackages [md2tgmd]: Downloading https://files.pythonhosted.org/packages/c0/c9/3392c34f10d7b698b6c18917549a787fec454e27840a267e9300638bfade/md2tgmd-0.1.4.tar.gz
+[2024-05-07 09:31:11] INFO root fetch - processPackages [md2tgmd]: executing diffoscope
+[2024-05-07 09:31:11] INFO root fetch - processPackages [md2tgmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240507:/home/abi/fetcher/20240507:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2tgmd-0.1.2.tar.gz tmp/md2tgmd-0.1.4.tar.gz --markdown 20240507/m/md2tgmd/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-07 09:31:11] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: Remove: archive file [/home/abi/fetcher/tmp/ha_cfg_cleaner_dioswolf-0.0.39.tar.gz]
+[2024-05-07 09:31:11] INFO root fetch - processPackages [HA-cfg-cleaner-DiosWolf]: Remove: archive file [/home/abi/fetcher/tmp/ha_cfg_cleaner_dioswolf-0.0.40.tar.gz]
+[2024-05-07 09:31:11] INFO root fetch - main [MainThread]: End processing [HA-cfg-cleaner-DiosWolf]: success
+[2024-05-07 09:31:11] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-05-07 09:31:11] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-05-07 09:31:11] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-05-07 09:31:11] INFO root fetch - processPackages [doku-python-library]: Remove: archive file [/home/abi/fetcher/tmp/doku_python_library-0.0.1.tar.gz]
+[2024-05-07 09:31:11] INFO root fetch - processPackages [doku-python-library]: Remove: archive file [/home/abi/fetcher/tmp/doku-python-library-0.0.2.tar.gz]
+[2024-05-07 09:31:11] INFO root fetch - main [MainThread]: End processing [doku-python-library]: success
+[2024-05-07 09:31:12] INFO root fetch - processPackages [md2tgmd]: Remove: archive file [/home/abi/fetcher/tmp/md2tgmd-0.1.2.tar.gz]
+[2024-05-07 09:31:12] INFO root fetch - processPackages [md2tgmd]: Remove: archive file [/home/abi/fetcher/tmp/md2tgmd-0.1.4.tar.gz]
+[2024-05-07 09:31:12] INFO root fetch - main [MainThread]: End processing [md2tgmd]: success
+[2024-05-07 09:31:12] INFO root fetch - main [MainThread]: Store serial: [23091532]
